@@ -53,7 +53,7 @@ showAdDialog(context) {
                     SizedBox(height: 20.h),
                     ZoomTapAnimation(
                       onTap: () {
-                        moneyProvider.increaseCoins(value)
+                        Navigator.pop(context);
                       },
                       child: Container(
                         width: double.maxFinite,
