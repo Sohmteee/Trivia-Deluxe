@@ -4,8 +4,12 @@ showFailedDialog(context) {
   showDialog(
       context: context,
       builder: (context) {
-        return Dialog(
-          child: ,
+        return Theme(
+          
+          data: Theme.of(context).copyWith(
+            dialogBackgroundColor: Colors.transparent,
+          child: Dialog(
+          ),
         );
       });
 }
