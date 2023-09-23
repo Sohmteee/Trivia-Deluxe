@@ -31,7 +31,7 @@ showFailedDialog(context, questionIndex) {
                   children: [
                     Container(
                       padding: EdgeInsets.all(30.sp),
-                      decoration: BoxDecoration(
+                      decoration: const BoxDecoration(
                         color: Colors.white,
                         // borderRadius: BorderRadius.circular(20.r),
                         shape: BoxShape.circle,
