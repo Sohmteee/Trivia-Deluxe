@@ -61,7 +61,7 @@ class _GameScreenState extends State<GameScreen> {
                       horizontal: 40.w,
                       vertical: 40.h,
                     ),
-                    child: const GameStats(),
+                    child: const GameStats(showHome: false,),
                   ),
                   buildQuestion(),
                   Expanded(

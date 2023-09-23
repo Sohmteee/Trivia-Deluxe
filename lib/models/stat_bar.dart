@@ -27,7 +27,7 @@ class _GameStatsState extends State<GameStats> {
     return Consumer<MoneyProvider>(builder: (context, moneyProvider, _) {
       return Row(
         children: [
-          if (widget.showHome ?? false != false)
+          if (widget.showHome ?? true != false)
             GestureDetector(
               onTapDown: (details) {
                 Navigator.pushNamedAndRemoveUntil(
