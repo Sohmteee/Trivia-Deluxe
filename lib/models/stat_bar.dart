@@ -84,7 +84,7 @@ class _GameStatsState extends State<GameStats> {
             ),
             child: Image.asset("assets/images/money.png"),
           ),
-          const Spacer(),
+          SizedBox(width: 10.w),
           Container(
             height: 20.h,
             width: 60.w,
@@ -162,7 +162,7 @@ class _GameStatsState extends State<GameStats> {
             ),
             child: Image.asset("assets/images/coin.png"),
           ),
-          const Spacer(),
+          SizedBox(width: 10.w),
           Container(
             height: 20.h,
             width: 60.w,
