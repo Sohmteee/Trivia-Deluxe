@@ -60,13 +60,13 @@ class QuestionProvider extends ChangeNotifier {
       final levelProvider = Provider.of<LevelProvider>(context, listen: false);
       Future.delayed((options[index]["value"] == true) ? 4.seconds : 2.seconds,
           () {
-
-            if (options[index]["value"] == true) {
-              
-            }
-        levelProvider.incrementCompletedLevel();
-        Navigator.pushReplacementNamed(context, "/level");
-        questionIndex++;
+        if (options[index]["value"] == true) {
+          levelProvider.incrementCompletedLevel();
+          Navigator.pushReplacementNamed(context, "/level");
+          questionIndex++;
+        } else {
+          show
+        }
         resetOptions();
       });
     }
