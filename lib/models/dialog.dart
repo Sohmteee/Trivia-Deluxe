@@ -85,16 +85,17 @@ showFailedDialog(context, questionIndex) {
                             ),
                             SizedBox(width: 10.w),
                             Stack(
+                              clipBehavior: Clip.none,
                               children: [
                                 SizedBox(
                                   height: 20.h,
                                   child: Image.asset("assets/images/coin.png"),
                                 ),
                                 Positioned(
-                                  top: -10,
-                                  right: 0,
+                                  top: -5,
+                                  right: -5,
                                   child: Text(
-                                    "5",
+                                    "\U+00d7 5",
                                     style: TextStyle(
                                       fontSize: 20.sp,
                                     ),
