@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/data/questions.dart';
 
@@ -13,7 +14,7 @@ showFailedDialog(context, questionIndex) {
           data: Theme.of(context).copyWith(
             dialogBackgroundColor: Colors.transparent,
           ),
-          child: StatefulBuilder(builder: (context, setState) {
+          child: Consumer<>(builder: (context, setState) {
             return Dialog(
               elevation: 0,
               shadowColor: Colors.transparent,
