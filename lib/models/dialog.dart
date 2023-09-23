@@ -65,20 +65,26 @@ showFailedDialog(context, questionIndex) {
                         ),
                       ),
                     ),
-                    SizedBox(height: )
+                    SizedBox(height: 20.h),
                     ZoomTapAnimation(
                       child: Container(
-                        padding: EdgeInsets.all(10.sp),
+                        padding: EdgeInsets.symmetric(
+                            horizontal: 20.sp, vertical: 10.sp),
                         decoration: BoxDecoration(
                           color: Colors.white,
                           borderRadius: BorderRadius.circular(20.r),
                         ),
-                        child:  Text(
-                          "Revive",
-                          style: TextStyle(
-                            fontSize: 25.sp,
-                            
-                          ),
+                        child: Row(
+                          children: [
+                            Text(
+                              "Revive",
+                              style: TextStyle(
+                                fontSize: 25.sp,
+                              ),
+                            ),
+                            SizedBox(width: 20.w),
+                            Image.asset(name)
+                          ],
                         ),
                       ),
                     ),
