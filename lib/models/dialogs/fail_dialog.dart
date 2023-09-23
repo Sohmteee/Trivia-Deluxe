@@ -4,6 +4,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/data/questions.dart';
+import 'package:trivia/models/dialogs/low_cash_dialog.dart';
 import 'package:trivia/providers/money.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
@@ -69,7 +70,12 @@ showFailedDialog(context, questionIndex) {
                     SizedBox(height: 20.h),
                     ZoomTapAnimation(
                       onTap: () {
-                        moneyProvider.decreaseCoins(5);
+                        if (moneyProvider.coins - 5 > 0) {
+                          moneyProvider.decreaseCoins(5);
+                        } else {
+                          Navigator.pop(context);
+                          showLowCashDialog(context);
+                        }
                       },
                       child: Container(
                         padding: EdgeInsets.symmetric(

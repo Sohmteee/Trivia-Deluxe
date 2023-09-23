@@ -5,7 +5,7 @@ import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/providers/money.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
-showLowCashDialog(context, questionIndex) {
+showLowCashDialog(context) {
   showDialog(
       context: context,
       builder: (context) {
