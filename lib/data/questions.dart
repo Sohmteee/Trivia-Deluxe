@@ -54,7 +54,6 @@ List questionsData = [
       "title": "An OSTRICH can't fly",
       "content":
           "An ostrich, which is also the largest bird, is too heavy to fly."
-          "\nA chicken however, does fly but only seldmomly"
     },
     "options": [
       {
