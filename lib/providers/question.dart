@@ -66,7 +66,7 @@ class QuestionProvider extends ChangeNotifier {
           Navigator.pushReplacementNamed(context, "/level");
           questionIndex++;
         } else {
-          showFailedDialog(context);
+          showFailedDialog(context, questionIndex);
         }
         resetOptions();
       });

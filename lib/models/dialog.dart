@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:trivia/colors/app_color.dart';
+import 'package:trivia/data/questions.dart';
 
-showFailedDialog(context) {
+showFailedDialog(context, questionIndex) {
   showDialog(
       context: context,
       builder: (context) {
+        var dialog = questionsData[questionIndex];
         return Theme(
           data: Theme.of(context).copyWith(
             dialogBackgroundColor: Colors.transparent,
