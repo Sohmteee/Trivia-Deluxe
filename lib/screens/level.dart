@@ -46,6 +46,31 @@ class _LevelScreenState extends State<LevelScreen> {
                         child: Image.asset("assets/images/play.png"),
                       ),
                     )
+                      .animate(
+                        onPlay: (controller) => controller.repeat(),
+                      )
+                      .then()
+                      .scaleXY(
+                        curve: Curves.easeOutSine,
+                        delay: 2.seconds,
+                        duration: .2.seconds,
+                        begin: 1,
+                        end: .8,
+                      )
+                      .then()
+                      .scaleXY(
+                        curve: Curves.easeOutSine,
+                        duration: .4.seconds,
+                        begin: .8,
+                        end: 1.2,
+                      )
+                      .then()
+                      .scaleXY(
+                        curve: Curves.bounceOut,
+                        duration: .4.seconds,
+                        begin: 1.2,
+                        end: 1,
+                      )
                   : const SizedBox();
             })
           ],
@@ -116,7 +141,7 @@ class _LevelScreenState extends State<LevelScreen> {
                           onPlay: (controller) => controller.repeat(),
                         )
                         .scaleXY(
-                          delay: 1.5.seconds,
+                          delay: 2.seconds,
                           duration: .3.seconds,
                           begin: 1,
                           end: 1.2,

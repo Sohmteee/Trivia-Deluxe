@@ -246,6 +246,8 @@ class _GameScreenState extends State<GameScreen> {
               },
               onComplete: () {
                 debugPrint('Countdown Ended');
+
+                questionProvider.checkCorrectAnswer(context, -1);
               },
               timeFormatterFunction: (defaultFormatterFunction, duration) {
                 return Function.apply(defaultFormatterFunction, [duration]);

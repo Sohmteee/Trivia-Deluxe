@@ -14,163 +14,169 @@ showAdDialog(context) {
             dialogBackgroundColor: Colors.transparent,
           ),
           child: Consumer<MoneyProvider>(builder: (context, moneyProvider, _) {
-            return Dialog(
-              elevation: 0,
-              shadowColor: Colors.transparent,
-              clipBehavior: Clip.antiAliasWithSaveLayer,
-              insetAnimationCurve: Curves.bounceInOut,
-              insetAnimationDuration: const Duration(milliseconds: 300),
-              child: Container(
-                padding: const EdgeInsets.fromLTRB(20, 40, 20, 60),
-                decoration: BoxDecoration(
-                  color: AppColor.lightRed,
-                  borderRadius: BorderRadius.circular(20),
-                ),
-                child: Column(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    Text(
-                      "Oya another option dey",
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 25.sp,
-                        fontWeight: FontWeight.bold,
-                      ),
-                      textAlign: TextAlign.center,
-                    ),
-                    SizedBox(height: 10.h),
-                    Padding(
-                      padding: EdgeInsets.symmetric(horizontal: 15.w),
-                      child: Text(
-                        "Would you like to watch an ad instead?",
+            Future<bool> onWillPop() async {
+              return false; 
+            }
+            return WillPopScope(
+              onWillPop: () => onWillPop(),
+              child: Dialog(
+                elevation: 0,
+                shadowColor: Colors.transparent,
+                clipBehavior: Clip.antiAliasWithSaveLayer,
+                insetAnimationCurve: Curves.bounceInOut,
+                insetAnimationDuration: const Duration(milliseconds: 300),
+                child: Container(
+                  padding: const EdgeInsets.fromLTRB(20, 40, 20, 60),
+                  decoration: BoxDecoration(
+                    color: AppColor.lightRed,
+                    borderRadius: BorderRadius.circular(20),
+                  ),
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Text(
+                        "Oya another option dey",
                         style: TextStyle(
-                          color: Colors.grey[400],
-                          fontSize: 20.sp,
+                          color: Colors.white,
+                          fontSize: 25.sp,
+                          fontWeight: FontWeight.bold,
                         ),
                         textAlign: TextAlign.center,
                       ),
-                    ),
-                    SizedBox(height: 20.h),
-                    ZoomTapAnimation(
-                      onTap: () {
-                        Navigator.pushReplacementNamed(context, "/level");
-                      },
-                      child: Container(
-                        width: double.maxFinite,
-                        padding: EdgeInsets.symmetric(
-                            horizontal: 20.sp, vertical: 10.sp),
-                        decoration: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: BorderRadius.circular(20.r),
-                        ),
-                        child: Row(
-                          mainAxisSize: MainAxisSize.min,
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            Text(
-                              "Okay I fit do that one",
-                              style: TextStyle(
-                                fontSize: 15.sp,
-                              ),
-                            ),
-                            SizedBox(width: 10.w),
-                            SizedBox(
-                              height: 20.h,
-                              child: Image.asset("assets/images/youtube.png"),
-                            ),
-                          ],
+                      SizedBox(height: 10.h),
+                      Padding(
+                        padding: EdgeInsets.symmetric(horizontal: 15.w),
+                        child: Text(
+                          "Would you like to watch an ad instead?",
+                          style: TextStyle(
+                            color: Colors.grey[400],
+                            fontSize: 20.sp,
+                          ),
+                          textAlign: TextAlign.center,
                         ),
                       ),
-                    )
-                    /* .animate(
-                          onPlay: (controller) => controller.repeat(),
-                        )
-                        .shimmer(
-                          delay: 2.seconds,
-                          duration: .7.seconds,
-                        )
-                        .scaleXY(
-                          curve: Curves.easeOutSine,
-                          delay: 2.seconds,
-                          duration: .1.seconds,
-                          begin: 1,
-                          end: .8,
-                        )
-                        .then()
-                        .scaleXY(
-                          curve: Curves.easeOutSine,
-                          duration: .4.seconds,
-                          begin: .8,
-                          end: 1.2,
-                        )
-                        .then()
-                        .scaleXY(
-                          curve: Curves.bounceOut,
-                          duration: .2.seconds,
-                          begin: 1.2,
-                          end: 1,
-                        ) */
-                    ,
-                    SizedBox(height: 10.h),
-                    ZoomTapAnimation(
-                      onTap: () {},
-                      child: Container(
-                        width: double.maxFinite,
-                        padding: EdgeInsets.symmetric(
-                            horizontal: 20.sp, vertical: 10.sp),
-                        decoration: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: BorderRadius.circular(20.r),
-                        ),
-                        child: Row(
-                          mainAxisSize: MainAxisSize.min,
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            Text(
-                              "Omo I dey manage my data too",
-                              style: TextStyle(
-                                fontSize: 15.sp,
+                      SizedBox(height: 20.h),
+                      ZoomTapAnimation(
+                        onTap: () {
+                          Navigator.pushReplacementNamed(context, "/level");
+                        },
+                        child: Container(
+                          width: double.maxFinite,
+                          padding: EdgeInsets.symmetric(
+                              horizontal: 20.sp, vertical: 10.sp),
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(20.r),
+                          ),
+                          child: Row(
+                            mainAxisSize: MainAxisSize.min,
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              Text(
+                                "Okay I fit do that one",
+                                style: TextStyle(
+                                  fontSize: 15.sp,
+                                ),
                               ),
-                            ),
-                            SizedBox(width: 10.w),
-                            SizedBox(
-                              height: 20.h,
-                              child: Image.asset("assets/images/laugh.png"),
-                            ),
-                          ],
+                              SizedBox(width: 10.w),
+                              SizedBox(
+                                height: 20.h,
+                                child: Image.asset("assets/images/youtube.png"),
+                              ),
+                            ],
+                          ),
                         ),
-                      ),
-                    )
-                    /* .animate(
-                          onPlay: (controller) => controller.repeat(),
-                        )
-                        .shimmer(
-                          delay: 2.seconds,
-                          duration: .7.seconds,
-                        )
-                        .scaleXY(
-                          curve: Curves.easeOutSine,
-                          delay: 2.seconds,
-                          duration: .1.seconds,
-                          begin: 1,
-                          end: .8,
-                        )
-                        .then()
-                        .scaleXY(
-                          curve: Curves.easeOutSine,
-                          duration: .4.seconds,
-                          begin: .8,
-                          end: 1.2,
-                        )
-                        .then()
-                        .scaleXY(
-                          curve: Curves.bounceOut,
-                          duration: .2.seconds,
-                          begin: 1.2,
-                          end: 1,
-                        ) */
-                    ,
-                  ],
+                      )
+                      /* .animate(
+                            onPlay: (controller) => controller.repeat(),
+                          )
+                          .shimmer(
+                            delay: 2.seconds,
+                            duration: .7.seconds,
+                          )
+                          .scaleXY(
+                            curve: Curves.easeOutSine,
+                            delay: 2.seconds,
+                            duration: .1.seconds,
+                            begin: 1,
+                            end: .8,
+                          )
+                          .then()
+                          .scaleXY(
+                            curve: Curves.easeOutSine,
+                            duration: .4.seconds,
+                            begin: .8,
+                            end: 1.2,
+                          )
+                          .then()
+                          .scaleXY(
+                            curve: Curves.bounceOut,
+                            duration: .2.seconds,
+                            begin: 1.2,
+                            end: 1,
+                          ) */
+                      ,
+                      SizedBox(height: 10.h),
+                      ZoomTapAnimation(
+                        onTap: () {},
+                        child: Container(
+                          width: double.maxFinite,
+                          padding: EdgeInsets.symmetric(
+                              horizontal: 20.sp, vertical: 10.sp),
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(20.r),
+                          ),
+                          child: Row(
+                            mainAxisSize: MainAxisSize.min,
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              Text(
+                                "Omo I dey manage my data too",
+                                style: TextStyle(
+                                  fontSize: 15.sp,
+                                ),
+                              ),
+                              SizedBox(width: 10.w),
+                              SizedBox(
+                                height: 20.h,
+                                child: Image.asset("assets/images/laugh.png"),
+                              ),
+                            ],
+                          ),
+                        ),
+                      )
+                      /* .animate(
+                            onPlay: (controller) => controller.repeat(),
+                          )
+                          .shimmer(
+                            delay: 2.seconds,
+                            duration: .7.seconds,
+                          )
+                          .scaleXY(
+                            curve: Curves.easeOutSine,
+                            delay: 2.seconds,
+                            duration: .1.seconds,
+                            begin: 1,
+                            end: .8,
+                          )
+                          .then()
+                          .scaleXY(
+                            curve: Curves.easeOutSine,
+                            duration: .4.seconds,
+                            begin: .8,
+                            end: 1.2,
+                          )
+                          .then()
+                          .scaleXY(
+                            curve: Curves.bounceOut,
+                            duration: .2.seconds,
+                            begin: 1.2,
+                            end: 1,
+                          ) */
+                      ,
+                    ],
+                  ),
                 ),
               ),
             );

@@ -33,6 +33,26 @@ class QuestionProvider extends ChangeNotifier {
   }
 
   void checkCorrectAnswer(BuildContext context, int index) {
+    if (index == -1) {
+      for (var option in options) {
+        if (option["value"] == true) {
+          option["colors"] = [
+            AppColor.right,
+            AppColor.right,
+            AppColor.right,
+          ];
+        }
+      }
+
+      Future.delayed(
+        1.seconds,
+        () => showFailedDialog(context, questionIndex, true),
+      );
+
+      notifyListeners();
+      return;
+    }
+
     if (options[index]["value"] == true) {
       options[index]["colors"] = [
         AppColor.right,
@@ -45,15 +65,15 @@ class QuestionProvider extends ChangeNotifier {
         AppColor.wrong,
         AppColor.wrong,
       ];
-    }
 
-    for (var option in options) {
-      if (option["value"] == true) {
-        option["colors"] = [
-          AppColor.right,
-          AppColor.right,
-          AppColor.right,
-        ];
+      for (var option in options) {
+        if (option["value"] == true) {
+          option["colors"] = [
+            AppColor.right,
+            AppColor.right,
+            AppColor.right,
+          ];
+        }
       }
     }
 
@@ -66,7 +86,7 @@ class QuestionProvider extends ChangeNotifier {
           Navigator.pushReplacementNamed(context, "/level");
           questionIndex++;
         } else {
-          showFailedDialog(context, questionIndex);
+          showFailedDialog(context, questionIndex, false);
         }
         resetOptions();
       });
