@@ -18,12 +18,19 @@ class GameBackground extends StatefulWidget {
 class _GameBackgroundState extends State<GameBackground> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Stack(
-        children: [
-          buildBlurBackground(),
-          widget.body,
-        ],
+    Future<bool> onWillPop() async {
+      return false;
+    }
+
+    return WillPopScope(
+      onWillPop: onWillPop,
+      child: Scaffold(
+        body: Stack(
+          children: [
+            buildBlurBackground(),
+            widget.body,
+          ],
+        ),
       ),
     );
   }
