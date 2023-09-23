@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/providers/level.dart';
+import 'package:trivia/providers/money.dart';
 import 'package:trivia/providers/question.dart';
 import 'package:trivia/providers/time.dart';
 import 'package:trivia/screens/game.dart';
@@ -23,6 +24,7 @@ void main() {
         ChangeNotifierProvider(create: (_) => LevelProvider()),
         ChangeNotifierProvider(create: (_) => QuestionProvider()),
         ChangeNotifierProvider(create: (_) => TimeProvider()),
+        ChangeNotifierProvider(create: (_) => MoneyProvider()),
       ],
       child: const MyApp(),
     ),

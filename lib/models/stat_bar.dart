@@ -103,7 +103,7 @@ class _GameStatsState extends State<GameStats> {
                   Expanded(
                     child: Center(
                       child: Text(
-                        cash.toString(),
+                        moneyProvider.cash.toString(),
                         style: const TextStyle(
                           color: Colors.yellow,
                         ),
@@ -181,7 +181,7 @@ class _GameStatsState extends State<GameStats> {
                   Expanded(
                     child: Center(
                       child: Text(
-                        coins.toString(),
+                         moneyProvider.coins.toString(),
                         style: const TextStyle(
                           color: Colors.yellow,
                         ),
