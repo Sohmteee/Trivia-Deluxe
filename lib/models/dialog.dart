@@ -42,8 +42,17 @@ showFailedDialog(context, questionIndex) {
                       dialog["title"],
                       style: TextStyle(
                         color: Colors.white,
-                        fontSize: 40.sp,
+                        fontSize: 25.sp,
                         fontWeight: FontWeight.bold,
+                      ),
+                      textAlign: TextAlign.center,
+                    ),
+                    SizedBox(height: 10.h),
+                    Text(
+                      dialog["content"],
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 20.sp,
                       ),
                     ),
                   ],
