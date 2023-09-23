@@ -6,7 +6,7 @@ Future<bool> onWillPop(context) async {
   ToastContext().init(context);
   Toast.show("You can't go back at the moment",
       duration: 2,
-      gravity: Toast.top,
+      gravity: Toast.bottom,
       textStyle: TextStyle(
         fontSize: 20.sp,
       ));
