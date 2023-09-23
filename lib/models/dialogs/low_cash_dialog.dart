@@ -21,7 +21,7 @@ showLowCashDialog(context) {
               insetAnimationCurve: Curves.bounceInOut,
               insetAnimationDuration: const Duration(milliseconds: 300),
               child: Container(
-                padding: const EdgeInsets.fromLTRB(20, 20, 20, 40),
+                padding: const EdgeInsets.fromLTRB(20, 40, 20, 60),
                 decoration: BoxDecoration(
                   color: AppColor.lightRed,
                   borderRadius: BorderRadius.circular(20),
