@@ -41,15 +41,13 @@ showLowCashDialog(context) {
                     SizedBox(height: 10.h),
                     Padding(
                       padding: EdgeInsets.symmetric(horizontal: 15.w),
-                      child: Align(
-                        alignment: Alignment.centerLeft,
-                        child: Text(
-                          "Insufficient funds. Would you like to buy some more?",
-                          style: TextStyle(
-                            color: Colors.grey[400],
-                            fontSize: 20.sp,
-                          ),
+                      child: Text(
+                        "Would you like to top up?",
+                        style: TextStyle(
+                          color: Colors.grey[400],
+                          fontSize: 20.sp,
                         ),
+                        textAlign: TextAlign.center,
                       ),
                     ),
                     SizedBox(height: 20.h),
