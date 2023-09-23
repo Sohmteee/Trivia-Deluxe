@@ -1,4 +1,3 @@
-import 'package:flutter_animate/flutter_animate.dart';
 import 'package:toast/toast.dart';
 
 Future<bool> onWillPop(context) async {
@@ -6,6 +5,7 @@ Future<bool> onWillPop(context) async {
   Toast.show(
     "You can't go back at the moment",
     duration: 2,
+    gravity: Toast.bottom,
     
   );
   return false;
