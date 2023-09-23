@@ -30,7 +30,7 @@ showLowCashDialog(context) {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     Text(
-                      "Sapa don catch you even for game😂",
+                      "Sapa don catch you even for game 😂",
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 25.sp,
@@ -65,7 +65,7 @@ showLowCashDialog(context) {
                         ),
                         child: Row(
                           mainAxisSize: MainAxisSize.min,
-                          mainAxisAlignment
+                          mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Text(
                               "Carry me go store abeg",
@@ -125,7 +125,7 @@ showLowCashDialog(context) {
                         ),
                         child: Row(
                           mainAxisSize: MainAxisSize.min,
-                          mainAxisAlignment
+                          mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Text(
                               "Omo I'm broke in real life too",
@@ -136,7 +136,7 @@ showLowCashDialog(context) {
                             SizedBox(width: 10.w),
                             SizedBox(
                               height: 20.h,
-                              child: Image.asset("assets/images/sick.png"),
+                              child: Image.asset("assets/images/laugh.png"),
                             ),
                           ],
                         ),
