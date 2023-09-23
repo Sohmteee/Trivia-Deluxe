@@ -56,6 +56,7 @@ showFailedDialog(context, questionIndex) {
                           color: Colors.white,
                           fontSize: 20.sp,
                         ),
+                        textAlign: TextAlign.start,
                       ),
                     ),
                   ],

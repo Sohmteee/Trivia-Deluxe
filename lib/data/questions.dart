@@ -6,7 +6,14 @@ List questionsData = [
     "dialog": {
       "image": "assets/images/earth.png",
       "title": "There are SEVEN continents in the world",
-      "content": "They include North America, South America, Africa, Asia, Europe, Australia and Antartica."
+      "content": "They include:"
+      "\nNorth America"
+      "\nSouth America"
+      "\nAfrica"
+      "\nAsia"
+      "\nEurope"
+      "\nAustralia"
+      "\nand Antartica."
     },
     "options": [
       {
