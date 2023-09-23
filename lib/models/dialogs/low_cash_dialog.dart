@@ -57,7 +57,6 @@ showLowCashDialog(context, questionIndex) {
                     SizedBox(height: 20.h),
                     ZoomTapAnimation(
                       onTap: () {
-                        moneyProvider.decreaseCoins(5);
                       },
                       child: Container(
                         padding: EdgeInsets.symmetric(
