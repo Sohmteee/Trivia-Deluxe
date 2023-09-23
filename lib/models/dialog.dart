@@ -95,7 +95,7 @@ showFailedDialog(context, questionIndex) {
                                   top: -5,
                                   right: -5,
                                   child: Text(
-                                    "×5",
+                                    "\U+00d75",
                                     style: TextStyle(
                                       fontSize: 20.sp,
                                     ),
