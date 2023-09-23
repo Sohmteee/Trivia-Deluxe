@@ -11,17 +11,31 @@ class MoneyProvider extends ChangeNotifier {
     if (cash + value < 5000) {
       _cash += value;
     }
+
+    notifyListeners();
   }
 
   decreaseCash(int value) {
     if (cash - value > 0) {
-      _cash += value;
+      _cash -= value;
     }
+
+    notifyListeners();
   }
 
   increaseCoins(int value) {
     if (coins + value < 5000) {
       _coins += value;
     }
+
+    notifyListeners();
+  }
+
+  decreaseCoins(int value) {
+    if (coins + value > 0) {
+      _coins -= value;
+    }
+
+    notifyListeners();
   }
 }

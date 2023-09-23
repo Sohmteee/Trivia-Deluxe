@@ -3,6 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/data/questions.dart';
+import 'package:trivia/providers/money.dart';
 
 showFailedDialog(context, questionIndex) {
   showDialog(
@@ -14,7 +15,7 @@ showFailedDialog(context, questionIndex) {
           data: Theme.of(context).copyWith(
             dialogBackgroundColor: Colors.transparent,
           ),
-          child: Consumer<>(builder: (context, setState) {
+          child: Consumer<MoneyProvider>(builder: (context, moneyProvider, _) {
             return Dialog(
               elevation: 0,
               shadowColor: Colors.transparent,
