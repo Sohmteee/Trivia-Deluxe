@@ -55,7 +55,7 @@ showFailedDialog(context, questionIndex) {
                         child: Text(
                           dialog["content"],
                           style: TextStyle(
-                            color: Colors.grey[300],
+                            color: Colors.grey[400],
                             fontSize: 20.sp,
                           ),
                         ),
