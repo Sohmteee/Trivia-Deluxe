@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
@@ -10,7 +9,6 @@ showLowCashDialog(context, questionIndex) {
   showDialog(
       context: context,
       builder: (context) {
-
         return Theme(
           data: Theme.of(context).copyWith(
             dialogBackgroundColor: Colors.transparent,
@@ -135,7 +133,7 @@ showLowCashDialog(context, questionIndex) {
                             SizedBox(
                               height: 20.h,
                               child:
-                                  Image.asset("assets/images/debit-card.png"),
+                                  Image.asset("assets/images/sick.png"),
                             ),
                           ],
                         ),
