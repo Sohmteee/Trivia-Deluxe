@@ -3,7 +3,7 @@ import 'package:trivia/colors/app_color.dart';
 List questionsData = [
   {
     "question": "How many continents are there in the world?",
-    "diaog": {
+    "dialog": {
       "image": "assets/images/earth.png",
       "title": "There are SEVEN continents in the world",
       "content": "They include North America, South America, Africa, Asia, Europe, Australia and Antartica."
@@ -49,7 +49,7 @@ List questionsData = [
   },
   {
     "question": "Which of the following birds cannot fly?",
-    "diaog": {
+    "dialog": {
       "image": "assets/images/ostrich.png",
       "title": "An OSTRICH can't fly",
       "content":
@@ -97,9 +97,9 @@ List questionsData = [
   },
   {
     "question": "What can stay at a corner and travel the whole world?",
-    "diaog": {
-      "image": "assets/images/earth.png",
-      "title": "There are SEVEN continents in the world",
+    "dialog": {
+      "image": "assets/images/human-mind.png",
+      "title": "The HUMAN MIND ",
       "content":
           "They include North America, South America, Africa, Asia, Europe, Australia and Antartica."
     },
