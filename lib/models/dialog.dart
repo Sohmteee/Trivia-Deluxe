@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
@@ -104,6 +105,8 @@ showFailedDialog(context, questionIndex) {
                               ],
                             ),
                           ],
+                        ).animate().shimmer(
+                          delay: ,
                         ),
                       ),
                     ),
