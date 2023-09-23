@@ -56,8 +56,7 @@ showLowCashDialog(context, questionIndex) {
                     ),
                     SizedBox(height: 20.h),
                     ZoomTapAnimation(
-                      onTap: () {
-                      },
+                      onTap: () {},
                       child: Container(
                         padding: EdgeInsets.symmetric(
                             horizontal: 20.sp, vertical: 10.sp),
@@ -69,7 +68,7 @@ showLowCashDialog(context, questionIndex) {
                           mainAxisSize: MainAxisSize.min,
                           children: [
                             Text(
-                              "Carry me go store abeg ",
+                              "Carry me go store abeg",
                               style: TextStyle(
                                 fontSize: 25.sp,
                               ),
@@ -77,13 +76,14 @@ showLowCashDialog(context, questionIndex) {
                             SizedBox(width: 10.w),
                             SizedBox(
                               height: 20.h,
-                              child: Image.asset("assets/images/coin.png"),
+                              child:
+                                  Image.asset("assets/images/debit-card.png"),
                             ),
                           ],
                         ),
                       ),
                     )
-                        .animate(
+                    /* .animate(
                           onPlay: (controller) => controller.repeat(),
                         )
                         .shimmer(
@@ -110,7 +110,66 @@ showLowCashDialog(context, questionIndex) {
                           duration: .2.seconds,
                           begin: 1.2,
                           end: 1,
+                        ) */
+                    ,
+                    SizedBox(height: 10.h),
+                    ZoomTapAnimation(
+                      onTap: () {},
+                      child: Container(
+                        padding: EdgeInsets.symmetric(
+                            horizontal: 20.sp, vertical: 10.sp),
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(20.r),
                         ),
+                        child: Row(
+                          mainAxisSize: MainAxisSize.min,
+                          children: [
+                            Text(
+                              "Omo I'm broke in real life too",
+                              style: TextStyle(
+                                fontSize: 25.sp,
+                              ),
+                            ),
+                            SizedBox(width: 10.w),
+                            SizedBox(
+                              height: 20.h,
+                              child:
+                                  Image.asset("assets/images/debit-card.png"),
+                            ),
+                          ],
+                        ),
+                      ),
+                    )
+                    /* .animate(
+                          onPlay: (controller) => controller.repeat(),
+                        )
+                        .shimmer(
+                          delay: 2.seconds,
+                          duration: .7.seconds,
+                        )
+                        .scaleXY(
+                          curve: Curves.easeOutSine,
+                          delay: 2.seconds,
+                          duration: .1.seconds,
+                          begin: 1,
+                          end: .8,
+                        )
+                        .then()
+                        .scaleXY(
+                          curve: Curves.easeOutSine,
+                          duration: .4.seconds,
+                          begin: .8,
+                          end: 1.2,
+                        )
+                        .then()
+                        .scaleXY(
+                          curve: Curves.bounceOut,
+                          duration: .2.seconds,
+                          begin: 1.2,
+                          end: 1,
+                        ) */
+                    ,
                   ],
                 ),
               ),
