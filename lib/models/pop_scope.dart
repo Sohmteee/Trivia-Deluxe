@@ -8,6 +8,7 @@ Future<bool> onWillPop(context) async {
       duration: 2,
       gravity: Toast.bottom,
       textStyle: TextStyle(
+        color: Colors.white,
         fontSize: 20.sp,
       ));
   return false;
