@@ -3,6 +3,9 @@ import 'package:trivia/colors/app_color.dart';
 List questionsData = [
   {
     "question": "How many continents are there in the world?",
+    "diaog": {
+      "image": ""
+    },
     "options": [
       {
         "text": "Seven",
