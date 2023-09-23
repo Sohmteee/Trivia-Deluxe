@@ -7,11 +7,10 @@ import 'package:trivia/data/questions.dart';
 import 'package:trivia/providers/money.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
-showFailedDialog(context, questionIndex) {
+showLowCashDialog(context, questionIndex) {
   showDialog(
       context: context,
       builder: (context) {
-        var dialog = questionsData[questionIndex]["dialog"];
 
         return Theme(
           data: Theme.of(context).copyWith(
@@ -33,18 +32,8 @@ showFailedDialog(context, questionIndex) {
                 child: Column(
                   mainAxisSize: MainAxisSize.min,
                   children: [
-                    Container(
-                      padding: EdgeInsets.all(30.sp),
-                      decoration: BoxDecoration(
-                        color: Colors.grey[300]!,
-                        // borderRadius: BorderRadius.circular(20.r),
-                        shape: BoxShape.circle,
-                      ),
-                      child: Image.asset(dialog["image"]),
-                    ),
-                    SizedBox(height: 20.h),
                     Text(
-                      dialog["title"],
+                      "Sapa don catch you even for game😂",
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 25.sp,
@@ -58,7 +47,7 @@ showFailedDialog(context, questionIndex) {
                       child: Align(
                         alignment: Alignment.centerLeft,
                         child: Text(
-                          dialog["content"],
+                          "Insufficient",
                           style: TextStyle(
                             color: Colors.grey[400],
                             fontSize: 20.sp,
