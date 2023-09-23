@@ -84,7 +84,7 @@ class _GameStatsState extends State<GameStats> {
           SizedBox(width: 10.w),
           ZoomTapAnimation(
             onTap: () {
-              moneyProvider.increaseCoins(value)
+              moneyProvider.increaseCash(20);
             },
             child: Container(
               height: 20.h,
