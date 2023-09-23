@@ -84,15 +84,19 @@ showFailedDialog(context, questionIndex) {
                               ),
                             ),
                             SizedBox(width: 10.w),
-                            SizedBox(
-                              height: 20.h,
-                              child: Image.asset("assets/images/coin.png"),
-                            ),
-                            Text(
-                              "5",
-                              style: TextStyle(
-                                fontSize: 25.sp,
-                              ),
+                            Stack(
+                              children: [
+                                SizedBox(
+                                  height: 20.h,
+                                  child: Image.asset("assets/images/coin.png"),
+                                ),
+                                Text(
+                                  "5",
+                                  style: TextStyle(
+                                    fontSize: 20.sp,
+                                  ),
+                                ),
+                              ],
                             ),
                           ],
                         ),
