@@ -50,10 +50,10 @@ List questionsData = [
   {
     "question": "Which of the following birds cannot fly?",
     "diaog": {
-      "image": "assets/images/earth.png",
-      "title": "There are SEVEN continents in the world",
+      "image": "assets/images/ostrich.png",
+      "title": "An OSTRICH can't fly",
       "content":
-          "They include North America, South America, Africa, Asia, Europe, Australia and Antartica."
+          "An ostrich, which is also the largest bird, ca"
     },
     "options": [
       {
