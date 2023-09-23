@@ -69,6 +69,8 @@ class _GameScreenState extends State<GameScreen> {
                   itemBuilder: (BuildContext context, int index) {
                     return ZoomTapAnimation(
                       onTap: () {
+                        countDownController.pause();
+
                         if (questionProvider.options[index]["value"] == true) {
                           confettiController.play();
                         }
