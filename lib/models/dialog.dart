@@ -75,6 +75,7 @@ showFailedDialog(context, questionIndex) {
                           borderRadius: BorderRadius.circular(20.r),
                         ),
                         child: Row(
+                          mainAxisSize: MainAxisSize.min,
                           children: [
                             Text(
                               "Revive",
@@ -82,8 +83,11 @@ showFailedDialog(context, questionIndex) {
                                 fontSize: 25.sp,
                               ),
                             ),
-                            SizedBox(width: 20.w),
-                            Image.asset(name)
+                            SizedBox(width: 10.w),
+                            SizedBox(
+                              height: 20.h,
+                              child: Image.asset("assets/images/coin.png"),
+                            ),
                           ],
                         ),
                       ),
