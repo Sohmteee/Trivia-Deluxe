@@ -28,37 +28,41 @@ class _GameStatsState extends State<GameStats> {
       return Row(
         children: [
           if (widget.showHome ?? true != false)
-            GestureDetector(
-              onTapDown: (details) {
-                Navigator.pushNamedAndRemoveUntil(
-                    context, "/menu", (route) => false);
-              },
-              child: Container(
-                padding: EdgeInsets.all(2.sp),
-                decoration: BoxDecoration(
-                  color: Colors.white,
-                  shape: BoxShape.circle,
-                  border: Border.all(
-                    color: AppColor.lightRed,
-                    width: 2.sp,
-                  ),
-                  gradient: LinearGradient(
-                    colors: [
-                      AppColor.lightRed,
-                      AppColor.darkRed,
-                    ],
-                    begin: Alignment.topLeft,
-                    end: Alignment.bottomRight,
+            Row(
+              children: [
+                GestureDetector(
+                  onTapDown: (details) {
+                    Navigator.pushNamedAndRemoveUntil(
+                        context, "/menu", (route) => false);
+                  },
+                  child: Container(
+                    padding: EdgeInsets.all(2.sp),
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      shape: BoxShape.circle,
+                      border: Border.all(
+                        color: AppColor.lightRed,
+                        width: 2.sp,
+                      ),
+                      gradient: LinearGradient(
+                        colors: [
+                          AppColor.lightRed,
+                          AppColor.darkRed,
+                        ],
+                        begin: Alignment.topLeft,
+                        end: Alignment.bottomRight,
+                      ),
+                    ),
+                    child: Icon(
+                      Icons.home_rounded,
+                      size: 18.sp,
+                      color: AppColor.levelYellow,
+                    ),
                   ),
                 ),
-                child: Icon(
-                  Icons.home_rounded,
-                  size: 18.sp,
-                  color: AppColor.levelYellow,
-                ),
-              ),
+                const Spacer(flex: 4),
+              ],
             ),
-          const Spacer(flex: 4),
           Container(
             height: 20.h,
             padding: EdgeInsets.all(2.sp),
