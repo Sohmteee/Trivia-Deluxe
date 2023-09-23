@@ -96,60 +96,67 @@ class _LevelScreenState extends State<LevelScreen> {
           ),
         ),
         Consumer<LevelProvider>(builder: (context, levelProvider, _) {
-          return Positioned(
-            bottom: -30.h,
-            child: (levelProvider.completedLevel != 3)
-                ? SizedBox(
-                    height: 80.h,
-                    child: Image.asset("assets/images/treasure.png"),
-                  )
-                : SizedBox(
-                    height: 80.h,
-                    child: Image.asset("assets/images/treasure.png"),
-                  )
-                    .animate(
-                      onPlay: (controller) => controller.repeat(),
+          return ZoomTapAnimation(
+            child: Positioned(
+              bottom: -30.h,
+              child: (levelProvider.completedLevel != 3)
+                  ? SizedBox(
+                      height: 80.h,
+                      child: Image.asset("assets/images/treasure.png"),
                     )
-                    .scaleXY(
-                      delay: 1.5.seconds,
-                      duration: .3.seconds,
-                      begin: 1,
-                      end: 1.2,
+                  : ZoomTapAnimation(
+                      onTap: () {
+                        levelProvider.resetCompletedLevel();
+                      },
+                      child: SizedBox(
+                        height: 80.h,
+                        child: Image.asset("assets/images/treasure.png"),
+                      )
+                          .animate(
+                            onPlay: (controller) => controller.repeat(),
+                          )
+                          .scaleXY(
+                            delay: 1.5.seconds,
+                            duration: .3.seconds,
+                            begin: 1,
+                            end: 1.2,
+                          )
+                          .then()
+                          .shake(
+                            duration: .4.seconds,
+                          )
+                          .then()
+                          .scaleXY(
+                            curve: Curves.bounceOut,
+                            duration: .3.seconds,
+                            begin: 1.2,
+                            end: 1,
+                          ),
                     )
-                    .then()
-                    .shake(
-                      duration: .4.seconds,
-                    )
-                    .then()
-                    .scaleXY(
-                      curve: Curves.bounceOut,
-                      duration: .3.seconds,
-                      begin: 1.2,
-                      end: 1,
-                    )
-            /* .animate(
-                              onPlay: (controller) => controller.repeat(),
-                            )
-                            .shimmer(
-                              delay: 2.seconds,
-                              duration: 1.seconds,
-                            )
-                            .scaleXY(
-                              delay: 2.seconds,
-                              duration: .3.seconds,
-                              begin: 1,
-                              end: 1.2,
-                            )
-                            .then()
-                            .shake()
-                            .scaleXY(
-                              delay: .7.seconds,
-                              curve: Curves.bounceOut,
-                              duration: .7.seconds,
-                              begin: 1.2,
-                              end: 1,
-                            ) */
-            ,
+              /* .animate(
+                                onPlay: (controller) => controller.repeat(),
+                              )
+                              .shimmer(
+                                delay: 2.seconds,
+                                duration: 1.seconds,
+                              )
+                              .scaleXY(
+                                delay: 2.seconds,
+                                duration: .3.seconds,
+                                begin: 1,
+                                end: 1.2,
+                              )
+                              .then()
+                              .shake()
+                              .scaleXY(
+                                delay: .7.seconds,
+                                curve: Curves.bounceOut,
+                                duration: .7.seconds,
+                                begin: 1.2,
+                                end: 1,
+                              ) */
+              ,
+            ),
           );
         })
       ],
