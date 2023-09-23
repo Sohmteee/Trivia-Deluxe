@@ -3,7 +3,6 @@ import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
-import 'package:trivia/data/questions.dart';
 import 'package:trivia/providers/money.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
@@ -47,7 +46,7 @@ showLowCashDialog(context, questionIndex) {
                       child: Align(
                         alignment: Alignment.centerLeft,
                         child: Text(
-                          "Insufficient",
+                          "Insufficient funds. Would you like to buy some more?",
                           style: TextStyle(
                             color: Colors.grey[400],
                             fontSize: 20.sp,
@@ -71,7 +70,7 @@ showLowCashDialog(context, questionIndex) {
                           mainAxisSize: MainAxisSize.min,
                           children: [
                             Text(
-                              "Revive",
+                              "Omo ",
                               style: TextStyle(
                                 fontSize: 25.sp,
                               ),
