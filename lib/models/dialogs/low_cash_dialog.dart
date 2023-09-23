@@ -56,6 +56,7 @@ showLowCashDialog(context) {
                     ZoomTapAnimation(
                       onTap: () {},
                       child: Container(
+                        width: double.maxFinite,
                         padding: EdgeInsets.symmetric(
                             horizontal: 20.sp, vertical: 10.sp),
                         decoration: BoxDecoration(
@@ -64,6 +65,7 @@ showLowCashDialog(context) {
                         ),
                         child: Row(
                           mainAxisSize: MainAxisSize.min,
+                          mainAxisAlignment
                           children: [
                             Text(
                               "Carry me go store abeg",
@@ -114,6 +116,7 @@ showLowCashDialog(context) {
                     ZoomTapAnimation(
                       onTap: () {},
                       child: Container(
+                        width: double.maxFinite,
                         padding: EdgeInsets.symmetric(
                             horizontal: 20.sp, vertical: 10.sp),
                         decoration: BoxDecoration(
@@ -122,6 +125,7 @@ showLowCashDialog(context) {
                         ),
                         child: Row(
                           mainAxisSize: MainAxisSize.min,
+                          mainAxisAlignment
                           children: [
                             Text(
                               "Omo I'm broke in real life too",
