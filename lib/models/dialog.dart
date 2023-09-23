@@ -88,7 +88,7 @@ showFailedDialog(context, questionIndex) {
                               height: 20.h,
                               child: Image.asset("assets/images/coin.png"),
                             ),
-                            Text(
+                            DeTStyl(
                               "{U+00D7} 5",
                               style: TextStyle(
                                 fontSize: 25.sp,
