@@ -22,7 +22,7 @@ showFailedDialog(context, questionIndex, bool timeUp) {
           ),
           child: Consumer<MoneyProvider>(builder: (context, moneyProvider, _) {
             return WillPopScope(
-              onWillPop: ()=> onWillPop(context),
+              onWillPop: () => onWillPop(context),
               child: Dialog(
                 elevation: 0,
                 shadowColor: Colors.transparent,
@@ -48,6 +48,16 @@ showFailedDialog(context, questionIndex, bool timeUp) {
                             ? dialog["image"]
                             : "assets/images/referee.png"),
                       ),
+                      SizedBox(height: 20.h),
+                      Text(
+                        (timeUp == false) ? dialog["title"] : "Time's up!",
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 25.sp,
+                          fontWeight: FontWeight.bold,
+                        ),
+                        textAlign: TextAlign.center,
+                      ),
                       if (timeUp == false)
                         Column(
                           children: [
@@ -67,16 +77,6 @@ showFailedDialog(context, questionIndex, bool timeUp) {
                             ),
                           ],
                         ),
-                      SizedBox(height: 20.h),
-                      Text(
-                        (timeUp == false) ? dialog["title"] : "Time's up!",
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 25.sp,
-                          fontWeight: FontWeight.bold,
-                        ),
-                        textAlign: TextAlign.center,
-                      ),
                       SizedBox(height: 20.h),
                       ZoomTapAnimation(
                         onTap: () {
