@@ -76,49 +76,29 @@ class _GameScreenState extends State<GameScreen> {
                         questionProvider.checkCorrectAnswer(context, index);
                       },
                       child: questionProvider.options[index]["value"] == true
-                          ? Align(
-                              alignment: Alignment.center,
-                              child: ConfettiWidget(
-                                confettiController: confettiController,
-
-                                blastDirection: -.4,
-                                emissionFrequency: 0.6,
-                                minimumSize: const Size(10, 10),
-                                maximumSize: const Size(10, 10),
-                                numberOfParticles: 1,
-                                colors: const [
-                                  Colors.green,
-                                  Colors.blue,
-                                  Colors.pink,
-                                  Colors.orange,
-                                  Colors.purple,
-                                ],
-                                // createParticlePath: drawStar,
-                                child: Container(
-                                  margin: EdgeInsets.only(bottom: 20.h),
-                                  padding: EdgeInsets.all(15.sp),
-                                  width: double.maxFinite,
-                                  decoration: BoxDecoration(
-                                    color: AppColor.yellow,
-                                    borderRadius: BorderRadius.circular(10.r),
-                                    gradient: LinearGradient(
-                                      colors: questionProvider.options[index]
-                                          ["colors"],
-                                      begin: Alignment.topCenter,
-                                      end: Alignment.bottomCenter,
-                                    ),
-                                  ),
-                                  child: Text(
-                                    "${optionLetter(index)}:  ${questionProvider.options[index]["text"]}",
-                                    style: TextStyle(
-                                      color: AppColor.white,
-                                      fontSize: 20.sp,
-                                    ),
-                                    textAlign: TextAlign.start,
-                                  ),
-                                ),
+                          ? Container(
+                            margin: EdgeInsets.only(bottom: 20.h),
+                            padding: EdgeInsets.all(15.sp),
+                            width: double.maxFinite,
+                            decoration: BoxDecoration(
+                              color: AppColor.yellow,
+                              borderRadius: BorderRadius.circular(10.r),
+                              gradient: LinearGradient(
+                                colors: questionProvider.options[index]
+                                    ["colors"],
+                                begin: Alignment.topCenter,
+                                end: Alignment.bottomCenter,
                               ),
-                            )
+                            ),
+                            child: Text(
+                              "${optionLetter(index)}:  ${questionProvider.options[index]["text"]}",
+                              style: TextStyle(
+                                color: AppColor.white,
+                                fontSize: 20.sp,
+                              ),
+                              textAlign: TextAlign.start,
+                            ),
+                          )
                           : Container(
                               margin: EdgeInsets.only(bottom: 20.h),
                               padding: EdgeInsets.all(15.sp),
