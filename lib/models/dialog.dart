@@ -6,7 +6,8 @@ showFailedDialog(context, questionIndex) {
   showDialog(
       context: context,
       builder: (context) {
-        var dialog = questionsData[questionIndex];
+        var dialog = questionsData[questionIndex]["dialog"];
+
         return Theme(
           data: Theme.of(context).copyWith(
             dialogBackgroundColor: Colors.transparent,
@@ -22,6 +23,11 @@ showFailedDialog(context, questionIndex) {
               decoration: BoxDecoration(
                 color: AppColor.darkRed,
                 borderRadius: BorderRadius.circular(20),
+              ),
+              child: Column(
+                children: [
+                  Image.asset(dialog["image"]),
+                ],
               ),
             ),
           ),
