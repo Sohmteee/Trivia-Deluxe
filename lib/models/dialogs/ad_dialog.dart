@@ -5,7 +5,7 @@ import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/providers/money.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
-showLowCashDialog(context) {
+showAdDialog(context) {
   showDialog(
       context: context,
       builder: (context) {
@@ -23,7 +23,6 @@ showLowCashDialog(context) {
               child: Container(
                 padding: const EdgeInsets.fromLTRB(20, 40, 20, 60),
                 decoration: BoxDecoration(
-                  color: AppColor.lightRed,
                   color: AppColor.lightRed,
                   borderRadius: BorderRadius.circular(20),
                 ),
