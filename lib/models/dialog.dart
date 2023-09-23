@@ -49,14 +49,16 @@ showFailedDialog(context, questionIndex) {
                     ),
                     SizedBox(height: 10.h),
                     Padding(
-                      padding: EdgeInsets.symmetric(horizontal: 10.w),
-                      child: Text(
-                        dialog["content"],
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 20.sp,
+                      padding: EdgeInsets.symmetric(horizontal: 15.w),
+                      child: Align(
+                        alignment: Alignment.centerLeft,
+                        child: Text(
+                          dialog["content"],
+                          style: TextStyle(
+                            color: Colors.grey[300],
+                            fontSize: 20.sp,
+                          ),
                         ),
-                        textAlign: TextAlign.start,
                       ),
                     ),
                   ],
