@@ -1,0 +1,60 @@
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:provider/provider.dart';
+import 'package:trivia/providers/level.dart';
+import 'package:trivia/providers/question.dart';
+import 'package:trivia/providers/time.dart';
+import 'package:trivia/screens/game.dart';
+import 'package:trivia/screens/level.dart';
+import 'package:trivia/screens/menu.dart';
+import 'package:trivia/screens/splash.dart';
+
+void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersive);
+  SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
+    statusBarColor: Colors.transparent,
+  ));
+
+  runApp(
+    MultiProvider(
+      providers: [
+        ChangeNotifierProvider(create: (_) => LevelProvider()),
+        ChangeNotifierProvider(create: (_) => QuestionProvider()),
+        ChangeNotifierProvider(create: (_) => TimeProvider()),
+      ],
+      child: const MyApp(),
+    ),
+  );
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return ScreenUtilInit(
+        designSize: const Size(360, 690),
+        minTextAdapt: true,
+        splitScreenMode: true,
+        builder: (_, child) {
+          return MaterialApp(
+            title: 'Trivia Deluxe',
+            theme: ThemeData(
+                colorScheme: ColorScheme.fromSeed(
+                  seedColor: Colors.red,
+                ),
+                fontFamily: "Race"),
+            home: const MenuScreen(),
+            debugShowCheckedModeBanner: false,
+            routes: {
+              '/splash': (context) => const SplashScreen(),
+              '/menu': (context) => const MenuScreen(),
+              '/game': (context) => const GameScreen(),
+              '/level': (context) => const LevelScreen(),
+            },
+          );
+        });
+  }
+}

@@ -1,0 +1,21 @@
+import 'hex_color.dart';
+
+final blueP200 = HexColor("#5E3AC5");
+final blueP300 = HexColor("#3D12B9");
+final blueP400 = HexColor("#2B0D82");
+final purpleP50 = HexColor("#ECE7F8");
+final purpleP75 = HexColor("#AF9EE2");
+final purpleP100 = HexColor("#8E76D6");
+final purpleS50 = HexColor("#F5E7FA");
+final purpleS300 = HexColor("#9A0ACC");
+final purpleS500 = HexColor("#5E067C");
+final primaryRedColor = HexColor("#9C0000");
+final textFieldBackgroundColor = HexColor("#E6E6E6");
+final hintTextColor = HexColor("#9C9C9C");
+final loadingColor = HexColor("#2B0D82");
+final whiteW300 = HexColor("#FFFFFF");
+final whiteW400 = HexColor("#B3B3B3");
+final blackB75 = HexColor("#969696");
+final blackB100 = HexColor("#6B6B6B");
+final blackB200 = HexColor("#2B2B2B");
+final blackB300 = HexColor("#000000");
