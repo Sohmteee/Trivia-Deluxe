@@ -101,7 +101,7 @@ List questionsData = [
       "image": "assets/images/human-mind.png",
       "title": "The HUMAN MIND ",
       "content":
-          "They include North America, South America, Africa, Asia, Europe, Australia and Antartica."
+          "The human mind in it's imagination, can access places that the human body may never even possibly have access to."
     },
     "options": [
       {
