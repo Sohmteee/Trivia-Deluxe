@@ -89,7 +89,7 @@ showFailedDialog(context, questionIndex) {
                               child: Image.asset("assets/images/coin.png"),
                             ),
                             Text(
-                              "×5",
+                              "{U+00D7} 5",
                               style: TextStyle(
                                 fontSize: 25.sp,
                               ),
