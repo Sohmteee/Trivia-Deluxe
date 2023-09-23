@@ -214,6 +214,38 @@ class _GameStatsState extends State<GameStats> {
               ],
             ),
           ),
+          if (widget.showHome ?? true != false) const Spacer(flex: 4),
+          if (widget.showHome ?? true != false)
+            GestureDetector(
+              onTapDown: (details) {
+                /* Navigator.pushNamedAndRemoveUntil(
+                    context, "/menu", (route) => false); */
+              },
+              child: Container(
+                padding: EdgeInsets.all(2.sp),
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  shape: BoxShape.circle,
+                  border: Border.all(
+                    color: AppColor.lightRed,
+                    width: 2.sp,
+                  ),
+                  gradient: LinearGradient(
+                    colors: [
+                      AppColor.lightRed,
+                      AppColor.darkRed,
+                    ],
+                    begin: Alignment.topLeft,
+                    end: Alignment.bottomRight,
+                  ),
+                ),
+                child: Icon(
+                  Icons.settings_rounded,
+                  size: 18.sp,
+                  color: AppColor.levelYellow,
+                ),
+              ),
+            ),
         ],
       );
     });
