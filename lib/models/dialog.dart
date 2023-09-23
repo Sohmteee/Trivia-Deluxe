@@ -113,7 +113,7 @@ showFailedDialog(context, questionIndex) {
                         )
                         .shimmer(
                           delay: 2.seconds,
-                          duration: .5.seconds,
+                          duration: .7.seconds,
                         )
                         .scaleXY(
                           curve: Curves.easeOutSine,
@@ -125,7 +125,7 @@ showFailedDialog(context, questionIndex) {
                         .then()
                         .scaleXY(
                           curve: Curves.easeOutSine,
-                          duration: .2.seconds,
+                          duration: .4.seconds,
                           begin: .8,
                           end: 1.2,
                         )
