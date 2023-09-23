@@ -23,19 +23,21 @@ showFailedDialog(context, questionIndex) {
               child: Container(
                 padding: const EdgeInsets.fromLTRB(20, 20, 20, 40),
                 decoration: BoxDecoration(
-                  color: AppColor.darkRed,
+                  color: AppColor.lightRed,
                   borderRadius: BorderRadius.circular(20),
                 ),
                 child: Column(
+                  mainAxisSize: MainAxisSize.min,
                   children: [
                     Container(
-                      padding: EdgeInsets.all(value),
+                      padding: EdgeInsets.all(10.sp),
                       decoration: BoxDecoration(
                         color: Colors.white,
                         borderRadius: BorderRadius.circular(20.r),
                       ),
                       child: Image.asset(dialog["image"]),
                     ),
+                    
                   ],
                 ),
               ),
