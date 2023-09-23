@@ -96,9 +96,9 @@ class _LevelScreenState extends State<LevelScreen> {
           ),
         ),
         Consumer<LevelProvider>(builder: (context, levelProvider, _) {
-          return ZoomTapAnimation(
-            child: Positioned(
-              bottom: -30.h,
+          return Positioned(
+            bottom: -30.h,
+            child: ZoomTapAnimation(
               child: (levelProvider.completedLevel != 3)
                   ? SizedBox(
                       height: 80.h,
@@ -132,30 +132,7 @@ class _LevelScreenState extends State<LevelScreen> {
                             begin: 1.2,
                             end: 1,
                           ),
-                    )
-              /* .animate(
-                                onPlay: (controller) => controller.repeat(),
-                              )
-                              .shimmer(
-                                delay: 2.seconds,
-                                duration: 1.seconds,
-                              )
-                              .scaleXY(
-                                delay: 2.seconds,
-                                duration: .3.seconds,
-                                begin: 1,
-                                end: 1.2,
-                              )
-                              .then()
-                              .shake()
-                              .scaleXY(
-                                delay: .7.seconds,
-                                curve: Curves.bounceOut,
-                                duration: .7.seconds,
-                                begin: 1.2,
-                                end: 1,
-                              ) */
-              ,
+                    ),
             ),
           );
         })
