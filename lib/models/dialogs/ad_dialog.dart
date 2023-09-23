@@ -73,7 +73,7 @@ showAdDialog(context) {
                             ),
                             SizedBox(width: 10.w),
                             SizedBox(
-                              height: 10.h,
+                              height: 20.h,
                               child: Image.asset("assets/images/youtube.png"),
                             ),
                           ],
