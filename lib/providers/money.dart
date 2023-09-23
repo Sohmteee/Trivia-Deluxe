@@ -32,7 +32,7 @@ class MoneyProvider extends ChangeNotifier {
   }
 
   decreaseCoins(int value) {
-    if (coins + value > 0) {
+    if (coins - value > 0) {
       _coins -= value;
     }
 
