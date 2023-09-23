@@ -32,15 +32,7 @@ showFailedDialog(context, questionIndex) {
                     Container(
                       padding: EdgeInsets.all(30.sp),
                       decoration: BoxDecoration(
-                        color: Colors.white,
-                        gradient: LinearGradient(
-                          colors: [
-                            Colors.white,
-                            Colors.grey[300]!,
-                          ],
-                          begin: Alignment.topLeft,
-                          end: Alignment.bottomRight,
-                        ),
+                        color: Colors.grey[300]!,
                         // borderRadius: BorderRadius.circular(20.r),
                         shape: BoxShape.circle,
                       ),
