@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/data/questions.dart';
 
@@ -27,7 +28,14 @@ showFailedDialog(context, questionIndex) {
                 ),
                 child: Column(
                   children: [
-                    Image.asset(dialog["image"]),
+                    Container(
+                      padding: EdgeInsets.all(value),
+                      decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(20.r),
+                      ),
+                      child: Image.asset(dialog["image"]),
+                    ),
                   ],
                 ),
               ),
