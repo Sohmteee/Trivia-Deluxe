@@ -5,7 +5,7 @@ showFailedDialog(context) {
       context: context,
       builder: (context) {
         return Dialog(
-          
+          child: ,
         );
       });
 }
