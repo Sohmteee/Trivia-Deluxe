@@ -53,7 +53,7 @@ showAdDialog(context) {
                     SizedBox(height: 20.h),
                     ZoomTapAnimation(
                       onTap: () {
-                        Navigator.pop(context);
+                        Navigator.pushReplacementNamed(context, "/level");
                       },
                       child: Container(
                         width: double.maxFinite,
