@@ -52,7 +52,9 @@ showAdDialog(context) {
                     ),
                     SizedBox(height: 20.h),
                     ZoomTapAnimation(
-                      onTap: () {},
+                      onTap: () {
+                        moneyProvider.increaseCoins(value)
+                      },
                       child: Container(
                         width: double.maxFinite,
                         padding: EdgeInsets.symmetric(
