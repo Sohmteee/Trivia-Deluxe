@@ -65,7 +65,17 @@ showFailedDialog(context, questionIndex) {
                         ),
                       ),
                     ),
-                    ZoomTapAnimation(child: Container(child: Text("Revive"),))
+                    ZoomTapAnimation(
+                      child: Container(
+                        padding: EdgeInsets.all(10.sp),
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(20.r),
+
+                        ),
+                        child: Text("Revive"),
+                      ),
+                    ),
                   ],
                 ),
               ),
