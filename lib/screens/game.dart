@@ -234,7 +234,23 @@ class _GameScreenState extends State<GameScreen> {
                   begin: 20,
                   end: 0,
                 ),
-          )
+          ),
+          ConfettiWidget(
+            confettiController: confettiController,
+            blastDirection: pi,
+            emissionFrequency: 0.6,
+            minimumSize: const Size(10, 10),
+            maximumSize: const Size(10, 10),
+            numberOfParticles: 1,
+            colors: const [
+              Colors.green,
+              Colors.blue,
+              Colors.pink,
+              Colors.orange,
+              Colors.purple,
+            ],
+            // createParticlePath: drawStar,
+          ),
         ],
       ),
     );
