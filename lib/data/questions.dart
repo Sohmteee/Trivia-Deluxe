@@ -49,6 +49,12 @@ List questionsData = [
   },
   {
     "question": "Which of the following birds cannot fly?",
+    "diaog": {
+      "image": "assets/images/earth.png",
+      "title": "There are SEVEN continents in the world",
+      "content":
+          "They include North America, South America, Africa, Asia, Europe, Australia and Antartica."
+    },
     "options": [
       {
         "text": "Chicken",
