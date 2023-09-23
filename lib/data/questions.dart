@@ -4,7 +4,9 @@ List questionsData = [
   {
     "question": "How many continents are there in the world?",
     "diaog": {
-      "image": ""
+      "image": "assets/images/earth.png",
+      "title": "There are SEVEN continents in the world",
+      "content": ""
     },
     "options": [
       {
