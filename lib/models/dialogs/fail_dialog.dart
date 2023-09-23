@@ -30,7 +30,7 @@ showFailedDialog(context, questionIndex, bool timeUp) {
                 insetAnimationCurve: Curves.bounceInOut,
                 insetAnimationDuration: const Duration(milliseconds: 300),
                 child: Container(
-                  padding: const EdgeInsets.fromLTRB(20, 20, 20, 40),
+                  padding: const EdgeInsets.fromLTRB(20, (timeUp != false)20, 20, 40),
                   decoration: BoxDecoration(
                     color: AppColor.lightRed,
                     borderRadius: BorderRadius.circular(20),
