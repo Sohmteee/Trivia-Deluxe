@@ -6,7 +6,7 @@ List questionsData = [
     "diaog": {
       "image": "assets/images/earth.png",
       "title": "There are SEVEN continents in the world",
-      "content": ""
+      "content": "They include North America, South America, Africa, Asia, Europe, Australia and Antartica."
     },
     "options": [
       {
