@@ -1,2 +1,2 @@
-int cash = 1280;
-int coins = 60;
+int cash = 0;
+int coins = 10;
