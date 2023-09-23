@@ -2,6 +2,7 @@ import 'package:blur/blur.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:trivia/colors/app_color.dart';
+import 'package:trivia/models/pop_scope.dart';
 
 class GameBackground extends StatefulWidget {
   const GameBackground({
@@ -18,10 +19,6 @@ class GameBackground extends StatefulWidget {
 class _GameBackgroundState extends State<GameBackground> {
   @override
   Widget build(BuildContext context) {
-    Future<bool> onWillPop() async {
-      return false;
-    }
-
     return WillPopScope(
       onWillPop: onWillPop,
       child: Scaffold(
