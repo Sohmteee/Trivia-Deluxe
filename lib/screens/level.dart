@@ -105,8 +105,8 @@ class _LevelScreenState extends State<LevelScreen> {
                   )
                 : ZoomTapAnimation(
                     onTap: () {
-                      levelProvider.resetCompletedLevel();
                       Navigator.pushReplacementNamed(context, "/menu");
+                      levelProvider.resetCompletedLevel();
                     },
                     child: SizedBox(
                       height: 80.h,
