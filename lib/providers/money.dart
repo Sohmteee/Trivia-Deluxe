@@ -1,14 +1,27 @@
 import 'package:flutter/material.dart';
 
-class MoneyProvider extends ChangeNotifier{
-  int _cash = 1280;
-  int _coins = 60;
+class MoneyProvider extends ChangeNotifier {
+   int _cash = 1280;
+   int _coins = 60;
 
   int get cash => _cash;
   int get coins => _coins;
 
   increaseCash(int value) {
-    if (cash + value)
+    if (cash + value < 5000) {
+      _cash += value;
+    }
   }
 
+  decreaseCash(int value) {
+    if (cash - value > 0) {
+      _cash += value;
+    }
+  }
+
+  increaseCoins(int value) {
+    if (coins + value < 5000) {
+      _coins += value;
+    }
+  }
 }
