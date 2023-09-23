@@ -53,7 +53,8 @@ List questionsData = [
       "image": "assets/images/ostrich.png",
       "title": "An OSTRICH can't fly",
       "content":
-          "An ostrich, which is also the largest bird, ca"
+          "An ostrich, which is also the largest bird, is too heavy to fly."
+          "\nA chicken however, does fly but only seldmomly"
     },
     "options": [
       {
@@ -96,6 +97,12 @@ List questionsData = [
   },
   {
     "question": "What can stay at a corner and travel the whole world?",
+    "diaog": {
+      "image": "assets/images/earth.png",
+      "title": "There are SEVEN continents in the world",
+      "content":
+          "They include North America, South America, Africa, Asia, Europe, Australia and Antartica."
+    },
     "options": [
       {
         "text": "A parked car",
