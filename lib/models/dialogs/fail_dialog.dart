@@ -70,7 +70,7 @@ showFailedDialog(context, questionIndex) {
                     SizedBox(height: 20.h),
                     ZoomTapAnimation(
                       onTap: () {
-                        if (moneyProvider.coins - 5 > 0) {
+                        if (moneyProvider.coins - 5 >= 0) {
                           moneyProvider.decreaseCoins(5);
                         } else {
                           Navigator.pop(context);
