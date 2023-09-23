@@ -33,7 +33,8 @@ showFailedDialog(context, questionIndex) {
                       padding: EdgeInsets.all(30.sp),
                       decoration: BoxDecoration(
                         color: Colors.white,
-                        borderRadius: BorderRadius.circular(20.r),
+                        // borderRadius: BorderRadius.circular(20.r),
+                        shape: BoxShape.circle,
                       ),
                       child: Image.asset(dialog["image"]),
                     ),
