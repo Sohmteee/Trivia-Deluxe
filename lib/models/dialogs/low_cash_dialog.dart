@@ -69,30 +69,15 @@ showLowCashDialog(context, questionIndex) {
                           mainAxisSize: MainAxisSize.min,
                           children: [
                             Text(
-                              "Omo I broke too in real life ... Carry me go store abeg ",
+                              "Carry me go store abeg ",
                               style: TextStyle(
                                 fontSize: 25.sp,
                               ),
                             ),
                             SizedBox(width: 10.w),
-                            Stack(
-                              clipBehavior: Clip.none,
-                              children: [
-                                SizedBox(
-                                  height: 20.h,
-                                  child: Image.asset("assets/images/coin.png"),
-                                ),
-                                Positioned(
-                                  top: -5,
-                                  right: -6,
-                                  child: Text(
-                                    "\u00d75",
-                                    style: TextStyle(
-                                      fontSize: 20.sp,
-                                    ),
-                                  ),
-                                ),
-                              ],
+                            SizedBox(
+                              height: 20.h,
+                              child: Image.asset("assets/images/coin.png"),
                             ),
                           ],
                         ),
