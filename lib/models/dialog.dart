@@ -4,6 +4,7 @@ import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/data/questions.dart';
 import 'package:trivia/providers/money.dart';
+import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 showFailedDialog(context, questionIndex) {
   showDialog(
@@ -64,6 +65,7 @@ showFailedDialog(context, questionIndex) {
                         ),
                       ),
                     ),
+                    ZoomTapAnimation(child: Container(child: Text("Revive"),))
                   ],
                 ),
               ),
