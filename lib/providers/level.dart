@@ -2,18 +2,18 @@ import 'package:flutter/material.dart';
 
 class LevelProvider extends ChangeNotifier {
   int _completedLevel = 0;
-  get 
+  get completedLevel => _completedLevel;
 
   void incrementCompletedLevel() {
     if (completedLevel < 3) {
-      completedLevel++;
+      _completedLevel++;
     } else {
-      completedLevel = 0;
+      _completedLevel = 0;
     }
     notifyListeners();
   }
 
   void resetCompletedLevel() {
-    completedLevel = 0;
+    _completedLevel = 0;
   }
 }
