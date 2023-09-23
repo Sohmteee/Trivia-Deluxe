@@ -14,9 +14,7 @@ showAdDialog(context) {
             dialogBackgroundColor: Colors.transparent,
           ),
           child: Consumer<MoneyProvider>(builder: (context, moneyProvider, _) {
-            Future<bool> onWillPop() async {
-              return false; 
-            }
+            
             return WillPopScope(
               onWillPop: () => onWillPop(),
               child: Dialog(
