@@ -38,7 +38,7 @@ class _GameScreenState extends State<GameScreen> {
   @override
   void dispose() {
     confettiController.dispose();
-
+    countDownController.reset();
     super.dispose();
   }
 
