@@ -28,41 +28,37 @@ class _GameStatsState extends State<GameStats> {
       return Row(
         children: [
           if (widget.showHome ?? true != false)
-            Row(
-              children: [
-                GestureDetector(
-                  onTapDown: (details) {
-                    Navigator.pushNamedAndRemoveUntil(
-                        context, "/menu", (route) => false);
-                  },
-                  child: Container(
-                    padding: EdgeInsets.all(2.sp),
-                    decoration: BoxDecoration(
-                      color: Colors.white,
-                      shape: BoxShape.circle,
-                      border: Border.all(
-                        color: AppColor.lightRed,
-                        width: 2.sp,
-                      ),
-                      gradient: LinearGradient(
-                        colors: [
-                          AppColor.lightRed,
-                          AppColor.darkRed,
-                        ],
-                        begin: Alignment.topLeft,
-                        end: Alignment.bottomRight,
-                      ),
-                    ),
-                    child: Icon(
-                      Icons.home_rounded,
-                      size: 18.sp,
-                      color: AppColor.levelYellow,
-                    ),
+            GestureDetector(
+              onTapDown: (details) {
+                Navigator.pushNamedAndRemoveUntil(
+                    context, "/menu", (route) => false);
+              },
+              child: Container(
+                padding: EdgeInsets.all(2.sp),
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  shape: BoxShape.circle,
+                  border: Border.all(
+                    color: AppColor.lightRed,
+                    width: 2.sp,
+                  ),
+                  gradient: LinearGradient(
+                    colors: [
+                      AppColor.lightRed,
+                      AppColor.darkRed,
+                    ],
+                    begin: Alignment.topLeft,
+                    end: Alignment.bottomRight,
                   ),
                 ),
-                const Spacer(flex: 4),
-              ],
+                child: Icon(
+                  Icons.home_rounded,
+                  size: 18.sp,
+                  color: AppColor.levelYellow,
+                ),
+              ),
             ),
+          const Spacer(flex: 4),
           Container(
             height: 20.h,
             padding: EdgeInsets.all(2.sp),
@@ -84,7 +80,7 @@ class _GameStatsState extends State<GameStats> {
             ),
             child: Image.asset("assets/images/money.png"),
           ),
-          SizedBox(width: 10.w),
+          const Spacer(),
           Container(
             height: 20.h,
             width: 60.w,
@@ -162,7 +158,7 @@ class _GameStatsState extends State<GameStats> {
             ),
             child: Image.asset("assets/images/coin.png"),
           ),
-          SizedBox(width: 10.w),
+          const Spacer(),
           Container(
             height: 20.h,
             width: 60.w,
