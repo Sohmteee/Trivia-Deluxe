@@ -45,6 +45,7 @@ class _GameScreenState extends State<GameScreen> {
   @override
   Widget build(BuildContext context) {
     return GameBackground(
+      
       body: Consumer<QuestionProvider>(
         builder: (context, questionProvider, _) {
           questionProvider.initQuestionProvider(context);
