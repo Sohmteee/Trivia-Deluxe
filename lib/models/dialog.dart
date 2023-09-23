@@ -37,7 +37,15 @@ showFailedDialog(context, questionIndex) {
                       ),
                       child: Image.asset(dialog["image"]),
                     ),
-                    
+                    SizedBox(height: 20.h),
+                    Text(
+                      dialog["title"],
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 40.sp,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
                   ],
                 ),
               ),
