@@ -18,7 +18,7 @@ showLowCashDialog(context) {
           ),
           child: Consumer<MoneyProvider>(builder: (context, moneyProvider, _) {
             return WillPopScope(
-              onWillPop: onWillPop,
+              onWillPop: () => onWillPop(context),
               child: Dialog(
                 elevation: 0,
                 shadowColor: Colors.transparent,

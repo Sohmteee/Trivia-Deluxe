@@ -22,7 +22,7 @@ showFailedDialog(context, questionIndex, bool timeUp) {
           ),
           child: Consumer<MoneyProvider>(builder: (context, moneyProvider, _) {
             return WillPopScope(
-              onWillPop: onWillPop(context),
+              onWillPop: ()=> onWillPop(context),
               child: Dialog(
                 elevation: 0,
                 shadowColor: Colors.transparent,

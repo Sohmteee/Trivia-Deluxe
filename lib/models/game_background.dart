@@ -1,7 +1,6 @@
 import 'package:blur/blur.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:toast/toast.dart';
 import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/models/pop_scope.dart';
 
@@ -26,7 +25,7 @@ class _GameBackgroundState extends State<GameBackground> {
   @override
   Widget build(BuildContext context) {
     return WillPopScope(
-      onWillPop: onWillPop,
+      onWillPop: () => onWillPop(context),
       child: Scaffold(
         body: Stack(
           children: [
