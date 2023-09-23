@@ -12,25 +12,27 @@ showFailedDialog(context, questionIndex) {
           data: Theme.of(context).copyWith(
             dialogBackgroundColor: Colors.transparent,
           ),
-          child: Dialog(
-            elevation: 0,
-            shadowColor: Colors.transparent,
-            clipBehavior: Clip.antiAliasWithSaveLayer,
-            insetAnimationCurve: Curves.bounceInOut,
-            insetAnimationDuration: const Duration(milliseconds: 300),
-            child: Container(
-              padding: const EdgeInsets.fromLTRB(20, 20, 20, 40),
-              decoration: BoxDecoration(
-                color: AppColor.darkRed,
-                borderRadius: BorderRadius.circular(20),
+          child: StatefulBuilder(builder: (context, setState) {
+            return Dialog(
+              elevation: 0,
+              shadowColor: Colors.transparent,
+              clipBehavior: Clip.antiAliasWithSaveLayer,
+              insetAnimationCurve: Curves.bounceInOut,
+              insetAnimationDuration: const Duration(milliseconds: 300),
+              child: Container(
+                padding: const EdgeInsets.fromLTRB(20, 20, 20, 40),
+                decoration: BoxDecoration(
+                  color: AppColor.darkRed,
+                  borderRadius: BorderRadius.circular(20),
+                ),
+                child: Column(
+                  children: [
+                    Image.asset(dialog["image"]),
+                  ],
+                ),
               ),
-              child: Column(
-                children: [
-                  Image.asset(dialog["image"]),
-                ],
-              ),
-            ),
-          ),
+            );
+          }),
         );
       });
 }
