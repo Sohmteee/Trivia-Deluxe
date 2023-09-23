@@ -105,9 +105,14 @@ showFailedDialog(context, questionIndex) {
                               ],
                             ),
                           ],
-                        ).animate().shimmer(
-                          delay: ,
-                        ),
+                        )
+                            .animate(
+                              onPlay: (controller) => controller.repeat(),
+                            )
+                            .shimmer(
+                              delay: 2.seconds,
+                              duration: .5.seconds,
+                            ),
                       ),
                     ),
                   ],
