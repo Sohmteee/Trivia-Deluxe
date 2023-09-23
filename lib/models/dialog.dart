@@ -36,8 +36,10 @@ showFailedDialog(context, questionIndex) {
                         gradient: LinearGradient(
                           colors: [
                             Colors.white,
-                            Colors.grey[400]!,
+                            Colors.grey[300]!,
                           ],
+                          begin: Alignment.topLeft,
+                          end: Alignment.bottomRight,
                         ),
                         // borderRadius: BorderRadius.circular(20.r),
                         shape: BoxShape.circle,
