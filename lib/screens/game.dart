@@ -53,8 +53,7 @@ class _GameScreenState extends State<GameScreen> {
             children: [
               ConfettiWidget(
                 confettiController: confettiController,
-
-                blastDirection: -.4,
+                blastDirection: 1,
                 emissionFrequency: 0.6,
                 minimumSize: const Size(10, 10),
                 maximumSize: const Size(10, 10),
