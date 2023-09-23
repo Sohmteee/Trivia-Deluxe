@@ -51,22 +51,6 @@ class _GameScreenState extends State<GameScreen> {
 
           return Column(
             children: [
-              ConfettiWidget(
-                confettiController: confettiController,
-                blastDirection: 1,
-                emissionFrequency: 0.6,
-                minimumSize: const Size(10, 10),
-                maximumSize: const Size(10, 10),
-                numberOfParticles: 1,
-                colors: const [
-                  Colors.green,
-                  Colors.blue,
-                  Colors.pink,
-                  Colors.orange,
-                  Colors.purple,
-                ],
-                // createParticlePath: drawStar,
-              ),
               Padding(
                 padding: EdgeInsets.symmetric(
                   horizontal: 40.w,
