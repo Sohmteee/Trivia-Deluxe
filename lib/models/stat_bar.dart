@@ -84,7 +84,7 @@ class _GameStatsState extends State<GameStats> {
           SizedBox(width: 10.w),
           ZoomTapAnimation(
             onTap: () {
-              moneyProvider.increaseCash(20);
+              moneyProvider.increaseCash(100);
             },
             child: Container(
               height: 20.h,
@@ -165,59 +165,64 @@ class _GameStatsState extends State<GameStats> {
             child: Image.asset("assets/images/coin.png"),
           ),
           SizedBox(width: 10.w),
-          Container(
-            height: 20.h,
-            width: 60.w,
-            decoration: BoxDecoration(
-              color: Colors.white,
-              border: Border.all(
-                color: AppColor.lightRed,
-                width: 2.sp,
-              ),
-              borderRadius: BorderRadius.circular(15.r),
-              gradient: LinearGradient(
-                colors: [
-                  AppColor.lightRed,
-                  AppColor.darkRed,
-                ],
-                begin: Alignment.topLeft,
-                end: Alignment.bottomRight,
-              ),
-            ),
-            child: Row(
-              children: [
-                Expanded(
-                  child: Center(
-                    child: Text(
-                      moneyProvider.coins.toString(),
-                      style: const TextStyle(
-                        color: Colors.yellow,
-                      ),
-                    ),
-                  ),
+          ZoomTapAnimation(
+            onTap: () {
+              moneyProvider.increaseCoins(10);
+            },
+            child: Container(
+              height: 20.h,
+              width: 60.w,
+              decoration: BoxDecoration(
+                color: Colors.white,
+                border: Border.all(
+                  color: AppColor.lightRed,
+                  width: 2.sp,
                 ),
-                Container(
-                  width: 18.w,
-                  padding: EdgeInsets.symmetric(vertical: 3.sp),
-                  decoration: BoxDecoration(
-                    color: Colors.green,
-                    borderRadius: BorderRadius.horizontal(
-                      right: Radius.circular(8.r),
+                borderRadius: BorderRadius.circular(15.r),
+                gradient: LinearGradient(
+                  colors: [
+                    AppColor.lightRed,
+                    AppColor.darkRed,
+                  ],
+                  begin: Alignment.topLeft,
+                  end: Alignment.bottomRight,
+                ),
+              ),
+              child: Row(
+                children: [
+                  Expanded(
+                    child: Center(
+                      child: Text(
+                        moneyProvider.coins.toString(),
+                        style: const TextStyle(
+                          color: Colors.yellow,
+                        ),
+                      ),
                     ),
                   ),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceAround,
-                    children: [
-                      Icon(
-                        Icons.add,
-                        size: 13.sp,
-                        color: AppColor.white,
+                  Container(
+                    width: 18.w,
+                    padding: EdgeInsets.symmetric(vertical: 3.sp),
+                    decoration: BoxDecoration(
+                      color: Colors.green,
+                      borderRadius: BorderRadius.horizontal(
+                        right: Radius.circular(8.r),
                       ),
-                      const SizedBox(),
-                    ],
-                  ),
-                )
-              ],
+                    ),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceAround,
+                      children: [
+                        Icon(
+                          Icons.add,
+                          size: 13.sp,
+                          color: AppColor.white,
+                        ),
+                        const SizedBox(),
+                      ],
+                    ),
+                  )
+                ],
+              ),
             ),
           ),
           if (widget.showHome ?? true != false) const Spacer(flex: 4),
