@@ -30,7 +30,7 @@ showFailedDialog(context, questionIndex) {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     Container(
-                      padding: EdgeInsets.all(10.sp),
+                      padding: EdgeInsets.all(30.sp),
                       decoration: BoxDecoration(
                         color: Colors.white,
                         borderRadius: BorderRadius.circular(20.r),
