@@ -59,7 +59,7 @@ class QuestionProvider extends ChangeNotifier {
 
     if (questionIndex < 3) {
       final levelProvider = Provider.of<LevelProvider>(context, listen: false);
-      Future.delayed((options[index]["value"] == true) ? 4.seconds : 1.seconds,
+      Future.delayed((options[index]["value"] == true) ? 6.seconds : 1.seconds,
           () {
         if (options[index]["value"] == true) {
           levelProvider.incrementCompletedLevel();
