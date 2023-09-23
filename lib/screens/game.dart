@@ -44,97 +44,105 @@ class _GameScreenState extends State<GameScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return GameBackground(
-      
-      body: Consumer<QuestionProvider>(
-        builder: (context, questionProvider, _) {
-          questionProvider.initQuestionProvider(context);
+    Future<bool> onWillPop() async {
+      return false;
+    }
 
-          return Stack(
-            alignment: Alignment.topCenter,
-            clipBehavior: Clip.none,
-            children: [
-              Column(
-                children: [
-                  Padding(
-                    padding: EdgeInsets.symmetric(
-                      horizontal: 40.w,
-                      vertical: 40.h,
-                    ),
-                    child: const GameStats(showHome: false,),
-                  ),
-                  buildQuestion(),
-                  Expanded(
-                    child: ListView.builder(
-                      itemCount: 4,
+    return WillPopScope(
+      onWillPop: onWillPop,
+      child: GameBackground(
+        body: Consumer<QuestionProvider>(
+          builder: (context, questionProvider, _) {
+            questionProvider.initQuestionProvider(context);
+
+            return Stack(
+              alignment: Alignment.topCenter,
+              clipBehavior: Clip.none,
+              children: [
+                Column(
+                  children: [
+                    Padding(
                       padding: EdgeInsets.symmetric(
-                          horizontal: 25.w, vertical: 30.h),
-                      physics: const NeverScrollableScrollPhysics(),
-                      itemBuilder: (BuildContext context, int index) {
-                        return ZoomTapAnimation(
-                                onTap: () {
-                                  countDownController.pause();
-
-                                  if (questionProvider.options[index]
-                                          ["value"] ==
-                                      true) {
-                                    confettiController.play();
-                                  }
-                                  questionProvider.checkCorrectAnswer(
-                                      context, index);
-                                },
-                                child: Container(
-                                  margin: EdgeInsets.only(bottom: 20.h),
-                                  padding: EdgeInsets.all(15.sp),
-                                  width: double.maxFinite,
-                                  decoration: BoxDecoration(
-                                    color: AppColor.yellow,
-                                    borderRadius: BorderRadius.circular(10.r),
-                                    gradient: LinearGradient(
-                                      colors: questionProvider.options[index]
-                                          ["colors"],
-                                      begin: Alignment.topCenter,
-                                      end: Alignment.bottomCenter,
-                                    ),
-                                  ),
-                                  child: Text(
-                                    "${optionLetter(index)}:  ${questionProvider.options[index]["text"]}",
-                                    style: TextStyle(
-                                      color: AppColor.white,
-                                      fontSize: 20.sp,
-                                    ),
-                                    textAlign: TextAlign.start,
-                                  ),
-                                )).animate().slideY(
-                              delay: 2.5.seconds,
-                              duration: (300 + (index * 100)).milliseconds,
-                              begin: 10,
-                              end: 0,
-                            );
-                      },
+                        horizontal: 40.w,
+                        vertical: 40.h,
+                      ),
+                      child: const GameStats(
+                        showHome: false,
+                      ),
                     ),
-                  ),
-                ],
-              ),
-              ConfettiWidget(
-                confettiController: confettiController,
-                blastDirectionality: BlastDirectionality.explosive,
-                emissionFrequency: 0.6,
-                minimumSize: const Size(10, 10),
-                maximumSize: const Size(10, 10),
-                numberOfParticles: 5,
-                colors: const [
-                  Colors.green,
-                  Colors.blue,
-                  Colors.pink,
-                  Colors.orange,
-                  Colors.purple,
-                ],
-                // createParticlePath: drawStar,
-              ),
-            ],
-          );
-        },
+                    buildQuestion(),
+                    Expanded(
+                      child: ListView.builder(
+                        itemCount: 4,
+                        padding: EdgeInsets.symmetric(
+                            horizontal: 25.w, vertical: 30.h),
+                        physics: const NeverScrollableScrollPhysics(),
+                        itemBuilder: (BuildContext context, int index) {
+                          return ZoomTapAnimation(
+                                  onTap: () {
+                                    countDownController.pause();
+
+                                    if (questionProvider.options[index]
+                                            ["value"] ==
+                                        true) {
+                                      confettiController.play();
+                                    }
+                                    questionProvider.checkCorrectAnswer(
+                                        context, index);
+                                  },
+                                  child: Container(
+                                    margin: EdgeInsets.only(bottom: 20.h),
+                                    padding: EdgeInsets.all(15.sp),
+                                    width: double.maxFinite,
+                                    decoration: BoxDecoration(
+                                      color: AppColor.yellow,
+                                      borderRadius: BorderRadius.circular(10.r),
+                                      gradient: LinearGradient(
+                                        colors: questionProvider.options[index]
+                                            ["colors"],
+                                        begin: Alignment.topCenter,
+                                        end: Alignment.bottomCenter,
+                                      ),
+                                    ),
+                                    child: Text(
+                                      "${optionLetter(index)}:  ${questionProvider.options[index]["text"]}",
+                                      style: TextStyle(
+                                        color: AppColor.white,
+                                        fontSize: 20.sp,
+                                      ),
+                                      textAlign: TextAlign.start,
+                                    ),
+                                  )).animate().slideY(
+                                delay: 2.5.seconds,
+                                duration: (300 + (index * 100)).milliseconds,
+                                begin: 10,
+                                end: 0,
+                              );
+                        },
+                      ),
+                    ),
+                  ],
+                ),
+                ConfettiWidget(
+                  confettiController: confettiController,
+                  blastDirectionality: BlastDirectionality.explosive,
+                  emissionFrequency: 0.6,
+                  minimumSize: const Size(10, 10),
+                  maximumSize: const Size(10, 10),
+                  numberOfParticles: 5,
+                  colors: const [
+                    Colors.green,
+                    Colors.blue,
+                    Colors.pink,
+                    Colors.orange,
+                    Colors.purple,
+                  ],
+                  // createParticlePath: drawStar,
+                ),
+              ],
+            );
+          },
+        ),
       ),
     );
   }
