@@ -68,7 +68,7 @@ showLowCashDialog(context) {
                             Text(
                               "Carry me go store abeg",
                               style: TextStyle(
-                                fontSize: 25.sp,
+                                fontSize: 15.sp,
                               ),
                             ),
                             SizedBox(width: 10.w),
@@ -126,14 +126,13 @@ showLowCashDialog(context) {
                             Text(
                               "Omo I'm broke in real life too",
                               style: TextStyle(
-                                fontSize: 25.sp,
+                                fontSize: 15.sp,
                               ),
                             ),
                             SizedBox(width: 10.w),
                             SizedBox(
                               height: 20.h,
-                              child:
-                                  Image.asset("assets/images/sick.png"),
+                              child: Image.asset("assets/images/sick.png"),
                             ),
                           ],
                         ),
