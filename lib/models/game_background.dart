@@ -24,15 +24,12 @@ class _GameBackgroundState extends State<GameBackground> {
 
   @override
   Widget build(BuildContext context) {
-    return WillPopScope(
-      onWillPop: () => onWillPop(context),
-      child: Scaffold(
-        body: Stack(
-          children: [
-            buildBlurBackground(),
-            widget.body,
-          ],
-        ),
+    return Scaffold(
+      body: Stack(
+        children: [
+          buildBlurBackground(),
+          widget.body,
+        ],
       ),
     );
   }
