@@ -74,8 +74,7 @@ showAdDialog(context) {
                             SizedBox(width: 10.w),
                             SizedBox(
                               height: 20.h,
-                              child:
-                                  Image.asset("assets/images/debit-card.png"),
+                              child: Image.asset("assets/images/youtube.png"),
                             ),
                           ],
                         ),

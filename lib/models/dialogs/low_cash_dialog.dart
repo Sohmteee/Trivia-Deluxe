@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
+import 'package:trivia/models/dialogs/ad_dialog.dart';
 import 'package:trivia/providers/money.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
@@ -23,7 +24,6 @@ showLowCashDialog(context) {
               child: Container(
                 padding: const EdgeInsets.fromLTRB(20, 40, 20, 60),
                 decoration: BoxDecoration(
-                  color: AppColor.lightRed,
                   color: AppColor.lightRed,
                   borderRadius: BorderRadius.circular(20),
                 ),
@@ -113,7 +113,10 @@ showLowCashDialog(context) {
                     ,
                     SizedBox(height: 10.h),
                     ZoomTapAnimation(
-                      onTap: () {},
+                      onTap: () {
+                        Navigator.pop(context);
+                        showAdDialog(context);
+                      },
                       child: Container(
                         width: double.maxFinite,
                         padding: EdgeInsets.symmetric(
