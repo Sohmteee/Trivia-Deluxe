@@ -30,7 +30,7 @@ showAdDialog(context) {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     Text(
-                      "Sapa don catch you even for game 😂",
+                      "Oya another option dey",
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 25.sp,
@@ -42,7 +42,7 @@ showAdDialog(context) {
                     Padding(
                       padding: EdgeInsets.symmetric(horizontal: 15.w),
                       child: Text(
-                        "Would you like to top up?",
+                        "Would you like to watch an ad instead?",
                         style: TextStyle(
                           color: Colors.grey[400],
                           fontSize: 20.sp,
@@ -66,7 +66,7 @@ showAdDialog(context) {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Text(
-                              "Carry me go store abeg",
+                              "Okay I fit do that one",
                               style: TextStyle(
                                 fontSize: 15.sp,
                               ),
@@ -126,7 +126,7 @@ showAdDialog(context) {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Text(
-                              "Omo I'm broke in real life too",
+                              "Omo I dey manage my data too",
                               style: TextStyle(
                                 fontSize: 15.sp,
                               ),
