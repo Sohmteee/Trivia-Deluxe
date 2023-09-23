@@ -70,7 +70,7 @@ showLowCashDialog(context, questionIndex) {
                           mainAxisSize: MainAxisSize.min,
                           children: [
                             Text(
-                              "Omo ",
+                              "Omo I broke too in real life ... Carry me go store abeg ",
                               style: TextStyle(
                                 fontSize: 25.sp,
                               ),
