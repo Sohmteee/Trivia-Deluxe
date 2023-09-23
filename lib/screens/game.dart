@@ -9,7 +9,6 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/data/controllers.dart';
-import 'package:trivia/models/dialog.dart';
 import 'package:trivia/models/game_background.dart';
 import 'package:trivia/models/stat_bar.dart';
 import 'package:trivia/providers/question.dart';
@@ -73,8 +72,6 @@ class _GameScreenState extends State<GameScreen> {
 
                         if (questionProvider.options[index]["value"] == true) {
                           confettiController.play();
-                        } else {
-                          showFailedDialog(context);
                         }
                         questionProvider.checkCorrectAnswer(context, index);
                       },

@@ -3,6 +3,7 @@ import 'package:flutter_animate/flutter_animate.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/data/questions.dart';
+import 'package:trivia/models/dialog.dart';
 import 'package:trivia/providers/level.dart';
 
 class QuestionProvider extends ChangeNotifier {
@@ -58,14 +59,14 @@ class QuestionProvider extends ChangeNotifier {
 
     if (questionIndex < 3) {
       final levelProvider = Provider.of<LevelProvider>(context, listen: false);
-      Future.delayed((options[index]["value"] == true) ? 4.seconds : 2.seconds,
+      Future.delayed((options[index]["value"] == true) ? 4.seconds : 1.seconds,
           () {
         if (options[index]["value"] == true) {
           levelProvider.incrementCompletedLevel();
           Navigator.pushReplacementNamed(context, "/level");
           questionIndex++;
         } else {
-          show
+          showFailedDialog(context);
         }
         resetOptions();
       });
