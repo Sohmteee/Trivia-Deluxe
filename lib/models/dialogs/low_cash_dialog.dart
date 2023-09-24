@@ -7,9 +7,11 @@ import 'package:trivia/models/pop_scope.dart';
 import 'package:trivia/providers/money.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
+import 'game_dialog.dart';
+
 showLowCashDialog(context) {
-  showDialog(
-      context: context,
+  showGameDialog(
+      context,
       barrierDismissible: false,
       builder: (context) {
         return Theme(
