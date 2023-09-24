@@ -23,6 +23,9 @@ showGameDialog(context, {required Widget child}) {
                 decoration: BoxDecoration(
                   color: AppColor.lightRed,
                   borderRadius: BorderRadius.circular(20),
+                  border: Border.all(
+                    color: Colors.white,
+                  ),
                 ),
                 child: child,
               ),
