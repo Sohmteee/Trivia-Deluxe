@@ -6,7 +6,7 @@ import 'package:trivia/models/pop_scope.dart';
 import 'package:trivia/providers/money.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
-showAdDialog(context) {
+showGameDialog(context, {required Widget child}) {
   showDialog(
       context: context,
       builder: (context) {
