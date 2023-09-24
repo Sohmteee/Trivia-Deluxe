@@ -843,7 +843,7 @@ List animalsData = [
   {
     "question": "What color is the beak of a mature mute swan?",
     "dialog": {
-      "image": "assets/images/earth.png",
+      "image": "assets/images/swan.png",
       "title": "Orange",
       "content": "Mute Swans are known for their white bodies with an orange "
           "beak that has a black base",
