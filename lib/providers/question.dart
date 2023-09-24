@@ -64,20 +64,20 @@ class QuestionProvider extends ChangeNotifier {
       }
     }
 
-    if (questionIndex < 3) {
-      final levelProvider = Provider.of<LevelProvider>(context, listen: false);
-      Future.delayed((options[index]["value"] == true) ? 6.seconds : 1.seconds,
-          () {
-        if (options[index]["value"] == true) {
-          levelProvider.incrementCompletedLevel();
-          Navigator.pushReplacementNamed(context, "/level");
-        } else {
-          showFailedDialog(context, questionIndex, false);
-        }
-        
-        resetOptions();
-      });
-    }
+    final levelProvider = Provider.of<LevelProvider>(context, listen: false);
+
+    Future.delayed((options[index]["value"] == true) ? 6.seconds : 1.seconds,
+        () {
+      if (options[index]["value"] == true) {
+        levelProvider.incrementCompletedLevel();
+        Navigator.pushReplacementNamed(context, "/level");
+      } else {
+        showFailedDialog(context, questionIndex, false);
+      }
+
+      resetOptions();
+      questionIndex++;
+    });
 
     Future.delayed(.2.seconds, () {
       notifyListeners();
