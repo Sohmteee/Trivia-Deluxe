@@ -1,7 +1,10 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:trivia/colors/app_color.dart';
+import 'package:trivia/models/loader.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -11,10 +14,8 @@ class SplashScreen extends StatefulWidget {
 }
 
 class _SplashScreenState extends State<SplashScreen> {
-
   @override
   Widget build(BuildContext context) {
-
     return Scaffold(
       body: Container(
         decoration: const BoxDecoration(
@@ -69,26 +70,7 @@ class _SplashScreenState extends State<SplashScreen> {
                 const Spacer(flex: 2),
                 Padding(
                   padding: EdgeInsets.symmetric(horizontal: 25.w),
-                  child: Stack(
-                    children: [
-                      Container(
-                        width: 500.w,
-                        height: 20.h,
-                        decoration: BoxDecoration(
-                          color: AppColor.white,
-                          borderRadius: BorderRadius.circular(12.r),
-                        ),
-                      ),
-                      Container(
-                        width: 200.w,
-                        height: 18.h,
-                        decoration: BoxDecoration(
-                          color: AppColor.lightRed,
-                          borderRadius: BorderRadius.circular(12.r),
-                        ),
-                      ),
-                    ],
-                  ),
+                  child: const Loader(),
                 ),
                 const Spacer(),
               ],

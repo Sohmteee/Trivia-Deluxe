@@ -85,6 +85,7 @@ showFailedDialog(context, questionIndex, bool timeUp) {
                             moneyProvider.decreaseCoins(5);
                             Navigator.pushReplacementNamed(context, "/game");
                           } else {
+                            Navigator.pop(context);
                             showLowCashDialog(context);
                           }
                         },

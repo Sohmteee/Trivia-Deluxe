@@ -29,8 +29,8 @@ class _GameStatsState extends State<GameStats> {
       return Row(
         children: [
           if (widget.showHome ?? true != false)
-            GestureDetector(
-              onTapDown: (details) {
+            ZoomTapAnimation(
+              onTap: () {
                 Navigator.pushNamedAndRemoveUntil(
                     context, "/menu", (route) => false);
               },
@@ -81,7 +81,7 @@ class _GameStatsState extends State<GameStats> {
             ),
             child: Image.asset("assets/images/money.png"),
           ),
-          SizedBox(width: 10.w),
+          SizedBox(width: 5.w),
           ZoomTapAnimation(
             onTap: () {
               moneyProvider.increaseCash(100);
@@ -164,7 +164,7 @@ class _GameStatsState extends State<GameStats> {
             ),
             child: Image.asset("assets/images/coin.png"),
           ),
-          SizedBox(width: 10.w),
+          SizedBox(width: 5.w),
           ZoomTapAnimation(
             onTap: () {
               moneyProvider.increaseCoins(10);

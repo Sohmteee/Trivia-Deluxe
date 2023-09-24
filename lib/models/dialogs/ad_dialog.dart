@@ -85,34 +85,7 @@ showAdDialog(context) {
                           ),
                         ),
                       )
-                      /* .animate(
-                            onPlay: (controller) => controller.repeat(),
-                          )
-                          .shimmer(
-                            delay: 2.seconds,
-                            duration: .7.seconds,
-                          )
-                          .scaleXY(
-                            curve: Curves.easeOutSine,
-                            delay: 2.seconds,
-                            duration: .1.seconds,
-                            begin: 1,
-                            end: .8,
-                          )
-                          .then()
-                          .scaleXY(
-                            curve: Curves.easeOutSine,
-                            duration: .4.seconds,
-                            begin: .8,
-                            end: 1.2,
-                          )
-                          .then()
-                          .scaleXY(
-                            curve: Curves.bounceOut,
-                            duration: .2.seconds,
-                            begin: 1.2,
-                            end: 1,
-                          ) */
+                      
                       ,
                       SizedBox(height: 10.h),
                       ZoomTapAnimation(
@@ -144,34 +117,7 @@ showAdDialog(context) {
                           ),
                         ),
                       )
-                      /* .animate(
-                            onPlay: (controller) => controller.repeat(),
-                          )
-                          .shimmer(
-                            delay: 2.seconds,
-                            duration: .7.seconds,
-                          )
-                          .scaleXY(
-                            curve: Curves.easeOutSine,
-                            delay: 2.seconds,
-                            duration: .1.seconds,
-                            begin: 1,
-                            end: .8,
-                          )
-                          .then()
-                          .scaleXY(
-                            curve: Curves.easeOutSine,
-                            duration: .4.seconds,
-                            begin: .8,
-                            end: 1.2,
-                          )
-                          .then()
-                          .scaleXY(
-                            curve: Curves.bounceOut,
-                            duration: .2.seconds,
-                            begin: 1.2,
-                            end: 1,
-                          ) */
+                      
                       ,
                     ],
                   ),
