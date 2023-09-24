@@ -16,7 +16,7 @@ class QuestionProvider extends ChangeNotifier {
   void initQuestionProvider(context) {
     // final levelProvider = Provider.of<LevelProvider>(context, listen: false);
 
-    questionIndex = questionIndex < ;
+    questionIndex = questionIndex < 10 ? questionIndex + 1 : 0;
     question = questions[questionIndex]["question"];
     options = questions[questionIndex]["options"];
   }
