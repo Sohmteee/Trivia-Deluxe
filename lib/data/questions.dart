@@ -517,7 +517,7 @@ List animalsData = [
   {
     "question": "Which animal has no vocal cords?",
     "dialog": {
-      "image": "assets/images/earth.png",
+      "image": "assets/images/giraffe.png",
       "title": "Giraffes",
       "content": "While they do have a vocal box, giraffes have no vocal cords",
     },
