@@ -17,8 +17,8 @@ class QuestionProvider extends ChangeNotifier {
     // final levelProvider = Provider.of<LevelProvider>(context, listen: false);
 
     questionIndex ++;
-    question = questionsData[questionIndex]["question"];
-    options = questionsData[questionIndex]["options"];
+    question = questions[questionIndex]["question"];
+    options = questions[questionIndex]["options"];
   }
 
   void resetOptions() {

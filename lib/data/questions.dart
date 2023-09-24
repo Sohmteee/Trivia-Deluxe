@@ -937,7 +937,7 @@ List animalsData = [
   },
 ];
 
-List questionsData = [
+/* List questionsData = [
   {
     "question": "How many continents are there in the world?",
     "dialog": {
@@ -1086,3 +1086,4 @@ List questionsData = [
     ]
   },
 ];
+ */
