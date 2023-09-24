@@ -8,7 +8,7 @@ import 'package:trivia/providers/level.dart';
 
 class QuestionProvider extends ChangeNotifier {
   List questions = questionsData;
-  int questionIndex = 0;
+  int questionIndex = -1;
 
   String question = "";
   List<Map<String, dynamic>> options = [];
@@ -16,9 +16,7 @@ class QuestionProvider extends ChangeNotifier {
   void initQuestionProvider(context) {
     final levelProvider = Provider.of<LevelProvider>(context, listen: false);
 
-    questionIndex =
-            questionIndex == 0 ? 0 : l
-      questionIndex++;
+    questionIndex = questionIndex == 0 ? 0 : questionIndex++;
     question = questionsData[questionIndex]["question"];
     options = questionsData[questionIndex]["options"];
   }
