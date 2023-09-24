@@ -329,7 +329,7 @@ List riddlesData = [
   {
     "question": "What's is it that no-one wants but no-one wants to lose?",
     "dialog": {
-      "image": "assets/images/earth.png",
+      "image": "assets/images/judge.png",
       "title": "Lawsuit",
       "content": "Who would want to lose a lawsuit?",
     },
@@ -376,7 +376,7 @@ List riddlesData = [
     "question": "I am an odd number. Take away a letter an I become even. "
         "What am I?",
     "dialog": {
-      "image": "assets/images/earth.png",
+      "image": "assets/images/seven.png",
       "title": "Seven",
       "content": "Removing 's' from 'seven' makes it 'even'",
     },
