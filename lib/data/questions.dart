@@ -750,7 +750,7 @@ List animalsData = [
   {
     "question": "How long does it take for a sloth to digest its food?",
     "dialog": {
-      "image": "assets/images/earth.png",
+      "image": "assets/images/sloth.png",
       "title": "Two weeks",
       "content":
           "Sloths are the mammals that take the longest to digest their meals.",
