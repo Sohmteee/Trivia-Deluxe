@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
-import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/models/dialogs/ad_dialog.dart';
-import 'package:trivia/models/pop_scope.dart';
 import 'package:trivia/providers/money.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
@@ -11,8 +9,8 @@ import 'game_dialog.dart';
 
 showLowCashDialog(context) {
   showGameDialog(
-      context,
-      child: Column(
+    context,
+    child: Column(
       mainAxisSize: MainAxisSize.min,
       children: [
         Text(
@@ -37,41 +35,39 @@ showLowCashDialog(context) {
           ),
         ),
         SizedBox(height: 20.h),
-        Consumer<MoneyProvider>(
-          builder: (context, money) {
-            return ZoomTapAnimation(
-              onTap: () {
-                moneyProvider.increaseCoins(5);
-                Navigator.pushReplacementNamed(context, "/game");
-              },
-              child: Container(
-                width: double.maxFinite,
-                padding: EdgeInsets.symmetric(horizontal: 20.sp, vertical: 10.sp),
-                decoration: BoxDecoration(
-                  color: Colors.white,
-                  borderRadius: BorderRadius.circular(20.r),
-                ),
-                child: Row(
-                  mainAxisSize: MainAxisSize.min,
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Text(
-                      "Carry me go store abeg",
-                      style: TextStyle(
-                        fontSize: 15.sp,
-                      ),
-                    ),
-                    SizedBox(width: 10.w),
-                    SizedBox(
-                      height: 20.h,
-                      child: Image.asset("assets/images/debit-card.png"),
-                    ),
-                  ],
-                ),
+        Consumer<MoneyProvider>(builder: (context, moneyProvider, _) {
+          return ZoomTapAnimation(
+            onTap: () {
+              moneyProvider.increaseCoins(5);
+              Navigator.pushReplacementNamed(context, "/game");
+            },
+            child: Container(
+              width: double.maxFinite,
+              padding: EdgeInsets.symmetric(horizontal: 20.sp, vertical: 10.sp),
+              decoration: BoxDecoration(
+                color: Colors.white,
+                borderRadius: BorderRadius.circular(20.r),
               ),
-            );
-          }
-        )
+              child: Row(
+                mainAxisSize: MainAxisSize.min,
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Text(
+                    "Carry me go store abeg",
+                    style: TextStyle(
+                      fontSize: 15.sp,
+                    ),
+                  ),
+                  SizedBox(width: 10.w),
+                  SizedBox(
+                    height: 20.h,
+                    child: Image.asset("assets/images/debit-card.png"),
+                  ),
+                ],
+              ),
+            ),
+          );
+        })
         /* .animate(
                             onPlay: (controller) => controller.repeat(),
                           )
