@@ -797,7 +797,7 @@ List animalsData = [
   {
     "question": "How many bones does a shark have?",
     "dialog": {
-      "image": "assets/images/earth.png",
+      "image": "assets/images/shark.png",
       "title": "O bones!",
       "content": "Sharks have no bones, but have cartilaginous tissue instead.",
     },
