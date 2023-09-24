@@ -656,7 +656,7 @@ List animalsData = [
   {
     "question": "How many hearts does an octopus have?",
     "dialog": {
-      "image": "assets/images/earth.png",
+      "image": "assets/images/octopus.png",
       "title": "3 hearts",
       "content": "An octopus has 3 hearts, one to circulate blood and two "
           "to pump it pass its gills and pick up oxygen.",
