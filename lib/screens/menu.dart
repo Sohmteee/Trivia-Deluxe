@@ -37,6 +37,7 @@ class _MenuScreenState extends State<MenuScreen> {
                     padding: EdgeInsets.symmetric(horizontal: 50.w),
                     child: const GameStats(showHome: false),
                   ),
+                  
                   const Spacer(flex: 3),
                   Stack(
                     alignment: Alignment.center,
