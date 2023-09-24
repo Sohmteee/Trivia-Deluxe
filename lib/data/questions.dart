@@ -610,7 +610,7 @@ List animalsData = [
   {
     "question": "What is a female donkey called?",
     "dialog": {
-      "image": "assets/images/earth.png",
+      "image": "assets/images/donkey.png",
       "title": "A Jenny",
       "content": "Female donkeys are called a jenny or jennet",
     },
