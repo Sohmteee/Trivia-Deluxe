@@ -11,7 +11,7 @@ import 'game_dialog.dart';
 
 showLowCashDialog(context) {
   showGameDialog(
-      context: context,
+      context,
       barrierDismissible: false,
       builder: (context) {
         return Theme(
