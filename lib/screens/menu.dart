@@ -32,11 +32,10 @@ class _MenuScreenState extends State<MenuScreen> {
             child: Center(
               child: Column(
                 children: [
-                  SizedBox(height: 10.h),
                   Align(
                     alignment: Alignment.topRight,
                     child: Padding(
-                      padding:  EdgeInsets.all(20.sp),
+                      padding: EdgeInsets.all(20.sp),
                       child: ZoomTapAnimation(
                         onTap: () {
                           /* Navigator.pushNamedAndRemoveUntil(
