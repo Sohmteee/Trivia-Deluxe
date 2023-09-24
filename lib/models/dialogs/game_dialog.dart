@@ -12,8 +12,7 @@ showGameDialog(context, {required Widget child}) {
           data: Theme.of(context).copyWith(
             dialogBackgroundColor: Colors.transparent,
           ),
-          child: Consumer<MoneyProvider>(builder: (context, moneyProvider, _) {
-            return WillPopScope(
+          child: WillPopScope(
               onWillPop: () => onWillPop(context),
               child: Dialog(
                 elevation: 0,
