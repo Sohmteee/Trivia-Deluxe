@@ -227,8 +227,8 @@ class _GameStatsState extends State<GameStats> {
           ),
           if (widget.showHome ?? true != false) const Spacer(flex: 4),
           if (widget.showHome ?? true != false)
-            GestureDetector(
-              onTapDown: (details) {
+            ZoomTapAnimation(
+              onTap: () {
                 /* Navigator.pushNamedAndRemoveUntil(
                     context, "/menu", (route) => false); */
               },

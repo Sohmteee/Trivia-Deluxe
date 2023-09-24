@@ -33,7 +33,36 @@ class _MenuScreenState extends State<MenuScreen> {
               child: Column(
                 children: [
                   SizedBox(height: 10.h),
-                  
+                  ZoomTapAnimation(
+                    onTap: () {
+                      /* Navigator.pushNamedAndRemoveUntil(
+                    context, "/menu", (route) => false); */
+                    },
+                    child: Container(
+                      padding: EdgeInsets.all(2.sp),
+                      decoration: BoxDecoration(
+                        color: Colors.white,
+                        shape: BoxShape.circle,
+                        border: Border.all(
+                          color: AppColor.lightRed,
+                          width: 2.sp,
+                        ),
+                        gradient: LinearGradient(
+                          colors: [
+                            AppColor.lightRed,
+                            AppColor.darkRed,
+                          ],
+                          begin: Alignment.topLeft,
+                          end: Alignment.bottomRight,
+                        ),
+                      ),
+                      child: Icon(
+                        Icons.settings_rounded,
+                        size: 18.sp,
+                        color: AppColor.levelYellow,
+                      ),
+                    ),
+                  ),
                   const Spacer(flex: 3),
                   Stack(
                     alignment: Alignment.center,
