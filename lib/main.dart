@@ -3,7 +3,6 @@ import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/providers/level.dart';
-import 'package:trivia/providers/loading.dart';
 import 'package:trivia/providers/money.dart';
 import 'package:trivia/providers/question.dart';
 import 'package:trivia/providers/time.dart';
@@ -26,7 +25,6 @@ void main() {
         ChangeNotifierProvider(create: (_) => QuestionProvider()),
         ChangeNotifierProvider(create: (_) => TimeProvider()),
         ChangeNotifierProvider(create: (_) => MoneyProvider()),
-        ChangeNotifierProvider(create: (_) => LoadingProvider()),
       ],
       child: const MyApp(),
     ),
@@ -46,11 +44,10 @@ class MyApp extends StatelessWidget {
           return MaterialApp(
             title: 'Trivia Deluxe',
             theme: ThemeData(
-              colorScheme: ColorScheme.fromSeed(
-                seedColor: Colors.red,
-              ),
-              fontFamily: "Race",
-            ),
+                colorScheme: ColorScheme.fromSeed(
+                  seedColor: Colors.red,
+                ),
+                fontFamily: "Race",),
             home: const SplashScreen(),
             debugShowCheckedModeBanner: false,
             routes: {
