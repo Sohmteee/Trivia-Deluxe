@@ -422,7 +422,7 @@ List riddlesData = [
   {
     "question": "Who has married many women but was never married?",
     "dialog": {
-      "image": "assets/images/earth.png",
+      "image": "assets/images/priest.png",
       "title": "A Priest",
       "content": "A Preist never gets married",
     },
