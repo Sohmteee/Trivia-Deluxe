@@ -20,7 +20,7 @@ showFailedDialog(context, questionIndex, bool timeUp) {
       mainAxisSize: MainAxisSize.min,
       children: [
         Container(
-          padding: EdgeInsets.all(30.sp),
+          padding: EdgeInsets.all(35.sp),
           decoration: BoxDecoration(
             color: Colors.grey[300]!,
             shape: BoxShape.circle,
