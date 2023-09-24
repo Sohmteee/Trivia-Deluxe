@@ -53,6 +53,7 @@ showFailedDialog(context, questionIndex, bool timeUp) {
                       color: Colors.grey[400],
                       fontSize: 20.sp,
                     ),
+                    textAlign: TextAlign.center,
                   ),
                 ),
               ),
