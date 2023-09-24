@@ -12,10 +12,15 @@ class QuestionProvider extends ChangeNotifier {
 
   String question = "";
   List<Map<String, dynamic>> options = [];
+  bool questionIsShuffled = false;
 
 
   void initQuestionProvider(context) {
     // final levelProvider = Provider.of<LevelProvider>(context, listen: false);
+    if(!questionIsShuffled){
+      questions.shuffle();
+      questionIsShuffled = true;
+    }
 
     questionIndex = questionIndex < 10 ? questionIndex + 1 : 0;
     question = questions[questionIndex]["question"];
