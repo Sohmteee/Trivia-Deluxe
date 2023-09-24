@@ -5,7 +5,9 @@ import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 import 'game_dialog.dart';
 
 showAdDialog(context) {
-  showGameDialog(context, child: Column(
+  showGameDialog(
+    context,
+    child: Column(
       mainAxisSize: MainAxisSize.min,
       children: [
         Text(
