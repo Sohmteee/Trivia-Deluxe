@@ -239,7 +239,7 @@ List riddlesData = [
     "dialog": {
       "image": "assets/images/flashlight.png",
       "title": "Light",
-      "content": "light has no mass, neither does it occupy space",
+      "content": "Light has no mass, neither does it occupy space",
     },
     "options": [
       {
