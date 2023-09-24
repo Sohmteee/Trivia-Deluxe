@@ -659,7 +659,7 @@ List animalsData = [
       "image": "assets/images/octopus.png",
       "title": "3 hearts",
       "content": "An octopus has 3 hearts, one to circulate blood and two "
-          "to pump it pass its gills and pick up oxygen.",
+          "to pump it passed its gills and pick up oxygen.",
     },
     "options": [
       {
