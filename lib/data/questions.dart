@@ -237,7 +237,7 @@ List riddlesData = [
   {
     "question": "What can fill an entire room without taking up any space?",
     "dialog": {
-      "image": "assets/images/earth.png",
+      "image": "assets/images/flashlight.png",
       "title": "Light",
       "content": "light has no mass, neither does it occupy space",
     },
