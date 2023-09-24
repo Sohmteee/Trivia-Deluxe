@@ -35,33 +35,36 @@ class _MenuScreenState extends State<MenuScreen> {
                   SizedBox(height: 10.h),
                   Align(
                     alignment: Alignment.topRight,
-                    child: ZoomTapAnimation(
-                      onTap: () {
-                        /* Navigator.pushNamedAndRemoveUntil(
-                      context, "/menu", (route) => false); */
-                      },
-                      child: Container(
-                        padding: EdgeInsets.all(2.sp),
-                        decoration: BoxDecoration(
-                          color: Colors.white,
-                          shape: BoxShape.circle,
-                          border: Border.all(
-                            color: AppColor.lightRed,
-                            width: 2.sp,
+                    child: Padding(
+                      padding:  EdgeInsets.all(20.sp),
+                      child: ZoomTapAnimation(
+                        onTap: () {
+                          /* Navigator.pushNamedAndRemoveUntil(
+                        context, "/menu", (route) => false); */
+                        },
+                        child: Container(
+                          padding: EdgeInsets.all(2.sp),
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            shape: BoxShape.circle,
+                            border: Border.all(
+                              color: AppColor.lightRed,
+                              width: 2.sp,
+                            ),
+                            gradient: LinearGradient(
+                              colors: [
+                                AppColor.lightRed,
+                                AppColor.darkRed,
+                              ],
+                              begin: Alignment.topLeft,
+                              end: Alignment.bottomRight,
+                            ),
                           ),
-                          gradient: LinearGradient(
-                            colors: [
-                              AppColor.lightRed,
-                              AppColor.darkRed,
-                            ],
-                            begin: Alignment.topLeft,
-                            end: Alignment.bottomRight,
+                          child: Icon(
+                            Icons.settings_rounded,
+                            size: 18.sp,
+                            color: AppColor.levelYellow,
                           ),
-                        ),
-                        child: Icon(
-                          Icons.settings_rounded,
-                          size: 18.sp,
-                          color: AppColor.levelYellow,
                         ),
                       ),
                     ),
