@@ -191,9 +191,9 @@ List riddlesData = [
   {
     "question": "You are my brother, but I'm not your brother. Who am I?",
     "dialog": {
-      "image": "assets/images/earth.png",
+      "image": "assets/images/siblings.png",
       "title": "I'm your sister",
-      "content": "Somethimes they're annoying, but it's great to have them.",
+      "content": "Sometimes they're annoying, but it's great to have them.",
     },
     "options": [
       {
