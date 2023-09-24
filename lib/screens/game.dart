@@ -260,8 +260,8 @@ class _GameScreenState extends State<GameScreen> {
               },
             ).animate().slideX(
                   curve: Curves.easeInSine,
-                  delay: 3.seconds,
-                  duration: .5.seconds,
+                  delay: 2.5.seconds,
+                  duration: 1.seconds,
                   begin: 20,
                   end: 0,
                 ),
