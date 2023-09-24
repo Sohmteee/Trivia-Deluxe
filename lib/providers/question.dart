@@ -14,9 +14,9 @@ class QuestionProvider extends ChangeNotifier {
   List<Map<String, dynamic>> options = [];
 
   void initQuestionProvider(context) {
-    final levelProvider = Provider.of<LevelProvider>(context, listen: false);
+    // final levelProvider = Provider.of<LevelProvider>(context, listen: false);
 
-    questionIndex = questionIndex == 0 ? 0 : questionIndex++;
+    questionIndex ++;
     question = questionsData[questionIndex]["question"];
     options = questionsData[questionIndex]["options"];
   }
