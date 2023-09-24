@@ -888,7 +888,7 @@ List animalsData = [
     ]
   },
   {
-    "question": "Which animal has the largest eyes in the animak kingdom?",
+    "question": "Which animal has the largest eyes in the animal kingdom?",
     "dialog": {
       "image": "assets/images/squid.png",
       "title": "The Giant Squid",
