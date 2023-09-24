@@ -9,7 +9,6 @@ import 'package:trivia/providers/time.dart';
 import 'package:trivia/screens/game.dart';
 import 'package:trivia/screens/level.dart';
 import 'package:trivia/screens/menu.dart';
-import 'package:trivia/screens/splash.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -51,7 +50,6 @@ class MyApp extends StatelessWidget {
             home: const MenuScreen(),
             debugShowCheckedModeBanner: false,
             routes: {
-              '/splash': (context) => const SplashScreen(),
               '/menu': (context) => const MenuScreen(),
               '/game': (context) => const GameScreen(),
               '/level': (context) => const LevelScreen(),
