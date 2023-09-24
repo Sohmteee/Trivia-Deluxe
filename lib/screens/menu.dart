@@ -34,7 +34,7 @@ class _MenuScreenState extends State<MenuScreen> {
                 children: [
                   SizedBox(height: 10.h),
                   Padding(
-                    padding: EdgeInsets.symmetric(horizontal: 25.w),
+                    padding: EdgeInsets.symmetric(horizontal: 50.w),
                     child: const GameStats(showHome: false),
                   ),
                   const Spacer(flex: 3),
