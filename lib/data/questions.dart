@@ -5,7 +5,7 @@ List riddlesData = [
     "question":
         "What is there one of in every corner and two of in every room?",
     "dialog": {
-      "image": "assets/images/earth.png",
+      "image": "assets/images/letter-o.png",
       "title": "The letter 'O'",
       "content":
           "'O' appears once in the word 'corner' and twice in the word 'room'",
