@@ -235,7 +235,7 @@ List riddlesData = [
     ]
   },
   {
-    "question": "Wht can fill an entire room without taking up any space?",
+    "question": "What can fill an entire room without taking up any space?",
     "dialog": {
       "image": "assets/images/earth.png",
       "title": "Light",
@@ -285,7 +285,7 @@ List riddlesData = [
     "dialog": {
       "image": "assets/images/earth.png",
       "title": "Automobile",
-      "content": "An automobile starts with gas (fuel)",
+      "content": "An automobile has 10 letters and starts with gas (fuel)",
     },
     "options": [
       {
