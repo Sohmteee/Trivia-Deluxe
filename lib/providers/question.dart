@@ -14,10 +14,10 @@ class QuestionProvider extends ChangeNotifier {
   List<Map<String, dynamic>> options = [];
 
   void initQuestionProvider(context) {
-    final levelProvider = Provider.of<LevelProvider>(context, listen: false);
+    /* final levelProvider = Provider.of<LevelProvider>(context, listen: false);
 
     questionIndex =
-        levelProvider.completedLevel == 3 ? 1 : levelProvider.completedLevel;
+        levelProvider.completedLevel == 3 ? 1 : levelProvider.completedLevel; */
     question = questionsData[questionIndex]["question"];
     options = questionsData[questionIndex]["options"];
   }
@@ -71,10 +71,10 @@ class QuestionProvider extends ChangeNotifier {
         if (options[index]["value"] == true) {
           levelProvider.incrementCompletedLevel();
           Navigator.pushReplacementNamed(context, "/level");
-          questionIndex++;
         } else {
           showFailedDialog(context, questionIndex, false);
         }
+        
         resetOptions();
       });
     }
