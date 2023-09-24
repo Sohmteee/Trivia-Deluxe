@@ -30,7 +30,11 @@ class _GameScreenState extends State<GameScreen> {
 
   @override
   void initState() {
+    final questionProvider = Provider.of<QuestionProvider>(context, listen: false);
+
+    
     confettiController = ConfettiController(duration: 1.5.seconds);
+    questionProvider.initQuestionProvider(context);
     Future.delayed(3.5.seconds, () => countDownController.start());
 
     super.initState();
@@ -50,7 +54,6 @@ class _GameScreenState extends State<GameScreen> {
       child: GameBackground(
         body: Consumer<QuestionProvider>(
           builder: (context, questionProvider, _) {
-            questionProvider.initQuestionProvider(context);
 
             return Stack(
               alignment: Alignment.topCenter,
