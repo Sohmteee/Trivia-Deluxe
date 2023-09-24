@@ -283,7 +283,7 @@ List riddlesData = [
   {
     "question": "What has 10 letters and starts with gas?",
     "dialog": {
-      "image": "assets/images/earth.png",
+      "image": "assets/images/refuel.png",
       "title": "Automobile",
       "content": "An automobile has 10 letters and starts with gas (fuel)",
     },
