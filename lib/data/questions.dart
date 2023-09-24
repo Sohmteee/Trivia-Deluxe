@@ -703,7 +703,7 @@ List animalsData = [
   {
     "question": "What type of animal is a flemish giant?",
     "dialog": {
-      "image": "assets/images/earth.png",
+      "image": "assets/images/rabbit.png",
       "title": "A rabbit",
       "content":
           "The Flemish Giant is one of the largest breeds of a domestic rabbit.",
