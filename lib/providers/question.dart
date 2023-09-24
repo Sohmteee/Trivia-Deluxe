@@ -17,7 +17,8 @@ class QuestionProvider extends ChangeNotifier {
     final levelProvider = Provider.of<LevelProvider>(context, listen: false);
 
     questionIndex =
-        levelProvider.completedLevel == 3 ? 1 : levelProvider.completedLevel;
+            questionIndex == 0 ? 0 : l
+      questionIndex++;
     question = questionsData[questionIndex]["question"];
     options = questionsData[questionIndex]["options"];
   }
