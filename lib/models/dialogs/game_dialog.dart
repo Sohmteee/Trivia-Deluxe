@@ -12,25 +12,28 @@ showGameDialog(context, {required Widget child}) {
           data: Theme.of(context).copyWith(
             dialogBackgroundColor: Colors.transparent,
           ),
-          child: WillPopScope(
-              onWillPop: () => onWillPop(context),
-              child: Dialog(
-                elevation: 0,
-                shadowColor: Colors.transparent,
-                clipBehavior: Clip.antiAliasWithSaveLayer,
-                insetAnimationCurve: Curves.bounceInOut,
-                insetAnimationDuration: const Duration(milliseconds: 300),
-                child: Container(
-                  padding: const EdgeInsets.fromLTRB(20, 40, 20, 60),
-                  decoration: BoxDecoration(
-                    color: AppColor.lightRed,
-                    borderRadius: BorderRadius.circular(20),
+          child: Consumer<MoneyProvider>(
+            builder: (context, moneyProvider, _) {
+              return WillPopScope(
+                onWillPop: () => onWillPop(context),
+                child: Dialog(
+                  elevation: 0,
+                  shadowColor: Colors.transparent,
+                  clipBehavior: Clip.antiAliasWithSaveLayer,
+                  insetAnimationCurve: Curves.bounceInOut,
+                  insetAnimationDuration: const Duration(milliseconds: 300),
+                  child: Container(
+                    padding: const EdgeInsets.fromLTRB(20, 40, 20, 60),
+                    decoration: BoxDecoration(
+                      color: AppColor.lightRed,
+                      borderRadius: BorderRadius.circular(20),
+                    ),
+                    child: child,
                   ),
-                  child: child,
                 ),
-              ),
-            );
-          }),
+              );
+            },
+          ),
         );
       });
 }
