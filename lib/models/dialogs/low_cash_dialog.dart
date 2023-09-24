@@ -11,7 +11,7 @@ import 'game_dialog.dart';
 
 showLowCashDialog(context) {
   showGameDialog(
-      context,
+      context: context,
       barrierDismissible: false,
       builder: (context) {
         return Theme(
@@ -34,63 +34,64 @@ showLowCashDialog(context) {
                     borderRadius: BorderRadius.circular(20),
                   ),
                   child: Column(
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  Text(
-                    "Sapa don catch you even for game 😂",
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 25.sp,
-                      fontWeight: FontWeight.bold,
-                    ),
-                    textAlign: TextAlign.center,
-                  ),
-                  SizedBox(height: 10.h),
-                  Padding(
-                    padding: EdgeInsets.symmetric(horizontal: 15.w),
-                    child: Text(
-                      "Would you like to top up?",
-                      style: TextStyle(
-                        color: Colors.grey[400],
-                        fontSize: 20.sp,
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Text(
+                        "Sapa don catch you even for game 😂",
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 25.sp,
+                          fontWeight: FontWeight.bold,
+                        ),
+                        textAlign: TextAlign.center,
                       ),
-                      textAlign: TextAlign.center,
-                    ),
-                  ),
-                  SizedBox(height: 20.h),
-                  ZoomTapAnimation(
-                    onTap: () {
-                      moneyProvider.increaseCoins(5);
-                      Navigator.pushReplacementNamed(context, "/game");
-                    },
-                    child: Container(
-                      width: double.maxFinite,
-                      padding: EdgeInsets.symmetric(
-                          horizontal: 20.sp, vertical: 10.sp),
-                      decoration: BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.circular(20.r),
-                      ),
-                      child: Row(
-                        mainAxisSize: MainAxisSize.min,
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Text(
-                            "Carry me go store abeg",
-                            style: TextStyle(
-                              fontSize: 15.sp,
-                            ),
+                      SizedBox(height: 10.h),
+                      Padding(
+                        padding: EdgeInsets.symmetric(horizontal: 15.w),
+                        child: Text(
+                          "Would you like to top up?",
+                          style: TextStyle(
+                            color: Colors.grey[400],
+                            fontSize: 20.sp,
                           ),
-                          SizedBox(width: 10.w),
-                          SizedBox(
-                            height: 20.h,
-                            child: Image.asset("assets/images/debit-card.png"),
-                          ),
-                        ],
+                          textAlign: TextAlign.center,
+                        ),
                       ),
-                    ),
-                  )
-                  /* .animate(
+                      SizedBox(height: 20.h),
+                      ZoomTapAnimation(
+                        onTap: () {
+                          moneyProvider.increaseCoins(5);
+                          Navigator.pushReplacementNamed(context, "/game");
+                        },
+                        child: Container(
+                          width: double.maxFinite,
+                          padding: EdgeInsets.symmetric(
+                              horizontal: 20.sp, vertical: 10.sp),
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(20.r),
+                          ),
+                          child: Row(
+                            mainAxisSize: MainAxisSize.min,
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              Text(
+                                "Carry me go store abeg",
+                                style: TextStyle(
+                                  fontSize: 15.sp,
+                                ),
+                              ),
+                              SizedBox(width: 10.w),
+                              SizedBox(
+                                height: 20.h,
+                                child:
+                                    Image.asset("assets/images/debit-card.png"),
+                              ),
+                            ],
+                          ),
+                        ),
+                      )
+                      /* .animate(
                             onPlay: (controller) => controller.repeat(),
                           )
                           .shimmer(
@@ -118,41 +119,41 @@ showLowCashDialog(context) {
                             begin: 1.2,
                             end: 1,
                           ) */
-                  ,
-                  SizedBox(height: 10.h),
-                  ZoomTapAnimation(
-                    onTap: () {
-                      Navigator.pop(context);
-                      showAdDialog(context);
-                    },
-                    child: Container(
-                      width: double.maxFinite,
-                      padding: EdgeInsets.symmetric(
-                          horizontal: 20.sp, vertical: 10.sp),
-                      decoration: BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.circular(20.r),
-                      ),
-                      child: Row(
-                        mainAxisSize: MainAxisSize.min,
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Text(
-                            "Omo I'm broke in real life too",
-                            style: TextStyle(
-                              fontSize: 15.sp,
-                            ),
+                      ,
+                      SizedBox(height: 10.h),
+                      ZoomTapAnimation(
+                        onTap: () {
+                          Navigator.pop(context);
+                          showAdDialog(context);
+                        },
+                        child: Container(
+                          width: double.maxFinite,
+                          padding: EdgeInsets.symmetric(
+                              horizontal: 20.sp, vertical: 10.sp),
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(20.r),
                           ),
-                          SizedBox(width: 10.w),
-                          SizedBox(
-                            height: 20.h,
-                            child: Image.asset("assets/images/laugh.png"),
+                          child: Row(
+                            mainAxisSize: MainAxisSize.min,
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              Text(
+                                "Omo I'm broke in real life too",
+                                style: TextStyle(
+                                  fontSize: 15.sp,
+                                ),
+                              ),
+                              SizedBox(width: 10.w),
+                              SizedBox(
+                                height: 20.h,
+                                child: Image.asset("assets/images/laugh.png"),
+                              ),
+                            ],
                           ),
-                        ],
-                      ),
-                    ),
-                  )
-                  /* .animate(
+                        ),
+                      )
+                      /* .animate(
                             onPlay: (controller) => controller.repeat(),
                           )
                           .shimmer(
@@ -180,9 +181,9 @@ showLowCashDialog(context) {
                             begin: 1.2,
                             end: 1,
                           ) */
-                  ,
-                ],
-              ),
+                      ,
+                    ],
+                  ),
                 ),
               ),
             );
