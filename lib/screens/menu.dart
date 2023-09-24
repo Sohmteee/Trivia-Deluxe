@@ -33,14 +33,7 @@ class _MenuScreenState extends State<MenuScreen> {
               child: Column(
                 children: [
                   SizedBox(height: 10.h),
-                  Padding(
-                    padding: EdgeInsets.symmetric(horizontal: 50.w),
-                    child: const GameStats(showHome: false),
-                  ),
-                  Slider(
-                    value: 50,
-                    onChanged: (value) {},
-                  ),
+                  
                   const Spacer(flex: 3),
                   Stack(
                     alignment: Alignment.center,
