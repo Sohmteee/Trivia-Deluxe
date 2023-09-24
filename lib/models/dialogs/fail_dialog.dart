@@ -22,7 +22,7 @@ showFailedDialog(context, questionIndex, bool timeUp) {
         Container(
           padding: EdgeInsets.all(35.sp),
           decoration: BoxDecoration(
-            color: Colors.grey[300]!,
+            color: Colors.grey[400]!,
             shape: BoxShape.circle,
           ),
           child: Image.asset((timeUp == false)
