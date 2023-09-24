@@ -7,7 +7,7 @@ import 'package:trivia/models/dialogs/fail_dialog.dart';
 import 'package:trivia/providers/level.dart';
 
 class QuestionProvider extends ChangeNotifier {
-  List questions = riddlesData;
+  List questions = animalsData;
   int questionIndex = -1;
 
   String question = "";

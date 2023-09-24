@@ -890,7 +890,7 @@ List animalsData = [
   {
     "question": "Which animal has the largest eyes in the animak kingdom?",
     "dialog": {
-      "image": "assets/images/earth.png",
+      "image": "assets/images/squid.png",
       "title": "The Giant Squid",
       "content":
           "The ostrich is the land animal with largest eyes, with a diameter of 2 inches. "
