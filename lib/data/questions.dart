@@ -99,7 +99,7 @@ List riddlesData = [
   {
     "question": "The more there is, the less you see. What am I?",
     "dialog": {
-      "image": "assets/images/earth.png",
+      "image": "assets/images/night-mode.png",
       "title": "Darkness",
       "content": "You see less the darker it gets",
     },
@@ -145,7 +145,7 @@ List riddlesData = [
   {
     "question": "I am full of holes but strong as steel. What am I?",
     "dialog": {
-      "image": "assets/images/earth.png",
+      "image": "assets/images/chain.png",
       "title": "A chain",
       "content": "A chain can hold up to 125,000 pounds of weight",
     },
