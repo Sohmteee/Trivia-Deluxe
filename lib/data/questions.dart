@@ -193,7 +193,7 @@ List riddlesData = [
     "dialog": {
       "image": "assets/images/earth.png",
       "title": "I'm your sister",
-      "content": "Somethimes they're annoying, but it'sgreat to have them.",
+      "content": "Somethimes they're annoying, but it's great to have them.",
     },
     "options": [
       {
