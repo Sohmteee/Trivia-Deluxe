@@ -9,12 +9,14 @@ import 'package:trivia/models/pop_scope.dart';
 import 'package:trivia/providers/money.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
+import 'game_dialog.dart';
+
 showFailedDialog(context, questionIndex, bool timeUp) {
-  showDialog(
+  var dialog = questionsData[questionIndex]["dialog"];
+  showGameDialog(
       context: context,
       barrierDismissible: false,
       builder: (context) {
-        var dialog = questionsData[questionIndex]["dialog"];
 
         return Theme(
           data: Theme.of(context).copyWith(
