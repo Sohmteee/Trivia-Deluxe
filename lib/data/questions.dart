@@ -52,7 +52,7 @@ List riddlesData = [
   {
     "question": "What is stronger than steel but can't handle the sun?",
     "dialog": {
-      "image": "assets/images/earth.png",
+      "image": "assets/images/ice-cubes.png",
       "title": "Ice",
       "content":
           "Ice is stronger than steel but ironically melts under the sun",
