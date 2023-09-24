@@ -471,7 +471,7 @@ List animalsData = [
   {
     "question": "How many years can a snail sleep for?",
     "dialog": {
-      "image": "assets/images/earth.png",
+      "image": "assets/images/snail.png",
       "title": "3 years",
       "content": "Snails can sleep up to 3 years at a time",
     },
