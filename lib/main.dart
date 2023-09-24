@@ -48,7 +48,7 @@ class MyApp extends StatelessWidget {
                   seedColor: Colors.red,
                 ),
                 fontFamily: "Race",),
-            home: const SplashScreen(),
+            home: const MenuScreen(),
             debugShowCheckedModeBanner: false,
             routes: {
               '/splash': (context) => const SplashScreen(),
