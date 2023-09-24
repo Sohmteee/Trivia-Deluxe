@@ -563,7 +563,7 @@ List animalsData = [
   {
     "question": "How many eyes does a honey bee have?",
     "dialog": {
-      "image": "assets/images/earth.png",
+      "image": "assets/images/bee.png",
       "title": "5 eyes",
       "content": "The honey bee has 2 large compound eyes and 3 smaller eyes "
           "in the center of their head, for a total of 5 eyes",
