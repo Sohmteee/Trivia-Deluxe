@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/models/pop_scope.dart';
-import 'package:trivia/providers/money.dart';
 
 showGameDialog(context, {required Widget child}) {
   showDialog(
@@ -12,9 +10,7 @@ showGameDialog(context, {required Widget child}) {
           data: Theme.of(context).copyWith(
             dialogBackgroundColor: Colors.transparent,
           ),
-          child: Consumer<MoneyProvider>(
-            builder: (context, moneyProvider, _) {
-              return WillPopScope(
+          child: WillPopScope(
                 onWillPop: () => onWillPop(context),
                 child: Dialog(
                   elevation: 0,
@@ -31,9 +27,7 @@ showGameDialog(context, {required Widget child}) {
                     child: child,
                   ),
                 ),
-              );
-            },
-          ),
+              ),
         );
       });
 }
