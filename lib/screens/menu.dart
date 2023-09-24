@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:trivia/colors/app_color.dart';
+import 'package:trivia/models/stat_bar.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 class MenuScreen extends StatefulWidget {
@@ -13,8 +14,6 @@ class MenuScreen extends StatefulWidget {
 }
 
 class _MenuScreenState extends State<MenuScreen> {
-
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -32,6 +31,11 @@ class _MenuScreenState extends State<MenuScreen> {
           child: Center(
             child: Column(
               children: [
+                const Spacer(),
+                Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 25.w),
+                  child: const GameStats(showHome: false),
+                ),
                 const Spacer(flex: 3),
                 Stack(
                   alignment: Alignment.center,
