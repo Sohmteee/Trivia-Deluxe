@@ -2,15 +2,18 @@ import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
-import 'package:trivia/data/questions.dart';
 import 'package:trivia/models/dialogs/low_cash_dialog.dart';
 import 'package:trivia/providers/money.dart';
+import 'package:trivia/providers/question.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 import 'game_dialog.dart';
 
 showFailedDialog(context, questionIndex, bool timeUp) {
-  var dialog = questionsData[questionIndex]["dialog"];
+  final questionProvider =
+      Provider.of<QuestionProvider>(context, listen: false);
+
+  var dialog = questionProvider.questions[questionIndex]["dialog"];
   showGameDialog(
     context,
     child: Column(
