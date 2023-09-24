@@ -55,7 +55,7 @@ List riddlesData = [
       "image": "assets/images/ice-cubes.png",
       "title": "Ice",
       "content":
-          "Ice is stronger than steel but ironically melts under the sun",
+          "Ice is strong but ironically melts under the sun",
     },
     "options": [
       {
