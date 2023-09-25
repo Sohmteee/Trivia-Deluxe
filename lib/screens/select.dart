@@ -39,11 +39,12 @@ class _SelectScreenState extends State<SelectScreen> {
                 "Choose a category",
                 style: TextStyle(
                   color: AppColor.white,
-                  fontSize: 16.sp,
+                  fontSize: 30.sp,
                 ),
                 textAlign: TextAlign.center,
               ),
             ),
+            const Spacer(),
             Expanded(
               flex: 2,
               child: ListView.builder(
