@@ -124,8 +124,10 @@ class _MenuScreenState extends State<MenuScreen> with WidgetsBindingObserver {
                   const Spacer(flex: 3),
                   Consumer<AudioProvider>(builder: (context, audioProvider, _) {
                     return Slider(
-                      value: 1,
-                      onChanged: (value) {},
+                      value: audioProvider.volume,
+                      onChanged: (value) {
+                        audioProvider.setVolume(value);
+                      },
                     );
                   }),
                   Stack(
