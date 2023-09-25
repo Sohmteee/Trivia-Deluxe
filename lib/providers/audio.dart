@@ -4,13 +4,11 @@ import 'package:flutter/material.dart';
 class AudioProvider extends ChangeNotifier {
   final player = AudioPlayer();
 
-  void initAudio(String audioSource) {
-
+  Future<void> initAudio(String audioSource) async {
+    await player.setSource(AssetSource(audioSource));
   }
 
-  Future<void> playAudio (String audioSource) async {
-      await player.setSource(AssetSource(audioSource));
-        await player
-        .play(DeviceFileSource(audioSource)); // will immediately start playing
+  Future<void> playAudio(String audioSource) async {
+    await player.play(DeviceFileSource(audioSource));
   }
 }
