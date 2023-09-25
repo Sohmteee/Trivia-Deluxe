@@ -17,6 +17,9 @@ class SelectSreen extends StatefulWidget {
 }
 
 class _SelectSreenState extends State<SelectSreen> {
+  List selectItems = ["Animals", "Riddles"];
+
+
   @override
   Widget build(BuildContext context) {
     return GameBackground(
@@ -34,24 +37,24 @@ class _SelectSreenState extends State<SelectSreen> {
                 return Consumer<QuestionProvider>(
                     builder: (_, questionProvider, child) {
                   return Container(
-                          padding: EdgeInsets.all(20.sp),
-                          margin: EdgeInsets.only(bottom: 20.sp),
-                          decoration: BoxDecoration(
-                            color: AppColor.lightRed.transparent,
-                            border: Border.all(
-                              width: 2.sp,
-                              color: AppColor.lightRed,
-                            ),
-                          ),
-                          child: Text(
-                            (widget.level).toString(),
-                            style: TextStyle(
-                              color: AppColor.white,
-                              fontSize: 16.sp,
-                            ),
-                            textAlign: TextAlign.center,
-                          ),
-                        );
+                    padding: EdgeInsets.all(20.sp),
+                    margin: EdgeInsets.only(bottom: 20.sp),
+                    decoration: BoxDecoration(
+                      color: AppColor.lightRed,
+                      border: Border.all(
+                        width: 2.sp,
+                        color: AppColor.lightRed,
+                      ),
+                    ),
+                    child: Text(
+                      (anim).toString(),
+                      style: TextStyle(
+                        color: AppColor.white,
+                        fontSize: 16.sp,
+                      ),
+                      textAlign: TextAlign.center,
+                    ),
+                  );
                 });
               },
             ),
