@@ -20,7 +20,12 @@ class QuestionProvider extends ChangeNotifier {
       questionIsShuffled = true;
     }
 
-    questionIndex = questionIndex < 9 ? questionIndex + 1 : 0;
+    if (questionIndex < 9) {
+      questionIndex = questionIndex + 1;
+    } else {
+      questionIndex = 0;    
+      questions.shuffle();
+    }
     question = questions[questionIndex]["question"];
     options = questions[questionIndex]["options"];
   }
