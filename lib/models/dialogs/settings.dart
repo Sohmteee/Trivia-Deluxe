@@ -37,10 +37,10 @@ showSettingsDialog(BuildContext context) {
                   Consumer<AudioProvider>(
                     builder: (context, audioProvider, _) {
                       return Switch(
-                        value: true,
+                        value: audioProvider.music,
                         activeColor: Colors.red,
                         onChanged: (value) {
-                          audioProvider.
+                          audioProvider.toggleMusic(value);
                         },
                       );
                     },
