@@ -9,6 +9,7 @@ import 'package:trivia/providers/time.dart';
 import 'package:trivia/screens/game.dart';
 import 'package:trivia/screens/level.dart';
 import 'package:trivia/screens/menu.dart';
+import 'package:trivia/screens/select.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -53,7 +54,7 @@ class MyApp extends StatelessWidget {
               '/menu': (context) => const MenuScreen(),
               '/game': (context) => const GameScreen(),
               '/level': (context) => const LevelScreen(),
-              '/level': (context) => const LevelScreen(),
+              '/select': (context) => const SelectScreen(),
             },
           );
         });

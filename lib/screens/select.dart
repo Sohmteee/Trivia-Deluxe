@@ -6,16 +6,15 @@ import 'package:trivia/models/game_background.dart';
 import 'package:trivia/models/stat_bar.dart';
 import 'package:trivia/providers/question.dart';
 
-class SelectSreen extends StatefulWidget {
-  const SelectSreen({super.key});
+class SelectScreen extends StatefulWidget {
+  const SelectScreen({super.key});
 
   @override
-  State<SelectSreen> createState() => _SelectSreenState();
+  State<SelectScreen> createState() => _SelectScreenState();
 }
 
-class _SelectSreenState extends State<SelectSreen> {
+class _SelectScreenState extends State<SelectScreen> {
   List<String> selectItems = ["Animals", "Riddles"];
-
 
   @override
   Widget build(BuildContext context) {
