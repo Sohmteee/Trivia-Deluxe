@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
-import 'package:trivia/models/dialogs/checkbox.dart';
+import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/models/dialogs/game_dialog.dart';
 import 'package:trivia/providers/audio.dart';
 
@@ -37,6 +37,7 @@ showSettingsDialog(BuildContext context) {
                   ),
                   Switch(
                     value: true,
+                    activeColor: AppColor.darkRed,
                     onChanged: (value) {},
                   )
                 ],
