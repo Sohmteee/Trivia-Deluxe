@@ -24,6 +24,7 @@ class _SelectScreenState extends State<SelectScreen> {
         child: Column(
           children: [
             const GameStats(),
+            const Spacer(),
             Expanded(
               child: ListView.builder(
                 itemCount: 2,
@@ -55,6 +56,7 @@ class _SelectScreenState extends State<SelectScreen> {
                 },
               ),
             ),
+            const Spacer(),
           ],
         ),
       ),
