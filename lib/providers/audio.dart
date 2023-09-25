@@ -6,7 +6,7 @@ class AudioProvider extends ChangeNotifier {
 
   setVolume(double newVolume) {
     volume = newVolume;
-    player.volume(newVolume);
+    player.setVolume(newVolume);
     notifyListeners();
   }
 }
