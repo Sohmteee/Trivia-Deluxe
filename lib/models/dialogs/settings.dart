@@ -37,7 +37,7 @@ showSettingsDialog(BuildContext context) {
               ),
               Row(
                 children: [
-                  Icon(Icons.volume_mute),
+                  const Icon(Icons.volume_down_alt),
                   Consumer<AudioProvider>(builder: (context, audioProvider, _) {
                     return Slider(
                       value: audioProvider.volume,
