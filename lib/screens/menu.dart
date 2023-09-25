@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:trivia/colors/app_color.dart';
+import 'package:trivia/data/controllers.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 class MenuScreen extends StatefulWidget {
@@ -15,6 +16,7 @@ class _MenuScreenState extends State<MenuScreen> {
 
   @override
   void initState() {
+    if (player.play)
     super.initState();
     
   }
