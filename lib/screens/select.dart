@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
+import 'package:trivia/data/questions.dart';
 import 'package:trivia/models/game_background.dart';
 import 'package:trivia/models/stat_bar.dart';
 import 'package:trivia/providers/question.dart';
@@ -20,6 +21,7 @@ class _SelectScreenState extends State<SelectScreen> {
     "assets/images/dolphin.png",
     "assets/images/puzzle.png"
   ];
+  List selectQuestion = [animalsData, riddlesData];
 
   @override
   Widget build(BuildContext context) {
@@ -40,7 +42,7 @@ class _SelectScreenState extends State<SelectScreen> {
                       builder: (_, questionProvider, child) {
                     return ZoomTapAnimation(
                       onTap: () {
-                        questionProvider.setCategory(index);
+                        questionProvider.question = selectQuestion[index];
                         Navigator.pushReplacementNamed(context, "/game");
                       },
                       child: Container(
