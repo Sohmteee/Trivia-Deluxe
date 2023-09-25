@@ -28,8 +28,8 @@ class _SelectScreenState extends State<SelectScreen> {
   @override
   void initState() {
     var levelProvider = Provider.of<LevelProvider>(context);
+    levelProvider.resetCompletedLevel();
 
-    level
     super.initState();
   }
 
