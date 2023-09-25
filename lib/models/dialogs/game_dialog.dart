@@ -20,37 +20,20 @@ showGameDialog(BuildContext context,
               clipBehavior: Clip.antiAliasWithSaveLayer,
               insetAnimationCurve: Curves.bounceInOut,
               insetAnimationDuration: const Duration(milliseconds: 300),
-              child: Stack(
-                clipBehavior: Clip.none,
-                children: [
-                  Container(
-                    padding: const EdgeInsets.fromLTRB(20, 40, 20, 60),
-                    decoration: BoxDecoration(
-                      color: AppColor.lightRed,
-                      borderRadius: BorderRadius.circular(20),
-                      border: Border.all(
-                        color: Colors.white,
-                      ),
-                    ),
-                    child: child,
+              child: Container(
+                padding: const EdgeInsets.fromLTRB(20, 40, 20, 60),
+                decoration: BoxDecoration(
+                  color: AppColor.lightRed,
+                  borderRadius: BorderRadius.circular(20),
+                  border: Border.all(
+                    color: Colors.white,
                   ),
-                  if (isExitable ?? false)
-                    Positioned(
-                      top: -10,
-                      right: -10,
-                      child: Container(
-                        padding: EdgeInsets.all(5.r),
-                        decoration: BoxDecoration(
-                          color: Colors.white,
-                          shape: BoxShape.circle,
-                          border: Border.all(
-                            color: Colors.white,
-                          ),
-                        ),
-                        child: Icon(Icons.close),
-                      ),
-                    )
-                ],
+                ),
+                child: Column(
+                  children: [
+                    child,
+                  ],
+                ),
               ),
             ),
           ),
