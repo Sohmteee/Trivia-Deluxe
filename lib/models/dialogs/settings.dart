@@ -35,14 +35,19 @@ showSettingsDialog(BuildContext context) {
                   ),
                 ),
               ),
-              Consumer<AudioProvider>(builder: (context, audioProvider, _) {
-                return Slider(
-                  value: audioProvider.volume,
-                  onChanged: (value) {
-                    audioProvider.setVolume(value);
-                  },
-                );
-              }),
+              Row(
+                children: [
+                  Icon(Icons.volume_mute),
+                  Consumer<AudioProvider>(builder: (context, audioProvider, _) {
+                    return Slider(
+                      value: audioProvider.volume,
+                      onChanged: (value) {
+                        audioProvider.setVolume(value);
+                      },
+                    );
+                  }),
+                ],
+              ),
             ],
           ),
         ),
