@@ -34,7 +34,7 @@ showSettingsDialog(BuildContext context) {
                       fontSize: 18.sp,
                     ),
                   ),
-                  Checkbox(
+                  CustomCheckbox(
                     value: true,
                     onChanged: (value) {},
                   )
