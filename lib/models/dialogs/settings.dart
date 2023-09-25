@@ -34,10 +34,16 @@ showSettingsDialog(BuildContext context) {
                       fontSize: 18.sp,
                     ),
                   ),
-                  Switch(
-                    value: true,
-                    activeColor: Colors.red,
-                    onChanged: (value) {},
+                  Consumer<AudioProvider>(
+                    builder: (context, audioProvider, _) {
+                      return Switch(
+                        value: true,
+                        activeColor: Colors.red,
+                        onChanged: (value) {
+                          audioProvider.
+                        },
+                      );
+                    },
                   )
                 ],
               ),
