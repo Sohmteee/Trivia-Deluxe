@@ -15,7 +15,7 @@ class SelectScreen extends StatefulWidget {
 
 class _SelectScreenState extends State<SelectScreen> {
   List<String> selectItems = ["Animals", "Riddles"];
-  List<String> selectImages = ["Animals", "Riddles"];
+  List<String> selectImages = ["assets/images/dolphin.png", "assets/images/puzzle.png"];
 
   @override
   Widget build(BuildContext context) {
