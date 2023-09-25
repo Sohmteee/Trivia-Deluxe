@@ -34,7 +34,10 @@ showSettingsDialog(BuildContext context) {
                       fontSize: 18.sp,
                     ),
                   ),
-                  Checkbox(value: true, onChanged: (value) {})
+                  Checkbox(
+                    value: true,
+                    onChanged: (value) {},
+                  )
                 ],
               ),
               Row(
