@@ -83,6 +83,7 @@ class _MenuScreenState extends State<MenuScreen> with WidgetsBindingObserver {
             child: Center(
               child: Column(
                 children: [
+                  Slider(value: 1, onChanged: onChanged)
                   Align(
                     alignment: Alignment.topRight,
                     child: Padding(
