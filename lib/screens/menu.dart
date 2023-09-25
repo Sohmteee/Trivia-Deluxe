@@ -102,7 +102,7 @@ class _MenuScreenState extends State<MenuScreen> {
                     height: 70.w,
                     child: ZoomTapAnimation(
                       onTap: () {
-                        Navigator.pushNamed(context, "/level");
+                        Navigator.pushNamed(context, "/select");
                       },
                       child: Image.asset("assets/images/play.png"),
                     ),
