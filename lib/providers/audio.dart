@@ -8,6 +8,11 @@ class AudioProvider extends ChangeNotifier {
 
   toggleMusic(bool value) {
     music = value;
+    if (value) {
+      player.resume();
+    } else {
+      player.stop();
+    }
     player.setVolume(value == false ? 0 : musicVolume);
     notifyListeners();
   }
