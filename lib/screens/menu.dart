@@ -14,8 +14,7 @@ class MenuScreen extends StatefulWidget {
 }
 
 class _MenuScreenState extends State<MenuScreen> with WidgetsBindingObserver {
-  
- @override
+  @override
   void initState() {
     WidgetsBinding.instance.addObserver(this);
     playBGAudio();
@@ -32,10 +31,8 @@ class _MenuScreenState extends State<MenuScreen> with WidgetsBindingObserver {
   void didChangeAppLifecycleState(AppLifecycleState state) {
     switch (state) {
       case AppLifecycleState.resumed:
-        print("app in resumed");
-        break;
       case AppLifecycleState.inactive:
-        print("app in inactive");
+        playBGAudio();
         break;
       case AppLifecycleState.paused:
         print("app in paused");
@@ -52,10 +49,9 @@ class _MenuScreenState extends State<MenuScreen> with WidgetsBindingObserver {
     String bgAudio = "audio/bg-music.mp3";
     // await player.setSource(AssetSource(bgAudio));
     await player.play(AssetSource(bgAudio));
-    
-     player.onPlayerComplete.listen((_) async {
-    await player.play(AssetSource(bgAudio));
-      
+
+    player.onPlayerComplete.listen((_) async {
+      await player.play(AssetSource(bgAudio));
     });
   }
 
