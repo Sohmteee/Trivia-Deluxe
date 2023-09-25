@@ -46,7 +46,14 @@ showSettingsDialog(BuildContext context) {
                   return audioProvider.music == true
                       ? Row(
                           children: [
-                            const Icon(Icons.volume_down_alt),
+                            Text(
+                              ((audioProvider.musicVolume * 10).toInt())
+                                  .toString(),
+                              style: TextStyle(
+                                color: Colors.grey[400],
+                                fontSize: 18.sp,
+                              ),
+                            ),
                             Slider(
                               divisions: 10,
                               value: audioProvider.musicVolume,
@@ -54,14 +61,6 @@ showSettingsDialog(BuildContext context) {
                                 audioProvider.setVolume(value);
                               },
                             ),
-                            Text(
-                              audioProvider.musicVolume,
-                              style: TextStyle(
-                                color: Colors.grey[400],
-                                fontSize: 18.sp,
-                              ),
-                            ),
-
                           ],
                         )
                       : const SizedBox();
