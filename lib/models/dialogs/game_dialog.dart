@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/models/pop_scope.dart';
+import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 showGameDialog(BuildContext context,
     {required Widget child, bool? isExitable}) {
@@ -39,15 +40,19 @@ showGameDialog(BuildContext context,
                   Positioned(
                     top: 230,
                     right: 25,
-                    child: Container(
-                      decoration: BoxDecoration(
-                        color: Colors.white,
-                        shape: BoxShape.circle,
-                        border: Border.all(
+                    child: ZoomTapAnimation(
+                      onTap: () {},
+                      child: Container(
+                        padding: EdgeInsets.all(5.r),
+                        decoration: BoxDecoration(
                           color: Colors.white,
+                          shape: BoxShape.circle,
+                          border: Border.all(
+                            color: Colors.white,
+                          ),
                         ),
+                        child: const Icon(Icons.close),
                       ),
-                      child: IconButon(onPressed: () {}, child: Icon(Icons.close)),
                     ),
                   )
               ],
