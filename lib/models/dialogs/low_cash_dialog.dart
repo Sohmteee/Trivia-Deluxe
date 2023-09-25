@@ -72,7 +72,7 @@ showLowCashDialog(context) {
         ZoomTapAnimation(
           onTap: () {
             Navigator.pop(context);
-            // showAdDialog(context);
+            showAdDialog(context);
           },
           child: Container(
             width: double.maxFinite,
