@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
+import 'package:trivia/models/dialogs/checkbox.dart';
 import 'package:trivia/models/dialogs/game_dialog.dart';
 import 'package:trivia/providers/audio.dart';
 
@@ -34,9 +35,9 @@ showSettingsDialog(BuildContext context) {
                       fontSize: 18.sp,
                     ),
                   ),
-                  CustomCheckbox(
-                    value: true,
-                    onChanged: (value) {},
+                  CustomCheckBox(
+                    isChecked: true,
+                    onChange: (value) {},
                   )
                 ],
               ),
