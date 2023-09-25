@@ -1,3 +1,4 @@
+import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:trivia/data/controllers.dart';
 
@@ -6,12 +7,12 @@ class AudioProvider extends ChangeNotifier {
   bool music = true;
   bool soundEffects = true;
 
-  toggleMusic(bool value) {
+  toggleMusic(bool value) async {
     music = value;
     if (value) {
-    String bgAudio = "audio/bg-music.mp3";
-    await player.setSource(AssetSource(bgAudio));
-    await player.resume();
+      String bgAudio = "audio/bg-music.mp3";
+      await player.setSource(AssetSource(bgAudio));
+      await player.resume();
     } else {
       player.stop();
     }
