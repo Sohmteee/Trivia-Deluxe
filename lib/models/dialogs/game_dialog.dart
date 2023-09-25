@@ -37,10 +37,9 @@ showGameDialog(BuildContext context,
                 ),
                 if (isExitable ?? false)
                   Positioned(
-                    top: 250,
-                    right: 30,
+                    top: 230,
+                    right: 25,
                     child: Container(
-                      padding: EdgeInsets.all(5.r),
                       decoration: BoxDecoration(
                         color: Colors.white,
                         shape: BoxShape.circle,
@@ -48,7 +47,7 @@ showGameDialog(BuildContext context,
                           color: Colors.white,
                         ),
                       ),
-                      child: Icon(Icons.close),
+                      child: IconButon(onPressed: () {}, child: Icon(Icons.close)),
                     ),
                   )
               ],
