@@ -11,7 +11,7 @@ showGameDialog(BuildContext context, {required Widget child, bool? isExitable}) 
             dialogBackgroundColor: Colors.transparent,
           ),
           child: WillPopScope(
-            onWillPop: () => onWillPop(context),
+            onWillPop: () => onWillPop(context, isExitable ?? false),
             child: Dialog(
               elevation: 0,
               shadowColor: Colors.transparent,

@@ -5,6 +5,7 @@ import 'package:trivia/models/dialogs/game_dialog.dart';
 showSettingsDialog(BuildContext context) {
   showGameDialog(
     context,
+    isExitable: true,
     child: Column(
       mainAxisSize: MainAxisSize.min,
       children: [
