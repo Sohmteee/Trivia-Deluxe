@@ -22,8 +22,8 @@ class _MenuScreenState extends State<MenuScreen> {
 
   Future<void> playBGAudio() async {
     String bgAudio = "assets/audio/bg-music.m4a";
-    await player.setSource(AssetSource(bgAudio));
-    await player.play();
+    // await player.setSource(AssetSource(bgAudio));
+    await player.play(AssetSource(bgAudio));
   }
 
   @override
