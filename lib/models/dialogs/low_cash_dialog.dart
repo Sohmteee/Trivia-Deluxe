@@ -71,7 +71,7 @@ showLowCashDialog(BuildContext context) {
         SizedBox(height: 10.h),
         ZoomTapAnimation(
           onTap: () {
-            // Navigator.pop(context);
+            Navigator.pop(context);
             showAdDialog(context);
           },
           child: Container(
