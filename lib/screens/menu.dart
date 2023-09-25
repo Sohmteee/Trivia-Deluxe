@@ -61,6 +61,10 @@ class _MenuScreenState extends State<MenuScreen> with WidgetsBindingObserver {
     await player.pause();
   }
 
+  Future<void> stopBGAudio() async {
+    await player.stop();
+  }
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
