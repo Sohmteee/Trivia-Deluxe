@@ -41,7 +41,9 @@ showGameDialog(BuildContext context,
                     top: 230,
                     right: 25,
                     child: ZoomTapAnimation(
-                      onTap: () {},
+                      onTap: () {
+                        Navigator.pop(context);
+                      },
                       child: Container(
                         padding: EdgeInsets.all(5.r),
                         decoration: BoxDecoration(
