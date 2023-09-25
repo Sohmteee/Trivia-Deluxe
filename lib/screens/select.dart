@@ -24,33 +24,42 @@ class _SelectScreenState extends State<SelectScreen> {
         child: Column(
           children: [
             const GameStats(),
-            const Spacer(),
             Expanded(
-              child: ListView.builder(
-                itemCount: 2,
-                padding: EdgeInsets.only(top: 20.h),
-                physics: const NeverScrollableScrollPhysics(),
-                itemBuilder: (BuildContext context, int index) {
-                  return Consumer<QuestionProvider>(
-                      builder: (_, questionProvider, child) {
-                    return Container(
-                      padding: EdgeInsets.all(20.sp),
-                      margin: EdgeInsets.only(bottom: 20.sp),
-                      decoration: BoxDecoration(
-                        color: AppColor.lightRed,
-                        border: Border.all(
-                          width: 2.sp,
+              child: Center(
+                child: ListView.builder(
+                  itemCount: 2,
+                  padding: EdgeInsets.only(top: 20.h),
+                  physics: const NeverScrollableScrollPhysics(),
+                  itemBuilder: (BuildContext context, int index) {
+                    return Consumer<QuestionProvider>(
+                        builder: (_, questionProvider, child) {
+                      return Container(
+                        padding: EdgeInsets.all(20.sp),
+                        margin: EdgeInsets.only(bottom: 20.sp),
+                        decoration: BoxDecoration(
                           color: AppColor.lightRed,
+                          border: Border.all(
+                            width: 2.sp,
+                            color: AppColor.lightRed,
+                          ),
+                          borderRadius: BorderRadius.circular(20.r),
                         ),
-                        borderRadius: BorderRadius.circular(20.r),
-                      ),
-                      child: ListTile
-                    );
-                  });
-                },
+                        child: ListTile(
+                          title: Text(
+                            (selectItems[index]).toString(),
+                            style: TextStyle(
+                              color: AppColor.white,
+                              fontSize: 16.sp,
+                            ),
+                            textAlign: TextAlign.center,
+                          ),
+                        ),
+                      );
+                    });
+                  },
+                ),
               ),
             ),
-            const Spacer(),
           ],
         ),
       ),
