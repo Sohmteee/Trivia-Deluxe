@@ -41,20 +41,32 @@ showSettingsDialog(BuildContext context) {
                   )
                 ],
               ),
-              Consumer<AudioProvider>(builder: (context, audioProvider, _) {
-                return audioProvider.musicVolume == 0 ? Row(
-                  children: [
-                    Slider(
-                      divisions: 10,
-                      value: audioProvider.musicVolume,
-                      onChanged: (value) {
-                        audioProvider.setVolume(value);
-                      },
-                    ),
-                    const Icon(Icons.volume_down_alt),
-                  ],
-                ) : null;
-              },),
+              Consumer<AudioProvider>(
+                builder: (context, audioProvider, _) {
+                  return audioProvider.music == true
+                      ? Row(
+                          children: [
+                            const Icon(Icons.volume_down_alt),
+                            Slider(
+                              divisions: 10,
+                              value: audioProvider.musicVolume,
+                              onChanged: (value) {
+                                audioProvider.setVolume(value);
+                              },
+                            ),
+                            Text(
+                              audioProvider.musicVolume,
+                              style: TextStyle(
+                                color: Colors.grey[400],
+                                fontSize: 18.sp,
+                              ),
+                            ),
+
+                          ],
+                        )
+                      : const SizedBox();
+                },
+              ),
               Row(
                 children: [
                   Text(
