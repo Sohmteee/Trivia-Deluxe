@@ -1,12 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/models/game_background.dart';
-import 'package:trivia/models/level_tile.dart';
 import 'package:trivia/models/stat_bar.dart';
-import 'package:trivia/providers/level.dart';
 import 'package:trivia/providers/question.dart';
 
 class SelectSreen extends StatefulWidget {
@@ -17,7 +14,7 @@ class SelectSreen extends StatefulWidget {
 }
 
 class _SelectSreenState extends State<SelectSreen> {
-  List selectItems = ["Animals", "Riddles"];
+  List<String> selectItems = ["Animals", "Riddles"];
 
 
   @override
@@ -47,7 +44,7 @@ class _SelectSreenState extends State<SelectSreen> {
                       ),
                     ),
                     child: Text(
-                      (anim).toString(),
+                      (selectItems[index]).toString(),
                       style: TextStyle(
                         color: AppColor.white,
                         fontSize: 16.sp,

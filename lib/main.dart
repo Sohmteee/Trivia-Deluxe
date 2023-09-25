@@ -53,6 +53,7 @@ class MyApp extends StatelessWidget {
               '/menu': (context) => const MenuScreen(),
               '/game': (context) => const GameScreen(),
               '/level': (context) => const LevelScreen(),
+              '/level': (context) => const LevelScreen(),
             },
           );
         });
