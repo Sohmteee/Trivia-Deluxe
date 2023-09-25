@@ -3,4 +3,6 @@ import 'package:flutter/material.dart';
 
 class AudioProvider extends ChangeNotifier {
   final player = AudioPlayer();
+
+  void playMusic
 }
