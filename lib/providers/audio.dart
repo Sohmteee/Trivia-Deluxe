@@ -8,7 +8,7 @@ class AudioProvider extends ChangeNotifier {
 
   toggleMusic(bool value) {
     music = value;
-    setMusicVolume(value == false ? 0 : musicVolume);
+    // setMusicVolume(value == false ? 0 : musicVolume);
     notifyListeners();
   }
 
