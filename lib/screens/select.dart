@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:trivia/models/game_background.dart';
+import 'package:trivia/models/level_tile.dart';
 import 'package:trivia/models/stat_bar.dart';
 
 class SelectSreen extends StatefulWidget {
@@ -19,7 +20,17 @@ class _SelectSreenState extends State<SelectSreen> {
         child: Column(
           children: [
             const GameStats(),
-            const Spacer(),
+            const Spacer(),ListView.builder(
+              
+              itemCount: 2,
+              padding: EdgeInsets.only(top: 20.h),
+              physics: const NeverScrollableScrollPhysics(),
+              itemBuilder: (BuildContext context, int index) {
+                return LevelTile(
+                  level: index + 1,
+                );
+              },
+            ),
             const Spacer(flex: 3),
           ],
         ),

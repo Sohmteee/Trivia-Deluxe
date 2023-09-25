@@ -109,14 +109,15 @@ class _LevelScreenState extends State<LevelScreen> {
                 bottom: Radius.circular(150.r),
               ),
             ),
-            child: ListView.builder(
-              itemCount: 3,
-              padding: EdgeInsets.only(top: 20.h),
-              itemBuilder: (BuildContext context, int index) {
-                return LevelTile(
-                  level: index + 1,
-                );
-              },
+              child: ListView.builder(
+                itemCount: 3,
+                padding: EdgeInsets.only(top: 20.h),
+                physics: const NeverScrollableScrollPhysics(),
+                itemBuilder: (BuildContext context, int index) {
+                  return LevelTile(
+                    level: index + 1,
+                  );
+                },
             ),
           ),
         ),
