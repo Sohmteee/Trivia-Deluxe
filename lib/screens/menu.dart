@@ -2,8 +2,10 @@ import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/data/controllers.dart';
+import 'package:trivia/providers/audio.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 class MenuScreen extends StatefulWidget {
@@ -83,7 +85,6 @@ class _MenuScreenState extends State<MenuScreen> with WidgetsBindingObserver {
             child: Center(
               child: Column(
                 children: [
-                  Slider(value: 1, onChanged: onChanged)
                   Align(
                     alignment: Alignment.topRight,
                     child: Padding(
@@ -121,6 +122,12 @@ class _MenuScreenState extends State<MenuScreen> with WidgetsBindingObserver {
                     ),
                   ),
                   const Spacer(flex: 3),
+                  Consumer<AudioProvider>(builder: (context, audioProvider, _) {
+                    return Slider(
+                      value: 1,
+                      onChanged: (value) {},
+                    );
+                  }),
                   Stack(
                     alignment: Alignment.center,
                     children: [
