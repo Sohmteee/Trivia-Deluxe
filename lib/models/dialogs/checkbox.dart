@@ -40,7 +40,7 @@ class _CustomCheckBoxState extends State<CustomCheckBox> {
         curve: Curves.fastLinearToSlowEaseIn,
         decoration: BoxDecoration(
           color: _isSelected ? AppColor.lightRed : Colors.grey[300],
-          borderRadius: BorderRadius.circular(3.33.r),
+          borderRadius: BorderRadius.circular(5.r),
         ),
         width: 22.21.w,
         height: 22.21.w,
