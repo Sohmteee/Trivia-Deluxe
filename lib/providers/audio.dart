@@ -9,6 +9,8 @@ class AudioProvider extends ChangeNotifier {
   }
 
   Future<void> playAudio (String audioSource) async {
-      await player.setSource(AssetSource('sounds/coin.wav'));
+      await player.setSource(AssetSource(audioSource));
+        await player
+        .play(DeviceFileSource(audioSource)); // will immediately start playing
   }
 }
