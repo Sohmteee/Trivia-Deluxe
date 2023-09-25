@@ -39,9 +39,7 @@ showSettingsDialog(BuildContext context) {
                       return Switch(
                         value: audioProvider.music,
                         activeColor: Colors.red,
-                        onChanged: (value) {
-                          audioProvider.toggleMusic(value);
-                        },
+                        onChanged: (value) => audioProvider.toggleMusic(value),
                       );
                     },
                   )
@@ -82,15 +80,14 @@ showSettingsDialog(BuildContext context) {
                       fontSize: 18.sp,
                     ),
                   ),
-                  Builder(
-                    builder: (context) {
-                      return Switch(
-                        value: true,
-                        activeColor: Colors.red,
-                        onChanged: (value) {},
-                      );
-                    }
-                  )
+                  Consumer<AudioProvider>(builder: (context, audioProvider, _) {
+                    return Switch(
+                      value: audioProvider.soundEffects,
+                      activeColor: Colors.red,
+                      onChanged: (value) =>
+                          audioProvider.toggleSoundEffects(value),
+                    );
+                  })
                 ],
               ),
             ],
