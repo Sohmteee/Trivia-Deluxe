@@ -2,7 +2,7 @@
     <application
         android:label="Trivia Deluxe"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/quiz">
         <activity
             android:name=".MainActivity"
             android:exported="true"
