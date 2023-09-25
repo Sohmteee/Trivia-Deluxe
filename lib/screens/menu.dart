@@ -1,3 +1,4 @@
+import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -13,13 +14,14 @@ class MenuScreen extends StatefulWidget {
 }
 
 class _MenuScreenState extends State<MenuScreen> {
-
   @override
-  void initState() {
-    if (player.play)
-    super.initState();
+  Future<void> initState() async {
     
+    super.initState();
   }
+
+  void playBG
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
