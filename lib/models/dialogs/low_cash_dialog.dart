@@ -7,7 +7,7 @@ import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 import 'game_dialog.dart';
 
-showLowCashDialog(context) {
+showLowCashDialog(BuildContext context) {
   showGameDialog(
     context,
     child: Column(
