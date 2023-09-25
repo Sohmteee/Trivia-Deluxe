@@ -42,15 +42,9 @@ class _SelectScreenState extends State<SelectScreen> {
                           width: 2.sp,
                           color: AppColor.lightRed,
                         ),
+                        borderRadius: BorderRadius.circular(20.r),
                       ),
-                      child: Text(
-                        (selectItems[index]).toString(),
-                        style: TextStyle(
-                          color: AppColor.white,
-                          fontSize: 16.sp,
-                        ),
-                        textAlign: TextAlign.center,
-                      ),
+                      child: ListTile
                     );
                   });
                 },
