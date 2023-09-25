@@ -71,7 +71,6 @@ showLowCashDialog(context) {
         SizedBox(height: 10.h),
         ZoomTapAnimation(
           onTap: () {
-            debugPrint("Why aren't you working?");
             Navigator.pop(context);
             showAdDialog(context);
           },
