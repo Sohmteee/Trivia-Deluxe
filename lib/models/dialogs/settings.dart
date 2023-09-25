@@ -40,7 +40,7 @@ showSettingsDialog(BuildContext context) {
                   const Icon(Icons.volume_down_alt),
                   Consumer<AudioProvider>(builder: (context, audioProvider, _) {
                     return Slider(
-                      
+                      divisions: 10,
                       value: audioProvider.volume,
                       onChanged: (value) {
                         audioProvider.setVolume(value);
