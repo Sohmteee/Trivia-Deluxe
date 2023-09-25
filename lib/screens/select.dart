@@ -33,16 +33,19 @@ class _SelectScreenState extends State<SelectScreen> {
           children: [
             const GameStats(),
             const Spacer(),
-            Text(
-              "Choose a category",
-              style: TextStyle(
-                color: AppColor.white,
-                fontSize: 16.sp,
+            Flexible(
+              flex: 1,
+              child: Text(
+                "Choose a category",
+                style: TextStyle(
+                  color: AppColor.white,
+                  fontSize: 16.sp,
+                ),
+                textAlign: TextAlign.center,
               ),
-              textAlign: TextAlign.center,
             ),
-            const Spacer(),
             Expanded(
+              flex: 2,
               child: ListView.builder(
                 itemCount: 2,
                 padding: EdgeInsets.only(top: 20.h),
