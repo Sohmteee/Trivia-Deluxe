@@ -18,16 +18,28 @@ showGameDialog(BuildContext context, {required Widget child, bool? isExitable}) 
               clipBehavior: Clip.antiAliasWithSaveLayer,
               insetAnimationCurve: Curves.bounceInOut,
               insetAnimationDuration: const Duration(milliseconds: 300),
-              child: Container(
-                padding: const EdgeInsets.fromLTRB(20, 40, 20, 60),
-                decoration: BoxDecoration(
-                  color: AppColor.lightRed,
-                  borderRadius: BorderRadius.circular(20),
-                  border: Border.all(
-                    color: Colors.white,
+              child: Stack(
+                children: [
+                  Container(
+                    padding: const EdgeInsets.fromLTRB(20, 40, 20, 60),
+                    decoration: BoxDecoration(
+                      color: AppColor.lightRed,
+                      borderRadius: BorderRadius.circular(20),
+                      border: Border.all(
+                        color: Colors.white,
+                      ),
+                    ),
+                    child: child,
                   ),
-                ),
-                child: child,
+                  Container(alignment: padding: const EdgeInsets.fromLTRB(20, 40, 20, 60),
+                    decoration: BoxDecoration(
+                      color: AppColor.lightRed,
+                      borderRadius: BorderRadius.circular(20),
+                      border: Border.all(
+                        color: Colors.white,
+                      ),
+                    ),,)
+                ],
               ),
             ),
           ),
