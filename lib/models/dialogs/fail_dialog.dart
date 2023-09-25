@@ -9,7 +9,7 @@ import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 import 'game_dialog.dart';
 
-showFailedDialog(context, questionIndex, bool timeUp) {
+showFailedDialog(BuildContext context, questionIndex, bool timeUp) {
   final questionProvider =
       Provider.of<QuestionProvider>(context, listen: false);
 
