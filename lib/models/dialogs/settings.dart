@@ -47,7 +47,7 @@ showSettingsDialog(BuildContext context) {
                   Consumer<AudioProvider>(builder: (context, audioProvider, _) {
                     return Slider(
                       divisions: 10,
-                      value: audioProvider.volume,
+                      value: audioProvider.musicVolume,
                       onChanged: (value) {
                         audioProvider.setVolume(value);
                       },
