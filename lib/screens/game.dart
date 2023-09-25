@@ -50,7 +50,7 @@ class _GameScreenState extends State<GameScreen> {
   @override
   Widget build(BuildContext context) {
     return WillPopScope(
-      onWillPop: () => onWillPop(context),
+      onWillPop: () => onWillPop(context, ),
       child: GameBackground(
         body: Consumer<QuestionProvider>(
           builder: (context, questionProvider, _) {
