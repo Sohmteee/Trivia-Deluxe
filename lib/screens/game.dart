@@ -30,9 +30,9 @@ class _GameScreenState extends State<GameScreen> {
 
   @override
   void initState() {
-    final questionProvider = Provider.of<QuestionProvider>(context, listen: false);
+    final questionProvider =
+        Provider.of<QuestionProvider>(context, listen: false);
 
-    
     confettiController = ConfettiController(duration: 1.5.seconds);
     questionProvider.initQuestionProvider(context);
     Future.delayed(3.5.seconds, () => countDownController.start());
@@ -50,11 +50,10 @@ class _GameScreenState extends State<GameScreen> {
   @override
   Widget build(BuildContext context) {
     return WillPopScope(
-      onWillPop: () => onWillPop(context, ),
+      onWillPop: () => onWillPop(context, false),
       child: GameBackground(
         body: Consumer<QuestionProvider>(
           builder: (context, questionProvider, _) {
-
             return Stack(
               alignment: Alignment.topCenter,
               clipBehavior: Clip.none,
