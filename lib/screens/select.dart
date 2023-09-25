@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/models/game_background.dart';
 import 'package:trivia/models/level_tile.dart';
 import 'package:trivia/models/stat_bar.dart';
+import 'package:trivia/providers/level.dart';
+import 'package:trivia/providers/question.dart';
 
 class SelectSreen extends StatefulWidget {
   const SelectSreen({super.key});
@@ -27,7 +31,7 @@ class _SelectSreenState extends State<SelectSreen> {
               padding: EdgeInsets.only(top: 20.h),
               physics: const NeverScrollableScrollPhysics(),
               itemBuilder: (BuildContext context, int index) {
-                return Consumer<LevelProvider>(
+                return Consumer<QuestionProvider>(
                     builder: (_, levelProvider, child) {
                   return widget.level == levelProvider.completedLevel + 1
                       ? SizedBox(
@@ -81,13 +85,7 @@ class _SelectSreenState extends State<SelectSreen> {
                             textAlign: TextAlign.center,
                           ),
                         )
-                          .animate(
-                            onPlay: (controller) => controller.repeat(),
-                          )
-                          .shimmer(
-                            delay: 1.5.seconds,
-                            duration: 1.seconds,
-                          );
+                          
                 });
               },
             ),
