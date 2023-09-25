@@ -29,11 +29,7 @@ showGameDialog(BuildContext context,
                     color: Colors.white,
                   ),
                 ),
-                child: Column(
-                  children: [
-                    child,
-                  ],
-                ),
+                child: child,
               ),
             ),
           ),
