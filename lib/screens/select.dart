@@ -67,7 +67,7 @@ class _SelectScreenState extends State<SelectScreen> {
                       onTap: () {
                         questionProvider.questions = selectQuestion[index];
                         Future.delayed(3.microseconds,
-                            () => Navigator.pushNamed(context, "/level"));
+                            () => Navigator.pushReplacementNamed(context, "/level"));
                       },
                       child: Container(
                         padding: EdgeInsets.all(10.sp),
