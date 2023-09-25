@@ -37,7 +37,7 @@ showSettingsDialog(BuildContext context) {
                   ),
                   Switch(
                     value: true,
-                    activeColor: AppColor.darkRed,
+                    activeColor: Colors.red,
                     onChanged: (value) {},
                   )
                 ],
