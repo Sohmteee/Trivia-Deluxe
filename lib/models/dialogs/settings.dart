@@ -20,18 +20,20 @@ showSettingsDialog(BuildContext context) {
           ),
           textAlign: TextAlign.center,
         ),
-        SizedBox(height: 10.h),
+        SizedBox(height: 20.h),
         Padding(
           padding: EdgeInsets.symmetric(horizontal: 15.w),
           child: Column(
             children: [
-              Text(
-                "Game Music",
-                style: TextStyle(
-                  color: Colors.grey[400],
-                  fontSize: 20.sp,
+              Align(
+                alignment: Alignment.centerLeft,
+                child: Text(
+                  "Game Music",
+                  style: TextStyle(
+                    color: Colors.grey[400],
+                    fontSize: 20.sp,
+                  ),
                 ),
-                textAlign: TextAlign.center,
               ),
               Consumer<AudioProvider>(builder: (context, audioProvider, _) {
                 return Slider(
