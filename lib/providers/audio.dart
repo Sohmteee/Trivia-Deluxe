@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:trivia/data/controllers.dart';
 
 class AudioProvider extends ChangeNotifier {
-  double musicVolume = 1;
+  double musicVolume = .5;
   bool music = true;
   bool soundEffects = true;
 

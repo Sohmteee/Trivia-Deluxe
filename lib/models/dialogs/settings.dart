@@ -41,19 +41,21 @@ showSettingsDialog(BuildContext context) {
                   )
                 ],
               ),
-              Row(
-                children: [
-                  const Icon(Icons.volume_down_alt),
-                  Consumer<AudioProvider>(builder: (context, audioProvider, _) {
-                    return Slider(
-                      divisions: 10,
-                      value: audioProvider.musicVolume,
-                      onChanged: (value) {
-                        audioProvider.setVolume(value);
-                      },
-                    );
-                  }),
-                ],
+              Builder(
+                builder: (context) {
+                  return Row(
+                    children: [
+                      Slider(
+                        divisions: 10,
+                        value: audioProvider.musicVolume,
+                        onChanged: (value) {
+                          audioProvider.setVolume(value);
+                        },
+                      ),
+                      const Icon(Icons.volume_down_alt),
+                    ],
+                  );
+                }
               ),
               Row(
                 children: [
