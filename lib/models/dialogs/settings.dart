@@ -48,12 +48,27 @@ showSettingsDialog(BuildContext context) {
                     return Slider(
                       divisions: 10,
                       value: audioProvider.volume,
-                      thumbColor: Colors.d,
                       onChanged: (value) {
                         audioProvider.setVolume(value);
                       },
                     );
                   }),
+                ],
+              ),
+              Row(
+                children: [
+                  Text(
+                    "Music",
+                    style: TextStyle(
+                      color: Colors.grey[400],
+                      fontSize: 18.sp,
+                    ),
+                  ),
+                  Switch(
+                    value: true,
+                    activeColor: Colors.red,
+                    onChanged: (value) {},
+                  )
                 ],
               ),
             ],
