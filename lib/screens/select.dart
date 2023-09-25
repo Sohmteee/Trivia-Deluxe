@@ -5,6 +5,7 @@ import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/models/game_background.dart';
 import 'package:trivia/models/stat_bar.dart';
 import 'package:trivia/providers/question.dart';
+import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 class SelectScreen extends StatefulWidget {
   const SelectScreen({super.key});
@@ -37,30 +38,37 @@ class _SelectScreenState extends State<SelectScreen> {
                 itemBuilder: (BuildContext context, int index) {
                   return Consumer<QuestionProvider>(
                       builder: (_, questionProvider, child) {
-                    return Container(
-                      padding: EdgeInsets.all(10.sp),
-                      margin: EdgeInsets.only(bottom: 20.sp),
-                      decoration: BoxDecoration(
-                        color: AppColor.lightRed,
-                        border: Border.all(
-                          width: 2.sp,
+                    return ZoomTapAnimation(
+                      onTap: () {
+                        questionProvider.setCategory(index);
+                        Navigator.pushReplacementNamed(context, "/game");
+                      },
+                      child: Container(
+                        padding: EdgeInsets.all(10.sp),
+                        margin: EdgeInsets.only(bottom: 20.sp),
+                        decoration: BoxDecoration(
                           color: AppColor.lightRed,
-                        ),
-                        borderRadius: BorderRadius.circular(20.r),
-                      ),
-                      child: ListTile(
-                        leading: Image.asset(
-                          selectImages[index],
-                          width: 40.w,
-                          height: 40.h,
-                        ),
-                        title: Text(
-                          (selectItems[index]).toString(),
-                          style: TextStyle(
-                            color: AppColor.white,
-                            fontSize: 16.sp,
+                          border: Border.all(
+                            width: 2.sp,
+                            color: AppColor.lightRed,
                           ),
-                          textAlign: TextAlign.center,
+                          borderRadius: BorderRadius.circular(20.r),
+                        ),
+                        child: ListTile(
+                          leading: Image.asset(
+                            selectImages[index],
+                            width: 40.w,
+                            height: 40.h,
+                          ),
+                          title: Text(
+                            (selectItems[index]).toString(),
+                            style: TextStyle(
+                              color: AppColor.white,
+                              fontSize: 16.sp,
+                            ),
+                            textAlign: TextAlign.center,
+                          ),
+                          trailing: const SizedBox(),
                         ),
                       ),
                     );
