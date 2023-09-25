@@ -30,7 +30,11 @@ class _MenuScreenState extends State<MenuScreen> {
     String bgAudio = "audio/bg-music.mp3";
     // await player.setSource(AssetSource(bgAudio));
     await player.play(AssetSource(bgAudio));
-    player.loop()
+    
+     player.onPlayerComplete.listen((_) {
+    await player.play(AssetSource(bgAudio));
+      });
+    });
   }
 
   @override
