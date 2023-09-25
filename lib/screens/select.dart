@@ -6,6 +6,7 @@ import 'package:trivia/data/questions.dart';
 import 'package:trivia/models/game_background.dart';
 import 'package:trivia/models/stat_bar.dart';
 import 'package:trivia/providers/question.dart';
+import 'package:velocity_x/velocity_x.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 class SelectScreen extends StatefulWidget {
@@ -43,7 +44,8 @@ class _SelectScreenState extends State<SelectScreen> {
                     return ZoomTapAnimation(
                       onTap: () {
                         questionProvider.questions = selectQuestion[index];
-                        Navigator.pushReplacementNamed(context, "/level");
+                        Future.delayed(3.microseconds,
+                            () => Navigator.pushNamed(context, "/level"));
                       },
                       child: Container(
                         padding: EdgeInsets.all(10.sp),
