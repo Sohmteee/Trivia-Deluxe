@@ -35,9 +35,9 @@ showSettingsDialog(BuildContext context) {
                       fontSize: 18.sp,
                     ),
                   ),
-                  CustomCheckBox(
-                    isChecked: true,
-                    onChange: (value) {},
+                  Switch(
+                    value: true,
+                    onChanged: (value) {},
                   )
                 ],
               ),

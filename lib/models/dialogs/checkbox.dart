@@ -42,8 +42,8 @@ class _CustomCheckBoxState extends State<CustomCheckBox> {
           color: _isSelected ? AppColor.lightRed : Colors.grey[300],
           borderRadius: BorderRadius.circular(5.r),
         ),
-        width: 22.21.w,
-        height: 22.21.w,
+        width: 20.w,
+        height: 20.w,
         child: _isSelected
             ? const Icon(
                 Icons.check,
