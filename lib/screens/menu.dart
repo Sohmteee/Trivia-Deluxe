@@ -35,13 +35,12 @@ class _MenuScreenState extends State<MenuScreen> with WidgetsBindingObserver {
         playBGAudio();
         break;
       case AppLifecycleState.paused:
-        print("app in paused");
+      case AppLifecycleState.hidden:
+        pauseBGAudio();
         break;
       case AppLifecycleState.detached:
         print("app in detached");
         break;
-      case AppLifecycleState.hidden:
-        print("app in hidden");
     }
   }
 
@@ -53,6 +52,10 @@ class _MenuScreenState extends State<MenuScreen> with WidgetsBindingObserver {
     player.onPlayerComplete.listen((_) async {
       await player.play(AssetSource(bgAudio));
     });
+  }
+
+  Future<void> pauseBGAudio() async {
+    await player.pause();
   }
 
   @override
