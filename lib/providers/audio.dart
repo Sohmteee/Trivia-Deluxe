@@ -9,11 +9,13 @@ class AudioProvider extends ChangeNotifier {
   toggleMusic(bool value) {
     music = value;
     if (value) {
-      player.resume();
+    String bgAudio = "audio/bg-music.mp3";
+    await player.setSource(AssetSource(bgAudio));
+    await player.resume();
     } else {
       player.stop();
     }
-    player.setVolume(value == false ? 0 : musicVolume);
+    // player.setVolume(value == false ? 0 : musicVolume);
     notifyListeners();
   }
 
