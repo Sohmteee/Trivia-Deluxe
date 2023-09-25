@@ -31,9 +31,9 @@ class _MenuScreenState extends State<MenuScreen> {
     // await player.setSource(AssetSource(bgAudio));
     await player.play(AssetSource(bgAudio));
     
-     player.onPlayerComplete.listen((_) {
+     player.onPlayerComplete.listen((_) async {
     await player.play(AssetSource(bgAudio));
-      });
+      
     });
   }
 
