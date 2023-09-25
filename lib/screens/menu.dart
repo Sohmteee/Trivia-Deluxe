@@ -17,9 +17,9 @@ class _MenuScreenState extends State<MenuScreen> with WidgetsBindingObserver {
   
  @override
   void initState() {
-    super.initState();
     WidgetsBinding.instance.addObserver(this);
     playBGAudio();
+    super.initState();
   }
 
   @override
