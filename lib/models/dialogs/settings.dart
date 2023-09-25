@@ -58,7 +58,7 @@ showSettingsDialog(BuildContext context) {
                               divisions: 10,
                               value: audioProvider.musicVolume,
                               onChanged: (value) {
-                                audioProvider.setVolume(value);
+                                audioProvider.setMusicVolume(value);
                               },
                             ),
                           ],

@@ -8,6 +8,9 @@ class AudioProvider extends ChangeNotifier {
 
   toggleMusic(bool value) {
     music = value;
+    if (music = false) {
+      
+    }
     notifyListeners();
   }
 
@@ -16,9 +19,12 @@ class AudioProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-  setVolume(double newVolume) {
+  setMusicVolume(double newVolume) {
     musicVolume = newVolume;
     player.setVolume(newVolume);
+    if (newVolume == 0) {
+      music = false;
+    }
     notifyListeners();
   }
 }
