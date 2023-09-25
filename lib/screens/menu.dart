@@ -13,16 +13,18 @@ class MenuScreen extends StatefulWidget {
   State<MenuScreen> createState() => _MenuScreenState();
 }
 
-class _MenuScreenState extends State<MenuScreen> {
-  @override
+class _MenuScreenState extends State<MenuScreen> with {
+  
+ @override
   void initState() {
-    playBGAudio();
     super.initState();
+    WidgetsBinding.instance.addObserver(this);
+    ...
   }
 
   @override
   void dispose() {
-    player.dispose();
+    WidgetsBinding.instance?.removeObserver(this);
     super.dispose();
   }
 
