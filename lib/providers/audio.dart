@@ -8,6 +8,9 @@ class AudioProvider extends ChangeNotifier {
 
   toggleMusic(bool value) {
     music = value;
+    if (value == false) {
+      
+    }
     notifyListeners();
   }
 

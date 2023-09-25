@@ -72,6 +72,7 @@ showSettingsDialog(BuildContext context) {
                       : const SizedBox();
                 },
               ),
+              SizedBox(height: 10.h),
               Row(
                 children: [
                   Text(
