@@ -1,7 +1,9 @@
+import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
+import 'package:trivia/data/controllers.dart';
 import 'package:trivia/providers/audio.dart';
 import 'package:trivia/providers/level.dart';
 import 'package:trivia/providers/money.dart';
@@ -12,13 +14,15 @@ import 'package:trivia/screens/level.dart';
 import 'package:trivia/screens/menu.dart';
 import 'package:trivia/screens/select.dart';
 
-void main() {
+Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
   SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
     statusBarColor: Colors.transparent,
   ));
   
+    String bgAudio = "audio/bg-music.mp3";
+    await player.setSource(AssetSource(bgAudio));
 
   runApp(
     MultiProvider(
