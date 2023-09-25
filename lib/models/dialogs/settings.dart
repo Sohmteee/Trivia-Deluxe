@@ -82,10 +82,14 @@ showSettingsDialog(BuildContext context) {
                       fontSize: 18.sp,
                     ),
                   ),
-                  Switch(
-                    value: true,
-                    activeColor: Colors.red,
-                    onChanged: (value) {},
+                  Builder(
+                    builder: (context) {
+                      return Switch(
+                        value: true,
+                        activeColor: Colors.red,
+                        onChanged: (value) {},
+                      );
+                    }
                   )
                 ],
               ),
