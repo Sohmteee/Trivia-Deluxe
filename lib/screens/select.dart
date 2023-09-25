@@ -18,12 +18,23 @@ class SelectScreen extends StatefulWidget {
 }
 
 class _SelectScreenState extends State<SelectScreen> {
-  List<String> selectItems = ["Animals", "Riddles"];
-  List<String> selectImages = [
-    "assets/images/dolphin.png",
-    "assets/images/puzzle.png"
+  List<Map<String, dynamic>> selectItems = [
+    {
+      "image": "assets/images/dolphin.png",
+      "title": "Animals",
+      "questions": animalsData,
+    },
+    {
+      "image": "assets/images/quote.png",
+      "title": "Proverbs",
+      "questions": proverbsData,
+    },
+    {
+      "image": "assets/images/puzzle.png",
+      "title": "Riddles",
+      "questions": riddlesData,
+    },
   ];
-  List selectQuestion = [animalsData, riddlesData];
 
   @override
   Widget build(BuildContext context) {
@@ -36,31 +47,29 @@ class _SelectScreenState extends State<SelectScreen> {
         child: Column(
           children: [
             const GameStats(),
-            const Spacer(),
-            Flexible(
-              flex: 1,
-              child: Text(
-                "Choose a category",
-                style: TextStyle(
-                  color: AppColor.white,
-                  fontSize: 30.sp,
-                ),
-                textAlign: TextAlign.center,
+            const Spacer(flex: 2),
+            Text(
+              "Choose a category",
+              style: TextStyle(
+                color: AppColor.white,
+                fontSize: 30.sp,
               ),
+              textAlign: TextAlign.center,
             ),
             const Spacer(),
-            Expanded(
-              flex: 2,
+            SizedBox(
+              height: 300.h,
               child: ListView.builder(
-                itemCount: 2,
+                itemCount: selectItems.length,
                 padding: EdgeInsets.only(top: 20.h),
                 physics: const NeverScrollableScrollPhysics(),
                 itemBuilder: (BuildContext context, int index) {
+                  final selectItem = selectItems[index];
                   return Consumer<QuestionProvider>(
                       builder: (_, questionProvider, child) {
                     return ZoomTapAnimation(
                       onTap: () {
-                        questionProvider.questions = selectQuestion[index];
+                        questionProvider.questions = selectItem["questions"];
                         Future.delayed(
                             3.microseconds,
                             () => Navigator.pushReplacementNamed(
@@ -79,12 +88,12 @@ class _SelectScreenState extends State<SelectScreen> {
                         ),
                         child: ListTile(
                           leading: Image.asset(
-                            selectImages[index],
+                            selectItem["image"],
                             width: 40.w,
                             height: 40.h,
                           ),
                           title: Text(
-                            (selectItems[index]).toString(),
+                            selectItem["title"],
                             style: TextStyle(
                               color: AppColor.white,
                               fontSize: 16.sp,

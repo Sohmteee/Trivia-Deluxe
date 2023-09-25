@@ -54,8 +54,7 @@ List riddlesData = [
     "dialog": {
       "image": "assets/images/ice-cubes.png",
       "title": "Ice",
-      "content":
-          "Ice is strong but ironically melts under the sun",
+      "content": "Ice is strong but ironically melts under the sun",
     },
     "options": [
       {
@@ -327,7 +326,7 @@ List riddlesData = [
     ]
   },
   {
-    "question": "What's is it that no-one wants but no-one wants to lose?",
+    "question": "What is it that no-one wants but no-one wants to lose?",
     "dialog": {
       "image": "assets/images/judge.png",
       "title": "Lawsuit",
@@ -937,24 +936,36 @@ List animalsData = [
   },
 ];
 
-/* List questionsData = [
+List proverbsData = [
   {
-    "question": "How many continents are there in the world?",
+    "question": "Beggars can't be ___.",
     "dialog": {
-      "image": "assets/images/earth.png",
-      "title": "There are SEVEN continents in the world",
-      "content": "They include:"
-          "\n🌐  North America"
-          "\n🌐  South America"
-          "\n🌐  Africa"
-          "\n🌐  Asia"
-          "\n🌐  Europe"
-          "\n🌐  Australia and"
-          "\n🌐  Antartica."
+      "image": "assets/images/beggar.png",
+      "title": "Beggars can't be choosers",
+      "content":
+          "People dependent on others must be content with what is offered to them",
     },
     "options": [
       {
-        "text": "Seven",
+        "text": "Rich",
+        "value": false,
+        "colors": [
+          AppColor.yellow,
+          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
+        ],
+      },
+      {
+        "text": "Beggars for life",
+        "value": false,
+        "colors": [
+          AppColor.yellow,
+          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
+        ],
+      },
+      {
+        "text": "Choosers",
         "value": true,
         "colors": [
           AppColor.yellow,
@@ -963,25 +974,7 @@ List animalsData = [
         ],
       },
       {
-        "text": "Eight",
-        "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.slightlyLighterYellow,
-          AppColor.yellow,
-        ],
-      },
-      {
-        "text": "Nine",
-        "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.slightlyLighterYellow,
-          AppColor.yellow,
-        ],
-      },
-      {
-        "text": "Eleven",
+        "text": "Successful",
         "value": false,
         "colors": [
           AppColor.yellow,
@@ -992,16 +985,15 @@ List animalsData = [
     ]
   },
   {
-    "question": "Which of the following birds cannot fly?",
+    "question": "A bird in the hand is worth two in the ___.",
     "dialog": {
-      "image": "assets/images/ostrich.png",
-      "title": "An OSTRICH can't fly",
-      "content":
-          "An ostrich, which is also the largest bird, is too heavy to fly."
+      "image": "assets/images/dead-bird.png",
+      "title": "A bird in the hand is worth two in the bush",
+      "content": "What you have is better than what you might get",
     },
     "options": [
       {
-        "text": "Chicken",
+        "text": "Forest",
         "value": false,
         "colors": [
           AppColor.yellow,
@@ -1010,16 +1002,7 @@ List animalsData = [
         ],
       },
       {
-        "text": "Falcon",
-        "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.slightlyLighterYellow,
-          AppColor.yellow,
-        ],
-      },
-      {
-        "text": "Ostrich",
+        "text": "Bush",
         "value": true,
         "colors": [
           AppColor.yellow,
@@ -1028,7 +1011,16 @@ List animalsData = [
         ],
       },
       {
-        "text": "Dove",
+        "text": "Grave",
+        "value": false,
+        "colors": [
+          AppColor.yellow,
+          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
+        ],
+      },
+      {
+        "text": "Nest",
         "value": false,
         "colors": [
           AppColor.yellow,
@@ -1039,16 +1031,16 @@ List animalsData = [
     ]
   },
   {
-    "question": "What can stay at a corner and travel the whole world?",
+    "question": "The grass is always ___ on the other side.",
     "dialog": {
-      "image": "assets/images/human-mind.png",
-      "title": "The HUMAN MIND ",
+      "image": "assets/images/grass.png",
+      "title": " The grass is always greener on the other side",
       "content":
-          "The human mind in it's imagination, can access places that the human body may never even possibly have access to."
+          "Other people always seem to be in a better situation, although it might not be true",
     },
     "options": [
       {
-        "text": "A parked car",
+        "text": "Better",
         "value": false,
         "colors": [
           AppColor.yellow,
@@ -1057,7 +1049,7 @@ List animalsData = [
         ],
       },
       {
-        "text": "The mind",
+        "text": "Greener",
         "value": true,
         "colors": [
           AppColor.yellow,
@@ -1066,7 +1058,7 @@ List animalsData = [
         ],
       },
       {
-        "text": "Words",
+        "text": "Bigger",
         "value": false,
         "colors": [
           AppColor.yellow,
@@ -1075,7 +1067,333 @@ List animalsData = [
         ],
       },
       {
-        "text": "A stamp",
+        "text": "Longer",
+        "value": false,
+        "colors": [
+          AppColor.yellow,
+          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
+        ],
+      },
+    ]
+  },
+  {
+    "question": "Every cloud has a ___ lining",
+    "dialog": {
+      "image": "assets/images/cloud.png",
+      "title": "Every cloud has a silver lining",
+      "content": "There is always a positive side to any difficult situation",
+    },
+    "options": [
+      {
+        "text": "Gold",
+        "value": false,
+        "colors": [
+          AppColor.yellow,
+          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
+        ],
+      },
+      {
+        "text": "Bronze",
+        "value": false,
+        "colors": [
+          AppColor.yellow,
+          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
+        ],
+      },
+      {
+        "text": "Diamond",
+        "value": false,
+        "colors": [
+          AppColor.yellow,
+          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
+        ],
+      },
+      {
+        "text": "Silver",
+        "value": true,
+        "colors": [
+          AppColor.yellow,
+          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
+        ],
+      },
+    ]
+  },
+  {
+    "question": "Out of sight, out of ___",
+    "dialog": {
+      "image": "assets/images/close.png",
+      "title": "Out of sight, out of mind",
+      "content":
+          "People or things that are no longer present are easily forgotten",
+    },
+    "options": [
+      {
+        "text": "Mind",
+        "value": true,
+        "colors": [
+          AppColor.yellow,
+          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
+        ],
+      },
+      {
+        "text": "Thought",
+        "value": false,
+        "colors": [
+          AppColor.yellow,
+          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
+        ],
+      },
+      {
+        "text": "Control",
+        "value": false,
+        "colors": [
+          AppColor.yellow,
+          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
+        ],
+      },
+      {
+        "text": "The light",
+        "value": false,
+        "colors": [
+          AppColor.yellow,
+          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
+        ],
+      },
+    ]
+  },
+  {
+    "question": "Good things come to those who ___",
+    "dialog": {
+      "image": "assets/images/patience.png",
+      "title": "Good things come to those who wait",
+      "content": "Patience is rewarded",
+    },
+    "options": [
+      {
+        "text": "Deserve them",
+        "value": false,
+        "colors": [
+          AppColor.yellow,
+          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
+        ],
+      },
+      {
+        "text": "Wait",
+        "value": false,
+        "colors": [
+          AppColor.yellow,
+          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
+        ],
+      },
+      {
+        "text": "Want them",
+        "value": false,
+        "colors": [
+          AppColor.yellow,
+          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
+        ],
+      },
+      {
+        "text": "Are good",
+        "value": false,
+        "colors": [
+          AppColor.yellow,
+          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
+        ],
+      },
+    ]
+  },
+  {
+    "question": "A drowning man will clutch at a ___",
+    "dialog": {
+      "image": "assets/images/drown.png",
+      "title": "A drowning man will clutch at a straw",
+      "content": "If someone is in a difficult or tough situation, he/ she will grasp on any available opportunity",
+    },
+    "options": [
+      {
+        "text": "Straw",
+        "value": true,
+        "colors": [
+          AppColor.yellow,
+          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
+        ],
+      },
+      {
+        "text": "Rope",
+        "value": false,
+        "colors": [
+          AppColor.yellow,
+          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
+        ],
+      },
+      {
+        "text": "Thread",
+        "value": false,
+        "colors": [
+          AppColor.yellow,
+          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
+        ],
+      },
+      {
+        "text": "Hand",
+        "value": false,
+        "colors": [
+          AppColor.yellow,
+          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
+        ],
+      },
+    ]
+  },
+  {
+    "question": " Practice what you ___",
+    "dialog": {
+      "image": "assets/images/pulpit.png",
+      "title": " Practice what you preach",
+      "content": "Behave the way you encourage other people to behave",
+    },
+    "options": [
+      {
+        "text": "Dream",
+        "value": false,
+        "colors": [
+          AppColor.yellow,
+          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
+        ],
+      },
+      {
+        "text": "Preach",
+        "value": true,
+        "colors": [
+          AppColor.yellow,
+          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
+        ],
+      },
+      {
+        "text": "See",
+        "value": false,
+        "colors": [
+          AppColor.yellow,
+          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
+        ],
+      },
+      {
+        "text": "Feel like practicing",
+        "value": false,
+        "colors": [
+          AppColor.yellow,
+          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
+        ],
+      },
+    ]
+  },
+  {
+    "question": "Ignorance is ___",
+    "dialog": {
+      "image": "assets/images/ignore.png",
+      "title": "Ignorance is bliss",
+      "content": "If you don’t know about something, you don’t need to bother "
+      "about it. In other words, if you’re unaware of something, it won’t cause "
+      "you stress.",
+    },
+    "options": [
+      {
+        "text": "Plenty",
+        "value": false,
+        "colors": [
+          AppColor.yellow,
+          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
+        ],
+      },
+      {
+        "text": "Bliss",
+        "value": true,
+        "colors": [
+          AppColor.yellow,
+          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
+        ],
+      },
+      {
+        "text": "Stupidity",
+        "value": false,
+        "colors": [
+          AppColor.yellow,
+          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
+        ],
+      },
+      {
+        "text": "A virtue",
+        "value": false,
+        "colors": [
+          AppColor.yellow,
+          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
+        ],
+      },
+    ]
+  },
+  {
+    "question": " No news is ___ news",
+    "dialog": {
+      "image": "assets/images/good-news.png",
+      "title": " No news is good news",
+      "content": "If you don’t receive any news about someone or something, "
+      "it means that everything is fine and going normally.",
+    },
+    "options": [
+      {
+        "text": "Good",
+        "value": true,
+        "colors": [
+          AppColor.yellow,
+          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
+        ],
+      },
+      {
+        "text": "Bad",
+        "value": false,
+        "colors": [
+          AppColor.yellow,
+          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
+        ],
+      },
+      {
+        "text": "Wasted",
+        "value": false,
+        "colors": [
+          AppColor.yellow,
+          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
+        ],
+      },
+      {
+        "text": "New",
         "value": false,
         "colors": [
           AppColor.yellow,
@@ -1086,4 +1404,3 @@ List animalsData = [
     ]
   },
 ];
- */
