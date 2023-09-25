@@ -33,20 +33,22 @@ showGameDialog(BuildContext context,
                     ),
                     child: child,
                   ),
-                  Positioned(
-                    top: 0,
-                    right: 0,
-                    child: Container(
-                      padding:  EdgeInsets.all(10.r),
-                      decoration: BoxDecoration(
-                        color: Colors.red,
-                        shape: BoxShape.circle,
-                        border: Border.all(
+                  if (isExitable ?? false)
+                    Positioned(
+                      top: 0,
+                      right: 0,
+                      child: Container(
+                        padding: EdgeInsets.all(5.r),
+                        decoration: BoxDecoration(
                           color: Colors.white,
+                          shape: BoxShape.circle,
+                          border: Border.all(
+                            color: Colors.white,
+                          ),
                         ),
+                        child: Icon(Icons.close),
                       ),
-                    ),
-                  )
+                    )
                 ],
               ),
             ),
