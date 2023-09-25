@@ -57,8 +57,6 @@ class _MenuScreenState extends State<MenuScreen> with WidgetsBindingObserver {
     player.onPlayerComplete.listen((_) async {
       await player.play(AssetSource(bgAudio));
     });
-
-    
   }
 
   Future<void> pauseBGAudio() async {
