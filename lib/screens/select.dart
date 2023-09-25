@@ -26,15 +26,10 @@ class _SelectScreenState extends State<SelectScreen> {
   List selectQuestion = [animalsData, riddlesData];
 
   @override
-  void initState() {
+  Widget build(BuildContext context) {
     var levelProvider = Provider.of<LevelProvider>(context);
     levelProvider.resetCompletedLevel();
 
-    super.initState();
-  }
-
-  @override
-  Widget build(BuildContext context) {
     return GameBackground(
       body: Padding(
         padding: EdgeInsets.symmetric(horizontal: 40.w, vertical: 40.h),
@@ -66,8 +61,10 @@ class _SelectScreenState extends State<SelectScreen> {
                     return ZoomTapAnimation(
                       onTap: () {
                         questionProvider.questions = selectQuestion[index];
-                        Future.delayed(3.microseconds,
-                            () => Navigator.pushReplacementNamed(context, "/level"));
+                        Future.delayed(
+                            3.microseconds,
+                            () => Navigator.pushReplacementNamed(
+                                context, "/level"));
                       },
                       child: Container(
                         padding: EdgeInsets.all(10.sp),
