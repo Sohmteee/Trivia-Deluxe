@@ -28,10 +28,10 @@ showSettingsDialog(BuildContext context) {
               Align(
                 alignment: Alignment.centerLeft,
                 child: Text(
-                  "Game Music",
+                  "Music",
                   style: TextStyle(
                     color: Colors.grey[400],
-                    fontSize: 20.sp,
+                    fontSize: 18.sp,
                   ),
                 ),
               ),
@@ -40,6 +40,7 @@ showSettingsDialog(BuildContext context) {
                   const Icon(Icons.volume_down_alt),
                   Consumer<AudioProvider>(builder: (context, audioProvider, _) {
                     return Slider(
+                      
                       value: audioProvider.volume,
                       onChanged: (value) {
                         audioProvider.setVolume(value);
