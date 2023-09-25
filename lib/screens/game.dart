@@ -30,9 +30,9 @@ class _GameScreenState extends State<GameScreen> {
 
   @override
   void initState() {
-    final questionProvider = Provider.of<QuestionProvider>(context, listen: false);
+    final questionProvider =
+        Provider.of<QuestionProvider>(context, listen: false);
 
-    
     confettiController = ConfettiController(duration: 1.5.seconds);
     questionProvider.initQuestionProvider(context);
     Future.delayed(3.5.seconds, () => countDownController.start());
@@ -54,7 +54,6 @@ class _GameScreenState extends State<GameScreen> {
       child: GameBackground(
         body: Consumer<QuestionProvider>(
           builder: (context, questionProvider, _) {
-
             return Stack(
               alignment: Alignment.topCenter,
               clipBehavior: Clip.none,
@@ -123,21 +122,24 @@ class _GameScreenState extends State<GameScreen> {
                     ),
                   ],
                 ),
-                ConfettiWidget(
-                  confettiController: confettiController,
-                  blastDirectionality: BlastDirectionality.explosive,
-                  emissionFrequency: 0.6,
-                  minimumSize: const Size(10, 10),
-                  maximumSize: const Size(10, 10),
-                  numberOfParticles: 5,
-                  colors: const [
-                    Colors.green,
-                    Colors.blue,
-                    Colors.pink,
-                    Colors.orange,
-                    Colors.purple,
-                  ],
-                  // createParticlePath: drawStar,
+                Positioned(
+                  top: -50.h,
+                  child: ConfettiWidget(
+                    confettiController: confettiController,
+                    blastDirectionality: BlastDirectionality.explosive,
+                    emissionFrequency: 0.6,
+                    minimumSize: const Size(10, 10),
+                    maximumSize: const Size(10, 10),
+                    numberOfParticles: 5,
+                    colors: const [
+                      Colors.green,
+                      Colors.blue,
+                      Colors.pink,
+                      Colors.orange,
+                      Colors.purple,
+                    ],
+                    // createParticlePath: drawStar,
+                  ),
                 ),
               ],
             );
