@@ -42,8 +42,8 @@ class _SelectScreenState extends State<SelectScreen> {
                       builder: (_, questionProvider, child) {
                     return ZoomTapAnimation(
                       onTap: () {
-                        questionProvider.question = selectQuestion[index];
-                        Navigator.pushReplacementNamed(context, "/game");
+                        questionProvider.questions = selectQuestion[index];
+                        Navigator.pushReplacementNamed(context, "/level");
                       },
                       child: Container(
                         padding: EdgeInsets.all(10.sp),

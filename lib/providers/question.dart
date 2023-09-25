@@ -2,12 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
-import 'package:trivia/data/questions.dart';
 import 'package:trivia/models/dialogs/fail_dialog.dart';
 import 'package:trivia/providers/level.dart';
 
 class QuestionProvider extends ChangeNotifier {
-  List questions = animalsData;
+  List questions = [];
   int questionIndex = -1;
 
   String question = "";
