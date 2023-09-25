@@ -5,6 +5,7 @@ import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/data/questions.dart';
 import 'package:trivia/models/game_background.dart';
 import 'package:trivia/models/stat_bar.dart';
+import 'package:trivia/providers/level.dart';
 import 'package:trivia/providers/question.dart';
 import 'package:velocity_x/velocity_x.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
@@ -23,6 +24,12 @@ class _SelectScreenState extends State<SelectScreen> {
     "assets/images/puzzle.png"
   ];
   List selectQuestion = [animalsData, riddlesData];
+
+  @override
+  void initState() {
+    var levelProvider = Provider.of<LevelProvider>(context);
+    super.initState();
+  }
 
   @override
   Widget build(BuildContext context) {
