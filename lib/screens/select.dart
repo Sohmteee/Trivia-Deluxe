@@ -15,7 +15,10 @@ class SelectScreen extends StatefulWidget {
 
 class _SelectScreenState extends State<SelectScreen> {
   List<String> selectItems = ["Animals", "Riddles"];
-  List<String> selectImages = ["assets/images/dolphin.png", "assets/images/puzzle.png"];
+  List<String> selectImages = [
+    "assets/images/dolphin.png",
+    "assets/images/puzzle.png"
+  ];
 
   @override
   Widget build(BuildContext context) {
@@ -46,6 +49,11 @@ class _SelectScreenState extends State<SelectScreen> {
                         borderRadius: BorderRadius.circular(20.r),
                       ),
                       child: ListTile(
+                        leading: Image.asset(
+                          selectImages[index],
+                          width: 40.w,
+                          height: 40.h,
+                        ),
                         title: Text(
                           (selectItems[index]).toString(),
                           style: TextStyle(
