@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/models/pop_scope.dart';
 
-showGameDialog(BuildContext context, {required Widget child}) {
+showGameDialog(BuildContext context, {required Widget child, bool? isExitable}) {
   showDialog(
       context: context,
       builder: (context) {

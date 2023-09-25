@@ -21,7 +21,7 @@ showSettingsDialog(BuildContext context) {
         Padding(
           padding: EdgeInsets.symmetric(horizontal: 15.w),
           child: Text(
-            "Would you like to watch an ad instead?",
+            "Game Music",
             style: TextStyle(
               color: Colors.grey[400],
               fontSize: 20.sp,
