@@ -15,12 +15,14 @@ class MenuScreen extends StatefulWidget {
 
 class _MenuScreenState extends State<MenuScreen> {
   @override
-  Future<void> initState() async {
-    
+  void initState() {
+    playBGAudio();
     super.initState();
   }
 
-  void playBG
+  Future<void> playBGAudio() async {
+    await player.play(DeviceFileSource("assets/audio/bg-music.m4a"));
+  }
 
   @override
   Widget build(BuildContext context) {
