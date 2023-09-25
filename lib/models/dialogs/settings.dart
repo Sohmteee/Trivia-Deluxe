@@ -25,15 +25,17 @@ showSettingsDialog(BuildContext context) {
           padding: EdgeInsets.symmetric(horizontal: 15.w),
           child: Column(
             children: [
-              Align(
-                alignment: Alignment.centerLeft,
-                child: Text(
-                  "Music",
-                  style: TextStyle(
-                    color: Colors.grey[400],
-                    fontSize: 18.sp,
+              Row(
+                children: [
+                  Text(
+                    "Music",
+                    style: TextStyle(
+                      color: Colors.grey[400],
+                      fontSize: 18.sp,
+                    ),
                   ),
-                ),
+                  Checkbox(value: true, onChanged: (value) {})
+                ],
               ),
               Row(
                 children: [
