@@ -42,7 +42,7 @@ class _AdScreenState extends State<AdScreen> with WidgetsBindingObserver {
                     strokeCap: StrokeCap.round,
                     textStyle: TextStyle(
                       fontSize: 15.sp,
-                      color: Colors.black,
+                      color: Colors.grey,
                       fontWeight: FontWeight.bold,
                     ),
                     textFormat: CountdownTextFormat.S,
