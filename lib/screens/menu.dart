@@ -35,17 +35,17 @@ class _MenuScreenState extends State<MenuScreen> with WidgetsBindingObserver {
     switch (state) {
       case AppLifecycleState.resumed:
       case AppLifecycleState.inactive:
-        print("music playing");
+        debugPrint("music playing");
         playBGAudio();
         break;
       case AppLifecycleState.paused:
       case AppLifecycleState.hidden:
-        print("music paused");
+        debugPrint("music paused");
         pauseBGAudio();
         break;
       case AppLifecycleState.detached:
         stopBGAudio();
-        print("music stopped");
+        debugPrint("music stopped");
         break;
     }
   }
