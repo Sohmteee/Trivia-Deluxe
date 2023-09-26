@@ -47,7 +47,7 @@ class _AdScreenState extends State<AdScreen> with WidgetsBindingObserver {
                   isReverse: true,
                   isReverseAnimation: true,
                   isTimerTextShown: true,
-                  autoStart: false,
+                  autoStart: true,
                   onStart: () {
                     debugPrint('Countdown Started');
 
