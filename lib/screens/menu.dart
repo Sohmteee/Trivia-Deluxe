@@ -99,7 +99,7 @@ class _MenuScreenState extends State<MenuScreen> with WidgetsBindingObserver {
                           showSettingsDialog(context);
                         },
                         child: Container(
-                          padding: EdgeInsets.all(2.sp),
+                          padding: EdgeInsets.all(5.sp),
                           decoration: BoxDecoration(
                             color: Colors.white,
                             shape: BoxShape.circle,
@@ -118,7 +118,7 @@ class _MenuScreenState extends State<MenuScreen> with WidgetsBindingObserver {
                           ),
                           child: Icon(
                             Icons.settings_rounded,
-                            size: 18.sp,
+                            size: 25.sp,
                             color: AppColor.levelYellow,
                           ),
                         ),
