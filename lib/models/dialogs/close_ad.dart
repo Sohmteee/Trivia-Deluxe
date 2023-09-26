@@ -11,7 +11,7 @@ showCloseAdDialog(BuildContext context) {
       mainAxisSize: MainAxisSize.min,
       children: [
         Text(
-          "Oya another option dey",
+          "Are you sure you want to close this ad?",
           style: TextStyle(
             color: Colors.white,
             fontSize: 25.sp,
@@ -23,7 +23,7 @@ showCloseAdDialog(BuildContext context) {
         Padding(
           padding: EdgeInsets.symmetric(horizontal: 15.w),
           child: Text(
-            "Would you like to watch an ad instead?",
+            "You'd lose the reward if you do so",
             style: TextStyle(
               color: Colors.grey[400],
               fontSize: 20.sp,
@@ -33,9 +33,7 @@ showCloseAdDialog(BuildContext context) {
         ),
         SizedBox(height: 20.h),
         ZoomTapAnimation(
-          onTap: () {
-            Navigator.pushReplacementNamed(context, "/level");
-          },
+          onTap: () {},
           child: Container(
             width: double.maxFinite,
             padding: EdgeInsets.symmetric(horizontal: 20.sp, vertical: 10.sp),
@@ -43,22 +41,11 @@ showCloseAdDialog(BuildContext context) {
               color: Colors.white,
               borderRadius: BorderRadius.circular(20.r),
             ),
-            child: Row(
-              mainAxisSize: MainAxisSize.min,
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Text(
-                  "Okay I fit do that one",
-                  style: TextStyle(
-                    fontSize: 15.sp,
-                  ),
-                ),
-                SizedBox(width: 10.w),
-                SizedBox(
-                  height: 20.h,
-                  child: Image.asset("assets/images/youtube.png"),
-                ),
-              ],
+            child: Text(
+              "I'll stay",
+              style: TextStyle(
+                fontSize: 15.sp,
+              ),
             ),
           ),
         ),
@@ -72,22 +59,11 @@ showCloseAdDialog(BuildContext context) {
               color: Colors.white,
               borderRadius: BorderRadius.circular(20.r),
             ),
-            child: Row(
-              mainAxisSize: MainAxisSize.min,
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Text(
-                  "Omo I dey manage my data too",
-                  style: TextStyle(
-                    fontSize: 15.sp,
-                  ),
-                ),
-                SizedBox(width: 10.w),
-                SizedBox(
-                  height: 20.h,
-                  child: Image.asset("assets/images/laugh.png"),
-                ),
-              ],
+            child: Text(
+              "Take me out",
+              style: TextStyle(
+                fontSize: 15.sp,
+              ),
             ),
           ),
         ),
