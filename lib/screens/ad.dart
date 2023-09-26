@@ -72,7 +72,7 @@ class _AdScreenState extends State<AdScreen> with WidgetsBindingObserver {
                     timeFormatterFunction:
                         (defaultFormatterFunction, duration) {
                       if (duration.inSeconds == 5) {
-                        return const Icon(Icons.close);
+                        return "\uf00d";
                       } else {
                         return Function.apply(
                             defaultFormatterFunction, [duration]);
