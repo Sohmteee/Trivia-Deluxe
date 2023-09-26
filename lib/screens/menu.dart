@@ -6,7 +6,6 @@ import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/data/controllers.dart';
 import 'package:trivia/models/dialogs/exit.dart';
-import 'package:trivia/models/dialogs/game.dart';
 import 'package:trivia/models/dialogs/settings.dart';
 import 'package:trivia/providers/audio.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
@@ -78,7 +77,7 @@ class _MenuScreenState extends State<MenuScreen> with WidgetsBindingObserver {
   Widget build(BuildContext context) {
     return WillPopScope(
       onWillPop: () async {
-        showExitDialog(context);
+        return showExitDialog(context);
       },
       child: SafeArea(
         child: Scaffold(

@@ -24,6 +24,7 @@ showExitDialog(BuildContext context) {
         ZoomTapAnimation(
           onTap: () {
             SystemNavigator.pop();
+            return true;
           },
           child: Container(
             width: double.maxFinite,
@@ -55,6 +56,7 @@ showExitDialog(BuildContext context) {
         ZoomTapAnimation(
           onTap: () {
             Navigator.pop(context);
+            return false;
           },
           child: Container(
             width: double.maxFinite,
