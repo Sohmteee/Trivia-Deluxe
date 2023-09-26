@@ -1,14 +1,10 @@
-import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:provider/provider.dart';
-import 'package:toast/toast.dart';
 import 'package:trivia/colors/app_color.dart';
-import 'package:trivia/data/controllers.dart';
+import 'package:trivia/models/dialogs/close_ad.dart';
 import 'package:trivia/models/dialogs/exit.dart';
 import 'package:trivia/models/dialogs/settings.dart';
-import 'package:trivia/providers/audio.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 class MenuScreen extends StatefulWidget {
@@ -23,7 +19,7 @@ class _MenuScreenState extends State<MenuScreen> with WidgetsBindingObserver {
   Widget build(BuildContext context) {
     return WillPopScope(
       onWillPop: () async {
-        showCloseAdDialog();
+        showCloseAdDialog(context);
         return false;
       },
       child: SafeArea(
