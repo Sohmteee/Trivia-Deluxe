@@ -55,7 +55,7 @@ class _GameStatsState extends State<GameStats> {
                 ),
                 child: Icon(
                   Icons.home_rounded,
-                  size: 18.sp,
+                  size: 22.sp,
                   color: AppColor.levelYellow,
                 ),
               ),
@@ -252,7 +252,7 @@ class _GameStatsState extends State<GameStats> {
                 ),
                 child: Icon(
                   Icons.settings_rounded,
-                  size: 18.sp,
+                  size: 22.sp,
                   color: AppColor.levelYellow,
                 ),
               ),
