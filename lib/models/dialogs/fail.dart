@@ -154,7 +154,7 @@ showFailedDialog(BuildContext context, questionIndex, bool timeUp) {
               mainAxisSize: MainAxisSize.min,
               children: [
                 Text(
-                  "Or watch an ad to continue",
+                  "Watch ad",
                   style: TextStyle(
                     fontSize: 25.sp,
                   ),
