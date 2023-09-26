@@ -2,9 +2,11 @@ import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/data/controllers.dart';
 import 'package:trivia/models/dialogs/settings.dart';
+import 'package:trivia/providers/audio.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 class MenuScreen extends StatefulWidget {
@@ -49,6 +51,7 @@ class _MenuScreenState extends State<MenuScreen> with WidgetsBindingObserver {
   }
 
   Future<void> playBGAudio() async {
+    final musicProvider = Provider.of<AudioProvider>(context);
     String bgAudio = "audio/bg-music.mp3";
     await player.setSource(AssetSource(bgAudio));
     await player.resume();
