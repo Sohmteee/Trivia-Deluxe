@@ -34,10 +34,10 @@ showCloseAdDialog(BuildContext context) {
         SizedBox(height: 20.h),
         ZoomTapAnimation(
           onTap: () {
+            Navigator.pop(context);
             return false;
           },
           child: Container(
-            width: double.maxFinite,
             padding: EdgeInsets.symmetric(horizontal: 20.sp, vertical: 10.sp),
             decoration: BoxDecoration(
               color: Colors.white,
@@ -54,10 +54,11 @@ showCloseAdDialog(BuildContext context) {
         SizedBox(height: 10.h),
         ZoomTapAnimation(
           onTap: () {
+            Navigator.pop(context);
+            Navigator.pop(context);
             return true;
           },
           child: Container(
-            width: double.maxFinite,
             padding: EdgeInsets.symmetric(horizontal: 20.sp, vertical: 10.sp),
             decoration: BoxDecoration(
               color: Colors.white,
