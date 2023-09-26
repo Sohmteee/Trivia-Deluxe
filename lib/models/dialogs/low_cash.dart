@@ -26,7 +26,7 @@ showLowCashDialog(BuildContext context) {
           Padding(
             padding: EdgeInsets.symmetric(horizontal: 15.w),
             child: Text(
-              "Would you like to top up by watching an ad?",
+              "Would you like to continue by watching an ad?",
               style: TextStyle(
                 color: Colors.grey[400],
                 fontSize: 20.sp,
@@ -52,7 +52,7 @@ showLowCashDialog(BuildContext context) {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
-                    "Okay, I'll watch an ad for 5 coins",
+                    "Okay, I'll watch an ad",
                     style: TextStyle(
                       fontSize: 15.sp,
                     ),
@@ -87,7 +87,7 @@ showLowCashDialog(BuildContext context) {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
-                    "Omo I'm broke in real life too",
+                    "Omo I'm managing my data",
                     style: TextStyle(
                       fontSize: 15.sp,
                     ),
