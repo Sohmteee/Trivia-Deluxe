@@ -1263,7 +1263,7 @@ List proverbsData = [
     ]
   },
   {
-    "question": " Practice what you ___",
+    "question": "Practice what you ___",
     "dialog": {
       "image": "assets/images/pulpit.png",
       "title": " Practice what you preach",

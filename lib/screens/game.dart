@@ -27,6 +27,7 @@ class _GameScreenState extends State<GameScreen> {
   Color fillColor = Colors.green[300]!;
   int iterationCount = 30;
   late Timer timer;
+  bool answered 
 
   @override
   void initState() {
