@@ -22,10 +22,11 @@ showSettingsDialog(BuildContext context) {
         ),
         SizedBox(height: 20.h),
         Padding(
-          padding: EdgeInsets.only(left: 15.w, right: 10.w),
+          padding: EdgeInsets.only(left: 15.w),
           child: Column(
             children: [
               Row(
+                
                 children: [
                   Text(
                     "Music",
