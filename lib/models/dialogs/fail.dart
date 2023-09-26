@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
-import 'package:trivia/models/dialogs/low_cash_dialog.dart';
+import 'package:trivia/models/dialogs/low_cash.dart';
 import 'package:trivia/providers/money.dart';
 import 'package:trivia/providers/question.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
-import 'game_dialog.dart';
+import 'game.dart';
 
 showFailedDialog(BuildContext context, questionIndex, bool timeUp) {
   final questionProvider =
