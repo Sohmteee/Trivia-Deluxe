@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
+import 'package:trivia/models/dialogs/ad.dart';
 import 'package:trivia/models/dialogs/low_cash.dart';
 import 'package:trivia/providers/money.dart';
 import 'package:trivia/providers/question.dart';
@@ -141,13 +142,7 @@ showFailedDialog(BuildContext context, questionIndex, bool timeUp) {
         }),
         ZoomTapAnimation(
           onTap: () {
-            if (moneyProvider.coins - 5 >= 0) {
-              moneyProvider.decreaseCoins(5);
-              Navigator.pushReplacementNamed(context, "/game");
-            } else {
-              Navigator.pop(context);
-              showLowCashDialog(context);
-            }
+            showAdDialog(context);
           },
           child: Container(
             padding: EdgeInsets.symmetric(horizontal: 20.sp, vertical: 10.sp),
