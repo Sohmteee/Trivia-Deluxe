@@ -4,6 +4,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/data/controllers.dart';
 import 'package:trivia/models/dialogs/close_ad.dart';
+import 'package:trivia/models/pop_scope.dart';
 import 'package:trivia/providers/money.dart';
 
 class AdScreen extends StatefulWidget {
@@ -17,13 +18,8 @@ class _AdScreenState extends State<AdScreen> with WidgetsBindingObserver {
   @override
   Widget build(BuildContext context) {
     return WillPopScope(
-      onWillPop: () async {
-        if (adCountDownController.getTime() == "5") {
-          return true;
-        }
-        showCloseAdDialog(context);
-        return false;
-      },
+      onWillPop: () => onWillPop(context),
+      
       child: SafeArea(
         child: Scaffold(
           body: Padding(
@@ -34,34 +30,34 @@ class _AdScreenState extends State<AdScreen> with WidgetsBindingObserver {
                   mainAxisAlignment: MainAxisAlignment.end,
                   children: [
                     Consumer<MoneyProvider>(
-                        builder: (context, moneyProvider, _) {
-                      return CircularCountDownTimer(
-                        duration: 5,
-                        controller: adCountDownController,
-                        width: 20,
-                        height: 20,
-                        ringColor: Colors.grey[300]!,
-                        ringGradient: null,
-                        fillColor: Colors.grey,
-                        fillGradient: null,
-                        backgroundColor: Colors.transparent,
-                        backgroundGradient: null,
-                        strokeWidth: 3,
-                        strokeCap: StrokeCap.round,
-                        textStyle: TextStyle(
-                          fontSize: 15.sp,
-                          color: Colors.grey,
-                          fontWeight: FontWeight.bold,
-                        ),
-                        textFormat: CountdownTextFormat.S,
-                        isReverse: false,
-                        isReverseAnimation: false,
-                        isTimerTextShown: true,
-                        autoStart: true,
-                        onStart: () {
-                          debugPrint('Countdown Started');
+                      builder: (context, moneyProvider, _) {
+                        return CircularCountDownTimer(
+                          duration: 5,
+                          controller: adCountDownController,
+                          width: 20,
+                          height: 20,
+                          ringColor: Colors.grey[300]!,
+                          ringGradient: null,
+                          fillColor: Colors.grey,
+                          fillGradient: null,
+                          backgroundColor: Colors.transparent,
+                          backgroundGradient: null,
+                          strokeWidth: 3,
+                          strokeCap: StrokeCap.round,
+                          textStyle: TextStyle(
+                            fontSize: 15.sp,
+                            color: Colors.grey,
+                            fontWeight: FontWeight.bold,
+                          ),
+                          textFormat: CountdownTextFormat.S,
+                          isReverse: false,
+                          isReverseAnimation: false,
+                          isTimerTextShown: true,
+                          autoStart: true,
+                          onStart: () {
+                            debugPrint('Countdown Started');
 
-                          /* timer = Timer.periodic(1.seconds, (timer) {
+                            /* timer = Timer.periodic(1.seconds, (timer) {
                               if (iterationCount > 0) {
                                 setState(() {
                                   iterationCount--;
@@ -71,26 +67,27 @@ class _AdScreenState extends State<AdScreen> with WidgetsBindingObserver {
                               }
                             });
                            */
-                        },
-                        onComplete: () {
-                          debugPrint('Countdown Ended');
+                          },
+                          onComplete: () {
+                            debugPrint('Countdown Ended');
 
-                          moneyProvider.increaseCoins(5);
-                          Navigator.pop(context);
+                            moneyProvider.increaseCoins(5);
+                            Navigator.pop(context);
 
-                          // questionProvider.checkCorrectAnswer(context, -1);
-                        },
-                        timeFormatterFunction:
-                            (defaultFormatterFunction, duration) {
-                          if (duration.inSeconds == 5) {
-                            return "X";
-                          } else {
-                            return Function.apply(
-                                defaultFormatterFunction, [duration]);
-                          }
-                        },
-                      );
-                    }),
+                            // questionProvider.checkCorrectAnswer(context, -1);
+                          },
+                          timeFormatterFunction:
+                              (defaultFormatterFunction, duration) {
+                            if (duration.inSeconds == 5) {
+                              return "X";
+                            } else {
+                              return Function.apply(
+                                  defaultFormatterFunction, [duration]);
+                            }
+                          },
+                        );
+                      }
+                    ),
                   ],
                 ),
                 const Spacer(),
