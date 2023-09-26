@@ -72,7 +72,7 @@ showLowCashDialog(BuildContext context) {
               final levelProvider =
                   Provider.of<LevelProvider>(context, listen: false);
               Navigator.of(dialogContext).pop();
-
+              levelProvider.resetCompletedLevel();
               Navigator.pushNamedAndRemoveUntil(
                   dialogContext, "/menu", (route) => false);
             },
