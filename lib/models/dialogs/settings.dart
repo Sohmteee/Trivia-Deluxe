@@ -26,7 +26,6 @@ showSettingsDialog(BuildContext context) {
           child: Column(
             children: [
               Row(
-                
                 children: [
                   Text(
                     "Music",
@@ -50,6 +49,7 @@ showSettingsDialog(BuildContext context) {
                 builder: (context, audioProvider, _) {
                   return audioProvider.music == true
                       ? Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
                               "${(audioProvider.musicVolume * 100).toInt()}%",
