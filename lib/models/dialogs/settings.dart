@@ -57,10 +57,8 @@ showSettingsDialog(BuildContext context) {
                                 fontSize: 18.sp,
                               ),
                             ),
-                            SliderTheme(
-                              data: SliderTheme.of(context).copyWith(
-                                  overlayShape: SliderComponentShape.noOverlay,
-                                  trackShape: RoundedRectSliderTrackShape()),
+                            Container(
+                              width: 180.w,
                               child: Slider(
                                   divisions: 10,
                                   value: audioProvider.musicVolume,
