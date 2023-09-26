@@ -72,7 +72,7 @@ class _AdScreenState extends State<AdScreen> with WidgetsBindingObserver {
                     timeFormatterFunction:
                         (defaultFormatterFunction, duration) {
                       if (duration.inSeconds == 5) {
-                        return Text("\u00d7");
+                        return "\u00d7";
                       } else {
                         return Function.apply(
                             defaultFormatterFunction, [duration]);
