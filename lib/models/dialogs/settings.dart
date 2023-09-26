@@ -58,7 +58,7 @@ showSettingsDialog(BuildContext context) {
                               ),
                             ),
                             SizedBox(
-                              width: siz,
+                              width: 170.w,
                               child: Slider(
                                 divisions: 10,
                                 value: audioProvider.musicVolume,
