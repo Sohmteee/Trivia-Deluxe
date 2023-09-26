@@ -28,7 +28,7 @@ class _LevelTileState extends State<LevelTile> {
         Toast.show(
           "Please press the play button below",
           duration: 2,
-          gravity: Toast.bottom,
+          gravity: 1,
           textStyle: TextStyle(
             color: Colors.white,
             fontSize: 20.sp,
