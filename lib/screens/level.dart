@@ -40,7 +40,7 @@ class _LevelScreenState extends State<LevelScreen> {
                             Navigator.pushNamedAndRemoveUntil(
                                 context, "/menu", (route) => false);
                           } else {
-                            Navigator.pushNamed(context, "/game");
+                            Navigator.pushReplacementNamed(context, "/game");
                           }
                         },
                         child: Image.asset("assets/images/play.png"),
@@ -109,15 +109,15 @@ class _LevelScreenState extends State<LevelScreen> {
                 bottom: Radius.circular(150.r),
               ),
             ),
-              child: ListView.builder(
-                itemCount: 3,
-                padding: EdgeInsets.only(top: 20.h),
-                physics: const NeverScrollableScrollPhysics(),
-                itemBuilder: (BuildContext context, int index) {
-                  return LevelTile(
-                    level: index + 1,
-                  );
-                },
+            child: ListView.builder(
+              itemCount: 3,
+              padding: EdgeInsets.only(top: 20.h),
+              physics: const NeverScrollableScrollPhysics(),
+              itemBuilder: (BuildContext context, int index) {
+                return LevelTile(
+                  level: index + 1,
+                );
+              },
             ),
           ),
         ),
