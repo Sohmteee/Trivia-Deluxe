@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
-import 'package:trivia/models/dialogs/ad.dart';
 import 'package:trivia/providers/money.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
@@ -70,8 +69,7 @@ showLowCashDialog(BuildContext context) {
         SizedBox(height: 10.h),
         ZoomTapAnimation(
           onTap: () {
-            Navigator.pop(context);
-            showAdDialog(context);
+            Navigator.pushReplacementNamed(context, "/menu");
           },
           child: Container(
             width: double.maxFinite,
