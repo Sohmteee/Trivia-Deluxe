@@ -28,7 +28,51 @@ class _AdScreenState extends State<AdScreen> with WidgetsBindingObserver {
             children: [
               Align(
                 alignment: Alignment.topRight,
-                child: ,
+                child: CircularCountDownTimer(
+                  duration: 30,
+                  controller: countDownController,
+                  width: 70,
+                  height: 70,
+                  ringColor: Colors.transparent,
+                  ringGradient: null,
+                  fillColor: Colors.grey[300]!,
+                  fillGradient: null,
+                  backgroundColor: getColor(iterationCount - 1),
+                  backgroundGradient: null,
+                  strokeWidth: 3,
+                  strokeCap: StrokeCap.round,
+                  textStyle: TextStyle(
+                    fontSize: 33.sp,
+                    color: Colors.white,
+                    fontWeight: FontWeight.bold,
+                  ),
+                  textFormat: CountdownTextFormat.S,
+                  isReverse: true,
+                  isReverseAnimation: true,
+                  isTimerTextShown: true,
+                  autoStart: false,
+                  onStart: () {
+                    debugPrint('Countdown Started');
+
+                    timer = Timer.periodic(1.seconds, (timer) {
+                      if (iterationCount > 0) {
+                        setState(() {
+                          iterationCount--;
+                        });
+                      } else {
+                        timer.cancel();
+                      }
+                    });
+                  },
+                  onComplete: () {
+                    debugPrint('Countdown Ended');
+
+                    questionProvider.checkCorrectAnswer(context, -1);
+                  },
+                  timeFormatterFunction: (defaultFormatterFunction, duration) {
+                    return Function.apply(defaultFormatterFunction, [duration]);
+                  },
+                ),
               )
             ],
           ),
