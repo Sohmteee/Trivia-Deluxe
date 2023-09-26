@@ -9,7 +9,7 @@ showExitDialog(BuildContext context) {
   showGameDialog(
     context,
     isExitable: true,
-    padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 40, 20, 40),
+    padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 40),
     child: Column(
       mainAxisSize: MainAxisSize.min,
       children: [
