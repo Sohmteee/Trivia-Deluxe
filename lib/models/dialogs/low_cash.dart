@@ -34,7 +34,7 @@ showLowCashDialog(BuildContext context) {
         SizedBox(height: 20.h),
         ZoomTapAnimation(
           onTap: () {
-            Navigator.pop(context);
+            Navigator.of(context).pop();
             Navigator.pushReplacementNamed(context, "/ad");
           },
           child: Container(
@@ -66,7 +66,7 @@ showLowCashDialog(BuildContext context) {
         SizedBox(height: 10.h),
         ZoomTapAnimation(
           onTap: () {
-            Navigator.pop(context);
+            Navigator.of(context).pop();
             Navigator.pushReplacementNamed(context, "/menu");
           },
           child: Container(
