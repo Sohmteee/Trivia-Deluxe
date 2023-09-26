@@ -1,13 +1,8 @@
 import 'package:circular_countdown_timer/circular_countdown_timer.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/data/controllers.dart';
 import 'package:trivia/models/dialogs/close_ad.dart';
-import 'package:trivia/models/dialogs/exit.dart';
-import 'package:trivia/models/dialogs/settings.dart';
-import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 class AdScreen extends StatefulWidget {
   const AdScreen({super.key});
@@ -31,16 +26,16 @@ class _AdScreenState extends State<AdScreen> with WidgetsBindingObserver {
               Align(
                 alignment: Alignment.topRight,
                 child: CircularCountDownTimer(
-                  duration: 30,
+                  duration: 5,
                   controller: adCountDownController,
-                  width: 70,
-                  height: 70,
-                  ringColor: Colors.transparent,
+                  width: 20,
+                  height: 20,
+                  ringColor: Colors.grey,
                   ringGradient: null,
                   fillColor: Colors.grey[300]!,
                   fillGradient: null,
                   backgroundColor: Colors.transparent,
-                  backgroundGradient: Colors.grey[500]!,
+                  backgroundGradient: null,
                   strokeWidth: 3,
                   strokeCap: StrokeCap.round,
                   textStyle: TextStyle(
@@ -56,7 +51,7 @@ class _AdScreenState extends State<AdScreen> with WidgetsBindingObserver {
                   onStart: () {
                     debugPrint('Countdown Started');
 
-                    timer = Timer.periodic(1.seconds, (timer) {
+                    /* timer = Timer.periodic(1.seconds, (timer) {
                       if (iterationCount > 0) {
                         setState(() {
                           iterationCount--;
@@ -65,11 +60,12 @@ class _AdScreenState extends State<AdScreen> with WidgetsBindingObserver {
                         timer.cancel();
                       }
                     });
+                   */
                   },
                   onComplete: () {
                     debugPrint('Countdown Ended');
 
-                    questionProvider.checkCorrectAnswer(context, -1);
+                    // questionProvider.checkCorrectAnswer(context, -1);
                   },
                   timeFormatterFunction: (defaultFormatterFunction, duration) {
                     return Function.apply(defaultFormatterFunction, [duration]);
