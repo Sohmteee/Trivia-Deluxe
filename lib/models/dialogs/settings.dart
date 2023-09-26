@@ -69,9 +69,8 @@ showSettingsDialog(BuildContext context) {
                                 }),
                           ],
                         ).animate().fadeIn(
-                          duration: .3.seconds,
-                          
-                        )
+                            duration: .5.seconds,
+                          )
                       : const SizedBox();
                 },
               ),
