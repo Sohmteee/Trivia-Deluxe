@@ -38,7 +38,6 @@ showLowCashDialog(BuildContext context) {
         Consumer<MoneyProvider>(builder: (context, moneyProvider, _) {
           return ZoomTapAnimation(
             onTap: () {
-              // moneyProvider.increaseCoins(5);
               Navigator.pushReplacementNamed(context, "/ad");
             },
             child: Container(
