@@ -22,7 +22,7 @@ showSettingsDialog(BuildContext context) {
         ),
         SizedBox(height: 20.h),
         Padding(
-          padding: EdgeInsets.symmetric(horizontal: 15.w),
+          padding: EdgeInsets.only(left: 15.w, right: 10.w),
           child: Column(
             children: [
               Row(
