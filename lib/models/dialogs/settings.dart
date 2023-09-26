@@ -71,7 +71,9 @@ showSettingsDialog(BuildContext context) {
                         ).animate().fadeIn(
                             duration: .5.seconds,
                           )
-                      : const SizedBox();
+                      : const SizedBox().animate().fadeOut(
+                            duration: .5.seconds,
+                          );
                 },
               ),
               SizedBox(height: 10.h),
