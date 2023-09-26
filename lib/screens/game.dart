@@ -27,7 +27,7 @@ class _GameScreenState extends State<GameScreen> {
   Color fillColor = Colors.green[300]!;
   int iterationCount = 30;
   late Timer timer;
-  bool answered 
+  bool answered = false;
 
   @override
   void initState() {
@@ -36,7 +36,7 @@ class _GameScreenState extends State<GameScreen> {
 
     confettiController = ConfettiController(duration: 1.5.seconds);
     questionProvider.initQuestionProvider(context);
-    Future.delayed(3.5.seconds, () => countDownController.start());
+    Future.delayed(3.5.seconds, () => if ());
 
     super.initState();
   }
@@ -81,6 +81,7 @@ class _GameScreenState extends State<GameScreen> {
                           return ZoomTapAnimation(
                                   onTap: () {
                                     countDownController.pause();
+                                    answered = true;
 
                                     if (questionProvider.options[index]
                                             ["value"] ==
