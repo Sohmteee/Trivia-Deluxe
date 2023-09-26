@@ -23,69 +23,73 @@ class _AdScreenState extends State<AdScreen> with WidgetsBindingObserver {
         child: Scaffold(
           body: Column(
             children: [
-              Align(
-                alignment: Alignment.topRight,
-                child: Padding(
-                  padding: const EdgeInsets.all(20),
-                  child: Column(
-                    children: [
-                      CircularCountDownTimer(
-                        duration: 5,
-                        controller: adCountDownController,
-                        width: 20,
-                        height: 20,
-                        ringColor: Colors.grey[300]!,
-                        ringGradient: null,
-                        fillColor: Colors.grey,
-                        fillGradient: null,
-                        backgroundColor: Colors.transparent,
-                        backgroundGradient: null,
-                        strokeWidth: 3,
-                        strokeCap: StrokeCap.round,
-                        textStyle: TextStyle(
-                          fontSize: 15.sp,
-                          color: Colors.grey,
-                          fontWeight: FontWeight.bold,
-                        ),
-                        textFormat: CountdownTextFormat.S,
-                        isReverse: false,
-                        isReverseAnimation: false,
-                        isTimerTextShown: true,
-                        autoStart: true,
-                        onStart: () {
-                          debugPrint('Countdown Started');
+              Padding(
+                padding: const EdgeInsets.all(20),
+                child: Column(
+                  children: [
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.end,
+                      children: [
+                        CircularCountDownTimer(
+                          duration: 5,
+                          controller: adCountDownController,
+                          width: 20,
+                          height: 20,
+                          ringColor: Colors.grey[300]!,
+                          ringGradient: null,
+                          fillColor: Colors.grey,
+                          fillGradient: null,
+                          backgroundColor: Colors.transparent,
+                          backgroundGradient: null,
+                          strokeWidth: 3,
+                          strokeCap: StrokeCap.round,
+                          textStyle: TextStyle(
+                            fontSize: 15.sp,
+                            color: Colors.grey,
+                            fontWeight: FontWeight.bold,
+                          ),
+                          textFormat: CountdownTextFormat.S,
+                          isReverse: false,
+                          isReverseAnimation: false,
+                          isTimerTextShown: true,
+                          autoStart: true,
+                          onStart: () {
+                            debugPrint('Countdown Started');
 
-                          /* timer = Timer.periodic(1.seconds, (timer) {
-                            if (iterationCount > 0) {
-                              setState(() {
-                                iterationCount--;
-                              });
+                            /* timer = Timer.periodic(1.seconds, (timer) {
+                              if (iterationCount > 0) {
+                                setState(() {
+                                  iterationCount--;
+                                });
+                              } else {
+                                timer.cancel();
+                              }
+                            });
+                           */
+                          },
+                          onComplete: () {
+                            debugPrint('Countdown Ended');
+
+                            // questionProvider.checkCorrectAnswer(context, -1);
+                          },
+                          timeFormatterFunction:
+                              (defaultFormatterFunction, duration) {
+                            if (duration.inSeconds == 5) {
+                              return "X";
                             } else {
-                              timer.cancel();
+                              return Function.apply(
+                                  defaultFormatterFunction, [duration]);
                             }
-                          });
-                         */
-                        },
-                        onComplete: () {
-                          debugPrint('Countdown Ended');
-
-                          // questionProvider.checkCorrectAnswer(context, -1);
-                        },
-                        timeFormatterFunction:
-                            (defaultFormatterFunction, duration) {
-                          if (duration.inSeconds == 5) {
-                            return "X";
-                          } else {
-                            return Function.apply(
-                                defaultFormatterFunction, [duration]);
-                          }
-                        },
-                      ),
-                      const Center(
+                          },
+                        ),
+                      ],
+                    ),
+                    const Expanded(
+                      child: Center(
                         child: Text("Showing ad..."),
                       ),
-                    ],
-                  ),
+                    ),
+                  ],
                 ),
               )
             ],
