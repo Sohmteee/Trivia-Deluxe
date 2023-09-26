@@ -6,7 +6,7 @@ import 'game.dart';
 
 showLowCashDialog(BuildContext context) {
   showGameDialog(
-    context,
+    dialogContext,
     child: Column(
       mainAxisSize: MainAxisSize.min,
       children: [
