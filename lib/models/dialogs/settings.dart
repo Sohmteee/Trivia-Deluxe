@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/models/dialogs/game.dart';
@@ -67,7 +68,7 @@ showSettingsDialog(BuildContext context) {
                                   return "${(audioProvider.musicVolume * 100).toInt()}%";
                                 }),
                           ],
-                        )
+                        ).animate().fadeIn()
                       : const SizedBox();
                 },
               ),
