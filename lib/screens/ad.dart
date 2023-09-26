@@ -84,11 +84,9 @@ class _AdScreenState extends State<AdScreen> with WidgetsBindingObserver {
                         ),
                       ],
                     ),
-                    const Expanded(
-                      child: Center(
-                        child: Text("Showing ad..."),
-                      ),
-                    ),
+                    const Spacer(),
+                    const Text("Showing ad..."),
+                    const Spacer(),
                   ],
                 ),
               )
