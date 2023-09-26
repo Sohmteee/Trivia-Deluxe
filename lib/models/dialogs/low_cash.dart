@@ -69,7 +69,7 @@ showLowCashDialog(BuildContext context) {
             ZoomTapAnimation(
               onTap: () {
                 Navigator.of(dialogContext).pop();
-                Navigator.pushReplacementNamed(dialogContext, "/menu");
+                Navigator.pushNamedAndRemoveUntil(dialogContext, "/menu");
               },
               child: Container(
                 width: double.maxFinite,
