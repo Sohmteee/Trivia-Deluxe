@@ -70,10 +70,8 @@ class _SelectScreenState extends State<SelectScreen> {
                     return ZoomTapAnimation(
                       onTap: () {
                         questionProvider.questions = selectItem["questions"];
-                        Future.delayed(
-                            3.microseconds,
-                            () => Navigator.pushReplacementNamed(
-                                context, "/level"));
+                        Future.delayed(3.microseconds,
+                            () => Navigator.pushNamed(context, "/level"));
                       },
                       child: Container(
                         padding: EdgeInsets.all(10.sp),
