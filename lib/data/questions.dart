@@ -1189,7 +1189,7 @@ List proverbsData = [
       },
       {
         "text": "Wait",
-        "value": false,
+        "value": true,
         "colors": [
           AppColor.yellow,
           AppColor.slightlyLighterYellow,
