@@ -28,7 +28,6 @@ showExitDialog(BuildContext context) {
             return true;
           },
           child: Container(
-            width: double.maxFinite,
             padding: EdgeInsets.symmetric(horizontal: 20.sp, vertical: 10.sp),
             decoration: BoxDecoration(
               color: Colors.white,
@@ -49,7 +48,6 @@ showExitDialog(BuildContext context) {
             return false;
           },
           child: Container(
-            width: double.maxFinite,
             padding: EdgeInsets.symmetric(horizontal: 20.sp, vertical: 10.sp),
             decoration: BoxDecoration(
               color: Colors.white,
