@@ -232,7 +232,7 @@ class _GameScreenState extends State<GameScreen> {
               fillGradient: null,
               backgroundColor: getColor(iterationCount - 1),
               backgroundGradient: null,
-              strokeWidth: 10.0,
+              strokeWidth: 5,
               strokeCap: StrokeCap.round,
               textStyle: TextStyle(
                 fontSize: 33.sp,

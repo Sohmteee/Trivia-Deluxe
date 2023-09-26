@@ -53,7 +53,7 @@ showLowCashDialog(BuildContext context) {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
-                    "Okay, I'll wactch an ad for 10 coins",
+                    "Okay, I'll watch an ad for 5 coins",
                     style: TextStyle(
                       fontSize: 15.sp,
                     ),
@@ -61,7 +61,7 @@ showLowCashDialog(BuildContext context) {
                   SizedBox(width: 10.w),
                   SizedBox(
                     height: 20.h,
-                    child: Image.asset("assets/images/debit-card.png"),
+                    child: Image.asset("assets/images/youtube.png"),
                   ),
                 ],
               ),
