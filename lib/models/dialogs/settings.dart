@@ -68,7 +68,9 @@ showSettingsDialog(BuildContext context) {
                                   return "${(audioProvider.musicVolume * 100).toInt()}%";
                                 }),
                           ],
-                        ).animate().fadeIn()
+                        ).animate().fadeIn(
+                          
+                        )
                       : const SizedBox();
                 },
               ),
