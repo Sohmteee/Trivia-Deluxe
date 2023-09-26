@@ -1,17 +1,18 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 import 'game.dart';
 
-showAdDialog(BuildContext context) {
+showExitDialog(BuildContext context) {
   showGameDialog(
     context,
     child: Column(
       mainAxisSize: MainAxisSize.min,
       children: [
         Text(
-          "Oya another option dey",
+          "Are you sure you want to exit?",
           style: TextStyle(
             color: Colors.white,
             fontSize: 25.sp,
@@ -19,22 +20,10 @@ showAdDialog(BuildContext context) {
           ),
           textAlign: TextAlign.center,
         ),
-        SizedBox(height: 10.h),
-        Padding(
-          padding: EdgeInsets.symmetric(horizontal: 15.w),
-          child: Text(
-            "Would you like to watch an ad instead?",
-            style: TextStyle(
-              color: Colors.grey[400],
-              fontSize: 20.sp,
-            ),
-            textAlign: TextAlign.center,
-          ),
-        ),
         SizedBox(height: 20.h),
         ZoomTapAnimation(
           onTap: () {
-            Navigator.pushReplacementNamed(context, "/level");
+            SystemNavigator.pop();
           },
           child: Container(
             width: double.maxFinite,
