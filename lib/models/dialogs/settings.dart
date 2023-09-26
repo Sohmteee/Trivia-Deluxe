@@ -57,8 +57,8 @@ showSettingsDialog(BuildContext context) {
                                 fontSize: 18.sp,
                               ),
                             ),
-                            Expanded(
-                              width: double.maxFinite,
+                            SizedBox(
+                              width: siz,
                               child: Slider(
                                 divisions: 10,
                                 value: audioProvider.musicVolume,
