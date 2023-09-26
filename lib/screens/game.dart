@@ -36,7 +36,8 @@ class _GameScreenState extends State<GameScreen> {
 
     confettiController = ConfettiController(duration: 1.5.seconds);
     questionProvider.initQuestionProvider(context);
-    Future.delayed(3.5.seconds, () => if ());
+    Future.delayed(
+        3.5.seconds, () => (!answered) ? countDownController.start() : null);
 
     super.initState();
   }
