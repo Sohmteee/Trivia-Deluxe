@@ -33,7 +33,9 @@ showCloseAdDialog(BuildContext context) {
         ),
         SizedBox(height: 20.h),
         ZoomTapAnimation(
-          onTap: () {},
+          onTap: () {
+            return true
+          },
           child: Container(
             width: double.maxFinite,
             padding: EdgeInsets.symmetric(horizontal: 20.sp, vertical: 10.sp),
