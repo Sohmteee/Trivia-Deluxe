@@ -41,7 +41,7 @@ class _AdScreenState extends State<AdScreen> with WidgetsBindingObserver {
                     strokeWidth: 3,
                     strokeCap: StrokeCap.round,
                     textStyle: TextStyle(
-                      fontSize: 33.sp,
+                      fontSize: 15.sp,
                       color: Colors.black,
                       fontWeight: FontWeight.bold,
                     ),
