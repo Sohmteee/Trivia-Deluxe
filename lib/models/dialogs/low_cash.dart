@@ -34,9 +34,36 @@ showLowCashDialog(BuildContext context) {
           ),
         ),
         SizedBox(height: 20.h),
-        Consumer<MoneyProvider>(builder: (context, moneyProvider, _) {
-          return ;
-        }),
+        ZoomTapAnimation(
+          onTap: () {
+            Navigator.pushReplacementNamed(context, "/ad");
+          },
+          child: Container(
+            width: double.maxFinite,
+            padding: EdgeInsets.symmetric(horizontal: 20.sp, vertical: 10.sp),
+            decoration: BoxDecoration(
+              color: Colors.white,
+              borderRadius: BorderRadius.circular(20.r),
+            ),
+            child: Row(
+              mainAxisSize: MainAxisSize.min,
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text(
+                  "Okay, I'll watch an ad for 5 coins",
+                  style: TextStyle(
+                    fontSize: 15.sp,
+                  ),
+                ),
+                SizedBox(width: 10.w),
+                SizedBox(
+                  height: 20.h,
+                  child: Image.asset("assets/images/youtube.png"),
+                ),
+              ],
+            ),
+          ),
+        ),
         SizedBox(height: 10.h),
         ZoomTapAnimation(
           onTap: () {
