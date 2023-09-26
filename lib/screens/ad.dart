@@ -71,8 +71,12 @@ class _AdScreenState extends State<AdScreen> with WidgetsBindingObserver {
                     },
                     timeFormatterFunction:
                         (defaultFormatterFunction, duration) {
-                      return Function.apply(
-                          defaultFormatterFunction, [duration]);
+                      if (duration.inSeconds == 5) {
+                        return "X";
+                      } else {
+                        return Function.apply(
+                            defaultFormatterFunction, [duration]);
+                      }
                     },
                   ),
                 ),
