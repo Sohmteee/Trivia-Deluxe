@@ -102,7 +102,7 @@ class _MenuScreenState extends State<MenuScreen> with WidgetsBindingObserver {
                           padding: EdgeInsets.all(20.sp),
                           child: ZoomTapAnimation(
                             onTap: () {
-                              showSettingsDialog(context);
+                              showExitDialog(context);
                             },
                             child: Container(
                               padding: EdgeInsets.all(5.sp),
