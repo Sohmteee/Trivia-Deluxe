@@ -97,38 +97,72 @@ class _MenuScreenState extends State<MenuScreen> with WidgetsBindingObserver {
                   children: [
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      child: Padding(
-                        padding: EdgeInsets.all(20.sp),
-                        child: ZoomTapAnimation(
-                          onTap: () {
-                            showSettingsDialog(context);
-                          },
-                          child: Container(
-                            padding: EdgeInsets.all(5.sp),
-                            decoration: BoxDecoration(
-                              color: Colors.white,
-                              shape: BoxShape.circle,
-                              border: Border.all(
-                                color: AppColor.lightRed,
-                                width: 2.sp,
+                      children: [
+                        Padding(
+                          padding: EdgeInsets.all(20.sp),
+                          child: ZoomTapAnimation(
+                            onTap: () {
+                              showSettingsDialog(context);
+                            },
+                            child: Container(
+                              padding: EdgeInsets.all(5.sp),
+                              decoration: BoxDecoration(
+                                color: Colors.white,
+                                shape: BoxShape.circle,
+                                border: Border.all(
+                                  color: AppColor.lightRed,
+                                  width: 2.sp,
+                                ),
+                                gradient: LinearGradient(
+                                  colors: [
+                                    AppColor.lightRed,
+                                    AppColor.darkRed,
+                                  ],
+                                  begin: Alignment.topLeft,
+                                  end: Alignment.bottomRight,
+                                ),
                               ),
-                              gradient: LinearGradient(
-                                colors: [
-                                  AppColor.lightRed,
-                                  AppColor.darkRed,
-                                ],
-                                begin: Alignment.topLeft,
-                                end: Alignment.bottomRight,
+                              child: Icon(
+                                Icons.close_rounded,
+                                size: 25.sp,
+                                color: AppColor.levelYellow,
                               ),
-                            ),
-                            child: Icon(
-                              Icons.settings_rounded,
-                              size: 25.sp,
-                              color: AppColor.levelYellow,
                             ),
                           ),
                         ),
-                      ),
+                        Padding(
+                          padding: EdgeInsets.all(20.sp),
+                          child: ZoomTapAnimation(
+                            onTap: () {
+                              showSettingsDialog(context);
+                            },
+                            child: Container(
+                              padding: EdgeInsets.all(5.sp),
+                              decoration: BoxDecoration(
+                                color: Colors.white,
+                                shape: BoxShape.circle,
+                                border: Border.all(
+                                  color: AppColor.lightRed,
+                                  width: 2.sp,
+                                ),
+                                gradient: LinearGradient(
+                                  colors: [
+                                    AppColor.lightRed,
+                                    AppColor.darkRed,
+                                  ],
+                                  begin: Alignment.topLeft,
+                                  end: Alignment.bottomRight,
+                                ),
+                              ),
+                              child: Icon(
+                                Icons.settings_rounded,
+                                size: 25.sp,
+                                color: AppColor.levelYellow,
+                              ),
+                            ),
+                          ),
+                        ),
+                      ],
                     ),
                     const Spacer(flex: 3),
                     Stack(
