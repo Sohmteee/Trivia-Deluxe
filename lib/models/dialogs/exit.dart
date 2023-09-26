@@ -22,44 +22,50 @@ showExitDialog(BuildContext context) {
           textAlign: TextAlign.center,
         ),
         SizedBox(height: 20.h),
-        ZoomTapAnimation(
-          onTap: () {
-            SystemNavigator.pop();
-            return true;
-          },
-          child: Container(
-            padding: EdgeInsets.symmetric(horizontal: 20.sp, vertical: 10.sp),
-            decoration: BoxDecoration(
-              color: Colors.white,
-              borderRadius: BorderRadius.circular(20.r),
-            ),
-            child: Text(
-              "Yeah",
-              style: TextStyle(
-                fontSize: 15.sp,
+        Row(
+          mainAxisAlignment: Msa,
+          children: [
+            ZoomTapAnimation(
+              onTap: () {
+                SystemNavigator.pop();
+                return true;
+              },
+              child: Container(
+                padding:
+                    EdgeInsets.symmetric(horizontal: 20.sp, vertical: 10.sp),
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(20.r),
+                ),
+                child: Text(
+                  "Yeah",
+                  style: TextStyle(
+                    fontSize: 15.sp,
+                  ),
+                ),
               ),
             ),
-          ),
-        ),
-        SizedBox(height: 10.h),
-        ZoomTapAnimation(
-          onTap: () {
-            Navigator.pop(context);
-            return false;
-          },
-          child: Container(
-            padding: EdgeInsets.symmetric(horizontal: 20.sp, vertical: 10.sp),
-            decoration: BoxDecoration(
-              color: Colors.white,
-              borderRadius: BorderRadius.circular(20.r),
-            ),
-            child: Text(
-              "Nah",
-              style: TextStyle(
-                fontSize: 15.sp,
+            ZoomTapAnimation(
+              onTap: () {
+                Navigator.pop(context);
+                return false;
+              },
+              child: Container(
+                padding:
+                    EdgeInsets.symmetric(horizontal: 20.sp, vertical: 10.sp),
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(20.r),
+                ),
+                child: Text(
+                  "Nah",
+                  style: TextStyle(
+                    fontSize: 15.sp,
+                  ),
+                ),
               ),
             ),
-          ),
+          ],
         ),
       ],
     ),
