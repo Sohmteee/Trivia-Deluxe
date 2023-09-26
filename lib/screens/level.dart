@@ -40,7 +40,7 @@ class _LevelScreenState extends State<LevelScreen> {
                             Navigator.pushNamedAndRemoveUntil(
                                 context, "/menu", (route) => false);
                           } else {
-                            Navigator.pushReplacementNamed(context, "/game");
+                            Navigator.pushNamed(context, "/game");
                           }
                         },
                         child: Image.asset("assets/images/play.png"),

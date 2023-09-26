@@ -10,7 +10,6 @@ import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/data/controllers.dart';
 import 'package:trivia/models/game_background.dart';
-import 'package:trivia/models/pop_scope.dart';
 import 'package:trivia/models/stat_bar.dart';
 import 'package:trivia/providers/question.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
