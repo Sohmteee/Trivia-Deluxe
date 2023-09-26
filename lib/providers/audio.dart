@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:trivia/data/controllers.dart';
 
 class AudioProvider extends ChangeNotifier {
-  double musicVolume = .5;
+  double musicVolume = 1;
   bool music = true;
-  bool soundEffects = true;
+  bool soundEffects = false;
 
   toggleMusic(bool value) async {
     music = value;
