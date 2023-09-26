@@ -8,6 +8,7 @@ import 'game.dart';
 showExitDialog(BuildContext context) {
   showGameDialog(
     context,
+    isExitable: true,
     child: Column(
       mainAxisSize: MainAxisSize.min,
       children: [
@@ -33,22 +34,11 @@ showExitDialog(BuildContext context) {
               color: Colors.white,
               borderRadius: BorderRadius.circular(20.r),
             ),
-            child: Row(
-              mainAxisSize: MainAxisSize.min,
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Text(
-                  "Yeah",
-                  style: TextStyle(
-                    fontSize: 15.sp,
-                  ),
-                ),
-                SizedBox(width: 10.w),
-                SizedBox(
-                  height: 20.h,
-                  child: Image.asset("assets/images/youtube.png"),
-                ),
-              ],
+            child: Text(
+              "Yeah",
+              style: TextStyle(
+                fontSize: 15.sp,
+              ),
             ),
           ),
         ),
@@ -65,22 +55,11 @@ showExitDialog(BuildContext context) {
               color: Colors.white,
               borderRadius: BorderRadius.circular(20.r),
             ),
-            child: Row(
-              mainAxisSize: MainAxisSize.min,
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Text(
-                  "Nah",
-                  style: TextStyle(
-                    fontSize: 15.sp,
-                  ),
-                ),
-                SizedBox(width: 10.w),
-                SizedBox(
-                  height: 20.h,
-                  child: Image.asset("assets/images/laugh.png"),
-                ),
-              ],
+            child: Text(
+              "Nah",
+              style: TextStyle(
+                fontSize: 15.sp,
+              ),
             ),
           ),
         ),
