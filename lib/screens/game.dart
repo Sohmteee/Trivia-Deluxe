@@ -249,7 +249,9 @@ class _GameScreenState extends State<GameScreen> {
 
                 timer = Timer.periodic(1.seconds, (timer) {
                   if (iterationCount > 0) {
-                    iterationCount--;
+                    setState(() {
+                      iterationCount--;
+                    });
                   } else {
                     timer.cancel();
                   }
