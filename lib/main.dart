@@ -9,6 +9,7 @@ import 'package:trivia/providers/level.dart';
 import 'package:trivia/providers/money.dart';
 import 'package:trivia/providers/question.dart';
 import 'package:trivia/providers/time.dart';
+import 'package:trivia/screens/ad.dart';
 import 'package:trivia/screens/game.dart';
 import 'package:trivia/screens/level.dart';
 import 'package:trivia/screens/menu.dart';
@@ -63,6 +64,7 @@ class MyApp extends StatelessWidget {
               '/game': (context) => const GameScreen(),
               '/level': (context) => const LevelScreen(),
               '/select': (context) => const SelectScreen(),
+              '/ad': (context) => const AdScreen(),
             },
           );
         });

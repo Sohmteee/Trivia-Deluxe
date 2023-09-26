@@ -7,14 +7,14 @@ import 'package:trivia/models/dialogs/exit.dart';
 import 'package:trivia/models/dialogs/settings.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
-class MenuScreen extends StatefulWidget {
-  const MenuScreen({super.key});
+class AdScreen extends StatefulWidget {
+  const AdScreen({super.key});
 
   @override
-  State<MenuScreen> createState() => _MenuScreenState();
+  State<AdScreen> createState() => _AdScreenState();
 }
 
-class _MenuScreenState extends State<MenuScreen> with WidgetsBindingObserver {
+class _AdScreenState extends State<AdScreen> with WidgetsBindingObserver {
   @override
   Widget build(BuildContext context) {
     return WillPopScope(
