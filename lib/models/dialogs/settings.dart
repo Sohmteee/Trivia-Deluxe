@@ -69,11 +69,9 @@ showSettingsDialog(BuildContext context) {
                                 }),
                           ],
                         ).animate().fadeIn(
-                            duration: .5.seconds,
+                            duration: 1.seconds,
                           )
-                      : const SizedBox().animate().fadeOut(
-                            duration: .5.seconds,
-                          );
+                      : const SizedBox();
                 },
               ),
               SizedBox(height: 10.h),
