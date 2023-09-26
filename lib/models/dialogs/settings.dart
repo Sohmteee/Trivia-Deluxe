@@ -57,12 +57,15 @@ showSettingsDialog(BuildContext context) {
                                 fontSize: 18.sp,
                               ),
                             ),
-                            Slider(
-                              divisions: 10,
-                              value: audioProvider.musicVolume,
-                              onChanged: (value) {
-                                audioProvider.setMusicVolume(value);
-                              },
+                            Expanded(
+                              width: double.maxFinite,
+                              child: Slider(
+                                divisions: 10,
+                                value: audioProvider.musicVolume,
+                                onChanged: (value) {
+                                  audioProvider.setMusicVolume(value);
+                                },
+                              ),
                             ),
                           ],
                         )
