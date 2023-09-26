@@ -52,7 +52,10 @@ class _GameScreenState extends State<GameScreen> {
   @override
   Widget build(BuildContext context) {
     return WillPopScope(
-      onWillPop: () => onWillPop(context, false),
+      onWillPop: () async {
+        Navigator.pushReplacementNamed(context, "/level");
+        return true;
+      },
       child: GameBackground(
         body: Consumer<QuestionProvider>(
           builder: (context, questionProvider, _) {
