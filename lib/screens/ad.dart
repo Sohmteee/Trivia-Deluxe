@@ -18,6 +18,7 @@ class _AdScreenState extends State<AdScreen> with WidgetsBindingObserver {
   Widget build(BuildContext context) {
     return WillPopScope(
       onWillPop: () async {
+        if ()
         showCloseAdDialog(context);
         return false;
       },
@@ -31,7 +32,7 @@ class _AdScreenState extends State<AdScreen> with WidgetsBindingObserver {
                   mainAxisAlignment: MainAxisAlignment.end,
                   children: [
                     Consumer<MoneyProvider>(
-                      builder: (context) {
+                      builder: (context, moneyProvider, _) {
                         return CircularCountDownTimer(
                           duration: 5,
                           controller: adCountDownController,
