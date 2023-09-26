@@ -95,8 +95,8 @@ class _MenuScreenState extends State<MenuScreen> with WidgetsBindingObserver {
               child: Center(
                 child: Column(
                   children: [
-                    Align(
-                      alignment: Alignment.topRight,
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       child: Padding(
                         padding: EdgeInsets.all(20.sp),
                         child: ZoomTapAnimation(
