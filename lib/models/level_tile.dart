@@ -25,7 +25,15 @@ class _LevelTileState extends State<LevelTile> {
     return ZoomTapAnimation(
       onTap: () {
         ToastContext().init(context);
-        To
+        Toast.show(
+          "Please press the play button below",
+          duration: 2,
+          gravity: Toast.bottom,
+          textStyle: TextStyle(
+            color: Colors.white,
+            fontSize: 20.sp,
+          ),
+        );
       },
       child: Consumer<LevelProvider>(builder: (_, levelProvider, child) {
         return widget.level == levelProvider.completedLevel + 1
