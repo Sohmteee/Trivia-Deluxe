@@ -20,7 +20,9 @@ showGameDialog(BuildContext context,
               insetAnimationCurve: Curves.bounceInOut,
               insetAnimationDuration: const Duration(milliseconds: 300),
               child: Container(
-                padding: padding  EdgeInsets.fromLTRB(20, 40, 20, 60),
+                padding: padding != null
+                    ? const EdgeInsets.fromLTRB(20, 40, 20, 60)
+                    : padding!,
                 decoration: BoxDecoration(
                   color: AppColor.lightRed,
                   borderRadius: BorderRadius.circular(20),
