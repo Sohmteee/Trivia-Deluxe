@@ -57,15 +57,21 @@ showSettingsDialog(BuildContext context) {
                                 fontSize: 18.sp,
                               ),
                             ),
-                            Slider(
-                                divisions: 10,
-                                value: audioProvider.musicVolume,
-                                onChanged: (value) {
-                                  audioProvider.setMusicVolume(value);
-                                },
-                                semanticFormatterCallback: (double newValue) {
-                                  return "${(audioProvider.musicVolume * 100).toInt()}%";
-                                }),
+                            SliderTheme(
+                              data: SliderTheme.of(context).copyWith(
+                                overlayShape: SliderComponentShape.noOverlay,
+                                trackShape: 
+                              ),
+                              child: Slider(
+                                  divisions: 10,
+                                  value: audioProvider.musicVolume,
+                                  onChanged: (value) {
+                                    audioProvider.setMusicVolume(value);
+                                  },
+                                  semanticFormatterCallback: (double newValue) {
+                                    return "${(audioProvider.musicVolume * 100).toInt()}%";
+                                  }),
+                            ),
                           ],
                         )
                       : const SizedBox();
