@@ -51,21 +51,21 @@ showSettingsDialog(BuildContext context) {
                       ? Row(
                           children: [
                             Text(
-                              "${(audioProvider.musicVolume * 100).toInt()}%"
-                                  ,
+                              "${(audioProvider.musicVolume * 100).toInt()}%",
                               style: TextStyle(
                                 color: Colors.grey[400],
                                 fontSize: 18.sp,
                               ),
                             ),
                             Slider(
-                              
-                              divisions: 10,
-                              value: audioProvider.musicVolume,
-                              onChanged: (value) {
-                                audioProvider.setMusicVolume(value);
-                              },
-                            ),
+                                divisions: 10,
+                                value: audioProvider.musicVolume,
+                                onChanged: (value) {
+                                  audioProvider.setMusicVolume(value);
+                                },
+                                semanticFormatterCallback: (double newValue) {
+                                  return "${(audioProvider.musicVolume * 100).toInt()}%";
+                                }),
                           ],
                         )
                       : const SizedBox();
