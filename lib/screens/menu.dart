@@ -5,6 +5,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/data/controllers.dart';
+import 'package:trivia/models/dialogs/exit.dart';
 import 'package:trivia/models/dialogs/game.dart';
 import 'package:trivia/models/dialogs/settings.dart';
 import 'package:trivia/providers/audio.dart';
@@ -77,7 +78,7 @@ class _MenuScreenState extends State<MenuScreen> with WidgetsBindingObserver {
   Widget build(BuildContext context) {
     return WillPopScope(
       onWillPop: () async {
-        showGameDialog(context, child: child);
+        showExitDialog(context);
       },
       child: SafeArea(
         child: Scaffold(

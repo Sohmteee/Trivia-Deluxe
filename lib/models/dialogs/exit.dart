@@ -37,7 +37,7 @@ showExitDialog(BuildContext context) {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Text(
-                  "Okay I fit do that one",
+                  "Yeah",
                   style: TextStyle(
                     fontSize: 15.sp,
                   ),
@@ -53,7 +53,9 @@ showExitDialog(BuildContext context) {
         ),
         SizedBox(height: 10.h),
         ZoomTapAnimation(
-          onTap: () {},
+          onTap: () {
+            Navigator.pop(context);
+          },
           child: Container(
             width: double.maxFinite,
             padding: EdgeInsets.symmetric(horizontal: 20.sp, vertical: 10.sp),
@@ -66,7 +68,7 @@ showExitDialog(BuildContext context) {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Text(
-                  "Omo I dey manage my data too",
+                  "Nah",
                   style: TextStyle(
                     fontSize: 15.sp,
                   ),
