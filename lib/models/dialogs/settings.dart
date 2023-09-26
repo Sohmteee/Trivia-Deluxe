@@ -51,7 +51,7 @@ showSettingsDialog(BuildContext context) {
                       ? Row(
                           children: [
                             Text(
-                              ((audioProvider.musicVolume * 10).toInt())
+                              ((audioProvider.musicVolume * 100).toInt())
                                   .toString(),
                               style: TextStyle(
                                 color: Colors.grey[400],
