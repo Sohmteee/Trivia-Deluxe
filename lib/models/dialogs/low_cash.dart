@@ -67,39 +67,41 @@ showLowCashDialog(BuildContext context) {
             ),
           ),
           SizedBox(height: 10.h),
-          ZoomTapAnimation(
-            onTap: () {
-              final levelProvider =
-                  Provider.of<LevelProvider>(context, listen: false);
-              Navigator.of(dialogContext).pop();
-              levelProvider.resetCompletedLevel();
-              Navigator.popAndPushNamed(dialogContext, "/menu");
-            },
-            child: Container(
-              width: double.maxFinite,
-              padding: EdgeInsets.symmetric(horizontal: 20.sp, vertical: 10.sp),
-              decoration: BoxDecoration(
-                color: Colors.white,
-                borderRadius: BorderRadius.circular(20.r),
-              ),
-              child: Row(
-                mainAxisSize: MainAxisSize.min,
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Text(
-                    "Omo I'm managing my data",
-                    style: TextStyle(
-                      fontSize: 15.sp,
-                    ),
+          Consumer<LevelProvider>(
+            builder: (context, levelProvider, _) {
+              return ZoomTapAnimation(
+                onTap: () {
+                  Navigator.of(dialogContext).pop();
+                  levelProvider.resetCompletedLevel();
+                  Navigator.popAndPushNamed(dialogContext, "/menu");
+                },
+                child: Container(
+                  width: double.maxFinite,
+                  padding: EdgeInsets.symmetric(horizontal: 20.sp, vertical: 10.sp),
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(20.r),
                   ),
-                  SizedBox(width: 10.w),
-                  SizedBox(
-                    height: 20.h,
-                    child: Image.asset("assets/images/laugh.png"),
+                  child: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text(
+                        "Omo I'm managing my data",
+                        style: TextStyle(
+                          fontSize: 15.sp,
+                        ),
+                      ),
+                      SizedBox(width: 10.w),
+                      SizedBox(
+                        height: 20.h,
+                        child: Image.asset("assets/images/laugh.png"),
+                      ),
+                    ],
                   ),
-                ],
-              ),
-            ),
+                ),
+              );
+            }
           ),
         ],
       );
