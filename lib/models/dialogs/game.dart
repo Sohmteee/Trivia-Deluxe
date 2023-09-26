@@ -3,7 +3,7 @@ import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/models/pop_scope.dart';
 
 showGameDialog(BuildContext context,
-    {required Widget child, bool? isExitable}) {
+    {required Widget child, bool? isExitable, EdgeInsetsGeometry? padding}) {
   showDialog(
       context: context,
       builder: (context) {

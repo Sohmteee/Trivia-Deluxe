@@ -21,7 +21,7 @@ showExitDialog(BuildContext context) {
           ),
           textAlign: TextAlign.center,
         ),
-        SizedBox(height: 30.h),
+        SizedBox(height: 50.h),
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
