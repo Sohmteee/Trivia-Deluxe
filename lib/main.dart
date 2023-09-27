@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:hive/hive.dart';
+import 'package:path_provider/path_provider.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/data/controllers.dart';
 import 'package:trivia/providers/audio.dart';
@@ -34,8 +35,8 @@ Future<void> main() async {
   await unavailablePlayer
       .setSource(AssetSource("audio/unavailable-selection.mp3"));
 
-  // final dir = await getApplicationDocumentsDirectory();
-  Hive.openBox("myBox");
+  final dir = await getApplicationDocumentsDirectory();
+  Hive.openBox("myBox", path: dir.path);
   box = Hive.box("myBox");
 
   runApp(
