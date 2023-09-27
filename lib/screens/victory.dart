@@ -35,7 +35,8 @@ class _VictoryScreenState extends State<VictoryScreen> {
                     "Level\nPassed!",
                     style: TextStyle(
                       color: AppColor.right,
-                      fontSize: 60.sp,
+                      fontSize: 55.sp,
+                      fontWeight: FontWeight.bold,
                     ),
                     textAlign: TextAlign.center,
                   ),
@@ -44,6 +45,7 @@ class _VictoryScreenState extends State<VictoryScreen> {
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: 50.sp,
+                      fontWeight: FontWeight.bold,
                     ),
                     textAlign: TextAlign.center,
                   ),
