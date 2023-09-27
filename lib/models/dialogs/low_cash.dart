@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
-import 'package:trivia/models/dialogs/fail.dart';
 import 'package:trivia/providers/level.dart';
 import 'package:trivia/screens/ad.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
