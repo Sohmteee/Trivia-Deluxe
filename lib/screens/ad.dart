@@ -114,8 +114,9 @@ class _AdScreenState extends State<AdScreen> with WidgetsBindingObserver {
                           )
                         : ZoomTapAnimation(
                             onTap: () {
-                              widget.onComplete ;
-                              Navigator.pop(context);
+                              widget.onComplete == null
+                                  ? Navigator.pop(context)
+                                  : widget.onComplete!();
                             },
                             child: Container(
                               // padding: EdgeInsets.all(1.sp),
