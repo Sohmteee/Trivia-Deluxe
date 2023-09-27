@@ -24,6 +24,10 @@ Future<void> main() async {
   ));
 
   await bgPlayer.setSource(AssetSource("audio/bg-music.mp3"));
+  await bgPlayer.setSource(AssetSource(""));
+  await tapPlayer.setSource(AssetSource(""));
+  await celebrationPlayer.setSource(AssetSource(""));
+  await failPlayer.setSource(AssetSource(""));
 
   runApp(
     MultiProvider(
