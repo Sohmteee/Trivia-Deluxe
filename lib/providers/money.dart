@@ -6,7 +6,7 @@ class MoneyProvider extends ChangeNotifier {
   int _coins = 10;
 
   int get cash => _cash;
-  int get previousCoins => _coins;
+  int get previousCoins => _previousCoins;
   int get coins => _coins;
 
   increaseCash(int value) {
