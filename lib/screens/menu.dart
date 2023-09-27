@@ -195,13 +195,11 @@ class _MenuScreenState extends State<MenuScreen> with WidgetsBindingObserver {
                         ),
                     const Spacer(flex: 2),
                     Stack(
+                      alignment: Alignment.center,
                       children: [
-                        SizedBox(
-                          height: 200.w,
-                          width: 200.w,
-                          child: SpinKitDualRing(
-                            color: Colors.red,
-                          ),
+                        SpinKitDualRing(
+                          color: AppColor.wrong,
+                          size: 100.sp,
                         ),
                         SizedBox(
                           height: 70.w,
