@@ -19,8 +19,6 @@ import 'package:trivia/screens/menu.dart';
 import 'package:trivia/screens/reward.dart';
 import 'package:trivia/screens/select.dart';
 
-import 'data/box.dart';
-
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
