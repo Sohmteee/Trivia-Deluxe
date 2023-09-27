@@ -85,7 +85,7 @@ class _LevelTileState extends State<LevelTile> {
                 Toast.show(
                   "Please go to Level ${levelProvider.completedLevel + 1}",
                   duration: 2,
-                  gravity: 0,
+                  gravity: 1,
                   textStyle: TextStyle(
                     color: Colors.white,
                     fontSize: 20.sp,
