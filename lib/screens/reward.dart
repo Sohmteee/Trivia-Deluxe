@@ -171,24 +171,30 @@ class _RewardScreenState extends State<RewardScreen> {
                     : const SizedBox(),
               ),
               const Spacer(flex: 2),
-              ZoomTapAnimation(
-                child: Container(
-                  padding: EdgeInsets.symmetric(vertical: 15.h, horizontal: 10.w),
-                  width: 200.w,
-                  decoration: BoxDecoration(
-                    color: AppColor.right,
-                    borderRadius: BorderRadius.circular(30.r),
-                  ),
-                  child: Text(
-                    "Continue",
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 28.sp,
+              if (receivedReward)
+                ZoomTapAnimation(
+                  child: Container(
+                    padding: EdgeInsets.symmetric(
+                      vertical: 15.h,
+                      horizontal: 30.w,
                     ),
-                    textAlign: TextAlign.center,
+                    decoration: BoxDecoration(
+                      color: AppColor.right,
+                      borderRadius: BorderRadius.circular(30.r),
+                    ),
+                    child: Text(
+                      "Continue",
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 28.sp,
+                      ),
+                      textAlign: TextAlign.center,
+                    ),
                   ),
-                ),
-              ),
+                ).animate().fadeIn(
+                      delay: .5.seconds,
+                      duration: 1.seconds,
+                    ),
               const Spacer(flex: 3),
             ],
           ),
