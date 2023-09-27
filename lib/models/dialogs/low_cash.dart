@@ -39,7 +39,7 @@ showLowCashDialog(BuildContext context) {
             onTap: () {
               Navigator.pop(dialogContext);
               Navigator.pop(dialogContext);
-              Navigator.pushReplacementNamed(dialogContext, "/ad");
+              Navigator.pushNamed(dialogContext, "/ad");
             },
             child: Container(
               width: double.maxFinite,
