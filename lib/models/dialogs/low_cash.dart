@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
+import 'package:trivia/models/dialogs/fail.dart';
 import 'package:trivia/providers/level.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
@@ -39,7 +40,7 @@ showLowCashDialog(BuildContext context) {
             onTap: () {
               Navigator.pop(dialogContext);
               Navigator.pushNamed(dialogContext, "/ad");
-              show
+              showFailedDialog(context, questionIndex, timeUp)
             },
             child: Container(
               width: double.maxFinite,
