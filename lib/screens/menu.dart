@@ -3,6 +3,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/data/controllers.dart';
@@ -216,11 +217,11 @@ class _MenuScreenState extends State<MenuScreen>
                     Stack(
                       alignment: Alignment.center,
                       children: [
-                        /* SpinKitDualRing(
-                          duration: 2.seconds,
+                        SpinKitDualRing(
+                          controller: rotationController,
                           color: AppColor.wrong,
                           size: 100.sp,
-                        ), */
+                        ),
                         /* RotationTransition(
                           turns: rotationAnimation,
                           child: Stack(
