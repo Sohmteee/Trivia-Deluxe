@@ -15,6 +15,16 @@ class VictoryScreen extends StatefulWidget {
 }
 
 class _VictoryScreenState extends State<VictoryScreen> {
+  late AnimationController controller;
+
+  @override
+  void initState() {
+    controller = AnimationController(vsync: this)
+    super.initState();
+    
+  }
+
+
   @override
   Widget build(BuildContext context) {
     return WillPopScope(
