@@ -5,6 +5,7 @@ import 'package:provider/provider.dart';
 import 'package:trivia/data/controllers.dart';
 import 'package:trivia/models/pop_scope.dart';
 import 'package:trivia/providers/money.dart';
+import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 class AdScreen extends StatefulWidget {
   const AdScreen({super.key});
@@ -100,18 +101,23 @@ class _AdScreenState extends State<AdScreen> with WidgetsBindingObserver {
                               );
                             },
                           )
-                        : Container(
-                            decoration: BoxDecoration(
-                              shape: BoxShape.circle,
-                              border: Border.all(
-                                color: Colors.grey[300]!,
-                                width: 3.sp,
+                        : ZoomTapAnimation(
+                            onTap: () {
+                              Navigator.pop(context);
+                            },
+                            child: Container(
+                              decoration: BoxDecoration(
+                                shape: BoxShape.circle,
+                                border: Border.all(
+                                  color: Colors.grey,
+                                  width: 3.sp,
+                                ),
                               ),
-                            ),
-                            child: Icon(
-                              Icons.close_rounded,
-                              color: Colors.grey,
-                              size: 15.sp,
+                              child: Icon(
+                                Icons.close_rounded,
+                                color: Colors.grey,
+                                size: 15.sp,
+                              ),
                             ),
                           ),
                   ],
