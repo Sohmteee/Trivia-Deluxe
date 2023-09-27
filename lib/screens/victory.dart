@@ -21,7 +21,10 @@ class _VictoryScreenState extends State<VictoryScreen>
   @override
   void initState() {
     controller = AnimationController(vsync: this);
-    Animate animateChest = Animate(controller: controller).shimmer();
+    Animate animateChest = Animate(controller: controller).shimmer(
+      delay: 2.seconds,
+      duration: 1.seconds,
+    );
     super.initState();
   }
 
@@ -73,10 +76,7 @@ class _VictoryScreenState extends State<VictoryScreen>
                     textAlign: TextAlign.center,
                   ),
                 ],
-              )
-                  .animate(
-                    controller: controller,
-                  )
+              ),
               const Spacer(flex: 2),
               ZoomTapAnimation(
                 onTap: () {
