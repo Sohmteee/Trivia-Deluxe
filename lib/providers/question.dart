@@ -2,8 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
+import 'package:trivia/data/controllers.dart';
 import 'package:trivia/models/dialogs/fail.dart';
 import 'package:trivia/providers/level.dart';
+import 'package:trivia/providers/score.dart';
 
 class QuestionProvider extends ChangeNotifier {
   List questions = [];
@@ -78,6 +80,8 @@ class QuestionProvider extends ChangeNotifier {
     Future.delayed((options[index]["value"] == true) ? 6.seconds : 1.5.seconds,
         () {
       if (options[index]["value"] == true) {
+        final scoreProvider = Provider.of<ScoreProvider>(context);
+        scoreProvider.incrementScore(int.parse(countDownController.getTime()!));
         levelProvider.incrementCompletedLevel();
         Navigator.pushReplacementNamed(context, "/level");
       } else {
