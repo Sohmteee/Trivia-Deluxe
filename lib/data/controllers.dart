@@ -7,3 +7,4 @@ final bgPlayer = AudioPlayer();
 final tapPlayer = AudioPlayer();
 final correctPlayer = AudioPlayer();
 final wrongPlayer = AudioPlayer();
+final unavailablePlayer = AudioPlayer();
