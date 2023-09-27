@@ -57,7 +57,7 @@ class _VictoryScreenState extends State<VictoryScreen> {
                     textAlign: TextAlign.center,
                   ),
                 ],
-              ),
+              ).animate().shimmer(duration: 1.seconds),
               const Spacer(flex: 2),
               ZoomTapAnimation(
                 onTap: () {},
