@@ -14,13 +14,18 @@ class AdScreen extends StatefulWidget {
 }
 
 class _AdScreenState extends State<AdScreen> with WidgetsBindingObserver {
-
   @override
   void initState() {
-    
+    player.pause();
     super.initState();
-    
   }
+
+  @override
+  void dispose() {
+    player.resume();
+    super.dispose();
+  }
+
   @override
   Widget build(BuildContext context) {
     return WillPopScope(

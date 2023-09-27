@@ -11,7 +11,7 @@ showAdDialog(BuildContext context) {
       mainAxisSize: MainAxisSize.min,
       children: [
         Text(
-          "Oya another option dey",
+          "Watch an ad to",
           style: TextStyle(
             color: Colors.white,
             fontSize: 25.sp,
