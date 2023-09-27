@@ -19,10 +19,7 @@ class MenuScreen extends StatefulWidget {
 class _MenuScreenState extends State<MenuScreen>
     with WidgetsBindingObserver, TickerProviderStateMixin {
   late Animation rotationAnimation;
-  final AnimationController animationController  = AnimationController(
-      duration: 2.seconds, 
-      vsync: this,
-    );
+  late AnimationController animationController;
 
   @override
   void initState() {
@@ -34,6 +31,7 @@ class _MenuScreenState extends State<MenuScreen>
         duration: 2.seconds,
       )..repeat(),
     );
+    animationController = AnimationController(duration: 2.seconds, vsync: this);
     super.initState();
   }
 
