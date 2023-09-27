@@ -41,12 +41,12 @@ class _AdScreenState extends State<AdScreen> with WidgetsBindingObserver {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.end,
                   children: [
-                    Consumer<MoneyProvider>(
+                    (!isFinished) ? Consumer<MoneyProvider>(
                         builder: (context, moneyProvider, _) {
                       return CircularCountDownTimer(
                         duration: 5,
                         controller: adCountDownController,
-                        width: 20,
+                        width: 20.sp,
                         height: 20,
                         ringColor: Colors.grey[300]!,
                         ringGradient: null,
@@ -54,7 +54,7 @@ class _AdScreenState extends State<AdScreen> with WidgetsBindingObserver {
                         fillGradient: null,
                         backgroundColor: Colors.transparent,
                         backgroundGradient: null,
-                        strokeWidth: 3,
+                        strokeWidth: 3.sp,
                         strokeCap: StrokeCap.round,
                         textStyle: TextStyle(
                           fontSize: 15.sp,
@@ -94,7 +94,15 @@ class _AdScreenState extends State<AdScreen> with WidgetsBindingObserver {
                               defaultFormatterFunction, [duration]);
                         },
                       );
-                    }),
+                    },) : Container(
+                      
+                            width: 20,
+                            height: 20,
+                            decoration: BoxDecoration(
+                              color: Colors.grey[300]!,
+                              shape: BoxShape.circle,
+                            ),
+                    ),
                   ],
                 ),
                 const Spacer(),
