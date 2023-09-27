@@ -198,6 +198,7 @@ class _MenuScreenState extends State<MenuScreen> with WidgetsBindingObserver {
                       alignment: Alignment.center,
                       children: [
                         SpinKitDualRing(
+                          duration: 2.seconds,
                           color: AppColor.wrong,
                           size: 100.sp,
                         ),
