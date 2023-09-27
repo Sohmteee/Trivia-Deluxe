@@ -1,3 +1,4 @@
+import 'package:countup/countup.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
@@ -26,7 +27,7 @@ class _GameStatsState extends State<GameStats> {
         Provider.of<MoneyProvider>(context, listen: false).addListener(() {
       setState(() {
         debugPrint("money updated");
-        
+
       });
     });
     super.initState();
@@ -118,7 +119,8 @@ class _GameStatsState extends State<GameStats> {
                 children: [
                   Expanded(
                     child: Center(
-                      child: Text(
+                      child: Countup(
+                        
                         moneyProvider.cash.toString(),
                         style: const TextStyle(
                           color: Colors.yellow,
