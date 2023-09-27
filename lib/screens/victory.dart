@@ -34,13 +34,9 @@ class _VictoryScreenState extends State<VictoryScreen> {
                   fontSize: 50.sp,
                 ),
               ),
-              const Spacer(),
+              const Spacer(flex: 2),
               ZoomTapAnimation(
-                onTap: () {
-                  Navigator.pushNamedAndRemoveUntil(
-                      context, "/victory", (route) => false);
-                  levelProvider.resetCompletedLevel();
-                },
+                onTap: () {},
                 child: SizedBox(
                   height: 80.h,
                   child: Image.asset("assets/images/treasure.png"),
@@ -66,6 +62,7 @@ class _VictoryScreenState extends State<VictoryScreen> {
                       end: 1,
                     ),
               ),
+              const Spacer(flex: 10),
             ],
           ),
         ),
