@@ -96,7 +96,7 @@ class _RewardScreenState extends State<RewardScreen> {
                   const SizedBox(width: 10),
                   !receivedReward
                       ? Text(
-                          "20",
+                          score.toString(),
                           style: TextStyle(
                             color: AppColor.right,
                             fontSize: 30.sp,
@@ -104,7 +104,7 @@ class _RewardScreenState extends State<RewardScreen> {
                           ),
                         )
                       : Countup(
-                          begin: 20,
+                          begin: score.toDouble(),
                           end: 0,
                           duration: 1.seconds,
                           style: TextStyle(
