@@ -177,6 +177,7 @@ class _RewardScreenState extends State<RewardScreen> {
                   width: 200.w,
                   decoration: BoxDecoration(
                     color: AppColor.right,
+                    borderRadius: BorderRadius.circular(30.r),
                   ),
                 ),
               ),
