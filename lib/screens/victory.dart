@@ -108,7 +108,7 @@ class _VictoryScreenState extends State<VictoryScreen>
                   child: Image.asset("assets/images/treasure.png"),
                 ).animate(
                   controller: controller,
-                ).,
+                ),
               ),
               const Spacer(flex: 5),
             ],
