@@ -22,53 +22,52 @@ class LevelTile extends StatefulWidget {
 class _LevelTileState extends State<LevelTile> {
   @override
   Widget build(BuildContext context) {
-    return ZoomTapAnimation(
-      onTap: () {
-        ToastContext().init(context);
-        Toast.show(
-          "Please press the play button below",
-          duration: 2,
-          gravity: 1,
-          textStyle: TextStyle(
-            color: Colors.white,
-            fontSize: 20.sp,
-          ),
-        );
-      },
-      child: Consumer<LevelProvider>(builder: (_, levelProvider, child) {
-        return widget.level == levelProvider.completedLevel + 1
-            ? SizedBox(
-                child: Container(
-                  padding: EdgeInsets.all(20.sp),
-                  margin: EdgeInsets.only(bottom: 20.sp),
-                  decoration: BoxDecoration(
-                    color: levelProvider.completedLevel >= widget.level
-                        ? AppColor.levelYellow
-                        : widget.level == levelProvider.completedLevel + 1
-                            ? AppColor.levelYellow.withOpacity(.3)
-                            : Colors.transparent,
-                    border: Border.all(
-                      width: 2.sp,
-                      color: AppColor.lightRed,
-                    ),
+    return Consumer<LevelProvider>(builder: (_, levelProvider, child) {
+      return widget.level == levelProvider.completedLevel + 1
+          ? ZoomTapAnimation(
+            onTap: (){
+              
+                ToastContext().init(context);
+                Toast.show(
+                  "Please press the play button below",
+                  duration: 2,
+                  gravity: 1,
+                  textStyle: TextStyle(
+                    color: Colors.white,
+                    fontSize: 20.sp,
                   ),
-                  child: Text(
-                    (widget.level).toString(),
-                    style: TextStyle(
-                      color: AppColor.white,
-                      fontSize: 16.sp,
-                    ),
-                    textAlign: TextAlign.center,
-                  ),
+                );
+            },
+            child: Container(
+              padding: EdgeInsets.all(20.sp),
+              margin: EdgeInsets.only(bottom: 20.sp),
+              decoration: BoxDecoration(
+                color: levelProvider.completedLevel >= widget.level
+                    ? AppColor.levelYellow
+                    : widget.level == levelProvider.completedLevel + 1
+                        ? AppColor.levelYellow.withOpacity(.3)
+                        : Colors.transparent,
+                border: Border.all(
+                  width: 2.sp,
+                  color: AppColor.lightRed,
+                ),
+              ),
+              child: Text(
+                (widget.level).toString(),
+                style: TextStyle(
+                  color: AppColor.white,
+                  fontSize: 16.sp,
+                ),
+                textAlign: TextAlign.center,
+              ),
+            )
+                .animate(
+                  onPlay: (controller) => controller.repeat(),
                 )
-                    .animate(
-                      onPlay: (controller) => controller.repeat(),
-                    )
-                    .shimmer(
-                      delay: 1.5.seconds,
-                      duration: 1.seconds,
-                    ),
-              )
+                .shimmer(
+                  delay: 1.5.seconds,
+                  duration: 1.seconds,
+                )
                 .animate()
                 .scaleXY(
                   delay: .5.seconds,
@@ -88,34 +87,35 @@ class _LevelTileState extends State<LevelTile> {
                   duration: .2.seconds,
                   begin: 1.2,
                   end: 1,
-                )
-            : ZoomTapAnimation(
+                ),
+          )
+          : ZoomTapAnimation(
               onTap: () {
-                
+                Navigator.pushReplacementNamed(context, "/game");
               },
               child: Container(
-                  padding: EdgeInsets.all(20.sp),
-                  margin: EdgeInsets.only(bottom: 20.sp),
-                  decoration: BoxDecoration(
-                    color: levelProvider.completedLevel >= widget.level
-                        ? AppColor.levelYellow
-                        : widget.level == levelProvider.completedLevel + 1
-                            ? AppColor.levelYellow.withOpacity(.3)
-                            : Colors.transparent,
-                    border: Border.all(
-                      width: 2.sp,
-                      color: AppColor.lightRed,
-                    ),
+                padding: EdgeInsets.all(20.sp),
+                margin: EdgeInsets.only(bottom: 20.sp),
+                decoration: BoxDecoration(
+                  color: levelProvider.completedLevel >= widget.level
+                      ? AppColor.levelYellow
+                      : widget.level == levelProvider.completedLevel + 1
+                          ? AppColor.levelYellow.withOpacity(.3)
+                          : Colors.transparent,
+                  border: Border.all(
+                    width: 2.sp,
+                    color: AppColor.lightRed,
                   ),
-                  child: Text(
-                    (widget.level).toString(),
-                    style: TextStyle(
-                      color: AppColor.white,
-                      fontSize: 16.sp,
-                    ),
-                    textAlign: TextAlign.center,
+                ),
+                child: Text(
+                  (widget.level).toString(),
+                  style: TextStyle(
+                    color: AppColor.white,
+                    fontSize: 16.sp,
                   ),
-                )
+                  textAlign: TextAlign.center,
+                ),
+              )
                   .animate(
                     onPlay: (controller) => controller.repeat(),
                   )
@@ -124,7 +124,6 @@ class _LevelTileState extends State<LevelTile> {
                     duration: 1.seconds,
                   ),
             );
-      }),
-    );
+    });
   }
 }
