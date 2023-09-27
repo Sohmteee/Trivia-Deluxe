@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/models/game_background.dart';
 import 'package:trivia/models/stat_bar.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
@@ -27,13 +28,26 @@ class _VictoryScreenState extends State<VictoryScreen> {
             children: [
               const GameStats(),
               const Spacer(),
-              Text(
-                "Level\nPassed!",
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 50.sp,
-                ),
-                textAlign: TextAlign.center,
+              Stack(
+                alignment: Alignment.center,
+                children: [
+                  Text(
+                    "Level\nPassed!",
+                    style: TextStyle(
+                      color: AppColor.right,
+                      fontSize: 60.sp,
+                    ),
+                    textAlign: TextAlign.center,
+                  ),
+                  Text(
+                    "Level\nPassed!",
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 50.sp,
+                    ),
+                    textAlign: TextAlign.center,
+                  ),
+                ],
               ),
               const Spacer(flex: 2),
               ZoomTapAnimation(
