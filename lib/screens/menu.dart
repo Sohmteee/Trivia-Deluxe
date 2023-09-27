@@ -216,6 +216,14 @@ class _MenuScreenState extends State<MenuScreen>
                           color: AppColor.wrong,
                           size: 100.sp,
                         ), */
+                        RotationTransition(
+                          turns: rotationAnimation.value,
+                          child: Icon(
+                            Icons.arrow_forward,
+                            size: 100.0,
+                            color: Colors.blue,
+                          ),
+                        ),
                         SizedBox(
                           height: 70.w,
                           child: ZoomTapAnimation(
