@@ -221,7 +221,7 @@ class _MenuScreenState extends State<MenuScreen>
                           color: AppColor.wrong,
                           size: 100.sp,
                         ), */
-                        RotationTransition(
+                        /* RotationTransition(
                           turns: rotationAnimation,
                           child: Stack(
                             alignment: Alignment.center,
@@ -236,7 +236,7 @@ class _MenuScreenState extends State<MenuScreen>
                                 ),
                                 child: Expanded(
                                   child: Container(
-                                    decoration: BoxDecoration(
+                                    decoration: const BoxDecoration(
                                       shape: BoxShape.circle,
                                       color: Colors.white,
                                     ),
@@ -247,13 +247,13 @@ class _MenuScreenState extends State<MenuScreen>
                                 height: 20.w,
                                 width: 100.w,
                                 padding: EdgeInsets.all(10.sp),
-                                decoration: BoxDecoration(
+                                decoration: const BoxDecoration(
                                   color: Colors.white,
                                 ),
                               ),
                             ],
                           ),
-                        ),
+                        ), */
                         /* SizedBox(
                           height: 70.w,
                           child: ZoomTapAnimation(
