@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -19,25 +21,27 @@ class MenuScreen extends StatefulWidget {
 class _MenuScreenState extends State<MenuScreen>
     with WidgetsBindingObserver, TickerProviderStateMixin {
   late Animation rotationAnimation;
-  late AnimationController animationController;
+  late AnimationController rotationController;
 
   @override
   void initState() {
     WidgetsBinding.instance.addObserver(this);
     playBGAudio();
-    rotationAnimation = Tween<double>(begin: 0, end: 360).animate(
-      AnimationController(
-        vsync: this,
-        duration: 2.seconds,
-      )..repeat(),
-    );
-    animationController = AnimationController(duration: 2.seconds, vsync: this);
+    rotationAnimation = Tween<double>(
+      begin: 0,
+      end: 2 * pi, // 360 degrees in radians
+    ).animate(rotationController);
+
+    // Start the animation
+    rotationController.forward();
+    rotationController = AnimationController(duration: 2.seconds, vsync: this);
     super.initState();
   }
 
   @override
   void dispose() {
     WidgetsBinding.instance.removeObserver(this);
+    rotationController.dispose();
     super.dispose();
   }
 
