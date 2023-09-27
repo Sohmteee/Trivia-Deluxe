@@ -11,10 +11,10 @@ class AudioProvider extends ChangeNotifier {
     music = value;
     if (value) {
       String bgAudio = "audio/bg-music.mp3";
-      await player.setSource(AssetSource(bgAudio));
-      await player.resume();
+      await bgPlayer.setSource(AssetSource(bgAudio));
+      await bgPlayer.resume();
     } else {
-      player.stop();
+      bgPlayer.stop();
     }
     // player.setVolume(value == false ? 0 : musicVolume);
     notifyListeners();
@@ -27,7 +27,7 @@ class AudioProvider extends ChangeNotifier {
 
   setMusicVolume(double newVolume) {
     musicVolume = newVolume;
-    player.setVolume(newVolume);
+    bgPlayer.setVolume(newVolume);
     if (newVolume == 0) {
       music = false;
     }

@@ -55,22 +55,22 @@ class _MenuScreenState extends State<MenuScreen> with WidgetsBindingObserver {
     final audioProvider = Provider.of<AudioProvider>(context, listen: false);
 
     String bgAudio = "audio/bg-music.mp3";
-    await player.setSource(AssetSource(bgAudio));
+    await bgPlayer.setSource(AssetSource(bgAudio));
     if (audioProvider.music) {
-      await player.resume();
+      await bgPlayer.resume();
     }
 
-    player.onPlayerComplete.listen((_) async {
-      await player.play(AssetSource(bgAudio));
+    bgPlayer.onPlayerComplete.listen((_) async {
+      await bgPlayer.play(AssetSource(bgAudio));
     });
   }
 
   Future<void> pauseBGAudio() async {
-    await player.pause();
+    await bgPlayer.pause();
   }
 
   Future<void> stopBGAudio() async {
-    await player.stop();
+    await bgPlayer.stop();
   }
 
   @override

@@ -27,13 +27,13 @@ class _AdScreenState extends State<AdScreen> with WidgetsBindingObserver {
 
   @override
   void initState() {
-    player.pause();
+    bgPlayer.pause();
     super.initState();
   }
 
   @override
   void dispose() {
-    player.resume();
+    bgPlayer.resume();
     super.dispose();
   }
 

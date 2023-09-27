@@ -24,7 +24,7 @@ Future<void> main() async {
   ));
 
   String bgAudio = "audio/bg-music.mp3";
-  await player.setSource(AssetSource(bgAudio));
+  await bgPlayer.setSource(AssetSource(bgAudio));
 
   runApp(
     MultiProvider(
