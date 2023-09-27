@@ -75,7 +75,46 @@ class _RewardScreenState extends State<RewardScreen> {
                     delay: 2.seconds,
                     duration: 1.seconds,
                   ),
-              const Spacer(flex: 2),
+              const Spacer(),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Text(
+                    "You earned",
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 50.sp,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                  const SizedBox(width: 10),
+                  Text(
+                    "20",
+                    style: TextStyle(
+                      color: AppColor.right,
+                      fontSize: 50.sp,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                  const SizedBox(width: 10),
+                  Text(
+                    "coins",
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 50.sp,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ],
+              )
+                  .animate(
+                    onPlay: (controller) => controller.repeat(),
+                  )
+                  .shimmer(
+                    delay: 2.seconds,
+                    duration: 1.seconds,
+                  ),
+              const Spacer(),
               ZoomTapAnimation(
                 onTap: () {
                   final moneyProvider =
