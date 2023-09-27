@@ -21,9 +21,9 @@ Future<void> main() async {
   SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
     statusBarColor: Colors.transparent,
   ));
-  
-    String bgAudio = "audio/bg-music.mp3";
-    await player.setSource(AssetSource(bgAudio));
+
+  String bgAudio = "audio/bg-music.mp3";
+  await player.setSource(AssetSource(bgAudio));
 
   runApp(
     MultiProvider(
@@ -64,7 +64,7 @@ class MyApp extends StatelessWidget {
               '/game': (context) => const GameScreen(),
               '/level': (context) => const LevelScreen(),
               '/select': (context) => const SelectScreen(),
-              '/ad': (context) => const AdScreen(),
+              '/ad': (context) => AdScreen(),
             },
           );
         });
