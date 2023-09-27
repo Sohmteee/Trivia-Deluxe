@@ -224,7 +224,7 @@ class _MenuScreenState extends State<MenuScreen>
                             color: Colors.blue,
                           ),
                         ),
-                        SizedBox(
+                        /* SizedBox(
                           height: 70.w,
                           child: ZoomTapAnimation(
                             onTap: () {
@@ -257,7 +257,7 @@ class _MenuScreenState extends State<MenuScreen>
                               duration: .4.seconds,
                               begin: 1.2,
                               end: 1,
-                            ),
+                            ), */
                       ],
                     ),
                     const Spacer(),
