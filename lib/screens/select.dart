@@ -38,9 +38,6 @@ class _SelectScreenState extends State<SelectScreen> {
 
   @override
   Widget build(BuildContext context) {
-    var levelProvider = Provider.of<LevelProvider>(context);
-    // levelProvider.resetCompletedLevel();
-
     return GameBackground(
       body: Padding(
         padding: EdgeInsets.symmetric(horizontal: 40.w, vertical: 40.h),
@@ -69,6 +66,8 @@ class _SelectScreenState extends State<SelectScreen> {
                       builder: (_, questionProvider, child) {
                     return ZoomTapAnimation(
                       onTap: () {
+                        var levelProvider = Provider.of<LevelProvider>(context);
+                        levelProvider.resetCompletedLevel();
                         questionProvider.questions = selectItem["questions"];
                         Future.delayed(3.microseconds,
                             () => Navigator.pushNamed(context, "/level"));
