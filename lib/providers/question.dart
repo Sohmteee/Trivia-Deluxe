@@ -82,7 +82,7 @@ class QuestionProvider extends ChangeNotifier {
       if (options[index]["value"] == true) {
         final scoreProvider =
             Provider.of<ScoreProvider>(context, listen: false);
-        scoreProvider.incrementScore(int.parse(countDownController.getTime()!));
+        scoreProvider.updatedScore(int.parse(countDownController.getTime()!));
         levelProvider.incrementCompletedLevel();
 
         if (levelProvider.completedLevel == 3) {
