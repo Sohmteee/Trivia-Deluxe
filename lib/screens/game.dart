@@ -92,6 +92,8 @@ class _GameScreenState extends State<GameScreen> {
                               }
                               questionProvider.checkCorrectAnswer(
                                   context, index);
+
+                              debugPrint(countDownController.getTime());
                             },
                             child: Container(
                               margin: EdgeInsets.only(bottom: 20.h),
