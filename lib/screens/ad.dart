@@ -101,13 +101,18 @@ class _AdScreenState extends State<AdScreen> with WidgetsBindingObserver {
                             },
                           )
                         : Container(
-                            width: 20,
-                            height: 20,
                             decoration: BoxDecoration(
-                                shape: BoxShape.circle,
-                                border: Border.all(
-                                  color: Colors.grey[300]!,
-                                )),
+                              shape: BoxShape.circle,
+                              border: Border.all(
+                                color: Colors.grey[300]!,
+                                width: 3.sp,
+                              ),
+                            ),
+                            child: Icon(
+                              Icons.close_rounded,
+                              color: Colors.grey,
+                              size: 15.sp,
+                            ),
                           ),
                   ],
                 ),
