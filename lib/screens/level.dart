@@ -17,12 +17,19 @@ class LevelScreen extends StatefulWidget {
 }
 
 class _LevelScreenState extends State<LevelScreen> {
-
   @override
   void initState() {
+    final levelProvider = Provider.of<LevelProvider>(context, listen: false);
+    if (levelProvider.completedLevel != 3) {
+      Future.delayed(2.seconds, () {
+        Navigator.pushNamedAndRemoveUntil(
+            context, "/victory", (route) => false);
+        levelProvider.resetCompletedLevel();
+      });
+    }
     super.initState();
-    
   }
+
   @override
   Widget build(BuildContext context) {
     return WillPopScope(
@@ -130,28 +137,29 @@ class _LevelScreenState extends State<LevelScreen> {
           return Positioned(
             bottom: -30.h,
             child: SizedBox(
-                    height: 80.h,
-                    child: Image.asset("assets/images/treasure.png"),
-                  ).animate(
-                      onPlay: (controller) => controller.repeat(),
-                    )
-                    .scaleXY(
-                      delay: 2.seconds,
-                      duration: .3.seconds,
-                      begin: 1,
-                      end: 1.2,
-                    )
-                    .then()
-                    .shake(
-                      duration: .4.seconds,
-                    )
-                    .then()
-                    .scaleXY(
-                      curve: Curves.bounceOut,
-                      duration: .3.seconds,
-                      begin: 1.2,
-                      end: 1,
-                    ),
+              height: 80.h,
+              child: Image.asset("assets/images/treasure.png"),
+            )
+                .animate(
+                  onPlay: (controller) => controller.repeat(),
+                )
+                .scaleXY(
+                  delay: 2.seconds,
+                  duration: .3.seconds,
+                  begin: 1,
+                  end: 1.2,
+                )
+                .then()
+                .shake(
+                  duration: .4.seconds,
+                )
+                .then()
+                .scaleXY(
+                  curve: Curves.bounceOut,
+                  duration: .3.seconds,
+                  begin: 1.2,
+                  end: 1,
+                ),
           );
         })
       ],

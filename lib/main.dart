@@ -58,8 +58,8 @@ class MyApp extends StatelessWidget {
               ),
               fontFamily: "Race",
             ),
-            home: const RewardScreen(),
-            // home: const MenuScreen(),
+            // home: const RewardScreen(),
+            home: const MenuScreen(),
             debugShowCheckedModeBanner: false,
             routes: {
               '/menu': (context) => const MenuScreen(),
