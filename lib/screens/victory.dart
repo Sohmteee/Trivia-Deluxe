@@ -16,12 +16,13 @@ class VictoryScreen extends StatefulWidget {
 
 class _VictoryScreenState extends State<VictoryScreen>
     with TickerProviderStateMixin {
+  late Animate anim;
   late AnimationController controller;
 
   @override
   void initState() {
     controller = AnimationController(vsync: this);
-    Animate animateChest = Animate(controller: controller)
+    anim = Animate(controller: controller)
         .scaleXY(
           delay: 2.seconds,
           duration: .3.seconds,
