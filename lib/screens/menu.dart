@@ -35,7 +35,7 @@ class _MenuScreenState extends State<MenuScreen>
         }
       })
       ..repeat();
-    
+
     rotationAnimation = Tween<double>(
       begin: 0,
       end: 2 * pi, // 360 degrees in radians
@@ -220,8 +220,8 @@ class _MenuScreenState extends State<MenuScreen>
                       alignment: Alignment.center,
                       children: [
                         SpinKitDualRing(
-                          controller: rotationController,
-                          color: AppColor.wrong,
+                          duration: 10.seconds,
+                          color: AppColor.white.withOpacity(.5),
                           size: 100.sp,
                         ),
                         /* RotationTransition(
@@ -257,7 +257,7 @@ class _MenuScreenState extends State<MenuScreen>
                             ],
                           ),
                         ), */
-                        /* SizedBox(
+                        SizedBox(
                           height: 70.w,
                           child: ZoomTapAnimation(
                             onTap: () {
@@ -290,7 +290,7 @@ class _MenuScreenState extends State<MenuScreen>
                               duration: .4.seconds,
                               begin: 1.2,
                               end: 1,
-                            ), */
+                            ),
                       ],
                     ),
                     const Spacer(),
