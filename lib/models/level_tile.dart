@@ -25,11 +25,11 @@ class _LevelTileState extends State<LevelTile> {
     return Consumer<LevelProvider>(builder: (_, levelProvider, child) {
       return widget.level == levelProvider.completedLevel + 1
           ? ZoomTapAnimation(
-            onTap: (){
-              
+              onTap: () {
+                Navigator.pushReplacementNamed(context, "/game");
                 ToastContext().init(context);
                 Toast.show(
-                  "Please press the play button below",
+                  "Please go to Level ${levelProvider.completedLevel + 1}",
                   duration: 2,
                   gravity: 1,
                   textStyle: TextStyle(
@@ -37,61 +37,60 @@ class _LevelTileState extends State<LevelTile> {
                     fontSize: 20.sp,
                   ),
                 );
-            },
-            child: Container(
-              padding: EdgeInsets.all(20.sp),
-              margin: EdgeInsets.only(bottom: 20.sp),
-              decoration: BoxDecoration(
-                color: levelProvider.completedLevel >= widget.level
-                    ? AppColor.levelYellow
-                    : widget.level == levelProvider.completedLevel + 1
-                        ? AppColor.levelYellow.withOpacity(.3)
-                        : Colors.transparent,
-                border: Border.all(
-                  width: 2.sp,
-                  color: AppColor.lightRed,
+              },
+              child: Container(
+                padding: EdgeInsets.all(20.sp),
+                margin: EdgeInsets.only(bottom: 20.sp),
+                decoration: BoxDecoration(
+                  color: levelProvider.completedLevel >= widget.level
+                      ? AppColor.levelYellow
+                      : widget.level == levelProvider.completedLevel + 1
+                          ? AppColor.levelYellow.withOpacity(.3)
+                          : Colors.transparent,
+                  border: Border.all(
+                    width: 2.sp,
+                    color: AppColor.lightRed,
+                  ),
                 ),
-              ),
-              child: Text(
-                (widget.level).toString(),
-                style: TextStyle(
-                  color: AppColor.white,
-                  fontSize: 16.sp,
+                child: Text(
+                  (widget.level).toString(),
+                  style: TextStyle(
+                    color: AppColor.white,
+                    fontSize: 16.sp,
+                  ),
+                  textAlign: TextAlign.center,
                 ),
-                textAlign: TextAlign.center,
-              ),
+              )
+                  .animate(
+                    onPlay: (controller) => controller.repeat(),
+                  )
+                  .shimmer(
+                    delay: 1.5.seconds,
+                    duration: 1.seconds,
+                  )
+                  .animate()
+                  .scaleXY(
+                    delay: .5.seconds,
+                    duration: .2.seconds,
+                    begin: 1,
+                    end: .8,
+                  )
+                  .then()
+                  .scaleXY(
+                    duration: .2.seconds,
+                    begin: .8,
+                    end: 1.2,
+                  )
+                  .then()
+                  .scaleXY(
+                    curve: Curves.bounceIn,
+                    duration: .2.seconds,
+                    begin: 1.2,
+                    end: 1,
+                  ),
             )
-                .animate(
-                  onPlay: (controller) => controller.repeat(),
-                )
-                .shimmer(
-                  delay: 1.5.seconds,
-                  duration: 1.seconds,
-                )
-                .animate()
-                .scaleXY(
-                  delay: .5.seconds,
-                  duration: .2.seconds,
-                  begin: 1,
-                  end: .8,
-                )
-                .then()
-                .scaleXY(
-                  duration: .2.seconds,
-                  begin: .8,
-                  end: 1.2,
-                )
-                .then()
-                .scaleXY(
-                  curve: Curves.bounceIn,
-                  duration: .2.seconds,
-                  begin: 1.2,
-                  end: 1,
-                ),
-          )
           : ZoomTapAnimation(
               onTap: () {
-                Navigator.pushReplacementNamed(context, "/game");
               },
               child: Container(
                 padding: EdgeInsets.all(20.sp),
