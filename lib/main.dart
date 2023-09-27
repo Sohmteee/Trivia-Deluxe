@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:hive/hive.dart';
-import 'package:path_provider/path_provider.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/data/controllers.dart';
 import 'package:trivia/data/game_stats.dart';
@@ -17,8 +16,8 @@ import 'package:trivia/screens/ad.dart';
 import 'package:trivia/screens/game.dart';
 import 'package:trivia/screens/level.dart';
 import 'package:trivia/screens/menu.dart';
-import 'package:trivia/screens/select.dart';
 import 'package:trivia/screens/reward.dart';
+import 'package:trivia/screens/select.dart';
 
 import 'data/box.dart';
 
@@ -40,7 +39,7 @@ Future<void> main() async {
   box = Hive.box("myBox");
 
   coins = box.get("coins") ?? 0;
-  money = box.get("money") ?? 0;
+  cash = box.get("cash") ?? 0;
 
   runApp(
     MultiProvider(
