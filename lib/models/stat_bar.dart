@@ -26,9 +26,9 @@ class _GameStatsState extends State<GameStats> {
   Widget build(BuildContext context) {
     final moneyProvider = Provider.of<MoneyProvider>(context, listen: false);
 
-
     int begin = moneyProvider.previousCoins;
-    int end= mon
+    int end = moneyProvider.coins;
+
     return Consumer<MoneyProvider>(builder: (context, moneyProvider, _) {
       return Row(
         children: [
@@ -197,8 +197,8 @@ class _GameStatsState extends State<GameStats> {
                   Expanded(
                     child: Center(
                       child: Countup(
-                        begin: 0,
-                        end: moneyProvider.coins.toDouble(),
+                        begin: begin.toDouble(),
+                        end: end.toDouble(),
                         duration: 1.seconds,
                         style: const TextStyle(
                           color: Colors.yellow,
