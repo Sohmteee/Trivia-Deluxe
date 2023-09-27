@@ -70,8 +70,10 @@ class _SelectScreenState extends State<SelectScreen> {
                             Provider.of<LevelProvider>(context, listen: false);
                         levelProvider.resetCompletedLevel();
                         questionProvider.questions = selectItem["questions"];
-                        Future.delayed(3.microseconds,
-                            () => Navigator.pushNamed(context, "/level"));
+                        Future.delayed(
+                          3.microseconds,
+                          () => Navigator.pushNamed(context, "/level"),
+                        );
                       },
                       child: Container(
                         padding: EdgeInsets.all(10.sp),

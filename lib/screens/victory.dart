@@ -25,6 +25,14 @@ class _VictoryScreenState extends State<VictoryScreen> {
             children: [
               const GameStats(),
               const Spacer(flex: 2),
+              Text(
+                "Victory!",
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 50.sp,
+                ),
+              ),
+              const Spacer(),
             ],
           ),
         ),
