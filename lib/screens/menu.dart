@@ -1,4 +1,3 @@
-import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -54,14 +53,12 @@ class _MenuScreenState extends State<MenuScreen> with WidgetsBindingObserver {
   Future<void> playBGAudio() async {
     final audioProvider = Provider.of<AudioProvider>(context, listen: false);
 
-    String bgAudio = "audio/bg-music.mp3";
-    await bgPlayer.setSource(AssetSource(bgAudio));
     if (audioProvider.music) {
       await bgPlayer.resume();
     }
 
     bgPlayer.onPlayerComplete.listen((_) async {
-      await bgPlayer.play(AssetSource(bgAudio));
+      await bgPlayer.resume();
     });
   }
 
