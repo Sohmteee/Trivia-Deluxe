@@ -30,11 +30,11 @@ Future<void> main() async {
   await tapPlayer.setSource(AssetSource("audio/tap.mp3"));
   await correctPlayer.setSource(AssetSource("audio/correct.mp3"));
   await wrongPlayer.setSource(AssetSource("audio/wrong.mp3"));
-  await unavailablePlayer.setSource(AssetSource("audio/unavailable-selection.mp3"));
+  await unavailablePlayer
+      .setSource(AssetSource("audio/unavailable-selection.mp3"));
 
-  
   final dir = await getApplicationDocumentsDirectory();
-  Hive. = dir.path;
+  Hive.box(directory: dir.path);
 
   runApp(
     MultiProvider(
