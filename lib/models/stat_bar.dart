@@ -219,7 +219,6 @@ class _GameStatsState extends State<GameStats> {
                               begin: moneyProvider.previousCoins.toDouble(),
                               end: moneyProvider.coins.toDouble(),
                               duration: 1.seconds,
-                              se
                               style: const TextStyle(
                                 color: Colors.yellow,
                               ),
