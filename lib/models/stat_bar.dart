@@ -22,6 +22,16 @@ class GameStats extends StatefulWidget {
 }
 
 class _GameStatsState extends State<GameStats> {
+  bool animateCoins = false;
+
+  @override
+  void initState() {
+      final coins = Provider.of<MoneyProvider>(context, listen: false);
+
+    super.initState();
+    
+  }
+
   @override
   Widget build(BuildContext context) {
     return Consumer<MoneyProvider>(builder: (context, moneyProvider, _) {
