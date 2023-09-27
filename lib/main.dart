@@ -37,7 +37,6 @@ Future<void> main() async {
 
   final dir = await getApplicationDocumentsDirectory();
   Hive.openBox("myBox", path: dir.path);
-  box = Hive.box("myBox");
 
   runApp(
     MultiProvider(
