@@ -80,7 +80,8 @@ class QuestionProvider extends ChangeNotifier {
     Future.delayed((options[index]["value"] == true) ? 6.seconds : 1.5.seconds,
         () {
       if (options[index]["value"] == true) {
-        final scoreProvider = Provider.of<ScoreProvider>(context);
+        final scoreProvider =
+            Provider.of<ScoreProvider>(context, listen: false);
         scoreProvider.incrementScore(int.parse(countDownController.getTime()!));
         levelProvider.incrementCompletedLevel();
         Navigator.pushReplacementNamed(context, "/level");
