@@ -92,7 +92,8 @@ class _GameScreenState extends State<GameScreen> {
                                 confettiController.play();
                                 final scoreProvider =
                                     Provider.of<ScoreProvider>(context);
-                                    scoreProvider.incrementScore(countDownController.getTime())
+                                scoreProvider.incrementScore(
+                                    int.tryParse(countDownController.getTime()));
                               }
                               questionProvider.checkCorrectAnswer(
                                   context, index);
