@@ -66,7 +66,7 @@ class MyApp extends StatelessWidget {
               '/level': (context) => const LevelScreen(),
               '/select': (context) => const SelectScreen(),
               '/ad': (context) => AdScreen(),
-              '/victory': (context) => VictoryScreen(),
+              '/victory': (context) => const VictoryScreen(),
             },
           );
         });
