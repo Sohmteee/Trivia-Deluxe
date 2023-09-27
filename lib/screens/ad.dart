@@ -1,5 +1,6 @@
 import 'package:circular_countdown_timer/circular_countdown_timer.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/data/controllers.dart';
@@ -87,9 +88,12 @@ class _AdScreenState extends State<AdScreen> with WidgetsBindingObserver {
 
                                   moneyProvider.increaseCoins(5);
                                   // Navigator.pop(context);
-                                  setState(() {
-                                    isFinished = true;
-                                  });
+                                  Future.delayed(
+                                    1.seconds,
+                                    () => setState(() {
+                                      isFinished = true;
+                                    }),
+                                  );
 
                                   // questionProvider.checkCorrectAnswer(context, -1);
                                 },
@@ -125,7 +129,7 @@ class _AdScreenState extends State<AdScreen> with WidgetsBindingObserver {
                 ),
                 const Spacer(),
                 Text(
-                  "Showing ad...",
+                  (!isFinished) ? "Showing ad..." : "Finished ad",
                   style: TextStyle(
                     fontSize: 30.sp,
                   ),
