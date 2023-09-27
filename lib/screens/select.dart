@@ -66,7 +66,8 @@ class _SelectScreenState extends State<SelectScreen> {
                       builder: (_, questionProvider, child) {
                     return ZoomTapAnimation(
                       onTap: () {
-                        var levelProvider = Provider.of<LevelProvider>(context);
+                        var levelProvider =
+                            Provider.of<LevelProvider>(context, listen: false);
                         levelProvider.resetCompletedLevel();
                         questionProvider.questions = selectItem["questions"];
                         Future.delayed(3.microseconds,
