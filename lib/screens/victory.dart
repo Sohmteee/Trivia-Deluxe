@@ -9,14 +9,14 @@ import 'package:trivia/models/stat_bar.dart';
 import 'package:trivia/providers/money.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
-class VictoryScreen extends StatefulWidget {
-  const VictoryScreen({super.key});
+class RewardScreen extends StatefulWidget {
+  const RewardScreen({super.key});
 
   @override
-  State<VictoryScreen> createState() => _VictoryScreenState();
+  State<RewardScreen> createState() => _RewardScreenState();
 }
 
-class _VictoryScreenState extends State<VictoryScreen> {
+class _RewardScreenState extends State<RewardScreen> {
   late bool receivedReward;
 
   @override

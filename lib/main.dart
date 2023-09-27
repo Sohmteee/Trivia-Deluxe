@@ -58,7 +58,8 @@ class MyApp extends StatelessWidget {
               ),
               fontFamily: "Race",
             ),
-            home: const MenuScreen(),
+            home: const RewardScreen(),
+            // home: const MenuScreen(),
             debugShowCheckedModeBanner: false,
             routes: {
               '/menu': (context) => const MenuScreen(),
@@ -66,7 +67,7 @@ class MyApp extends StatelessWidget {
               '/level': (context) => const LevelScreen(),
               '/select': (context) => const SelectScreen(),
               '/ad': (context) => AdScreen(),
-              '/victory': (context) => const VictoryScreen(),
+              '/victory': (context) => const RewardScreen(),
             },
           );
         });
