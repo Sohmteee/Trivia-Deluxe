@@ -13,7 +13,7 @@ class MoneyProvider extends ChangeNotifier {
   increaseCash(int value) {
     if (cash + value <= 5000) {
       _cash += value;
-      box.put("cash", value)
+      box.put("cash", value);
     }
 
     notifyListeners();
@@ -22,6 +22,7 @@ class MoneyProvider extends ChangeNotifier {
   decreaseCash(int value) {
     if (cash - value >= 0) {
       _cash -= value;
+      box.put("cash", value);
     }
 
     notifyListeners();
@@ -31,6 +32,8 @@ class MoneyProvider extends ChangeNotifier {
     if (coins + value <= 5000) {
       _previousCoins = coins;
       _coins += value;
+      box.put("coins", value);
+      box.put("previousCoins", coins);
     }
 
     notifyListeners();
