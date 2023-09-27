@@ -39,7 +39,8 @@ Future<void> main() async {
   // final dir = await getApplicationDocumentsDirectory();
   box = Hive.box("myBox");
 
-  coins = box["coins"];
+  coins = box.get("coins") ?? 0;
+  money = box.get("money") ?? 0;
 
   runApp(
     MultiProvider(
