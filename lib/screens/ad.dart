@@ -129,7 +129,7 @@ class _AdScreenState extends State<AdScreen> with WidgetsBindingObserver {
                 ),
                 const Spacer(),
                 Text(
-                  (!isFinished) ? "Showing ad..." : "Finished ad",
+                  (!isFinished) ? "Showing ad..." : "Finished ad!",
                   style: TextStyle(
                     fontSize: 30.sp,
                   ),
