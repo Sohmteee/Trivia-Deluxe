@@ -41,35 +41,36 @@ class _AdScreenState extends State<AdScreen> with WidgetsBindingObserver {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.end,
                   children: [
-                    (!isFinished) ? Consumer<MoneyProvider>(
-                        builder: (context, moneyProvider, _) {
-                      return CircularCountDownTimer(
-                        duration: 5,
-                        controller: adCountDownController,
-                        width: 20.sp,
-                        height: 20,
-                        ringColor: Colors.grey[300]!,
-                        ringGradient: null,
-                        fillColor: Colors.grey,
-                        fillGradient: null,
-                        backgroundColor: Colors.transparent,
-                        backgroundGradient: null,
-                        strokeWidth: 3.sp,
-                        strokeCap: StrokeCap.round,
-                        textStyle: TextStyle(
-                          fontSize: 15.sp,
-                          color: Colors.grey,
-                          fontWeight: FontWeight.bold,
-                        ),
-                        textFormat: CountdownTextFormat.S,
-                        isReverse: false,
-                        isReverseAnimation: false,
-                        isTimerTextShown: true,
-                        autoStart: true,
-                        onStart: () {
-                          debugPrint('Countdown Started');
+                    (!isFinished)
+                        ? Consumer<MoneyProvider>(
+                            builder: (context, moneyProvider, _) {
+                              return CircularCountDownTimer(
+                                duration: 5,
+                                controller: adCountDownController,
+                                width: 20.sp,
+                                height: 20.sp,
+                                ringColor: Colors.grey[300]!,
+                                ringGradient: null,
+                                fillColor: Colors.grey,
+                                fillGradient: null,
+                                backgroundColor: Colors.transparent,
+                                backgroundGradient: null,
+                                strokeWidth: 3.sp,
+                                strokeCap: StrokeCap.round,
+                                textStyle: TextStyle(
+                                  fontSize: 15.sp,
+                                  color: Colors.grey,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                                textFormat: CountdownTextFormat.S,
+                                isReverse: false,
+                                isReverseAnimation: false,
+                                isTimerTextShown: true,
+                                autoStart: true,
+                                onStart: () {
+                                  debugPrint('Countdown Started');
 
-                          /* timer = Timer.periodic(1.seconds, (timer) {
+                                  /* timer = Timer.periodic(1.seconds, (timer) {
                               if (iterationCount > 0) {
                                 setState(() {
                                   iterationCount--;
@@ -79,30 +80,35 @@ class _AdScreenState extends State<AdScreen> with WidgetsBindingObserver {
                               }
                             });
                            */
-                        },
-                        onComplete: () {
-                          debugPrint('Countdown Ended');
+                                },
+                                onComplete: () {
+                                  debugPrint('Countdown Ended');
 
-                          moneyProvider.increaseCoins(5);
-                          Navigator.pop(context);
+                                  moneyProvider.increaseCoins(5);
+                                  // Navigator.pop(context);
+                                  setState(() {
+                                    isFinished = true;
+                                  });
 
-                          // questionProvider.checkCorrectAnswer(context, -1);
-                        },
-                        timeFormatterFunction:
-                            (defaultFormatterFunction, duration) {
-                          return Function.apply(
-                              defaultFormatterFunction, [duration]);
-                        },
-                      );
-                    },) : Container(
-                      
+                                  // questionProvider.checkCorrectAnswer(context, -1);
+                                },
+                                timeFormatterFunction:
+                                    (defaultFormatterFunction, duration) {
+                                  return Function.apply(
+                                      defaultFormatterFunction, [duration]);
+                                },
+                              );
+                            },
+                          )
+                        : Container(
                             width: 20,
                             height: 20,
                             decoration: BoxDecoration(
-                              color: Colors.grey[300]!,
-                              shape: BoxShape.circle,
-                            ),
-                    ),
+                                shape: BoxShape.circle,
+                                border: Border.all(
+                                  color: Colors.grey[300]!,
+                                )),
+                          ),
                   ],
                 ),
                 const Spacer(),
