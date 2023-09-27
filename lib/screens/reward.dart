@@ -185,6 +185,9 @@ class _RewardScreenState extends State<RewardScreen> {
               const Spacer(),
               if (receivedReward)
                 ZoomTapAnimation(
+                  onTap: () {
+                    Navigator.pushReplacementNamed(context, "/select");
+                  },
                   child: Container(
                     padding: EdgeInsets.symmetric(
                       vertical: 15.h,
