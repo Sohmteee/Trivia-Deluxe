@@ -196,6 +196,9 @@ class _MenuScreenState extends State<MenuScreen> with WidgetsBindingObserver {
                     Stack(
                       children: [
                         SizedBox(
+                          height: 7,
+                        ),
+                        SizedBox(
                           height: 70.w,
                           child: ZoomTapAnimation(
                             onTap: () {
