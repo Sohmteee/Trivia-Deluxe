@@ -90,7 +90,9 @@ class _GameScreenState extends State<GameScreen> {
                               if (questionProvider.options[index]["value"] ==
                                   true) {
                                 confettiController.play();
-                                final scoreProvider = Pro
+                                final scoreProvider =
+                                    Provider.of<ScoreProvider>(context);
+                                    scoreProvider.incrementScore(countDownController.getTime())
                               }
                               questionProvider.checkCorrectAnswer(
                                   context, index);
