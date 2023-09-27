@@ -7,7 +7,6 @@ import 'package:trivia/models/game_background.dart';
 import 'package:trivia/models/level_tile.dart';
 import 'package:trivia/models/stat_bar.dart';
 import 'package:trivia/providers/level.dart';
-import 'package:trivia/providers/score.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 class LevelScreen extends StatefulWidget {
