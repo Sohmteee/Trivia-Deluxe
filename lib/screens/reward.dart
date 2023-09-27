@@ -132,9 +132,22 @@ class _RewardScreenState extends State<RewardScreen> {
                   });
                 },
                 child: !receivedReward
-                    ? SizedBox(
-                        height: 80.h,
-                        child: Image.asset("assets/images/treasure.png"),
+                    ? Column(
+                        children: [
+                          SizedBox(
+                            height: 80.h,
+                            child: Image.asset("assets/images/treasure.png"),
+                          ),
+                          SizedBox(height: 10.h),
+                          Text(
+                            "Tap the chest to redeem",
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 20.sp,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                        ],
                       )
                         .animate(
                           onPlay: (controller) => controller.repeat(),
@@ -157,15 +170,6 @@ class _RewardScreenState extends State<RewardScreen> {
                           end: 1,
                         )
                     : const SizedBox(),
-              ),
-              SizedBox(height: 10.h),
-              Text(
-                "Tap the chest to redeem",
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 20.sp,
-                  fontWeight: FontWeight.bold,
-                ),
               ),
               const Spacer(flex: 5),
             ],
