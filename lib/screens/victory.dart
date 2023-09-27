@@ -2,9 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:lottie/lottie.dart';
+import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/models/game_background.dart';
 import 'package:trivia/models/stat_bar.dart';
+import 'package:trivia/providers/money.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 class VictoryScreen extends StatefulWidget {
@@ -67,7 +69,11 @@ class _VictoryScreenState extends State<VictoryScreen> {
                   ),
               const Spacer(flex: 2),
               ZoomTapAnimation(
-                onTap: () {},
+                onTap: () {
+                  final moneyProvider =
+                      Provider.of<MoneyProvider>(context, listen: false);
+                  moneyProvider.increaseCoins(20);
+                },
                 child: SizedBox(
                   height: 80.h,
                   child: Image.asset("assets/images/treasure.png"),

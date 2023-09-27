@@ -24,8 +24,6 @@ class GameStats extends StatefulWidget {
 class _GameStatsState extends State<GameStats> {
   @override
   Widget build(BuildContext context) {
-
-
     return Consumer<MoneyProvider>(builder: (context, moneyProvider, _) {
       return Row(
         children: [
@@ -194,7 +192,7 @@ class _GameStatsState extends State<GameStats> {
                   Expanded(
                     child: Center(
                       child: Countup(
-                        begin: moneyProvider.coins.toDouble(),
+                        begin: moneyProvider.previousCoins.toDouble(),
                         end: moneyProvider.coins.toDouble(),
                         duration: 1.seconds,
                         style: const TextStyle(
