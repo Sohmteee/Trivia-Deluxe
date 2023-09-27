@@ -158,8 +158,15 @@ class _RewardScreenState extends State<RewardScreen> {
                         )
                     : const SizedBox(),
               ),
-              const Spacer(),
-
+              SizedBox(height: 10.h),
+              Text(
+                "Tap the chest to redeem",
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 20.sp,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
               const Spacer(flex: 5),
             ],
           ),
