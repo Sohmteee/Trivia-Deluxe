@@ -11,6 +11,7 @@ class LevelProvider extends ChangeNotifier {
     } else {
       _completedLevel = 0;
     }
+    debugPrint("New Completed Level: $completedLevel");
     notifyListeners();
   }
 
