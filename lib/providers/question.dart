@@ -84,17 +84,16 @@ class QuestionProvider extends ChangeNotifier {
             Provider.of<ScoreProvider>(context, listen: false);
         scoreProvider.incrementScore(int.parse(countDownController.getTime()!));
         levelProvider.incrementCompletedLevel();
-        final levelProvider =
-            Provider.of<LevelProvider>(context, listen: false);
 
         if (levelProvider.completedLevel == 3) {
           Navigator.pushNamedAndRemoveUntil(
-              context, "/victory", (route) => false);
+              context, "/reward", (route) => false);
           Future.delayed(2.seconds, () {
             levelProvider.resetCompletedLevel();
           });
+        } else {
+          Navigator.pushReplacementNamed(context, "/level");
         }
-        Navigator.pushReplacementNamed(context, "/level");
       } else {
         showFailedDialog(context, questionIndex, false);
       }
