@@ -11,7 +11,7 @@ showAdDialog(BuildContext context) {
       mainAxisSize: MainAxisSize.min,
       children: [
         Text(
-          "Watch an ad to",
+          "Watch an ad to top up?",
           style: TextStyle(
             color: Colors.white,
             fontSize: 25.sp,
@@ -23,7 +23,7 @@ showAdDialog(BuildContext context) {
         Padding(
           padding: EdgeInsets.symmetric(horizontal: 15.w),
           child: Text(
-            "Would you like to watch an ad instead?",
+            "This would give you 5 coins",
             style: TextStyle(
               color: Colors.grey[400],
               fontSize: 20.sp,
@@ -34,7 +34,7 @@ showAdDialog(BuildContext context) {
         SizedBox(height: 20.h),
         ZoomTapAnimation(
           onTap: () {
-            Navigator.pushReplacementNamed(context, "/level");
+            Navigator.pushNamed(context, "/ad");
           },
           child: Container(
             width: double.maxFinite,
@@ -48,7 +48,7 @@ showAdDialog(BuildContext context) {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Text(
-                  "Okay I fit do that one",
+                  "Okay I'll watch it",
                   style: TextStyle(
                     fontSize: 15.sp,
                   ),
@@ -64,7 +64,9 @@ showAdDialog(BuildContext context) {
         ),
         SizedBox(height: 10.h),
         ZoomTapAnimation(
-          onTap: () {},
+          onTap: () {
+            Navigator.pop(context);
+          },
           child: Container(
             width: double.maxFinite,
             padding: EdgeInsets.symmetric(horizontal: 20.sp, vertical: 10.sp),
@@ -77,7 +79,7 @@ showAdDialog(BuildContext context) {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Text(
-                  "Omo I dey manage my data too",
+                  "Omo I dey manage my data",
                   style: TextStyle(
                     fontSize: 15.sp,
                   ),
