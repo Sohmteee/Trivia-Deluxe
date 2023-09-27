@@ -21,7 +21,6 @@ class _LevelScreenState extends State<LevelScreen> {
   @override
   void initState() {
     final levelProvider = Provider.of<LevelProvider>(context, listen: false);
-    final scoreProvider = Provider.of<ScoreProvider>(context, listen: false);
 
     if (levelProvider.completedLevel == 3) {
       Future.delayed(1.seconds, () {
@@ -29,7 +28,6 @@ class _LevelScreenState extends State<LevelScreen> {
             context, "/victory", (route) => false);
         Future.delayed(2.seconds, () {
           levelProvider.resetCompletedLevel();
-          scoreProvider.resetScore();
         });
       });
     }

@@ -8,6 +8,7 @@ import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/models/game_background.dart';
 import 'package:trivia/models/stat_bar.dart';
 import 'package:trivia/providers/money.dart';
+import 'package:trivia/providers/score.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 class RewardScreen extends StatefulWidget {
@@ -19,10 +20,12 @@ class RewardScreen extends StatefulWidget {
 
 class _RewardScreenState extends State<RewardScreen> {
   late bool receivedReward, changeChest;
+  late int score;
 
   @override
   void initState() {
     receivedReward = changeChest = false;
+    final scoreProvider = Provider.of<ScoreProvider>(context, listen: false);
     super.initState();
   }
 
