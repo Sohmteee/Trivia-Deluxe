@@ -38,13 +38,12 @@ showLowCashDialog(BuildContext context) {
           SizedBox(height: 20.h),
           ZoomTapAnimation(
             onTap: () {
-              Navigator.pop(dialogContext);
               Navigator.push(
-                context,
+                dialogContext,
                 MaterialPageRoute(
-                  builder: (context) => AdScreen(
+                  builder: (dialogContext) => AdScreen(
                     onComplete: () =>
-                        Navigator.pushReplacementNamed(dialogContext, "/level"),
+                        Navigator.pushReplacementNamed(dialogContext, "/game"),
                   ),
                 ),
               );
