@@ -14,7 +14,7 @@ import 'package:trivia/screens/game.dart';
 import 'package:trivia/screens/level.dart';
 import 'package:trivia/screens/menu.dart';
 import 'package:trivia/screens/select.dart';
-import 'package:trivia/screens/victory.dart';
+import 'package:trivia/screens/reward.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();

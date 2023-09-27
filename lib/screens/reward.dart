@@ -17,11 +17,11 @@ class RewardScreen extends StatefulWidget {
 }
 
 class _RewardScreenState extends State<RewardScreen> {
-  late bool receivedReward;
+  late bool receivedReward, changeChest;
 
   @override
   void initState() {
-    receivedReward = false;
+    receivedReward = changeChest = false;
     super.initState();
   }
 
@@ -81,6 +81,8 @@ class _RewardScreenState extends State<RewardScreen> {
                   final moneyProvider =
                       Provider.of<MoneyProvider>(context, listen: false);
                   moneyProvider.increaseCoins(20);
+
+                  
 
                   Future.delayed(1.2.seconds, () {
                     setState(() {
