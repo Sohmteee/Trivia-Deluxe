@@ -223,8 +223,18 @@ class _MenuScreenState extends State<MenuScreen>
                         ), */
                         RotationTransition(
                           turns: rotationAnimation,
-                          child: Container(
-                            height
+                          child: Stack(
+                            alignment: Alignment.center,
+                            children: [
+                              Container(
+                                height: 100.w,
+                                width: 100.w,
+                                decoration: BoxDecoration(
+                                  shape: BoxShape.circle,
+                                  color: AppColor.wrong,
+                                ),
+                              ),
+                            ],
                           ),
                         ),
                         /* SizedBox(
