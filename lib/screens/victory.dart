@@ -14,41 +14,7 @@ class VictoryScreen extends StatefulWidget {
   State<VictoryScreen> createState() => _VictoryScreenState();
 }
 
-class _VictoryScreenState extends State<VictoryScreen>
-    with TickerProviderStateMixin {
-  late Animation anim;
-  late AnimationController controller;
-
-  @override
-  void initState() {
-    controller = AnimationController(vsync: this);
-    anim = Tween<double>().animate(controller)
-        .scaleXY(
-          delay: 2.seconds,
-          duration: .3.seconds,
-          begin: 1,
-          end: 1.2,
-        )
-        .then()
-        .shake(
-          duration: .4.seconds,
-        )
-        .then()
-        .scaleXY(
-          curve: Curves.bounceOut,
-          duration: .3.seconds,
-          begin: 1.2,
-          end: 1,
-        );
-    super.initState();
-  }
-
-  @override
-  void dispose() {
-    controller.dispose();
-    super.dispose();
-  }
-
+class _VictoryScreenState extends State<VictoryScreen> {
   @override
   Widget build(BuildContext context) {
     return WillPopScope(
@@ -101,14 +67,31 @@ class _VictoryScreenState extends State<VictoryScreen>
                   ),
               const Spacer(flex: 2),
               ZoomTapAnimation(
-                onTap: () {
-                },
+                onTap: () {},
                 child: SizedBox(
                   height: 80.h,
                   child: Image.asset("assets/images/treasure.png"),
-                ).animate(
-                  controller: controller,
-                ),
+                )
+                    .animate(
+                      onPlay: (controller) => controller.repeat(),
+                    )
+                    .scaleXY(
+                      delay: 2.seconds,
+                      duration: .3.seconds,
+                      begin: 1,
+                      end: 1.2,
+                    )
+                    .then()
+                    .shake(
+                      duration: .4.seconds,
+                    )
+                    .then()
+                    .scaleXY(
+                      curve: Curves.bounceOut,
+                      duration: .3.seconds,
+                      begin: 1.2,
+                      end: 1,
+                    ),
               ),
               const Spacer(flex: 5),
             ],
