@@ -80,6 +80,7 @@ class _VictoryScreenState extends State<VictoryScreen>
               const Spacer(flex: 2),
               ZoomTapAnimation(
                 onTap: () {
+                  
                   controller.forward();
                 },
                 child: SizedBox(
