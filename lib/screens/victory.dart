@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:trivia/models/game_background.dart';
 import 'package:trivia/models/stat_bar.dart';
+import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 class VictoryScreen extends StatefulWidget {
   const VictoryScreen({super.key});
@@ -24,7 +26,7 @@ class _VictoryScreenState extends State<VictoryScreen> {
           child: Column(
             children: [
               const GameStats(),
-              const Spacer(flex: 2),
+              const Spacer(),
               Text(
                 "Victory!",
                 style: TextStyle(
@@ -33,6 +35,37 @@ class _VictoryScreenState extends State<VictoryScreen> {
                 ),
               ),
               const Spacer(),
+              ZoomTapAnimation(
+                onTap: () {
+                  Navigator.pushNamedAndRemoveUntil(
+                      context, "/victory", (route) => false);
+                  levelProvider.resetCompletedLevel();
+                },
+                child: SizedBox(
+                  height: 80.h,
+                  child: Image.asset("assets/images/treasure.png"),
+                )
+                    .animate(
+                      onPlay: (controller) => controller.repeat(),
+                    )
+                    .scaleXY(
+                      delay: 2.seconds,
+                      duration: .3.seconds,
+                      begin: 1,
+                      end: 1.2,
+                    )
+                    .then()
+                    .shake(
+                      duration: .4.seconds,
+                    )
+                    .then()
+                    .scaleXY(
+                      curve: Curves.bounceOut,
+                      duration: .3.seconds,
+                      begin: 1.2,
+                      end: 1,
+                    ),
+              ),
             ],
           ),
         ),
