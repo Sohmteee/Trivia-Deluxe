@@ -22,12 +22,9 @@ class _LevelScreenState extends State<LevelScreen> {
     final levelProvider = Provider.of<LevelProvider>(context, listen: false);
 
     if (levelProvider.completedLevel == 3) {
-      Future.delayed(1.seconds, () {
-        Navigator.pushNamedAndRemoveUntil(
-            context, "/victory", (route) => false);
-        Future.delayed(2.seconds, () {
-          levelProvider.resetCompletedLevel();
-        });
+      Navigator.pushNamedAndRemoveUntil(context, "/victory", (route) => false);
+      Future.delayed(2.seconds, () {
+        levelProvider.resetCompletedLevel();
       });
     }
     super.initState();
