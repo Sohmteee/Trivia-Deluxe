@@ -34,7 +34,6 @@ class _LevelScreenState extends State<LevelScreen> {
                       height: 60.h,
                       child: ZoomTapAnimation(
                         onTap: () {
-                          levelProvider.incrementCompletedLevel();
                           Navigator.pushReplacementNamed(context, "/game");
                         },
                         child: Image.asset("assets/images/play.png"),
