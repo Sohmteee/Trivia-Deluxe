@@ -12,6 +12,7 @@ import 'package:trivia/data/controllers.dart';
 import 'package:trivia/models/game_background.dart';
 import 'package:trivia/models/stat_bar.dart';
 import 'package:trivia/providers/question.dart';
+import 'package:trivia/providers/score.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 class GameScreen extends StatefulWidget {
@@ -89,11 +90,10 @@ class _GameScreenState extends State<GameScreen> {
                               if (questionProvider.options[index]["value"] ==
                                   true) {
                                 confettiController.play();
+                                final scoreProvider = Pro
                               }
                               questionProvider.checkCorrectAnswer(
                                   context, index);
-
-                              debugPrint(countDownController.getTime());
                             },
                             child: Container(
                               margin: EdgeInsets.only(bottom: 20.h),
