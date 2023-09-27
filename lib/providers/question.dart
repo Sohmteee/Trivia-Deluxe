@@ -16,10 +16,11 @@ class QuestionProvider extends ChangeNotifier {
   bool questionIsShuffled = false;
 
   void initQuestionProvider(context) {
-    // final levelProvider = Provider.of<LevelProvider>(context, listen: false);
+
     if (!questionIsShuffled) {
       questions.shuffle();
       questionIsShuffled = true;
+      
     }
 
     if (questionIndex < questions.length - 1) {

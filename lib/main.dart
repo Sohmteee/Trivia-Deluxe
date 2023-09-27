@@ -5,7 +5,6 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:hive/hive.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/data/controllers.dart';
-import 'package:trivia/data/game_stats.dart';
 import 'package:trivia/providers/audio.dart';
 import 'package:trivia/providers/level.dart';
 import 'package:trivia/providers/money.dart';
