@@ -197,17 +197,10 @@ class _MenuScreenState extends State<MenuScreen> with WidgetsBindingObserver {
                     Stack(
                       children: [
                         SizedBox(
-                          height: 70.w,
-                          width: 70.w,
-                          child: SpinKitRotatingCircle(
-                            itemBuilder: (BuildContext context, int index) {
-                              return DecoratedBox(
-                                decoration: BoxDecoration(
-                                  color:
-                                      index.isEven ? Colors.red : Colors.green,
-                                ),
-                              );
-                            },
+                          height: 200.w,
+                          width: 200.w,
+                          child: SpinKitDualRing(
+                            color: Colors.red,
                           ),
                         ),
                         SizedBox(
