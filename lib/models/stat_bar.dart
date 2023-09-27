@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
+import 'package:trivia/models/dialogs/ad.dart';
 import 'package:trivia/models/dialogs/settings.dart';
 import 'package:trivia/providers/money.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
@@ -168,7 +169,8 @@ class _GameStatsState extends State<GameStats> {
           SizedBox(width: 5.w),
           ZoomTapAnimation(
             onTap: () {
-              Navigator.pushNamed(context, "/ad");
+              showAdDialog(context);
+              Navigator.pop(context);
             },
             child: Container(
               height: 20.h,
