@@ -24,7 +24,7 @@ class _LevelScreenState extends State<LevelScreen> {
       Future.delayed(2.seconds, () {
         Navigator.pushNamedAndRemoveUntil(
             context, "/victory", (route) => false);
-            Futu
+        Future.delayed(2.seconds, () => levelProvider.resetCompletedLevel());
       });
     }
     super.initState();
