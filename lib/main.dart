@@ -19,6 +19,8 @@ import 'package:trivia/screens/menu.dart';
 import 'package:trivia/screens/select.dart';
 import 'package:trivia/screens/reward.dart';
 
+import 'data/box.dart';
+
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
@@ -33,8 +35,8 @@ Future<void> main() async {
   await unavailablePlayer
       .setSource(AssetSource("audio/unavailable-selection.mp3"));
 
-  final dir = await getApplicationDocumentsDirectory();
-  Hive.box("myBox");
+  // final dir = await getApplicationDocumentsDirectory();
+  box = Hive.box("myBox");
 
   runApp(
     MultiProvider(
