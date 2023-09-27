@@ -21,7 +21,20 @@ class GameStats extends StatefulWidget {
   State<GameStats> createState() => _GameStatsState();
 }
 
-class _GameStatsState extends State<GameStats> {
+class _GameStatsState extends State<GameStats> with TickerProviderStateMixin {
+  late Animation animation;
+  late AnimationController animationController;
+
+  @override
+  void initState() {
+    animationController = AnimationController(
+      vsync: this,
+      duration: 1.seconds,
+    );
+    animation = Tween<double>(begin: 0, end: 1).animate(animationController);
+    super.initState();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Consumer<MoneyProvider>(builder: (context, moneyProvider, _) {
