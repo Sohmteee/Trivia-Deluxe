@@ -7,6 +7,7 @@ import 'game.dart';
 showAdDialog(BuildContext context) {
   showGameDialog(
     context,
+    isExitable: true,
     child: Column(
       mainAxisSize: MainAxisSize.min,
       children: [
