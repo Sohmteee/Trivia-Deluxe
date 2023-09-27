@@ -5,10 +5,11 @@ class ScoreProvider extends ChangeNotifier {
   int get score => _score;
 
   void updatedScore(int newScore) {
-    debugPrint("Score: $score");
+    debugPrint("Score: $newScore");
     if (newScore > score) {
       _score = newScore;
     }
+    debugPrint("Curent Score: $score");
     notifyListeners();
   }
 
