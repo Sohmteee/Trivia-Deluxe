@@ -25,7 +25,7 @@ class _GameStatsState extends State<GameStats> {
     final moneyProvider =
         Provider.of<MoneyProvider>(context, listen: false).addListener(() {
       setState(() {
-        
+        debugPrint("money updated");
       });
     });
     super.initState();
