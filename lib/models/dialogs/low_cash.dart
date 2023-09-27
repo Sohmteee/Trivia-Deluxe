@@ -45,7 +45,7 @@ showLowCashDialog(BuildContext context) {
                 MaterialPageRoute(
                   builder: (context) => AdScreen(
                     onComplete: () =>
-                        Navigator.pushReplacementNamed(context, "/level"),
+                        Navigator.pushReplacementNamed(dialogContext, "/level"),
                   ),
                 ),
               );
