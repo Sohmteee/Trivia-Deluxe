@@ -24,14 +24,7 @@ class GameStats extends StatefulWidget {
 class _GameStatsState extends State<GameStats> {
   @override
   Widget build(BuildContext context) {
-    final moneyProvider = Provider.of<MoneyProvider>(context, listen: false);
 
-    moneyProvider.addListener(() {
-      setState(() {});
-    });
-
-    int begin = moneyProvider.previousCoins;
-    int end = moneyProvider.coins;
 
     return Consumer<MoneyProvider>(builder: (context, moneyProvider, _) {
       return Row(
@@ -201,8 +194,8 @@ class _GameStatsState extends State<GameStats> {
                   Expanded(
                     child: Center(
                       child: Countup(
-                        begin: begin.toDouble(),
-                        end: end.toDouble(),
+                        begin: moneyProvider.coins.toDouble(),
+                        end: moneyProvider.coins.toDouble(),
                         duration: 1.seconds,
                         style: const TextStyle(
                           color: Colors.yellow,
