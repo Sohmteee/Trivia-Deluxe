@@ -214,14 +214,21 @@ class _GameStatsState extends State<GameStats> {
                 children: [
                   Expanded(
                     child: Center(
-                      child: animateCoins ? Countup(
-                        begin: moneyProvider.previousCoins.toDouble(),
-                        end: moneyProvider.coins.toDouble(),
-                        duration: 1.seconds,
-                        style: const TextStyle(
-                          color: Colors.yellow,
-                        ),
-                      ),
+                      child: animateCoins
+                          ? Countup(
+                              begin: moneyProvider.previousCoins.toDouble(),
+                              end: moneyProvider.coins.toDouble(),
+                              duration: 1.seconds,
+                              style: const TextStyle(
+                                color: Colors.yellow,
+                              ),
+                            )
+                          : Text(
+                              moneyProvider.coins.toString(),
+                              style: const TextStyle(
+                                color: Colors.yellow,
+                              ),
+                            ),
                     ),
                   ),
                   Container(
