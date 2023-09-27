@@ -8,8 +8,6 @@ class LevelProvider extends ChangeNotifier {
     debugPrint("Completed Level: $completedLevel");
     if (completedLevel < 3) {
       _completedLevel++;
-    } else {
-      _completedLevel = 0;
     }
     debugPrint("New Completed Level: $completedLevel");
     notifyListeners();
@@ -17,5 +15,6 @@ class LevelProvider extends ChangeNotifier {
 
   void resetCompletedLevel() {
     _completedLevel = 0;
+    notifyListeners();
   }
 }
