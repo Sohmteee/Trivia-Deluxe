@@ -76,7 +76,7 @@ class _VictoryScreenState extends State<VictoryScreen> {
                       Provider.of<MoneyProvider>(context, listen: false);
                   moneyProvider.increaseCoins(20);
                   setState(() {
-                    receivedReward = true;
+                    Future.delayed(1.2.seconds, () => receivedReward = true);
                   });
                 },
                 child: !receivedReward
