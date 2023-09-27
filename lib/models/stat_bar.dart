@@ -29,8 +29,8 @@ class _GameStatsState extends State<GameStats> {
     final coins = Provider.of<MoneyProvider>(context, listen: false);
     coins.addListener(() {
       setState(() {
-        debugPrint("coins updated");
         animateCoins = true;
+        debugPrint("Animate coins: $animateCoins");
       });
     });
     super.initState();
@@ -40,6 +40,7 @@ class _GameStatsState extends State<GameStats> {
   void dispose() {
     setState(() {
       animateCoins = false;
+      debugPrint("Animate coins: $animateCoins");
     });
     super.dispose();
   }
