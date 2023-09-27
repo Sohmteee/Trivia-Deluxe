@@ -27,7 +27,11 @@ class _GameStatsState extends State<GameStats> {
   @override
   void initState() {
       final coins = Provider.of<MoneyProvider>(context, listen: false);
-
+      coins.addListener(() {
+      setState(() {
+        debugPrint("money updated");
+      });
+    });
     super.initState();
     
   }
