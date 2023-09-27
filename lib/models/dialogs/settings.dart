@@ -70,7 +70,7 @@ showSettingsDialog(BuildContext context) {
                           ],
                         ).animate().fadeIn(
                             delay: 300.milliseconds,
-                            duration: 1.seconds,
+                            duration: .5.seconds,
                           )
                       : const SizedBox();
                 },

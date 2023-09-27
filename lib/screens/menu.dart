@@ -31,7 +31,12 @@ class _MenuScreenState extends State<MenuScreen>
     rotationAnimation = Tween<double>(
       begin: 0,
       end: 2 * pi, // 360 degrees in radians
-    ).animate(rotationController);
+    ).animate(rotationController)
+      ..addStatusListener((status) {
+        if (status == AnimationStatus.completed) {
+          rotationController.repeat();
+        }
+      });
 
     // Start the animation
     rotationController.forward();
