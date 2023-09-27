@@ -22,7 +22,7 @@ class _VictoryScreenState extends State<VictoryScreen>
   @override
   void initState() {
     controller = AnimationController(vsync: this);
-    anim = Animate(controller: controller)
+    anim = Animate(controller: controller).animate()
         .scaleXY(
           delay: 2.seconds,
           duration: .3.seconds,
@@ -93,7 +93,7 @@ class _VictoryScreenState extends State<VictoryScreen>
                 ],
               )
                   .animate(
-                    controller: controller,
+                    onPlay: (controller) => controller.repeat(),
                   )
                   .shimmer(
                     delay: 2.seconds,
@@ -102,7 +102,7 @@ class _VictoryScreenState extends State<VictoryScreen>
               const Spacer(flex: 2),
               ZoomTapAnimation(
                 onTap: () {
-                  controller.forward();
+                  anim.forward();
                 },
                 child: SizedBox(
                   height: 80.h,
