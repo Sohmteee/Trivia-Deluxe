@@ -89,36 +89,41 @@ class _LevelTileState extends State<LevelTile> {
                   begin: 1.2,
                   end: 1,
                 )
-            : Container(
-                padding: EdgeInsets.all(20.sp),
-                margin: EdgeInsets.only(bottom: 20.sp),
-                decoration: BoxDecoration(
-                  color: levelProvider.completedLevel >= widget.level
-                      ? AppColor.levelYellow
-                      : widget.level == levelProvider.completedLevel + 1
-                          ? AppColor.levelYellow.withOpacity(.3)
-                          : Colors.transparent,
-                  border: Border.all(
-                    width: 2.sp,
-                    color: AppColor.lightRed,
+            : ZoomTapAnimation(
+              onTap: () {
+                
+              },
+              child: Container(
+                  padding: EdgeInsets.all(20.sp),
+                  margin: EdgeInsets.only(bottom: 20.sp),
+                  decoration: BoxDecoration(
+                    color: levelProvider.completedLevel >= widget.level
+                        ? AppColor.levelYellow
+                        : widget.level == levelProvider.completedLevel + 1
+                            ? AppColor.levelYellow.withOpacity(.3)
+                            : Colors.transparent,
+                    border: Border.all(
+                      width: 2.sp,
+                      color: AppColor.lightRed,
+                    ),
                   ),
-                ),
-                child: Text(
-                  (widget.level).toString(),
-                  style: TextStyle(
-                    color: AppColor.white,
-                    fontSize: 16.sp,
+                  child: Text(
+                    (widget.level).toString(),
+                    style: TextStyle(
+                      color: AppColor.white,
+                      fontSize: 16.sp,
+                    ),
+                    textAlign: TextAlign.center,
                   ),
-                  textAlign: TextAlign.center,
-                ),
-              )
-                .animate(
-                  onPlay: (controller) => controller.repeat(),
                 )
-                .shimmer(
-                  delay: 1.5.seconds,
-                  duration: 1.seconds,
-                );
+                  .animate(
+                    onPlay: (controller) => controller.repeat(),
+                  )
+                  .shimmer(
+                    delay: 1.5.seconds,
+                    duration: 1.seconds,
+                  ),
+            );
       }),
     );
   }
