@@ -28,11 +28,12 @@ class _VictoryScreenState extends State<VictoryScreen> {
               const GameStats(),
               const Spacer(),
               Text(
-                "Victory!",
+                "Level\nPassed!",
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 50.sp,
                 ),
+                textAlign: TextAlign.center,
               ),
               const Spacer(flex: 2),
               ZoomTapAnimation(
