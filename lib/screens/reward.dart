@@ -1,3 +1,4 @@
+import 'package:countup/countup.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -88,14 +89,21 @@ class _RewardScreenState extends State<RewardScreen> {
                     ),
                   ),
                   const SizedBox(width: 10),
-                  Text(
+                  !receivedReward ? Text(
                     "20",
                     style: TextStyle(
                       color: AppColor.right,
                       fontSize: 30.sp,
                       fontWeight: FontWeight.bold,
                     ),
-                  ),
+                  ) : Countup(
+                          begin: 20,
+                          end: moneyProvider.coins.toDouble(),
+                          duration: 1.seconds,
+                          style: const TextStyle(
+                            color: Colors.yellow,
+                          ),
+                        ),
                   const SizedBox(width: 10),
                   Text(
                     "coins",
