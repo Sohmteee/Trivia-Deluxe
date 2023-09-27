@@ -11,7 +11,7 @@ import 'package:trivia/providers/money.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 class AdScreen extends StatefulWidget {
-   AdScreen({
+  AdScreen({
     super.key,
     this.onComplete,
   });
@@ -114,6 +114,7 @@ class _AdScreenState extends State<AdScreen> with WidgetsBindingObserver {
                           )
                         : ZoomTapAnimation(
                             onTap: () {
+                              widget.onComplete ;
                               Navigator.pop(context);
                             },
                             child: Container(
