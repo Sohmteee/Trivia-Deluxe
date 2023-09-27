@@ -82,7 +82,9 @@ class _RewardScreenState extends State<RewardScreen> {
                       Provider.of<MoneyProvider>(context, listen: false);
                   moneyProvider.increaseCoins(20);
 
-                  
+                  setState(() {
+                    changeChest = true;
+                  });
 
                   Future.delayed(1.2.seconds, () {
                     setState(() {
