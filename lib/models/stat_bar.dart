@@ -22,7 +22,12 @@ class GameStats extends StatefulWidget {
 class _GameStatsState extends State<GameStats> {
   @override
   void initState() {
-    
+    final moneyProvider =
+        Provider.of<MoneyProvider>(context, listen: false).addListener(() {
+      setState(() {
+        
+      });
+    });
     super.initState();
   }
 
