@@ -27,16 +27,6 @@ class _LevelTileState extends State<LevelTile> {
           ? ZoomTapAnimation(
               onTap: () {
                 Navigator.pushReplacementNamed(context, "/game");
-                ToastContext().init(context);
-                Toast.show(
-                  "Please go to Level ${levelProvider.completedLevel + 1}",
-                  duration: 2,
-                  gravity: 1,
-                  textStyle: TextStyle(
-                    color: Colors.white,
-                    fontSize: 20.sp,
-                  ),
-                );
               },
               child: Container(
                 padding: EdgeInsets.all(20.sp),
@@ -91,6 +81,16 @@ class _LevelTileState extends State<LevelTile> {
             )
           : ZoomTapAnimation(
               onTap: () {
+                ToastContext().init(context);
+                Toast.show(
+                  "Please go to Level ${levelProvider.completedLevel + 1}",
+                  duration: 2,
+                  gravity: 0,
+                  textStyle: TextStyle(
+                    color: Colors.white,
+                    fontSize: 20.sp,
+                  ),
+                );
               },
               child: Container(
                 padding: EdgeInsets.all(20.sp),
