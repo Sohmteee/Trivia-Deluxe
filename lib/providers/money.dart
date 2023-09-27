@@ -43,6 +43,8 @@ class MoneyProvider extends ChangeNotifier {
     if (coins - value >= 0) {
       _previousCoins = coins;
       _coins -= value;
+      box.put("coins", value);
+      box.put("previousCoins", coins);
     }
 
     notifyListeners();
