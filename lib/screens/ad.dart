@@ -106,6 +106,7 @@ class _AdScreenState extends State<AdScreen> with WidgetsBindingObserver {
                               Navigator.pop(context);
                             },
                             child: Container(
+                              // padding: EdgeInsets.all(1.sp),
                               decoration: BoxDecoration(
                                 shape: BoxShape.circle,
                                 border: Border.all(
@@ -116,7 +117,7 @@ class _AdScreenState extends State<AdScreen> with WidgetsBindingObserver {
                               child: Icon(
                                 Icons.close_rounded,
                                 color: Colors.grey,
-                                size: 15.sp,
+                                size: 18.sp,
                               ),
                             ),
                           ),
