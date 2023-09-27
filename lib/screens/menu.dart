@@ -217,7 +217,7 @@ class _MenuScreenState extends State<MenuScreen>
                           size: 100.sp,
                         ), */
                         RotationTransition(
-                          turns: rotationAnimation.value,
+                          turns: rotationAnimation,
                           child: Icon(
                             Icons.arrow_forward,
                             size: 100.0,
