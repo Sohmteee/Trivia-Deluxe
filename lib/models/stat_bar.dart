@@ -22,7 +22,7 @@ class GameStats extends StatefulWidget {
 }
 
 class _GameStatsState extends State<GameStats> with TickerProviderStateMixin {
-  late Animation animation;
+  late Animation animatedHeight;
   late AnimationController animationController;
 
   @override
@@ -31,7 +31,7 @@ class _GameStatsState extends State<GameStats> with TickerProviderStateMixin {
       vsync: this,
       duration: 1.seconds,
     );
-    animation = Tween<double>(begin: 0, end: 1).animate(animationController);
+    animatedHeight = Tween<double>(begin: 20, end: 25).animate(animationController, );
     super.initState();
   }
 
