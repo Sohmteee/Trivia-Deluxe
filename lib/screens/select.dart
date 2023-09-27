@@ -38,7 +38,8 @@ class _SelectScreenState extends State<SelectScreen> {
 
   @override
   Widget build(BuildContext context) {
-    Provider.of<LevelProvider>(context).resetCompletedLevel();
+    var levelProvider = Provider.of<LevelProvider>(context);
+    levelProvider.resetCompletedLevel();
 
     return GameBackground(
       body: Padding(
