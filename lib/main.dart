@@ -14,6 +14,7 @@ import 'package:trivia/screens/game.dart';
 import 'package:trivia/screens/level.dart';
 import 'package:trivia/screens/menu.dart';
 import 'package:trivia/screens/select.dart';
+import 'package:trivia/screens/victory.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -65,7 +66,7 @@ class MyApp extends StatelessWidget {
               '/level': (context) => const LevelScreen(),
               '/select': (context) => const SelectScreen(),
               '/ad': (context) => AdScreen(),
-              '/victory': (context) => AdScreen(),
+              '/victory': (context) => VictoryScreen(),
             },
           );
         });

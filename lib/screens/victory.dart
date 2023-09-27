@@ -3,14 +3,14 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:trivia/models/game_background.dart';
 import 'package:trivia/models/stat_bar.dart';
 
-class VivtoryScreen extends StatefulWidget {
-  const VivtoryScreen({super.key});
+class VictoryScreen extends StatefulWidget {
+  const VictoryScreen({super.key});
 
   @override
-  State<VivtoryScreen> createState() => _VivtoryScreenState();
+  State<VictoryScreen> createState() => _VictoryScreenState();
 }
 
-class _VivtoryScreenState extends State<VivtoryScreen> {
+class _VictoryScreenState extends State<VictoryScreen> {
   @override
   Widget build(BuildContext context) {
     return WillPopScope(
