@@ -81,9 +81,9 @@ class _VictoryScreenState extends State<VictoryScreen> {
                   final moneyProvider =
                       Provider.of<MoneyProvider>(context, listen: false);
                   moneyProvider.increaseCoins(20);
-                  setState(() {
-                    Future.delayed(1.2.seconds, () => receivedReward = true);
-                  });
+                 
+                    Future.delayed(1.2.seconds, () => );
+           
                 },
                 child: !receivedReward
                     ? SizedBox(
