@@ -27,6 +27,7 @@ class _MenuScreenState extends State<MenuScreen>
   void initState() {
     WidgetsBinding.instance.addObserver(this);
     playBGAudio();
+    rotationController = AnimationController(duration: 2.seconds, vsync: this);
     rotationAnimation = Tween<double>(
       begin: 0,
       end: 2 * pi, // 360 degrees in radians
@@ -34,7 +35,6 @@ class _MenuScreenState extends State<MenuScreen>
 
     // Start the animation
     rotationController.forward();
-    rotationController = AnimationController(duration: 2.seconds, vsync: this);
     super.initState();
   }
 
