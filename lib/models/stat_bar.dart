@@ -119,10 +119,8 @@ class _GameStatsState extends State<GameStats> {
                 children: [
                   Expanded(
                     child: Center(
-                      child: Countup(
-                        begin: 0,
-                        end: moneyProvider.cash.toDouble(),
-                        duration: 1.seconds,
+                      child: Text(
+                        moneyProvider.cash.toString(),
                         style: const TextStyle(
                           color: Colors.yellow,
                         ),
@@ -204,8 +202,10 @@ class _GameStatsState extends State<GameStats> {
                 children: [
                   Expanded(
                     child: Center(
-                      child: Text(
-                        moneyProvider.coins.toString(),
+                      child: Countup(
+                        begin: 0,
+                        end: moneyProvider.coins.toDouble(),
+                        duration: 1.seconds,
                         style: const TextStyle(
                           color: Colors.yellow,
                         ),
