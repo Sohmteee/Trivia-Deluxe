@@ -102,14 +102,13 @@ class _VictoryScreenState extends State<VictoryScreen>
               const Spacer(flex: 2),
               ZoomTapAnimation(
                 onTap: () {
-                  anim.forward();
                 },
                 child: SizedBox(
                   height: 80.h,
                   child: Image.asset("assets/images/treasure.png"),
                 ).animate(
                   controller: controller,
-                ),
+                ).,
               ),
               const Spacer(flex: 5),
             ],
