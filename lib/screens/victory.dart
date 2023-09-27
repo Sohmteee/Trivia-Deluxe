@@ -16,7 +16,21 @@ class VictoryScreen extends StatefulWidget {
   State<VictoryScreen> createState() => _VictoryScreenState();
 }
 
-class _VictoryScreenState extends State<VictoryScreen> {
+class _VictoryScreenState extends State<VictoryScreen>
+    with TickerProviderStateMixin {
+  late Animation animation;
+  late AnimationController animationController;
+
+  @override
+  void initState() {
+    animationController = AnimationController(
+      vsync: this,
+      duration: 1.seconds,
+    );
+    animation = Tween<double>(begin: 0, end: 1).animate(animationController);
+    super.initState();
+  }
+
   @override
   Widget build(BuildContext context) {
     return WillPopScope(
