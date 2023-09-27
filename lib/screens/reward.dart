@@ -168,17 +168,19 @@ class _RewardScreenState extends State<RewardScreen> {
                           ),
                         ],
                       )
-                    : ZoomTapAnimation(
-                        child: Container(
-                          height: 50.h,
-                          width: 200.w,
-                          decoration: BoxDecoration(
-                            color: AppColor.right,
-                          ),
-                        ),
-                      ),
+                    : const SizedBox(),
               ),
-              const Spacer(flex: 5),
+              const Spacer(flex: 2),
+              ZoomTapAnimation(
+                child: Container(
+                  height: 50.h,
+                  width: 200.w,
+                  decoration: BoxDecoration(
+                    color: AppColor.right,
+                  ),
+                ),
+              ),
+              const Spacer(flex: 3),
             ],
           ),
         ),
