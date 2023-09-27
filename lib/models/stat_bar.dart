@@ -26,10 +26,8 @@ class _GameStatsState extends State<GameStats> {
   Widget build(BuildContext context) {
     final moneyProvider = Provider.of<MoneyProvider>(context, listen: false);
 
-    moneyProvider.coins.addListener(() {
-      if (moneyProvider.coins > moneyProvider.previousCoins) {
-        showAdDialog(context);
-      }
+    moneyProvider.addListener(() {
+      setState(() {});
     });
 
     int begin = moneyProvider.previousCoins;
