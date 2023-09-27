@@ -125,7 +125,7 @@ class _LevelScreenState extends State<LevelScreen> {
                 : ZoomTapAnimation(
                     onTap: () {
                       Navigator.pushNamedAndRemoveUntil(
-                          context, "/menu", (route) => false);
+                          context, "/victory", (route) => false);
                       levelProvider.resetCompletedLevel();
                     },
                     child: SizedBox(
