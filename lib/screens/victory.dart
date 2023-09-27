@@ -14,16 +14,21 @@ class VictoryScreen extends StatefulWidget {
   State<VictoryScreen> createState() => _VictoryScreenState();
 }
 
-class _VictoryScreenState extends State<VictoryScreen> {
+class _VictoryScreenState extends State<VictoryScreen>
+    with TickerProviderStateMixin {
   late AnimationController controller;
 
   @override
   void initState() {
-    controller = AnimationController(vsync: this)
+    controller = AnimationController(vsync: this);
     super.initState();
-    
   }
 
+  @override
+  void dispose() {
+    controller.dispose();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -69,7 +74,7 @@ class _VictoryScreenState extends State<VictoryScreen> {
                 ],
               )
                   .animate(
-                    onPlay: (controller) => controller.repeat(),
+                    controller: controller,
                   )
                   .shimmer(
                     delay: 2.seconds,
@@ -77,7 +82,9 @@ class _VictoryScreenState extends State<VictoryScreen> {
                   ),
               const Spacer(flex: 2),
               ZoomTapAnimation(
-                onTap: () {},
+                onTap: () {
+                  controller.forward();
+                },
                 child: SizedBox(
                   height: 80.h,
                   child: Image.asset("assets/images/treasure.png"),
