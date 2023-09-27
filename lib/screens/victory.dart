@@ -59,11 +59,10 @@ class _VictoryScreenState extends State<VictoryScreen> {
                 ],
               )
                   .animate(
-                    delay: .7.seconds,
-                    onPlay: (controller) => controller.repeat()
-                  )
+                      delay: 1.seconds,
+                      onPlay: (controller) => controller.repeat())
                   .shimmer(
-                    duration: 300.milliseconds,
+                    duration: 1.seconds,
                   ),
               const Spacer(flex: 2),
               ZoomTapAnimation(
