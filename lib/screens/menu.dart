@@ -229,9 +229,16 @@ class _MenuScreenState extends State<MenuScreen>
                               Container(
                                 height: 100.w,
                                 width: 100.w,
+                                padding: EdgeInsets.all(10.sp),
                                 decoration: BoxDecoration(
                                   shape: BoxShape.circle,
                                   color: AppColor.wrong,
+                                ),
+                                child: Container(
+                                  decoration: BoxDecoration(
+                                    shape: BoxShape.circle,
+                                    color: Colors.transparent,
+                                  ),
                                 ),
                               ),
                             ],
