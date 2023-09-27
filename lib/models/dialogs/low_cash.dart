@@ -39,15 +39,16 @@ showLowCashDialog(BuildContext context) {
           SizedBox(height: 20.h),
           ZoomTapAnimation(
             onTap: () {
-              final MoneyProvider
+              final moneyProvider =
+                  Provider.of<MoneyProvider>(dialogContext, listen: false);
+
               Navigator.push(
                 dialogContext,
                 MaterialPageRoute(
-                  builder: (dialogContext) => AdScreen(
-                    onComplete: () =>
-
-                        Navigator.pushReplacementNamed(dialogContext, "/game"),
-                  ),
+                  builder: (dialogContext) => AdScreen(onComplete: () {
+                    moneyProvider.decreaseCoins(5);
+                    Navigator.pushReplacementNamed(dialogContext, "/game");
+                  }),
                 ),
               );
             },
