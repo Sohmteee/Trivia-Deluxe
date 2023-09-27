@@ -134,6 +134,7 @@ class _GameScreenState extends State<GameScreen> {
                   minimumSize: const Size(10, 10),
                   maximumSize: const Size(10, 10),
                   numberOfParticles: 5,
+                  gravity: .3,
                   colors: const [
                     Colors.green,
                     Colors.blue,
