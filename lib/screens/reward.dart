@@ -89,19 +89,23 @@ class _RewardScreenState extends State<RewardScreen> {
                     ),
                   ),
                   const SizedBox(width: 10),
-                  !receivedReward ? Text(
-                    "20",
-                    style: TextStyle(
-                      color: AppColor.right,
-                      fontSize: 30.sp,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ) : Countup(
+                  !receivedReward
+                      ? Text(
+                          "20",
+                          style: TextStyle(
+                            color: AppColor.right,
+                            fontSize: 30.sp,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        )
+                      : Countup(
                           begin: 20,
-                          end: moneyProvider.coins.toDouble(),
+                          end: 0,
                           duration: 1.seconds,
-                          style: const TextStyle(
-                            color: Colors.yellow,
+                          style: TextStyle(
+                            color: AppColor.right,
+                            fontSize: 30.sp,
+                            fontWeight: FontWeight.bold,
                           ),
                         ),
                   const SizedBox(width: 10),
