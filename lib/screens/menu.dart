@@ -234,11 +234,23 @@ class _MenuScreenState extends State<MenuScreen>
                                   shape: BoxShape.circle,
                                   color: AppColor.wrong,
                                 ),
-                                child: Container(
-                                  decoration: BoxDecoration(
-                                    shape: BoxShape.circle,
-                                    color: Colors.transparent,
+                                child: Expanded(
+                                  child: Container(
+                                    decoration: BoxDecoration(
+                                      shape: BoxShape.circle,
+                                      color: Colors.white,
+                                    ),
                                   ),
+                                ),
+                              ),
+                              
+                              Container(
+                                height: 10.w,
+                                width: 100.w,
+                                padding: EdgeInsets.all(10.sp),
+                                decoration: BoxDecoration(
+                                  shape: BoxShape.circle,
+                                  color: AppColor.wrong,
                                 ),
                               ),
                             ],
