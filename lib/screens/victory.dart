@@ -20,7 +20,7 @@ class _VictoryScreenState extends State<VictoryScreen>
 
   @override
   void initState() {
-    controller = AnimationController(vsync: this,  );
+    controller = AnimationController(vsync: this);
     Animate animateChest = Animate(controller: controller)
         .scaleXY(
           delay: 2.seconds,
@@ -106,10 +106,9 @@ class _VictoryScreenState extends State<VictoryScreen>
                 child: SizedBox(
                   height: 80.h,
                   child: Image.asset("assets/images/treasure.png"),
-                )
-                    .animate(
-                      onPlay: (controller) => controller.repeat(),
-                    ),
+                ).animate(
+                  controller: controller,
+                ),
               ),
               const Spacer(flex: 5),
             ],
