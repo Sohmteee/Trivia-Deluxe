@@ -136,7 +136,7 @@ class _RewardScreenState extends State<RewardScreen> {
                 onTap: () {
                   final moneyProvider =
                       Provider.of<MoneyProvider>(context, listen: false);
-                  moneyProvider.increaseCoins(20);
+                  moneyProvider.increaseCoins(score);
 
                   setState(() {
                     changeChest = true;
