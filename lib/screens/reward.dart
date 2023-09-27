@@ -137,7 +137,27 @@ class _RewardScreenState extends State<RewardScreen> {
                           SizedBox(
                             height: 80.h,
                             child: Image.asset("assets/images/treasure.png"),
-                          ),
+                          )
+                              .animate(
+                                onPlay: (controller) => controller.repeat(),
+                              )
+                              .scaleXY(
+                                delay: 2.seconds,
+                                duration: .3.seconds,
+                                begin: 1,
+                                end: 1.2,
+                              )
+                              .then()
+                              .shake(
+                                duration: .4.seconds,
+                              )
+                              .then()
+                              .scaleXY(
+                                curve: Curves.bounceOut,
+                                duration: .3.seconds,
+                                begin: 1.2,
+                                end: 1,
+                              ),
                           SizedBox(height: 10.h),
                           Text(
                             "Tap the chest to redeem",
@@ -149,26 +169,6 @@ class _RewardScreenState extends State<RewardScreen> {
                           ),
                         ],
                       )
-                        .animate(
-                          onPlay: (controller) => controller.repeat(),
-                        )
-                        .scaleXY(
-                          delay: 2.seconds,
-                          duration: .3.seconds,
-                          begin: 1,
-                          end: 1.2,
-                        )
-                        .then()
-                        .shake(
-                          duration: .4.seconds,
-                        )
-                        .then()
-                        .scaleXY(
-                          curve: Curves.bounceOut,
-                          duration: .3.seconds,
-                          begin: 1.2,
-                          end: 1,
-                        )
                     : const SizedBox(),
               ),
               const Spacer(flex: 5),
