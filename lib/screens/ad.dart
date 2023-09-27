@@ -1,3 +1,5 @@
+// ignore_for_file: must_be_immutable
+
 import 'package:circular_countdown_timer/circular_countdown_timer.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
@@ -9,7 +11,12 @@ import 'package:trivia/providers/money.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 class AdScreen extends StatefulWidget {
-  const AdScreen({super.key});
+   AdScreen({
+    super.key,
+    this.onComplete,
+  });
+
+  void Function()? onComplete;
 
   @override
   State<AdScreen> createState() => _AdScreenState();
