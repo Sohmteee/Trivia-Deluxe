@@ -23,8 +23,7 @@ Future<void> main() async {
     statusBarColor: Colors.transparent,
   ));
 
-  String bgAudio = "audio/bg-music.mp3";
-  await bgPlayer.setSource(AssetSource(bgAudio));
+  await bgPlayer.setSource(AssetSource("audio/bg-music.mp3"));
 
   runApp(
     MultiProvider(
