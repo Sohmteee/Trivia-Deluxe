@@ -31,7 +31,14 @@ class _GameStatsState extends State<GameStats> with TickerProviderStateMixin {
       vsync: this,
       duration: 1.seconds,
     );
-    animatedHeight = Tween<double>(begin: 20, end: 25).animate(animationController, );
+    animatedHeight = Tween<double>(begin: 20, end: 25)
+        .animate(animationController)
+        
+        ..addListener(() {
+          setState(() {
+            if ()
+          });
+        });
     super.initState();
   }
 
