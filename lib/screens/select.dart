@@ -38,78 +38,85 @@ class _SelectScreenState extends State<SelectScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return GameBackground(
-      body: Padding(
-        padding: EdgeInsets.symmetric(horizontal: 40.w, vertical: 40.h),
-        child: Column(
-          children: [
-            const GameStats(),
-            const Spacer(flex: 2),
-            Text(
-              "Choose a category",
-              style: TextStyle(
-                color: AppColor.white,
-                fontSize: 30.sp,
+    return WillPopScope(
+      onWillPop: () async {
+        Navigator.pushReplacementNamed(context, "/menu");
+        return true;
+      },
+      child: GameBackground(
+        body: Padding(
+          padding: EdgeInsets.symmetric(horizontal: 40.w, vertical: 40.h),
+          child: Column(
+            children: [
+              const GameStats(),
+              const Spacer(flex: 2),
+              Text(
+                "Choose a category",
+                style: TextStyle(
+                  color: AppColor.white,
+                  fontSize: 30.sp,
+                ),
+                textAlign: TextAlign.center,
               ),
-              textAlign: TextAlign.center,
-            ),
-            const Spacer(),
-            SizedBox(
-              height: 300.h,
-              child: ListView.builder(
-                itemCount: selectItems.length,
-                padding: EdgeInsets.only(top: 20.h),
-                physics: const NeverScrollableScrollPhysics(),
-                itemBuilder: (BuildContext context, int index) {
-                  final selectItem = selectItems[index];
-                  return Consumer<QuestionProvider>(
-                      builder: (_, questionProvider, child) {
-                    return ZoomTapAnimation(
-                      onTap: () {
-                        var levelProvider =
-                            Provider.of<LevelProvider>(context, listen: false);
-                        levelProvider.resetCompletedLevel();
-                        questionProvider.questions = selectItem["questions"];
-                        Future.delayed(
-                          3.microseconds,
-                          () => Navigator.pushNamed(context, "/level"),
-                        );
-                      },
-                      child: Container(
-                        padding: EdgeInsets.all(10.sp),
-                        margin: EdgeInsets.only(bottom: 20.sp),
-                        decoration: BoxDecoration(
-                          color: AppColor.lightRed,
-                          border: Border.all(
-                            width: 2.sp,
+              const Spacer(),
+              SizedBox(
+                height: 300.h,
+                child: ListView.builder(
+                  itemCount: selectItems.length,
+                  padding: EdgeInsets.only(top: 20.h),
+                  physics: const NeverScrollableScrollPhysics(),
+                  itemBuilder: (BuildContext context, int index) {
+                    final selectItem = selectItems[index];
+                    return Consumer<QuestionProvider>(
+                        builder: (_, questionProvider, child) {
+                      return ZoomTapAnimation(
+                        onTap: () {
+                          var levelProvider = Provider.of<LevelProvider>(
+                              context,
+                              listen: false);
+                          levelProvider.resetCompletedLevel();
+                          questionProvider.questions = selectItem["questions"];
+                          Future.delayed(
+                            3.microseconds,
+                            () => Navigator.pushNamed(context, "/level"),
+                          );
+                        },
+                        child: Container(
+                          padding: EdgeInsets.all(10.sp),
+                          margin: EdgeInsets.only(bottom: 20.sp),
+                          decoration: BoxDecoration(
                             color: AppColor.lightRed,
-                          ),
-                          borderRadius: BorderRadius.circular(20.r),
-                        ),
-                        child: ListTile(
-                          leading: Image.asset(
-                            selectItem["image"],
-                            width: 40.w,
-                            height: 40.h,
-                          ),
-                          title: Text(
-                            selectItem["title"],
-                            style: TextStyle(
-                              color: AppColor.white,
-                              fontSize: 16.sp,
+                            border: Border.all(
+                              width: 2.sp,
+                              color: AppColor.lightRed,
                             ),
-                            textAlign: TextAlign.center,
+                            borderRadius: BorderRadius.circular(20.r),
                           ),
-                          trailing: const SizedBox(),
+                          child: ListTile(
+                            leading: Image.asset(
+                              selectItem["image"],
+                              width: 40.w,
+                              height: 40.h,
+                            ),
+                            title: Text(
+                              selectItem["title"],
+                              style: TextStyle(
+                                color: AppColor.white,
+                                fontSize: 16.sp,
+                              ),
+                              textAlign: TextAlign.center,
+                            ),
+                            trailing: const SizedBox(),
+                          ),
                         ),
-                      ),
-                    );
-                  });
-                },
+                      );
+                    });
+                  },
+                ),
               ),
-            ),
-            const Spacer(),
-          ],
+              const Spacer(),
+            ],
+          ),
         ),
       ),
     );

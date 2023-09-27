@@ -19,54 +19,60 @@ class LevelScreen extends StatefulWidget {
 class _LevelScreenState extends State<LevelScreen> {
   @override
   Widget build(BuildContext context) {
-    return GameBackground(
-      body: Padding(
-        padding: EdgeInsets.symmetric(horizontal: 40.w, vertical: 40.h),
-        child: Column(
-          children: [
-            const GameStats(),
-            const Spacer(),
-            buildLevel(),
-            const Spacer(flex: 3),
-            Consumer<LevelProvider>(builder: (context, levelProvider, _) {
-              return (levelProvider.completedLevel != 3)
-                  ? SizedBox(
-                      height: 60.h,
-                      child: ZoomTapAnimation(
-                        onTap: () {
-                          Navigator.pushReplacementNamed(context, "/game");
-                        },
-                        child: Image.asset("assets/images/play.png"),
-                      ),
-                    )
-                      .animate(
-                        onPlay: (controller) => controller.repeat(),
+    return WillPopScope(
+      onWillPop: () async {
+        Navigator.pushReplacementNamed(context, "/select");
+        return true;
+      },
+      child: GameBackground(
+        body: Padding(
+          padding: EdgeInsets.symmetric(horizontal: 40.w, vertical: 40.h),
+          child: Column(
+            children: [
+              const GameStats(),
+              const Spacer(),
+              buildLevel(),
+              const Spacer(flex: 3),
+              Consumer<LevelProvider>(builder: (context, levelProvider, _) {
+                return (levelProvider.completedLevel != 3)
+                    ? SizedBox(
+                        height: 60.h,
+                        child: ZoomTapAnimation(
+                          onTap: () {
+                            Navigator.pushReplacementNamed(context, "/game");
+                          },
+                          child: Image.asset("assets/images/play.png"),
+                        ),
                       )
-                      .then()
-                      .scaleXY(
-                        curve: Curves.easeOutSine,
-                        delay: 2.seconds,
-                        duration: .2.seconds,
-                        begin: 1,
-                        end: .8,
-                      )
-                      .then()
-                      .scaleXY(
-                        curve: Curves.easeOutSine,
-                        duration: .4.seconds,
-                        begin: .8,
-                        end: 1.2,
-                      )
-                      .then()
-                      .scaleXY(
-                        curve: Curves.bounceOut,
-                        duration: .4.seconds,
-                        begin: 1.2,
-                        end: 1,
-                      )
-                  : const SizedBox();
-            })
-          ],
+                        .animate(
+                          onPlay: (controller) => controller.repeat(),
+                        )
+                        .then()
+                        .scaleXY(
+                          curve: Curves.easeOutSine,
+                          delay: 2.seconds,
+                          duration: .2.seconds,
+                          begin: 1,
+                          end: .8,
+                        )
+                        .then()
+                        .scaleXY(
+                          curve: Curves.easeOutSine,
+                          duration: .4.seconds,
+                          begin: .8,
+                          end: 1.2,
+                        )
+                        .then()
+                        .scaleXY(
+                          curve: Curves.bounceOut,
+                          duration: .4.seconds,
+                          begin: 1.2,
+                          end: 1,
+                        )
+                    : const SizedBox();
+              })
+            ],
+          ),
         ),
       ),
     );
