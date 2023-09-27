@@ -93,7 +93,7 @@ class _GameScreenState extends State<GameScreen> {
                                 final scoreProvider =
                                     Provider.of<ScoreProvider>(context);
                                 scoreProvider.incrementScore(
-                                    int.tryParse(countDownController.getTime()));
+                                    int.parse(countDownController.getTime()!));
                               }
                               questionProvider.checkCorrectAnswer(
                                   context, index);
