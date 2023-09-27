@@ -2,6 +2,8 @@ import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:hive_flutter/hive_flutter.dart';
+import 'package:path_provider/path_provider.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/data/controllers.dart';
 import 'package:trivia/providers/audio.dart';
@@ -32,7 +34,7 @@ Future<void> main() async {
 
   
   final dir = await getApplicationDocumentsDirectory();
-  Hive.defaultDirectory = dir.path;
+  Hive. = dir.path;
 
   runApp(
     MultiProvider(
