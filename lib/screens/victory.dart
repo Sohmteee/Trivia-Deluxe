@@ -15,7 +15,7 @@ class _VivtoryScreenState extends State<VivtoryScreen> {
   Widget build(BuildContext context) {
     return WillPopScope(
       onWillPop: () async {
-        Navigator.pushAndRemoveUntil(context, "/menu", (route) => false);
+        Navigator.pushNamedAndRemoveUntil(context, "/menu", (route) => false);
         return true;
       },
       child: GameBackground(
