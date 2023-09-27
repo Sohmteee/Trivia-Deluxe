@@ -20,7 +20,7 @@ class MenuScreen extends StatefulWidget {
 
 class _MenuScreenState extends State<MenuScreen>
     with WidgetsBindingObserver, TickerProviderStateMixin {
-  late Animation rotationAnimation;
+  late Animation<double> rotationAnimation;
   late AnimationController rotationController;
 
   @override
