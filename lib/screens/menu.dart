@@ -197,11 +197,11 @@ class _MenuScreenState extends State<MenuScreen> with WidgetsBindingObserver {
                     Stack(
                       alignment: Alignment.center,
                       children: [
-                        SpinKitDualRing(
+                        /* SpinKitDualRing(
                           duration: 2.seconds,
                           color: AppColor.wrong,
                           size: 100.sp,
-                        ),
+                        ), */
                         SizedBox(
                           height: 70.w,
                           child: ZoomTapAnimation(
