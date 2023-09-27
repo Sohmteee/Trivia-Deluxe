@@ -35,6 +35,7 @@ Future<void> main() async {
       .setSource(AssetSource("audio/unavailable-selection.mp3"));
 
   // final dir = await getApplicationDocumentsDirectory();
+  Hive.openBox("myBox");
   box = Hive.box("myBox");
 
   runApp(
