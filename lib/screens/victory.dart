@@ -20,11 +20,25 @@ class _VictoryScreenState extends State<VictoryScreen>
 
   @override
   void initState() {
-    controller = AnimationController(vsync: this);
-    Animate animateChest = Animate(controller: controller).shimmer(
-      delay: 2.seconds,
-      duration: 1.seconds,
-    );
+    controller = AnimationController(vsync: this,  );
+    Animate animateChest = Animate(controller: controller)
+        .scaleXY(
+          delay: 2.seconds,
+          duration: .3.seconds,
+          begin: 1,
+          end: 1.2,
+        )
+        .then()
+        .shake(
+          duration: .4.seconds,
+        )
+        .then()
+        .scaleXY(
+          curve: Curves.bounceOut,
+          duration: .3.seconds,
+          begin: 1.2,
+          end: 1,
+        );
     super.initState();
   }
 
@@ -76,11 +90,17 @@ class _VictoryScreenState extends State<VictoryScreen>
                     textAlign: TextAlign.center,
                   ),
                 ],
-              ),
+              )
+                  .animate(
+                    controller: controller,
+                  )
+                  .shimmer(
+                    delay: 2.seconds,
+                    duration: 1.seconds,
+                  ),
               const Spacer(flex: 2),
               ZoomTapAnimation(
                 onTap: () {
-                  
                   controller.forward();
                 },
                 child: SizedBox(
@@ -89,23 +109,6 @@ class _VictoryScreenState extends State<VictoryScreen>
                 )
                     .animate(
                       onPlay: (controller) => controller.repeat(),
-                    )
-                    .scaleXY(
-                      delay: 2.seconds,
-                      duration: .3.seconds,
-                      begin: 1,
-                      end: 1.2,
-                    )
-                    .then()
-                    .shake(
-                      duration: .4.seconds,
-                    )
-                    .then()
-                    .scaleXY(
-                      curve: Curves.bounceOut,
-                      duration: .3.seconds,
-                      begin: 1.2,
-                      end: 1,
                     ),
               ),
               const Spacer(flex: 5),
