@@ -26,6 +26,8 @@ class _RewardScreenState extends State<RewardScreen> {
   void initState() {
     receivedReward = changeChest = false;
     final scoreProvider = Provider.of<ScoreProvider>(context, listen: false);
+    score = scoreProvider.score;
+    scoreProvider.resetScore();
     super.initState();
   }
 
