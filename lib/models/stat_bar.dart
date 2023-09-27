@@ -1,5 +1,6 @@
 import 'package:countup/countup.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
@@ -27,7 +28,6 @@ class _GameStatsState extends State<GameStats> {
         Provider.of<MoneyProvider>(context, listen: false).addListener(() {
       setState(() {
         debugPrint("money updated");
-
       });
     });
     super.initState();
@@ -120,8 +120,9 @@ class _GameStatsState extends State<GameStats> {
                   Expanded(
                     child: Center(
                       child: Countup(
-                        
-                        moneyProvider.cash.toString(),
+                        begin: 0,
+                        end: moneyProvider.cash.toDouble(),
+                        duration: 1.seconds,
                         style: const TextStyle(
                           color: Colors.yellow,
                         ),
