@@ -63,8 +63,8 @@ showFailedDialog(BuildContext context, questionIndex, bool timeUp) {
         Consumer<MoneyProvider>(builder: (context, moneyProvider, _) {
           return ZoomTapAnimation(
             onTap: () {
-              if (moneyProvider.coins - 5 >= 0) {
-                moneyProvider.decreaseCoins(5);
+              if (moneyProvider.coins - 10 >= 0) {
+                moneyProvider.decreaseCoins(10);
                 Navigator.pushReplacementNamed(context, "/game");
               } else {
                 Navigator.pop(context);
@@ -98,7 +98,7 @@ showFailedDialog(BuildContext context, questionIndex, bool timeUp) {
                         top: -5,
                         right: -6,
                         child: Text(
-                          "\u00d75",
+                          "\u00d710",
                           style: TextStyle(
                             fontSize: 20.sp,
                           ),
