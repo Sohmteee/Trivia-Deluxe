@@ -11,19 +11,22 @@ class VivtoryScreen extends StatefulWidget {
 }
 
 class _VivtoryScreenState extends State<VivtoryScreen> {
-  
-
   @override
   Widget build(BuildContext context) {
-    return GameBackground(
-      body: Padding(
-        padding: EdgeInsets.symmetric(horizontal: 40.w, vertical: 40.h),
-        child: Column(
-          children: [
-            const GameStats(),
-            const Spacer(flex: 2),
-            
-          ],
+    return WillPopScope(
+      onWillPop: () async {
+        Navigator.pushAndRemoveUntil(context, "/menu", (route) => false);
+        return true;
+      },
+      child: GameBackground(
+        body: Padding(
+          padding: EdgeInsets.symmetric(horizontal: 40.w, vertical: 40.h),
+          child: Column(
+            children: [
+              const GameStats(),
+              const Spacer(flex: 2),
+            ],
+          ),
         ),
       ),
     );
