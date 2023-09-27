@@ -35,12 +35,7 @@ class _LevelScreenState extends State<LevelScreen> {
                       child: ZoomTapAnimation(
                         onTap: () {
                           levelProvider.incrementCompletedLevel();
-                          if (levelProvider.completedLevel == 3) {
-                            Navigator.pushNamedAndRemoveUntil(
-                                context, "/menu", (route) => false);
-                          } else {
-                            Navigator.pushReplacementNamed(context, "/game");
-                          }
+                          Navigator.pushReplacementNamed(context, "/game");
                         },
                         child: Image.asset("assets/images/play.png"),
                       ),
@@ -130,7 +125,8 @@ class _LevelScreenState extends State<LevelScreen> {
                   )
                 : ZoomTapAnimation(
                     onTap: () {
-                      Navigator.pushReplacementNamed(context, "/menu");
+                      Navigator.pushNamedAndRemoveUntil(
+                          context, "/menu", (route) => false);
                       levelProvider.resetCompletedLevel();
                     },
                     child: SizedBox(
