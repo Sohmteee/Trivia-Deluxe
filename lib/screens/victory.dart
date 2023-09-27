@@ -59,9 +59,10 @@ class _VictoryScreenState extends State<VictoryScreen> {
                 ],
               )
                   .animate(
-                      delay: 1.seconds,
-                      onPlay: (controller) => controller.repeat())
+                    onPlay: (controller) => controller.repeat(),
+                  )
                   .shimmer(
+                    delay: 2.seconds,
                     duration: 1.seconds,
                   ),
               const Spacer(flex: 2),
