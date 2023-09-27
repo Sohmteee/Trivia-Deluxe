@@ -43,8 +43,11 @@ class _GameScreenState extends State<GameScreen> {
 
   @override
   void dispose() {
+    final questionProvider =
+        Provider.of<QuestionProvider>(context, listen: false);
     confettiController.dispose();
     countDownController.reset();
+    questionProvider.resetOptions();
     super.dispose();
   }
 
