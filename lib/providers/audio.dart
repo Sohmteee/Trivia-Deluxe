@@ -25,14 +25,19 @@ class AudioProvider extends ChangeNotifier {
 
   toggleSoundEffects(bool value) {
     soundEffects = value;
+    box.put("soundEffects", value);
     notifyListeners();
   }
 
   setMusicVolume(double newVolume) {
     musicVolume = newVolume;
+    box.put("musicVolume", newVolume);
+
+
     bgPlayer.setVolume(newVolume);
     if (newVolume == 0) {
       music = false;
+      box.put("music", false);
     }
     notifyListeners();
   }
