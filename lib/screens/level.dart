@@ -7,6 +7,7 @@ import 'package:trivia/models/game_background.dart';
 import 'package:trivia/models/level_tile.dart';
 import 'package:trivia/models/stat_bar.dart';
 import 'package:trivia/providers/level.dart';
+import 'package:trivia/providers/score.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 class LevelScreen extends StatefulWidget {
@@ -20,11 +21,16 @@ class _LevelScreenState extends State<LevelScreen> {
   @override
   void initState() {
     final levelProvider = Provider.of<LevelProvider>(context, listen: false);
+    final scoreProvider = Provider.of<ScoreProvider>(context, listen: false);
+
     if (levelProvider.completedLevel == 3) {
       Future.delayed(1.seconds, () {
         Navigator.pushNamedAndRemoveUntil(
             context, "/victory", (route) => false);
-        Future.delayed(2.seconds, () => levelProvider.resetCompletedLevel());
+        Future.delayed(2.seconds, () {
+          levelProvider.resetCompletedLevel();
+          scoreProvider.resetScore();
+        });
       });
     }
     super.initState();
