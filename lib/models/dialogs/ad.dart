@@ -35,6 +35,7 @@ showAdDialog(BuildContext context) {
         SizedBox(height: 20.h),
         ZoomTapAnimation(
           onTap: () {
+            Navigator.pop(context);
             Navigator.pushNamed(context, "/ad");
           },
           child: Container(

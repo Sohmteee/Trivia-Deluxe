@@ -14,6 +14,8 @@ class AdScreen extends StatefulWidget {
 }
 
 class _AdScreenState extends State<AdScreen> with WidgetsBindingObserver {
+  bool isFinished = false;
+
   @override
   void initState() {
     player.pause();
@@ -88,12 +90,8 @@ class _AdScreenState extends State<AdScreen> with WidgetsBindingObserver {
                         },
                         timeFormatterFunction:
                             (defaultFormatterFunction, duration) {
-                          if (duration.inSeconds == 5) {
-                            return "X";
-                          } else {
-                            return Function.apply(
-                                defaultFormatterFunction, [duration]);
-                          }
+                          return Function.apply(
+                              defaultFormatterFunction, [duration]);
                         },
                       );
                     }),
