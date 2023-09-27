@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:lottie/lottie.dart';
 import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/models/game_background.dart';
 import 'package:trivia/models/stat_bar.dart';
@@ -50,6 +51,13 @@ class _VictoryScreenState extends State<VictoryScreen> {
                     textAlign: TextAlign.center,
                   ),
                 ],
+              ),
+              const Spacer(flex: 2),
+              Lottie.asset(
+                "assets/json/celebration.json",
+                width: 200,
+                height: 200,
+                fit: BoxFit.fill,
               ),
               const Spacer(flex: 2),
               ZoomTapAnimation(
