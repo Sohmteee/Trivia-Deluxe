@@ -168,7 +168,7 @@ class _GameStatsState extends State<GameStats> {
           SizedBox(width: 5.w),
           ZoomTapAnimation(
             onTap: () {
-              
+              Navigator.pushNamed(context, "/ad");
             },
             child: Container(
               height: 20.h,

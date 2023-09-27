@@ -82,7 +82,7 @@ class _AdScreenState extends State<AdScreen> with WidgetsBindingObserver {
                           debugPrint('Countdown Ended');
 
                           moneyProvider.increaseCoins(5);
-                          Navigator.pushReplacementNamed(context, "/game");
+                          Navigator.pop(context);
 
                           // questionProvider.checkCorrectAnswer(context, -1);
                         },
