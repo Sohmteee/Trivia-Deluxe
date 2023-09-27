@@ -30,6 +30,10 @@ Future<void> main() async {
   await wrongPlayer.setSource(AssetSource("audio/wrong.mp3"));
   await unavailablePlayer.setSource(AssetSource("audio/unavailable-selection.mp3"));
 
+  
+  final dir = await getApplicationDocumentsDirectory();
+  Hive.defaultDirectory = dir.path;
+
   runApp(
     MultiProvider(
       providers: [
