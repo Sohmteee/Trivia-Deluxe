@@ -29,12 +29,15 @@ class _GameStatsState extends State<GameStats> {
       final coins = Provider.of<MoneyProvider>(context, listen: false);
       coins.addListener(() {
       setState(() {
-        debugPrint("money updated");
+        animateCoins = true;
+    
       });
     });
     super.initState();
     
   }
+
+  dis
 
   @override
   Widget build(BuildContext context) {
