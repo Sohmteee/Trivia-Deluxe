@@ -16,7 +16,8 @@ class VictoryScreen extends StatefulWidget {
   State<VictoryScreen> createState() => _VictoryScreenState();
 }
 
-class _VictoryScreenState extends State<VictoryScreen>{
+class _VictoryScreenState extends State<VictoryScreen> {
+  bool receivedReward = false;
 
   @override
   Widget build(BuildContext context) {
