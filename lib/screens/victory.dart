@@ -32,6 +32,12 @@ class _VictoryScreenState extends State<VictoryScreen> {
               Stack(
                 alignment: Alignment.center,
                 children: [
+                  Lottie.asset(
+                    "assets/json/celebration.json",
+                    width: 200,
+                    height: 200,
+                    fit: BoxFit.fill,
+                  ),
                   Text(
                     "Level\nPassed!",
                     style: TextStyle(
@@ -51,13 +57,6 @@ class _VictoryScreenState extends State<VictoryScreen> {
                     textAlign: TextAlign.center,
                   ),
                 ],
-              ),
-              const Spacer(flex: 2),
-              Lottie.asset(
-                "assets/json/celebration.json",
-                width: 200,
-                height: 200,
-                fit: BoxFit.fill,
               ),
               const Spacer(flex: 2),
               ZoomTapAnimation(
