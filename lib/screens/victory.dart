@@ -62,7 +62,7 @@ class _VictoryScreenState extends State<VictoryScreen> {
                       end: 1,
                     ),
               ),
-              const Spacer(flex: 10),
+              const Spacer(flex: 5),
             ],
           ),
         ),
