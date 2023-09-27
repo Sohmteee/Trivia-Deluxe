@@ -34,9 +34,8 @@ class _LevelScreenState extends State<LevelScreen> {
                       height: 60.h,
                       child: ZoomTapAnimation(
                         onTap: () {
+                          levelProvider.incrementCompletedLevel();
                           if (levelProvider.completedLevel == 3) {
-                            levelProvider.incrementCompletedLevel();
-
                             Navigator.pushNamedAndRemoveUntil(
                                 context, "/menu", (route) => false);
                           } else {
