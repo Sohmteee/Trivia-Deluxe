@@ -83,7 +83,7 @@ class _RewardScreenState extends State<RewardScreen> {
                     "You earned",
                     style: TextStyle(
                       color: Colors.white,
-                      fontSize: 50.sp,
+                      fontSize: 30.sp,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
@@ -92,7 +92,7 @@ class _RewardScreenState extends State<RewardScreen> {
                     "20",
                     style: TextStyle(
                       color: AppColor.right,
-                      fontSize: 50.sp,
+                      fontSize: 30.sp,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
@@ -101,7 +101,7 @@ class _RewardScreenState extends State<RewardScreen> {
                     "coins",
                     style: TextStyle(
                       color: Colors.white,
-                      fontSize: 50.sp,
+                      fontSize: 30.sp,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
@@ -158,6 +158,8 @@ class _RewardScreenState extends State<RewardScreen> {
                         )
                     : const SizedBox(),
               ),
+              const Spacer(),
+
               const Spacer(flex: 5),
             ],
           ),
