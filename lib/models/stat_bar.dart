@@ -24,6 +24,11 @@ class GameStats extends StatefulWidget {
 class _GameStatsState extends State<GameStats> {
   @override
   Widget build(BuildContext context) {
+    final moneyProvider = Provider.of<MoneyProvider>(context, listen: false);
+
+
+    int begin = moneyProvider.previousCoins;
+    int end= mon
     return Consumer<MoneyProvider>(builder: (context, moneyProvider, _) {
       return Row(
         children: [
