@@ -193,40 +193,44 @@ class _MenuScreenState extends State<MenuScreen> with WidgetsBindingObserver {
                           duration: 1.seconds,
                         ),
                     const Spacer(flex: 2),
-                    SizedBox(
-                      height: 70.w,
-                      child: ZoomTapAnimation(
-                        onTap: () {
-                          Navigator.pushNamed(context, "/select");
-                        },
-                        child: Image.asset("assets/images/play.png"),
-                      ),
-                    )
-                        .animate(
-                          onPlay: (controller) => controller.repeat(),
+                    Stack(
+                      children: [
+                        SizedBox(
+                          height: 70.w,
+                          child: ZoomTapAnimation(
+                            onTap: () {
+                              Navigator.pushNamed(context, "/select");
+                            },
+                            child: Image.asset("assets/images/play.png"),
+                          ),
                         )
-                        .then()
-                        .scaleXY(
-                          curve: Curves.easeOutSine,
-                          delay: 2.seconds,
-                          duration: .2.seconds,
-                          begin: 1,
-                          end: .8,
-                        )
-                        .then()
-                        .scaleXY(
-                          curve: Curves.easeOutSine,
-                          duration: .4.seconds,
-                          begin: .8,
-                          end: 1.2,
-                        )
-                        .then()
-                        .scaleXY(
-                          curve: Curves.bounceOut,
-                          duration: .4.seconds,
-                          begin: 1.2,
-                          end: 1,
-                        ),
+                            .animate(
+                              onPlay: (controller) => controller.repeat(),
+                            )
+                            .then()
+                            .scaleXY(
+                              curve: Curves.easeOutSine,
+                              delay: 2.seconds,
+                              duration: .2.seconds,
+                              begin: 1,
+                              end: .8,
+                            )
+                            .then()
+                            .scaleXY(
+                              curve: Curves.easeOutSine,
+                              duration: .4.seconds,
+                              begin: .8,
+                              end: 1.2,
+                            )
+                            .then()
+                            .scaleXY(
+                              curve: Curves.bounceOut,
+                              duration: .4.seconds,
+                              begin: 1.2,
+                              end: 1,
+                            ),
+                      ],
+                    ),
                     const Spacer(),
                   ],
                 ),
