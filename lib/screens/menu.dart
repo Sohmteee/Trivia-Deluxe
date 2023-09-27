@@ -16,11 +16,20 @@ class MenuScreen extends StatefulWidget {
   State<MenuScreen> createState() => _MenuScreenState();
 }
 
-class _MenuScreenState extends State<MenuScreen> with WidgetsBindingObserver {
+class _MenuScreenState extends State<MenuScreen>
+    with WidgetsBindingObserver, TickerProviderStateMixin {
+  late Animation rotationAnimation;
+
   @override
   void initState() {
     WidgetsBinding.instance.addObserver(this);
     playBGAudio();
+    rotationAnimation = Tween<double>(begin: 0, end: 360).animate(
+      AnimationController(
+        vsync: this,
+        duration: 2.seconds,
+      )..repeat(),
+    );
     super.initState();
   }
 
