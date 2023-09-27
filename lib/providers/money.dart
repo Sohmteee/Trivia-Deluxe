@@ -3,8 +3,8 @@ import 'package:trivia/data/box.dart';
 
 class MoneyProvider extends ChangeNotifier {
   int _cash = box.get("cash") ?? 0;
-  int _previousCoins = 10;
-  int _coins = 10;
+  int _previousCoins = box.get("previousCoins") ?? 0;
+  int _coins = box.get("coins") ?? 10;
 
   int get cash => _cash;
   int get previousCoins => _previousCoins;
@@ -13,6 +13,7 @@ class MoneyProvider extends ChangeNotifier {
   increaseCash(int value) {
     if (cash + value <= 5000) {
       _cash += value;
+      box.put("cash", value)
     }
 
     notifyListeners();
