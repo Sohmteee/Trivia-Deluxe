@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
+import 'package:trivia/main.dart';
 import 'package:trivia/models/game_background.dart';
 import 'package:trivia/models/level_tile.dart';
 import 'package:trivia/models/stat_bar.dart';
@@ -16,8 +17,6 @@ class LevelScreen extends StatefulWidget {
 }
 
 class _LevelScreenState extends State<LevelScreen> {
-
-
   @override
   Widget build(BuildContext context) {
     return WillPopScope(
@@ -40,6 +39,7 @@ class _LevelScreenState extends State<LevelScreen> {
                         height: 60.h,
                         child: ZoomTapAnimation(
                           onTap: () {
+                            playTap(context);
                             Navigator.pushReplacementNamed(context, "/game");
                           },
                           child: Image.asset("assets/images/play.png"),
