@@ -64,11 +64,12 @@ showFailedDialog(BuildContext context, questionIndex, bool timeUp) {
         Consumer<MoneyProvider>(builder: (context, moneyProvider, _) {
           return ZoomTapAnimation(
             onTap: () {
-              playTap(context);
               if (moneyProvider.coins - 20 >= 0) {
+                playCoinDown(context);
                 moneyProvider.decreaseCoins(20);
                 Navigator.pushReplacementNamed(context, "/level");
               } else {
+                playTap(context);
                 Navigator.pop(context);
                 showLowCashDialog(context);
               }
