@@ -264,7 +264,6 @@ class _MenuScreenState extends State<MenuScreen>
                           child: ZoomTapAnimation(
                             onTap: () {
                               playTap(context);
-
                               Navigator.pushNamed(context, "/select");
                             },
                             child: Image.asset("assets/images/play.png"),
