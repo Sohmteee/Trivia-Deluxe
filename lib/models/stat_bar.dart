@@ -4,6 +4,7 @@ import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
+import 'package:trivia/main.dart';
 import 'package:trivia/models/dialogs/settings.dart';
 import 'package:trivia/providers/money.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
@@ -52,6 +53,7 @@ class _GameStatsState extends State<GameStats> {
           if (widget.showHome ?? true != false)
             ZoomTapAnimation(
               onTap: () {
+                playTap(context);
                 Navigator.pushNamedAndRemoveUntil(
                     context, "/menu", (route) => false);
               },
@@ -105,7 +107,7 @@ class _GameStatsState extends State<GameStats> {
           SizedBox(width: 5.w),
           ZoomTapAnimation(
             onTap: () {
-              // moneyProvider.increaseCash(100);
+              playTap(context);
             },
             child: Container(
               height: 20.h,
