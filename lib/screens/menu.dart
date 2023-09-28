@@ -4,10 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
-import 'package:hive/hive.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
-import 'package:trivia/data/box.dart';
 import 'package:trivia/data/controllers.dart';
 import 'package:trivia/models/dialogs/exit.dart';
 import 'package:trivia/models/dialogs/settings.dart';
@@ -29,7 +27,6 @@ class _MenuScreenState extends State<MenuScreen>
   @override
   void initState() {
     WidgetsBinding.instance.addObserver(this);
-    box = Hive.box("myBox");
     playBGAudio();
 
     rotationController = AnimationController(duration: 10.seconds, vsync: this)

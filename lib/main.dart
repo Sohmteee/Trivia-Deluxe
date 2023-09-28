@@ -6,6 +6,7 @@ import 'package:hive/hive.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:provider/provider.dart';
+import 'package:trivia/data/box.dart';
 import 'package:trivia/data/controllers.dart';
 import 'package:trivia/providers/audio.dart';
 import 'package:trivia/providers/level.dart';
@@ -37,6 +38,7 @@ Future<void> main() async {
   await Hive.initFlutter();
   final dir = await getApplicationDocumentsDirectory();
   Hive.openBox("myBox", path: dir.path);
+  box = Hive.box("myBox");
 
   runApp(
     MultiProvider(
