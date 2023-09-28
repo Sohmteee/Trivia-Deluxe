@@ -9,3 +9,4 @@ final correctPlayer = AudioPlayer();
 final wrongPlayer = AudioPlayer();
 final unavailablePlayer = AudioPlayer();
 final victoryPlayer = AudioPlayer();
+final levelPlayer = AudioPlayer();

@@ -28,14 +28,6 @@ Future<void> main() async {
     statusBarColor: Colors.transparent,
   ));
 
-  await bgPlayer.setSource(AssetSource("audio/bg-music.mp3"));
-  await tapPlayer.setSource(AssetSource("audio/tap.mp3"));
-  await correctPlayer.setSource(AssetSource("audio/correct.mp3"));
-  await wrongPlayer.setSource(AssetSource("audio/wrong.mp3"));
-  await unavailablePlayer
-      .setSource(AssetSource("audio/unavailable-selection.mp3"));
-  await victoryPlayer.setSource(AssetSource("audio/victory.mp3"));
-
   await Hive.initFlutter();
   final dir = await getApplicationDocumentsDirectory();
   Hive.openBox("myBox", path: dir.path);
@@ -128,13 +120,23 @@ Future<void> playUnavailable(context) async {
 
   if (audioProvider.soundEffects) {
     await unavailablePlayer.stop();
-    await unavailablePlayer.play(AssetSource("audio/unavailable-selection.mp3"));
+    await unavailablePlayer
+        .play(AssetSource("audio/unavailable-selection.mp3"));
 
     debugPrint("Play Unavailable");
   }
 }
 
 Future<void> playVictory(context) async {
+  final audioProvider = Provider.of<AudioProvider>(context, listen: false);
+
+  if (audioProvider.soundEffects) {
+    await victoryPlayer.setSource(AssetSource("audio/victory.mp3"));
+    await victoryPlayer.resume();
+  }
+}
+
+Future<void> playLevel(context) async {
   final audioProvider = Provider.of<AudioProvider>(context, listen: false);
 
   if (audioProvider.soundEffects) {
