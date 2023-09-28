@@ -97,7 +97,7 @@ Future<void> playTap(context) async {
     await tapPlayer.stop();
     await tapPlayer.play(AssetSource("audio/tap.mp3"));
 
-    debugPrint("Play Correct");
+    debugPrint("Play Tap");
   }
 }
 
@@ -119,7 +119,7 @@ Future<void> playWrong(context) async {
     await wrongPlayer.stop();
     await wrongPlayer.play(AssetSource("audio/wrong.mp3"));
 
-    debugPrint("Play Correct");
+    debugPrint("Play Wrong");
   }
 }
 
@@ -128,9 +128,9 @@ Future<void> playUnavailable(context) async {
 
   if (audioProvider.soundEffects) {
     await unavailablePlayer.stop();
-    await unavailablePlayer.play(AssetSource("audio/correct.mp3"));
+    await unavailablePlayer.play(AssetSource("audio/unavailable-selection.mp3"));
 
-    debugPrint("Play Correct");
+    debugPrint("Play Unavailable");
   }
 }
 

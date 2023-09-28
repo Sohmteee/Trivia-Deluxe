@@ -47,7 +47,6 @@ class _GameScreenState extends State<GameScreen> {
     final questionProvider =
         Provider.of<QuestionProvider>(context, listen: false);
     confettiController.dispose();
-    correctPlayer.stop();
     countDownController.reset();
     questionProvider.resetOptions();
     super.dispose();
