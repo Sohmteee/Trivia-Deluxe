@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
+import 'package:trivia/main.dart';
 import 'package:trivia/models/dialogs/game.dart';
 import 'package:trivia/providers/audio.dart';
 
@@ -40,7 +41,10 @@ showSettingsDialog(BuildContext context) {
                       return Switch(
                         value: audioProvider.music,
                         activeColor: Colors.red,
-                        onChanged: (value) => audioProvider.toggleMusic(value),
+                        onChanged: (value) {
+                          playTap(context);
+                          audioProvider.toggleMusic(value);
+                        },
                       );
                     },
                   )
@@ -88,8 +92,10 @@ showSettingsDialog(BuildContext context) {
                     return Switch(
                       value: audioProvider.soundEffects,
                       activeColor: Colors.red,
-                      onChanged: (value) =>
-                          audioProvider.toggleSoundEffects(value),
+                      onChanged: (value) {
+                        playTap(context);
+                        audioProvider.toggleSoundEffects(value);
+                      },
                     );
                   })
                 ],
