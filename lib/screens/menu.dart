@@ -262,6 +262,7 @@ class _MenuScreenState extends State<MenuScreen>
                           height: 70.w,
                           child: ZoomTapAnimation(
                             onTap: () async {
+                              final 
                               if (audioProvider.music) {
       await bgPlayer.resume();
     }
