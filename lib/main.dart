@@ -144,3 +144,12 @@ Future<void> playLevel(context) async {
     await levelPlayer.resume();
   }
 }
+
+Future<void> playCoinUp(context) async {
+  final audioProvider = Provider.of<AudioProvider>(context, listen: false);
+
+  if (audioProvider.soundEffects) {
+    await coinUpPlayer.setSource(AssetSource("audio/coin-up.mp3"));
+    await coinUpPlayer.resume();
+  }
+}
