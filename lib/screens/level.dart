@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
@@ -17,13 +18,12 @@ class LevelScreen extends StatefulWidget {
 }
 
 class _LevelScreenState extends State<LevelScreen> {
-
   @override
   void initState() {
-    
+    Future.delayed(2.seconds, () => playLevel(context));
     super.initState();
-    
   }
+
   @override
   Widget build(BuildContext context) {
     return WillPopScope(
