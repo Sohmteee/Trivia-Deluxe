@@ -12,7 +12,14 @@ class MoneyProvider extends ChangeNotifier {
 
   /* 
   10 coins = 100 cash
-  
+  20 coins = 200 cash
+  50 coins = 500 cash
+  100 coins = 1000 cash
+  200 coins = 2000 cash
+  500 coins = 5000 cash
+
+  100 cash = 
+
    */
 
   increaseCash(int value) {
