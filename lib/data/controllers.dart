@@ -5,6 +5,7 @@ final countDownController = CountDownController();
 final adCountDownController = CountDownController();
 final bgPlayer = AudioPlayer();
 final tapPlayer = AudioPlayer();
+final tap2Player = AudioPlayer();
 final correctPlayer = AudioPlayer();
 final wrongPlayer = AudioPlayer();
 final unavailablePlayer = AudioPlayer();

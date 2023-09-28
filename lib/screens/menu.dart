@@ -127,7 +127,7 @@ class _MenuScreenState extends State<MenuScreen>
                           padding: EdgeInsets.all(20.sp),
                           child: ZoomTapAnimation(
                             onTap: () {
-                              playTap(context);
+                              playTap2(context);
                               showExitDialog(context);
                             },
                             child: Container(
