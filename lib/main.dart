@@ -126,6 +126,7 @@ Future<void> playVictory(context) async {
   final audioProvider = Provider.of<AudioProvider>(context, listen: false);
 
   if (audioProvider.soundEffects) {
+    await victoryPlayer.setSource(AssetSource("audio/victory.mp3"));
     await victoryPlayer.resume();
   }
 }
