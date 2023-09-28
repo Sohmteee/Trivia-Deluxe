@@ -96,7 +96,7 @@ showFailedDialog(BuildContext context, questionIndex, bool timeUp) {
                       ),
                       Positioned(
                         top: -5,
-                        right: -6,
+                        right: -10,
                         child: Text(
                           "\u00d720",
                           style: TextStyle(
