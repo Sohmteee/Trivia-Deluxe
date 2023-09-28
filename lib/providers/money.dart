@@ -18,7 +18,10 @@ class MoneyProvider extends ChangeNotifier {
   200 coins = 2000 cash
   500 coins = 5000 cash
 
-  100 cash = 
+  100 cash = 500 naira
+  200 cash = 1000 naira
+  500 cash = 2500 naira
+  1000 cash = 5000
 
    */
 
