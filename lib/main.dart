@@ -102,7 +102,9 @@ Future<void> playCorrect(context) async {
   final audioProvider = Provider.of<AudioProvider>(context, listen: false);
 
   if (audioProvider.soundEffects) {
-    await correctPlayer.resume();
+    await correctPlayer.stop();
+    await correctPlayer.play(AssetSource("assets/audio/correct.mp3"));
+
     debugPrint("Play Correct");
   }
 }
