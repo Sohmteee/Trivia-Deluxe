@@ -20,7 +20,7 @@ class LevelScreen extends StatefulWidget {
 class _LevelScreenState extends State<LevelScreen> {
   @override
   void initState() {
-    Future.delayed(2.seconds, () => playLevel(context));
+    playLevel(context);
     super.initState();
   }
 
