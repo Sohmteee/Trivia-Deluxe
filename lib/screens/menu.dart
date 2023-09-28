@@ -261,7 +261,10 @@ class _MenuScreenState extends State<MenuScreen>
                         SizedBox(
                           height: 70.w,
                           child: ZoomTapAnimation(
-                            onTap: () {
+                            onTap: () async {
+                              if (audioProvider.music) {
+      await bgPlayer.resume();
+    }
                               Navigator.pushNamed(context, "/select");
                             },
                             child: Image.asset("assets/images/play.png"),
