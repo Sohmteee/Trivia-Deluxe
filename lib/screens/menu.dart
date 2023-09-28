@@ -268,6 +268,7 @@ class _MenuScreenState extends State<MenuScreen>
                               if (audioProvider.soundEffects) {
                                 await tapPlayer.resume();
                               }
+
                               Navigator.pushNamed(context, "/select");
                             },
                             child: Image.asset("assets/images/play.png"),
