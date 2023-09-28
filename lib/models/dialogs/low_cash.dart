@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/providers/level.dart';
-import 'package:trivia/providers/money.dart';
 import 'package:trivia/screens/ad.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
@@ -39,13 +38,14 @@ showLowCashDialog(BuildContext context) {
           SizedBox(height: 20.h),
           ZoomTapAnimation(
             onTap: () {
-
               Navigator.push(
                 dialogContext,
                 MaterialPageRoute(
-                  builder: (dialogContext) => AdScreen(onComplete: () {
-                    Navigator.pushReplacementNamed(dialogContext, "/level");
-                  }),
+                  builder: (dialogContext) => AdScreen(
+                    onComplete: () {
+                      Navigator.pushReplacementNamed(dialogContext, "/level");
+                    },
+                  ),
                 ),
               );
             },
