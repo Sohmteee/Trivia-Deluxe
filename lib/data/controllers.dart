@@ -12,3 +12,4 @@ final victoryPlayer = AudioPlayer();
 final levelPlayer = AudioPlayer();
 final coinUpPlayer = AudioPlayer();
 final coinDownPlayer = AudioPlayer();
+final redeemPlayer = AudioPlayer();

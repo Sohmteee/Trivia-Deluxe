@@ -145,11 +145,29 @@ Future<void> playLevel(context) async {
   }
 }
 
+Future<void> playRedeem(context) async {
+  final audioProvider = Provider.of<AudioProvider>(context, listen: false);
+
+  if (audioProvider.soundEffects) {
+    await redeemPlayer.setSource(AssetSource("audio/redeem.mp3"));
+    await redeemPlayer.resume();
+  }
+}
+
 Future<void> playCoinUp(context) async {
   final audioProvider = Provider.of<AudioProvider>(context, listen: false);
 
   if (audioProvider.soundEffects) {
     await coinUpPlayer.setSource(AssetSource("audio/coin-up.mp3"));
     await coinUpPlayer.resume();
+  }
+}
+
+Future<void> playCoinDown(context) async {
+  final audioProvider = Provider.of<AudioProvider>(context, listen: false);
+
+  if (audioProvider.soundEffects) {
+    await coinDownPlayer.setSource(AssetSource("audio/coin-down.mp3"));
+    await coinDownPlayer.resume();
   }
 }
