@@ -144,6 +144,7 @@ class _RewardScreenState extends State<RewardScreen> {
               const Spacer(),
               ZoomTapAnimation(
                 onTap: () {
+                  playCoinUp(context);
                   final moneyProvider =
                       Provider.of<MoneyProvider>(context, listen: false);
                   moneyProvider.increaseCoins(score);
@@ -152,8 +153,6 @@ class _RewardScreenState extends State<RewardScreen> {
                     changeChest = true;
                     receivedReward = true;
                   });
-
-                  playCoinUp(context);
 
                   Future.delayed(1.2.seconds, () {
                     setState(() {});
