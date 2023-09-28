@@ -96,3 +96,11 @@ Future<void> playTap(context) async {
     await tapPlayer.resume();
   }
 }
+
+Future<void> playCorrect(context) async {
+  final audioProvider = Provider.of<AudioProvider>(context, listen: false);
+
+  if (audioProvider.soundEffects) {
+    await correctPlayer.resume();
+  }
+}

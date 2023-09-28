@@ -7,6 +7,7 @@ import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/data/controllers.dart';
+import 'package:trivia/main.dart';
 import 'package:trivia/models/dialogs/exit.dart';
 import 'package:trivia/models/dialogs/settings.dart';
 import 'package:trivia/providers/audio.dart';
@@ -261,14 +262,8 @@ class _MenuScreenState extends State<MenuScreen>
                         SizedBox(
                           height: 70.w,
                           child: ZoomTapAnimation(
-                            onTap: () async {
-                              final audioProvider = Provider.of<AudioProvider>(
-                                  context,
-                                  listen: false);
-
-                              if (audioProvider.soundEffects) {
-                                await tapPlayer.resume();
-                              }
+                            onTap: () {
+                              playTap(context);
 
                               Navigator.pushNamed(context, "/select");
                             },
