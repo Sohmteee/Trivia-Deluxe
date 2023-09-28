@@ -1,5 +1,6 @@
 import 'dart:math';
 
+import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -79,6 +80,7 @@ class _MenuScreenState extends State<MenuScreen>
     final audioProvider = Provider.of<AudioProvider>(context, listen: false);
 
     if (audioProvider.music) {
+      await bgPlayer.setSource(AssetSource("audio/bg-music.mp3"));
       await bgPlayer.resume();
     }
 
