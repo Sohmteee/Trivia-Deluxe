@@ -80,15 +80,14 @@ class _AdScreenState extends State<AdScreen> with WidgetsBindingObserver {
                                   debugPrint('Countdown Started');
 
                                   /* timer = Timer.periodic(1.seconds, (timer) {
-                              if (iterationCount > 0) {
-                                setState(() {
-                                  iterationCount--;
-                                });
-                              } else {
-                                timer.cancel();
-                              }
-                            });
-                           */
+                                    if (iterationCount > 0) {
+                                      setState(() {
+                                        iterationCount--;
+                                      });
+                                    } else {
+                                      timer.cancel();
+                                    }
+                                  }); */
                                 },
                                 onComplete: () {
                                   debugPrint('Countdown Ended');
