@@ -101,7 +101,7 @@ class _MenuScreenState extends State<MenuScreen>
   Widget build(BuildContext context) {
     return WillPopScope(
       onWillPop: () async {
-        playTap(context);
+        playTap2(context);
         return showExitDialog(context);
       },
       child: SafeArea(
@@ -160,7 +160,7 @@ class _MenuScreenState extends State<MenuScreen>
                           padding: EdgeInsets.all(20.sp),
                           child: ZoomTapAnimation(
                             onTap: () {
-                              playTap(context);
+                              playTap2(context);
                               showSettingsDialog(context);
                             },
                             child: Container(
@@ -268,7 +268,7 @@ class _MenuScreenState extends State<MenuScreen>
                           height: 70.w,
                           child: ZoomTapAnimation(
                             onTap: () {
-                              playTap(context);
+                              playTap2(context);
                               Navigator.pushNamed(context, "/select");
                             },
                             child: Image.asset("assets/images/play.png"),
