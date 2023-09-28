@@ -153,7 +153,7 @@ class _RewardScreenState extends State<RewardScreen> {
                     receivedReward = true;
                   });
 
-                  playRedeem(context);
+                  playCoinUp(context);
 
                   Future.delayed(1.2.seconds, () {
                     setState(() {});
