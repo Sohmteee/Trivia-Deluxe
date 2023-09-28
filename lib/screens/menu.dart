@@ -101,6 +101,7 @@ class _MenuScreenState extends State<MenuScreen>
   Widget build(BuildContext context) {
     return WillPopScope(
       onWillPop: () async {
+        playTap(context);
         return showExitDialog(context);
       },
       child: SafeArea(
@@ -126,6 +127,7 @@ class _MenuScreenState extends State<MenuScreen>
                           padding: EdgeInsets.all(20.sp),
                           child: ZoomTapAnimation(
                             onTap: () {
+                              playTap(context);
                               showExitDialog(context);
                             },
                             child: Container(
