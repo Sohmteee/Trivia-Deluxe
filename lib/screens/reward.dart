@@ -6,7 +6,6 @@ import 'package:lottie/lottie.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/data/controllers.dart';
-import 'package:trivia/main.dart';
 import 'package:trivia/models/game_background.dart';
 import 'package:trivia/models/stat_bar.dart';
 import 'package:trivia/providers/audio.dart';
@@ -27,7 +26,7 @@ class _RewardScreenState extends State<RewardScreen> {
 
   @override
   void initState() {
-    playVictory(context);
+    playVictoryAudio();
     receivedReward = changeChest = false;
     final scoreProvider = Provider.of<ScoreProvider>(context, listen: false);
     score = scoreProvider.score;
@@ -35,17 +34,13 @@ class _RewardScreenState extends State<RewardScreen> {
     super.initState();
   }
 
-  Future<void> playBGAudio() async {
+  Future<void> playVictoryAudio() async {
     final audioProvider = Provider.of<AudioProvider>(context, listen: false);
     bgPlayer.pause();
 
     if (audioProvider.music) {
-      await bgPlayer.resume();
+      await victoryPlayer.resume();
     }
-
-    bgPlayer.onPlayerComplete.listen((_) async {
-      await bgPlayer.resume();
-    });
   }
 
   @override
