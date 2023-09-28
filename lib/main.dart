@@ -38,6 +38,7 @@ Future<void> main() async {
   await Hive.initFlutter();
   final dir = await getApplicationDocumentsDirectory();
   Hive.openBox("myBox", path: dir.path);
+  box = await Hive.openBox("myBox");
 
   runApp(
     MultiProvider(
