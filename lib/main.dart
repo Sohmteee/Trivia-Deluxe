@@ -33,10 +33,9 @@ Future<void> main() async {
   await unavailablePlayer
       .setSource(AssetSource("audio/unavailable-selection.mp3"));
 
-      
+  Hive.initFlutter();
   final dir = await getApplicationDocumentsDirectory();
   Hive.openBox("myBox", path: dir.path);
-
 
   runApp(
     MultiProvider(
@@ -55,7 +54,6 @@ Future<void> main() async {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-  
 
   @override
   Widget build(BuildContext context) {
