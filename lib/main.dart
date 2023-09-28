@@ -88,3 +88,11 @@ class MyApp extends StatelessWidget {
         });
   }
 }
+
+Future<void> playTap(context) async {
+  final audioProvider = Provider.of<AudioProvider>(context, listen: false);
+
+  if (audioProvider.soundEffects) {
+    await tapPlayer.resume();
+  }
+}
