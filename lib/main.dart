@@ -94,7 +94,10 @@ Future<void> playTap(context) async {
   final audioProvider = Provider.of<AudioProvider>(context, listen: false);
 
   if (audioProvider.soundEffects) {
-    await tapPlayer.resume();
+    await tapPlayer.stop();
+    await tapPlayer.play(AssetSource("audio/tap.mp3"));
+
+    debugPrint("Play Correct");
   }
 }
 
@@ -113,7 +116,10 @@ Future<void> playWrong(context) async {
   final audioProvider = Provider.of<AudioProvider>(context, listen: false);
 
   if (audioProvider.soundEffects) {
-    await wrongPlayer.resume();
+    await wrongPlayer.stop();
+    await wrongPlayer.play(AssetSource("audio/wrong.mp3"));
+
+    debugPrint("Play Correct");
   }
 }
 
@@ -121,7 +127,10 @@ Future<void> playUnavailable(context) async {
   final audioProvider = Provider.of<AudioProvider>(context, listen: false);
 
   if (audioProvider.soundEffects) {
-    await unavailablePlayer.resume();
+    await unavailablePlayer.stop();
+    await unavailablePlayer.play(AssetSource("audio/correct.mp3"));
+
+    debugPrint("Play Correct");
   }
 }
 
