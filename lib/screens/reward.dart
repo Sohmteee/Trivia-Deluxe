@@ -6,6 +6,7 @@ import 'package:lottie/lottie.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/data/controllers.dart';
+import 'package:trivia/main.dart';
 import 'package:trivia/models/game_background.dart';
 import 'package:trivia/models/stat_bar.dart';
 import 'package:trivia/providers/audio.dart';
@@ -53,6 +54,7 @@ class _RewardScreenState extends State<RewardScreen> {
   Widget build(BuildContext context) {
     return WillPopScope(
       onWillPop: () async {
+        playTap(context);
         Navigator.pushNamedAndRemoveUntil(context, "/menu", (route) => false);
         return true;
       },
@@ -160,7 +162,8 @@ class _RewardScreenState extends State<RewardScreen> {
                     changeChest = true;
                     receivedReward = true;
                   });
-                  
+
+                  playRedeem(context);
 
                   Future.delayed(1.2.seconds, () {
                     setState(() {});
@@ -210,6 +213,7 @@ class _RewardScreenState extends State<RewardScreen> {
               if (receivedReward)
                 ZoomTapAnimation(
                   onTap: () {
+                    playTap(context);
                     Navigator.pushReplacementNamed(context, "/select");
                   },
                   child: Container(

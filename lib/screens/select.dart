@@ -3,6 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/data/questions.dart';
+import 'package:trivia/main.dart';
 import 'package:trivia/models/game_background.dart';
 import 'package:trivia/models/stat_bar.dart';
 import 'package:trivia/providers/level.dart';
@@ -40,6 +41,7 @@ class _SelectScreenState extends State<SelectScreen> {
   Widget build(BuildContext context) {
     return WillPopScope(
       onWillPop: () async {
+        playTap(context);
         Navigator.pushReplacementNamed(context, "/menu");
         return true;
       },
