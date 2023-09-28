@@ -104,3 +104,19 @@ Future<void> playCorrect(context) async {
     await correctPlayer.resume();
   }
 }
+
+Future<void> playWrong(context) async {
+  final audioProvider = Provider.of<AudioProvider>(context, listen: false);
+
+  if (audioProvider.soundEffects) {
+    await wrongPlayer.resume();
+  }
+}
+
+Future<void> playUnavailable(context) async {
+  final audioProvider = Provider.of<AudioProvider>(context, listen: false);
+
+  if (audioProvider.soundEffects) {
+    await unavailablePlayer.resume();
+  }
+}
