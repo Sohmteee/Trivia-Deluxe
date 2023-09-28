@@ -93,7 +93,6 @@ class _AdScreenState extends State<AdScreen> with WidgetsBindingObserver {
                                 onComplete: () {
                                   debugPrint('Countdown Ended');
 
-                                  moneyProvider.increaseCoins(5);
                                   // Navigator.pop(context);
                                   Future.delayed(
                                     1.seconds,
