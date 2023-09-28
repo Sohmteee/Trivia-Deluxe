@@ -190,8 +190,8 @@ class _GameStatsState extends State<GameStats> {
           SizedBox(width: 5.w),
           ZoomTapAnimation(
             onTap: () {
-              // showAdDialog(context);
-            },
+
+              playTap(context);            },
             child: Container(
               height: 20.h,
               width: 60.w,
@@ -261,6 +261,7 @@ class _GameStatsState extends State<GameStats> {
           if (widget.showHome ?? true != false)
             ZoomTapAnimation(
               onTap: () {
+                playTap(context);
                 showSettingsDialog(context);
               },
               child: Container(
