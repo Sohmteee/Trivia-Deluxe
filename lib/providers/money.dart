@@ -24,7 +24,7 @@ class MoneyProvider extends ChangeNotifier {
   1,000 cash = 5,000 naira
   2,000 cash = 1,0000 naira
   5,000 cash = 25,000 naira
-  1,0000 cash = 5,0000 naira
+  10,000 cash = 50,000 naira
 
    */
 
