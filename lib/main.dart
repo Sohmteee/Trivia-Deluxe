@@ -140,7 +140,7 @@ Future<void> playLevel(context) async {
   final audioProvider = Provider.of<AudioProvider>(context, listen: false);
 
   if (audioProvider.soundEffects) {
-    await victoryPlayer.setSource(AssetSource("audio/victory.mp3"));
-    await victoryPlayer.resume();
+    await levelPlayer.setSource(AssetSource("audio/level.mp3"));
+    await levelPlayer.resume();
   }
 }
