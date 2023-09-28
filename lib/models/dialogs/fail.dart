@@ -65,7 +65,7 @@ showFailedDialog(BuildContext context, questionIndex, bool timeUp) {
             onTap: () {
               if (moneyProvider.coins - 10 >= 0) {
                 moneyProvider.decreaseCoins(10);
-                Navigator.pushReplacementNamed(context, "/game");
+                Navigator.pushReplacementNamed(context, "/level");
               } else {
                 Navigator.pop(context);
                 showLowCashDialog(context);
