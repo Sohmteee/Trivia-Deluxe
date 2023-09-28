@@ -101,7 +101,6 @@ Future<void> playCorrect(context) async {
   final audioProvider = Provider.of<AudioProvider>(context, listen: false);
 
   if (audioProvider.soundEffects) {
-    bgPlayer.setVolume(1);
     await correctPlayer.resume();
   }
 }
