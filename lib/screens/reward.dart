@@ -160,6 +160,7 @@ class _RewardScreenState extends State<RewardScreen> {
                     changeChest = true;
                     receivedReward = true;
                   });
+                  
 
                   Future.delayed(1.2.seconds, () {
                     setState(() {});
