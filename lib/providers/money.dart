@@ -14,14 +14,17 @@ class MoneyProvider extends ChangeNotifier {
   10 coins = 100 cash
   20 coins = 200 cash
   50 coins = 500 cash
-  100 coins = 1000 cash
-  200 coins = 2000 cash
-  500 coins = 5000 cash
+  100 coins = 1,000 cash
+  200 coins = 2,000 cash
+  500 coins = 5,000 cash
 
   100 cash = 500 naira
-  200 cash = 1000 naira
+  200 cash = 1,000 naira
   500 cash = 2500 naira
-  1000 cash = 5000
+  1,000 cash = 5,000 naira
+  2,000 cash = 1,0000 naira
+  5,000 cash = 25,000 naira
+  1,0000 cash = 5,0000 naira
 
    */
 
