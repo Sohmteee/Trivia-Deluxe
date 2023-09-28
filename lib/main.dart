@@ -34,6 +34,8 @@ Future<void> main() async {
   await wrongPlayer.setSource(AssetSource("audio/wrong.mp3"));
   await unavailablePlayer
       .setSource(AssetSource("audio/unavailable-selection.mp3"));
+  await victoryPlayer
+      .setSource(AssetSource("audio/victory.mp3"));
 
   await Hive.initFlutter();
   final dir = await getApplicationDocumentsDirectory();
