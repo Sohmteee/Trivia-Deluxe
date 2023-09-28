@@ -189,7 +189,7 @@ class _GameStatsState extends State<GameStats> {
           SizedBox(width: 5.w),
           ZoomTapAnimation(
             onTap: () {
-              showAdDialog(context);
+              // showAdDialog(context);
             },
             child: Container(
               height: 20.h,
