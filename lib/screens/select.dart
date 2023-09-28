@@ -73,7 +73,6 @@ class _SelectScreenState extends State<SelectScreen> {
                         builder: (_, questionProvider, child) {
                       return ZoomTapAnimation(
                         onTap: () {
-                          playTap(context);
                           var levelProvider = Provider.of<LevelProvider>(
                               context,
                               listen: false);
