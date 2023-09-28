@@ -24,6 +24,7 @@ class _RewardScreenState extends State<RewardScreen> {
 
   @override
   void initState() {
+    playVictory(context)
     receivedReward = changeChest = false;
     final scoreProvider = Provider.of<ScoreProvider>(context, listen: false);
     score = scoreProvider.score;
