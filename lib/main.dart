@@ -103,6 +103,7 @@ Future<void> playCorrect(context) async {
 
   if (audioProvider.soundEffects) {
     await correctPlayer.resume();
+    debugPrint("Play Correct");
   }
 }
 
