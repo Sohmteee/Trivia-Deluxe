@@ -202,7 +202,7 @@ class _RewardScreenState extends State<RewardScreen> {
               if (receivedReward)
                 ZoomTapAnimation(
                   onTap: () {
-                    playRedeem(context);
+                    playTap(context);
                     Navigator.pushReplacementNamed(context, "/select");
                   },
                   child: Container(
