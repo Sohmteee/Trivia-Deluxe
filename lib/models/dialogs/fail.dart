@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
+import 'package:trivia/main.dart';
 import 'package:trivia/models/dialogs/low_cash.dart';
 import 'package:trivia/providers/money.dart';
 import 'package:trivia/providers/question.dart';
@@ -63,6 +64,7 @@ showFailedDialog(BuildContext context, questionIndex, bool timeUp) {
         Consumer<MoneyProvider>(builder: (context, moneyProvider, _) {
           return ZoomTapAnimation(
             onTap: () {
+              playTap(context);
               if (moneyProvider.coins - 20 >= 0) {
                 moneyProvider.decreaseCoins(20);
                 Navigator.pushReplacementNamed(context, "/level");

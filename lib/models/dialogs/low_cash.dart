@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
+import 'package:trivia/main.dart';
 import 'package:trivia/providers/level.dart';
 import 'package:trivia/screens/ad.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
@@ -38,6 +39,7 @@ showLowCashDialog(BuildContext context) {
           SizedBox(height: 20.h),
           ZoomTapAnimation(
             onTap: () {
+              playTap(context);
               Navigator.push(
                 dialogContext,
                 MaterialPageRoute(
@@ -79,6 +81,7 @@ showLowCashDialog(BuildContext context) {
           Consumer<LevelProvider>(builder: (context, levelProvider, _) {
             return ZoomTapAnimation(
               onTap: () {
+                                playTap(context);                playTap(context);                playTap(context);playTap(context);
                 Navigator.of(dialogContext).pop();
                 levelProvider.resetCompletedLevel();
                 Navigator.popAndPushNamed(dialogContext, "/menu");
