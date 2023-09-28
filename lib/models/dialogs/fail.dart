@@ -67,7 +67,10 @@ showFailedDialog(BuildContext context, questionIndex, bool timeUp) {
               if (moneyProvider.coins - 20 >= 0) {
                 playCoinDown(context);
                 moneyProvider.decreaseCoins(20);
-                Navigator.pushReplacementNamed(context, "/level");
+                Future.delayed(
+                  1.seconds,
+                  () => Navigator.pushReplacementNamed(context, "/level"),
+                );
               } else {
                 playTap(context);
                 Navigator.pop(context);
