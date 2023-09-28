@@ -93,7 +93,7 @@ class _GameScreenState extends State<GameScreen> {
                               if (questionProvider.options[index]["value"] ==
                                   true) {
                                 confettiController.play();
-                                playCorrect(context)
+                                playCorrect(context);
                               }
                               questionProvider.checkCorrectAnswer(
                                   context, index);
