@@ -34,8 +34,7 @@ Future<void> main() async {
   await wrongPlayer.setSource(AssetSource("audio/wrong.mp3"));
   await unavailablePlayer
       .setSource(AssetSource("audio/unavailable-selection.mp3"));
-  await victoryPlayer
-      .setSource(AssetSource("audio/victory.mp3"));
+  await victoryPlayer.setSource(AssetSource("audio/victory.mp3"));
 
   await Hive.initFlutter();
   final dir = await getApplicationDocumentsDirectory();
@@ -120,5 +119,13 @@ Future<void> playUnavailable(context) async {
 
   if (audioProvider.soundEffects) {
     await unavailablePlayer.resume();
+  }
+}
+
+Future<void> playVictory(context) async {
+  final audioProvider = Provider.of<AudioProvider>(context, listen: false);
+
+  if (audioProvider.soundEffects) {
+    await victoryPlayer.resume();
   }
 }

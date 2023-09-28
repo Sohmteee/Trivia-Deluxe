@@ -5,6 +5,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:lottie/lottie.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
+import 'package:trivia/main.dart';
 import 'package:trivia/models/game_background.dart';
 import 'package:trivia/models/stat_bar.dart';
 import 'package:trivia/providers/money.dart';
@@ -24,7 +25,7 @@ class _RewardScreenState extends State<RewardScreen> {
 
   @override
   void initState() {
-    playVictory(context)
+    playVictory(context);
     receivedReward = changeChest = false;
     final scoreProvider = Provider.of<ScoreProvider>(context, listen: false);
     score = scoreProvider.score;
