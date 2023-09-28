@@ -87,18 +87,7 @@ Future<void> playTap(context) async {
 
   if (audioProvider.soundEffects) {
     await tapPlayer.stop();
-    await tapPlayer.play(AssetSource("audio/tap.mp3"));
-
-    debugPrint("Play Tap");
-  }
-}
-
-Future<void> playTap2(context) async {
-  final audioProvider = Provider.of<AudioProvider>(context, listen: false);
-
-  if (audioProvider.soundEffects) {
-    await tap2Player.stop();
-    await tap2Player.play(AssetSource("audio/tap-2.mp3"));
+    await tapPlayer.play(AssetSource("audio/tap-2.mp3"));
 
     debugPrint("Play Tap");
   }
