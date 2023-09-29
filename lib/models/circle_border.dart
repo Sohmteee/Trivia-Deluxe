@@ -8,12 +8,12 @@ class CircleBorderPainter extends CustomPainter {
 
   @override
   void paint(Canvas canvas, Size size) {
-    final redCircle = Paint()
-      ..color = Colors.red
+    final circle = Paint()
+      ..color = color
       ..style = PaintingStyle.stroke;
     final arcRect = Rect.fromCircle(
         center: size.bottomCenter(Offset.zero), radius: size.shortestSide);
-    canvas.drawArc(arcRect, 0, -pi, false, redCircle);
+    canvas.drawArc(arcRect, 0, -pi, false, circle);
   }
 
   @override
