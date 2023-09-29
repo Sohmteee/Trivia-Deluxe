@@ -4,7 +4,6 @@ import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/data/controllers.dart';
@@ -228,12 +227,15 @@ class _MenuScreenState extends State<MenuScreen>
                     Stack(
                       alignment: Alignment.center,
                       children: [
-                        CustomPaint(
-                          painter: CircleBorderPainter(
-                            color: AppColor.white.withOpacity(.5),
-                            radius: 50.sp,
-                            angle: 1.5 * pi,
-                            strokeWidth: 2.sp,
+                        RotationTransition(
+                          turns: rotationAnimation,
+                          child: CustomPaint(
+                            painter: CircleBorderPainter(
+                              color: AppColor.white.withOpacity(.5),
+                              radius: 50.sp,
+                              angle: 1.5 * pi,
+                              strokeWidth: 2.sp,
+                            ),
                           ),
                         ),
                         CustomPaint(
