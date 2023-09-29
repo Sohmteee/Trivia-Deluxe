@@ -249,8 +249,8 @@ class _MenuScreenState extends State<MenuScreen>
                             painter: CircleBorderPainter(
                               color: AppColor.white.withOpacity(.5),
                               radius: 55.sp,
-                              angle: -1.5 * pi,
-                              strokeWidth: 4.sp,
+                              angle: -1.8 * pi,
+                              strokeWidth: 6.sp,
                             ),
                           ),
                         ),
