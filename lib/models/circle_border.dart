@@ -2,7 +2,10 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 
-class MyPainter extends CustomPainter {
+class CircleBorderPainter extends CustomPainter {
+  Color color;
+  CircleBorderPainter({required this.color});
+
   @override
   void paint(Canvas canvas, Size size) {
     final redCircle = Paint()
@@ -14,5 +17,5 @@ class MyPainter extends CustomPainter {
   }
 
   @override
-  bool shouldRepaint(MyPainter oldDelegate) => false;
+  bool shouldRepaint(CircleBorderPainter oldDelegate) => false;
 }
