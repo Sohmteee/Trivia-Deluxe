@@ -6,6 +6,7 @@ import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
+import 'package:trivia/colors/hex_color.dart';
 import 'package:trivia/data/controllers.dart';
 import 'package:trivia/main.dart';
 import 'package:trivia/models/circle_border.dart';
@@ -247,7 +248,7 @@ class _MenuScreenState extends State<MenuScreen>
                           turns: reverseRotationAnimation,
                           child: CustomPaint(
                             painter: CircleBorderPainter(
-                              color: AppColor.wrong.withOpacity(.9),
+                              color: HexColor("#A30F35").withOpacity(.9),
                               radius: 53.sp,
                               angle: -1.5 * pi,
                               strokeWidth: 6.sp,
