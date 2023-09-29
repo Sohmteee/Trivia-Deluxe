@@ -20,7 +20,6 @@ class AudioProvider extends ChangeNotifier {
     } else {
       bgPlayer.stop();
     }
-    // player.setVolume(value == false ? 0 : musicVolume);
     notifyListeners();
   }
 
