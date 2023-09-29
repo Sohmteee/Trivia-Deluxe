@@ -55,7 +55,7 @@ showSettingsDialog(BuildContext context) {
                   return Row(
                     children: [
                       Text(
-                        "Music",
+                        "Volume",
                         style: TextStyle(
                           color: Colors.grey[400],
                           fontSize: 18.sp,
