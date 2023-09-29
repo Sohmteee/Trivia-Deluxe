@@ -14,38 +14,22 @@ List riddlesData = [
       {
         "text": "Sand",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Socks",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "The letter 'O'",
         "value": true,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Love",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
     ]
   },
@@ -60,38 +44,22 @@ List riddlesData = [
       {
         "text": "Iron",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Ice",
         "value": true,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Man",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Glass",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
     ]
   },
@@ -106,38 +74,22 @@ List riddlesData = [
       {
         "text": "Darkness",
         "value": true,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Magic",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Hope",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Garri",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
     ]
   },
@@ -152,38 +104,22 @@ List riddlesData = [
       {
         "text": "A net",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Sand",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "A chain",
         "value": true,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "A basket",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
     ]
   },
@@ -198,38 +134,22 @@ List riddlesData = [
       {
         "text": "My father",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "My mother",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "My brother",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "My sister",
         "value": true,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
     ]
   },
@@ -244,38 +164,22 @@ List riddlesData = [
       {
         "text": "Air",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Dust",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Light",
         "value": true,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Fart",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
     ]
   },
@@ -290,38 +194,22 @@ List riddlesData = [
       {
         "text": "Gasoline",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Automobile",
         "value": true,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Gaseous",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Vehicle",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
     ]
   },
@@ -336,38 +224,22 @@ List riddlesData = [
       {
         "text": "Death",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Trouble",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "A fight",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Lawsuit",
         "value": true,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
     ]
   },
@@ -383,38 +255,22 @@ List riddlesData = [
       {
         "text": "Three",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Five",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Seven",
         "value": true,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Eleven",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
     ]
   },
@@ -429,38 +285,22 @@ List riddlesData = [
       {
         "text": "Solomon",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "A poor man",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "A Priest",
         "value": true,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "A woman",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
     ]
   },
@@ -478,38 +318,22 @@ List animalsData = [
       {
         "text": "1",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "2",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "3",
         "value": true,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "4",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
     ]
   },
@@ -524,38 +348,22 @@ List animalsData = [
       {
         "text": "Giraffes",
         "value": true,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Rhinos",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Deer",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Beavers",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
     ]
   },
@@ -571,38 +379,22 @@ List animalsData = [
       {
         "text": "2",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "3",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "5",
         "value": true,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "8",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
     ]
   },
@@ -617,38 +409,22 @@ List animalsData = [
       {
         "text": "Julie",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Jackie",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Jenny",
         "value": true,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Judy",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
     ]
   },
@@ -664,38 +440,22 @@ List animalsData = [
       {
         "text": "1",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "3",
         "value": true,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "4",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "8",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
     ]
   },
@@ -711,38 +471,22 @@ List animalsData = [
       {
         "text": "Guinea Pig",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Duck",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Rabbit",
         "value": true,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Horse",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
     ]
   },
@@ -758,38 +502,22 @@ List animalsData = [
       {
         "text": "One week",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Two weeks",
         "value": true,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Four weeks",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Six weeks",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
     ]
   },
@@ -804,38 +532,22 @@ List animalsData = [
       {
         "text": "0",
         "value": true,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "6",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "20",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "150",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
     ]
   },
@@ -851,38 +563,22 @@ List animalsData = [
       {
         "text": "Red",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "White",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Orange",
         "value": true,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Yellow",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
     ]
   },
@@ -899,38 +595,22 @@ List animalsData = [
       {
         "text": "The giant squid",
         "value": true,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Ostrich",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Chamelon",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Camel",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
     ]
   },
@@ -949,38 +629,22 @@ List proverbsData = [
       {
         "text": "Rich",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Beggars for life",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Choosers",
         "value": true,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Successful",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
     ]
   },
@@ -995,38 +659,22 @@ List proverbsData = [
       {
         "text": "Forest",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Bush",
         "value": true,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Grave",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Nest",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
     ]
   },
@@ -1042,38 +690,22 @@ List proverbsData = [
       {
         "text": "Better",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Greener",
         "value": true,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Bigger",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Longer",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
     ]
   },
@@ -1088,38 +720,22 @@ List proverbsData = [
       {
         "text": "Gold",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Bronze",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Diamond",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Silver",
         "value": true,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
     ]
   },
@@ -1135,38 +751,22 @@ List proverbsData = [
       {
         "text": "Mind",
         "value": true,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Thought",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Control",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "The light",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
     ]
   },
@@ -1181,38 +781,22 @@ List proverbsData = [
       {
         "text": "Deserve them",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Wait",
         "value": true,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Want them",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Are good",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
     ]
   },
@@ -1228,38 +812,22 @@ List proverbsData = [
       {
         "text": "Straw",
         "value": true,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Rope",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Thread",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Hand",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
     ]
   },
@@ -1274,38 +842,22 @@ List proverbsData = [
       {
         "text": "Dream",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Preach",
         "value": true,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "See",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Feel like practicing",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
     ]
   },
@@ -1322,38 +874,22 @@ List proverbsData = [
       {
         "text": "Plenty",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Bliss",
         "value": true,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Stupidity",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "A virtue",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
     ]
   },
@@ -1369,38 +905,22 @@ List proverbsData = [
       {
         "text": "Good",
         "value": true,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Bad",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "Wasted",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
       {
         "text": "New",
         "value": false,
-        "colors": [
-          AppColor.yellow,
-          AppColor.yellow,
-          AppColor.yellow,
-        ],
+        "color": AppColor.yellow,
       },
     ]
   },
