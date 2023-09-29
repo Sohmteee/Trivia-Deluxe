@@ -24,6 +24,7 @@ class MenuScreen extends StatefulWidget {
 class _MenuScreenState extends State<MenuScreen>
     with WidgetsBindingObserver, TickerProviderStateMixin {
   late Animation<double> rotationAnimation;
+  late Animation<double> reverseRotationAnimation;
   late AnimationController rotationController;
 
   @override
@@ -41,7 +42,12 @@ class _MenuScreenState extends State<MenuScreen>
 
     rotationAnimation = Tween<double>(
       begin: 0,
-      end: 2 * pi, // 360 degrees in radians
+      end: 2 * pi,
+    ).animate(rotationController);
+
+    reverseRotationAnimation = Tween<double>(
+      begin: 2 * pi,
+      end: 0,
     ).animate(rotationController);
 
     // Start the animation
@@ -239,7 +245,7 @@ class _MenuScreenState extends State<MenuScreen>
                           ),
                         ),
                         RotationTransition(
-                          turns: rotationAnimation,
+                          turns: reverseRotationAnimation,
                           child: CustomPaint(
                             painter: CircleBorderPainter(
                               color: AppColor.white.withOpacity(.5),
