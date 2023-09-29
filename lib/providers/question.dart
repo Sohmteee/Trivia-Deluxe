@@ -36,7 +36,7 @@ class QuestionProvider extends ChangeNotifier {
 
   void resetOptions() {
     for (var option in options) {
-      option["colors"] = 
+      option["color"] = 
         AppColor.yellow;
     }
   }
@@ -50,17 +50,17 @@ class QuestionProvider extends ChangeNotifier {
     }
 
     if (options[index]["value"] == true) {
-      options[index]["colors"] = 
+      options[index]["color"] = 
         AppColor.right
       ;
     } else {
-      options[index]["colors"] = 
+      options[index]["color"] = 
         AppColor.wrong
       ;
 
       for (var option in options) {
         if (option["value"] == true) {
-          option["colors"] = 
+          option["color"] = 
             AppColor.right;
         }
       }
