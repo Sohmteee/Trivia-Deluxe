@@ -55,7 +55,7 @@ showSettingsDialog(BuildContext context) {
                   return Row(
                     children: [
                       Text(
-                        "Volume",
+                        "Vol. (${(audioProvider.musicVolume * 100).toInt()}%)",
                         style: TextStyle(
                           color: Colors.grey[400],
                           fontSize: 18.sp,
@@ -70,13 +70,6 @@ showSettingsDialog(BuildContext context) {
                         semanticFormatterCallback: (double newValue) {
                           return "${(audioProvider.musicVolume * 100).toInt()}%";
                         },
-                      ),
-                      Text(
-                        "${(audioProvider.musicVolume * 100).toInt()}%",
-                        style: TextStyle(
-                          color: Colors.grey[400],
-                          fontSize: 18.sp,
-                        ),
                       ),
                     ],
                   ).animate().fadeIn(
