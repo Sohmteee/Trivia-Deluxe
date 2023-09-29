@@ -236,7 +236,7 @@ class _MenuScreenState extends State<MenuScreen>
                           turns: rotationAnimation,
                           child: CustomPaint(
                             painter: CircleBorderPainter(
-                              color: AppColor.white.withOpacity(.5),
+                              color: Colors.red[100]!.withOpacity(.5),
                               radius: 50.sp,
                               angle: 1.8 * pi,
                               strokeWidth: 2.sp,
@@ -247,7 +247,7 @@ class _MenuScreenState extends State<MenuScreen>
                           turns: reverseRotationAnimation,
                           child: CustomPaint(
                             painter: CircleBorderPainter(
-                              color: AppColor.white.withOpacity(.5),
+                              color: Colors.red.withOpacity(.5),
                               radius: 55.sp,
                               angle: -1.5 * pi,
                               strokeWidth: 6.sp,
