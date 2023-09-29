@@ -106,7 +106,7 @@ showSettingsDialog(BuildContext context) {
                       ? Row(
                           children: [
                             Text(
-                              "${(audioProvider.effec * 100).toInt()}%",
+                              "${(audioProvider.effectsVolume * 100).toInt()}%",
                               style: TextStyle(
                                 color: Colors.grey[400],
                                 fontSize: 18.sp,
@@ -114,12 +114,12 @@ showSettingsDialog(BuildContext context) {
                             ),
                             Slider(
                                 divisions: 10,
-                                value: audioProvider.musicVolume,
+                                value: audioProvider.effectsVolume,
                                 onChanged: (value) {
-                                  audioProvider.setMusicVolume(value);
+                                  audioProvider.setEffectsVolume(value);
                                 },
                                 semanticFormatterCallback: (double newValue) {
-                                  return "${(audioProvider.musicVolume * 100).toInt()}%";
+                                  return "${(audioProvider.effectsVolume * 100).toInt()}%";
                                 }),
                           ],
                         ).animate().fadeIn(
