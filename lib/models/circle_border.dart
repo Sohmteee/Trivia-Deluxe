@@ -4,9 +4,9 @@ import 'package:flutter/material.dart';
 
 class CircleBorderPainter extends CustomPainter {
   Color color;
-  double radius;
+  double radius, angle;
 
-  CircleBorderPainter({required this.color, required this.radius});
+  CircleBorderPainter({required this.color, required this.radius, this.angle = 0});
 
   @override
   void paint(Canvas canvas, Size size) {
@@ -15,7 +15,7 @@ class CircleBorderPainter extends CustomPainter {
       ..style = PaintingStyle.stroke;
     final arcRect = Rect.fromCircle(
         center: size.bottomCenter(Offset.zero), radius: radius);
-    canvas.drawArc(arcRect, 0, -pi, false, circle);
+    canvas.drawArc(arcRect, 0, angle, false, circle);
   }
 
   @override
