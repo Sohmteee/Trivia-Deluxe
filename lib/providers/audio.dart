@@ -51,4 +51,16 @@ class AudioProvider extends ChangeNotifier {
     }
     notifyListeners();
   }
+
+  setMusicEffectVolume(double newVolume) {
+    musicVolume = newVolume;
+    box.put("musicVolume", newVolume);
+
+    bgPlayer.setVolume(newVolume);
+        if (newVolume == 0) {
+      music = false;
+      box.put("music", false);
+    }
+    notifyListeners();
+  }
 }
