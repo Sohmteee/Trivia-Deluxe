@@ -16,11 +16,9 @@ class QuestionProvider extends ChangeNotifier {
   bool questionIsShuffled = false;
 
   void initQuestionProvider(context) {
-
     if (!questionIsShuffled) {
       questions.shuffle();
       questionIsShuffled = true;
-      
     }
 
     if (questionIndex < questions.length - 1) {
@@ -36,8 +34,7 @@ class QuestionProvider extends ChangeNotifier {
 
   void resetOptions() {
     for (var option in options) {
-      option["color"] = 
-        AppColor.yellow;
+      option["color"] = AppColor.yellow;
     }
   }
 
@@ -50,18 +47,13 @@ class QuestionProvider extends ChangeNotifier {
     }
 
     if (options[index]["value"] == true) {
-      options[index]["color"] = 
-        AppColor.right
-      ;
+      options[index]["color"] = AppColor.right;
     } else {
-      options[index]["color"] = 
-        AppColor.wrong
-      ;
+      options[index]["color"] = AppColor.wrong;
 
       for (var option in options) {
         if (option["value"] == true) {
-          option["color"] = 
-            AppColor.right;
+          option["color"] = AppColor.right;
         }
       }
     }
