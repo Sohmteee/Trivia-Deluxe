@@ -226,16 +226,17 @@ class _MenuScreenState extends State<MenuScreen>
                         ),
                     const Spacer(flex: 2),
                     SizedBox(
-                      height: 200.h,
+                      height: 100.h,
                       child: CustomPaint(
                         painter: CircleBorderPainter(
                           color: AppColor.white.withOpacity(.5),
                           radius: 50.w,
-                          angle: -pi * 4,
+                          angle: -pi / 2,
                           strokeWidth: 4.sp,
                         ),
                       ),
                     ),
+                    SizedBox(height: 100.h),
                     Stack(
                       alignment: Alignment.center,
                       children: [
