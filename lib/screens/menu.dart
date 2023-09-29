@@ -227,10 +227,12 @@ class _MenuScreenState extends State<MenuScreen>
                     const Spacer(flex: 2),
                     SizedBox(
                       height: 200.h,
-                      child: CircleBorderPainter(
-                        color: Colors.white,
-                        radius: 100.w,
-                        angle: pi/2,
+                      child: CustomPaint(
+                        painter: CircleBorderPainter(
+                          color: AppColor.white.withOpacity(.5),
+                          radius: 100.w,
+                          angle: -pi / 2,
+                        ),
                       ),
                     ),
                     Stack(
