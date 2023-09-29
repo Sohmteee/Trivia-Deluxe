@@ -238,7 +238,7 @@ class _MenuScreenState extends State<MenuScreen>
                           child: CustomPaint(
                             painter: CircleBorderPainter(
                               color: HexColor("#FF8BA2").withOpacity(1),
-                              radius: 48.sp,
+                              radius: 46.sp,
                               angle: 1.8 * pi,
                               strokeWidth: 2.sp,
                             ),
@@ -249,7 +249,7 @@ class _MenuScreenState extends State<MenuScreen>
                           child: CustomPaint(
                             painter: CircleBorderPainter(
                               color: HexColor("#A30F35").withOpacity(.9),
-                              radius: 53.sp,
+                              radius: 51.sp,
                               angle: -1.5 * pi,
                               strokeWidth: 6.sp,
                             ),
