@@ -238,12 +238,15 @@ class _MenuScreenState extends State<MenuScreen>
                             ),
                           ),
                         ),
-                        CustomPaint(
-                          painter: CircleBorderPainter(
-                            color: AppColor.white.withOpacity(.5),
-                            radius: 55.sp,
-                            angle: -1.5 * pi,
-                            strokeWidth: 4.sp,
+                        RotationTransition(
+                          turns: rotationAnimation,
+                          child: CustomPaint(
+                            painter: CircleBorderPainter(
+                              color: AppColor.white.withOpacity(.5),
+                              radius: 55.sp,
+                              angle: -1.5 * pi,
+                              strokeWidth: 4.sp,
+                            ),
                           ),
                         ),
                         /* SpinKitDualRing(
