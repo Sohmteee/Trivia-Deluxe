@@ -9,6 +9,7 @@ import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/data/controllers.dart';
 import 'package:trivia/main.dart';
+import 'package:trivia/models/circle_border.dart';
 import 'package:trivia/models/dialogs/exit.dart';
 import 'package:trivia/models/dialogs/settings.dart';
 import 'package:trivia/providers/audio.dart';
@@ -224,6 +225,14 @@ class _MenuScreenState extends State<MenuScreen>
                           duration: 1.seconds,
                         ),
                     const Spacer(flex: 2),
+                    SizedBox(
+                      height: 200.h,
+                      child: CircleBorderPainter(
+                        color: Colors.white,
+                        radius: 100.w,
+                        angle: pi/2,
+                      ),
+                    ),
                     Stack(
                       alignment: Alignment.center,
                       children: [
