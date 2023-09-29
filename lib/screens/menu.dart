@@ -225,26 +225,22 @@ class _MenuScreenState extends State<MenuScreen>
                           duration: 1.seconds,
                         ),
                     const Spacer(flex: 2),
-                    SizedBox(
-                      height: 100.h,
-                      child: CustomPaint(
-                        painter: CircleBorderPainter(
-                          color: AppColor.white.withOpacity(.5),
-                          radius: 50.w,
-                          angle: 1.5 * pi,
-                          strokeWidth: 4.sp,
-                        ),
-                      ),
-                    ),
-                    SizedBox(height: 100.h),
                     Stack(
                       alignment: Alignment.center,
                       children: [
-                        SpinKitDualRing(
+                        CustomPaint(
+                          painter: CircleBorderPainter(
+                            color: AppColor.white.withOpacity(.5),
+                            radius: 40.w,
+                            angle: 1.5 * pi,
+                            strokeWidth: 4.sp,
+                          ),
+                        ),
+                        /* SpinKitDualRing(
                           duration: 10.seconds,
                           color: AppColor.white.withOpacity(.5),
                           size: 100.sp,
-                        ),
+                        ), */
                         /* RotationTransition(
                           turns: rotationAnimation,
                           child: Stack(
