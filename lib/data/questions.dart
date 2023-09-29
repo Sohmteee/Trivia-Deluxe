@@ -16,7 +16,7 @@ List riddlesData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -25,7 +25,7 @@ List riddlesData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -34,7 +34,7 @@ List riddlesData = [
         "value": true,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -43,7 +43,7 @@ List riddlesData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -62,7 +62,7 @@ List riddlesData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -71,7 +71,7 @@ List riddlesData = [
         "value": true,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -80,7 +80,7 @@ List riddlesData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -89,7 +89,7 @@ List riddlesData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -108,7 +108,7 @@ List riddlesData = [
         "value": true,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -117,7 +117,7 @@ List riddlesData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -126,7 +126,7 @@ List riddlesData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -135,7 +135,7 @@ List riddlesData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -154,7 +154,7 @@ List riddlesData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -163,7 +163,7 @@ List riddlesData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -172,7 +172,7 @@ List riddlesData = [
         "value": true,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -181,7 +181,7 @@ List riddlesData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -200,7 +200,7 @@ List riddlesData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -209,7 +209,7 @@ List riddlesData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -218,7 +218,7 @@ List riddlesData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -227,7 +227,7 @@ List riddlesData = [
         "value": true,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -246,7 +246,7 @@ List riddlesData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -255,7 +255,7 @@ List riddlesData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -264,7 +264,7 @@ List riddlesData = [
         "value": true,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -273,7 +273,7 @@ List riddlesData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -292,7 +292,7 @@ List riddlesData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -301,7 +301,7 @@ List riddlesData = [
         "value": true,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -310,7 +310,7 @@ List riddlesData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -319,7 +319,7 @@ List riddlesData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -338,7 +338,7 @@ List riddlesData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -347,7 +347,7 @@ List riddlesData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -356,7 +356,7 @@ List riddlesData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -365,7 +365,7 @@ List riddlesData = [
         "value": true,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -385,7 +385,7 @@ List riddlesData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -394,7 +394,7 @@ List riddlesData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -403,7 +403,7 @@ List riddlesData = [
         "value": true,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -412,7 +412,7 @@ List riddlesData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -431,7 +431,7 @@ List riddlesData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -440,7 +440,7 @@ List riddlesData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -449,7 +449,7 @@ List riddlesData = [
         "value": true,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -458,7 +458,7 @@ List riddlesData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -480,7 +480,7 @@ List animalsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -489,7 +489,7 @@ List animalsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -498,7 +498,7 @@ List animalsData = [
         "value": true,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -507,7 +507,7 @@ List animalsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -526,7 +526,7 @@ List animalsData = [
         "value": true,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -535,7 +535,7 @@ List animalsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -544,7 +544,7 @@ List animalsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -553,7 +553,7 @@ List animalsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -573,7 +573,7 @@ List animalsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -582,7 +582,7 @@ List animalsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -591,7 +591,7 @@ List animalsData = [
         "value": true,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -600,7 +600,7 @@ List animalsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -619,7 +619,7 @@ List animalsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -628,7 +628,7 @@ List animalsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -637,7 +637,7 @@ List animalsData = [
         "value": true,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -646,7 +646,7 @@ List animalsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -666,7 +666,7 @@ List animalsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -675,7 +675,7 @@ List animalsData = [
         "value": true,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -684,7 +684,7 @@ List animalsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -693,7 +693,7 @@ List animalsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -713,7 +713,7 @@ List animalsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -722,7 +722,7 @@ List animalsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -731,7 +731,7 @@ List animalsData = [
         "value": true,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -740,7 +740,7 @@ List animalsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -760,7 +760,7 @@ List animalsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -769,7 +769,7 @@ List animalsData = [
         "value": true,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -778,7 +778,7 @@ List animalsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -787,7 +787,7 @@ List animalsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -806,7 +806,7 @@ List animalsData = [
         "value": true,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -815,7 +815,7 @@ List animalsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -824,7 +824,7 @@ List animalsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -833,7 +833,7 @@ List animalsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -853,7 +853,7 @@ List animalsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -862,7 +862,7 @@ List animalsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -871,7 +871,7 @@ List animalsData = [
         "value": true,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -880,7 +880,7 @@ List animalsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -901,7 +901,7 @@ List animalsData = [
         "value": true,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -910,7 +910,7 @@ List animalsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -919,7 +919,7 @@ List animalsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -928,7 +928,7 @@ List animalsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -951,7 +951,7 @@ List proverbsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -960,7 +960,7 @@ List proverbsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -969,7 +969,7 @@ List proverbsData = [
         "value": true,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -978,7 +978,7 @@ List proverbsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -997,7 +997,7 @@ List proverbsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -1006,7 +1006,7 @@ List proverbsData = [
         "value": true,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -1015,7 +1015,7 @@ List proverbsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -1024,7 +1024,7 @@ List proverbsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -1044,7 +1044,7 @@ List proverbsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -1053,7 +1053,7 @@ List proverbsData = [
         "value": true,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -1062,7 +1062,7 @@ List proverbsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -1071,7 +1071,7 @@ List proverbsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -1090,7 +1090,7 @@ List proverbsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -1099,7 +1099,7 @@ List proverbsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -1108,7 +1108,7 @@ List proverbsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -1117,7 +1117,7 @@ List proverbsData = [
         "value": true,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -1137,7 +1137,7 @@ List proverbsData = [
         "value": true,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -1146,7 +1146,7 @@ List proverbsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -1155,7 +1155,7 @@ List proverbsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -1164,7 +1164,7 @@ List proverbsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -1183,7 +1183,7 @@ List proverbsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -1192,7 +1192,7 @@ List proverbsData = [
         "value": true,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -1201,7 +1201,7 @@ List proverbsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -1210,7 +1210,7 @@ List proverbsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -1221,7 +1221,8 @@ List proverbsData = [
     "dialog": {
       "image": "assets/images/drown.png",
       "title": "A drowning man will clutch at a straw",
-      "content": "If someone is in a difficult or tough situation, he/ she will grasp on any available opportunity",
+      "content":
+          "If someone is in a difficult or tough situation, he/ she will grasp on any available opportunity",
     },
     "options": [
       {
@@ -1229,7 +1230,7 @@ List proverbsData = [
         "value": true,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -1238,7 +1239,7 @@ List proverbsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -1247,7 +1248,7 @@ List proverbsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -1256,7 +1257,7 @@ List proverbsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -1275,7 +1276,7 @@ List proverbsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -1284,7 +1285,7 @@ List proverbsData = [
         "value": true,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -1293,7 +1294,7 @@ List proverbsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -1302,7 +1303,7 @@ List proverbsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -1314,8 +1315,8 @@ List proverbsData = [
       "image": "assets/images/ignore.png",
       "title": "Ignorance is bliss",
       "content": "If you don’t know about something, you don’t need to bother "
-      "about it. In other words, if you’re unaware of something, it won’t cause "
-      "you stress.",
+          "about it. In other words, if you’re unaware of something, it won’t cause "
+          "you stress.",
     },
     "options": [
       {
@@ -1323,7 +1324,7 @@ List proverbsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -1332,7 +1333,7 @@ List proverbsData = [
         "value": true,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -1341,7 +1342,7 @@ List proverbsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -1350,7 +1351,7 @@ List proverbsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -1362,7 +1363,7 @@ List proverbsData = [
       "image": "assets/images/good-news.png",
       "title": " No news is good news",
       "content": "If you don’t receive any news about someone or something, "
-      "it means that everything is fine and going normally.",
+          "it means that everything is fine and going normally.",
     },
     "options": [
       {
@@ -1370,7 +1371,7 @@ List proverbsData = [
         "value": true,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -1379,7 +1380,7 @@ List proverbsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -1388,7 +1389,7 @@ List proverbsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
@@ -1397,7 +1398,7 @@ List proverbsData = [
         "value": false,
         "colors": [
           AppColor.yellow,
-          AppColor.slightlyLighterYellow,
+          AppColor.yellow,
           AppColor.yellow,
         ],
       },
