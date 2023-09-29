@@ -33,12 +33,11 @@ class _MenuScreenState extends State<MenuScreen>
     playBGAudio();
 
     rotationController = AnimationController(duration: 20.seconds, vsync: this)
-      ..addStatusListener((status) { 
+      ..addStatusListener((status) {
         if (status == AnimationStatus.completed) {
-          rotationController.reverse();
-        } else if (status == AnimationStatus.dismissed) {
-          rotationController.forward();
+          rotationController.repeat();
         }
+      });
 
     rotationAnimation = Tween<double>(
       begin: 0,
