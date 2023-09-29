@@ -85,6 +85,7 @@ class _MenuScreenState extends State<MenuScreen>
     }
 
     bgPlayer.onPlayerComplete.listen((_) async {
+      await bgPlayer.setSource(AssetSource("audio/bg-music.mp3"));
       await bgPlayer.resume();
     });
   }
