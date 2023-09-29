@@ -36,11 +36,8 @@ class QuestionProvider extends ChangeNotifier {
 
   void resetOptions() {
     for (var option in options) {
-      option["colors"] = [
-        AppColor.yellow,
-        AppColor.slightlyLighterYellow,
-        AppColor.yellow,
-      ];
+      option["colors"] = 
+        AppColor.yellow;
     }
   }
 
@@ -53,25 +50,18 @@ class QuestionProvider extends ChangeNotifier {
     }
 
     if (options[index]["value"] == true) {
-      options[index]["colors"] = [
-        AppColor.right,
-        AppColor.right,
-        AppColor.right,
-      ];
+      options[index]["colors"] = 
+        AppColor.right
+      ;
     } else {
-      options[index]["colors"] = [
-        AppColor.wrong,
-        AppColor.wrong,
-        AppColor.wrong,
-      ];
+      options[index]["colors"] = 
+        AppColor.wrong
+      ;
 
       for (var option in options) {
         if (option["value"] == true) {
-          option["colors"] = [
-            AppColor.right,
-            AppColor.right,
-            AppColor.right,
-          ];
+          option["colors"] = 
+            AppColor.right;
         }
       }
     }
