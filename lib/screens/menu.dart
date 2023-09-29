@@ -230,8 +230,9 @@ class _MenuScreenState extends State<MenuScreen>
                       child: CustomPaint(
                         painter: CircleBorderPainter(
                           color: AppColor.white.withOpacity(.5),
-                          radius: 100.w,
-                          angle: -pi,
+                          radius: 50.w,
+                          angle: -pi * 4,
+                          strokeWidth: 4.sp,
                         ),
                       ),
                     ),
