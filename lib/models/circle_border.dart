@@ -4,7 +4,9 @@ import 'package:flutter/material.dart';
 
 class CircleBorderPainter extends CustomPainter {
   Color color;
-  CircleBorderPainter({required this.color});
+  double radius;
+
+  CircleBorderPainter({required this.color, required this.radius});
 
   @override
   void paint(Canvas canvas, Size size) {
