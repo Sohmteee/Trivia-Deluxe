@@ -52,29 +52,30 @@ showSettingsDialog(BuildContext context) {
               ),
               Consumer<AudioProvider>(
                 builder: (context, audioProvider, _) {
-                  return Row(
-                    children: [
-                      Text(
-                        "Vol. (${(audioProvider.musicVolume * 100).toInt()}%)",
-                        style: TextStyle(
-                          color: Colors.grey[400],
-                          fontSize: 18.sp,
-                        ),
-                      ),
-                      Slider(
-                        divisions: 10,
-                        value: audioProvider.musicVolume,
-                        onChanged: (value) {
-                          audioProvider.setMusicVolume(value);
-                        },
-                        semanticFormatterCallback: (double newValue) {
-                          return "${(audioProvider.musicVolume * 100).toInt()}%";
-                        },
-                      ),
-                    ],
-                  ).animate().fadeIn(
-                        duration: 1.seconds,
-                      );
+                  return audioProvider.music == true
+                      ? Row(
+                          children: [
+                            Text(
+                              "${(audioProvider.musicVolume * 100).toInt()}%",
+                              style: TextStyle(
+                                color: Colors.grey[400],
+                                fontSize: 18.sp,
+                              ),
+                            ),
+                            Slider(
+                                divisions: 10,
+                                value: audioProvider.musicVolume,
+                                onChanged: (value) {
+                                  audioProvider.setMusicVolume(value);
+                                },
+                                semanticFormatterCallback: (double newValue) {
+                                  return "${(audioProvider.musicVolume * 100).toInt()}%";
+                                }),
+                          ],
+                        ).animate().fadeIn(
+                            duration: 1.seconds,
+                          )
+                      : const SizedBox();
                 },
               ),
               SizedBox(height: 10.h),
