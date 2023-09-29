@@ -32,7 +32,7 @@ class _MenuScreenState extends State<MenuScreen>
     WidgetsBinding.instance.addObserver(this);
     playBGAudio();
 
-    rotationController = AnimationController(duration: 20.seconds, vsync: this)
+    rotationController = AnimationController(duration: 50.seconds, vsync: this)
       ..addStatusListener((status) {
         if (status == AnimationStatus.completed) {
           rotationController.repeat();
