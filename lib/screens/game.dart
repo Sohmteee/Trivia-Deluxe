@@ -105,14 +105,9 @@ class _GameScreenState extends State<GameScreen> {
                               padding: EdgeInsets.all(15.sp),
                               width: double.maxFinite,
                               decoration: BoxDecoration(
-                                color: AppColor.yellow,
+                                color: questionProvider.options[index]
+                                    ["color"],
                                 borderRadius: BorderRadius.circular(10.r),
-                                gradient: LinearGradient(
-                                  colors: questionProvider.options[index]
-                                      ["colors"],
-                                  begin: Alignment.topCenter,
-                                  end: Alignment.bottomCenter,
-                                ),
                               ),
                               child: Text(
                                 "${optionLetter(index)}:  ${questionProvider.options[index]["text"]}",
