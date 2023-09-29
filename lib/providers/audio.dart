@@ -35,15 +35,6 @@ class AudioProvider extends ChangeNotifier {
     box.put("musicVolume", newVolume);
 
     bgPlayer.setVolume(newVolume);
-    tapPlayer.setVolume(newVolume);
-    correctPlayer.setVolume(newVolume);
-    wrongPlayer.setVolume(newVolume);
-    unavailablePlayer.setVolume(newVolume);
-    victoryPlayer.setVolume(newVolume);
-    levelPlayer.setVolume(newVolume);
-    coinUpPlayer.setVolume(newVolume);
-    coinDownPlayer.setVolume(newVolume);
-    redeemPlayer.setVolume(newVolume);
 
     if (newVolume == 0) {
       music = false;
@@ -56,11 +47,21 @@ class AudioProvider extends ChangeNotifier {
     effectsVolume = newVolume;
     box.put("effectsVolume", newVolume);
 
-    bgPlayer.setVolume(newVolume);
-        if (newVolume == 0) {
-      music = false;
-      box.put("music", false);
+    tapPlayer.setVolume(newVolume);
+    correctPlayer.setVolume(newVolume);
+    wrongPlayer.setVolume(newVolume);
+    unavailablePlayer.setVolume(newVolume);
+    victoryPlayer.setVolume(newVolume);
+    levelPlayer.setVolume(newVolume);
+    coinUpPlayer.setVolume(newVolume);
+    coinDownPlayer.setVolume(newVolume);
+    redeemPlayer.setVolume(newVolume);
+
+    if (newVolume == 0) {
+      soundEffects = false;
+      box.put("soundEffects", false);
     }
+
     notifyListeners();
   }
 }
