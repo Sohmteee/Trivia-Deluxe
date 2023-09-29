@@ -14,7 +14,7 @@ class CircleBorderPainter extends CustomPainter {
       ..color = color
       ..style = PaintingStyle.stroke;
     final arcRect = Rect.fromCircle(
-        center: size.bottomCenter(Offset.zero), radius: size.shortestSide);
+        center: size.bottomCenter(Offset.zero), radius: radius);
     canvas.drawArc(arcRect, 0, -pi, false, circle);
   }
 
