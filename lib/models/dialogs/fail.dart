@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:lottie/lottie.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/main.dart';
 import 'package:trivia/models/dialogs/low_cash.dart';
@@ -26,7 +27,7 @@ showFailedDialog(BuildContext context, questionIndex, bool timeUp) {
             color: Colors.grey[400]!,
             shape: BoxShape.circle,
           ),
-          child: Image.asset((timeUp == false)
+          child: Lottie.asset((timeUp == false)
               ? dialog["image"]
               : "assets/images/referee.png"),
         ),
