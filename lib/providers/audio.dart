@@ -50,11 +50,11 @@ class AudioProvider extends ChangeNotifier {
     correctPlayer.setVolume(newVolume);
     wrongPlayer.setVolume(newVolume / 2);
     unavailablePlayer.setVolume(newVolume / 2);
-    victoryPlayer.setVolume(newVolume / 2);
+    victoryPlayer.setVolume(newVolume);
     levelPlayer.setVolume(newVolume / 2);
-    coinUpPlayer.setVolume(newVolume / 2);
-    coinDownPlayer.setVolume(newVolume / 2);
-    redeemPlayer.setVolume(newVolume / 2);
+    coinUpPlayer.setVolume(newVolume);
+    coinDownPlayer.setVolume(newVolume);
+    redeemPlayer.setVolume(newVolume);
 
     if (newVolume == 0) {
       soundEffects = false;
