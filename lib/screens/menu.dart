@@ -237,7 +237,7 @@ class _MenuScreenState extends State<MenuScreen>
                           turns: rotationAnimation,
                           child: CustomPaint(
                             painter: CircleBorderPainter(
-                              color: HexColor("#FF8BA2").withOpacity(1), //FF9FB9
+                              color: HexColor("#FF8BA2").withOpacity(1), //#FF9FB9
                               radius: 46.sp,
                               angle: 1.8 * pi,
                               strokeWidth: 2.sp,
