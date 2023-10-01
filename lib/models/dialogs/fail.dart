@@ -27,9 +27,9 @@ showFailedDialog(BuildContext context, questionIndex, bool timeUp) {
             color: Colors.grey[400]!,
             shape: BoxShape.circle,
           ),
-          child: Lottie.asset((timeUp == false)
+          child: (timeUp == false) ? Lottie.asset(
               ? "assets/json/fail.json"
-              : "assets/images/referee.png"),
+              : ),
         ),
         SizedBox(height: 20.h),
         Text(
