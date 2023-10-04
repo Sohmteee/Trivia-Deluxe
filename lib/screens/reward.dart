@@ -30,6 +30,9 @@ class _RewardScreenState extends State<RewardScreen> {
   final offset = const Offset(20, -350);
   late Path path;
 
+  final GlobalKey key = GlobalKey();
+  late RenderBox box;
+
   bool countUp = false, claimReward = false;
 
   @override
@@ -282,6 +285,7 @@ class _RewardScreenState extends State<RewardScreen> {
                     ),
               ).animate(
                 onComplete: (controller) {
+                  box = 
                   Future.delayed(3.seconds, () {
                     setState(() {
                       claimReward = true;
