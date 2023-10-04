@@ -237,7 +237,6 @@ class _RewardScreenState extends State<RewardScreen> {
                         onComplete: (controller) {
                           setState(() {
                             claimReward = true;
-                            // receivedReward = true;
                           });
                         },
                       )
