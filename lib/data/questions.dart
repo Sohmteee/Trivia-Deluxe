@@ -299,602 +299,610 @@ Map riddlesData = {
   ]
 };
 
-List animalsData = [
-  {
-    "question": "How many years can a snail sleep for?",
-    "dialog": {
-      "title": "3 years",
-      "content": "Snails can sleep up to 3 years at a time",
+Map animalsData = {
+  "currentIndex": 0,
+  "data": [
+    {
+      "question": "How many years can a snail sleep for?",
+      "dialog": {
+        "title": "3 years",
+        "content": "Snails can sleep up to 3 years at a time",
+      },
+      "options": [
+        {
+          "text": "1",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "2",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "3",
+          "value": true,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "4",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+      ]
     },
-    "options": [
-      {
-        "text": "1",
-        "value": false,
-        "color": AppColor.yellow,
+    {
+      "question": "Which animal has no vocal cords?",
+      "dialog": {
+        "title": "Giraffes",
+        "content":
+            "While they do have a vocal box, giraffes have no vocal cords",
       },
-      {
-        "text": "2",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "3",
-        "value": true,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "4",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-    ]
-  },
-  {
-    "question": "Which animal has no vocal cords?",
-    "dialog": {
-      "title": "Giraffes",
-      "content": "While they do have a vocal box, giraffes have no vocal cords",
+      "options": [
+        {
+          "text": "Giraffes",
+          "value": true,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Rhinos",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Deer",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Beavers",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+      ]
     },
-    "options": [
-      {
-        "text": "Giraffes",
-        "value": true,
-        "color": AppColor.yellow,
+    {
+      "question": "How many eyes does a honey bee have?",
+      "dialog": {
+        "title": "5 eyes",
+        "content": "The honey bee has 2 large compound eyes and 3 smaller eyes "
+            "in the center of their head, for a total of 5 eyes",
       },
-      {
-        "text": "Rhinos",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "Deer",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "Beavers",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-    ]
-  },
-  {
-    "question": "How many eyes does a honey bee have?",
-    "dialog": {
-      "title": "5 eyes",
-      "content": "The honey bee has 2 large compound eyes and 3 smaller eyes "
-          "in the center of their head, for a total of 5 eyes",
+      "options": [
+        {
+          "text": "2",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "3",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "5",
+          "value": true,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "8",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+      ]
     },
-    "options": [
-      {
-        "text": "2",
-        "value": false,
-        "color": AppColor.yellow,
+    {
+      "question": "What is a female donkey called?",
+      "dialog": {
+        "title": "A Jenny",
+        "content": "Female donkeys are called a jenny or jennet",
       },
-      {
-        "text": "3",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "5",
-        "value": true,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "8",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-    ]
-  },
-  {
-    "question": "What is a female donkey called?",
-    "dialog": {
-      "title": "A Jenny",
-      "content": "Female donkeys are called a jenny or jennet",
+      "options": [
+        {
+          "text": "Julie",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Jackie",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Jenny",
+          "value": true,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Judy",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+      ]
     },
-    "options": [
-      {
-        "text": "Julie",
-        "value": false,
-        "color": AppColor.yellow,
+    {
+      "question": "How many hearts does an octopus have?",
+      "dialog": {
+        "title": "3 hearts",
+        "content": "An octopus has 3 hearts, one to circulate blood and two "
+            "to pump it passed its gills and pick up oxygen.",
       },
-      {
-        "text": "Jackie",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "Jenny",
-        "value": true,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "Judy",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-    ]
-  },
-  {
-    "question": "How many hearts does an octopus have?",
-    "dialog": {
-      "title": "3 hearts",
-      "content": "An octopus has 3 hearts, one to circulate blood and two "
-          "to pump it passed its gills and pick up oxygen.",
+      "options": [
+        {
+          "text": "1",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "3",
+          "value": true,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "4",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "8",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+      ]
     },
-    "options": [
-      {
-        "text": "1",
-        "value": false,
-        "color": AppColor.yellow,
+    {
+      "question": "What type of animal is a flemish giant?",
+      "dialog": {
+        "title": "A rabbit",
+        "content":
+            "The Flemish Giant is one of the largest breeds of a domestic rabbit.",
       },
-      {
-        "text": "3",
-        "value": true,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "4",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "8",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-    ]
-  },
-  {
-    "question": "What type of animal is a flemish giant?",
-    "dialog": {
-      "title": "A rabbit",
-      "content":
-          "The Flemish Giant is one of the largest breeds of a domestic rabbit.",
+      "options": [
+        {
+          "text": "Guinea Pig",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Duck",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Rabbit",
+          "value": true,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Horse",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+      ]
     },
-    "options": [
-      {
-        "text": "Guinea Pig",
-        "value": false,
-        "color": AppColor.yellow,
+    {
+      "question": "How long does it take for a sloth to digest its food?",
+      "dialog": {
+        "title": "Two weeks",
+        "content":
+            "Sloths are the mammals that take the longest to digest their meals.",
       },
-      {
-        "text": "Duck",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "Rabbit",
-        "value": true,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "Horse",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-    ]
-  },
-  {
-    "question": "How long does it take for a sloth to digest its food?",
-    "dialog": {
-      "title": "Two weeks",
-      "content":
-          "Sloths are the mammals that take the longest to digest their meals.",
+      "options": [
+        {
+          "text": "One week",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Two weeks",
+          "value": true,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Four weeks",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Six weeks",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+      ]
     },
-    "options": [
-      {
-        "text": "One week",
-        "value": false,
-        "color": AppColor.yellow,
+    {
+      "question": "How many bones does a shark have?",
+      "dialog": {
+        "title": "O bones!",
+        "content":
+            "Sharks have no bones, but have cartilaginous tissue instead.",
       },
-      {
-        "text": "Two weeks",
-        "value": true,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "Four weeks",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "Six weeks",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-    ]
-  },
-  {
-    "question": "How many bones does a shark have?",
-    "dialog": {
-      "title": "O bones!",
-      "content": "Sharks have no bones, but have cartilaginous tissue instead.",
+      "options": [
+        {
+          "text": "0",
+          "value": true,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "6",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "20",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "150",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+      ]
     },
-    "options": [
-      {
-        "text": "0",
-        "value": true,
-        "color": AppColor.yellow,
+    {
+      "question": "What color is the beak of a mature mute swan?",
+      "dialog": {
+        "title": "Orange",
+        "content": "Mute Swans are known for their white bodies with an orange "
+            "beak that has a black base",
       },
-      {
-        "text": "6",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "20",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "150",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-    ]
-  },
-  {
-    "question": "What color is the beak of a mature mute swan?",
-    "dialog": {
-      "title": "Orange",
-      "content": "Mute Swans are known for their white bodies with an orange "
-          "beak that has a black base",
+      "options": [
+        {
+          "text": "Red",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "White",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Orange",
+          "value": true,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Yellow",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+      ]
     },
-    "options": [
-      {
-        "text": "Red",
-        "value": false,
-        "color": AppColor.yellow,
+    {
+      "question": "Which animal has the largest eyes in the animal kingdom?",
+      "dialog": {
+        "title": "The Giant Squid",
+        "content":
+            "The ostrich is the land animal with largest eyes, with a diameter of 2 inches. "
+                "But the giant squid is the animal with the largest eyes in the animal kingdom, with a diameter of 10 inches.",
       },
-      {
-        "text": "White",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "Orange",
-        "value": true,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "Yellow",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-    ]
-  },
-  {
-    "question": "Which animal has the largest eyes in the animal kingdom?",
-    "dialog": {
-      "title": "The Giant Squid",
-      "content":
-          "The ostrich is the land animal with largest eyes, with a diameter of 2 inches. "
-              "But the giant squid is the animal with the largest eyes in the animal kingdom, with a diameter of 10 inches.",
+      "options": [
+        {
+          "text": "The giant squid",
+          "value": true,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Ostrich",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Chamelon",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Camel",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+      ]
     },
-    "options": [
-      {
-        "text": "The giant squid",
-        "value": true,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "Ostrich",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "Chamelon",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "Camel",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-    ]
-  },
-];
+  ]
+};
 
-List proverbsData = [
-  {
-    "question": "Beggars can't be ___.",
-    "dialog": {
-      "title": "Beggars can't be choosers",
-      "content":
-          "People dependent on others must be content with what is offered to them",
+Map proverbsData = {
+  "currentIndex": 0,
+  "data": [
+    {
+      "question": "Beggars can't be ___.",
+      "dialog": {
+        "title": "Beggars can't be choosers",
+        "content":
+            "People dependent on others must be content with what is offered to them",
+      },
+      "options": [
+        {
+          "text": "Rich",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Beggars for life",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Choosers",
+          "value": true,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Successful",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+      ]
     },
-    "options": [
-      {
-        "text": "Rich",
-        "value": false,
-        "color": AppColor.yellow,
+    {
+      "question": "A bird in the hand is worth two in the ___.",
+      "dialog": {
+        "title": "A bird in the hand is worth two in the bush",
+        "content": "What you have is better than what you might get",
       },
-      {
-        "text": "Beggars for life",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "Choosers",
-        "value": true,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "Successful",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-    ]
-  },
-  {
-    "question": "A bird in the hand is worth two in the ___.",
-    "dialog": {
-      "title": "A bird in the hand is worth two in the bush",
-      "content": "What you have is better than what you might get",
+      "options": [
+        {
+          "text": "Forest",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Bush",
+          "value": true,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Grave",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Nest",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+      ]
     },
-    "options": [
-      {
-        "text": "Forest",
-        "value": false,
-        "color": AppColor.yellow,
+    {
+      "question": "The grass is always ___ on the other side.",
+      "dialog": {
+        "title": " The grass is always greener on the other side",
+        "content":
+            "Other people always seem to be in a better situation, although it might not be true",
       },
-      {
-        "text": "Bush",
-        "value": true,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "Grave",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "Nest",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-    ]
-  },
-  {
-    "question": "The grass is always ___ on the other side.",
-    "dialog": {
-      "title": " The grass is always greener on the other side",
-      "content":
-          "Other people always seem to be in a better situation, although it might not be true",
+      "options": [
+        {
+          "text": "Better",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Greener",
+          "value": true,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Bigger",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Longer",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+      ]
     },
-    "options": [
-      {
-        "text": "Better",
-        "value": false,
-        "color": AppColor.yellow,
+    {
+      "question": "Every cloud has a ___ lining",
+      "dialog": {
+        "title": "Every cloud has a silver lining",
+        "content": "There is always a positive side to any difficult situation",
       },
-      {
-        "text": "Greener",
-        "value": true,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "Bigger",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "Longer",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-    ]
-  },
-  {
-    "question": "Every cloud has a ___ lining",
-    "dialog": {
-      "title": "Every cloud has a silver lining",
-      "content": "There is always a positive side to any difficult situation",
+      "options": [
+        {
+          "text": "Gold",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Bronze",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Diamond",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Silver",
+          "value": true,
+          "color": AppColor.yellow,
+        },
+      ]
     },
-    "options": [
-      {
-        "text": "Gold",
-        "value": false,
-        "color": AppColor.yellow,
+    {
+      "question": "Out of sight, out of ___",
+      "dialog": {
+        "title": "Out of sight, out of mind",
+        "content":
+            "People or things that are no longer present are easily forgotten",
       },
-      {
-        "text": "Bronze",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "Diamond",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "Silver",
-        "value": true,
-        "color": AppColor.yellow,
-      },
-    ]
-  },
-  {
-    "question": "Out of sight, out of ___",
-    "dialog": {
-      "title": "Out of sight, out of mind",
-      "content":
-          "People or things that are no longer present are easily forgotten",
+      "options": [
+        {
+          "text": "Mind",
+          "value": true,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Thought",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Control",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "The light",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+      ]
     },
-    "options": [
-      {
-        "text": "Mind",
-        "value": true,
-        "color": AppColor.yellow,
+    {
+      "question": "Good things come to those who ___",
+      "dialog": {
+        "title": "Good things come to those who wait",
+        "content": "Patience is rewarded",
       },
-      {
-        "text": "Thought",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "Control",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "The light",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-    ]
-  },
-  {
-    "question": "Good things come to those who ___",
-    "dialog": {
-      "title": "Good things come to those who wait",
-      "content": "Patience is rewarded",
+      "options": [
+        {
+          "text": "Deserve them",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Wait",
+          "value": true,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Want them",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Are good",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+      ]
     },
-    "options": [
-      {
-        "text": "Deserve them",
-        "value": false,
-        "color": AppColor.yellow,
+    {
+      "question": "A drowning man will clutch at a ___",
+      "dialog": {
+        "title": "A drowning man will clutch at a straw",
+        "content":
+            "If someone is in a difficult or tough situation, he/ she will grasp on any available opportunity",
       },
-      {
-        "text": "Wait",
-        "value": true,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "Want them",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "Are good",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-    ]
-  },
-  {
-    "question": "A drowning man will clutch at a ___",
-    "dialog": {
-      "title": "A drowning man will clutch at a straw",
-      "content":
-          "If someone is in a difficult or tough situation, he/ she will grasp on any available opportunity",
+      "options": [
+        {
+          "text": "Straw",
+          "value": true,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Rope",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Thread",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Hand",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+      ]
     },
-    "options": [
-      {
-        "text": "Straw",
-        "value": true,
-        "color": AppColor.yellow,
+    {
+      "question": "Practice what you ___",
+      "dialog": {
+        "title": " Practice what you preach",
+        "content": "Behave the way you encourage other people to behave",
       },
-      {
-        "text": "Rope",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "Thread",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "Hand",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-    ]
-  },
-  {
-    "question": "Practice what you ___",
-    "dialog": {
-      "title": " Practice what you preach",
-      "content": "Behave the way you encourage other people to behave",
+      "options": [
+        {
+          "text": "Dream",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Preach",
+          "value": true,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "See",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Feel like practicing",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+      ]
     },
-    "options": [
-      {
-        "text": "Dream",
-        "value": false,
-        "color": AppColor.yellow,
+    {
+      "question": "Ignorance is ___",
+      "dialog": {
+        "title": "Ignorance is bliss",
+        "content": "If you don’t know about something, you don’t need to bother "
+            "about it. In other words, if you’re unaware of something, it won’t cause "
+            "you stress.",
       },
-      {
-        "text": "Preach",
-        "value": true,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "See",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "Feel like practicing",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-    ]
-  },
-  {
-    "question": "Ignorance is ___",
-    "dialog": {
-      "title": "Ignorance is bliss",
-      "content": "If you don’t know about something, you don’t need to bother "
-          "about it. In other words, if you’re unaware of something, it won’t cause "
-          "you stress.",
+      "options": [
+        {
+          "text": "Plenty",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Bliss",
+          "value": true,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Stupidity",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "A virtue",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+      ]
     },
-    "options": [
-      {
-        "text": "Plenty",
-        "value": false,
-        "color": AppColor.yellow,
+    {
+      "question": " No news is ___ news",
+      "dialog": {
+        "title": " No news is good news",
+        "content": "If you don’t receive any news about someone or something, "
+            "it means that everything is fine and going normally.",
       },
-      {
-        "text": "Bliss",
-        "value": true,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "Stupidity",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "A virtue",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-    ]
-  },
-  {
-    "question": " No news is ___ news",
-    "dialog": {
-      "title": " No news is good news",
-      "content": "If you don’t receive any news about someone or something, "
-          "it means that everything is fine and going normally.",
+      "options": [
+        {
+          "text": "Good",
+          "value": true,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Bad",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Wasted",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "New",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+      ]
     },
-    "options": [
-      {
-        "text": "Good",
-        "value": true,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "Bad",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "Wasted",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "New",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-    ]
-  },
-];
+  ]
+};
