@@ -221,8 +221,12 @@ class _RewardScreenState extends State<RewardScreen> {
                                   ),
                           ).animate().slideX(
                             duration: .5.seconds,
+                              begin: -20.w,
+                              end: 0,
+                            ).then().slideX(
+                              duration: .5.seconds,
                               begin: 0,
-                              end: -20.w,
+                              end: -5.w,
                             )
                         : Stack(
                             alignment: Alignment.center,
