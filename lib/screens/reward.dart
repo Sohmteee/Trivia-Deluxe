@@ -220,6 +220,7 @@ class _RewardScreenState extends State<RewardScreen> {
                           )
                         : SizedBox(
                             child: Stack(
+                              alignment: Alignment.center,
                               children: [
                                 Stack(
                                   children: List.generate(
