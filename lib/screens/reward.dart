@@ -12,6 +12,7 @@ import 'package:trivia/data/controllers.dart';
 import 'package:trivia/main.dart';
 import 'package:trivia/models/game_background.dart';
 import 'package:trivia/models/stat_bar.dart';
+import 'package:trivia/providers/level.dart';
 import 'package:trivia/providers/money.dart';
 import 'package:trivia/providers/score.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
@@ -46,10 +47,10 @@ class _RewardScreenState extends State<RewardScreen> {
     score = scoreProvider.score;
     scoreProvider.resetScore();
 
-    score = 18;
+    // score = 18;
 
-    final moneyProvider = Provider.of<MoneyProvider>(context, listen: false);
-    moneyProvider.resetCoins();
+    // final moneyProvider = Provider.of<MoneyProvider>(context, listen: false);
+    // moneyProvider.resetCoins();
 
     Future.delayed(5.5.seconds, () {
       setState(() {
@@ -63,6 +64,9 @@ class _RewardScreenState extends State<RewardScreen> {
   void dispose() {
     victoryPlayer.dispose();
     vitoryConfettiController.dispose();
+    
+    final levelProvider = Provider.of<LevelProvider>(context,listen: false);
+    levelProvider.incrementLevel();
     super.dispose();
   }
 
@@ -324,13 +328,12 @@ class _RewardScreenState extends State<RewardScreen> {
                       delay: 2.seconds,
                       duration: 1.seconds,
                     ),
-              ).animate(
-              ).slideX(
-                delay: 2.seconds,
-                duration: 2.seconds,
-                begin: 20.h,
-                end: 0,
-              ),
+              ).animate().slideX(
+                    delay: 2.seconds,
+                    duration: 2.seconds,
+                    begin: 20.h,
+                    end: 0,
+                  ),
               const Spacer(flex: 2),
               if (receivedReward)
                 ZoomTapAnimation(
