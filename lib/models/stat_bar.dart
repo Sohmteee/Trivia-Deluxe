@@ -34,10 +34,7 @@ class _GameStatsState extends State<GameStats> {
         debugPrint("Animate coins: $animateCoins");
       });
     });
-    
-    sourceBox = sourceKey.currentContext?.findRenderObject() as RenderBox;
-    sourceOffset = sourceBox.localToGlobal(Offset.zero);
-    print()
+
     super.initState();
   }
 
@@ -52,7 +49,6 @@ class _GameStatsState extends State<GameStats> {
 
   @override
   Widget build(BuildContext context) {
-
     return Consumer<MoneyProvider>(builder: (context, moneyProvider, _) {
       return Row(
         children: [
