@@ -254,6 +254,7 @@ class _RewardScreenState extends State<RewardScreen> {
 
                                           setState(() {
                                             path = Path()
+                                            ..
                                               ..arcToPoint(
                                                 destinationOffset,
                                                 radius:
