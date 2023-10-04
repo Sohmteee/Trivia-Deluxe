@@ -7,6 +7,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/colors/hex_color.dart';
+import 'package:trivia/data/box.dart';
 import 'package:trivia/data/controllers.dart';
 import 'package:trivia/main.dart';
 import 'package:trivia/models/circle_border.dart';
@@ -33,7 +34,8 @@ class _MenuScreenState extends State<MenuScreen>
     WidgetsBinding.instance.addObserver(this);
     playBGAudio();
 
-    final audio
+    final audioProvider = Provider.of<AudioProvider>(context);
+    audioProvider.setEffectsVolume(box.get("effectsVolume"));
 
     rotationController = AnimationController(duration: 100.seconds, vsync: this)
       ..addStatusListener((status) {
@@ -106,9 +108,7 @@ class _MenuScreenState extends State<MenuScreen>
     await bgPlayer.stop();
   }
 
-  Future<void> setEffectsVolume() async {
-    
-  }
+  Future<void> setEffectsVolume() async {}
 
   @override
   Widget build(BuildContext context) {
@@ -243,7 +243,8 @@ class _MenuScreenState extends State<MenuScreen>
                           turns: rotationAnimation,
                           child: CustomPaint(
                             painter: CircleBorderPainter(
-                              color: HexColor("#FF8BA2").withOpacity(1), //#FF9FB9
+                              color:
+                                  HexColor("#FF8BA2").withOpacity(1), //#FF9FB9
                               radius: 46.sp,
                               angle: 1.8 * pi,
                               strokeWidth: 2.sp,
