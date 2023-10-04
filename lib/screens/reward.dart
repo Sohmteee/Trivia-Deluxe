@@ -218,57 +218,55 @@ class _RewardScreenState extends State<RewardScreen> {
                                     ),
                                   ),
                           )
-                        : SizedBox(
-                            child: Stack(
-                              alignment: Alignment.center,
-                              children: [
-                                Stack(
-                                  children: List.generate(
-                                    score,
-                                    (index) => SizedBox(
-                                      width: 30.w,
-                                      child:
-                                          Image.asset("assets/images/coin.png"),
-                                    ),
+                        : Stack(
+                          alignment: Alignment.center,
+                          children: [
+                            Stack(
+                              children: List.generate(
+                                score,
+                                (index) => SizedBox(
+                                  width: 30.w,
+                                  child:
+                                      Image.asset("assets/images/coin.png"),
+                                ),
+                              )
+                                  .animate(
+                                      interval: 50.milliseconds,
+                                      onPlay: (controller) {
+                                        Future.delayed(1.8.seconds, () {
+                                          playCoinUp(context);
+                                        });
+                                      },
+                                      onComplete: (controller) {
+                                        setState(() {
+                                          receivedReward = true;
+                                          final moneyProvider =
+                                              Provider.of<MoneyProvider>(
+                                                  context,
+                                                  listen: false);
+                                          moneyProvider.increaseCoins(1);
+                                        });
+                                      })
+                                  .followPath(
+                                    path: path,
+                                    delay: 1.seconds,
+                                    duration: 1.seconds,
                                   )
-                                      .animate(
-                                          interval: 50.milliseconds,
-                                          onPlay: (controller) {
-                                            Future.delayed(1.8.seconds, () {
-                                              playCoinUp(context);
-                                            });
-                                          },
-                                          onComplete: (controller) {
-                                            setState(() {
-                                              receivedReward = true;
-                                              final moneyProvider =
-                                                  Provider.of<MoneyProvider>(
-                                                      context,
-                                                      listen: false);
-                                              moneyProvider.increaseCoins(1);
-                                            });
-                                          })
-                                      .followPath(
-                                        path: path,
-                                        delay: 1.seconds,
-                                        duration: 1.seconds,
-                                      )
-                                      .fadeOut(
-                                        delay: 1.seconds,
-                                        duration: 1.seconds,
-                                      ),
-                                ),
-                                SizedBox(
-                                  height: 150.h,
-                                  width: 150.w,
-                                  child: Lottie.asset(
-                                    "assets/json/chest.json",
-                                    repeat: false,
+                                  .fadeOut(
+                                    delay: 1.seconds,
+                                    duration: 1.seconds,
                                   ),
-                                ),
-                              ],
                             ),
-                          ).animate().fadeIn(
+                            SizedBox(
+                              height: 150.h,
+                              width: 150.w,
+                              child: Lottie.asset(
+                                "assets/json/chest.json",
+                                repeat: false,
+                              ),
+                            ),
+                          ],
+                        ).animate().fadeIn(
                               duration: .5.seconds,
                               begin: 0,
                             ),
