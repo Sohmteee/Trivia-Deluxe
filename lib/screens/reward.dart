@@ -54,6 +54,9 @@ class _RewardScreenState extends State<RewardScreen> {
     // final moneyProvider = Provider.of<MoneyProvider>(context, listen: false);
     // moneyProvider.resetCoins();
 
+    final levelProvider = Provider.of<LevelProvider>(context, listen: false);
+    levelProvider.incrementLevel();
+
     Future.delayed(5.5.seconds, () {
       setState(() {
         countUp = true;
@@ -66,9 +69,6 @@ class _RewardScreenState extends State<RewardScreen> {
   void dispose() {
     victoryPlayer.dispose();
     vitoryConfettiController.dispose();
-
-    final levelProvider = Provider.of<LevelProvider>(context, listen: false);
-    levelProvider.incrementLevel();
 
     super.dispose();
   }
