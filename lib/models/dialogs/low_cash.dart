@@ -17,14 +17,12 @@ showLowCashDialog(BuildContext context) {
         mainAxisSize: MainAxisSize.min,
         children: [
           Container(
-            padding: EdgeInsets.all(35.sp),
             decoration: BoxDecoration(
               color: Colors.transparent,
               shape: BoxShape.circle,
             ),
             child: Lottie.asset(
               "assets/json/broke.json",
-              repeat: false,
             ),
           ),
           SizedBox(height: 20.h),
