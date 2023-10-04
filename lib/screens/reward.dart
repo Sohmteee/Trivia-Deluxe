@@ -195,30 +195,19 @@ class _RewardScreenState extends State<RewardScreen> {
                             ),
                           ),
                           const SizedBox(width: 10),
-                          !receivedReward
-                              ? countUp
-                                  ? Countup(
-                                      begin: 0,
-                                      end: score.toDouble(),
-                                      duration: 1.seconds,
-                                      style: TextStyle(
-                                        color: AppColor.right,
-                                        fontSize: 30.sp,
-                                        fontWeight: FontWeight.bold,
-                                      ),
-                                    )
-                                  : Text(
-                                      "0",
-                                      style: TextStyle(
-                                        color: AppColor.right,
-                                        fontSize: 30.sp,
-                                        fontWeight: FontWeight.bold,
-                                      ),
-                                    )
-                              : Countup(
-                                  begin: score.toDouble(),
-                                  end: 0,
+                          countUp
+                              ? Countup(
+                                  begin: 0,
+                                  end: score.toDouble(),
                                   duration: 1.seconds,
+                                  style: TextStyle(
+                                    color: AppColor.right,
+                                    fontSize: 30.sp,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                )
+                              : Text(
+                                  "0",
                                   style: TextStyle(
                                     color: AppColor.right,
                                     fontSize: 30.sp,
