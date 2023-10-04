@@ -260,6 +260,7 @@ class _RewardScreenState extends State<RewardScreen> {
                                 ),
                                 SizedBox(
                                   height: 150.h,
+                                  width: 150.w,
                                   child: Lottie.asset(
                                     "assets/json/chest.json",
                                     animate: false,
