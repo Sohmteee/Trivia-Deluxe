@@ -28,7 +28,7 @@ showFailedDialog(BuildContext context, questionIndex, bool timeUp) {
               shape: BoxShape.circle,
             ),
             child: (timeUp == false) ?  Lottie.asset(
-                 "assets/json/fail.json") : Lottie.asset("assets/json/time-up.json"),
+                 "assets/json/fail.json") : Lottie.asset("assets/json/time-up.json")),
         SizedBox(height: 20.h),
         Text(
           (timeUp == false) ? dialog["title"] : "Time's up!",
