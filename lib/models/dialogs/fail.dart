@@ -81,7 +81,12 @@ showFailedDialog(BuildContext context, questionIndex, bool timeUp) {
                         setState(() {
                           showAnim = true;
                         });
-                        
+                        Future.delayed(
+                          2.seconds,
+                          () => setState(() {
+                            showAnim = false;
+                          }),
+                        );
                         moneyProvider.decreaseCoins(20);
                         Future.delayed(
                           1.seconds,
