@@ -33,6 +33,8 @@ class _MenuScreenState extends State<MenuScreen>
     WidgetsBinding.instance.addObserver(this);
     playBGAudio();
 
+    final audio
+
     rotationController = AnimationController(duration: 100.seconds, vsync: this)
       ..addStatusListener((status) {
         if (status == AnimationStatus.completed) {
@@ -102,6 +104,10 @@ class _MenuScreenState extends State<MenuScreen>
 
   Future<void> stopBGAudio() async {
     await bgPlayer.stop();
+  }
+
+  Future<void> setEffectsVolume() async {
+    
   }
 
   @override
