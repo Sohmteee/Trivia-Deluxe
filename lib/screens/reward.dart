@@ -27,7 +27,7 @@ class RewardScreen extends StatefulWidget {
 class _RewardScreenState extends State<RewardScreen> {
   bool receivedReward = false;
   late int score;
-  final int level = Provider.of<LevelProvider>(context, listen: false).level;
+  late int level;
   late ConfettiController vitoryConfettiController;
   final offset = const Offset(20, -350);
   late Path path;
@@ -37,6 +37,7 @@ class _RewardScreenState extends State<RewardScreen> {
   @override
   void initState() {
     playVictory(context);
+    level = Provider.of<LevelProvider>(context, listen: false).level;
     path = Path()
       ..arcToPoint(
         offset,
