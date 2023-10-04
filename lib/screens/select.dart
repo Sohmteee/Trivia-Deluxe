@@ -98,7 +98,7 @@ class _SelectScreenState extends State<SelectScreen> {
                               height: 40.h,
                             ),
                             title: Text(
-                              selectItem["title"],
+                              selectItem["data"]["title"],
                               style: TextStyle(
                                 color: AppColor.white,
                                 fontSize: 16.sp,
