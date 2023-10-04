@@ -108,7 +108,7 @@ class _MenuScreenState extends State<MenuScreen>
   }
 
   void initializeEffectsVolume() {
-    final audioProvider = Provider.of<AudioProvider>(context);
+    final audioProvider = Provider.of<AudioProvider>(context, listen: false);
 
     if (audioProvider.soundEffects) {
       audioProvider.setEffectsVolume(box.get("effectsVolume"));
