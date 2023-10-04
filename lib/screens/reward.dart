@@ -24,7 +24,7 @@ class RewardScreen extends StatefulWidget {
 }
 
 class _RewardScreenState extends State<RewardScreen> {
-  late bool receivedReward;
+  bool receivedReward = false;
   late int score;
   late ConfettiController vitoryConfettiController;
   late Offset offset;
@@ -34,7 +34,6 @@ class _RewardScreenState extends State<RewardScreen> {
   @override
   void initState() {
     playVictory(context);
-    receivedReward = false;
     vitoryConfettiController = ConfettiController(duration: 1.5.seconds);
     final scoreProvider = Provider.of<ScoreProvider>(context, listen: false);
     score = scoreProvider.score;
