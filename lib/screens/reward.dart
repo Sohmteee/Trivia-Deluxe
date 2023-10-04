@@ -27,8 +27,14 @@ class _RewardScreenState extends State<RewardScreen> {
   bool receivedReward = false;
   late int score;
   late ConfettiController vitoryConfettiController;
-  late Offset offset;
-  late Path path;
+  final offset = const Offset(20, -350);
+
+                            final path = Path()
+                              ..arcToPoint(
+                                offset,
+                                radius: const Radius.circular(300),
+                                clockwise: true,
+                              );
   bool countUp = false, claimReward = false;
 
   @override
@@ -136,17 +142,7 @@ class _RewardScreenState extends State<RewardScreen> {
                           onPlay: (controller) => Future.delayed(
                                 1.seconds,
                                 () => vitoryConfettiController.play(),
-                              ),
-                          onComplete: (controller) {
-                            offset = const Offset(20, -350);
-
-                            path = Path()
-                              ..arcToPoint(
-                                offset,
-                                radius: const Radius.circular(300),
-                                clockwise: true,
-                              );
-                          })
+                              ),)
                       .scaleXY(
                         delay: 1.seconds,
                         duration: 1.seconds,
