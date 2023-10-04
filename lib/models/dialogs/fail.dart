@@ -22,15 +22,13 @@ showFailedDialog(BuildContext context, questionIndex, bool timeUp) {
       mainAxisSize: MainAxisSize.min,
       children: [
         Container(
-          padding: EdgeInsets.all(35.sp),
-          decoration: BoxDecoration(
-            color: timeUp ? Colors.grey[400]! : Colors.transparent,
-            shape: BoxShape.circle,
-          ),
-          child: 
-              ? Lottie.asset((timeUp == false) ? "assets/json/fail.json" : assets/json/time-up.json)
-              : Image.asset("assets/images/referee.png"),
-        ),
+            padding: EdgeInsets.all(35.sp),
+            decoration: BoxDecoration(
+              color: timeUp ? Colors.grey[400]! : Colors.transparent,
+              shape: BoxShape.circle,
+            ),
+            child: (timeUp == false) ?  Lottie.asset(
+                 "assets/json/fail.json")),
         SizedBox(height: 20.h),
         Text(
           (timeUp == false) ? dialog["title"] : "Time's up!",
