@@ -39,7 +39,7 @@ class _RewardScreenState extends State<RewardScreen> {
   @override
   void initState() {
     playVictory(context);
-    
+
     vitoryConfettiController = ConfettiController(duration: 1.5.seconds);
     final scoreProvider = Provider.of<ScoreProvider>(context, listen: false);
     score = scoreProvider.score;
@@ -218,7 +218,7 @@ class _RewardScreenState extends State<RewardScreen> {
                                   ),
                           )
                         : SizedBox(
-                          key: destinationKey,
+                            key: destinationKey,
                             child: Stack(
                                 children: List.generate(
                               score,
@@ -244,6 +244,22 @@ class _RewardScreenState extends State<RewardScreen> {
                                             moneyProvider.increaseCoins(1);
                                           });
 
+                                          destinationBox = destinationKey
+                                              .currentContext
+                                              ?.findRenderObject() as RenderBox;
+                                          destinationOffset = destinationBox
+                                              .localToGlobal(Offset.zero);
+                                          print(destinationOffset);
+
+                                          setState(() {
+                                            path = Path()
+                                              ..arcToPoint(
+                                                destinationOffset,
+                                                radius:
+                                                    const Radius.circular(300),
+                                                clockwise: true,
+                                              );
+                                          });
                                         })
                                     .followPath(
                                       path: path,
@@ -254,9 +270,7 @@ class _RewardScreenState extends State<RewardScreen> {
                                       delay: 1.seconds,
                                       duration: 1.seconds,
                                     )),
-                          ).animate(
-                            
-                          ).fadeIn(
+                          ).animate().fadeIn(
                               duration: .5.seconds,
                               begin: 0,
                             ),
