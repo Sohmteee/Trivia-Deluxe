@@ -16,6 +16,7 @@ showFailedDialog(BuildContext context, questionIndex, bool timeUp) {
       Provider.of<QuestionProvider>(context, listen: false);
 
   var dialog = questionProvider.questions[questionIndex]["dialog"];
+  bool show
   showGameDialog(
     context,
     child: Stack(
