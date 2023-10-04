@@ -219,14 +219,11 @@ class _RewardScreenState extends State<RewardScreen> {
                                       fontWeight: FontWeight.bold,
                                     ),
                                   ),
-                          ).animate().slideX(
-                            duration: .5.seconds,
-                              begin: -20.w,
-                              end: 0,
-                            ).then().slideX(
+                          ).animate().then().slideX(
+                              delay: 3.seconds,
                               duration: .5.seconds,
                               begin: 0,
-                              end: -5.w,
+                              end: -1.w,
                             )
                         : Stack(
                             alignment: Alignment.center,
