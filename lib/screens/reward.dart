@@ -263,7 +263,7 @@ class _RewardScreenState extends State<RewardScreen> {
                                   width: 150.w,
                                   child: Lottie.asset(
                                     "assets/json/chest.json",
-                                    animate: false,
+                                    repeat: false,
                                   ),
                                 ),
                               ],
