@@ -28,18 +28,20 @@ class _RewardScreenState extends State<RewardScreen> {
   late int score;
   late ConfettiController vitoryConfettiController;
   final offset = const Offset(20, -350);
+  late Path path;
 
-                            final path = Path()
-                              ..arcToPoint(
-                                offset,
-                                radius: const Radius.circular(300),
-                                clockwise: true,
-                              );
+
   bool countUp = false, claimReward = false;
 
   @override
   void initState() {
     playVictory(context);
+    path = Path()
+      ..arcToPoint(
+        offset,
+        radius: const Radius.circular(300),
+        clockwise: true,
+      );
     vitoryConfettiController = ConfettiController(duration: 1.5.seconds);
     final scoreProvider = Provider.of<ScoreProvider>(context, listen: false);
     score = scoreProvider.score;
@@ -139,10 +141,11 @@ class _RewardScreenState extends State<RewardScreen> {
                         ),
                   )
                       .animate(
-                          onPlay: (controller) => Future.delayed(
-                                1.seconds,
-                                () => vitoryConfettiController.play(),
-                              ),)
+                        onPlay: (controller) => Future.delayed(
+                          1.seconds,
+                          () => vitoryConfettiController.play(),
+                        ),
+                      )
                       .scaleXY(
                         delay: 1.seconds,
                         duration: 1.seconds,
