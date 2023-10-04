@@ -182,19 +182,21 @@ class _RewardScreenState extends State<RewardScreen> {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    !claimReward ? Text(
-                      "You earned",
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 30.sp,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ).animate().scaleXY(
-                          delay: 7.seconds,
-                          duration: .5.seconds,
-                          begin: 1,
-                          end: 0,
-                        ),
+                    !claimReward
+                        ? Text(
+                            "You earned",
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 30.sp,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ).animate().scaleXY(
+                              delay: 7.seconds,
+                              duration: .5.seconds,
+                              begin: 1,
+                              end: 0,
+                            )
+                        : const Spacer(flex: 2),
                     const SizedBox(width: 10),
                     !claimReward
                         ? SizedBox(
@@ -258,8 +260,8 @@ class _RewardScreenState extends State<RewardScreen> {
                                     ),
                               ),
                               SizedBox(
-                                height: 80.h,
-                                width: 80.w,
+                                height: 150.h,
+                                width: 150.w,
                                 child: Lottie.asset(
                                   "assets/json/chest.json",
                                   repeat: false,
@@ -271,19 +273,21 @@ class _RewardScreenState extends State<RewardScreen> {
                               begin: 0,
                             ),
                     const SizedBox(width: 10),
-                    Text(
-                      "coins",
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 30.sp,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ).animate().scaleXY(
-                          delay: 7.seconds,
-                          duration: .5.seconds,
-                          begin: 1,
-                          end: 0,
-                        ),
+                    !claimReward
+                        ? Text(
+                            "coins",
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 30.sp,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ).animate().scaleXY(
+                              delay: 7.seconds,
+                              duration: .5.seconds,
+                              begin: 1,
+                              end: 0,
+                            )
+                        : const Spacer(),
                   ],
                 )
                     .animate(
