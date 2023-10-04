@@ -38,19 +38,17 @@ class _LevelScreenState extends State<LevelScreen> {
             children: [
               const GameStats(),
               const Spacer(),
-              Consumer<LevelProvider>(
-                builder: (context, levelProvider, _) {
-                  return Text(
-                    "Level $level",
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 50.sp,
-                      fontWeight: FontWeight.bold,
-                    ),
-                    textAlign: TextAlign.center,
-                  );
-                }
-              ),
+              Consumer<LevelProvider>(builder: (context, levelProvider, _) {
+                return Text(
+                  "Level ${levelProvider.level}",
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 50.sp,
+                    fontWeight: FontWeight.bold,
+                  ),
+                  textAlign: TextAlign.center,
+                );
+              }),
               const Spacer(),
               buildLevel(),
               const Spacer(flex: 3),
