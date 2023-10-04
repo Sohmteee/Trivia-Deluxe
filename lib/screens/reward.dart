@@ -245,23 +245,7 @@ class _RewardScreenState extends State<RewardScreen> {
                                             moneyProvider.increaseCoins(1);
                                           });
 
-                                          sourceBox = sourceKey
-                                              .currentContext
-                                              ?.findRenderObject() as RenderBox;
-                                          sourceOffset = sourceBox
-                                              .localToGlobal(Offset.zero);
-                                          print(sourceOffset);  
-
-                                          setState(() {
-                                            path = Path()
-                                            ..
-                                              ..arcToPoint(
-                                                destinationOffset,
-                                                radius:
-                                                    const Radius.circular(300),
-                                                clockwise: true,
-                                              );
-                                          });
+                                          
                                         })
                                     .followPath(
                                       path: path,
