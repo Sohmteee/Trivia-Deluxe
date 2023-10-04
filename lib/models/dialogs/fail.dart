@@ -18,6 +18,8 @@ showFailedDialog(BuildContext context, questionIndex, bool timeUp) {
   var dialog = questionProvider.questions[questionIndex]["dialog"];
   bool showAnim = false;
 
+  if (timeUp) playWrong(context);
+
   showGameDialog(
     context,
     child: StatefulBuilder(
