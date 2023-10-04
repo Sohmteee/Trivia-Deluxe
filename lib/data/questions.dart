@@ -1,300 +1,303 @@
 import 'package:trivia/colors/app_color.dart';
 
-List riddlesData = [
-  {
-    "question":
-        "What is there one of in every corner and two of in every room?",
-    "dialog": {
-      "title": "The letter 'O'",
-      "content":
-          "'O' appears once in the word 'corner' and twice in the word 'room'",
+Map riddlesData = {
+  "currentIndex": 0,
+  "data": [
+    {
+      "question":
+          "What is there one of in every corner and two of in every room?",
+      "dialog": {
+        "title": "The letter 'O'",
+        "content":
+            "'O' appears once in the word 'corner' and twice in the word 'room'",
+      },
+      "options": [
+        {
+          "text": "Sand",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Socks",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "The letter 'O'",
+          "value": true,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Love",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+      ]
     },
-    "options": [
-      {
-        "text": "Sand",
-        "value": false,
-        "color": AppColor.yellow,
+    {
+      "question": "What is stronger than steel but can't handle the sun?",
+      "dialog": {
+        "title": "Ice",
+        "content": "Ice is strong but ironically melts under the sun",
       },
-      {
-        "text": "Socks",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "The letter 'O'",
-        "value": true,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "Love",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-    ]
-  },
-  {
-    "question": "What is stronger than steel but can't handle the sun?",
-    "dialog": {
-      "title": "Ice",
-      "content": "Ice is strong but ironically melts under the sun",
+      "options": [
+        {
+          "text": "Iron",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Ice",
+          "value": true,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Man",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Glass",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+      ]
     },
-    "options": [
-      {
-        "text": "Iron",
-        "value": false,
-        "color": AppColor.yellow,
+    {
+      "question": "The more there is, the less you see. What am I?",
+      "dialog": {
+        "title": "Darkness",
+        "content": "You see less the darker it gets",
       },
-      {
-        "text": "Ice",
-        "value": true,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "Man",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "Glass",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-    ]
-  },
-  {
-    "question": "The more there is, the less you see. What am I?",
-    "dialog": {
-      "title": "Darkness",
-      "content": "You see less the darker it gets",
+      "options": [
+        {
+          "text": "Darkness",
+          "value": true,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Magic",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Hope",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Garri",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+      ]
     },
-    "options": [
-      {
-        "text": "Darkness",
-        "value": true,
-        "color": AppColor.yellow,
+    {
+      "question": "I am full of holes but strong as steel. What am I?",
+      "dialog": {
+        "title": "A chain",
+        "content": "A chain can hold up to 125,000 pounds of weight",
       },
-      {
-        "text": "Magic",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "Hope",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "Garri",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-    ]
-  },
-  {
-    "question": "I am full of holes but strong as steel. What am I?",
-    "dialog": {
-      "title": "A chain",
-      "content": "A chain can hold up to 125,000 pounds of weight",
+      "options": [
+        {
+          "text": "A net",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Sand",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "A chain",
+          "value": true,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "A basket",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+      ]
     },
-    "options": [
-      {
-        "text": "A net",
-        "value": false,
-        "color": AppColor.yellow,
+    {
+      "question": "You are my brother, but I'm not your brother. Who am I?",
+      "dialog": {
+        "title": "I'm your sister",
+        "content": "Sometimes they're annoying, but it's great to have them.",
       },
-      {
-        "text": "Sand",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "A chain",
-        "value": true,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "A basket",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-    ]
-  },
-  {
-    "question": "You are my brother, but I'm not your brother. Who am I?",
-    "dialog": {
-      "title": "I'm your sister",
-      "content": "Sometimes they're annoying, but it's great to have them.",
+      "options": [
+        {
+          "text": "My father",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "My mother",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "My brother",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "My sister",
+          "value": true,
+          "color": AppColor.yellow,
+        },
+      ]
     },
-    "options": [
-      {
-        "text": "My father",
-        "value": false,
-        "color": AppColor.yellow,
+    {
+      "question": "What can fill an entire room without taking up any space?",
+      "dialog": {
+        "title": "Light",
+        "content": "Light has no mass, neither does it occupy space",
       },
-      {
-        "text": "My mother",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "My brother",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "My sister",
-        "value": true,
-        "color": AppColor.yellow,
-      },
-    ]
-  },
-  {
-    "question": "What can fill an entire room without taking up any space?",
-    "dialog": {
-      "title": "Light",
-      "content": "Light has no mass, neither does it occupy space",
+      "options": [
+        {
+          "text": "Air",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Dust",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Light",
+          "value": true,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Fart",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+      ]
     },
-    "options": [
-      {
-        "text": "Air",
-        "value": false,
-        "color": AppColor.yellow,
+    {
+      "question": "What has 10 letters and starts with gas?",
+      "dialog": {
+        "title": "Automobile",
+        "content": "An automobile has 10 letters and starts with gas (fuel)",
       },
-      {
-        "text": "Dust",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "Light",
-        "value": true,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "Fart",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-    ]
-  },
-  {
-    "question": "What has 10 letters and starts with gas?",
-    "dialog": {
-      "title": "Automobile",
-      "content": "An automobile has 10 letters and starts with gas (fuel)",
+      "options": [
+        {
+          "text": "Gasoline",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Automobile",
+          "value": true,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Gaseous",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Vehicle",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+      ]
     },
-    "options": [
-      {
-        "text": "Gasoline",
-        "value": false,
-        "color": AppColor.yellow,
+    {
+      "question": "What is it that no-one wants but no-one wants to lose?",
+      "dialog": {
+        "title": "Lawsuit",
+        "content": "Who would want to lose a lawsuit?",
       },
-      {
-        "text": "Automobile",
-        "value": true,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "Gaseous",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "Vehicle",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-    ]
-  },
-  {
-    "question": "What is it that no-one wants but no-one wants to lose?",
-    "dialog": {
-      "title": "Lawsuit",
-      "content": "Who would want to lose a lawsuit?",
+      "options": [
+        {
+          "text": "Death",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Trouble",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "A fight",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Lawsuit",
+          "value": true,
+          "color": AppColor.yellow,
+        },
+      ]
     },
-    "options": [
-      {
-        "text": "Death",
-        "value": false,
-        "color": AppColor.yellow,
+    {
+      "question": "I am an odd number. Take away a letter an I become even. "
+          "What am I?",
+      "dialog": {
+        "title": "Seven",
+        "content": "Removing 's' from 'seven' makes it 'even'",
       },
-      {
-        "text": "Trouble",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "A fight",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "Lawsuit",
-        "value": true,
-        "color": AppColor.yellow,
-      },
-    ]
-  },
-  {
-    "question": "I am an odd number. Take away a letter an I become even. "
-        "What am I?",
-    "dialog": {
-      "title": "Seven",
-      "content": "Removing 's' from 'seven' makes it 'even'",
+      "options": [
+        {
+          "text": "Three",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Five",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Seven",
+          "value": true,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "Eleven",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+      ]
     },
-    "options": [
-      {
-        "text": "Three",
-        "value": false,
-        "color": AppColor.yellow,
+    {
+      "question": "Who has married many women but was never married?",
+      "dialog": {
+        "title": "A Priest",
+        "content": "A Preist never gets married",
       },
-      {
-        "text": "Five",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "Seven",
-        "value": true,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "Eleven",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-    ]
-  },
-  {
-    "question": "Who has married many women but was never married?",
-    "dialog": {
-      "title": "A Priest",
-      "content": "A Preist never gets married",
+      "options": [
+        {
+          "text": "Solomon",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "A poor man",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "A Priest",
+          "value": true,
+          "color": AppColor.yellow,
+        },
+        {
+          "text": "A woman",
+          "value": false,
+          "color": AppColor.yellow,
+        },
+      ]
     },
-    "options": [
-      {
-        "text": "Solomon",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "A poor man",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "A Priest",
-        "value": true,
-        "color": AppColor.yellow,
-      },
-      {
-        "text": "A woman",
-        "value": false,
-        "color": AppColor.yellow,
-      },
-    ]
-  },
-];
+  ]
+};
 
 List animalsData = [
   {
