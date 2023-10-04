@@ -153,7 +153,7 @@ class _RewardScreenState extends State<RewardScreen> {
                         ),
                       )
                       .scaleXY(
-                        delay: 1.seconds,
+                        delay: .3.seconds,
                         duration: 1.seconds,
                         begin: 0,
                         end: 1.2,
