@@ -37,6 +37,7 @@ class _GameStatsState extends State<GameStats> {
     
     sourceBox = sourceKey.currentContext?.findRenderObject() as RenderBox;
     sourceOffset = sourceBox.localToGlobal(Offset.zero);
+    print()
     super.initState();
   }
 
