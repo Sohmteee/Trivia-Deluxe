@@ -42,10 +42,10 @@ class _LevelScreenState extends State<LevelScreen> {
               const GameStats(),
               const Spacer(),
               Text(
-                "Level ",
+                "Level $level",
                 style: TextStyle(
                   color: Colors.white,
-                  fontSize: 90.sp,
+                  fontSize: 50.sp,
                   fontWeight: FontWeight.bold,
                 ),
                 textAlign: TextAlign.center,
