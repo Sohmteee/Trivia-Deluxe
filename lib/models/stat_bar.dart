@@ -220,6 +220,7 @@ class _GameStatsState extends State<GameStats> {
                 children: [
                   Expanded(
                     child: Center(
+                      key: sourceKey,
                       child: animateCoins
                           ? Countup(
                               begin: moneyProvider.previousCoins.toDouble(),
