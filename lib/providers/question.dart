@@ -8,6 +8,7 @@ import 'package:trivia/providers/level.dart';
 import 'package:trivia/providers/score.dart';
 
 class QuestionProvider extends ChangeNotifier {
+  Map data = {};
   List questions = [];
   int questionIndex = -1;
 
@@ -28,7 +29,7 @@ class QuestionProvider extends ChangeNotifier {
       questions.shuffle();
     }
 
-    question = questions["data"][questionIndex]["question"];
+    question = questions[questionIndex]["question"];
     options = questions[questionIndex]["options"];
   }
 
