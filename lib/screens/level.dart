@@ -118,6 +118,7 @@ class _LevelScreenState extends State<LevelScreen> {
         Consumer<LevelProvider>(builder: (context, levelProvider, _) {
           return Positioned(
             bottom: -40.h,
+            right: 70.w,
             child: SizedBox(
               height: 150.h,
               child: Lottie.asset(
