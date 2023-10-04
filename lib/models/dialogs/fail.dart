@@ -89,7 +89,7 @@ showFailedDialog(BuildContext context, questionIndex, bool timeUp) {
                         );
                         moneyProvider.decreaseCoins(20);
                         Future.delayed(
-                          1.seconds,
+                          2.seconds,
                           () =>
                               Navigator.pushReplacementNamed(context, "/level"),
                         );
