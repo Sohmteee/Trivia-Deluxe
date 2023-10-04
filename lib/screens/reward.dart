@@ -196,7 +196,7 @@ class _RewardScreenState extends State<RewardScreen> {
                               begin: 1,
                               end: 0,
                             )
-                        : const Spacer(flex: 2),
+                        : const Spacer(),
                     const SizedBox(width: 10),
                     !claimReward
                         ? SizedBox(
