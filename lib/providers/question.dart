@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
+import 'package:trivia/data/box.dart';
 import 'package:trivia/data/controllers.dart';
 import 'package:trivia/models/dialogs/fail.dart';
 import 'package:trivia/providers/level.dart';
@@ -10,7 +11,7 @@ import 'package:trivia/providers/score.dart';
 class QuestionProvider extends ChangeNotifier {
   Map<String, dynamic> data = {};
   List questions = [];
-  int questionIndex = -1;
+  int questionIndex = box.get("currentIndex") ?? -1;
 
   String question = "";
   List<Map<String, dynamic>> options = [];
@@ -18,6 +19,7 @@ class QuestionProvider extends ChangeNotifier {
 
   void initQuestionProvider(context) {
     questions = data["data"];
+    questionIndex = data["currentIndex"];
 
     if (!questionIsShuffled) {
       questions.shuffle();
@@ -26,8 +28,10 @@ class QuestionProvider extends ChangeNotifier {
 
     if (questionIndex < questions.length - 1) {
       questionIndex = questionIndex + 1;
+      data["currentIndex"] = questionIndex;
     } else {
       questionIndex = 0;
+      data["currentIndex"] = questionIndex;
       questions.shuffle();
     }
 

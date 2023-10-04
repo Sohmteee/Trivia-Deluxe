@@ -1,7 +1,7 @@
 import 'package:trivia/colors/app_color.dart';
 
 Map riddlesData = {
-  "currentIndex": 0,
+  "currentIndex": -1,
   "data": [
     {
       "question":
@@ -300,7 +300,7 @@ Map riddlesData = {
 };
 
 Map animalsData = {
-  "currentIndex": 0,
+  "currentIndex": -1,
   "data": [
     {
       "question": "How many years can a snail sleep for?",
@@ -605,7 +605,7 @@ Map animalsData = {
 };
 
 Map proverbsData = {
-  "currentIndex": 0,
+  "currentIndex": -1,
   "data": [
     {
       "question": "Beggars can't be ___.",
