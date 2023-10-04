@@ -30,7 +30,6 @@ class _RewardScreenState extends State<RewardScreen> {
   final offset = const Offset(20, -350);
   late Path path;
 
-
   bool countUp = false, claimReward = false;
 
   @override
@@ -284,7 +283,7 @@ class _RewardScreenState extends State<RewardScreen> {
               ).animate(
                 onComplete: (controller) {
                   setState(() {
-                    claimReward = true;
+                    Future.delayed(1.seconds, () => claimReward = true);
                   });
                 },
               ).slideX(
