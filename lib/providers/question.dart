@@ -13,7 +13,8 @@ class QuestionProvider extends ChangeNotifier {
   List questions = [];
   int questionIndex = box.get("currentIndex") ?? -1;
 
-  String question = "";
+  String question = "", title = "";
+
   List<Map<String, dynamic>> options = [];
   bool questionIsShuffled = false;
 

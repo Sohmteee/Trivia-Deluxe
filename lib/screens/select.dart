@@ -75,7 +75,7 @@ class _SelectScreenState extends State<SelectScreen> {
                               context,
                               listen: false);
                           levelProvider.resetCompletedLevel();
-                          
+                          questionProvider.title = selectItem["data"]["title"];
                           questionProvider.data = selectItem["data"];
                           box.put(
                               selectItem["data"]["title"], selectItem["data"]);
