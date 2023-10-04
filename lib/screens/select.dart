@@ -74,7 +74,7 @@ class _SelectScreenState extends State<SelectScreen> {
                           var levelProvider = Provider.of<LevelProvider>(
                               context,
                               listen: false);
-                          levelProvider.resetCompletedLevel();
+                          levelProvider.resetCompletedStage();
                           questionProvider.title = selectItem["data"]["title"];
                           questionProvider.data = selectItem["data"];
                           box.put(

@@ -75,11 +75,11 @@ class QuestionProvider extends ChangeNotifier {
         scoreProvider.updatedScore(int.parse(countDownController.getTime()!));
         levelProvider.incrementCompletedStage();
 
-        if (levelProvider.completedLevel == 3) {
+        if (levelProvider.completedStage == 3) {
           Navigator.pushNamedAndRemoveUntil(
               context, "/reward", (route) => false);
           Future.delayed(2.seconds, () {
-            levelProvider.resetCompletedLevel();
+            levelProvider.resetCompletedStage();
           });
         } else {
           Navigator.pushReplacementNamed(context, "/level");

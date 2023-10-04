@@ -41,7 +41,7 @@ class _LevelScreenState extends State<LevelScreen> {
               buildLevel(),
               const Spacer(flex: 3),
               Consumer<LevelProvider>(builder: (context, levelProvider, _) {
-                return (levelProvider.completedLevel != 3)
+                return (levelProvider.completedStage != 3)
                     ? SizedBox(
                         height: 60.h,
                         child: ZoomTapAnimation(

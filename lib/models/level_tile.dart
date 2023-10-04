@@ -23,7 +23,7 @@ class _LevelTileState extends State<LevelTile> {
   @override
   Widget build(BuildContext context) {
     return Consumer<LevelProvider>(builder: (_, levelProvider, child) {
-      return widget.level == levelProvider.completedLevel + 1
+      return widget.level == levelProvider.completedStage + 1
           ? ZoomTapAnimation(
               onTap: () {
                 Navigator.pushReplacementNamed(context, "/game");
@@ -32,9 +32,9 @@ class _LevelTileState extends State<LevelTile> {
                 padding: EdgeInsets.all(20.sp),
                 margin: EdgeInsets.only(bottom: 20.sp),
                 decoration: BoxDecoration(
-                  color: levelProvider.completedLevel >= widget.level
+                  color: levelProvider.completedStage >= widget.level
                       ? AppColor.levelYellow
-                      : widget.level == levelProvider.completedLevel + 1
+                      : widget.level == levelProvider.completedStage + 1
                           ? AppColor.levelYellow.withOpacity(.3)
                           : Colors.transparent,
                   border: Border.all(
@@ -81,10 +81,10 @@ class _LevelTileState extends State<LevelTile> {
             )
           : ZoomTapAnimation(
               onTap: () {
-                if (levelProvider.completedLevel <= 3) {
+                if (levelProvider.completedStage <= 3) {
                   ToastContext().init(context);
                   Toast.show(
-                    "Please go to Level ${levelProvider.completedLevel + 1}",
+                    "Please go to Level ${levelProvider.completedStage + 1}",
                     duration: 2,
                     gravity: 1,
                     textStyle: TextStyle(
@@ -98,9 +98,9 @@ class _LevelTileState extends State<LevelTile> {
                 padding: EdgeInsets.all(20.sp),
                 margin: EdgeInsets.only(bottom: 20.sp),
                 decoration: BoxDecoration(
-                  color: levelProvider.completedLevel >= widget.level
+                  color: levelProvider.completedStage >= widget.level
                       ? AppColor.levelYellow
-                      : widget.level == levelProvider.completedLevel + 1
+                      : widget.level == levelProvider.completedStage + 1
                           ? AppColor.levelYellow.withOpacity(.3)
                           : Colors.transparent,
                   border: Border.all(
