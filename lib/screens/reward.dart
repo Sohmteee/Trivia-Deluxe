@@ -30,9 +30,9 @@ class _RewardScreenState extends State<RewardScreen> {
   final offset = const Offset(20, -350);
   late Path path;
 
-  final GlobalKey destinationKey = GlobalKey();
-  late RenderBox destinationBox;
-  late Offset destinationOffset;
+  final GlobalKey sourceKey = GlobalKey();
+  late RenderBox sourceBox;
+  late Offset sourceOffset;
 
   bool countUp = false, claimReward = false;
 
@@ -218,7 +218,7 @@ class _RewardScreenState extends State<RewardScreen> {
                                   ),
                           )
                         : SizedBox(
-                            key: destinationKey,
+                            key: sourceKey,
                             child: Stack(
                                 children: List.generate(
                               score,
@@ -244,17 +244,17 @@ class _RewardScreenState extends State<RewardScreen> {
                                             moneyProvider.increaseCoins(1);
                                           });
 
-                                          destinationBox = destinationKey
+                                          sourceBox = sourceKey
                                               .currentContext
                                               ?.findRenderObject() as RenderBox;
-                                          destinationOffset = destinationBox
+                                          sourceOffset = sourceBox
                                               .localToGlobal(Offset.zero);
-                                          print(destinationOffset);
+                                          print(sourceOffset);
 
                                           setState(() {
                                             path = Path()
                                               ..arcToPoint(
-                                                destinationOffset,
+                                                sourceOffset,
                                                 radius:
                                                     const Radius.circular(300),
                                                 clockwise: true,
