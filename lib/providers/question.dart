@@ -17,6 +17,7 @@ class QuestionProvider extends ChangeNotifier {
   bool questionIsShuffled = false;
 
   void initQuestionProvider(context) {
+    
     if (!questionIsShuffled) {
       questions.shuffle();
       questionIsShuffled = true;
