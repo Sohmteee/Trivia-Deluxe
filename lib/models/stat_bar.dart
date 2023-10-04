@@ -4,7 +4,6 @@ import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
-import 'package:trivia/data/variables.dart';
 import 'package:trivia/main.dart';
 import 'package:trivia/models/dialogs/settings.dart';
 import 'package:trivia/providers/money.dart';
@@ -169,7 +168,6 @@ class _GameStatsState extends State<GameStats> {
           ),
           const Spacer(flex: 3),
           Container(
-            key: key,
             height: 20.h,
             padding: EdgeInsets.all(2.sp),
             decoration: BoxDecoration(
