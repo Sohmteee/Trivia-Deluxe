@@ -11,7 +11,7 @@ import 'package:trivia/providers/score.dart';
 class QuestionProvider extends ChangeNotifier {
   Map<String, dynamic> data = {};
   List questions = [];
-  int questionIndex = box.get("currentIndex") ?? -1;
+  int questionIndex = -1;
 
   String question = "", title = "";
 
