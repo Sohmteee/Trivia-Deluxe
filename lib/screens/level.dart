@@ -18,9 +18,12 @@ class LevelScreen extends StatefulWidget {
 }
 
 class _LevelScreenState extends State<LevelScreen> {
+  late int level;
+
   @override
   void initState() {
     playLevel(context);
+    level = Provider.of<LevelProvider>(context, listen: false).level;
     super.initState();
   }
 
@@ -37,6 +40,16 @@ class _LevelScreenState extends State<LevelScreen> {
           child: Column(
             children: [
               const GameStats(),
+              const Spacer(),
+              Text(
+                "Level ",
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 90.sp,
+                  fontWeight: FontWeight.bold,
+                ),
+                textAlign: TextAlign.center,
+              ),
               const Spacer(),
               buildLevel(),
               const Spacer(flex: 3),
