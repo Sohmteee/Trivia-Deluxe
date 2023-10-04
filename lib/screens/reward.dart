@@ -253,6 +253,7 @@ class _RewardScreenState extends State<RewardScreen> {
                                     delay: 1.seconds,
                                     duration: 1.seconds,
                                   ),
+                                  
                             ),
                           ).animate().fadeIn(
                               duration: .5.seconds,
