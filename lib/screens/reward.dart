@@ -229,24 +229,40 @@ class _RewardScreenState extends State<RewardScreen> {
                               ),
                             )
                                     .animate(
-                                        interval: 50.milliseconds,
-                                        onPlay: (controller) {
-                                          Future.delayed(1.8.seconds, () {
-                                            playCoinUp(context);
-                                          });
-                                        },
-                                        onComplete: (controller) {
-                                          setState(() {
-                                            receivedReward = true;
-                                            final moneyProvider =
-                                                Provider.of<MoneyProvider>(
-                                                    context,
-                                                    listen: false);
-                                            moneyProvider.increaseCoins(1);
-                                          });
+                                      interval: 50.milliseconds,
+                                      onPlay: (controller) {
+                                        Future.delayed(1.8.seconds, () {
+                                          playCoinUp(context);
+                                        });
+                                      },
+                                      onComplete: (controller) {
+                                        setState(() {
+                                          receivedReward = true;
+                                          final moneyProvider =
+                                              Provider.of<MoneyProvider>(
+                                                  context,
+                                                  listen: false);
+                                          moneyProvider.increaseCoins(1);
+                                        });
+                                      },
+                                      onInit: (controller) {
+                                        sourceBox = sourceKey.currentContext
+                                              ?.findRenderObject() as RenderBox;
+                                          sourceOffset = sourceBox
+                                              .localToGlobal(Offset.zero);
+                                          print(sourceOffset);
 
-                                          
-                                        })
+                                          setState(() {
+                                            path = Path()
+                                              ..arcToPoint(
+                                                destinationOffset,
+                                                radius:
+                                                    const Radius.circular(300),
+                                                clockwise: true,
+                                              );
+                                          });
+                                      }
+                                    )
                                     .followPath(
                                       path: path,
                                       delay: 1.seconds,
