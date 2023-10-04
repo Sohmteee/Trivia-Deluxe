@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
+import 'package:trivia/data/box.dart';
 import 'package:trivia/data/questions.dart';
 import 'package:trivia/main.dart';
 import 'package:trivia/models/game_background.dart';
@@ -74,7 +75,10 @@ class _SelectScreenState extends State<SelectScreen> {
                               context,
                               listen: false);
                           levelProvider.resetCompletedLevel();
+                          
                           questionProvider.data = selectItem["data"];
+                          box.put(
+                              selectItem["data"]["title"], selectItem["data"]);
                           Future.delayed(
                             3.microseconds,
                             () => Navigator.pushNamed(context, "/level"),
