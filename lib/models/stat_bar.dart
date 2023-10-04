@@ -219,7 +219,7 @@ class _GameStatsState extends State<GameStats> {
                 children: [
                   Expanded(
                     child: Center(
-                      key: sourceKey,
+                      key: destinationKey,
                       child: animateCoins
                           ? Countup(
                               begin: moneyProvider.previousCoins.toDouble(),
@@ -237,10 +237,11 @@ class _GameStatsState extends State<GameStats> {
                             ),
                     ),
                   ).animate(onComplete: (controller) {
-                    sourceBox = sourceKey.currentContext?.findRenderObject()
-                        as RenderBox;
-                    sourceOffset = sourceBox.localToGlobal(Offset.zero);
-                    print(sourceOffset);
+                    destinationBox = destinationKey.currentContext
+                        ?.findRenderObject() as RenderBox;
+                    destinationOffset =
+                        destinationBox.localToGlobal(Offset.zero);
+                    print(destinationOffset);
                   }).fadeIn(
                     duration: .1.seconds,
                   ),
