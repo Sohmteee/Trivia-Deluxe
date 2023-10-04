@@ -155,6 +155,7 @@ class _RewardScreenState extends State<RewardScreen> {
                       .scaleXY(
                         delay: .3.seconds,
                         duration: 1.seconds,
+                        curve: Curves.bounceOut,
                         begin: 0,
                         end: 1.2,
                       )
