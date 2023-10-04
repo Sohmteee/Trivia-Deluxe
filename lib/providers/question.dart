@@ -73,7 +73,7 @@ class QuestionProvider extends ChangeNotifier {
         final scoreProvider =
             Provider.of<ScoreProvider>(context, listen: false);
         scoreProvider.updatedScore(int.parse(countDownController.getTime()!));
-        levelProvider.incrementCompletedLevel();
+        levelProvider.incrementCompletedStage();
 
         if (levelProvider.completedLevel == 3) {
           Navigator.pushNamedAndRemoveUntil(
