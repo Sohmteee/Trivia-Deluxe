@@ -286,7 +286,7 @@ class _RewardScreenState extends State<RewardScreen> {
               ).animate(
                 onComplete: (controller) {
                   box = key.currentContext?.findRenderObject() as RenderBox;
-                  final off = 
+                  final off = box.localToGlobal(Offset.zero,)
 
                   Future.delayed(3.seconds, () {
                     setState(() {
