@@ -29,7 +29,10 @@ showFailedDialog(BuildContext context, questionIndex, bool timeUp) {
           ),
           child: (timeUp == false)
               ? Lottie.asset("assets/json/fail.json")
-              : Lottie.asset("assets/json/time-up.json", ),
+              : Lottie.asset(
+                  "assets/json/time-up.json",
+                  repeat: false,
+                ),
         ),
         SizedBox(height: 20.h),
         Text(
