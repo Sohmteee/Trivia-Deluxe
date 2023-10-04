@@ -40,6 +40,8 @@ class _RewardScreenState extends State<RewardScreen> {
     score = scoreProvider.score;
     scoreProvider.resetScore();
 
+    score = 18;
+
     final moneyProvider = Provider.of<MoneyProvider>(context, listen: false);
     moneyProvider.resetCoins();
 
@@ -297,10 +299,9 @@ class _RewardScreenState extends State<RewardScreen> {
                                 delay: 1.seconds,
                                 duration: 1.seconds,
                               )),
-                    ).animate().scaleXY(
+                    ).animate().fadeIn(
                         duration: .5.seconds,
                         begin: 0,
-                        end: 1,
                       ),
               const Spacer(flex: 2),
               if (receivedReward)
