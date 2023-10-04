@@ -9,6 +9,7 @@ import 'package:lottie/lottie.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/data/controllers.dart';
+import 'package:trivia/data/variables.dart';
 import 'package:trivia/main.dart';
 import 'package:trivia/models/game_background.dart';
 import 'package:trivia/models/stat_bar.dart';
@@ -249,12 +250,12 @@ class _RewardScreenState extends State<RewardScreen> {
                                               ?.findRenderObject() as RenderBox;
                                           sourceOffset = sourceBox
                                               .localToGlobal(Offset.zero);
-                                          print(sourceOffset);
+                                          print(sourceOffset);  
 
                                           setState(() {
                                             path = Path()
                                               ..arcToPoint(
-                                                sourceOffset,
+                                                destinationOffset,
                                                 radius:
                                                     const Radius.circular(300),
                                                 clockwise: true,
