@@ -19,6 +19,8 @@ showFailedDialog(BuildContext context, questionIndex, bool timeUp) {
   showGameDialog(
     context,
     child: Stack(
+      clipBehavior: Clip.none,
+      alignment: Alignment.bottomCenter,
       children: [
         Column(
           mainAxisSize: MainAxisSize.min,
@@ -84,7 +86,8 @@ showFailedDialog(BuildContext context, questionIndex, bool timeUp) {
                   }
                 },
                 child: Container(
-                  padding: EdgeInsets.symmetric(horizontal: 20.sp, vertical: 10.sp),
+                  padding:
+                      EdgeInsets.symmetric(horizontal: 20.sp, vertical: 10.sp),
                   decoration: BoxDecoration(
                     color: Colors.white,
                     borderRadius: BorderRadius.circular(20.r),
@@ -153,6 +156,7 @@ showFailedDialog(BuildContext context, questionIndex, bool timeUp) {
             }),
           ],
         ),
+        Lottie.asset("assets/json/coin-spent.json"),
       ],
     ),
   );
