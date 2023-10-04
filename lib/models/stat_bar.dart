@@ -234,7 +234,17 @@ class _GameStatsState extends State<GameStats> {
                               ),
                             ),
                     ),
-                  ),
+                  ).animate(
+                    onComplete: (controller) {
+                      
+                    sourceBox = sourceKey.currentContext?.findRenderObject()
+                        as RenderBox;
+                    sourceOffset = sourceBox.localToGlobal(Offset.zero);
+                    print(sourceOffset);
+                    }
+                  ).fadeIn(
+                        duration: .1.seconds,
+                      ),
                   Container(
                     width: 18.w,
                     padding: EdgeInsets.symmetric(vertical: 3.sp),
