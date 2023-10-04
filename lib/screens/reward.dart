@@ -31,9 +31,7 @@ class _RewardScreenState extends State<RewardScreen> {
   late Path path;
 
   final GlobalKey destinationKey = GlobalKey();
-  late RenderBox sourceBox;
   late RenderBox destinationBox;
-  late Offset sourceOffset;
   late Offset destinationOffset;
 
   bool countUp = false, claimReward = false;
@@ -288,9 +286,6 @@ class _RewardScreenState extends State<RewardScreen> {
                     ),
               ).animate(
                 onComplete: (controller) {
-                  sourceBox =
-                      key.currentContext?.findRenderObject() as RenderBox;
-                  sourceOffset = sourceBox.localToGlobal(Offset.zero);
 
                   Future.delayed(3.seconds, () {
                     setState(() {

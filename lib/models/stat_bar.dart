@@ -33,6 +33,9 @@ class _GameStatsState extends State<GameStats> {
         debugPrint("Animate coins: $animateCoins");
       });
     });
+    
+    sourceBox = key.currentContext?.findRenderObject() as RenderBox;
+    sourceOffset = sourceBox.localToGlobal(Offset.zero);
     super.initState();
   }
 
