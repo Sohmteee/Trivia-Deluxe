@@ -9,11 +9,11 @@ import 'package:lottie/lottie.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/data/controllers.dart';
-import 'package:trivia/data/variables.dart';
 import 'package:trivia/main.dart';
 import 'package:trivia/models/game_background.dart';
 import 'package:trivia/models/stat_bar.dart';
 import 'package:trivia/providers/money.dart';
+import 'package:trivia/providers/score.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 class RewardScreen extends StatefulWidget {
