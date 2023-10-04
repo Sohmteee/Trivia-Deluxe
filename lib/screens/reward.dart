@@ -41,6 +41,13 @@ class _RewardScreenState extends State<RewardScreen> {
   void initState() {
     playVictory(context);
 
+     path = Path()
+      ..arcToPoint(
+        offset,
+        radius: const Radius.circular(300),
+        clockwise: true,
+      );
+
     vitoryConfettiController = ConfettiController(duration: 1.5.seconds);
     final scoreProvider = Provider.of<ScoreProvider>(context, listen: false);
     score = scoreProvider.score;
