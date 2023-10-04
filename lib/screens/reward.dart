@@ -182,7 +182,7 @@ class _RewardScreenState extends State<RewardScreen> {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Text(
+                    !claimReward ? Text(
                       "You earned",
                       style: TextStyle(
                         color: Colors.white,
@@ -258,8 +258,8 @@ class _RewardScreenState extends State<RewardScreen> {
                                     ),
                               ),
                               SizedBox(
-                                height: 150.h,
-                                width: 150.w,
+                                height: 80.h,
+                                width: 80.w,
                                 child: Lottie.asset(
                                   "assets/json/chest.json",
                                   repeat: false,
