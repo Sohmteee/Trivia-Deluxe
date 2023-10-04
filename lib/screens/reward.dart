@@ -268,7 +268,10 @@ class _RewardScreenState extends State<RewardScreen> {
                                 ),
                               ),
                             ],
-                          ),
+                          ).animate().fadeIn(
+                              duration: .5.seconds,
+                              begin: 0,
+                            ),
                     const SizedBox(width: 10),
                     !claimReward
                         ? Text(
