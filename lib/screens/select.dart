@@ -23,17 +23,17 @@ class _SelectScreenState extends State<SelectScreen> {
     {
       "image": "assets/images/dolphin.png",
       "title": "Animals",
-      "questions": animalsData,
+      "data": animalsData,
     },
     {
       "image": "assets/images/quote.png",
       "title": "Proverbs",
-      "questions": proverbsData,
+      "data": proverbsData,
     },
     {
       "image": "assets/images/puzzle.png",
       "title": "Riddles",
-      "questions": riddlesData,
+      "data": riddlesData,
     },
   ];
 
@@ -77,7 +77,7 @@ class _SelectScreenState extends State<SelectScreen> {
                               context,
                               listen: false);
                           levelProvider.resetCompletedLevel();
-                          questionProvider.questions = selectItem["questions"];
+                          questionProvider.data = selectItem["data"];
                           Future.delayed(
                             3.microseconds,
                             () => Navigator.pushNamed(context, "/level"),
