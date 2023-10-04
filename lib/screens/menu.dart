@@ -33,7 +33,7 @@ class _MenuScreenState extends State<MenuScreen>
     WidgetsBinding.instance.addObserver(this);
     playBGAudio();
 
-    rotationController = AnimationController(duration: 50.seconds, vsync: this)
+    rotationController = AnimationController(duration: 100.seconds, vsync: this)
       ..addStatusListener((status) {
         if (status == AnimationStatus.completed) {
           rotationController.repeat();
@@ -205,7 +205,7 @@ class _MenuScreenState extends State<MenuScreen>
                         Text(
                           "TRIVIA\nDELUXE",
                           style: TextStyle(
-                            color: const Color.fromARGB(255, 150, 22, 13),
+                            color: HexColor("#A30F35"),
                             fontSize: 90.sp,
                             fontWeight: FontWeight.bold,
                           ),

@@ -67,4 +67,11 @@ class MoneyProvider extends ChangeNotifier {
 
     notifyListeners();
   }
+
+  resetCoins() {
+    _previousCoins = 0;
+    _coins = 50;
+    box.put("previousCoins", previousCoins);
+    box.put("coins", coins);
+  }
 }
