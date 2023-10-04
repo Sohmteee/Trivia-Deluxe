@@ -7,7 +7,6 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/colors/hex_color.dart';
-import 'package:trivia/data/box.dart';
 import 'package:trivia/data/controllers.dart';
 import 'package:trivia/main.dart';
 import 'package:trivia/models/circle_border.dart';
@@ -111,7 +110,7 @@ class _MenuScreenState extends State<MenuScreen>
     final audioProvider = Provider.of<AudioProvider>(context, listen: false);
 
     if (audioProvider.soundEffects) {
-      audioProvider.setEffectsVolume(box.get("effectsVolume"));
+      audioProvider.setEffectsVolume(audioProvider.effectsVolume);
     }
   }
 
