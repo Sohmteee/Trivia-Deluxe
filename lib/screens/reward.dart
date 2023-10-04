@@ -268,7 +268,7 @@ class _RewardScreenState extends State<RewardScreen> {
                                   ),
                                 )
                                     .animate(
-                                        interval: 50.milliseconds,
+                                        interval: 100.milliseconds,
                                         onPlay: (controller) {
                                           Future.delayed(1.8.seconds, () {
                                             playCoinUp(context);
