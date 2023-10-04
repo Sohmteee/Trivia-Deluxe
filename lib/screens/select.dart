@@ -22,17 +22,14 @@ class _SelectScreenState extends State<SelectScreen> {
   List<Map<String, dynamic>> selectItems = [
     {
       "image": "assets/images/dolphin.png",
-      "title": "Animals",
       "data": animalsData,
     },
     {
       "image": "assets/images/quote.png",
-      "title": "Proverbs",
       "data": proverbsData,
     },
     {
       "image": "assets/images/puzzle.png",
-      "title": "Riddles",
       "data": riddlesData,
     },
   ];

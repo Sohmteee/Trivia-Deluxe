@@ -1,6 +1,7 @@
 import 'package:trivia/colors/app_color.dart';
 
 Map riddlesData = {
+  "title": "riddles",
   "currentIndex": -1,
   "data": [
     {
@@ -300,6 +301,7 @@ Map riddlesData = {
 };
 
 Map animalsData = {
+  "title": "animals",
   "currentIndex": -1,
   "data": [
     {
@@ -605,6 +607,7 @@ Map animalsData = {
 };
 
 Map proverbsData = {
+  "title": "proverbs",
   "currentIndex": -1,
   "data": [
     {
