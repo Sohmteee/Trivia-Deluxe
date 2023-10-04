@@ -219,8 +219,16 @@ class _RewardScreenState extends State<RewardScreen> {
                                       fontWeight: FontWeight.bold,
                                     ),
                                   ),
-                          ).animate().then().slideX(
-                              delay: 3.seconds,
+                          )
+                            .animate()
+                            .slideX(
+                              duration: .5.seconds,
+                              begin: -20.w,
+                              end: 0,
+                            )
+                            .then()
+                            .slideX(
+                              delay: 5.seconds,
                               duration: .5.seconds,
                               begin: 0,
                               end: -1.w,
