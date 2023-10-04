@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:lottie/lottie.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/main.dart';
@@ -104,10 +105,13 @@ class _LevelScreenState extends State<LevelScreen> {
         ),
         Consumer<LevelProvider>(builder: (context, levelProvider, _) {
           return Positioned(
-            bottom: -30.h,
+            bottom: -40.h,
             child: SizedBox(
-              height: 80.h,
-              child: Image.asset("assets/images/treasure.png"),
+              height: 150.h,
+              child: Lottie.asset(
+                "assets/json/chest.json",
+                animate: false,
+              ),
             ),
           );
         })
