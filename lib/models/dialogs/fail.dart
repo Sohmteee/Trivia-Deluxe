@@ -20,8 +20,8 @@ showFailedDialog(BuildContext context, questionIndex, bool timeUp) {
 
   showGameDialog(
     context,
-    child: Builder(
-      builder: (context) {
+    child: StatefulBuilder(
+      builder: (context, setState) {
         return Stack(
           clipBehavior: Clip.none,
           alignment: Alignment.bottomCenter,
@@ -78,11 +78,15 @@ showFailedDialog(BuildContext context, questionIndex, bool timeUp) {
                     onTap: () {
                       if (moneyProvider.coins - 20 >= 0) {
                         playCoinDown(context);
+                        setState(() {
+                          showAnim = true;
+                        });
                         
                         moneyProvider.decreaseCoins(20);
                         Future.delayed(
                           1.seconds,
-                          () => Navigator.pushReplacementNamed(context, "/level"),
+                          () =>
+                              Navigator.pushReplacementNamed(context, "/level"),
                         );
                       } else {
                         playTap(context);
@@ -91,8 +95,8 @@ showFailedDialog(BuildContext context, questionIndex, bool timeUp) {
                       }
                     },
                     child: Container(
-                      padding:
-                          EdgeInsets.symmetric(horizontal: 20.sp, vertical: 10.sp),
+                      padding: EdgeInsets.symmetric(
+                          horizontal: 20.sp, vertical: 10.sp),
                       decoration: BoxDecoration(
                         color: Colors.white,
                         borderRadius: BorderRadius.circular(20.r),
@@ -164,7 +168,7 @@ showFailedDialog(BuildContext context, questionIndex, bool timeUp) {
             if (showAnim) Lottie.asset("assets/json/coin-spent.json"),
           ],
         );
-      }
+      },
     ),
   );
 }
