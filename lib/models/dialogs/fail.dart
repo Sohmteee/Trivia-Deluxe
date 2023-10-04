@@ -158,7 +158,7 @@ showFailedDialog(BuildContext context, questionIndex, bool timeUp) {
             }),
           ],
         ),
-        Lottie.asset("assets/json/coin-spent.json"),
+        if (showAnim) Lottie.asset("assets/json/coin-spent.json"),
       ],
     ),
   );
