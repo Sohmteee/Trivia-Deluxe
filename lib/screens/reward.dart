@@ -9,7 +9,6 @@ import 'package:lottie/lottie.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/data/controllers.dart';
-import 'package:trivia/data/variables.dart';
 import 'package:trivia/main.dart';
 import 'package:trivia/models/game_background.dart';
 import 'package:trivia/models/stat_bar.dart';
@@ -31,23 +30,17 @@ class _RewardScreenState extends State<RewardScreen> {
   final offset = const Offset(20, -350);
   late Path path;
 
-  final GlobalKey sourceKey = GlobalKey();
-  late RenderBox sourceBox;
-  late Offset sourceOffset;
-
   bool countUp = false, claimReward = false;
 
   @override
   void initState() {
     playVictory(context);
-
-     path = Path()
+    path = Path()
       ..arcToPoint(
         offset,
         radius: const Radius.circular(300),
         clockwise: true,
       );
-
     vitoryConfettiController = ConfettiController(duration: 1.5.seconds);
     final scoreProvider = Provider.of<ScoreProvider>(context, listen: false);
     score = scoreProvider.score;
@@ -226,7 +219,6 @@ class _RewardScreenState extends State<RewardScreen> {
                                   ),
                           )
                         : SizedBox(
-                            key: sourceKey,
                             child: Stack(
                                 children: List.generate(
                               score,
@@ -236,40 +228,22 @@ class _RewardScreenState extends State<RewardScreen> {
                               ),
                             )
                                     .animate(
-                                      interval: 50.milliseconds,
-                                      onPlay: (controller) {
-                                        Future.delayed(1.8.seconds, () {
-                                          playCoinUp(context);
-                                        });
-                                      },
-                                      onComplete: (controller) {
-                                        setState(() {
-                                          receivedReward = true;
-                                          final moneyProvider =
-                                              Provider.of<MoneyProvider>(
-                                                  context,
-                                                  listen: false);
-                                          moneyProvider.increaseCoins(1);
-                                        });
-                                      },
-                                      onInit: (controller) {
-                                        sourceBox = sourceKey.currentContext
-                                              ?.findRenderObject() as RenderBox;
-                                          sourceOffset = sourceBox
-                                              .localToGlobal(Offset.zero);
-                                          print(sourceOffset);
-
-                                          setState(() {
-                                            path = Path()
-                                              ..arcToPoint(
-                                                destinationOffset,
-                                                radius:
-                                                    const Radius.circular(300),
-                                                clockwise: true,
-                                              );
+                                        interval: 50.milliseconds,
+                                        onPlay: (controller) {
+                                          Future.delayed(1.8.seconds, () {
+                                            playCoinUp(context);
                                           });
-                                      }
-                                    )
+                                        },
+                                        onComplete: (controller) {
+                                          setState(() {
+                                            receivedReward = true;
+                                            final moneyProvider =
+                                                Provider.of<MoneyProvider>(
+                                                    context,
+                                                    listen: false);
+                                            moneyProvider.increaseCoins(1);
+                                          });
+                                        })
                                     .followPath(
                                       path: path,
                                       delay: 1.seconds,
@@ -356,4 +330,28 @@ class _RewardScreenState extends State<RewardScreen> {
       ),
     );
   }
+}
+
+Path drawStar(Size size) {
+  // Method to convert degree to radians
+  double degToRad(double deg) => deg * (pi / 180.0);
+
+  const numberOfPoints = 5;
+  final halfWidth = size.width / 2;
+  final externalRadius = halfWidth;
+  final internalRadius = halfWidth / 2.5;
+  final degreesPerStep = degToRad(360 / numberOfPoints);
+  final halfDegreesPerStep = degreesPerStep / 2;
+  final path = Path();
+  final fullAngle = degToRad(360);
+  path.moveTo(size.width, halfWidth);
+
+  for (double step = 0; step < fullAngle; step += degreesPerStep) {
+    path.lineTo(halfWidth + externalRadius * cos(step),
+        halfWidth + externalRadius * sin(step));
+    path.lineTo(halfWidth + internalRadius * cos(step + halfDegreesPerStep),
+        halfWidth + internalRadius * sin(step + halfDegreesPerStep));
+  }
+  path.close();
+  return path;
 }
