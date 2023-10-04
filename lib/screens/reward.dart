@@ -221,7 +221,8 @@ class _RewardScreenState extends State<RewardScreen> {
                                   ),
                           )
                             .animate(
-                                Future.delayed(3.5.seconds, () {
+                              onComplete: (controller) {
+                                Future.delayed(1.seconds, () {
                                   setState(() {
                                     claimReward = true;
                                   });
