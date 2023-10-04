@@ -82,7 +82,7 @@ class _LevelScreenState extends State<LevelScreen> {
         Container(
           padding: EdgeInsets.all(20.sp),
           width: double.maxFinite,
-          height: 400.h,
+          height: 350.h,
           decoration: BoxDecoration(
             border: Border.all(
               width: 2.sp,
