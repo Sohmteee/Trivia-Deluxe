@@ -276,7 +276,7 @@ class _RewardScreenState extends State<RewardScreen> {
                                         },
                                         onComplete: (controller) {
                                           setState(() {
-                                            receivedReward = true;
+                                            // receivedReward = true;
                                             /* final moneyProvider =
                                                 Provider.of<MoneyProvider>(
                                                     context,
