@@ -268,10 +268,7 @@ class _RewardScreenState extends State<RewardScreen> {
                                 ),
                               ),
                             ],
-                          ).animate().fadeIn(
-                              duration: .5.seconds,
-                              begin: 0,
-                            ),
+                          ),
                     const SizedBox(width: 10),
                     !claimReward
                         ? Text(
@@ -299,7 +296,7 @@ class _RewardScreenState extends State<RewardScreen> {
                     ),
               ).animate(
                 onComplete: (controller) {
-                  Future.delayed(3.seconds, () {
+                  Future.delayed(3.5.seconds, () {
                     setState(() {
                       claimReward = true;
                     });
