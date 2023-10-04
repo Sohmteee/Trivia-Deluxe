@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:lottie/lottie.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/main.dart';
 import 'package:trivia/providers/level.dart';
@@ -15,6 +16,18 @@ showLowCashDialog(BuildContext context) {
       return Column(
         mainAxisSize: MainAxisSize.min,
         children: [
+          Container(
+            padding: EdgeInsets.all(35.sp),
+            decoration: BoxDecoration(
+              color: Colors.transparent,
+              shape: BoxShape.circle,
+            ),
+            child: Lottie.asset(
+              "assets/json/broke.json",
+              repeat: false,
+            ),
+          ),
+          SizedBox(height: 20.h),
           Text(
             "Sapa don catch you even for game 😂",
             style: TextStyle(
@@ -81,7 +94,10 @@ showLowCashDialog(BuildContext context) {
           Consumer<LevelProvider>(builder: (context, levelProvider, _) {
             return ZoomTapAnimation(
               onTap: () {
-                                playTap(context);                playTap(context);                playTap(context);playTap(context);
+                playTap(context);
+                playTap(context);
+                playTap(context);
+                playTap(context);
                 Navigator.of(dialogContext).pop();
                 levelProvider.resetCompletedLevel();
                 Navigator.popAndPushNamed(dialogContext, "/menu");
