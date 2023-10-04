@@ -13,7 +13,6 @@ import 'package:trivia/main.dart';
 import 'package:trivia/models/game_background.dart';
 import 'package:trivia/models/stat_bar.dart';
 import 'package:trivia/providers/level.dart';
-import 'package:trivia/providers/money.dart';
 import 'package:trivia/providers/score.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
@@ -276,7 +275,7 @@ class _RewardScreenState extends State<RewardScreen> {
                                         },
                                         onComplete: (controller) {
                                           setState(() {
-                                            // receivedReward = true;
+                                            receivedReward = true;
                                             /* final moneyProvider =
                                                 Provider.of<MoneyProvider>(
                                                     context,
