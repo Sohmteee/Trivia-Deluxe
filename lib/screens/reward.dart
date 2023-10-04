@@ -299,6 +299,7 @@ class _RewardScreenState extends State<RewardScreen> {
                               )),
                     ).animate().fadeIn(
                         duration: .5.seconds,
+                        begin: 0,
                       ),
               const Spacer(flex: 2),
               if (receivedReward)
