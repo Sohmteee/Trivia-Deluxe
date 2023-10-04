@@ -193,7 +193,12 @@ class _RewardScreenState extends State<RewardScreen> {
                               fontSize: 30.sp,
                               fontWeight: FontWeight.bold,
                             ),
-                          ),
+                          ).animate().scaleXY(
+                                delay: 7.seconds,
+                                duration: .5.seconds,
+                                begin: 1,
+                                end: 0,
+                              ),
                           const SizedBox(width: 10),
                           countUp
                               ? Countup(
@@ -222,7 +227,12 @@ class _RewardScreenState extends State<RewardScreen> {
                               fontSize: 30.sp,
                               fontWeight: FontWeight.bold,
                             ),
-                          ),
+                          ).animate().scaleXY(
+                                delay: 7.seconds,
+                                duration: .5.seconds,
+                                begin: 1,
+                                end: 0,
+                              ),
                         ],
                       )
                           .animate(
@@ -244,13 +254,6 @@ class _RewardScreenState extends State<RewardScreen> {
                         delay: 2.seconds,
                         duration: 2.seconds,
                         begin: 20.h,
-                        end: 0,
-                      )
-                      .then()
-                      .scaleXY(
-                        delay: 3.seconds,
-                        duration: .5.seconds,
-                        begin: 1,
                         end: 0,
                       )
                   : SizedBox(
