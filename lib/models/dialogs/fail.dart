@@ -172,7 +172,6 @@ showFailedDialog(BuildContext context, questionIndex, bool timeUp) {
                 }),
               ],
             ),
-            if (showAnim) Lottie.asset("assets/json/coin-spent.json"),
           ],
         );
       },
