@@ -46,10 +46,10 @@ class _RewardScreenState extends State<RewardScreen> {
     score = scoreProvider.score;
     scoreProvider.resetScore();
 
-    // score = 18;
+    score = 18;
 
-    /* final moneyProvider = Provider.of<MoneyProvider>(context, listen: false);
-    moneyProvider.resetCoins(); */
+    final moneyProvider = Provider.of<MoneyProvider>(context, listen: false);
+    moneyProvider.resetCoins();
 
     Future.delayed(5.5.seconds, () {
       setState(() {
@@ -220,39 +220,40 @@ class _RewardScreenState extends State<RewardScreen> {
                           )
                         : SizedBox(
                             child: Stack(
-                                children: List.generate(
-                              score,
-                              (index) => SizedBox(
-                                width: 30.w,
-                                child: Image.asset("assets/images/coin.png"),
-                              ),
-                            )
-                                    .animate(
-                                        interval: 50.milliseconds,
-                                        onPlay: (controller) {
-                                          Future.delayed(1.8.seconds, () {
-                                            playCoinUp(context);
-                                          });
-                                        },
-                                        onComplete: (controller) {
-                                          setState(() {
-                                            receivedReward = true;
-                                            final moneyProvider =
-                                                Provider.of<MoneyProvider>(
-                                                    context,
-                                                    listen: false);
-                                            moneyProvider.increaseCoins(1);
-                                          });
-                                        })
-                                    .followPath(
-                                      path: path,
-                                      delay: 1.seconds,
-                                      duration: 1.seconds,
-                                    )
-                                    .fadeOut(
-                                      delay: 1.seconds,
-                                      duration: 1.seconds,
-                                    )),
+                              children: List.generate(
+                                score,
+                                (index) => SizedBox(
+                                  width: 30.w,
+                                  child: Image.asset("assets/images/coin.png"),
+                                ),
+                              )
+                                  .animate(
+                                      interval: 50.milliseconds,
+                                      onPlay: (controller) {
+                                        Future.delayed(1.8.seconds, () {
+                                          playCoinUp(context);
+                                        });
+                                      },
+                                      onComplete: (controller) {
+                                        setState(() {
+                                          receivedReward = true;
+                                          final moneyProvider =
+                                              Provider.of<MoneyProvider>(
+                                                  context,
+                                                  listen: false);
+                                          moneyProvider.increaseCoins(1);
+                                        });
+                                      })
+                                  .followPath(
+                                    path: path,
+                                    delay: 1.seconds,
+                                    duration: 1.seconds,
+                                  )
+                                  .fadeOut(
+                                    delay: 1.seconds,
+                                    duration: 1.seconds,
+                                  ),
+                            ),
                           ).animate().fadeIn(
                               duration: .5.seconds,
                               begin: 0,
