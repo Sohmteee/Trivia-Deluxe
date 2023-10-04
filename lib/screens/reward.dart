@@ -233,6 +233,12 @@ class _RewardScreenState extends State<RewardScreen> {
                               begin: 0,
                               end: -1.w,
                             )
+                            .slideY(
+                              delay: 6.5.seconds,
+                              duration: .5.seconds,
+                              begin: 0,
+                              end: 1.w,
+                            )
                         : Stack(
                             alignment: Alignment.center,
                             children: [
