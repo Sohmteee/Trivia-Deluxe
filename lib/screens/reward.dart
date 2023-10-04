@@ -228,7 +228,7 @@ class _RewardScreenState extends State<RewardScreen> {
                             )
                             .then()
                             .slideX(
-                              delay: 5.seconds,
+                              delay: 6.5.seconds,
                               duration: .5.seconds,
                               begin: 0,
                               end: -1.w,
