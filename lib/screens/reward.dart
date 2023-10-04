@@ -223,6 +223,7 @@ class _RewardScreenState extends State<RewardScreen> {
                                   ),
                           )
                         : SizedBox(
+                          key: destinationKey,
                             child: Stack(
                                 children: List.generate(
                               score,
@@ -247,6 +248,12 @@ class _RewardScreenState extends State<RewardScreen> {
                                                     listen: false);
                                             moneyProvider.increaseCoins(1);
                                           });
+
+                                          destinationBox = destinationKey.currentContext
+                                              ?.findRenderObject() as RenderBox;
+                                          destinationOffset = destinationBox
+                                              .localToGlobal(Offset.zero);
+                                          print(destinationOffset);
                                         })
                                     .followPath(
                                       path: path,
