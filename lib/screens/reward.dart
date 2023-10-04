@@ -181,119 +181,120 @@ class _RewardScreenState extends State<RewardScreen> {
                 ],
               ),
               const Spacer(),
-              !claimReward
-                  ? SizedBox(
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Text(
-                            "You earned",
-                            style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 30.sp,
-                              fontWeight: FontWeight.bold,
-                            ),
-                          ).animate().scaleXY(
-                                delay: 7.seconds,
-                                duration: .5.seconds,
-                                begin: 1,
-                                end: 0,
-                              ),
-                          const SizedBox(width: 10),
-                          countUp
-                              ? Countup(
-                                  begin: 0,
-                                  end: score.toDouble(),
-                                  duration: 1.seconds,
-                                  style: TextStyle(
-                                    color: AppColor.right,
-                                    fontSize: 30.sp,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                )
-                              : Text(
-                                  "0",
-                                  style: TextStyle(
-                                    color: AppColor.right,
-                                    fontSize: 30.sp,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ),
-                          const SizedBox(width: 10),
-                          Text(
-                            "coins",
-                            style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 30.sp,
-                              fontWeight: FontWeight.bold,
-                            ),
-                          ).animate().scaleXY(
-                                delay: 7.seconds,
-                                duration: .5.seconds,
-                                begin: 1,
-                                end: 0,
-                              ),
-                        ],
-                      )
-                          .animate(
-                            onPlay: (controller) => controller.repeat(),
-                          )
-                          .shimmer(
-                            delay: 2.seconds,
-                            duration: 1.seconds,
-                          ),
-                    )
-                      .animate(
-                        onComplete: (controller) {
-                          setState(() {
-                            claimReward = true;
-                          });
-                        },
-                      )
-                      .slideX(
-                        delay: 2.seconds,
-                        duration: 2.seconds,
-                        begin: 20.h,
-                        end: 0,
-                      )
-                  : SizedBox(
-                      child: Stack(
-                          children: List.generate(
-                        score,
-                        (index) => SizedBox(
-                          width: 30.w,
-                          child: Image.asset("assets/images/coin.png"),
-                        ),
-                      )
-                              .animate(
-                                  interval: 50.milliseconds,
-                                  onPlay: (controller) {
-                                    Future.delayed(1.8.seconds, () {
-                                      playCoinUp(context);
-                                    });
-                                  },
-                                  onComplete: (controller) {
-                                    setState(() {
-                                      receivedReward = true;
-                                      final moneyProvider =
-                                          Provider.of<MoneyProvider>(context,
-                                              listen: false);
-                                      moneyProvider.increaseCoins(1);
-                                    });
-                                  })
-                              .followPath(
-                                path: path,
-                                delay: 1.seconds,
-                                duration: 1.seconds,
-                              )
-                              .fadeOut(
-                                delay: 1.seconds,
-                                duration: 1.seconds,
-                              )),
-                    ).animate().fadeIn(
-                        duration: .5.seconds,
-                        begin: 0,
+              SizedBox(
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Text(
+                      "You earned",
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 30.sp,
+                        fontWeight: FontWeight.bold,
                       ),
+                    ).animate().scaleXY(
+                          delay: 7.seconds,
+                          duration: .5.seconds,
+                          begin: 1,
+                          end: 0,
+                        ),
+                    const SizedBox(width: 10),
+                    !claimReward
+                        ? SizedBox(
+                            child: countUp
+                                ? Countup(
+                                    begin: 0,
+                                    end: score.toDouble(),
+                                    duration: 1.seconds,
+                                    style: TextStyle(
+                                      color: AppColor.right,
+                                      fontSize: 30.sp,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  )
+                                : Text(
+                                    "0",
+                                    style: TextStyle(
+                                      color: AppColor.right,
+                                      fontSize: 30.sp,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
+                          )
+                        : SizedBox(
+                            child: Stack(
+                                children: List.generate(
+                              score,
+                              (index) => SizedBox(
+                                width: 30.w,
+                                child: Image.asset("assets/images/coin.png"),
+                              ),
+                            )
+                                    .animate(
+                                        interval: 50.milliseconds,
+                                        onPlay: (controller) {
+                                          Future.delayed(1.8.seconds, () {
+                                            playCoinUp(context);
+                                          });
+                                        },
+                                        onComplete: (controller) {
+                                          setState(() {
+                                            receivedReward = true;
+                                            final moneyProvider =
+                                                Provider.of<MoneyProvider>(
+                                                    context,
+                                                    listen: false);
+                                            moneyProvider.increaseCoins(1);
+                                          });
+                                        })
+                                    .followPath(
+                                      path: path,
+                                      delay: 1.seconds,
+                                      duration: 1.seconds,
+                                    )
+                                    .fadeOut(
+                                      delay: 1.seconds,
+                                      duration: 1.seconds,
+                                    )),
+                          ).animate().fadeIn(
+                              duration: .5.seconds,
+                              begin: 0,
+                            ),
+                    const SizedBox(width: 10),
+                    Text(
+                      "coins",
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 30.sp,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ).animate().scaleXY(
+                          delay: 7.seconds,
+                          duration: .5.seconds,
+                          begin: 1,
+                          end: 0,
+                        ),
+                  ],
+                )
+                    .animate(
+                      onPlay: (controller) => controller.repeat(),
+                    )
+                    .shimmer(
+                      delay: 2.seconds,
+                      duration: 1.seconds,
+                    ),
+              ).animate(
+                onComplete: (controller) {
+                  setState(() {
+                    claimReward = true;
+                  });
+                },
+              ).slideX(
+                delay: 2.seconds,
+                duration: 2.seconds,
+                begin: 20.h,
+                end: 0,
+              ),
               const Spacer(flex: 2),
               if (receivedReward)
                 ZoomTapAnimation(
