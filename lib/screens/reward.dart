@@ -46,7 +46,7 @@ class _RewardScreenState extends State<RewardScreen> {
     score = scoreProvider.score;
     scoreProvider.resetScore();
 
-    score = 18;
+    // score = 18;
 
     final moneyProvider = Provider.of<MoneyProvider>(context, listen: false);
     moneyProvider.resetCoins();
@@ -282,7 +282,7 @@ class _RewardScreenState extends State<RewardScreen> {
                     ),
               ).animate(
                 onComplete: (controller) {
-                  Future.delayed(2.seconds, () {
+                  Future.delayed(2.5.seconds, () {
                     setState(() {
                       claimReward = true;
                     });
