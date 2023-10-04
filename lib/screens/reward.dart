@@ -36,9 +36,9 @@ class _RewardScreenState extends State<RewardScreen> {
     playVictory(context);
     receivedReward = false;
     vitoryConfettiController = ConfettiController(duration: 1.5.seconds);
-    /* final scoreProvider = Provider.of<ScoreProvider>(context, listen: false);
+    final scoreProvider = Provider.of<ScoreProvider>(context, listen: false);
     score = scoreProvider.score;
-    scoreProvider.resetScore(); */
+    scoreProvider.resetScore();
 
     final moneyProvider = Provider.of<MoneyProvider>(context, listen: false);
     moneyProvider.resetCoins();
@@ -138,10 +138,6 @@ class _RewardScreenState extends State<RewardScreen> {
                                 () => vitoryConfettiController.play(),
                               ),
                           onComplete: (controller) {
-                            box = key.currentContext?.findRenderObject()
-                                as RenderBox;
-                            // offset = box.localToGlobal(Offset.zero);
-
                             offset = const Offset(20, -350);
 
                             path = Path()
