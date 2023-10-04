@@ -4,7 +4,6 @@ import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
-import 'package:trivia/data/variables.dart';
 import 'package:trivia/main.dart';
 import 'package:trivia/models/dialogs/settings.dart';
 import 'package:trivia/providers/money.dart';
@@ -34,7 +33,6 @@ class _GameStatsState extends State<GameStats> {
         debugPrint("Animate coins: $animateCoins");
       });
     });
-
     super.initState();
   }
 
@@ -49,6 +47,7 @@ class _GameStatsState extends State<GameStats> {
 
   @override
   Widget build(BuildContext context) {
+
     return Consumer<MoneyProvider>(builder: (context, moneyProvider, _) {
       return Row(
         children: [
@@ -140,9 +139,7 @@ class _GameStatsState extends State<GameStats> {
                           color: Colors.yellow,
                         ),
                       ),
-                    ).animate().fadeIn(
-                          duration: .1.seconds,
-                        ),
+                    ),
                   ),
                   Container(
                     width: 18.w,
@@ -219,7 +216,6 @@ class _GameStatsState extends State<GameStats> {
                 children: [
                   Expanded(
                     child: Center(
-                      key: destinationKey,
                       child: animateCoins
                           ? Countup(
                               begin: moneyProvider.previousCoins.toDouble(),
@@ -236,14 +232,6 @@ class _GameStatsState extends State<GameStats> {
                               ),
                             ),
                     ),
-                  ).animate(onComplete: (controller) {
-                    destinationBox = destinationKey.currentContext
-                        ?.findRenderObject() as RenderBox;
-                    destinationOffset =
-                        destinationBox.localToGlobal(Offset.zero);
-                    print(destinationOffset);
-                  }).fadeIn(
-                    duration: .1.seconds,
                   ),
                   Container(
                     width: 18.w,
