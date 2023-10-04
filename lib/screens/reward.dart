@@ -244,19 +244,6 @@ class _RewardScreenState extends State<RewardScreen> {
                                             moneyProvider.increaseCoins(1);
                                           });
 
-                                          destinationBox = destinationKey.currentContext
-                                              ?.findRenderObject() as RenderBox;
-                                          destinationOffset = destinationBox
-                                              .localToGlobal(Offset.zero);
-                                          print(destinationOffset);
-
-                                          path = Path()
-                                            ..arcToPoint(
-                                              destinationOffset,
-                                              radius:
-                                                  const Radius.circular(300),
-                                              clockwise: true,
-                                            );
                                         })
                                     .followPath(
                                       path: path,
@@ -267,7 +254,9 @@ class _RewardScreenState extends State<RewardScreen> {
                                       delay: 1.seconds,
                                       duration: 1.seconds,
                                     )),
-                          ).animate().fadeIn(
+                          ).animate(
+                            
+                          ).fadeIn(
                               duration: .5.seconds,
                               begin: 0,
                             ),
