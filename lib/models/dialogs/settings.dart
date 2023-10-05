@@ -5,12 +5,13 @@ import 'package:provider/provider.dart';
 import 'package:trivia/main.dart';
 import 'package:trivia/models/dialogs/game.dart';
 import 'package:trivia/providers/audio.dart';
+import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 showSettingsDialog(BuildContext context) {
   showGameDialog(
     context,
     isExitable: true,
-    padding: const EdgeInsets.symmetric(20, 40, 20, 60),
+    padding: EdgeInsets.symmetric(horizontal: 20.w, vertical: 40.h),
     child: Column(
       mainAxisSize: MainAxisSize.min,
       children: [
@@ -129,20 +130,22 @@ showSettingsDialog(BuildContext context) {
                       : const SizedBox();
                 },
               ),
-              SizedBox(height: 20.h),
-              Container(
-                padding: EdgeInsets.symmetric(
-                  vertical: 10.sp,
-                  horizontal: 20.sp,
-                ),
-                decoration: BoxDecoration(
-                  color: Colors.white,
-                  borderRadius: BorderRadius.circular(20.r),
-                ),
-                child: Text(
-                  "Credits",
-                  style: TextStyle(
-                    fontSize: 20.sp,
+              SizedBox(height: 30.h),
+              ZoomTapAnimation(
+                child: Container(
+                  padding: EdgeInsets.symmetric(
+                    vertical: 10.sp,
+                    horizontal: 20.sp,
+                  ),
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(20.r),
+                  ),
+                  child: Text(
+                    "Credits",
+                    style: TextStyle(
+                      fontSize: 20.sp,
+                    ),
                   ),
                 ),
               )
