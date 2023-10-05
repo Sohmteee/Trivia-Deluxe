@@ -9,7 +9,7 @@ showCreditsDialog(BuildContext context) {
     // padding: EdgeInsets.symmetric(horizontal: 20.w, vertical: 40.h),
     child: Column(
       mainAxisSize: MainAxisSize.min,
-      children: [  
+      children: [
         Text(
           "CREDITS",
           style: TextStyle(
@@ -19,12 +19,21 @@ showCreditsDialog(BuildContext context) {
           ),
           textAlign: TextAlign.center,
         ),
+        SizedBox(height: 20.h),
         Text(
           "PROGRAMMING",
           style: TextStyle(
             color: Colors.white,
             fontSize: 20.sp,
             fontWeight: FontWeight.bold,
+          ),
+          textAlign: TextAlign.center,
+        ),
+        Text(
+          "Somtochukwu Ukaegbe",
+          style: TextStyle(
+            color: Colors.white,
+            fontSize: 20.sp,
           ),
           textAlign: TextAlign.center,
         ),
