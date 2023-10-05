@@ -32,7 +32,7 @@ class _RewardScreenState extends State<RewardScreen> {
   final offset = const Offset(20, -350);
   late Path path;
 
-  bool countUp = false, claimReward = false, playedCoinUp = false;
+  bool countUp = false, claimReward = false, playedCoinUp = false, levelAnimation = false;
 
   @override
   void initState() {
