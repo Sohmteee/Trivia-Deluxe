@@ -40,7 +40,7 @@ showCreditsDialog(BuildContext context) {
         ),
         SizedBox(height: 20.h),
         Text(
-          "MUSIC",
+          "MUSIC / SOUND EFFECTS",
           style: TextStyle(
             color: Colors.white,
             fontSize: 20.sp,
@@ -86,7 +86,7 @@ showCreditsDialog(BuildContext context) {
         ),
         SizedBox(height: 20.h),
         Text(
-          "GRAPHICS/UI Design",
+          "GRAPHICS / UI Design",
           style: TextStyle(
             color: Colors.white,
             fontSize: 20.sp,
