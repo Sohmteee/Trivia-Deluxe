@@ -193,42 +193,58 @@ class _RewardScreenState extends State<RewardScreen> {
               ),
               const Spacer(),
               levelAnimation
-                  ? SizedBox(
-                      child: Container(
-                        padding: EdgeInsets.all(30.sp),
-                        decoration: BoxDecoration(
-                          color: AppColor.levelYellow,
-                          shape: BoxShape.circle,
-                        ),
-                        child: Text(
-                          (level - 1).toString(),
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 30.sp,
+                  ? Stack(
+                      children: [
+                        Container(
+                          padding: EdgeInsets.all(30.sp),
+                          decoration: BoxDecoration(
+                            color: AppColor.levelYellow,
+                            shape: BoxShape.circle,
                           ),
-                        ),
-                      )
-                          .animate()
-                          .then()
-                          .slideY(
-                            duration: 1.seconds,
-                            begin: -2.h,
-                            end: 0,
-                          )
-                          .fadeIn(
-                            duration: 1.seconds,
-                          )
-                          .then()
-                          .slideY(
-                            delay: 1.seconds,
-                            duration: .5.seconds,
-                            begin: 0,
-                            end: 2.h,
-                          )
-                          .fadeOut(
-                            delay: 1.seconds,
-                            duration: .5.seconds,
+                          child: Text(
+                            (level - 1).toString(),
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 30.sp,
+                            ),
                           ),
+                        )
+                        Container(
+                          padding: EdgeInsets.all(30.sp),
+                          decoration: BoxDecoration(
+                            color: AppColor.levelYellow,
+                            shape: BoxShape.circle,
+                          ),
+                          child: Text(
+                            (level - 1).toString(),
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 30.sp,
+                            ),
+                          ),
+                        )
+                            .animate()
+                            .then()
+                            .slideY(
+                              duration: 1.seconds,
+                              begin: -2.h,
+                              end: 0,
+                            )
+                            .fadeIn(
+                              duration: 1.seconds,
+                            )
+                            .then()
+                            .slideY(
+                              delay: 1.seconds,
+                              duration: .3.seconds,
+                              begin: 0,
+                              end: 2.h,
+                            )
+                            .fadeOut(
+                              delay: 1.seconds,
+                              duration: .3.seconds,
+                            ),
+                      ],
                     )
                   : SizedBox(
                       child: Row(
