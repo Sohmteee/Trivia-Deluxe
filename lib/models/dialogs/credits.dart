@@ -138,9 +138,13 @@ showCreditsDialog(BuildContext context) {
           ),
           textAlign: TextAlign.center,
         ),
-        ClipRRect(
-          borderRadius: Brci,
-          child: Image.asset("assets/images/digital-dreams-logo.png"),
+        SizedBox(
+          width: 50.sp,
+          height: 50.sp,
+          child: ClipRRect(
+            borderRadius: BorderRadius.circular(100.r),
+            child: Image.asset("assets/images/digital-dreams-logo.png"),
+          ),
         ),
       ],
     ),
