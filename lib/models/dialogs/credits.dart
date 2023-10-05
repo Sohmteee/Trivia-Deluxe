@@ -14,7 +14,7 @@ showCreditsDialog(BuildContext context) {
           "CREDITS",
           style: TextStyle(
             color: Colors.white,
-            fontSize: 25.sp,
+            fontSize: 30.sp,
             fontWeight: FontWeight.bold,
           ),
           textAlign: TextAlign.center,
@@ -110,7 +110,7 @@ showCreditsDialog(BuildContext context) {
           textAlign: TextAlign.center,
         ),
         Text(
-          "Dracusta",
+          "Victor Anya",
           style: TextStyle(
             color: Colors.white,
             fontSize: 20.sp,
@@ -118,7 +118,7 @@ showCreditsDialog(BuildContext context) {
           textAlign: TextAlign.center,
         ),
         Text(
-          "",
+          "Somtochukwu Obi",
           style: TextStyle(
             color: Colors.white,
             fontSize: 20.sp,
