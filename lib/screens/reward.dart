@@ -191,179 +191,183 @@ class _RewardScreenState extends State<RewardScreen> {
                 ],
               ),
               const Spacer(),
-              SizedBox(
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    !claimReward
-                        ? Text(
-                            "You earned",
-                            style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 30.sp,
-                              fontWeight: FontWeight.bold,
-                            ),
-                          ).animate().scaleXY(
-                              delay: 7.seconds,
-                              duration: .5.seconds,
-                              begin: 1,
-                              end: 0,
-                            )
-                        : const Spacer(),
-                    const SizedBox(width: 10),
-                    !claimReward
-                        ? SizedBox(
-                            child: countUp
-                                ? Countup(
-                                    begin: 0,
-                                    end: score.toDouble(),
-                                    duration: 1.seconds,
-                                    style: TextStyle(
-                                      color: AppColor.right,
-                                      fontSize: 30.sp,
-                                      fontWeight: FontWeight.bold,
-                                    ),
+              levelAnimation
+                  ? SizedBox()
+                  : SizedBox(
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          !claimReward
+                              ? Text(
+                                  "You earned",
+                                  style: TextStyle(
+                                    color: Colors.white,
+                                    fontSize: 30.sp,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ).animate().scaleXY(
+                                    delay: 7.seconds,
+                                    duration: .5.seconds,
+                                    begin: 1,
+                                    end: 0,
                                   )
-                                : Text(
-                                    "0",
-                                    style: TextStyle(
-                                      color: AppColor.right,
-                                      fontSize: 30.sp,
-                                      fontWeight: FontWeight.bold,
-                                    ),
-                                  ),
-                          )
-                            .animate(
-                              onComplete: (controller) {
-                                Future.delayed(1.seconds, () {
-                                  setState(() {
-                                    claimReward = true;
-                                  });
-                                });
-                              },
-                            )
-                            .slideX(
-                              duration: .5.seconds,
-                              begin: -20.w,
-                              end: 0,
-                            )
-                            .then()
-                            .slideX(
-                              delay: 6.5.seconds,
-                              duration: .5.seconds,
-                              begin: 0,
-                              end: -1.w,
-                            )
-                            .slideY(
-                              delay: 6.5.seconds,
-                              duration: .5.seconds,
-                              begin: 0,
-                              end: 1.w,
-                            )
-                        : Stack(
-                            alignment: Alignment.center,
-                            children: [
-                              Stack(
-                                children: List.generate(
-                                  score,
-                                  (index) => SizedBox(
-                                    width: 30.w,
-                                    child:
-                                        Image.asset("assets/images/coin.png"),
-                                  ),
+                              : const Spacer(),
+                          const SizedBox(width: 10),
+                          !claimReward
+                              ? SizedBox(
+                                  child: countUp
+                                      ? Countup(
+                                          begin: 0,
+                                          end: score.toDouble(),
+                                          duration: 1.seconds,
+                                          style: TextStyle(
+                                            color: AppColor.right,
+                                            fontSize: 30.sp,
+                                            fontWeight: FontWeight.bold,
+                                          ),
+                                        )
+                                      : Text(
+                                          "0",
+                                          style: TextStyle(
+                                            color: AppColor.right,
+                                            fontSize: 30.sp,
+                                            fontWeight: FontWeight.bold,
+                                          ),
+                                        ),
                                 )
-                                    .animate(
-                                        interval: 100.milliseconds,
-                                        onPlay: (controller) {},
-                                        onComplete: (controller) {
-                                          setState(() {
-                                            receivedReward = true;
-                                            final moneyProvider =
-                                                Provider.of<MoneyProvider>(
-                                                    context,
-                                                    listen: false);
-                                            moneyProvider.increaseCoins(1);
-                                            if (!playedCoinUp) {
-                                              setState(() {
-                                                playedCoinUp = true;
-                                              });
-                                              Future.delayed(.5.seconds, () {
-                                                playCoinUp(context);
-                                              });
-                                            }
-                                          });
-                                        })
-                                    .followPath(
-                                      path: path,
-                                      delay: 1.seconds,
-                                      duration: 1.seconds,
-                                    )
-                                    .fadeOut(
-                                      delay: 1.seconds,
-                                      duration: 1.seconds,
+                                  .animate(
+                                    onComplete: (controller) {
+                                      Future.delayed(1.seconds, () {
+                                        setState(() {
+                                          claimReward = true;
+                                        });
+                                      });
+                                    },
+                                  )
+                                  .slideX(
+                                    duration: .5.seconds,
+                                    begin: -20.w,
+                                    end: 0,
+                                  )
+                                  .then()
+                                  .slideX(
+                                    delay: 6.5.seconds,
+                                    duration: .5.seconds,
+                                    begin: 0,
+                                    end: -1.w,
+                                  )
+                                  .slideY(
+                                    delay: 6.5.seconds,
+                                    duration: .5.seconds,
+                                    begin: 0,
+                                    end: 1.w,
+                                  )
+                              : Stack(
+                                  alignment: Alignment.center,
+                                  children: [
+                                    Stack(
+                                      children: List.generate(
+                                        score,
+                                        (index) => SizedBox(
+                                          width: 30.w,
+                                          child: Image.asset(
+                                              "assets/images/coin.png"),
+                                        ),
+                                      )
+                                          .animate(
+                                              interval: 100.milliseconds,
+                                              onPlay: (controller) {},
+                                              onComplete: (controller) {
+                                                setState(() {
+                                                  receivedReward = true;
+                                                  final moneyProvider = Provider
+                                                      .of<MoneyProvider>(
+                                                          context,
+                                                          listen: false);
+                                                  moneyProvider
+                                                      .increaseCoins(1);
+                                                  if (!playedCoinUp) {
+                                                    setState(() {
+                                                      playedCoinUp = true;
+                                                    });
+                                                    Future.delayed(.5.seconds,
+                                                        () {
+                                                      playCoinUp(context);
+                                                    });
+                                                  }
+                                                });
+                                              })
+                                          .followPath(
+                                            path: path,
+                                            delay: 1.seconds,
+                                            duration: 1.seconds,
+                                          )
+                                          .fadeOut(
+                                            delay: 1.seconds,
+                                            duration: 1.seconds,
+                                          ),
                                     ),
-                              ),
-                              SizedBox(
-                                height: 200.h,
-                                width: 200.w,
-                                child: Lottie.asset(
-                                  "assets/json/chest.json",
-                                  repeat: false,
-                                ),
-                              ),
-                            ],
+                                    SizedBox(
+                                      height: 200.h,
+                                      width: 200.w,
+                                      child: Lottie.asset(
+                                        "assets/json/chest.json",
+                                        repeat: false,
+                                      ),
+                                    ),
+                                  ],
+                                )
+                                  .animate(onComplete: (controller) {
+                                    setState(() {
+                                      levelAnimation = true;
+                                    });
+                                  })
+                                  .fadeIn(
+                                    duration: .5.seconds,
+                                    begin: 0,
+                                  )
+                                  .then()
+                                  .slideY(
+                                    delay: 5.seconds,
+                                    duration: 1.seconds,
+                                    begin: 0,
+                                    end: 10.h,
+                                  )
+                                  .fadeOut(
+                                    delay: 5.seconds,
+                                    duration: 1.seconds,
+                                  ),
+                          const SizedBox(width: 10),
+                          !claimReward
+                              ? Text(
+                                  "coins",
+                                  style: TextStyle(
+                                    color: Colors.white,
+                                    fontSize: 30.sp,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ).animate().scaleXY(
+                                    delay: 7.seconds,
+                                    duration: .5.seconds,
+                                    begin: 1,
+                                    end: 0,
+                                  )
+                              : const Spacer(),
+                        ],
+                      )
+                          .animate(
+                            onPlay: (controller) => controller.repeat(),
                           )
-                            .animate(onComplete: (controller) {
-                              setState(() {
-                                levelAnimation = true;
-                              });
-                            })
-                            .fadeIn(
-                              duration: .5.seconds,
-                              begin: 0,
-                            )
-                            .then()
-                            .slideY(
-                              delay: 5.seconds,
-                              duration: 1.seconds,
-                              begin: 0,
-                              end: 10.h,
-                            )
-                            .fadeOut(
-                              delay: 5.seconds,
-                              duration: 1.seconds,
-                            ),
-                    const SizedBox(width: 10),
-                    !claimReward
-                        ? Text(
-                            "coins",
-                            style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 30.sp,
-                              fontWeight: FontWeight.bold,
-                            ),
-                          ).animate().scaleXY(
-                              delay: 7.seconds,
-                              duration: .5.seconds,
-                              begin: 1,
-                              end: 0,
-                            )
-                        : const Spacer(),
-                  ],
-                )
-                    .animate(
-                      onPlay: (controller) => controller.repeat(),
-                    )
-                    .shimmer(
-                      delay: 2.seconds,
-                      duration: 1.seconds,
-                    ),
-              ).animate().slideX(
-                    delay: 2.seconds,
-                    duration: 2.seconds,
-                    begin: 20.h,
-                    end: 0,
-                  ),
+                          .shimmer(
+                            delay: 2.seconds,
+                            duration: 1.seconds,
+                          ),
+                    ).animate().slideX(
+                        delay: 2.seconds,
+                        duration: 2.seconds,
+                        begin: 20.h,
+                        end: 0,
+                      ),
               const Spacer(flex: 2),
               if (receivedReward)
                 ZoomTapAnimation(
