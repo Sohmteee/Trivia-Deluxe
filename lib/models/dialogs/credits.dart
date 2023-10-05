@@ -48,7 +48,7 @@ showCreditsDialog(BuildContext context) {
           textAlign: TextAlign.center,
         ),
         Text(
-          "Somtochukwu Ukaegbe",
+          "Art of Silence - Uniq",
           style: TextStyle(
             color: Colors.white,
             fontSize: 20.sp,
@@ -56,7 +56,7 @@ showCreditsDialog(BuildContext context) {
           textAlign: TextAlign.center,
         ),
         Text(
-          "Pixabay",
+          "Sound Effects from Pixabay",
           style: TextStyle(
             color: Colors.white,
             fontSize: 20.sp,
