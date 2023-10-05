@@ -132,6 +132,10 @@ showSettingsDialog(BuildContext context) {
               ),
               SizedBox(height: 30.h),
               ZoomTapAnimation(
+                onTap: () {
+                  Navigator.pop(context);
+                  showCreditsDialog(context);
+                },
                 child: Container(
                   padding: EdgeInsets.symmetric(
                     vertical: 10.sp,
