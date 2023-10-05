@@ -21,6 +21,8 @@ class QuestionProvider extends ChangeNotifier {
     questions = data["data"];
     questionIndex = data["currentIndex"];
 
+    options.shuffle();
+
     if (!questionIsShuffled) {
       questions.shuffle();
       questionIsShuffled = true;

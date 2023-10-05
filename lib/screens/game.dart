@@ -32,7 +32,6 @@ class _GameScreenState extends State<GameScreen> {
   void initState() {
     final questionProvider =
         Provider.of<QuestionProvider>(context, listen: false);
-                          questionProvider.options.shuffle();
 
     confettiController = ConfettiController(duration: 1.5.seconds);
     questionProvider.initQuestionProvider(context);
