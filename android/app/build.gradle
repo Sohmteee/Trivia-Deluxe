@@ -67,7 +67,7 @@ android {
        release {
            keyAlias keystoreProperties['keyAlias']
            keyPassword chukwudike
-           storeFile keystoreProperties['storeFile'] ? file(keystoreProperties['storeFile']) : null
+           storeFile keystoreProperties['storeFile'] ? file(C:\Users\Somto\upload-keystore.jks) : null
            storePassword chukwudike
        }
    }
