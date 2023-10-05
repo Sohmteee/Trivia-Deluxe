@@ -313,7 +313,11 @@ class _RewardScreenState extends State<RewardScreen> {
                               ),
                             ],
                           )
-                            .animate()
+                            .animate(onComplete: (controller) {
+                              setState(() {
+                                levelAnimation = true;
+                              });
+                            })
                             .fadeIn(
                               duration: .5.seconds,
                               begin: 0,
@@ -321,11 +325,13 @@ class _RewardScreenState extends State<RewardScreen> {
                             .then()
                             .slideY(
                               delay: 5.seconds,
+                              duration: 1.seconds,
                               begin: 0,
                               end: 10.h,
                             )
                             .fadeOut(
                               delay: 5.seconds,
+                              duration: 1.seconds,
                             ),
                     const SizedBox(width: 10),
                     !claimReward
