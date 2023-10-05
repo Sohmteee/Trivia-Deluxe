@@ -78,7 +78,7 @@ showCreditsDialog(BuildContext context) {
         ),
         SizedBox(height: 20.h),
         Text(
-          "GRAPHICS / UI Design",
+          "GRAPHICS / UI DESIGN",
           style: TextStyle(
             color: Colors.white,
             fontSize: 20.sp,
