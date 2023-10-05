@@ -32,7 +32,7 @@ class _RewardScreenState extends State<RewardScreen> {
   final offset = const Offset(20, -350);
   late Path path;
 
-  bool countUp = false, claimReward = false;
+  bool countUp = false, claimReward = false, playedCoinUp = false;
 
   @override
   void initState() {
@@ -283,7 +283,12 @@ class _RewardScreenState extends State<RewardScreen> {
                                                     context,
                                                     listen: false);
                                             moneyProvider.increaseCoins(1);
-                                            playCoinUp(context);
+                                            if (!playedCoinUp) {
+                                              setState(() {
+                                                playedCoinUp = true;
+                                              });
+                                              playCoinUp(context);
+                                            }
                                           });
                                         })
                                     .followPath(
