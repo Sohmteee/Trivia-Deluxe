@@ -194,7 +194,7 @@ class _RewardScreenState extends State<RewardScreen> {
               levelAnimation
                   ? SizedBox(
                       child: Container(
-                        padding: EdgeInsets.all(50.sp),
+                        padding: EdgeInsets.all(30.sp),
                         decoration: BoxDecoration(
                           color: AppColor.levelYellow,
                           shape: BoxShape.circle,
@@ -203,7 +203,7 @@ class _RewardScreenState extends State<RewardScreen> {
                           (level - 1).toString(),
                           style: TextStyle(
                             color: Colors.white,
-                            fontSize: 50.sp,
+                            fontSize: 30.sp,
                           ),
                         ),
                       ),
