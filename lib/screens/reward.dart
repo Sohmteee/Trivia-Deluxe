@@ -240,7 +240,7 @@ class _RewardScreenState extends State<RewardScreen> {
                                     final moneyProvider =
                                         Provider.of<MoneyProvider>(context,
                                             listen: false);
-                                    moneyProvider.increaseCoins(score);
+                                            Future.delayed(1.seconds,() => )
                                   });
                                 });
                               },
