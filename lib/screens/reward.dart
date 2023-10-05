@@ -202,13 +202,23 @@ class _RewardScreenState extends State<RewardScreen> {
                             shape: BoxShape.circle,
                           ),
                           child: Text(
-                            (level - 1).toString(),
+                            level.toString(),
                             style: TextStyle(
                               color: Colors.white,
                               fontSize: 30.sp,
                             ),
                           ),
-                        )
+                        ).animate()
+                            .slideY(
+                              delay: 1.seconds,
+                              duration: .3.seconds,
+                              begin: 0,
+                              end: 2.h,
+                            )
+                            .fadeOut(
+                              delay: 1.seconds,
+                              duration: .3.seconds,
+                            ),
                         Container(
                           padding: EdgeInsets.all(30.sp),
                           decoration: BoxDecoration(
@@ -224,7 +234,6 @@ class _RewardScreenState extends State<RewardScreen> {
                           ),
                         )
                             .animate()
-                            .then()
                             .slideY(
                               duration: 1.seconds,
                               begin: -2.h,
