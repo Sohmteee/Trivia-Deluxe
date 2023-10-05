@@ -138,7 +138,7 @@ showCreditsDialog(BuildContext context) {
           ),
           textAlign: TextAlign.center,
         ),
-        SizedBox(height: 20.h),
+        SizedBox(height: 30.h),
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
