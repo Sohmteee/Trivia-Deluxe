@@ -364,7 +364,7 @@ class _RewardScreenState extends State<RewardScreen> {
                       borderRadius: BorderRadius.circular(30.r),
                     ),
                     child: Text(
-                      "Continue",
+                      "Continue to Level ${level + 1}",
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 28.sp,
@@ -377,7 +377,7 @@ class _RewardScreenState extends State<RewardScreen> {
                     .slideY(
                       delay: 5.seconds,
                       duration: .3.seconds,
-                      curve: Curves.boun
+                      curve: Curves.bounceOut,
                       begin: 2.h,
                       end: 0,
                     )
