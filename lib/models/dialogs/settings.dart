@@ -129,6 +129,13 @@ showSettingsDialog(BuildContext context) {
                 },
               ),
               Container(
+                padding: EdgeInsets.symmetric(
+                  vertical: 10.sp,
+                  horizontal: 15.sp,
+                ),
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                ),
                 child: Text("Credits"),
               )
             ],
