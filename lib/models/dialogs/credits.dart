@@ -139,7 +139,7 @@ showCreditsDialog(BuildContext context) {
           textAlign: TextAlign.center,
         ),
         Container(
-          
+          bR
           child: Image.asset("assets/images/digital-dreams-logo.png"),
         ),
       ],
