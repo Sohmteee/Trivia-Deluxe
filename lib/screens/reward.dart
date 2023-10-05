@@ -203,11 +203,10 @@ class _RewardScreenState extends State<RewardScreen> {
                               fontSize: 30.sp,
                               fontWeight: FontWeight.bold,
                             ),
-                          ).animate().scaleXY(
+                          ).animate().fadeOut(
                               delay: 7.seconds,
                               duration: .5.seconds,
                               begin: 1,
-                              end: 0,
                             )
                         : const Spacer(),
                     const SizedBox(width: 10),
@@ -325,11 +324,10 @@ class _RewardScreenState extends State<RewardScreen> {
                               fontSize: 30.sp,
                               fontWeight: FontWeight.bold,
                             ),
-                          ).animate().scaleXY(
+                          ).animate().fadeOut(
                               delay: 7.seconds,
                               duration: .5.seconds,
                               begin: 1,
-                              end: 0,
                             )
                         : const Spacer(),
                   ],
