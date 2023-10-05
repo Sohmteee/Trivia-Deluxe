@@ -375,14 +375,14 @@ class _RewardScreenState extends State<RewardScreen> {
                 )
                     .animate()
                     .slideY(
-                      delay: .5.seconds,
+                      delay: 1.5.seconds,
                       duration: .5.seconds,
                       curve: Curves.bounceOut,
                       begin: -5.h,
                       end: 0,
                     )
                     .fadeIn(
-                      duration: .2.seconds,
+                      duration: 1.2.seconds,
                     ),
               const Spacer(flex: 3),
             ],
