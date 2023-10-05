@@ -375,8 +375,8 @@ class _RewardScreenState extends State<RewardScreen> {
                 ).animate().slideY(
                     delay: 5.seconds,
                     duration: 1.seconds,
-                    begin: 0,
-                    end: 10.h,
+                    begin: -2.h,
+                    end: 0,
                   ).fadeIn(
                     delay: 5.seconds,
                     duration: 1.seconds,
