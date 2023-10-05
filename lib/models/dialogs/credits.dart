@@ -86,25 +86,6 @@ showCreditsDialog(BuildContext context) {
         ),
         SizedBox(height: 20.h),
         Text(
-          "GRAPHICS / UI Design",
-          style: TextStyle(
-            color: Colors.white,
-            fontSize: 20.sp,
-            fontWeight: FontWeight.bold,
-          ),
-          textAlign: TextAlign.center,
-        ),
-        SizedBox(height: 2.h),
-        Text(
-          "Harrison",
-          style: TextStyle(
-            color: Colors.white,
-            fontSize: 20.sp,
-          ),
-          textAlign: TextAlign.center,
-        ),
-        SizedBox(height: 20.h),
-        Text(
           "PROJECT MANAGER",
           style: TextStyle(
             color: Colors.white,
@@ -135,6 +116,25 @@ showCreditsDialog(BuildContext context) {
         SizedBox(height: 2.h),
         Text(
           "Victor Anya",
+          style: TextStyle(
+            color: Colors.white,
+            fontSize: 20.sp,
+          ),
+          textAlign: TextAlign.center,
+        ),
+        SizedBox(height: 20.h),
+        Text(
+          "GRAPHICS / UI Design",
+          style: TextStyle(
+            color: Colors.white,
+            fontSize: 20.sp,
+            fontWeight: FontWeight.bold,
+          ),
+          textAlign: TextAlign.center,
+        ),
+        SizedBox(height: 2.h),
+        Text(
+          "Harrison Illodiuba",
           style: TextStyle(
             color: Colors.white,
             fontSize: 20.sp,
