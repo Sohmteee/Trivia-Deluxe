@@ -115,7 +115,7 @@ showCreditsDialog(BuildContext context) {
         ),
         SizedBox(height: 2.h),
         Text(
-          "Dracusta",
+          "Chux Edoga",
           style: TextStyle(
             color: Colors.white,
             fontSize: 20.sp,
