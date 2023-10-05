@@ -203,7 +203,7 @@ class _RewardScreenState extends State<RewardScreen> {
                             shape: BoxShape.circle,
                           ),
                           child: Text(
-                            level.toString(),
+                            (level + 1).toString(),
                             style: TextStyle(
                               color: Colors.white,
                               fontSize: 50.sp,
@@ -233,7 +233,7 @@ class _RewardScreenState extends State<RewardScreen> {
                             shape: BoxShape.circle,
                           ),
                           child: Text(
-                            (level - 1).toString(),
+                            (level).toString(),
                             style: TextStyle(
                               color: Colors.white,
                               fontSize: 30.sp,
