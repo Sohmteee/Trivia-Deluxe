@@ -210,7 +210,11 @@ class _RewardScreenState extends State<RewardScreen> {
                             ),
                           ),
                         )
-                            .animate()
+                            .animate(onComplete: (controller) {
+                              setState(() {
+                                receivedReward = true;
+                              });
+                            })
                             .slideY(
                               curve: Curves.bounceOut,
                               delay: 2.seconds,
@@ -344,7 +348,6 @@ class _RewardScreenState extends State<RewardScreen> {
                                               onPlay: (controller) {},
                                               onComplete: (controller) {
                                                 setState(() {
-                                                  receivedReward = true;
                                                   final moneyProvider = Provider
                                                       .of<MoneyProvider>(
                                                           context,
