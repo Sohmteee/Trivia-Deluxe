@@ -54,11 +54,10 @@ class _RewardScreenState extends State<RewardScreen> {
     score = scoreProvider.score;
     scoreProvider.resetScore();
 
-    /* score = 18;
-    level = 2;
+    score = 18;
 
     final moneyProvider = Provider.of<MoneyProvider>(context, listen: false);
-    moneyProvider.resetCoins(); */
+    moneyProvider.resetCoins();
 
     final levelProvider = Provider.of<LevelProvider>(context, listen: false);
     levelProvider.incrementLevel();
@@ -93,7 +92,7 @@ class _RewardScreenState extends State<RewardScreen> {
           child: Column(
             children: [
               const GameStats(),
-              SizedBox(height: 20.h),
+              const Spacer(),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -193,74 +192,13 @@ class _RewardScreenState extends State<RewardScreen> {
               ),
               const Spacer(),
               levelAnimation
-                  ? Stack(
-                      alignment: Alignment.center,
-                      children: [
-                        Container(
-                          padding: EdgeInsets.all(50.sp),
-                          decoration: BoxDecoration(
-                            color: AppColor.levelYellow,
-                            shape: BoxShape.circle,
-                          ),
-                          child: Text(
-                            (level + 1).toString(),
-                            style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 50.sp,
-                            ),
-                          ),
+                  ? SizedBox(
+                      child: Container(
+                        padding: EdgeInsets.all(20.sp),
+                        decoration: BoxDecoration(
+                          color
                         )
-                            .animate(onComplete: (controller) {
-                              setState(() {
-                                receivedReward = true;
-                              });
-                            })
-                            .slideY(
-                              curve: Curves.bounceOut,
-                              delay: 2.seconds,
-                              duration: .3.seconds,
-                              begin: -2.h,
-                              end: 0,
-                            )
-                            .fadeIn(
-                              delay: 2.seconds,
-                              duration: .3.seconds,
-                            ),
-                        Container(
-                          padding: EdgeInsets.all(30.sp),
-                          decoration: BoxDecoration(
-                            color: AppColor.levelYellow,
-                            shape: BoxShape.circle,
-                          ),
-                          child: Text(
-                            (level).toString(),
-                            style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 30.sp,
-                            ),
-                          ),
-                        )
-                            .animate()
-                            .slideY(
-                              duration: 1.seconds,
-                              begin: -2.h,
-                              end: 0,
-                            )
-                            .fadeIn(
-                              duration: 1.seconds,
-                            )
-                            .then()
-                            .slideY(
-                              delay: 1.seconds,
-                              duration: .3.seconds,
-                              begin: 0,
-                              end: 2.h,
-                            )
-                            .fadeOut(
-                              delay: 1.seconds,
-                              duration: .3.seconds,
-                            ),
-                      ],
+                      ),
                     )
                   : SizedBox(
                       child: Row(
@@ -348,6 +286,7 @@ class _RewardScreenState extends State<RewardScreen> {
                                               onPlay: (controller) {},
                                               onComplete: (controller) {
                                                 setState(() {
+                                                  receivedReward = true;
                                                   final moneyProvider = Provider
                                                       .of<MoneyProvider>(
                                                           context,
