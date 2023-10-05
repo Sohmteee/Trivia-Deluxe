@@ -95,7 +95,7 @@ showLowCashDialog(BuildContext context) {
                 playTap(context);
                 Navigator.of(dialogContext).pop();
                 levelProvider.resetCompletedStage();
-                Navigator.popAndPushNamed(dialogContext, "/menu");
+                Navigator.popAndPushNamed(dialogContext, "/select");
               },
               child: Container(
                 width: double.maxFinite,
