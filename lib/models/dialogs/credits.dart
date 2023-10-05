@@ -130,14 +130,6 @@ showCreditsDialog(BuildContext context) {
           ),
           textAlign: TextAlign.center,
         ),
-        Text(
-          "Somtochukwu Obi",
-          style: TextStyle(
-            color: Colors.white,
-            fontSize: 20.sp,
-          ),
-          textAlign: TextAlign.center,
-        ),
         SizedBox(height: 30.h),
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
