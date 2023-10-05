@@ -93,7 +93,7 @@ class _RewardScreenState extends State<RewardScreen> {
           child: Column(
             children: [
               const GameStats(),
-              const Spacer(),
+              SizedBox(height: 20.h),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 crossAxisAlignment: CrossAxisAlignment.start,
