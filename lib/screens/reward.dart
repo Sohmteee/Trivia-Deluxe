@@ -295,8 +295,8 @@ class _RewardScreenState extends State<RewardScreen> {
                                     ),
                               ),
                               SizedBox(
-                                height: 150.h,
-                                width: 150.w,
+                                height: 300.h,
+                                width: 300.w,
                                 child: Lottie.asset(
                                   "assets/json/chest.json",
                                   repeat: false,
