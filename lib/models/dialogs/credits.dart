@@ -105,7 +105,7 @@ showCreditsDialog(BuildContext context) {
         ),
         SizedBox(height: 20.h),
         Text(
-          "DIRECTORS",
+          "PROJECT MAN",
           style: TextStyle(
             color: Colors.white,
             fontSize: 20.sp,
