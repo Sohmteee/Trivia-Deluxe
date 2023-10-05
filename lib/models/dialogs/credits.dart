@@ -91,6 +91,40 @@ showCreditsDialog(BuildContext context) {
           ),
           textAlign: TextAlign.center,
         ),
+        SizedBox(height: 20.h),
+        Text(
+          "DIRECTORS",
+          style: TextStyle(
+            color: Colors.white,
+            fontSize: 20.sp,
+            fontWeight: FontWeight.bold,
+          ),
+          textAlign: TextAlign.center,
+        ),
+        Text(
+          "Dracusta",
+          style: TextStyle(
+            color: Colors.white,
+            fontSize: 20.sp,
+          ),
+          textAlign: TextAlign.center,
+        ),
+        Text(
+          "Dracusta",
+          style: TextStyle(
+            color: Colors.white,
+            fontSize: 20.sp,
+          ),
+          textAlign: TextAlign.center,
+        ),
+        Text(
+          "",
+          style: TextStyle(
+            color: Colors.white,
+            fontSize: 20.sp,
+          ),
+          textAlign: TextAlign.center,
+        ),
       ],
     ),
   );
