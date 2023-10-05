@@ -40,33 +40,6 @@ showCreditsDialog(BuildContext context) {
         ),
         SizedBox(height: 20.h),
         Text(
-          "MUSIC / SOUND EFFECTS",
-          style: TextStyle(
-            color: Colors.white,
-            fontSize: 20.sp,
-            fontWeight: FontWeight.bold,
-          ),
-          textAlign: TextAlign.center,
-        ),
-        SizedBox(height: 2.h),
-        Text(
-          "Art of Silence - Uniq",
-          style: TextStyle(
-            color: Colors.white,
-            fontSize: 20.sp,
-          ),
-          textAlign: TextAlign.center,
-        ),
-        Text(
-          "Sound Effects from Pixabay",
-          style: TextStyle(
-            color: Colors.white,
-            fontSize: 20.sp,
-          ),
-          textAlign: TextAlign.center,
-        ),
-        SizedBox(height: 20.h),
-        Text(
           "PROJECT MANAGER",
           style: TextStyle(
             color: Colors.white,
@@ -135,6 +108,33 @@ showCreditsDialog(BuildContext context) {
         SizedBox(height: 2.h),
         Text(
           "Somtochukwu Ukaegbe",
+          style: TextStyle(
+            color: Colors.white,
+            fontSize: 20.sp,
+          ),
+          textAlign: TextAlign.center,
+        ),
+        SizedBox(height: 20.h),
+        Text(
+          "MUSIC / SOUND EFFECTS",
+          style: TextStyle(
+            color: Colors.white,
+            fontSize: 20.sp,
+            fontWeight: FontWeight.bold,
+          ),
+          textAlign: TextAlign.center,
+        ),
+        SizedBox(height: 2.h),
+        Text(
+          "Art of Silence - Uniq",
+          style: TextStyle(
+            color: Colors.white,
+            fontSize: 20.sp,
+          ),
+          textAlign: TextAlign.center,
+        ),
+        Text(
+          "Sound Effects from Pixabay",
           style: TextStyle(
             color: Colors.white,
             fontSize: 20.sp,
