@@ -29,6 +29,7 @@ showCreditsDialog(BuildContext context) {
           ),
           textAlign: TextAlign.center,
         ),
+        SizedBox(height: 2.h),
         Text(
           "Somtochukwu Ukaegbe",
           style: TextStyle(
@@ -47,6 +48,7 @@ showCreditsDialog(BuildContext context) {
           ),
           textAlign: TextAlign.center,
         ),
+        SizedBox(height: 2.h),
         Text(
           "Art of Silence - Uniq",
           style: TextStyle(
@@ -73,6 +75,7 @@ showCreditsDialog(BuildContext context) {
           ),
           textAlign: TextAlign.center,
         ),
+        SizedBox(height: 2.h),
         Text(
           "Somtochukwu Ukaegbe",
           style: TextStyle(
@@ -91,6 +94,7 @@ showCreditsDialog(BuildContext context) {
           ),
           textAlign: TextAlign.center,
         ),
+        SizedBox(height: 2.h),
         Text(
           "Harrison",
           style: TextStyle(
@@ -109,6 +113,7 @@ showCreditsDialog(BuildContext context) {
           ),
           textAlign: TextAlign.center,
         ),
+        SizedBox(height: 2.h),
         Text(
           "Dracusta",
           style: TextStyle(
