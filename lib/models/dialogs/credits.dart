@@ -21,7 +21,7 @@ showCreditsDialog(BuildContext context) {
         ),
         SizedBox(height: 20.h),
         Text(
-          "PROGRAMMING",
+          "DEVELOPER",
           style: TextStyle(
             color: Colors.white,
             fontSize: 20.sp,
