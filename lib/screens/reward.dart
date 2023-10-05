@@ -194,6 +194,7 @@ class _RewardScreenState extends State<RewardScreen> {
               const Spacer(),
               levelAnimation
                   ? Stack(
+                      alignment: Alignment.center,
                       children: [
                         Container(
                           padding: EdgeInsets.all(50.sp),
@@ -208,8 +209,10 @@ class _RewardScreenState extends State<RewardScreen> {
                               fontSize: 50.sp,
                             ),
                           ),
-                        ).animate()
-                            .slideY(curve: Curves.bounceOut,
+                        )
+                            .animate()
+                            .slideY(
+                              curve: Curves.bounceOut,
                               delay: 2.seconds,
                               duration: .3.seconds,
                               begin: -2.h,
