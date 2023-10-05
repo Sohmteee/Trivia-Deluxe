@@ -192,7 +192,12 @@ class _RewardScreenState extends State<RewardScreen> {
               ),
               const Spacer(),
               levelAnimation
-                  ? SizedBox()
+                  ? SizedBox(
+                      child: Container(
+                        padding: EdgeInsets.all(20.sp),
+                        
+                      ),
+                    )
                   : SizedBox(
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.center,
