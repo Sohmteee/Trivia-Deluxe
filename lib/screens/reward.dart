@@ -54,11 +54,11 @@ class _RewardScreenState extends State<RewardScreen> {
     score = scoreProvider.score;
     scoreProvider.resetScore();
 
-    score = 18;
+    /* score = 18;
     level = 2;
 
     final moneyProvider = Provider.of<MoneyProvider>(context, listen: false);
-    moneyProvider.resetCoins();
+    moneyProvider.resetCoins(); */
 
     final levelProvider = Provider.of<LevelProvider>(context, listen: false);
     levelProvider.incrementLevel();
