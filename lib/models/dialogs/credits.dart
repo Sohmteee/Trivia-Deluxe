@@ -39,7 +39,7 @@ showCreditsDialog(BuildContext context) {
         ),
         SizedBox(height: 20.h),
         Text(
-          "MUSIC",
+          "MUSIC/VFX",
           style: TextStyle(
             color: Colors.white,
             fontSize: 20.sp,
@@ -49,6 +49,14 @@ showCreditsDialog(BuildContext context) {
         ),
         Text(
           "Somtochukwu Ukaegbe",
+          style: TextStyle(
+            color: Colors.white,
+            fontSize: 20.sp,
+          ),
+          textAlign: TextAlign.center,
+        ),
+        Text(
+          "Pixabay",
           style: TextStyle(
             color: Colors.white,
             fontSize: 20.sp,
