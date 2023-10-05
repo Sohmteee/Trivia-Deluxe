@@ -39,6 +39,8 @@ class QuestionProvider extends ChangeNotifier {
     options = questions[questionIndex]["options"];
 
     options.shuffle();
+
+    notifyListeners();
   }
 
   void resetOptions() {
