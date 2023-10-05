@@ -13,7 +13,7 @@ showCreditsDialog(BuildContext context) {
         Text(
           "CREDITS",
           style: TextStyle(
-            color: Colors.white,
+            color: Colors.yellow,
             fontSize: 30.sp,
             fontWeight: FontWeight.bold,
           ),
@@ -23,7 +23,7 @@ showCreditsDialog(BuildContext context) {
         Text(
           "DEVELOPER",
           style: TextStyle(
-            color: Colors.white,
+            color: Colors.yellow,
             fontSize: 20.sp,
             fontWeight: FontWeight.bold,
           ),
@@ -42,7 +42,7 @@ showCreditsDialog(BuildContext context) {
         Text(
           "PROJECT MANAGER",
           style: TextStyle(
-            color: Colors.white,
+            color: Colors.yellow,
             fontSize: 20.sp,
             fontWeight: FontWeight.bold,
           ),
@@ -61,7 +61,7 @@ showCreditsDialog(BuildContext context) {
         Text(
           "TEAM LEAD",
           style: TextStyle(
-            color: Colors.white,
+            color: Colors.yellow,
             fontSize: 20.sp,
             fontWeight: FontWeight.bold,
           ),
@@ -80,7 +80,7 @@ showCreditsDialog(BuildContext context) {
         Text(
           "GRAPHICS / UI DESIGN",
           style: TextStyle(
-            color: Colors.white,
+            color: Colors.yellow,
             fontSize: 20.sp,
             fontWeight: FontWeight.bold,
           ),
@@ -99,7 +99,7 @@ showCreditsDialog(BuildContext context) {
         Text(
           "ANIMATIONS",
           style: TextStyle(
-            color: Colors.white,
+            color: Colors.yellow,
             fontSize: 20.sp,
             fontWeight: FontWeight.bold,
           ),
@@ -118,7 +118,7 @@ showCreditsDialog(BuildContext context) {
         Text(
           "MUSIC / SOUND EFFECTS",
           style: TextStyle(
-            color: Colors.white,
+            color: Colors.yellow,
             fontSize: 20.sp,
             fontWeight: FontWeight.bold,
           ),
