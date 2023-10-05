@@ -195,7 +195,14 @@ class _RewardScreenState extends State<RewardScreen> {
                   ? SizedBox(
                       child: Container(
                         padding: EdgeInsets.all(20.sp),
-                        
+                        decoration: BoxDecoration(
+                          color: Colors.yellow,
+                          shape: BoxShape.circle,
+                        ),
+                        child: Text(
+                          (level - 1).toString(),
+                          style: TStyle,
+                        ),
                       ),
                     )
                   : SizedBox(
