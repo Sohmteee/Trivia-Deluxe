@@ -51,10 +51,10 @@ class _RewardScreenState extends State<RewardScreen> {
     score = scoreProvider.score;
     scoreProvider.resetScore();
 
-    // score = 18;
+    score = 18;
 
-    // final moneyProvider = Provider.of<MoneyProvider>(context, listen: false);
-    // moneyProvider.resetCoins();
+    final moneyProvider = Provider.of<MoneyProvider>(context, listen: false);
+    moneyProvider.resetCoins();
 
     final levelProvider = Provider.of<LevelProvider>(context, listen: false);
     levelProvider.incrementLevel();
@@ -272,8 +272,8 @@ class _RewardScreenState extends State<RewardScreen> {
                                     .animate(
                                         interval: 100.milliseconds,
                                         onPlay: (controller) {
-                                          Future.delayed(1.8.seconds, () {
-                                          });
+                                          /* Future.delayed(1.8.seconds, () {
+                                          }); */
                                         },
                                         onComplete: (controller) {
                                           setState(() {
@@ -283,6 +283,7 @@ class _RewardScreenState extends State<RewardScreen> {
                                                     context,
                                                     listen: false);
                                             moneyProvider.increaseCoins(1);
+                                            playCoinUp(context);
                                           });
                                         })
                                     .followPath(
