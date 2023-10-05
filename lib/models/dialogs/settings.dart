@@ -128,6 +128,9 @@ showSettingsDialog(BuildContext context) {
                       : const SizedBox();
                 },
               ),
+              Container(
+                child: Text("Credits"),
+              )
             ],
           ),
         ),
