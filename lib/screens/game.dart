@@ -32,6 +32,7 @@ class _GameScreenState extends State<GameScreen> {
   void initState() {
     final questionProvider =
         Provider.of<QuestionProvider>(context, listen: false);
+    questionProvider.options.shuffle();
 
     confettiController = ConfettiController(duration: 1.5.seconds);
     questionProvider.initQuestionProvider(context);
@@ -84,8 +85,6 @@ class _GameScreenState extends State<GameScreen> {
                             horizontal: 25.w, vertical: 30.h),
                         physics: const NeverScrollableScrollPhysics(),
                         itemBuilder: (BuildContext context, int index) {
-                          questionProvider.options.shuffle();
-
                           return ZoomTapAnimation(
                             onTap: () {
                               countDownController.pause();
