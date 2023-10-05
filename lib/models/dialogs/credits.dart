@@ -139,13 +139,27 @@ showCreditsDialog(BuildContext context) {
           textAlign: TextAlign.center,
         ),
         SizedBox(height: 20.h),
-        SizedBox(
-          width: 30.sp,
-          height: 30.sp,
-          child: ClipRRect(
-            borderRadius: BorderRadius.circular(100.r),
-            child: Image.asset("assets/images/digital-dreams-logo.png"),
-          ),
+        Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            SizedBox(
+              width: 30.sp,
+              height: 30.sp,
+              child: ClipRRect(
+                borderRadius: BorderRadius.circular(100.r),
+                child: Image.asset("assets/images/digital-dreams-logo.png"),
+              ),
+            ),
+            SizedBox(width: 10.w),
+            Text(
+              "DIGITAL DREAMS LTD",
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 20.sp,
+              ),
+              textAlign: TextAlign.center,
+            ),
+          ],
         ),
       ],
     ),
