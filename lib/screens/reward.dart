@@ -162,14 +162,14 @@ class _RewardScreenState extends State<RewardScreen> {
                         duration: 1.seconds,
                         curve: Curves.bounceOut,
                         begin: 0,
-                        end: 1.2,
+                        end: 1.5,
                       )
                       .then()
                       .scaleXY(
                         delay: 2.seconds,
                         curve: Curves.bounceOut,
                         duration: .3.seconds,
-                        begin: 1.2,
+                        begin: 1.5,
                         end: 1,
                       ),
                   ConfettiWidget(
