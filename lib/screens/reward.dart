@@ -271,10 +271,7 @@ class _RewardScreenState extends State<RewardScreen> {
                                 )
                                     .animate(
                                         interval: 100.milliseconds,
-                                        onPlay: (controller) {
-                                          /* Future.delayed(1.8.seconds, () {
-                                          }); */
-                                        },
+                                        onPlay: (controller) {},
                                         onComplete: (controller) {
                                           setState(() {
                                             receivedReward = true;
@@ -287,7 +284,9 @@ class _RewardScreenState extends State<RewardScreen> {
                                               setState(() {
                                                 playedCoinUp = true;
                                               });
-                                              playCoinUp(context);
+                                              Future.delayed(.5.seconds, () {
+                                                playCoinUp(context);
+                                              });
                                             }
                                           });
                                         })
