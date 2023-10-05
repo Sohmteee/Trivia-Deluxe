@@ -84,6 +84,8 @@ class _GameScreenState extends State<GameScreen> {
                             horizontal: 25.w, vertical: 30.h),
                         physics: const NeverScrollableScrollPhysics(),
                         itemBuilder: (BuildContext context, int index) {
+                          questionProvider.options.shuffle();
+
                           return ZoomTapAnimation(
                             onTap: () {
                               countDownController.pause();
@@ -104,8 +106,7 @@ class _GameScreenState extends State<GameScreen> {
                               padding: EdgeInsets.all(15.sp),
                               width: double.maxFinite,
                               decoration: BoxDecoration(
-                                color: questionProvider.options[index]
-                                    ["color"],
+                                color: questionProvider.options[index]["color"],
                                 borderRadius: BorderRadius.circular(10.r),
                               ),
                               child: Text(
@@ -279,8 +280,6 @@ class _GameScreenState extends State<GameScreen> {
       ),
     );
   }
-
-  
 
   String optionLetter(int index) {
     switch (index) {
