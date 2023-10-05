@@ -206,7 +206,19 @@ class _RewardScreenState extends State<RewardScreen> {
                             fontSize: 30.sp,
                           ),
                         ),
-                      ),
+                      )
+                          .animate()
+                          .then()
+                          .slideY(
+                            delay: 5.seconds,
+                            duration: 1.seconds,
+                            begin: 0,
+                            end: 2.h,
+                          )
+                          .fadeOut(
+                            delay: 5.seconds,
+                            duration: 1.seconds,
+                          ),
                     )
                   : SizedBox(
                       child: Row(
