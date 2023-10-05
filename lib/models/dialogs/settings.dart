@@ -10,6 +10,7 @@ showSettingsDialog(BuildContext context) {
   showGameDialog(
     context,
     isExitable: true,
+    padding: const EdgeInsets.symmetric(20, 40, 20, 60),
     child: Column(
       mainAxisSize: MainAxisSize.min,
       children: [
@@ -128,6 +129,7 @@ showSettingsDialog(BuildContext context) {
                       : const SizedBox();
                 },
               ),
+              SizedBox(height: 20.h),
               Container(
                 padding: EdgeInsets.symmetric(
                   vertical: 10.sp,
