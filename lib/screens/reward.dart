@@ -55,6 +55,7 @@ class _RewardScreenState extends State<RewardScreen> {
     scoreProvider.resetScore();
 
     score = 18;
+    level = 2;
 
     final moneyProvider = Provider.of<MoneyProvider>(context, listen: false);
     moneyProvider.resetCoins();
@@ -216,6 +217,15 @@ class _RewardScreenState extends State<RewardScreen> {
                           )
                           .fadeIn(
                             duration: 1.seconds,
+                          )
+                          .then()
+                          .slideY(
+                            duration: .5.seconds,
+                            begin: -2.h,
+                            end: 0,
+                          )
+                          .fadeIn(
+                            duration: .5.seconds,
                           ),
                     )
                   : SizedBox(
