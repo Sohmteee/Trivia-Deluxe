@@ -138,8 +138,8 @@ showCreditsDialog(BuildContext context) {
           ),
           textAlign: TextAlign.center,
         ),
-        Container(
-          bR
+        ClipRRect(
+          borderRadius: Brci,
           child: Image.asset("assets/images/digital-dreams-logo.png"),
         ),
       ],
