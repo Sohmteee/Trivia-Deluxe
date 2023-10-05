@@ -6,7 +6,7 @@ showCreditsDialog(BuildContext context) {
   showGameDialog(
     context,
     isExitable: true,
-    // padding: EdgeInsets.symmetric(horizontal: 20.w, vertical: 40.h),
+    padding: EdgeInsets.symmetric(horizontal: 20.w, vertical: 40.h),
     child: Column(
       mainAxisSize: MainAxisSize.min,
       children: [
@@ -138,9 +138,10 @@ showCreditsDialog(BuildContext context) {
           ),
           textAlign: TextAlign.center,
         ),
+        SizedBox(height: 20.h),
         SizedBox(
-          width: 50.sp,
-          height: 50.sp,
+          width: 30.sp,
+          height: 30.sp,
           child: ClipRRect(
             borderRadius: BorderRadius.circular(100.r),
             child: Image.asset("assets/images/digital-dreams-logo.png"),
