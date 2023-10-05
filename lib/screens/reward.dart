@@ -237,6 +237,10 @@ class _RewardScreenState extends State<RewardScreen> {
                                 Future.delayed(1.seconds, () {
                                   setState(() {
                                     claimReward = true;
+                                    final moneyProvider =
+                                        Provider.of<MoneyProvider>(context,
+                                            listen: false);
+                                    moneyProvider.increaseCoins(score);
                                   });
                                 });
                               },
@@ -277,11 +281,6 @@ class _RewardScreenState extends State<RewardScreen> {
                                         onComplete: (controller) {
                                           setState(() {
                                             receivedReward = true;
-                                            final moneyProvider =
-                                                Provider.of<MoneyProvider>(
-                                                    context,
-                                                    listen: false);
-                                            moneyProvider.increaseCoins(1);
                                             if (!playedCoinUp) {
                                               setState(() {
                                                 playedCoinUp = true;
