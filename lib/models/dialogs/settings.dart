@@ -131,12 +131,18 @@ showSettingsDialog(BuildContext context) {
               Container(
                 padding: EdgeInsets.symmetric(
                   vertical: 10.sp,
-                  horizontal: 15.sp,
+                  horizontal: 20.sp,
                 ),
                 decoration: BoxDecoration(
                   color: Colors.white,
+                  borderRadius: BorderRadius.circular(20.r),
                 ),
-                child: Text("Credits"),
+                child: Text(
+                  "Credits",
+                  style: TextStyle(
+                    fontSize: 20.sp,
+                  ),
+                ),
               )
             ],
           ),
