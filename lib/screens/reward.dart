@@ -196,7 +196,7 @@ class _RewardScreenState extends State<RewardScreen> {
                   ? Stack(
                       children: [
                         Container(
-                          padding: EdgeInsets.all(30.sp),
+                          padding: EdgeInsets.all(50.sp),
                           decoration: BoxDecoration(
                             color: AppColor.levelYellow,
                             shape: BoxShape.circle,
@@ -205,11 +205,11 @@ class _RewardScreenState extends State<RewardScreen> {
                             level.toString(),
                             style: TextStyle(
                               color: Colors.white,
-                              fontSize: 30.sp,
+                              fontSize: 50.sp,
                             ),
                           ),
                         ).animate()
-                            .slideY(curve: Curves.
+                            .slideY(curve: Curves.bounceOut,
                               delay: 2.seconds,
                               duration: .3.seconds,
                               begin: -2.h,
