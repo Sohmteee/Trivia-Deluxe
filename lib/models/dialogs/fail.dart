@@ -34,7 +34,6 @@ showFailedDialog(BuildContext context, questionIndex, bool timeUp) {
                 Container(
                   padding: EdgeInsets.all(35.sp),
                   decoration: const BoxDecoration(
-                    color: Colors.transparent,
                     shape: BoxShape.circle,
                   ),
                   child: (timeUp == false)

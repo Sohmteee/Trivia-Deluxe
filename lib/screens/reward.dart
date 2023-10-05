@@ -38,7 +38,7 @@ class _RewardScreenState extends State<RewardScreen> {
   void initState() {
     bgPlayer.pause();
     playVictory(context);
-    Future.delayed(3.seconds, () => bgPlayer.resume());
+    Future.delayed(4.seconds, () => bgPlayer.resume());
     level = Provider.of<LevelProvider>(context, listen: false).level;
     path = Path()
       ..arcToPoint(
