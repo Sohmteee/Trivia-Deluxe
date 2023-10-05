@@ -19,6 +19,15 @@ showCreditsDialog(BuildContext context) {
           ),
           textAlign: TextAlign.center,
         ),
+        Text(
+          "",
+          style: TextStyle(
+            color: Colors.white,
+            fontSize: 25.sp,
+            fontWeight: FontWeight.bold,
+          ),
+          textAlign: TextAlign.center,
+        ),
       ],
     ),
   );
