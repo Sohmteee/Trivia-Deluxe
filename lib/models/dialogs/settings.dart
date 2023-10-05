@@ -134,6 +134,7 @@ showSettingsDialog(BuildContext context) {
               SizedBox(height: 30.h),
               ZoomTapAnimation(
                 onTap: () {
+                  playTap(context);
                   Navigator.pop(context);
                   showCreditsDialog(context);
                 },
