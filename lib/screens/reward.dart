@@ -32,7 +32,10 @@ class _RewardScreenState extends State<RewardScreen> {
   final offset = const Offset(20, -350);
   late Path path;
 
-  bool countUp = false, claimReward = false, playedCoinUp = false, levelAnimation = false;
+  bool countUp = false,
+      claimReward = false,
+      playedCoinUp = false,
+      levelAnimation = false;
 
   @override
   void initState() {
@@ -286,7 +289,6 @@ class _RewardScreenState extends State<RewardScreen> {
                                               });
                                               Future.delayed(.5.seconds, () {
                                                 playCoinUp(context);
-
                                               });
                                             }
                                           });
@@ -310,10 +312,21 @@ class _RewardScreenState extends State<RewardScreen> {
                                 ),
                               ),
                             ],
-                          ).animate().fadeIn(
+                          )
+                            .animate()
+                            .fadeIn(
                               duration: .5.seconds,
                               begin: 0,
-                            ).then().,
+                            )
+                            .then()
+                            .slideY(
+                              delay: 5.seconds,
+                              begin: 0,
+                              end: 10.h,
+                            )
+                            .fadeOut(
+                              delay: 5.seconds,
+                            ),
                     const SizedBox(width: 10),
                     !claimReward
                         ? Text(
