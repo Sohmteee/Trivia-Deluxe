@@ -17,7 +17,7 @@ showLowCashDialog(BuildContext context) {
         mainAxisSize: MainAxisSize.min,
         children: [
           Container(
-            decoration: BoxDecoration(
+            decoration: const BoxDecoration(
               color: Colors.transparent,
               shape: BoxShape.circle,
             ),
@@ -92,9 +92,6 @@ showLowCashDialog(BuildContext context) {
           Consumer<LevelProvider>(builder: (context, levelProvider, _) {
             return ZoomTapAnimation(
               onTap: () {
-                playTap(context);
-                playTap(context);
-                playTap(context);
                 playTap(context);
                 Navigator.of(dialogContext).pop();
                 levelProvider.resetCompletedStage();
