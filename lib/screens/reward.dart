@@ -372,10 +372,15 @@ class _RewardScreenState extends State<RewardScreen> {
                       textAlign: TextAlign.center,
                     ),
                   ),
-                ).animate().fadeIn(
-                      delay: .5.seconds,
-                      duration: 1.seconds,
-                    ),
+                ).animate().slideY(
+                    delay: 5.seconds,
+                    duration: 1.seconds,
+                    begin: 0,
+                    end: 10.h,
+                  ).fadeIn(
+                    delay: 5.seconds,
+                    duration: 1.seconds,
+                  ),
               const Spacer(flex: 3),
             ],
           ),
