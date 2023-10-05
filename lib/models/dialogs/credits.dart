@@ -11,7 +11,7 @@ showCreditsDialog(BuildContext context) {
       mainAxisSize: MainAxisSize.min,
       children: [  
         Text(
-          "Credits",
+          "CREDITS",
           style: TextStyle(
             color: Colors.white,
             fontSize: 25.sp,
@@ -20,10 +20,10 @@ showCreditsDialog(BuildContext context) {
           textAlign: TextAlign.center,
         ),
         Text(
-          "",
+          "PROGRAMMING",
           style: TextStyle(
             color: Colors.white,
-            fontSize: 25.sp,
+            fontSize: 20.sp,
             fontWeight: FontWeight.bold,
           ),
           textAlign: TextAlign.center,
