@@ -37,6 +37,60 @@ showCreditsDialog(BuildContext context) {
           ),
           textAlign: TextAlign.center,
         ),
+        SizedBox(height: 20.h),
+        Text(
+          "MUSIC",
+          style: TextStyle(
+            color: Colors.white,
+            fontSize: 20.sp,
+            fontWeight: FontWeight.bold,
+          ),
+          textAlign: TextAlign.center,
+        ),
+        Text(
+          "Somtochukwu Ukaegbe",
+          style: TextStyle(
+            color: Colors.white,
+            fontSize: 20.sp,
+          ),
+          textAlign: TextAlign.center,
+        ),
+        SizedBox(height: 20.h),
+        Text(
+          "ANIMATIONS",
+          style: TextStyle(
+            color: Colors.white,
+            fontSize: 20.sp,
+            fontWeight: FontWeight.bold,
+          ),
+          textAlign: TextAlign.center,
+        ),
+        Text(
+          "Somtochukwu Ukaegbe",
+          style: TextStyle(
+            color: Colors.white,
+            fontSize: 20.sp,
+          ),
+          textAlign: TextAlign.center,
+        ),
+        SizedBox(height: 20.h),
+        Text(
+          "GRAPHICS",
+          style: TextStyle(
+            color: Colors.white,
+            fontSize: 20.sp,
+            fontWeight: FontWeight.bold,
+          ),
+          textAlign: TextAlign.center,
+        ),
+        Text(
+          "Harrison",
+          style: TextStyle(
+            color: Colors.white,
+            fontSize: 20.sp,
+          ),
+          textAlign: TextAlign.center,
+        ),
       ],
     ),
   );
