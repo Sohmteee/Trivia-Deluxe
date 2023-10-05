@@ -138,7 +138,10 @@ showCreditsDialog(BuildContext context) {
           ),
           textAlign: TextAlign.center,
         ),
-        Image.asset("assets/images/digital-dreams-logo.png"),
+        Container(
+          
+          child: Image.asset("assets/images/digital-dreams-logo.png"),
+        ),
       ],
     ),
   );
