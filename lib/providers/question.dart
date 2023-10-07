@@ -51,6 +51,10 @@ class QuestionProvider extends ChangeNotifier {
     }
   }
 
+  incrementLevel() {
+    currentLevel++;
+  }
+
   void checkCorrectAnswer(BuildContext context, int index) {
     if (index == -1) {
       showFailedDialog(context, questionIndex, true);
