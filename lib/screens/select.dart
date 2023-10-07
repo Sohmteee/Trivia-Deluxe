@@ -137,7 +137,7 @@ class _SelectScreenState extends State<SelectScreen> {
                                   horizontal: 20.sp, vertical: 15.sp),
                               decoration: BoxDecoration(
                                 color: AppColor.yellow,
-                                borderRadius: BorderRadius.circular(20.r),
+                                borderRadius: BorderRadius.circular(50.r),
                               ),
                               child: Text(
                                 "Level ${box.get(selectItem["data"]["title"])?["currentLevel"]}",
