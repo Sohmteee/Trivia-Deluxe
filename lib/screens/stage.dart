@@ -62,7 +62,7 @@ class _StageScreenState extends State<StageScreen> {
                           fontWeight: FontWeight.bold,
                         ),
                         textAlign: TextAlign.center,
-                      ).animate().;
+                      ).animate().slideX();
               }),
               const Spacer(),
               buildLevel(),
