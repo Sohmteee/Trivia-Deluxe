@@ -38,7 +38,7 @@ class _SelectScreenState extends State<SelectScreen> {
   @override
   void initState() {
     for (var item in selectItems) {
-      if (item["data"]["title"] == null) {
+      if (box.get(item["data"]["title"]) == null) {
         box.put(item["data"]["title"], item["data"]);
       }
     }
@@ -145,7 +145,7 @@ class _SelectScreenState extends State<SelectScreen> {
                               ),
                               child: Center(
                                 child: Text(
-                                    "Level ${box.get(selectItem["data"]["title"]) != null ? box.get(selectItem["data"]["title"])!["currentLevel"] : 1}"),
+                                    "Level ${box.get(selectItem["data"]["title"])!["currentLevel"]}"),
                               ),
                             ),
                           ),
