@@ -17,22 +17,22 @@ Map<String, dynamic> riddlesData = {
         {
           "text": "Sand",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Socks",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "The letter 'O'",
           "value": true,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Love",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
       ]
     },
@@ -46,22 +46,22 @@ Map<String, dynamic> riddlesData = {
         {
           "text": "Iron",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Ice",
           "value": true,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Man",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Glass",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
       ]
     },
@@ -75,22 +75,22 @@ Map<String, dynamic> riddlesData = {
         {
           "text": "Darkness",
           "value": true,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Magic",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Hope",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Garri",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
       ]
     },
@@ -104,22 +104,22 @@ Map<String, dynamic> riddlesData = {
         {
           "text": "A net",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Sand",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "A chain",
           "value": true,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "A basket",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
       ]
     },
@@ -133,22 +133,22 @@ Map<String, dynamic> riddlesData = {
         {
           "text": "My father",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "My mother",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "My brother",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "My sister",
           "value": true,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
       ]
     },
@@ -162,22 +162,22 @@ Map<String, dynamic> riddlesData = {
         {
           "text": "Air",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Dust",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Light",
           "value": true,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Fart",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
       ]
     },
@@ -191,22 +191,22 @@ Map<String, dynamic> riddlesData = {
         {
           "text": "Gasoline",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Automobile",
           "value": true,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Gaseous",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Vehicle",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
       ]
     },
@@ -220,22 +220,22 @@ Map<String, dynamic> riddlesData = {
         {
           "text": "Death",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Trouble",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "A fight",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Lawsuit",
           "value": true,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
       ]
     },
@@ -250,22 +250,22 @@ Map<String, dynamic> riddlesData = {
         {
           "text": "Three",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Five",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Seven",
           "value": true,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Eleven",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
       ]
     },
@@ -279,22 +279,22 @@ Map<String, dynamic> riddlesData = {
         {
           "text": "Solomon",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "A poor man",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "A Priest",
           "value": true,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "A woman",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
       ]
     },
@@ -316,22 +316,22 @@ Map<String, dynamic> animalsData = {
         {
           "text": "1",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "2",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "3",
           "value": true,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "4",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
       ]
     },
@@ -346,22 +346,22 @@ Map<String, dynamic> animalsData = {
         {
           "text": "Giraffes",
           "value": true,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Rhinos",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Deer",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Beavers",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
       ]
     },
@@ -376,22 +376,22 @@ Map<String, dynamic> animalsData = {
         {
           "text": "2",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "3",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "5",
           "value": true,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "8",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
       ]
     },
@@ -405,22 +405,22 @@ Map<String, dynamic> animalsData = {
         {
           "text": "Julie",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Jackie",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Jenny",
           "value": true,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Judy",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
       ]
     },
@@ -435,22 +435,22 @@ Map<String, dynamic> animalsData = {
         {
           "text": "1",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "3",
           "value": true,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "4",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "8",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
       ]
     },
@@ -465,22 +465,22 @@ Map<String, dynamic> animalsData = {
         {
           "text": "Guinea Pig",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Duck",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Rabbit",
           "value": true,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Horse",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
       ]
     },
@@ -495,22 +495,22 @@ Map<String, dynamic> animalsData = {
         {
           "text": "One week",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Two weeks",
           "value": true,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Four weeks",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Six weeks",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
       ]
     },
@@ -525,22 +525,22 @@ Map<String, dynamic> animalsData = {
         {
           "text": "0",
           "value": true,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "6",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "20",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "150",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
       ]
     },
@@ -555,22 +555,22 @@ Map<String, dynamic> animalsData = {
         {
           "text": "Red",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "White",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Orange",
           "value": true,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Yellow",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
       ]
     },
@@ -586,22 +586,22 @@ Map<String, dynamic> animalsData = {
         {
           "text": "The giant squid",
           "value": true,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Ostrich",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Chamelon",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Camel",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
       ]
     },
@@ -624,22 +624,22 @@ Map<String, dynamic> proverbsData = {
         {
           "text": "Rich",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Beggars for life",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Choosers",
           "value": true,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Successful",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
       ]
     },
@@ -653,22 +653,22 @@ Map<String, dynamic> proverbsData = {
         {
           "text": "Forest",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Bush",
           "value": true,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Grave",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Nest",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
       ]
     },
@@ -683,22 +683,22 @@ Map<String, dynamic> proverbsData = {
         {
           "text": "Better",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Greener",
           "value": true,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Bigger",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Longer",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
       ]
     },
@@ -712,22 +712,22 @@ Map<String, dynamic> proverbsData = {
         {
           "text": "Gold",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Bronze",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Diamond",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Silver",
           "value": true,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
       ]
     },
@@ -742,22 +742,22 @@ Map<String, dynamic> proverbsData = {
         {
           "text": "Mind",
           "value": true,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Thought",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Control",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "The light",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
       ]
     },
@@ -771,22 +771,22 @@ Map<String, dynamic> proverbsData = {
         {
           "text": "Deserve them",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Wait",
           "value": true,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Want them",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Are good",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
       ]
     },
@@ -801,22 +801,22 @@ Map<String, dynamic> proverbsData = {
         {
           "text": "Straw",
           "value": true,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Rope",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Thread",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Hand",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
       ]
     },
@@ -830,22 +830,22 @@ Map<String, dynamic> proverbsData = {
         {
           "text": "Dream",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Preach",
           "value": true,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "See",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Feel like practicing",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
       ]
     },
@@ -861,22 +861,22 @@ Map<String, dynamic> proverbsData = {
         {
           "text": "Plenty",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Bliss",
           "value": true,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "Stupidity",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
         {
           "text": "A virtue",
           "value": false,
-          "color": AppColor.yellow,
+          "color": .yellow,
         },
       ]
     },
