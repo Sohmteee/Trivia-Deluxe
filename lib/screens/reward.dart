@@ -269,7 +269,7 @@ class _RewardScreenState extends State<RewardScreen> {
                             )
                         : Stack(
                             alignment: Alignment.center,
-                            clipBehavior: Cli,
+                            clipBehavior: Clip.none,
                             children: [
                               Stack(
                                 children: List.generate(
@@ -304,7 +304,7 @@ class _RewardScreenState extends State<RewardScreen> {
                                     ),
                               ),
                               Positioned(
-                                left: 3.w,
+                                right: -80.w,
                                 child: SizedBox(
                                   height: 200.h,
                                   width: 200.w,
