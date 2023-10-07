@@ -53,6 +53,9 @@ class QuestionProvider extends ChangeNotifier {
 
   incrementLevel() {
     currentLevel++;
+    data["currentLevel"] = currentLevel;
+
+    notifyListeners();
   }
 
   void checkCorrectAnswer(BuildContext context, int index) {
