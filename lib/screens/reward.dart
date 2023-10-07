@@ -269,6 +269,7 @@ class _RewardScreenState extends State<RewardScreen> {
                             )
                         : Stack(
                             alignment: Alignment.center,
+                            clipBehavior: Cli,
                             children: [
                               Stack(
                                 children: List.generate(
@@ -302,12 +303,15 @@ class _RewardScreenState extends State<RewardScreen> {
                                       duration: 1.seconds,
                                     ),
                               ),
-                              SizedBox(
-                                height: 200.h,
-                                width: 200.w,
-                                child: Lottie.asset(
-                                  "assets/json/chest.json",
-                                  repeat: false,
+                              Positioned(
+                                left: 3.w,
+                                child: SizedBox(
+                                  height: 200.h,
+                                  width: 200.w,
+                                  child: Lottie.asset(
+                                    "assets/json/chest.json",
+                                    repeat: false,
+                                  ),
                                 ),
                               ),
                             ],
