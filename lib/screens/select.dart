@@ -85,7 +85,8 @@ class _SelectScreenState extends State<SelectScreen> {
                           questionProvider.data =
                               box.get(selectItem["data"]["title"]);
 
-                          print(box.get(selectItem["data"]["title"]));
+                          print(
+                              "Current Level: ${box.get(selectItem["data"]["title"])["level"]}");
 
                           questionProvider.currentLevel = box
                               .get(selectItem["data"]["title"])["currentLevel"];
