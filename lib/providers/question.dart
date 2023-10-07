@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:provider/provider.dart';
-import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/data/box.dart';
 import 'package:trivia/data/controllers.dart';
 import 'package:trivia/models/dialogs/fail.dart';
-import 'package:trivia/providers/stage.dart';
 import 'package:trivia/providers/score.dart';
+import 'package:trivia/providers/stage.dart';
 
 class QuestionProvider extends ChangeNotifier {
   Map<String, dynamic> data = {};
@@ -49,7 +48,7 @@ class QuestionProvider extends ChangeNotifier {
 
   void resetOptions() {
     for (var option in options) {
-      option["color"] = AppColor.yellow;
+      option["color"] = "yellow";
     }
   }
 
@@ -71,13 +70,13 @@ class QuestionProvider extends ChangeNotifier {
     }
 
     if (options[index]["value"] == true) {
-      options[index]["color"] = AppColor.right;
+      options[index]["color"] = "right";
     } else {
-      options[index]["color"] = AppColor.wrong;
+      options[index]["color"] = "wrong";
 
       for (var option in options) {
         if (option["value"] == true) {
-          option["color"] = AppColor.right;
+          option["color"] = "right";
         }
       }
     }
