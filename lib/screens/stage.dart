@@ -62,9 +62,10 @@ class _StageScreenState extends State<StageScreen> {
                           fontWeight: FontWeight.bold,
                         ),
                         textAlign: TextAlign.center,
-                      ).animate().slideX(
+                      ).animate().slideY(
+                          delay: 2.5.seconds,
                           duration: .5.seconds,
-                          begin: 10.h,
+                          begin: 4.h,
                         );
               }),
               const Spacer(),
