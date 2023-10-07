@@ -85,6 +85,8 @@ class _SelectScreenState extends State<SelectScreen> {
                           questionProvider.data =
                               box.get(selectItem["data"]["title"]);
 
+                          print(box.get(selectItem["data"]["title"]));
+
                           questionProvider.currentLevel = box
                               .get(selectItem["data"]["title"])["currentLevel"];
                           Future.delayed(
@@ -126,7 +128,7 @@ class _SelectScreenState extends State<SelectScreen> {
                               ),
                               child: Center(
                                 child: Text(
-                                    "Level ${box.get(selectItem["data"]["title"])["currentLevel"] }"),
+                                    "Level ${box.get(selectItem["data"]["title"]) != null ? box.get(selectItem["data"]["title"])["currentLevel"] : 1}"),
                               ),
                             ),
                           ),
