@@ -90,7 +90,7 @@ class _SelectScreenState extends State<SelectScreen> {
                               selectItem["data"]["title"], selectItem["data"]);
                           Future.delayed(
                             3.microseconds,
-                            () => Navigator.pushNamed(context, "/level"),
+                            () => Navigator.pushNamed(context, "/stage"),
                           );
                         },
                         child: Container(

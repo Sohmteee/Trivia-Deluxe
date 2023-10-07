@@ -55,7 +55,7 @@ class _GameScreenState extends State<GameScreen> {
   Widget build(BuildContext context) {
     return WillPopScope(
       onWillPop: () async {
-        Navigator.pushReplacementNamed(context, "/level");
+        Navigator.pushReplacementNamed(context, "/stage");
         return true;
       },
       child: GameBackground(
@@ -84,7 +84,6 @@ class _GameScreenState extends State<GameScreen> {
                             horizontal: 25.w, vertical: 30.h),
                         physics: const NeverScrollableScrollPhysics(),
                         itemBuilder: (BuildContext context, int index) {
-
                           return ZoomTapAnimation(
                             onTap: () {
                               countDownController.pause();

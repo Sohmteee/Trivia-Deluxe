@@ -98,7 +98,7 @@ class QuestionProvider extends ChangeNotifier {
             stageProvider.resetCompletedStage();
           });
         } else {
-          Navigator.pushReplacementNamed(context, "/level");
+          Navigator.pushReplacementNamed(context, "/stage");
         }
       } else {
         showFailedDialog(context, questionIndex, false);

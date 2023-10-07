@@ -72,7 +72,7 @@ class MyApp extends StatelessWidget {
             routes: {
               '/menu': (context) => const MenuScreen(),
               '/game': (context) => const GameScreen(),
-              '/level': (context) => const StageScreen(),
+              '/stage': (context) => const StageScreen(),
               '/select': (context) => const SelectScreen(),
               '/ad': (context) => AdScreen(),
               '/reward': (context) => const RewardScreen(),
@@ -140,7 +140,7 @@ Future<void> playLevel(context) async {
   final audioProvider = Provider.of<AudioProvider>(context, listen: false);
 
   if (audioProvider.soundEffects) {
-    await levelPlayer.setSource(AssetSource("audio/level.mp3"));
+    await levelPlayer.setSource(AssetSource("audio/stage.mp3"));
     await levelPlayer.resume();
   }
 }

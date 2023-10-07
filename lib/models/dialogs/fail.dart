@@ -92,7 +92,7 @@ showFailedDialog(BuildContext context, questionIndex, bool timeUp) {
                         Future.delayed(
                           2.seconds,
                           () =>
-                              Navigator.pushReplacementNamed(context, "/level"),
+                              Navigator.pushReplacementNamed(context, "/stage"),
                         );
                       } else {
                         playTap(context);
