@@ -84,10 +84,8 @@ class _SelectScreenState extends State<SelectScreen> {
 
                           questionProvider.data =
                               box.get(selectItem["data"]["title"]);
-                          questionProvider.currentLevel =
-                              selectItem["data"]["currentLevel"];
-                          box.put(
-                              selectItem["data"]["title"], selectItem["data"]);
+                          questionProvider.currentLevel = box
+                              .get(selectItem["data"]["title"])["currentLevel"];
                           Future.delayed(
                             3.microseconds,
                             () => Navigator.pushNamed(context, "/stage"),
