@@ -134,7 +134,7 @@ class _SelectScreenState extends State<SelectScreen> {
                             ),
                             trailing: Container(
                               padding: EdgeInsets.symmetric(
-                                  horizontal: 20.sp, vertical: 15.sp),
+                                  horizontal: 15.sp, vertical: 10.sp),
                               decoration: BoxDecoration(
                                 color: AppColor.yellow,
                                 borderRadius: BorderRadius.circular(50.r),
