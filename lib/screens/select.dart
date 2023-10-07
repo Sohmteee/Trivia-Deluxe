@@ -38,7 +38,8 @@ class _SelectScreenState extends State<SelectScreen> {
   @override
   void initState() {
     for (var item in selectItems) {
-      print("Level: ${item["data"]["currentLevel"]}");
+      print("Level: ${box.get(key)}");
+      // print("Level: ${item["data"]["currentLevel"]}");
     }
     super.initState();
     
