@@ -11,14 +11,14 @@ import 'package:trivia/providers/question.dart';
 import 'package:trivia/providers/stage.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
-class LevelScreen extends StatefulWidget {
-  const LevelScreen({super.key});
+class StageScreen extends StatefulWidget {
+  const StageScreen({super.key});
 
   @override
-  State<LevelScreen> createState() => _LevelScreenState();
+  State<StageScreen> createState() => _StageScreenState();
 }
 
-class _LevelScreenState extends State<LevelScreen> {
+class _StageScreenState extends State<StageScreen> {
   @override
   void initState() {
     playLevel(context);
@@ -39,7 +39,8 @@ class _LevelScreenState extends State<LevelScreen> {
             children: [
               const GameStats(),
               const Spacer(),
-              Consumer<QuestionProvider>(builder: (context, questionProvider, _) {
+              Consumer<QuestionProvider>(
+                  builder: (context, questionProvider, _) {
                 return Text(
                   "Level ${questionProvider.currentLevel}",
                   style: TextStyle(

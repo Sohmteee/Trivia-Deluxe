@@ -16,7 +16,7 @@ import 'package:trivia/providers/score.dart';
 import 'package:trivia/providers/time.dart';
 import 'package:trivia/screens/ad.dart';
 import 'package:trivia/screens/game.dart';
-import 'package:trivia/screens/level.dart';
+import 'package:trivia/screens/stage.dart';
 import 'package:trivia/screens/menu.dart';
 import 'package:trivia/screens/reward.dart';
 import 'package:trivia/screens/select.dart';
@@ -72,7 +72,7 @@ class MyApp extends StatelessWidget {
             routes: {
               '/menu': (context) => const MenuScreen(),
               '/game': (context) => const GameScreen(),
-              '/level': (context) => const LevelScreen(),
+              '/level': (context) => const StageScreen(),
               '/select': (context) => const SelectScreen(),
               '/ad': (context) => AdScreen(),
               '/reward': (context) => const RewardScreen(),
