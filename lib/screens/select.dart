@@ -137,16 +137,14 @@ class _SelectScreenState extends State<SelectScreen> {
                               textAlign: TextAlign.center,
                             ),
                             trailing: Container(
-                              width: 60.w,
-                              height: 40.h,
+                              padding: EdgeInsets.symmetric(
+                                  horizontal: 20.w, vertical: 15.h),
                               decoration: BoxDecoration(
                                 color: AppColor.yellow,
                                 borderRadius: BorderRadius.circular(20.r),
                               ),
-                              child: Center(
-                                child: Text(
-                                    "Level ${box.get(selectItem["data"]["title"])?["currentLevel"]}"),
-                              ),
+                              child: Text(
+                                  "Level ${box.get(selectItem["data"]["title"])?["currentLevel"]}"),
                             ),
                           ),
                         ),
