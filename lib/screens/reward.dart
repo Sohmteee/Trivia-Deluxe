@@ -304,7 +304,7 @@ class _RewardScreenState extends State<RewardScreen> {
                                     ),
                               ),
                               Positioned(
-                                right: -80.w,
+                                right: -70.w,
                                 child: SizedBox(
                                   height: 200.h,
                                   width: 200.w,
