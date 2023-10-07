@@ -37,7 +37,11 @@ class _SelectScreenState extends State<SelectScreen> {
 
   @override
   void initState() {
-    for (var )
+    for (var item in selectItems) {
+      if (box.get(item["data"]["title"]) == null) {
+        box.put(item["data"]["title"], item["data"]);
+      }
+    }
     super.initState();
     
   }
