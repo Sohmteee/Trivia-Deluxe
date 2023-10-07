@@ -125,9 +125,8 @@ class _SelectScreenState extends State<SelectScreen> {
                               ),
                               child: Center(
                                 child: Text(
-                                    "Level ${box.get(selectItem["data"]["title"])["currentLevel"] ?? 1}"),
-                              
-),
+                                    "Level ${box.get(selectItem["data"]["title"]) != null ? box.get(selectItem["data"]["title"])["currentLevel"] ?? 1 : 1}"),
+                              ),
                             ),
                           ),
                         ),
