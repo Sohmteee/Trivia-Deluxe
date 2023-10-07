@@ -42,7 +42,8 @@ class _RewardScreenState extends State<RewardScreen> {
     bgPlayer.pause();
     playVictory(context);
     Future.delayed(4.seconds, () => bgPlayer.resume());
-    final questionProvider = Provider.of<QuestionProvider>(context, listen: false);
+    final questionProvider =
+        Provider.of<QuestionProvider>(context, listen: false);
     level = questionProvider.currentLevel;
     path = Path()
       ..arcToPoint(
@@ -379,7 +380,8 @@ class _RewardScreenState extends State<RewardScreen> {
                       end: 0,
                     )
                     .fadeIn(
-                      duration: 2.5.seconds,
+                      delay: .5.seconds,
+                      duration: 2.seconds,
                     ),
               const Spacer(flex: 3),
             ],
