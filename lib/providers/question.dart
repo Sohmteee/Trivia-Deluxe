@@ -57,6 +57,7 @@ class QuestionProvider extends ChangeNotifier {
     currentLevel++;
     data["currentLevel"] = currentLevel;
     box.put(data["title"], data);
+    print(data["title"]);
 
     notifyListeners();
   }
