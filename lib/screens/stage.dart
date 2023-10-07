@@ -63,7 +63,7 @@ class _StageScreenState extends State<StageScreen> {
                         ),
                         textAlign: TextAlign.center,
                       ).animate().slideY(
-                          delay: 2.5.seconds,
+                          delay: 2.seconds,
                           duration: .5.seconds,
                           begin: 4.h,
                         );
