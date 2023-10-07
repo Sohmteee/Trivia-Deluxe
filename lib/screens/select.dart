@@ -38,16 +38,14 @@ class _SelectScreenState extends State<SelectScreen> {
   @override
   void initState() {
     for (var item in selectItems) {
-      print("Level: ${box.get(key)}");
+      print("Level: ${box.get(item["data"]["title"])?["currentLevel"]}");
       // print("Level: ${item["data"]["currentLevel"]}");
     }
     super.initState();
-    
   }
 
   @override
   Widget build(BuildContext context) {
-    
     return WillPopScope(
       onWillPop: () async {
         playTap(context);
@@ -78,7 +76,6 @@ class _SelectScreenState extends State<SelectScreen> {
                   physics: const NeverScrollableScrollPhysics(),
                   itemBuilder: (BuildContext context, int index) {
                     final selectItem = selectItems[index];
-
 
                     return Consumer<QuestionProvider>(
                         builder: (_, questionProvider, child) {
