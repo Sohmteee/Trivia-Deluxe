@@ -126,6 +126,7 @@ class _SelectScreenState extends State<SelectScreen> {
                             leading: Image.asset(
                               selectItem["image"],
                               width: 40.w,
+                              height: 40.h,
                             ),
                             title: Text(
                               selectItem["data"]["title"],
