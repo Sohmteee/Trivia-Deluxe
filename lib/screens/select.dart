@@ -37,9 +37,9 @@ class _SelectScreenState extends State<SelectScreen> {
 
   @override
   void initState() {
-for (var item in selectItems){
-  box.p
-}
+    for (var item in selectItems) {
+      ;
+    }
 
     for (var item in selectItems) {
       print("Level: ${box.get(item["data"]["title"])?["currentLevel"]}");
