@@ -8,7 +8,7 @@ import 'package:trivia/providers/score.dart';
 import 'package:trivia/providers/stage.dart';
 
 class QuestionProvider extends ChangeNotifier {
-  Map<String, dynamic> data = {};
+  Map data = {};
   List questions = [];
   int questionIndex = -1;
   int? currentLevel;
