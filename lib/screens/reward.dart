@@ -376,11 +376,11 @@ class _RewardScreenState extends State<RewardScreen> {
                       delay: 1.5.seconds,
                       duration: 1.seconds,
                       curve: Curves.easeOut,
-                      begin: -5.h,
+                      begin: -3.h,
                       end: 0,
                     )
                     .fadeIn(
-                      delay: .5.seconds,
+                      delay: 1.seconds,
                       duration: 2.seconds,
                     ),
               const Spacer(flex: 3),
