@@ -63,7 +63,8 @@ class _StageScreenState extends State<StageScreen> {
                         ),
                         textAlign: TextAlign.center,
                       ).animate().slideX(
-                          duration: .5.seconds,
+                          duration: 1.seconds,
+                          curve: Curves.easeOut,
                           begin: 10.h,
                         );
               }),
