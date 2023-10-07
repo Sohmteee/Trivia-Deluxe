@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:lottie/lottie.dart';
 import 'package:provider/provider.dart';
@@ -41,17 +42,27 @@ class _StageScreenState extends State<StageScreen> {
               const Spacer(),
               Consumer<QuestionProvider>(
                   builder: (context, questionProvider, _) {
-                    final stageProvider = Provider.of<StageProvider>(context);
+                final stageProvider = Provider.of<StageProvider>(context);
 
-                return stageProvider.completedStage == 0 ? : Text(
-                  "Level ${questionProvider.currentLevel}",
-                  style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 50.sp,
-                    fontWeight: FontWeight.bold,
-                  ),
-                  textAlign: TextAlign.center,
-                );
+                return stageProvider.completedStage != 0
+                    ? Text(
+                        "Level ${questionProvider.currentLevel}",
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 50.sp,
+                          fontWeight: FontWeight.bold,
+                        ),
+                        textAlign: TextAlign.center,
+                      )
+                    : Text(
+                        "Level ${questionProvider.currentLevel}",
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 50.sp,
+                          fontWeight: FontWeight.bold,
+                        ),
+                        textAlign: TextAlign.center,
+                      ).animate().;
               }),
               const Spacer(),
               buildLevel(),
