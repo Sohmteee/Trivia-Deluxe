@@ -381,7 +381,7 @@ class _RewardScreenState extends State<RewardScreen> {
                     )
                     .fadeIn(
                       delay: 1.seconds,
-                      duration: 2.seconds,
+                      duration: 1.seconds,
                     ),
               const Spacer(flex: 3),
             ],
