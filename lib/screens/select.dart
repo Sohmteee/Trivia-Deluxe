@@ -20,20 +20,7 @@ class SelectScreen extends StatefulWidget {
 }
 
 class _SelectScreenState extends State<SelectScreen> {
-  List<Map<String, dynamic>> selectItems = [
-    {
-      "image": "assets/images/dolphin.png",
-      "data": animalsData,
-    },
-    {
-      "image": "assets/images/quote.png",
-      "data": proverbsData,
-    },
-    {
-      "image": "assets/images/puzzle.png",
-      "data": riddlesData,
-    },
-  ];
+
 
   @override
   Widget build(BuildContext context) {

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:trivia/data/box.dart';
 
 class StageProvider extends ChangeNotifier {
   int _completedStage = 0;
