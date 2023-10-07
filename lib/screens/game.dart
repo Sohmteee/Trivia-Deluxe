@@ -51,6 +51,14 @@ class _GameScreenState extends State<GameScreen> {
     super.dispose();
   }
 
+  Color stringToColor(String color) {
+    switch (color) {
+      case "yellow":
+        return AppColor.yellow;
+      default:
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return WillPopScope(
