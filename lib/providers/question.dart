@@ -71,7 +71,7 @@ class QuestionProvider extends ChangeNotifier {
       }
     }
 
-    final levelProvider = Provider.of<StageProvider>(context, listen: false);
+    final stageProvider = Provider.of<StageProvider>(context, listen: false);
 
     Future.delayed((options[index]["value"] == true) ? 6.seconds : 1.5.seconds,
         () {
@@ -79,13 +79,13 @@ class QuestionProvider extends ChangeNotifier {
         final scoreProvider =
             Provider.of<ScoreProvider>(context, listen: false);
         scoreProvider.updatedScore(int.parse(countDownController.getTime()!));
-        levelProvider.incrementCompletedStage();
+        stageProvider.incrementCompletedStage();
 
-        if (levelProvider.completedStage == 3) {
+        if (stageProvider.completedStage == 3) {
           Navigator.pushNamedAndRemoveUntil(
               context, "/reward", (route) => false);
           Future.delayed(2.seconds, () {
-            levelProvider.resetCompletedStage();
+            stageProvider.resetCompletedStage();
           });
         } else {
           Navigator.pushReplacementNamed(context, "/level");

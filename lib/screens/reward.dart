@@ -59,8 +59,8 @@ class _RewardScreenState extends State<RewardScreen> {
     // final moneyProvider = Provider.of<MoneyProvider>(context, listen: false);
     // moneyProvider.resetCoins();
 
-    final levelProvider = Provider.of<StageProvider>(context, listen: false);
-    levelProvider.incrementLevel();
+    final stageProvider = Provider.of<StageProvider>(context, listen: false);
+    stageProvider.incrementLevel();
 
     Future.delayed(5.5.seconds, () {
       setState(() {

@@ -71,10 +71,10 @@ class _SelectScreenState extends State<SelectScreen> {
                         builder: (_, questionProvider, child) {
                       return ZoomTapAnimation(
                         onTap: () {
-                          var levelProvider = Provider.of<StageProvider>(
+                          var stageProvider = Provider.of<StageProvider>(
                               context,
                               listen: false);
-                          levelProvider.resetCompletedStage();
+                          stageProvider.resetCompletedStage();
                           questionProvider.title = selectItem["data"]["title"];
                           questionProvider.data = selectItem["data"];
                           box.put(

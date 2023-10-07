@@ -89,12 +89,12 @@ showLowCashDialog(BuildContext context) {
             ),
           ),
           SizedBox(height: 10.h),
-          Consumer<StageProvider>(builder: (context, levelProvider, _) {
+          Consumer<StageProvider>(builder: (context, stageProvider, _) {
             return ZoomTapAnimation(
               onTap: () {
                 playTap(context);
                 Navigator.of(dialogContext).pop();
-                levelProvider.resetCompletedStage();
+                stageProvider.resetCompletedStage();
                 Navigator.popAndPushNamed(dialogContext, "/select");
               },
               child: Container(

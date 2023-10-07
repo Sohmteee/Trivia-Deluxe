@@ -38,9 +38,9 @@ class _LevelScreenState extends State<LevelScreen> {
             children: [
               const GameStats(),
               const Spacer(),
-              Consumer<StageProvider>(builder: (context, levelProvider, _) {
+              Consumer<StageProvider>(builder: (context, stageProvider, _) {
                 return Text(
-                  "Level ${levelProvider.level}",
+                  "Level ${stageProvider.level}",
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 50.sp,
@@ -52,8 +52,8 @@ class _LevelScreenState extends State<LevelScreen> {
               const Spacer(),
               buildLevel(),
               const Spacer(flex: 3),
-              Consumer<StageProvider>(builder: (context, levelProvider, _) {
-                return (levelProvider.completedStage != 3)
+              Consumer<StageProvider>(builder: (context, stageProvider, _) {
+                return (stageProvider.completedStage != 3)
                     ? SizedBox(
                         height: 60.h,
                         child: ZoomTapAnimation(
@@ -115,7 +115,7 @@ class _LevelScreenState extends State<LevelScreen> {
             ),
           ),
         ),
-        Consumer<StageProvider>(builder: (context, levelProvider, _) {
+        Consumer<StageProvider>(builder: (context, stageProvider, _) {
           return Positioned(
             bottom: -40.h,
             right: 70.w,
