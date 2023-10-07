@@ -15,7 +15,7 @@ class QuestionProvider extends ChangeNotifier {
 
   String question = "", title = "";
 
-  List<Map<String, dynamic>> options = [];
+  List options = [];
   bool questionIsShuffled = false;
 
   void initQuestionProvider(context) {
