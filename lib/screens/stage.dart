@@ -41,7 +41,9 @@ class _StageScreenState extends State<StageScreen> {
               const Spacer(),
               Consumer<QuestionProvider>(
                   builder: (context, questionProvider, _) {
-                return Text(
+                    final stageProvider = Provider.of<StageProvider>(context);
+
+                return stageProvider.completedStage == 0 ? : Text(
                   "Level ${questionProvider.currentLevel}",
                   style: TextStyle(
                     color: Colors.white,
