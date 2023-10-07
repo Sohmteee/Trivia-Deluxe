@@ -61,6 +61,6 @@ class AudioProvider extends ChangeNotifier {
       box.put("soundEffects", false);
     }
 
-    notifyListeners();
+    // notifyListeners();
   }
 }
