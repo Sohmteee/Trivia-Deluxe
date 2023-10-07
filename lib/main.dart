@@ -9,7 +9,7 @@ import 'package:provider/provider.dart';
 import 'package:trivia/data/box.dart';
 import 'package:trivia/data/controllers.dart';
 import 'package:trivia/providers/audio.dart';
-import 'package:trivia/providers/level.dart';
+import 'package:trivia/providers/stage.dart';
 import 'package:trivia/providers/money.dart';
 import 'package:trivia/providers/question.dart';
 import 'package:trivia/providers/score.dart';

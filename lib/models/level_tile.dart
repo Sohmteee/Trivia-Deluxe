@@ -3,7 +3,7 @@ import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:toast/toast.dart';
 import 'package:trivia/colors/app_color.dart';
-import 'package:trivia/providers/level.dart';
+import 'package:trivia/providers/stage.dart';
 import 'package:provider/provider.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 

@@ -7,7 +7,7 @@ import 'package:trivia/data/questions.dart';
 import 'package:trivia/main.dart';
 import 'package:trivia/models/game_background.dart';
 import 'package:trivia/models/stat_bar.dart';
-import 'package:trivia/providers/level.dart';
+import 'package:trivia/providers/stage.dart';
 import 'package:trivia/providers/question.dart';
 import 'package:velocity_x/velocity_x.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';

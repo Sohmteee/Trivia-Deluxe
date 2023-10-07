@@ -3,7 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:lottie/lottie.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/main.dart';
-import 'package:trivia/providers/level.dart';
+import 'package:trivia/providers/stage.dart';
 import 'package:trivia/screens/ad.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 

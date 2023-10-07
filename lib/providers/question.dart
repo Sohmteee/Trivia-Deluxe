@@ -4,7 +4,7 @@ import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/data/controllers.dart';
 import 'package:trivia/models/dialogs/fail.dart';
-import 'package:trivia/providers/level.dart';
+import 'package:trivia/providers/stage.dart';
 import 'package:trivia/providers/score.dart';
 
 class QuestionProvider extends ChangeNotifier {
