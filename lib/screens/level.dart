@@ -7,6 +7,7 @@ import 'package:trivia/main.dart';
 import 'package:trivia/models/game_background.dart';
 import 'package:trivia/models/level_tile.dart';
 import 'package:trivia/models/stat_bar.dart';
+import 'package:trivia/providers/question.dart';
 import 'package:trivia/providers/stage.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
@@ -38,9 +39,9 @@ class _LevelScreenState extends State<LevelScreen> {
             children: [
               const GameStats(),
               const Spacer(),
-              Consumer<StageProvider>(builder: (context, stageProvider, _) {
+              Consumer<QuestionProvider>(builder: (context, questionProvider, _) {
                 return Text(
-                  "Level ${stageProvider.level}",
+                  "Level ${questionProvider.currentLevel}",
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 50.sp,

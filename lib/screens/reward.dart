@@ -12,6 +12,7 @@ import 'package:trivia/data/controllers.dart';
 import 'package:trivia/main.dart';
 import 'package:trivia/models/game_background.dart';
 import 'package:trivia/models/stat_bar.dart';
+import 'package:trivia/providers/question.dart';
 import 'package:trivia/providers/stage.dart';
 import 'package:trivia/providers/money.dart';
 import 'package:trivia/providers/score.dart';
@@ -42,7 +43,7 @@ class _RewardScreenState extends State<RewardScreen> {
     bgPlayer.pause();
     playVictory(context);
     Future.delayed(4.seconds, () => bgPlayer.resume());
-    level = Provider.of<StageProvider>(context, listen: false).level;
+    level = Provider.of<QuestionProvider>(context, listen: false).currentLevel;
     path = Path()
       ..arcToPoint(
         offset,
