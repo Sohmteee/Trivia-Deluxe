@@ -55,7 +55,12 @@ class _GameScreenState extends State<GameScreen> {
     switch (color) {
       case "yellow":
         return AppColor.yellow;
+      case "right":
+        return AppColor.right;
+      case "wrong":
+        return AppColor.wrong;
       default:
+        return AppColor.white;
     }
   }
 
@@ -112,7 +117,8 @@ class _GameScreenState extends State<GameScreen> {
                               padding: EdgeInsets.all(15.sp),
                               width: double.maxFinite,
                               decoration: BoxDecoration(
-                                color: questionProvider.options[index]["color"],
+                                color: stringToColor(
+                                    questionProvider.options[index]["color"]),
                                 borderRadius: BorderRadius.circular(10.r),
                               ),
                               child: Text(
