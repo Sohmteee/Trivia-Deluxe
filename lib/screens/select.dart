@@ -124,8 +124,10 @@ class _SelectScreenState extends State<SelectScreen> {
                                 borderRadius: BorderRadius.circular(20.r),
                               ),
                               child: Center(
-                                  child: Text(
-                                      "Level ${box.get(selectItem["data"]["title"])["currentLevel"] ?? 1}")),
+                                child: Text(
+                                    "Level ${box.get(selectItem["data"]["title"])["currentLevel"] ?? 1}"),
+                              
+),
                             ),
                           ),
                         ),
