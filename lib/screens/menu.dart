@@ -259,7 +259,7 @@ class _MenuScreenState extends State<MenuScreen>
                           turns: reverseRotationAnimation,
                           child: CustomPaint(
                             painter: CircleBorderPainter(
-                              color: Color.fromARGB(255, 255, 153, 0)
+                              color: const Color.fromARGB(255, 255, 153, 0)
                                   .withOpacity(.9),
                               radius: 51.sp,
                               angle: -1.5 * pi,
@@ -267,44 +267,6 @@ class _MenuScreenState extends State<MenuScreen>
                             ),
                           ),
                         ),
-                        /* SpinKitDualRing(
-                          duration: 10.seconds,
-                          color: AppColor.white.withOpacity(.5),
-                          size: 100.sp,
-                        ), */
-                        /* RotationTransition(
-                          turns: rotationAnimation,
-                          child: Stack(
-                            alignment: Alignment.center,
-                            children: [
-                              Container(
-                                height: 100.w,
-                                width: 100.w,
-                                padding: EdgeInsets.all(10.sp),
-                                decoration: BoxDecoration(
-                                  shape: BoxShape.circle,
-                                  color: AppColor.wrong,
-                                ),
-                                child: Expanded(
-                                  child: Container(
-                                    decoration: const BoxDecoration(
-                                      shape: BoxShape.circle,
-                                      color: Colors.white,
-                                    ),
-                                  ),
-                                ),
-                              ),
-                              Container(
-                                height: 20.w,
-                                width: 100.w,
-                                padding: EdgeInsets.all(10.sp),
-                                decoration: const BoxDecoration(
-                                  color: Colors.white,
-                                ),
-                              ),
-                            ],
-                          ),
-                        ), */
                         SizedBox(
                           height: 70.w,
                           child: ZoomTapAnimation(
