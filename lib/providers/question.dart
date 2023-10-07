@@ -22,7 +22,9 @@ class QuestionProvider extends ChangeNotifier {
   void initQuestionProvider(context) {
     questions = data["data"];
     questionIndex = data["currentIndex"];
-    currentLevel = box.get(data["title"]["currentLevel"] ?? 1);
+    currentLevel = data["currentLevel"];
+    // currentLevel = box.get(data["title"]["currentLevel"] ?? 1);
+
 
     if (!questionIsShuffled) {
       questions.shuffle();
