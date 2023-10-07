@@ -22,7 +22,7 @@ class LevelTile extends StatefulWidget {
 class _LevelTileState extends State<LevelTile> {
   @override
   Widget build(BuildContext context) {
-    return Consumer<LevelProvider>(builder: (_, levelProvider, child) {
+    return Consumer<StageProvider>(builder: (_, levelProvider, child) {
       return widget.level == levelProvider.completedStage + 1
           ? ZoomTapAnimation(
               onTap: () {

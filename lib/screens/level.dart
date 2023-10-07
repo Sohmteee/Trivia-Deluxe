@@ -38,7 +38,7 @@ class _LevelScreenState extends State<LevelScreen> {
             children: [
               const GameStats(),
               const Spacer(),
-              Consumer<LevelProvider>(builder: (context, levelProvider, _) {
+              Consumer<StageProvider>(builder: (context, levelProvider, _) {
                 return Text(
                   "Level ${levelProvider.level}",
                   style: TextStyle(
@@ -52,7 +52,7 @@ class _LevelScreenState extends State<LevelScreen> {
               const Spacer(),
               buildLevel(),
               const Spacer(flex: 3),
-              Consumer<LevelProvider>(builder: (context, levelProvider, _) {
+              Consumer<StageProvider>(builder: (context, levelProvider, _) {
                 return (levelProvider.completedStage != 3)
                     ? SizedBox(
                         height: 60.h,
@@ -115,7 +115,7 @@ class _LevelScreenState extends State<LevelScreen> {
             ),
           ),
         ),
-        Consumer<LevelProvider>(builder: (context, levelProvider, _) {
+        Consumer<StageProvider>(builder: (context, levelProvider, _) {
           return Positioned(
             bottom: -40.h,
             right: 70.w,

@@ -42,7 +42,7 @@ class _RewardScreenState extends State<RewardScreen> {
     bgPlayer.pause();
     playVictory(context);
     Future.delayed(4.seconds, () => bgPlayer.resume());
-    level = Provider.of<LevelProvider>(context, listen: false).level;
+    level = Provider.of<StageProvider>(context, listen: false).level;
     path = Path()
       ..arcToPoint(
         offset,
@@ -59,7 +59,7 @@ class _RewardScreenState extends State<RewardScreen> {
     // final moneyProvider = Provider.of<MoneyProvider>(context, listen: false);
     // moneyProvider.resetCoins();
 
-    final levelProvider = Provider.of<LevelProvider>(context, listen: false);
+    final levelProvider = Provider.of<StageProvider>(context, listen: false);
     levelProvider.incrementLevel();
 
     Future.delayed(5.5.seconds, () {

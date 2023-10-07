@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:trivia/data/box.dart';
 
-class LevelProvider extends ChangeNotifier {
+class StageProvider extends ChangeNotifier {
   int _completedStage = 0;
   int _level = box.get("level") ?? 1;
   get completedStage => _completedStage;

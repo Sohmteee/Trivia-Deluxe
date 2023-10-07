@@ -89,7 +89,7 @@ showLowCashDialog(BuildContext context) {
             ),
           ),
           SizedBox(height: 10.h),
-          Consumer<LevelProvider>(builder: (context, levelProvider, _) {
+          Consumer<StageProvider>(builder: (context, levelProvider, _) {
             return ZoomTapAnimation(
               onTap: () {
                 playTap(context);

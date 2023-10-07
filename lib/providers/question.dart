@@ -11,6 +11,7 @@ class QuestionProvider extends ChangeNotifier {
   Map<String, dynamic> data = {};
   List questions = [];
   int questionIndex = -1;
+  int currentLevel = 1;
 
   String question = "", title = "";
 
@@ -20,6 +21,7 @@ class QuestionProvider extends ChangeNotifier {
   void initQuestionProvider(context) {
     questions = data["data"];
     questionIndex = data["currentIndex"];
+    currentLevel = data["currentLevel"];
 
     if (!questionIsShuffled) {
       questions.shuffle();
@@ -69,7 +71,7 @@ class QuestionProvider extends ChangeNotifier {
       }
     }
 
-    final levelProvider = Provider.of<LevelProvider>(context, listen: false);
+    final levelProvider = Provider.of<StageProvider>(context, listen: false);
 
     Future.delayed((options[index]["value"] == true) ? 6.seconds : 1.5.seconds,
         () {

@@ -71,7 +71,7 @@ class _SelectScreenState extends State<SelectScreen> {
                         builder: (_, questionProvider, child) {
                       return ZoomTapAnimation(
                         onTap: () {
-                          var levelProvider = Provider.of<LevelProvider>(
+                          var levelProvider = Provider.of<StageProvider>(
                               context,
                               listen: false);
                           levelProvider.resetCompletedStage();
@@ -109,7 +109,17 @@ class _SelectScreenState extends State<SelectScreen> {
                               ),
                               textAlign: TextAlign.center,
                             ),
-                            trailing: const SizedBox(),
+                            trailing: Container(
+                              width: 60.w,
+                              height: 40.h,
+                              decoration: BoxDecoration(
+                                color: AppColor.yellow,
+                                borderRadius: BorderRadius.circular(20.r),
+                              ),
+                              child: Center(
+                                  child: Text(
+                                      "Level ${selectItem["data"]["currentLevel"]}")),
+                            ),
                           ),
                         ),
                       );
