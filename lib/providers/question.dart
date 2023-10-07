@@ -12,7 +12,7 @@ class QuestionProvider extends ChangeNotifier {
   Map<String, dynamic> data = {};
   List questions = [];
   int questionIndex = -1;
-  int currentLevel = 1;
+  int? currentLevel;
 
   String question = "", title = "";
 

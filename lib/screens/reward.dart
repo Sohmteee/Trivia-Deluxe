@@ -44,7 +44,7 @@ class _RewardScreenState extends State<RewardScreen> {
     Future.delayed(4.seconds, () => bgPlayer.resume());
     final questionProvider =
         Provider.of<QuestionProvider>(context, listen: false);
-    level = questionProvider.currentLevel;
+    level = questionProvider.currentLevel!;
     path = Path()
       ..arcToPoint(
         offset,
