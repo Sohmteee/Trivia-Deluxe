@@ -77,6 +77,8 @@ class _SelectScreenState extends State<SelectScreen> {
                           stageProvider.resetCompletedStage();
                           questionProvider.title = selectItem["data"]["title"];
                           questionProvider.data = selectItem["data"];
+                          questionProvider.currentLevel =
+                              selectItem["data"]["currentLevel"];
                           box.put(
                               selectItem["data"]["title"], selectItem["data"]);
                           Future.delayed(
