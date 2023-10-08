@@ -191,7 +191,7 @@ class _RewardScreenState extends State<RewardScreen> {
                   ),
                 ],
               ),
-              const Spacer(),
+              const Spacer(flex: 2),
               SizedBox(
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
@@ -274,10 +274,13 @@ class _RewardScreenState extends State<RewardScreen> {
                               Stack(
                                 children: List.generate(
                                   score,
-                                  (index) => SizedBox(
-                                    width: 30.w,
-                                    child:
-                                        Image.asset("assets/images/coin.png"),
+                                  (index) => Positioned(
+                                    right: -70.w,
+                                    child: SizedBox(
+                                      width: 30.w,
+                                      child:
+                                          Image.asset("assets/images/coin.png"),
+                                    ),
                                   ),
                                 )
                                     .animate(
