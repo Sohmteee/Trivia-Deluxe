@@ -352,7 +352,7 @@ class _RewardScreenState extends State<RewardScreen> {
                     begin: 20.h,
                     end: 0,
                   ),
-              const Spacer(flex: 2),
+              const Spacer(flex: 3),
               if (receivedReward)
                 ZoomTapAnimation(
                   onTap: () {
