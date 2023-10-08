@@ -274,13 +274,10 @@ class _RewardScreenState extends State<RewardScreen> {
                               Stack(
                                 children: List.generate(
                                   score,
-                                  (index) => Positioned(
-                                    right: -70.w,
-                                    child: SizedBox(
-                                      width: 30.w,
-                                      child:
-                                          Image.asset("assets/images/coin.png"),
-                                    ),
+                                  (index) => SizedBox(
+                                    width: 30.w,
+                                    child:
+                                        Image.asset("assets/images/coin.png"),
                                   ),
                                 )
                                     .animate(
@@ -306,15 +303,12 @@ class _RewardScreenState extends State<RewardScreen> {
                                       duration: 1.seconds,
                                     ),
                               ),
-                              Positioned(
-                                right: -70.w,
-                                child: SizedBox(
-                                  height: 200.h,
-                                  width: 200.w,
-                                  child: Lottie.asset(
-                                    "assets/json/chest.json",
-                                    repeat: false,
-                                  ),
+                              SizedBox(
+                                height: 200.h,
+                                width: 200.w,
+                                child: Lottie.asset(
+                                  "assets/json/chest.json",
+                                  repeat: false,
                                 ),
                               ),
                             ],
