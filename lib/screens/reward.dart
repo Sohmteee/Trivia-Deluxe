@@ -351,7 +351,7 @@ class _RewardScreenState extends State<RewardScreen> {
                 ZoomTapAnimation(
                   onTap: () {
                     playTap(context);
-                    Navigator.pushReplacementNamed(context, "/select");
+                    Navigator.pushReplacementNamed(context, "/stage");
                   },
                   child: Container(
                     padding: EdgeInsets.symmetric(
