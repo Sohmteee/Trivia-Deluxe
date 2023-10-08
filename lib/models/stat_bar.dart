@@ -47,7 +47,6 @@ class _GameStatsState extends State<GameStats> {
 
   @override
   Widget build(BuildContext context) {
-
     return Consumer<MoneyProvider>(builder: (context, moneyProvider, _) {
       return Row(
         children: [
@@ -212,49 +211,24 @@ class _GameStatsState extends State<GameStats> {
                   end: Alignment.bottomRight,
                 ),
               ),
-              child: Row(
-                children: [
-                  Expanded(
-                    child: Center(
-                      child: animateCoins
-                          ? Countup(
-                              begin: moneyProvider.previousCoins.toDouble(),
-                              end: moneyProvider.coins.toDouble(),
-                              duration: 1.seconds,
-                              style: const TextStyle(
-                                color: Colors.yellow,
-                              ),
-                            )
-                          : Text(
-                              moneyProvider.coins.toString(),
-                              style: const TextStyle(
-                                color: Colors.yellow,
-                              ),
-                            ),
-                    ),
-                  ),
-                  Container(
-                    width: 18.w,
-                    padding: EdgeInsets.symmetric(vertical: 3.sp),
-                    decoration: BoxDecoration(
-                      color: Colors.green,
-                      borderRadius: BorderRadius.horizontal(
-                        right: Radius.circular(8.r),
-                      ),
-                    ),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceAround,
-                      children: [
-                        Icon(
-                          Icons.add,
-                          size: 13.sp,
-                          color: AppColor.white,
+              child: Expanded(
+                child: Center(
+                  child: animateCoins
+                      ? Countup(
+                          begin: moneyProvider.previousCoins.toDouble(),
+                          end: moneyProvider.coins.toDouble(),
+                          duration: 1.seconds,
+                          style: const TextStyle(
+                            color: Colors.yellow,
+                          ),
+                        )
+                      : Text(
+                          moneyProvider.coins.toString(),
+                          style: const TextStyle(
+                            color: Colors.yellow,
+                          ),
                         ),
-                        const SizedBox(),
-                      ],
-                    ),
-                  )
-                ],
+                ),
               ),
             ),
           ),
