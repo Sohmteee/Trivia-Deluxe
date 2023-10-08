@@ -221,7 +221,7 @@ class _GameScreenState extends State<GameScreen> {
                   questionProvider.question,
                   style: TextStyle(
                     color: AppColor.white,
-                    fontSize: 35.sp,
+                    fontSize: 30.sp,
                   ),
                   textAlign: TextAlign.center,
                 ),
