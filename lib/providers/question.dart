@@ -30,7 +30,6 @@ class QuestionProvider extends ChangeNotifier {
     }
 
     if (questionIndex >= questions.length - 1) {
-    
       questionIndex = 0;
       data["currentIndex"] = questionIndex;
       questions.shuffle();
@@ -66,6 +65,9 @@ class QuestionProvider extends ChangeNotifier {
       notifyListeners();
       return;
     }
+
+    questionIndex = questionIndex + 1;
+    data["currentIndex"] = questionIndex;
 
     if (options[index]["value"] == true) {
       options[index]["color"] = "right";
