@@ -53,7 +53,7 @@ class _RewardScreenState extends State<RewardScreen> {
       );
     vitoryConfettiController = ConfettiController(duration: 1.5.seconds);
     final scoreProvider = Provider.of<ScoreProvider>(context, listen: false);
-    score = scoreProvider.score;
+    score = scoreProvider.reward;
     scoreProvider.resetScore();
 
     // score = 18;
