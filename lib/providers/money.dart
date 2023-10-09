@@ -10,6 +10,9 @@ class MoneyProvider extends ChangeNotifier {
   int get previousCoins => _previousCoins;
   int get coins => _coins;
 
+  int _reward = 0;
+  int get reward => _reward;
+
   /* 
   10 coins = 100 cash
   20 coins = 200 cash
@@ -68,10 +71,33 @@ class MoneyProvider extends ChangeNotifier {
     notifyListeners();
   }
 
+  void updatedReward(int newReward) {
+    if (newReward <= 5) {
+      _reward += 1;
+    } else if (newReward <= 10) {
+      _reward += 2;
+    } else if (newReward <= 15) {
+      _reward += 3;
+    } else if (newReward <= 20) {
+      _reward += 4;
+    } else if (newReward <= 25) {
+      _reward += 5;
+    } else if (newReward <= 30) {
+      _reward += 6;
+    }
+    debugPrint("Curent Reward: $reward");
+    notifyListeners();
+  }
+
   resetCoins() {
     _previousCoins = 0;
     _coins = 50;
     box.put("previousCoins", previousCoins);
     box.put("coins", coins);
+  }
+
+  void resetReward() {
+    _reward = 0;
+    notifyListeners();
   }
 }
