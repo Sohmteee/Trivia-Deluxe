@@ -101,7 +101,7 @@ class _GameStatsState extends State<GameStats> {
               end: Alignment.bottomRight,
             ),
           ),
-          child: Image.asset("assets/images/achievement.png"),
+          child: Image.asset("assets/images/money.png"),
         ),
         SizedBox(width: 5.w),
         ZoomTapAnimation(
@@ -129,11 +129,11 @@ class _GameStatsState extends State<GameStats> {
             ),
             child: Row(
               children: [
-                Expanded(
+                const Expanded(
                   child: Center(
                     child: Text(
-                      "0",
-                      style: const TextStyle(
+                      "5000",
+                      style:  TextStyle(
                         color: Colors.yellow,
                       ),
                     ),
@@ -187,52 +187,54 @@ class _GameStatsState extends State<GameStats> {
           child: Image.asset("assets/images/coin.png"),
         ),
         SizedBox(width: 5.w),
-        Consumer<MoneyProvider>(builder: (context, moneyProvider, _) {
-          return ZoomTapAnimation(
-            onTap: () {
-              playTap(context);
-            },
-            child: Container(
-              height: 20.h,
-              width: 60.w,
-              decoration: BoxDecoration(
-                color: Colors.white,
-                border: Border.all(
-                  color: AppColor.lightRed,
-                  width: 2.sp,
+        Consumer<MoneyProvider>(
+          builder: (context, moneyProvider, _) {
+            return ZoomTapAnimation(
+              onTap: () {
+                playTap(context);
+              },
+              child: Container(
+                height: 20.h,
+                width: 60.w,
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  border: Border.all(
+                    color: AppColor.lightRed,
+                    width: 2.sp,
+                  ),
+                  borderRadius: BorderRadius.circular(15.r),
+                  gradient: LinearGradient(
+                    colors: [
+                      AppColor.lightRed,
+                      AppColor.darkRed,
+                    ],
+                    begin: Alignment.topLeft,
+                    end: Alignment.bottomRight,
+                  ),
                 ),
-                borderRadius: BorderRadius.circular(15.r),
-                gradient: LinearGradient(
-                  colors: [
-                    AppColor.lightRed,
-                    AppColor.darkRed,
-                  ],
-                  begin: Alignment.topLeft,
-                  end: Alignment.bottomRight,
+                child: Expanded(
+                  child: Center(
+                    child: animateCoins
+                        ? Countup(
+                            begin: moneyProvider.previousCoins.toDouble(),
+                            end: moneyProvider.coins.toDouble(),
+                            duration: 1.seconds,
+                            style: const TextStyle(
+                              color: Colors.yellow,
+                            ),
+                          )
+                        : Text(
+                            moneyProvider.coins.toString(),
+                            style: const TextStyle(
+                              color: Colors.yellow,
+                            ),
+                          ),
+                  ),
                 ),
               ),
-              child: Expanded(
-                child: Center(
-                  child: animateCoins
-                      ? Countup(
-                          begin: moneyProvider.previousCoins.toDouble(),
-                          end: moneyProvider.coins.toDouble(),
-                          duration: 1.seconds,
-                          style: const TextStyle(
-                            color: Colors.yellow,
-                          ),
-                        )
-                      : Text(
-                          moneyProvider.coins.toString(),
-                          style: const TextStyle(
-                            color: Colors.yellow,
-                          ),
-                        ),
-                ),
-              ),
-            ),
-          );
-        },),
+            );
+          },
+        ),
         if (widget.showHome ?? true != false) const Spacer(flex: 4),
         if (widget.showHome ?? true != false)
           ZoomTapAnimation(
