@@ -71,7 +71,7 @@ class MoneyProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-  void updatedReward(int newReward) {
+  void updateReward(int newReward) {
     if (newReward <= 5) {
       _reward += 1;
     } else if (newReward <= 10) {
