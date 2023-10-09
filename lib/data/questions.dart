@@ -2,7 +2,7 @@ import 'package:trivia/colors/app_color.dart';
 
 Map<String, dynamic> riddlesData = {
   "title": "Riddles",
-  "currentIndex": -1,
+  "currentIndex": 0,
   "currentLevel": 1,
   "data": [
     {
@@ -303,7 +303,7 @@ Map<String, dynamic> riddlesData = {
 
 Map<String, dynamic> animalsData = {
   "title": "Animals",
-  "currentIndex": -1,
+  "currentIndex": 0,
   "currentLevel": 1,
   "data": [
     {
@@ -610,7 +610,7 @@ Map<String, dynamic> animalsData = {
 
 Map<String, dynamic> proverbsData = {
   "title": "Proverbs",
-  "currentIndex": -1,
+  "currentIndex": 0,
   "currentLevel": 1,
   "data": [
     {
