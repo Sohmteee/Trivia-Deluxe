@@ -1,4 +1,4 @@
-# trivia
+# Trivia Deluxe
 
 A new Flutter project.
 Also an intern project I started on Tuesday, 20th of September,2023
