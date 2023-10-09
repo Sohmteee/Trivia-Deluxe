@@ -8,6 +8,7 @@ class ScoreProvider extends ChangeNotifier {
   void increaseScore(int newScore) {
     _score += newScore;
     box.put("score", score);
+
     debugPrint("Curent Score: $score");
     notifyListeners();
   }
@@ -15,6 +16,7 @@ class ScoreProvider extends ChangeNotifier {
   void decreaseScore(int newScore) {
     _score -= newScore;
     box.put("score", score);
+
     debugPrint("Curent Score: $score");
     notifyListeners();
   }

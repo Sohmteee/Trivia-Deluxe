@@ -102,7 +102,7 @@ class _GameStatsState extends State<GameStats> {
                 end: Alignment.bottomRight,
               ),
             ),
-            child: Image.asset("assets/images/money.png"),
+            child: Image.asset("assets/images/achievement.png"),
           ),
           SizedBox(width: 5.w),
           ZoomTapAnimation(
