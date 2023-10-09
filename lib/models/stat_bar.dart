@@ -47,77 +47,24 @@ class _GameStatsState extends State<GameStats> {
 
   @override
   Widget build(BuildContext context) {
-      return Row(
-        children: [
-          if (widget.showHome ?? true != false)
-            ZoomTapAnimation(
-              onTap: () {
-                playTap(context);
-                Navigator.pushNamedAndRemoveUntil(
-                    context, "/menu", (route) => false);
-              },
-              child: Container(
-                padding: EdgeInsets.all(2.sp),
-                decoration: BoxDecoration(
-                  color: Colors.white,
-                  shape: BoxShape.circle,
-                  border: Border.all(
-                    color: AppColor.lightRed,
-                    width: 2.sp,
-                  ),
-                  gradient: LinearGradient(
-                    colors: [
-                      AppColor.lightRed,
-                      AppColor.darkRed,
-                    ],
-                    begin: Alignment.topLeft,
-                    end: Alignment.bottomRight,
-                  ),
-                ),
-                child: Icon(
-                  Icons.home_rounded,
-                  size: 22.sp,
-                  color: AppColor.levelYellow,
-                ),
-              ),
-            ),
-          if (widget.showHome ?? true != false) const Spacer(flex: 4),
-          Container(
-            height: 20.h,
-            padding: EdgeInsets.all(2.sp),
-            decoration: BoxDecoration(
-              color: Colors.white,
-              border: Border.all(
-                color: AppColor.lightRed,
-                width: 2.sp,
-              ),
-              borderRadius: BorderRadius.circular(8.r),
-              gradient: LinearGradient(
-                colors: [
-                  AppColor.lightRed,
-                  AppColor.darkRed,
-                ],
-                begin: Alignment.topLeft,
-                end: Alignment.bottomRight,
-              ),
-            ),
-            child: Image.asset("assets/images/achievement.png"),
-          ),
-          SizedBox(width: 5.w),
+    return Row(
+      children: [
+        if (widget.showHome ?? true != false)
           ZoomTapAnimation(
             onTap: () {
               playTap(context);
+              Navigator.pushNamedAndRemoveUntil(
+                  context, "/menu", (route) => false);
             },
             child: Container(
-              height: 20.h,
-              width: 60.w,
+              padding: EdgeInsets.all(2.sp),
               decoration: BoxDecoration(
                 color: Colors.white,
+                shape: BoxShape.circle,
                 border: Border.all(
                   color: AppColor.lightRed,
                   width: 2.sp,
                 ),
-                borderRadius: BorderRadius.circular(15.r),
                 gradient: LinearGradient(
                   colors: [
                     AppColor.lightRed,
@@ -127,54 +74,50 @@ class _GameStatsState extends State<GameStats> {
                   end: Alignment.bottomRight,
                 ),
               ),
-              child: Row(
-                children: [
-                  Expanded(
-                    child: Center(
-                      child: Text(
-                        "0",
-                        style: const TextStyle(
-                          color: Colors.yellow,
-                        ),
-                      ),
-                    ),
-                  ),
-                  Container(
-                    width: 18.w,
-                    padding: EdgeInsets.symmetric(vertical: 3.sp),
-                    decoration: BoxDecoration(
-                      color: Colors.green,
-                      borderRadius: BorderRadius.horizontal(
-                        right: Radius.circular(8.r),
-                      ),
-                    ),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceAround,
-                      children: [
-                        Icon(
-                          Icons.add,
-                          size: 13.sp,
-                          color: AppColor.white,
-                        ),
-                        const SizedBox(),
-                      ],
-                    ),
-                  )
-                ],
+              child: Icon(
+                Icons.home_rounded,
+                size: 22.sp,
+                color: AppColor.levelYellow,
               ),
             ),
           ),
-          const Spacer(flex: 3),
-          Container(
+        if (widget.showHome ?? true != false) const Spacer(flex: 4),
+        Container(
+          height: 20.h,
+          padding: EdgeInsets.all(2.sp),
+          decoration: BoxDecoration(
+            color: Colors.white,
+            border: Border.all(
+              color: AppColor.lightRed,
+              width: 2.sp,
+            ),
+            borderRadius: BorderRadius.circular(8.r),
+            gradient: LinearGradient(
+              colors: [
+                AppColor.lightRed,
+                AppColor.darkRed,
+              ],
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+            ),
+          ),
+          child: Image.asset("assets/images/achievement.png"),
+        ),
+        SizedBox(width: 5.w),
+        ZoomTapAnimation(
+          onTap: () {
+            playTap(context);
+          },
+          child: Container(
             height: 20.h,
-            padding: EdgeInsets.all(2.sp),
+            width: 60.w,
             decoration: BoxDecoration(
               color: Colors.white,
               border: Border.all(
                 color: AppColor.lightRed,
                 width: 2.sp,
               ),
-              borderRadius: BorderRadius.circular(8.r),
+              borderRadius: BorderRadius.circular(15.r),
               gradient: LinearGradient(
                 colors: [
                   AppColor.lightRed,
@@ -184,73 +127,82 @@ class _GameStatsState extends State<GameStats> {
                 end: Alignment.bottomRight,
               ),
             ),
-            child: Image.asset("assets/images/coin.png"),
-          ),
-          SizedBox(width: 5.w),
-          Builder(
-            builder: (context) {
-              return ZoomTapAnimation(
-                onTap: () {
-                  playTap(context);
-                },
-                child: Container(
-                  height: 20.h,
-                  width: 60.w,
-                  decoration: BoxDecoration(
-                    color: Colors.white,
-                    border: Border.all(
-                      color: AppColor.lightRed,
-                      width: 2.sp,
-                    ),
-                    borderRadius: BorderRadius.circular(15.r),
-                    gradient: LinearGradient(
-                      colors: [
-                        AppColor.lightRed,
-                        AppColor.darkRed,
-                      ],
-                      begin: Alignment.topLeft,
-                      end: Alignment.bottomRight,
-                    ),
-                  ),
-                  child: Expanded(
-                    child: Center(
-                      child: animateCoins
-                          ? Countup(
-                              begin: moneyProvider.previousCoins.toDouble(),
-                              end: moneyProvider.coins.toDouble(),
-                              duration: 1.seconds,
-                              style: const TextStyle(
-                                color: Colors.yellow,
-                              ),
-                            )
-                          : Text(
-                              moneyProvider.coins.toString(),
-                              style: const TextStyle(
-                                color: Colors.yellow,
-                              ),
-                            ),
+            child: Row(
+              children: [
+                Expanded(
+                  child: Center(
+                    child: Text(
+                      "0",
+                      style: const TextStyle(
+                        color: Colors.yellow,
+                      ),
                     ),
                   ),
                 ),
-              );
-            }
+                Container(
+                  width: 18.w,
+                  padding: EdgeInsets.symmetric(vertical: 3.sp),
+                  decoration: BoxDecoration(
+                    color: Colors.green,
+                    borderRadius: BorderRadius.horizontal(
+                      right: Radius.circular(8.r),
+                    ),
+                  ),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    children: [
+                      Icon(
+                        Icons.add,
+                        size: 13.sp,
+                        color: AppColor.white,
+                      ),
+                      const SizedBox(),
+                    ],
+                  ),
+                )
+              ],
+            ),
           ),
-          if (widget.showHome ?? true != false) const Spacer(flex: 4),
-          if (widget.showHome ?? true != false)
-            ZoomTapAnimation(
+        ),
+        const Spacer(flex: 3),
+        Container(
+          height: 20.h,
+          padding: EdgeInsets.all(2.sp),
+          decoration: BoxDecoration(
+            color: Colors.white,
+            border: Border.all(
+              color: AppColor.lightRed,
+              width: 2.sp,
+            ),
+            borderRadius: BorderRadius.circular(8.r),
+            gradient: LinearGradient(
+              colors: [
+                AppColor.lightRed,
+                AppColor.darkRed,
+              ],
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+            ),
+          ),
+          child: Image.asset("assets/images/coin.png"),
+        ),
+        SizedBox(width: 5.w),
+        Consumer<MoneyProvider>(
+          builder: (context, moneyProvider, _) {
+            return ZoomTapAnimation(
               onTap: () {
                 playTap(context);
-                showSettingsDialog(context);
               },
               child: Container(
-                padding: EdgeInsets.all(2.sp),
+                height: 20.h,
+                width: 60.w,
                 decoration: BoxDecoration(
                   color: Colors.white,
-                  shape: BoxShape.circle,
                   border: Border.all(
                     color: AppColor.lightRed,
                     width: 2.sp,
                   ),
+                  borderRadius: BorderRadius.circular(15.r),
                   gradient: LinearGradient(
                     colors: [
                       AppColor.lightRed,
@@ -260,14 +212,62 @@ class _GameStatsState extends State<GameStats> {
                     end: Alignment.bottomRight,
                   ),
                 ),
-                child: Icon(
-                  Icons.settings_rounded,
-                  size: 22.sp,
-                  color: AppColor.levelYellow,
+                child: Expanded(
+                  child: Center(
+                    child: animateCoins
+                        ? Countup(
+                            begin: moneyProvider.previousCoins.toDouble(),
+                            end: moneyProvider.coins.toDouble(),
+                            duration: 1.seconds,
+                            style: const TextStyle(
+                              color: Colors.yellow,
+                            ),
+                          )
+                        : Text(
+                            moneyProvider.coins.toString(),
+                            style: const TextStyle(
+                              color: Colors.yellow,
+                            ),
+                          ),
+                  ),
                 ),
               ),
+            );
+          },
+        ),
+        if (widget.showHome ?? true != false) const Spacer(flex: 4),
+        if (widget.showHome ?? true != false)
+          ZoomTapAnimation(
+            onTap: () {
+              playTap(context);
+              showSettingsDialog(context);
+            },
+            child: Container(
+              padding: EdgeInsets.all(2.sp),
+              decoration: BoxDecoration(
+                color: Colors.white,
+                shape: BoxShape.circle,
+                border: Border.all(
+                  color: AppColor.lightRed,
+                  width: 2.sp,
+                ),
+                gradient: LinearGradient(
+                  colors: [
+                    AppColor.lightRed,
+                    AppColor.darkRed,
+                  ],
+                  begin: Alignment.topLeft,
+                  end: Alignment.bottomRight,
+                ),
+              ),
+              child: Icon(
+                Icons.settings_rounded,
+                size: 22.sp,
+                color: AppColor.levelYellow,
+              ),
             ),
-        ],
-      );
+          ),
+      ],
+    );
   }
 }
