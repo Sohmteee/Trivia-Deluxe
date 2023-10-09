@@ -4,7 +4,7 @@ import 'package:provider/provider.dart';
 import 'package:trivia/data/box.dart';
 import 'package:trivia/data/controllers.dart';
 import 'package:trivia/models/dialogs/fail.dart';
-import 'package:trivia/providers/score.dart';
+import 'package:trivia/providers/money.dart';
 import 'package:trivia/providers/stage.dart';
 
 class QuestionProvider extends ChangeNotifier {
@@ -86,9 +86,8 @@ class QuestionProvider extends ChangeNotifier {
     Future.delayed((options[index]["value"] == true) ? 6.seconds : 1.5.seconds,
         () {
       if (options[index]["value"] == true) {
-        final scoreProvider =
-            Provider.of<ScoreProvider>(context, listen: false);
-        scoreProvider.updatedReward(int.parse(countDownController.getTime()!));
+        Provider.of<MoneyProvider>(context, listen: false)
+            .updatedReward(int.parse(countDownController.getTime()!));
         stageProvider.incrementCompletedStage();
 
         if (stageProvider.completedStage == 3) {
