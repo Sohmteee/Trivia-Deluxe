@@ -127,40 +127,16 @@ class _GameStatsState extends State<GameStats> {
                 end: Alignment.bottomRight,
               ),
             ),
-            child: Row(
-              children: [
+            child: 
                 const Expanded(
-                  child: Center(
-                    child: Text(
-                      "5000",
-                      style:  TextStyle(
-                        color: Colors.yellow,
-                      ),
-                    ),
+              child: Center(
+                child: Text(
+                  "5000",
+                  style: TextStyle(
+                    color: Colors.yellow,
                   ),
                 ),
-                Container(
-                  width: 18.w,
-                  padding: EdgeInsets.symmetric(vertical: 3.sp),
-                  decoration: BoxDecoration(
-                    color: Colors.green,
-                    borderRadius: BorderRadius.horizontal(
-                      right: Radius.circular(8.r),
-                    ),
-                  ),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceAround,
-                    children: [
-                      Icon(
-                        Icons.add,
-                        size: 13.sp,
-                        color: AppColor.white,
-                      ),
-                      const SizedBox(),
-                    ],
-                  ),
-                )
-              ],
+              ),
             ),
           ),
         ),
