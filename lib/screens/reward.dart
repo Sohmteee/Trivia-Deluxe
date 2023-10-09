@@ -365,7 +365,7 @@ class _RewardScreenState extends State<RewardScreen> {
                       "Continue to Level ${level + 1}",
                       style: TextStyle(
                         color: Colors.white,
-                        fontSize: 28.sp,
+                        fontSize: 25.sp,
                       ),
                       textAlign: TextAlign.center,
                     ),

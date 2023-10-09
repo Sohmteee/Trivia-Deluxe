@@ -127,14 +127,11 @@ class _GameStatsState extends State<GameStats> {
                 end: Alignment.bottomRight,
               ),
             ),
-            child: 
-                const Expanded(
-              child: Center(
-                child: Text(
-                  "5000",
-                  style: TextStyle(
-                    color: Colors.yellow,
-                  ),
+            child: const Center(
+              child: Text(
+                "5000",
+                style: TextStyle(
+                  color: Colors.yellow,
                 ),
               ),
             ),
@@ -188,24 +185,22 @@ class _GameStatsState extends State<GameStats> {
                     end: Alignment.bottomRight,
                   ),
                 ),
-                child: Expanded(
-                  child: Center(
-                    child: animateCoins
-                        ? Countup(
-                            begin: moneyProvider.previousCoins.toDouble(),
-                            end: moneyProvider.coins.toDouble(),
-                            duration: 1.seconds,
-                            style: const TextStyle(
-                              color: Colors.yellow,
-                            ),
-                          )
-                        : Text(
-                            moneyProvider.coins.toString(),
-                            style: const TextStyle(
-                              color: Colors.yellow,
-                            ),
+                child: Center(
+                  child: animateCoins
+                      ? Countup(
+                          begin: moneyProvider.previousCoins.toDouble(),
+                          end: moneyProvider.coins.toDouble(),
+                          duration: 1.seconds,
+                          style: const TextStyle(
+                            color: Colors.yellow,
                           ),
-                  ),
+                        )
+                      : Text(
+                          moneyProvider.coins.toString(),
+                          style: const TextStyle(
+                            color: Colors.yellow,
+                          ),
+                        ),
                 ),
               ),
             );

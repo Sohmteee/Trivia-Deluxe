@@ -43,9 +43,9 @@ class _SelectScreenState extends State<SelectScreen> {
       }
     }
 
-    for (var item in selectItems) {
+    /* for (var item in selectItems) {
       print("Box Level: ${box.get(item["data"]["title"])?["currentLevel"]}");
-    }
+    } */
     super.initState();
   }
 
