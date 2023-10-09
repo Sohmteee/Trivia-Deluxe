@@ -14,7 +14,6 @@ import 'package:trivia/models/game_background.dart';
 import 'package:trivia/models/stat_bar.dart';
 import 'package:trivia/providers/money.dart';
 import 'package:trivia/providers/question.dart';
-import 'package:trivia/providers/score.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 class RewardScreen extends StatefulWidget {
@@ -52,9 +51,9 @@ class _RewardScreenState extends State<RewardScreen> {
         clockwise: true,
       );
     vitoryConfettiController = ConfettiController(duration: 1.5.seconds);
-    final scoreProvider = Provider.of<ScoreProvider>(context, listen: false);
-    score = scoreProvider.reward;
-    scoreProvider.resetScore();
+    final moneyProvider = Provider.of<MoneyProvider>(context, listen: false);
+    score = moneyProvider.reward;
+    moneyProvider.resetReward();
 
     // score = 18;
 
