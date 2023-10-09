@@ -83,7 +83,7 @@ class _GameStatsState extends State<GameStats> {
           ),
         if (widget.showHome ?? true != false) const Spacer(flex: 4),
         Container(
-          height: 30.h,
+          height: 20.h,
           padding: EdgeInsets.all(2.sp),
           decoration: BoxDecoration(
             color: Colors.white,
@@ -187,54 +187,52 @@ class _GameStatsState extends State<GameStats> {
           child: Image.asset("assets/images/coin.png"),
         ),
         SizedBox(width: 5.w),
-        Consumer<MoneyProvider>(
-          builder: (context, moneyProvider, _) {
-            return ZoomTapAnimation(
-              onTap: () {
-                playTap(context);
-              },
-              child: Container(
-                height: 20.h,
-                width: 60.w,
-                decoration: BoxDecoration(
-                  color: Colors.white,
-                  border: Border.all(
-                    color: AppColor.lightRed,
-                    width: 2.sp,
-                  ),
-                  borderRadius: BorderRadius.circular(15.r),
-                  gradient: LinearGradient(
-                    colors: [
-                      AppColor.lightRed,
-                      AppColor.darkRed,
-                    ],
-                    begin: Alignment.topLeft,
-                    end: Alignment.bottomRight,
-                  ),
+        Consumer<MoneyProvider>(builder: (context, moneyProvider, _) {
+          return ZoomTapAnimation(
+            onTap: () {
+              playTap(context);
+            },
+            child: Container(
+              height: 20.h,
+              width: 60.w,
+              decoration: BoxDecoration(
+                color: Colors.white,
+                border: Border.all(
+                  color: AppColor.lightRed,
+                  width: 2.sp,
                 ),
-                child: Expanded(
-                  child: Center(
-                    child: animateCoins
-                        ? Countup(
-                            begin: moneyProvider.previousCoins.toDouble(),
-                            end: moneyProvider.coins.toDouble(),
-                            duration: 1.seconds,
-                            style: const TextStyle(
-                              color: Colors.yellow,
-                            ),
-                          )
-                        : Text(
-                            moneyProvider.coins.toString(),
-                            style: const TextStyle(
-                              color: Colors.yellow,
-                            ),
-                          ),
-                  ),
+                borderRadius: BorderRadius.circular(15.r),
+                gradient: LinearGradient(
+                  colors: [
+                    AppColor.lightRed,
+                    AppColor.darkRed,
+                  ],
+                  begin: Alignment.topLeft,
+                  end: Alignment.bottomRight,
                 ),
               ),
-            );
-          },
-        ),
+              child: Expanded(
+                child: Center(
+                  child: animateCoins
+                      ? Countup(
+                          begin: moneyProvider.previousCoins.toDouble(),
+                          end: moneyProvider.coins.toDouble(),
+                          duration: 1.seconds,
+                          style: const TextStyle(
+                            color: Colors.yellow,
+                          ),
+                        )
+                      : Text(
+                          moneyProvider.coins.toString(),
+                          style: const TextStyle(
+                            color: Colors.yellow,
+                          ),
+                        ),
+                ),
+              ),
+            ),
+          );
+        },),
         if (widget.showHome ?? true != false) const Spacer(flex: 4),
         if (widget.showHome ?? true != false)
           ZoomTapAnimation(
