@@ -4,11 +4,13 @@ class ScoreProvider extends ChangeNotifier {
   int _score = 0;
   int get score => _score;
 
-    void updateScore(int newScore) {
-    score 
+  void updateScore(int newScore) {
+    _score += newScore;
     debugPrint("Curent Score: $score");
     notifyListeners();
   }
 
-
+  void resetScore() {
+    _score = 0;
+  }
 }
