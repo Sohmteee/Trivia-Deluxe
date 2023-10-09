@@ -10,7 +10,7 @@ import 'package:trivia/providers/stage.dart';
 class QuestionProvider extends ChangeNotifier {
   Map data = {};
   List questions = [];
-  int questionIndex = -1;
+  int questionIndex = 0;
   int? currentLevel;
 
   String question = "", title = "";
