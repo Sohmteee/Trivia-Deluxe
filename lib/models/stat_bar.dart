@@ -83,7 +83,7 @@ class _GameStatsState extends State<GameStats> {
           ),
         if (widget.showHome ?? true != false) const Spacer(flex: 4),
         Container(
-          height: 20.h,
+          height: 40.h,
           padding: EdgeInsets.all(2.sp),
           decoration: BoxDecoration(
             color: Colors.white,
