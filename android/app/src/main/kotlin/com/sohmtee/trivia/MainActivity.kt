@@ -1,4 +1,4 @@
-package com.sohmtee.trivia
+package com.digitaldreamsng.triviadeluxe
 
 import io.flutter.embedding.android.FlutterActivity
 
