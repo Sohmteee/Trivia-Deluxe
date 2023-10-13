@@ -1,4 +1,4 @@
-import 'package:trivia/colors/app_color.dart';
+
 
 Map<String, dynamic> riddlesData = {
   "title": "Riddles",
@@ -240,7 +240,7 @@ Map<String, dynamic> riddlesData = {
       ]
     },
     {
-      "question": "I am an odd number. Take away a letter an I become even. "
+      "question": "I am an odd number. Take away a letter and I become even. "
           "What am I?",
       "dialog": {
         "title": "Seven",
@@ -891,24 +891,25 @@ Map<String, dynamic> proverbsData = {
         {
           "text": "Good",
           "value": true,
-          "color": AppColor.yellow,
+          "color": "yellow",
         },
         {
           "text": "Bad",
           "value": false,
-          "color": AppColor.yellow,
+          "color": "yellow",
         },
         {
           "text": "Wasted",
           "value": false,
-          "color": AppColor.yellow,
+          "color": "yellow",
         },
         {
           "text": "New",
           "value": false,
-          "color": AppColor.yellow,
+          "color": "yellow",
         },
       ]
     },
   ]
 };
+  

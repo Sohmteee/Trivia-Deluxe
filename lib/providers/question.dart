@@ -11,7 +11,7 @@ class QuestionProvider extends ChangeNotifier {
   Map data = {};
   List questions = [];
   int questionIndex = 0;
-  int? currentLevel;
+  int currentLevel = 1;
 
   String question = "", title = "";
 
@@ -50,7 +50,7 @@ class QuestionProvider extends ChangeNotifier {
   }
 
   incrementLevel() {
-    currentLevel = (currentLevel ?? 0) + 1;
+    currentLevel = currentLevel + 1;
     data["currentLevel"] = currentLevel;
     box.put(data["title"], data);
     // print(data["title"]);
@@ -65,9 +65,6 @@ class QuestionProvider extends ChangeNotifier {
       notifyListeners();
       return;
     }
-
-    questionIndex = questionIndex + 1;
-    data["currentIndex"] = questionIndex;
 
     if (options[index]["value"] == true) {
       options[index]["color"] = "right";
@@ -102,6 +99,9 @@ class QuestionProvider extends ChangeNotifier {
       } else {
         showFailedDialog(context, questionIndex, false);
       }
+
+      questionIndex = questionIndex + 1;
+      data["currentIndex"] = questionIndex;
 
       resetOptions();
     });
