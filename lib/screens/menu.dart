@@ -347,7 +347,12 @@ class _MenuScreenState extends State<MenuScreen>
         },
         onAdFailedToLoad: (ad, err) {
           print('Failed to load a banner ad: ${err.message}');
-          Toast.show("Failed to load ad", textStyle: TextStyle(fontSize: 20.sp,), duration: 3, gravity: Toast.bottom);
+          Toast.show("Failed to load ad",
+              textStyle: TextStyle(
+                fontSize: 20.sp,
+              ),
+              duration: 3,
+              gravity: Toast.bottom);
           ad.dispose();
         },
       ),
