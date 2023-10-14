@@ -65,6 +65,7 @@ class _MenuScreenState extends State<MenuScreen>
   void dispose() {
     WidgetsBinding.instance.removeObserver(this);
     rotationController.dispose();
+    _bannerAd?.dispose();
     super.dispose();
   }
 
@@ -82,13 +83,10 @@ class _MenuScreenState extends State<MenuScreen>
       child: SafeArea(
         child: Scaffold(
           bottomNavigationBar: (_bannerAd != null)
-              ? Align(
-                  alignment: Alignment.topCenter,
-                  child: SizedBox(
-                    width: _bannerAd!.size.width.toDouble(),
-                    height: _bannerAd!.size.height.toDouble(),
-                    child: AdWidget(ad: _bannerAd!),
-                  ),
+              ? SizedBox(
+                  width: _bannerAd!.size.width.toDouble(),
+                  height: _bannerAd!.size.height.toDouble(),
+                  child: AdWidget(ad: _bannerAd!),
                 )
               : null,
           body: Container(
