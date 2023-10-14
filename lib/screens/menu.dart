@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
+import 'package:toast/toast.dart';
 import 'package:trivia/ad_helper.dart';
 import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/colors/hex_color.dart';
@@ -34,6 +35,7 @@ class _MenuScreenState extends State<MenuScreen>
   @override
   void initState() {
     WidgetsBinding.instance.addObserver(this);
+    ToastContext().init(context);
     playBGAudio();
     _initGoogleMobileAds();
 
