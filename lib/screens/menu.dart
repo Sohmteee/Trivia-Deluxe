@@ -63,59 +63,7 @@ class _MenuScreenState extends State<MenuScreen>
     rotationController.dispose();
     super.dispose();
   }
-
-  @override
-  void didChangeAppLifecycleState(AppLifecycleState state) {
-    switch (state) {
-      case AppLifecycleState.resumed:
-      case AppLifecycleState.inactive:
-        debugPrint("music playing");
-        playBGAudio();
-        break;
-      case AppLifecycleState.paused:
-      case AppLifecycleState.hidden:
-        debugPrint("music paused");
-        pauseBGAudio();
-        break;
-      case AppLifecycleState.detached:
-        stopBGAudio();
-        debugPrint("music stopped");
-        break;
-    }
-  }
-
-  Future<void> playBGAudio() async {
-    final audioProvider = Provider.of<AudioProvider>(context, listen: false);
-
-    if (audioProvider.music) {
-      await bgPlayer.setSource(AssetSource("audio/bg-music.mp3"));
-      await bgPlayer.resume();
-    }
-
-    bgPlayer.onPlayerComplete.listen((_) async {
-      await bgPlayer.setSource(AssetSource("audio/bg-music.mp3"));
-      await bgPlayer.resume();
-    });
-  }
-
-  Future<void> pauseBGAudio() async {
-    await bgPlayer.pause();
-  }
-
-  Future<void> stopBGAudio() async {
-    await bgPlayer.stop();
-  }
-
-  void initializeEffectsVolume() {
-    final audioProvider = Provider.of<AudioProvider>(context, listen: false);
-
-    if (audioProvider.soundEffects) {
-      audioProvider.setEffectsVolume(audioProvider.effectsVolume);
-    }
-  }
-
-  @override
-  Widget build(BuildContext context) {
+Widget build(BuildContext context) {
     return WillPopScope(
       onWillPop: () async {
         playTap(context);
@@ -314,4 +262,56 @@ class _MenuScreenState extends State<MenuScreen>
       ),
     );
   }
-}
+
+  @override
+  void didChangeAppLifecycleState(AppLifecycleState state) {
+    switch (state) {
+      case AppLifecycleState.resumed:
+      case AppLifecycleState.inactive:
+        debugPrint("music playing");
+        playBGAudio();
+        break;
+      case AppLifecycleState.paused:
+      case AppLifecycleState.hidden:
+        debugPrint("music paused");
+        pauseBGAudio();
+        break;
+      case AppLifecycleState.detached:
+        stopBGAudio();
+        debugPrint("music stopped");
+        break;
+    }
+  }
+
+  Future<void> playBGAudio() async {
+    final audioProvider = Provider.of<AudioProvider>(context, listen: false);
+
+    if (audioProvider.music) {
+      await bgPlayer.setSource(AssetSource("audio/bg-music.mp3"));
+      await bgPlayer.resume();
+    }
+
+    bgPlayer.onPlayerComplete.listen((_) async {
+      await bgPlayer.setSource(AssetSource("audio/bg-music.mp3"));
+      await bgPlayer.resume();
+    });
+  }
+
+  Future<void> pauseBGAudio() async {
+    await bgPlayer.pause();
+  }
+
+  Future<void> stopBGAudio() async {
+    await bgPlayer.stop();
+  }
+
+  void initializeEffectsVolume() {
+    final audioProvider = Provider.of<AudioProvider>(context, listen: false);
+
+    if (audioProvider.soundEffects) {
+      audioProvider.setEffectsVolume(audioProvider.effectsVolume);
+    }
+  }
+
+  @override
+  }
