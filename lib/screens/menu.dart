@@ -14,8 +14,7 @@ import 'package:trivia/models/dialogs/exit.dart';
 import 'package:trivia/models/dialogs/settings.dart';
 import 'package:trivia/providers/audio.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
-import 'package:google_mobile_ads/google_mobile_ads.dart'; 
-
+import 'package:google_mobile_ads/google_mobile_ads.dart';
 
 class MenuScreen extends StatefulWidget {
   const MenuScreen({super.key});
@@ -34,6 +33,7 @@ class _MenuScreenState extends State<MenuScreen>
   void initState() {
     WidgetsBinding.instance.addObserver(this);
     playBGAudio();
+    _initGoogleMobileAds();
 
     initializeEffectsVolume();
 
@@ -67,7 +67,6 @@ class _MenuScreenState extends State<MenuScreen>
   }
 
   Future<InitializationStatus> _initGoogleMobileAds() {
-    
     return MobileAds.instance.initialize();
   }
 
