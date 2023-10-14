@@ -14,6 +14,8 @@ import 'package:trivia/models/dialogs/exit.dart';
 import 'package:trivia/models/dialogs/settings.dart';
 import 'package:trivia/providers/audio.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
+
 
 class MenuScreen extends StatefulWidget {
   const MenuScreen({super.key});
@@ -63,7 +65,14 @@ class _MenuScreenState extends State<MenuScreen>
     rotationController.dispose();
     super.dispose();
   }
-Widget build(BuildContext context) {
+
+  Future<InitializationStatus> _initGoogleMobileAds() {
+    // TODO: Initialize Google Mobile Ads SDK
+    return MobileAds.instance.initialize();
+  }
+
+  @override
+  Widget build(BuildContext context) {
     return WillPopScope(
       onWillPop: () async {
         playTap(context);
@@ -312,6 +321,4 @@ Widget build(BuildContext context) {
       audioProvider.setEffectsVolume(audioProvider.effectsVolume);
     }
   }
-
-  @override
-  }
+}
