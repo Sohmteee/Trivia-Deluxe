@@ -350,7 +350,7 @@ class _MenuScreenState extends State<MenuScreen>
           Toast.show("Failed to load ad",
               textStyle: TextStyle(
                 fontSize: 20.sp,
-                color: COlors.white
+                color: Colors.white,
               ),
               duration: 3,
               gravity: Toast.bottom);
