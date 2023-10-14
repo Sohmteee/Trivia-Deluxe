@@ -26,7 +26,7 @@ class MenuScreen extends StatefulWidget {
 
 class _MenuScreenState extends State<MenuScreen>
     with WidgetsBindingObserver, TickerProviderStateMixin {
-        BannerAd? _bannerAd;
+  BannerAd? _bannerAd;
   late Animation<double> rotationAnimation;
   late Animation<double> reverseRotationAnimation;
   late AnimationController rotationController;
@@ -81,6 +81,16 @@ class _MenuScreenState extends State<MenuScreen>
       },
       child: SafeArea(
         child: Scaffold(
+          bottomNavigationBar: (_bannerAd != null)
+              ? Align(
+                  alignment: Alignment.topCenter,
+                  child: SizedBox(
+                    width: _bannerAd!.size.width.toDouble(),
+                    height: _bannerAd!.size.height.toDouble(),
+                    child: AdWidget(ad: _bannerAd!),
+                  ),
+                )
+              : null,
           body: Container(
             decoration: const BoxDecoration(
               image: DecorationImage(
@@ -324,9 +334,9 @@ class _MenuScreenState extends State<MenuScreen>
   }
 
   initializeBannerAd() {
-      BannerAd(
+    BannerAd(
       adUnitId: AdHelper.bannerAdUnitId,
-      request: AdRequest(),
+      request: const AdRequest(),
       size: AdSize.banner,
       listener: BannerAdListener(
         onAdLoaded: (ad) {
