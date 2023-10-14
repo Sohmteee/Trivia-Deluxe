@@ -38,6 +38,7 @@ class _MenuScreenState extends State<MenuScreen>
     ToastContext().init(context);
     playBGAudio();
     _initGoogleMobileAds();
+    _loadBannerAd();
 
     initializeEffectsVolume();
 
