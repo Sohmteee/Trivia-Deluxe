@@ -25,6 +25,7 @@ class MenuScreen extends StatefulWidget {
 
 class _MenuScreenState extends State<MenuScreen>
     with WidgetsBindingObserver, TickerProviderStateMixin {
+        BannerAd? _bannerAd;
   late Animation<double> rotationAnimation;
   late Animation<double> reverseRotationAnimation;
   late AnimationController rotationController;
