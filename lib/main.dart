@@ -2,24 +2,23 @@ import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:hive/hive.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/data/box.dart';
 import 'package:trivia/data/controllers.dart';
 import 'package:trivia/providers/audio.dart';
-import 'package:trivia/providers/stage.dart';
 import 'package:trivia/providers/money.dart';
 import 'package:trivia/providers/question.dart';
 import 'package:trivia/providers/score.dart';
+import 'package:trivia/providers/stage.dart';
 import 'package:trivia/providers/time.dart';
 import 'package:trivia/screens/ad.dart';
 import 'package:trivia/screens/game.dart';
-import 'package:trivia/screens/stage.dart';
 import 'package:trivia/screens/menu.dart';
 import 'package:trivia/screens/reward.dart';
 import 'package:trivia/screens/select.dart';
+import 'package:trivia/screens/stage.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
