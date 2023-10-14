@@ -4,11 +4,6 @@
         android:name="${applicationName}"
         android:icon="@mipmap/quiz">
 
-        <meta-data
-            android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-4696224049420135~8319164138"
-        />
-
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -24,6 +19,10 @@
             <meta-data
                 android:name="io.flutter.embedding.android.NormalTheme"
                 android:resource="@style/NormalTheme"
+            />
+            <meta-data
+                android:name="com.google.android.gms.ads.APPLICATION_ID"
+                android:value="ca-app-pub-4696224049420135~8319164138"
             />
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
