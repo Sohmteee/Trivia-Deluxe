@@ -344,7 +344,7 @@ class _MenuScreenState extends State<MenuScreen>
           setState(() {
             _bannerAd = ad as BannerAd;
           });
-        },
+        },  
         onAdFailedToLoad: (ad, err) {
           print('Failed to load a banner ad: ${err.message}');
           Toast.show(err.message, duration: 2, gravity: Toast.bottom);
