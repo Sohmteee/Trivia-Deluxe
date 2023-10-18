@@ -20,12 +20,11 @@ class StageProvider extends ChangeNotifier {
 /* 
 Achievements
 
-1. Complete 3 levels without failing: "Steady Progress"
-2. Complete 5 levels without failing: "Leveling Up"
-3. Complete 10 levels without failing: "Tenacious Triumph"
-4. Complete 20 levels without failing: "Masterful Streak"
-5. Complete 50 levels without failing: "Unstoppable Champion"
-6. Complete 100 levels without failing: "Flawless Conqueror"
+1. Complete 5 levels without failing: "Steady Progress"
+2. Complete 10 levels without failing: "Leveling Up"
+3. Complete 20 levels without failing: "Tenacious Triumph"
+4. Complete 50 levels without failing: "Masterful Streak"
+5. Complete 100 levels without failing: "Unstoppable Champion"
 
 7. Earn 50 coins: "Coin Collector"
 8. Earn 100 coins: "Coin Hoarder"
