@@ -58,56 +58,59 @@ class QuestionProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-  void checkCorrectAnswer(BuildContext context, int index) {
+  void checkCorrectAnswer(BuildContext context, int index, {bool? answered}) {
+    answered ?? false;
+
     if (index == -1) {
       showFailedDialog(context, questionIndex, true);
-
       notifyListeners();
       return;
     }
 
-    if (options[index]["value"] == true) {
-      options[index]["color"] = "right";
-    } else {
-      options[index]["color"] = "wrong";
-
-      for (var option in options) {
-        if (option["value"] == true) {
-          option["color"] = "right";
-        }
-      }
-    }
-
-    final stageProvider = Provider.of<StageProvider>(context, listen: false);
-
-    Future.delayed((options[index]["value"] == true) ? 6.seconds : 1.5.seconds,
-        () {
+    if (!answered!) {
       if (options[index]["value"] == true) {
-        Provider.of<MoneyProvider>(context, listen: false)
-            .updateReward(int.parse(countDownController.getTime()!));
-        stageProvider.incrementCompletedStage();
-
-        if (stageProvider.completedStage == 3) {
-          Navigator.pushNamedAndRemoveUntil(
-              context, "/reward", (route) => false);
-          Future.delayed(2.seconds, () {
-            stageProvider.resetCompletedStage();
-          });
-        } else {
-          Navigator.pushReplacementNamed(context, "/stage");
-        }
+        options[index]["color"] = "right";
       } else {
-        showFailedDialog(context, questionIndex, false);
+        options[index]["color"] = "wrong";
+
+        for (var option in options) {
+          if (option["value"] == true) {
+            option["color"] = "right";
+          }
+        }
       }
 
-      questionIndex = questionIndex + 1;
-      data["currentIndex"] = questionIndex;
+      final stageProvider = Provider.of<StageProvider>(context, listen: false);
 
-      resetOptions();
-    });
+      Future.delayed(
+          (options[index]["value"] == true) ? 6.seconds : 1.5.seconds, () {
+        if (options[index]["value"] == true) {
+          Provider.of<MoneyProvider>(context, listen: false)
+              .updateReward(int.parse(countDownController.getTime()!));
+          stageProvider.incrementCompletedStage();
 
-    Future.delayed(.2.seconds, () {
-      notifyListeners();
-    });
+          if (stageProvider.completedStage == 3) {
+            Navigator.pushNamedAndRemoveUntil(
+                context, "/reward", (route) => false);
+            Future.delayed(2.seconds, () {
+              stageProvider.resetCompletedStage();
+            });
+          } else {
+            Navigator.pushReplacementNamed(context, "/stage");
+          }
+        } else {
+          showFailedDialog(context, questionIndex, false);
+        }
+
+        questionIndex = questionIndex + 1;
+        data["currentIndex"] = questionIndex;
+
+        resetOptions();
+      });
+
+      Future.delayed(.2.seconds, () {
+        notifyListeners();
+      });
+    }
   }
 }

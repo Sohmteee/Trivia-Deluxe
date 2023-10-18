@@ -7,9 +7,11 @@ class GameBackground extends StatefulWidget {
   const GameBackground({
     super.key,
     required this.body,
+    this.bottomNavigationBar,
   });
 
   final Widget body;
+  final Widget? bottomNavigationBar;
 
   @override
   State<GameBackground> createState() => _GameBackgroundState();
@@ -24,6 +26,7 @@ class _GameBackgroundState extends State<GameBackground> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      bottomNavigationBar: widget.bottomNavigationBar,
       body: Stack(
         children: [
           buildBlurBackground(),

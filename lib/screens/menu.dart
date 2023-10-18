@@ -37,8 +37,8 @@ class _MenuScreenState extends State<MenuScreen>
     WidgetsBinding.instance.addObserver(this);
     ToastContext().init(context);
     playBGAudio();
-    _initGoogleMobileAds();
-    _loadBannerAd();
+    /* _initGoogleMobileAds();
+    _loadBannerAd(); */
 
     initializeEffectsVolume();
 
@@ -85,13 +85,13 @@ class _MenuScreenState extends State<MenuScreen>
       },
       child: SafeArea(
         child: Scaffold(
-          bottomNavigationBar: (_bannerAd != null)
+          /* bottomNavigationBar: (_bannerAd != null)
               ? SizedBox(
                   width: _bannerAd!.size.width.toDouble(),
                   height: _bannerAd!.size.height.toDouble(),
                   child: AdWidget(ad: _bannerAd!),
                 )
-              : null,
+              : null, */
           body: Container(
             decoration: const BoxDecoration(
               image: DecorationImage(
@@ -289,17 +289,14 @@ class _MenuScreenState extends State<MenuScreen>
     switch (state) {
       case AppLifecycleState.resumed:
       case AppLifecycleState.inactive:
-        debugPrint("music playing");
         playBGAudio();
         break;
       case AppLifecycleState.paused:
       case AppLifecycleState.hidden:
-        debugPrint("music paused");
         pauseBGAudio();
         break;
       case AppLifecycleState.detached:
         stopBGAudio();
-        debugPrint("music stopped");
         break;
     }
   }
@@ -310,6 +307,7 @@ class _MenuScreenState extends State<MenuScreen>
     if (audioProvider.music) {
       await bgPlayer.setSource(AssetSource("audio/bg-music.mp3"));
       await bgPlayer.resume();
+      debugPrint("music playing");
     }
 
     bgPlayer.onPlayerComplete.listen((_) async {
@@ -320,10 +318,12 @@ class _MenuScreenState extends State<MenuScreen>
 
   Future<void> pauseBGAudio() async {
     await bgPlayer.pause();
+    debugPrint("music paused");
   }
 
   Future<void> stopBGAudio() async {
     await bgPlayer.stop();
+    debugPrint("music stopped");
   }
 
   void initializeEffectsVolume() {

@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:provider/provider.dart';
+import 'package:toast/toast.dart';
+import 'package:trivia/ad_helper.dart';
 import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/data/box.dart';
 import 'package:trivia/data/questions.dart';
@@ -20,6 +23,7 @@ class SelectScreen extends StatefulWidget {
 }
 
 class _SelectScreenState extends State<SelectScreen> {
+  // BannerAd? _bannerAd;
   List<Map<String, dynamic>> selectItems = [
     {
       "image": "assets/images/dolphin.png",
@@ -43,9 +47,8 @@ class _SelectScreenState extends State<SelectScreen> {
       }
     }
 
-    /* for (var item in selectItems) {
-      print("Box Level: ${box.get(item["data"]["title"])?["currentLevel"]}");
-    } */
+    /* _initGoogleMobileAds();
+    _loadBannerAd(); */
     super.initState();
   }
 
@@ -58,6 +61,13 @@ class _SelectScreenState extends State<SelectScreen> {
         return true;
       },
       child: GameBackground(
+        /* bottomNavigationBar: (_bannerAd != null)
+            ? SizedBox(
+                width: _bannerAd!.size.width.toDouble(),
+                height: _bannerAd!.size.height.toDouble(),
+                child: AdWidget(ad: _bannerAd!),
+              )
+            : null, */
         body: Padding(
           padding: EdgeInsets.symmetric(horizontal: 40.w, vertical: 40.h),
           child: Column(
@@ -159,5 +169,35 @@ class _SelectScreenState extends State<SelectScreen> {
         ),
       ),
     );
+  }
+
+  Future<InitializationStatus> _initGoogleMobileAds() {
+    return MobileAds.instance.initialize();
+  }
+
+  _loadBannerAd() {
+    BannerAd(
+      adUnitId: AdHelper.bannerAdUnitId,
+      request: const AdRequest(),
+      size: AdSize.banner,
+      listener: BannerAdListener(
+        onAdLoaded: (ad) {
+          setState(() {
+            // _bannerAd = ad as BannerAd;
+          });
+        },
+        onAdFailedToLoad: (ad, err) {
+          print('Failed to load a banner ad: ${err.message}');
+          Toast.show("Failed to load ad",
+              textStyle: TextStyle(
+                fontSize: 20.sp,
+                color: Colors.white,
+              ),
+              duration: 3,
+              gravity: Toast.bottom);
+          ad.dispose();
+        },
+      ),
+    ).load();
   }
 }

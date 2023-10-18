@@ -1,0 +1,6 @@
+package com.digitaldreamsng.trivia
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity: FlutterActivity() {
+}

@@ -100,17 +100,26 @@ class _GameScreenState extends State<GameScreen> {
                           return ZoomTapAnimation(
                             onTap: () {
                               countDownController.pause();
-                              answered = true;
 
-                              if (questionProvider.options[index]["value"] ==
-                                  true) {
-                                playCorrect(context);
-                                confettiController.play();
-                              } else {
-                                playWrong(context);
+                              if (!answered) {
+                                setState(() {
+                                  answered = true;
+                                });
+
+                                if (questionProvider.options[index]["value"] ==
+                                    true) {
+                                  playCorrect(context);
+                                  confettiController.play();
+                                } else {
+                                  playWrong(context);
+                                }
+
+                                questionProvider.checkCorrectAnswer(
+                                  context,
+                                  index,
+                                  answered: answered,
+                                );
                               }
-                              questionProvider.checkCorrectAnswer(
-                                  context, index);
                             },
                             child: Container(
                               margin: EdgeInsets.only(bottom: 20.h),
