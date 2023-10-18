@@ -37,8 +37,8 @@ class _MenuScreenState extends State<MenuScreen>
     WidgetsBinding.instance.addObserver(this);
     ToastContext().init(context);
     playBGAudio();
-    /* _initGoogleMobileAds();
-    _loadBannerAd(); */
+    _initGoogleMobileAds();
+    _loadBannerAd();
 
     initializeEffectsVolume();
 
