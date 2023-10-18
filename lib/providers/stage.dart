@@ -24,11 +24,11 @@ Achievements
 2. Complete 5 levels without failing - Steady Progress
 3. Complete 10 levels without failing - Intermediate Master
 5. Complete 20 levels without failing - Expert
-6. Complete 50 levels without failing - 
-7. Complete 100 levels without failing - 
+6. Complete 50 levels without failing - Grand Master
+7. Complete 100 levels without failing - Legendary Hero
 
-8. Earn 50 coins - 
-9. Earn 100 coins - 
+8. Earn 50 coins - Coin Collector
+9. Earn 100 coins - Big Spender
 10. Earn 200 coins - 
 11. Earn 500 coins - 
 12. Earn 1000 coins - 
