@@ -20,30 +20,47 @@ class StageProvider extends ChangeNotifier {
 /* 
 Achievements
 
-1. Complete 3 levels without failing - Novice Success
-2. Complete 5 levels without failing - Steady Progress
-3. Complete 10 levels without failing - Intermediate Master
-5. Complete 20 levels without failing - Expert
-6. Complete 50 levels without failing - Grand Master
-7. Complete 100 levels without failing - Legendary Hero
+Complete 3 levels without failing: "Steady Progress"
 
-8. Earn 50 coins - Coin Collector
-9. Earn 100 coins - Big Spender
-10. Earn 200 coins - 
-11. Earn 500 coins - 
-12. Earn 1000 coins - 
+Complete 5 levels without failing: "Leveling Up"
 
-13. Answer 3 questions correctly in a row - 
-14. Answer 5 questions correctly in a row - 
-15. Answer 10 questions correctly in a row - 
-16. Answer 20 questions correctly in a row - 
-17. Answer 50 questions correctly in a row - 
-18. Answer 100 questions correctly in a row - 
+Complete 10 levels without failing: "Tenacious Triumph"
 
-19. First in leaderboard - 
-20. Top 3 in leaderboard - 
-21. Top 5 in leaderboard - 
-22. Top 10 in leaderboard - 
+Complete 20 levels without failing: "Masterful Streak"
+
+Complete 50 levels without failing: "Unstoppable Champion"
+
+Complete 100 levels without failing: "Flawless Conqueror"
+
+Earn 50 coins: "Coin Collector"
+
+Earn 100 coins: "Coin Hoarder"
+
+Earn 200 coins: "Gold Gatherer"
+
+Earn 500 coins: "Treasure Hunter"
+
+Earn 1000 coins: "Coin Millionaire"
+
+Answer 3 questions correctly in a row: "Trivia Beginner"
+
+Answer 5 questions correctly in a row: "Quiz Expert"
+
+Answer 10 questions correctly in a row: "Brainiac"
+
+Answer 20 questions correctly in a row: "Quiz Virtuoso"
+
+Answer 50 questions correctly in a row: "Quiz Grandmaster"
+
+Answer 100 questions correctly in a row: "Trivia Maestro"
+
+First in leaderboard: "Leaderboard Champion"
+
+Top 3 in leaderboard: "Top Ranker"
+
+Top 5 in leaderboard: "High Achiever"
+
+Top 10 in leaderboard: "Competitive Contender"
 
 
 
