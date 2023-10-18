@@ -27,6 +27,12 @@ Achievements
 6. Complete 50 levels without failing
 7. Complete 100 levels without failing
 
-8. Earn 
+8. Earn 50 coins
+9. Earn 100 coins
+10. Earn 200 coins
+11. Earn 500 coins
+12. Earn 1000 coins
+
+13. 
 
  */
