@@ -23,8 +23,10 @@ Achievements
 1. Complete 3 levels without failing
 2. Complete 5 levels without failing
 3. Complete 10 levels without failing
-4. Complete 15 levels without failing
 5. Complete 20 levels without failing
-6. Complete 25 levels without failing
+6. Complete 50 levels without failing
+7. Complete 100 levels without failing
+
+8. Earn 
 
  */
