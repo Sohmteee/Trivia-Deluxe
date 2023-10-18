@@ -42,11 +42,11 @@ Trivia Achievements
 15. Answer 100 questions correctly in a row: "Trivia Maestro"
 
 Leaderboard Achievements
-16. Top 10 in leaderboard: "Achiever"
-17. Top 5 in leaderboard: "High Achiever"
-18. Top 3 in leaderboard: "Top Ranker"
-19. First in leaderboard: "Leaderboard Champion"
-
+16. Rank top 10 in leaderboard: "Achiever"
+17. Rank top 5 on leaderboard: "High Achiever"
+18. Rank top 3 on the leaderboard: "Top Ranker"
+19. Rank first on the leaderboard: "Leaderboard Champion"
+ the
 Ultimate Achievement
 20. Collect all achievements: "Ultimate Achiever"
 
