@@ -1,12 +1,13 @@
+import 'dart:io';
 import 'dart:math';
 
 import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:provider/provider.dart';
 import 'package:toast/toast.dart';
-import 'package:trivia/ad_helper.dart';
 import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/colors/hex_color.dart';
 import 'package:trivia/data/controllers.dart';
@@ -16,7 +17,6 @@ import 'package:trivia/models/dialogs/exit.dart';
 import 'package:trivia/models/dialogs/settings.dart';
 import 'package:trivia/providers/audio.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
-import 'package:google_mobile_ads/google_mobile_ads.dart';
 
 class MenuScreen extends StatefulWidget {
   const MenuScreen({super.key});
@@ -31,7 +31,7 @@ class _MenuScreenState extends State<MenuScreen>
   late Animation<double> reverseRotationAnimation;
   late AnimationController rotationController;
 
-    BannerAd? _bannerAd;
+  BannerAd? _bannerAd;
   bool _isLoaded = false;
 
   @override
@@ -40,7 +40,7 @@ class _MenuScreenState extends State<MenuScreen>
     MobileAds.instance.initialize();
     ToastContext().init(context);
 
-      playBGAudio();
+    playBGAudio();
     _loadBannerAd();
 
     initializeEffectsVolume();
@@ -88,7 +88,7 @@ class _MenuScreenState extends State<MenuScreen>
       },
       child: SafeArea(
         child: Scaffold(
-          bottomNavigationBar: (_bannerAd != null)
+          bottomNavigationBar: (_isLoaded)
               ? SizedBox(
                   width: _bannerAd!.size.width.toDouble(),
                   height: _bannerAd!.size.height.toDouble(),
@@ -341,6 +341,9 @@ class _MenuScreenState extends State<MenuScreen>
     MobileAds.instance.updateRequestConfiguration(RequestConfiguration(
         testDeviceIds: ['5C26A3D9AFFD85F566BED84A49F36278']));
 
+    final adUnitId = Platform.isAndroid
+        ? 'ca-app-pub-3940256099942544/6300978111'
+        : 'ca-app-pub-3940256099942544/2934735716';
 
     _bannerAd = BannerAd(
       adUnitId: adUnitId,
