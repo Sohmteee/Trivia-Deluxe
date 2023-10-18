@@ -33,12 +33,17 @@ Achievements
 11. Earn 500 coins
 12. Earn 1000 coins
 
+13. Answer 3 questions correctly in a row
+14. Answer 5 questions correctly in a row
+15. Answer 10 questions correctly in a row
+16. Answer 20 questions correctly in a row
+17. Answer 50 questions correctly in a row
+18. Answer 100 questions correctly in a row
 
-13. Answer 5 questions correctly in a row
-14. Answer 10 questions correctly in a row
-15. Answer 20 questions correctly in a row
-16. Answer 50 questions correctly in a row
-17. Answer 100 questions correctly in a row
+19. First in leaderboard
+20. Top 3 in leaderboard
+21. Top 5 in leaderboard
+22. Top 10 in leaderboard
 
 
 
