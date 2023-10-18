@@ -85,13 +85,13 @@ class _MenuScreenState extends State<MenuScreen>
       },
       child: SafeArea(
         child: Scaffold(
-          /* bottomNavigationBar: (_bannerAd != null)
+          bottomNavigationBar: (_bannerAd != null)
               ? SizedBox(
                   width: _bannerAd!.size.width.toDouble(),
                   height: _bannerAd!.size.height.toDouble(),
                   child: AdWidget(ad: _bannerAd!),
                 )
-              : null, */
+              : null,
           body: Container(
             decoration: const BoxDecoration(
               image: DecorationImage(
