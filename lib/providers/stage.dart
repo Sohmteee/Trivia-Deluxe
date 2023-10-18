@@ -33,6 +33,13 @@ Achievements
 11. Earn 500 coins
 12. Earn 1000 coins
 
-13. 
+
+13. Answer 5 questions correctly in a row
+14. Answer 10 questions correctly in a row
+15. Answer 20 questions correctly in a row
+16. Answer 50 questions correctly in a row
+17. Answer 100 questions correctly in a row
+
+
 
  */
