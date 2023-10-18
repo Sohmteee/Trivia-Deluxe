@@ -27,10 +27,12 @@ class MenuScreen extends StatefulWidget {
 
 class _MenuScreenState extends State<MenuScreen>
     with WidgetsBindingObserver, TickerProviderStateMixin {
-  BannerAd? _bannerAd;
   late Animation<double> rotationAnimation;
   late Animation<double> reverseRotationAnimation;
   late AnimationController rotationController;
+
+    BannerAd? _bannerAd;
+  bool _isLoaded = false;
 
   @override
   void initState() {
@@ -340,29 +342,25 @@ class _MenuScreenState extends State<MenuScreen>
         testDeviceIds: ['5C26A3D9AFFD85F566BED84A49F36278']));
 
 
-    BannerAd(
-      // adUnitId: AdHelper.bannerAdUnitId,
-      adUnitId: "ca-app-pub-3940256099942544/6300978111",
+    _bannerAd = BannerAd(
+      adUnitId: adUnitId,
       request: const AdRequest(),
       size: AdSize.banner,
       listener: BannerAdListener(
+        // Called when an ad is successfully received.
         onAdLoaded: (ad) {
+          debugPrint('$ad loaded.');
           setState(() {
-            _bannerAd = ad as BannerAd;
+            _isLoaded = true;
           });
         },
+        // Called when an ad request failed.
         onAdFailedToLoad: (ad, err) {
-          print('Failed to load a banner ad: ${err.message}');
-          Toast.show("Failed to load ad",
-              textStyle: TextStyle(
-                fontSize: 20.sp,
-                color: Colors.white,
-              ),
-              duration: 3,
-              gravity: Toast.bottom);
+          debugPrint('BannerAd failed to load: $err');
+          // Dispose the ad here to free resources.
           ad.dispose();
         },
       ),
-    ).load();
+    )..load();
   }
 }
