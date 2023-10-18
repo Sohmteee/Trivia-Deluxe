@@ -338,8 +338,11 @@ class _MenuScreenState extends State<MenuScreen>
   _loadBannerAd() {
     MobileAds.instance.updateRequestConfiguration(RequestConfiguration(
         testDeviceIds: ['5C26A3D9AFFD85F566BED84A49F36278']));
+
+
     BannerAd(
-      adUnitId: AdHelper.bannerAdUnitId,
+      // adUnitId: AdHelper.bannerAdUnitId,
+      adUnitId: "ca-app-pub-3940256099942544/6300978111",
       request: const AdRequest(),
       size: AdSize.banner,
       listener: BannerAdListener(
