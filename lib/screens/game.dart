@@ -102,10 +102,6 @@ class _GameScreenState extends State<GameScreen> {
                               countDownController.pause();
 
                               if (!answered) {
-                                setState(() {
-                                  answered = true;
-                                });
-
                                 if (questionProvider.options[index]["value"] ==
                                     true) {
                                   playCorrect(context);
@@ -119,6 +115,10 @@ class _GameScreenState extends State<GameScreen> {
                                   index,
                                   answered: answered,
                                 );
+
+                                setState(() {
+                                  answered = true;
+                                });
                               }
                             },
                             child: Container(
