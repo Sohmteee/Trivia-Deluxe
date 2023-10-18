@@ -38,12 +38,13 @@ Achievements
 14. Answer 50 questions correctly in a row: "Trivia Grandmaster"
 15. Answer 100 questions correctly in a row: "Trivia Maestro"
 
-16. First in leaderboard: "Leaderboard Champion"
-17. Top 3 in leaderboard: "Top Ranker"
-18. Top 5 in leaderboard: "High Achiever"
-19. Top 10 in leaderboard: ""
 
-21. Collect all achievements: "Ultimate Achiever"
+16. Top 10 in leaderboard: "Achiever"
+17. Top 5 in leaderboard: "High Achiever"
+18. Top 3 in leaderboard: "Top Ranker"
+19. First in leaderboard: "Leaderboard Champion"
+
+20. Collect all achievements: "Ultimate Achiever"
 
 
 
