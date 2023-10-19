@@ -133,19 +133,17 @@ class _StageScreenState extends State<StageScreen> {
             ),
           ),
         ),
-        Consumer<StageProvider>(builder: (context, stageProvider, _) {
-          return Positioned(
-            bottom: -40.h,
-            right: 70.w,
-            child: SizedBox(
-              height: 150.h,
-              child: Lottie.asset(
-                "assets/lottie/chest.json",
-                animate: false,
-              ),
+        Positioned(
+          bottom: -40.h,
+          right: 70.w,
+          child: SizedBox(
+            height: 150.h,
+            child: Lottie.asset(
+              "assets/lottie/chest.json",
+              animate: false,
             ),
-          );
-        })
+          ),
+        ),
       ],
     );
   }
