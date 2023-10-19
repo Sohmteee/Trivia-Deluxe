@@ -1,5 +1,6 @@
 import 'dart:io';
 
+import 'package:csv/csv.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:provider/provider.dart';
@@ -122,11 +123,15 @@ class QuestionProvider extends ChangeNotifier {
     try {
       String contents = await input.readAsString();
       final List<List<dynamic>> rowsAsListOfValues =
-          CsvToListConverter().convert(contents);
+          const CsvToListConverter().convert(contents);
       return rowsAsListOfValues;
     } catch (e) {
       print('Error reading CSV: $e');
       return null;
     }
+  }
+
+  validateCSV() {
+    
   }
 }
