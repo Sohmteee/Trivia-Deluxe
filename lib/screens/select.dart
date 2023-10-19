@@ -37,6 +37,10 @@ class _SelectScreenState extends State<SelectScreen> {
       "image": "assets/images/puzzle.png",
       "data": riddlesData,
     },
+    {
+      "image": "assets/images/science.png",
+      "data": scienceData,
+    },
   ];
 
   @override
