@@ -33,6 +33,7 @@ dependencies:
   circular_countdown_timer: ^0.2.3
   confetti: ^0.7.0
   countup: ^0.1.4
+  csv: ^5.1.0
   cupertino_icons: ^1.0.2
   flutter:
     sdk: flutter
