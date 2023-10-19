@@ -47,8 +47,9 @@ class _SelectScreenState extends State<SelectScreen> {
       }
     }
 
-    final questionProvider = Provider.of<QuestionProvider>(context, listen: false);
-    questionProvider.
+    final questionProvider =
+        Provider.of<QuestionProvider>(context, listen: false);
+    questionProvider.validateCSV();
 
     /* _initGoogleMobileAds();
     _loadBannerAd(); */
