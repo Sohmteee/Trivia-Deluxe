@@ -134,14 +134,14 @@ class QuestionProvider extends ChangeNotifier {
   validateCSV() async {
     List<List<dynamic>>? csvData = await readCSV("assets/csv/science.csv");
 
-  if (csvData != null) {
-    for (var row in csvData) {
-      for (var cell in row) {
-        print(cell);
+    if (csvData != null) {
+      for (var row in csvData) {
+        for (var cell in row) {
+          print(cell);
+        }
       }
+    } else {
+      print('Failed to read and parse CSV file.');
     }
-  } else {
-    print('Failed to read and parse CSV file.');
-  }
   }
 }
