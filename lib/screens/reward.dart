@@ -118,7 +118,7 @@ class _RewardScreenState extends State<RewardScreen> {
                       alignment: Alignment.center,
                       children: [
                         Lottie.asset(
-                          "assets/lottie/celebration.lottie",
+                          "assets/lottie/celebration.json",
                           width: 200,
                           height: 200,
                           fit: BoxFit.fill,
@@ -306,7 +306,7 @@ class _RewardScreenState extends State<RewardScreen> {
                                 height: 200.h,
                                 width: 200.w,
                                 child: Lottie.asset(
-                                  "assets/lottie/chest.lottie",
+                                  "assets/lottie/chest.json",
                                   repeat: false,
                                 ),
                               ),

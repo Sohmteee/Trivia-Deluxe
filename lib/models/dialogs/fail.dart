@@ -37,9 +37,9 @@ showFailedDialog(BuildContext context, questionIndex, bool timeUp) {
                     shape: BoxShape.circle,
                   ),
                   child: (timeUp == false)
-                      ? Lottie.asset("assets/lottie/fail.lottie")
+                      ? Lottie.asset("assets/lottie/fail.json")
                       : Lottie.asset(
-                          "assets/lottie/time-up.lottie",
+                          "assets/lottie/time-up.json",
                           repeat: false,
                         ),
                 ),
@@ -171,7 +171,7 @@ showFailedDialog(BuildContext context, questionIndex, bool timeUp) {
                 }),
               ],
             ),
-            if (showAnim) Lottie.asset("assets/lottie/coin-spent.lottie"),
+            if (showAnim) Lottie.asset("assets/lottie/coin-spent.json"),
           ],
         );
       },
