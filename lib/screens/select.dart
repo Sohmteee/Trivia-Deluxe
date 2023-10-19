@@ -47,7 +47,7 @@ class _SelectScreenState extends State<SelectScreen> {
       }
     }
 
-    
+    final questionProvider = Provider.of
 
     /* _initGoogleMobileAds();
     _loadBannerAd(); */
