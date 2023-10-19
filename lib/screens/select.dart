@@ -47,7 +47,8 @@ class _SelectScreenState extends State<SelectScreen> {
       }
     }
 
-    final questionProvider = Provider.of
+    final questionProvider = Provider.of<QuestionProvider>(context, listen: false);
+    questionProvider.
 
     /* _initGoogleMobileAds();
     _loadBannerAd(); */
