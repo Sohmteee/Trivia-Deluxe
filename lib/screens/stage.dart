@@ -140,7 +140,7 @@ class _StageScreenState extends State<StageScreen> {
             child: SizedBox(
               height: 150.h,
               child: Lottie.asset(
-                "assets/json/chest.json",
+                "assets/lottie/chest.lottie",
                 animate: false,
               ),
             ),

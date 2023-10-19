@@ -22,7 +22,7 @@ showLowCashDialog(BuildContext context) {
               shape: BoxShape.circle,
             ),
             child: Lottie.asset(
-              "assets/json/broke.json",
+              "assets/lottie/broke.lottie",
             ),
           ),
           SizedBox(height: 20.h),
