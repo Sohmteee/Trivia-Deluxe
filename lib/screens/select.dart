@@ -88,7 +88,7 @@ class _SelectScreenState extends State<SelectScreen> {
               ),
               const Spacer(),
               SizedBox(
-                height: 300.h,
+                height: 400.h,
                 child: ListView.builder(
                   itemCount: selectItems.length,
                   padding: EdgeInsets.only(top: 20.h),

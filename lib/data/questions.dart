@@ -912,7 +912,7 @@ Map<String, dynamic> proverbsData = {
 };
 
 Map<String, dynamic> scienceData = {
-  "title": "",
+  "title": "Science",
   "currentIndex": 0,
   "currentLevel": 1,
   "data": [
