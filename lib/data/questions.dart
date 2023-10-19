@@ -944,7 +944,7 @@ Map<String, dynamic> scienceData = {
           "text": "Wind",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -975,7 +975,7 @@ Map<String, dynamic> scienceData = {
           "text": "Atmosphere",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -1004,7 +1004,7 @@ Map<String, dynamic> scienceData = {
           "text": "Saturn",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -1030,7 +1030,7 @@ Map<String, dynamic> scienceData = {
           "text": "Turtle",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -1060,7 +1060,7 @@ Map<String, dynamic> scienceData = {
           "text": "Baking cookies",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -1091,7 +1091,7 @@ Map<String, dynamic> scienceData = {
           "text": "Hydrogen",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -1120,7 +1120,7 @@ Map<String, dynamic> scienceData = {
           "text": "Strong winds",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -1151,7 +1151,7 @@ Map<String, dynamic> scienceData = {
           "text": "Jupiter",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -1182,7 +1182,7 @@ Map<String, dynamic> scienceData = {
           "text": "Stem",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -1212,7 +1212,7 @@ Map<String, dynamic> scienceData = {
           "text": "A computer repair tool",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -1243,7 +1243,7 @@ Map<String, dynamic> scienceData = {
           "text": "Digestion",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -1274,7 +1274,7 @@ Map<String, dynamic> scienceData = {
           "text": "Flood",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -1305,7 +1305,7 @@ Map<String, dynamic> scienceData = {
           "text": "Planet",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -1336,7 +1336,7 @@ Map<String, dynamic> scienceData = {
           "text": "Brain",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -1367,7 +1367,7 @@ Map<String, dynamic> scienceData = {
           "text": "Puzzle",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -1398,7 +1398,7 @@ Map<String, dynamic> scienceData = {
           "text": "Hydrogen",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -1429,7 +1429,7 @@ Map<String, dynamic> scienceData = {
           "text": "Tsunami",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -1460,7 +1460,7 @@ Map<String, dynamic> scienceData = {
           "text": "Mars rover",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -1491,7 +1491,7 @@ Map<String, dynamic> scienceData = {
           "text": "Keratin",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -1522,7 +1522,7 @@ Map<String, dynamic> scienceData = {
           "text": "Music player",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -1551,7 +1551,7 @@ Map<String, dynamic> scienceData = {
           "text": "Hydrogen",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -1582,7 +1582,7 @@ Map<String, dynamic> scienceData = {
           "text": "Browser",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -1612,7 +1612,7 @@ Map<String, dynamic> scienceData = {
           "text": "Jupiter",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -1643,7 +1643,7 @@ Map<String, dynamic> scienceData = {
           "text": "Digestion",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -1674,7 +1674,7 @@ Map<String, dynamic> scienceData = {
           "text": "Printer",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -1704,7 +1704,7 @@ Map<String, dynamic> scienceData = {
           "text": "White",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -1735,7 +1735,7 @@ Map<String, dynamic> scienceData = {
           "text": "Sublimation",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -1766,7 +1766,7 @@ Map<String, dynamic> scienceData = {
           "text": "Callisto",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -1797,7 +1797,7 @@ Map<String, dynamic> scienceData = {
           "text": "Flower",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -1828,7 +1828,7 @@ Map<String, dynamic> scienceData = {
           "text": "Ethernet",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -1859,7 +1859,7 @@ Map<String, dynamic> scienceData = {
           "text": "Fermentation",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -1890,7 +1890,7 @@ Map<String, dynamic> scienceData = {
           "text": "Monsoon",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -1921,7 +1921,7 @@ Map<String, dynamic> scienceData = {
           "text": "Moon",
           "value": true,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -1950,7 +1950,7 @@ Map<String, dynamic> scienceData = {
           "text": "Liver",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -1981,7 +1981,7 @@ Map<String, dynamic> scienceData = {
           "text": "Office suite",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -2012,7 +2012,7 @@ Map<String, dynamic> scienceData = {
           "text": "Hyrogen",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -2043,7 +2043,7 @@ Map<String, dynamic> scienceData = {
           "text": "Basalt",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -2074,7 +2074,7 @@ Map<String, dynamic> scienceData = {
           "text": "Saturn",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -2105,7 +2105,7 @@ Map<String, dynamic> scienceData = {
           "text": "Flowers",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -2134,7 +2134,7 @@ Map<String, dynamic> scienceData = {
           "text": "Hydrogen",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -2165,7 +2165,7 @@ Map<String, dynamic> scienceData = {
           "text": "Dna replication",
           "value": true,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -2196,7 +2196,7 @@ Map<String, dynamic> scienceData = {
           "text": "Firewall",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -2225,7 +2225,7 @@ Map<String, dynamic> scienceData = {
           "text": "Pacific ocean",
           "value": true,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -2256,7 +2256,7 @@ Map<String, dynamic> scienceData = {
           "text": "Fossilized",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -2285,7 +2285,7 @@ Map<String, dynamic> scienceData = {
           "text": "Uranus",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -2316,7 +2316,7 @@ Map<String, dynamic> scienceData = {
           "text": "Chloroplast",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -2347,7 +2347,7 @@ Map<String, dynamic> scienceData = {
           "text": "Browser",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -2376,7 +2376,7 @@ Map<String, dynamic> scienceData = {
           "text": "O",
           "value": true,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -2407,7 +2407,7 @@ Map<String, dynamic> scienceData = {
           "text": "Tornado",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -2438,7 +2438,7 @@ Map<String, dynamic> scienceData = {
           "text": "Heart",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -2469,7 +2469,7 @@ Map<String, dynamic> scienceData = {
           "text": "Algorithm",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -2500,7 +2500,7 @@ Map<String, dynamic> scienceData = {
           "text": "Helium",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -2531,7 +2531,7 @@ Map<String, dynamic> scienceData = {
           "text": "Atmosphere",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -2562,7 +2562,7 @@ Map<String, dynamic> scienceData = {
           "text": "Comet",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -2591,7 +2591,7 @@ Map<String, dynamic> scienceData = {
           "text": "Chlorine",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -2622,7 +2622,7 @@ Map<String, dynamic> scienceData = {
           "text": "Router",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -2653,7 +2653,7 @@ Map<String, dynamic> scienceData = {
           "text": "Sublimation",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -2684,7 +2684,7 @@ Map<String, dynamic> scienceData = {
           "text": "Argon",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -2715,7 +2715,7 @@ Map<String, dynamic> scienceData = {
           "text": "Lava rock",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -2746,7 +2746,7 @@ Map<String, dynamic> scienceData = {
           "text": "Supernova",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -2777,7 +2777,7 @@ Map<String, dynamic> scienceData = {
           "text": "Trojan horse",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -2808,7 +2808,7 @@ Map<String, dynamic> scienceData = {
           "text": "Volcanic eruption",
           "value": true,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -2839,7 +2839,7 @@ Map<String, dynamic> scienceData = {
           "text": "Storing energy",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -2870,7 +2870,7 @@ Map<String, dynamic> scienceData = {
           "text": "Antivirus",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -2901,7 +2901,7 @@ Map<String, dynamic> scienceData = {
           "text": "Sublimation",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -2932,7 +2932,7 @@ Map<String, dynamic> scienceData = {
           "text": "Tsunami",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -2963,7 +2963,7 @@ Map<String, dynamic> scienceData = {
           "text": "Adware",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -2994,7 +2994,7 @@ Map<String, dynamic> scienceData = {
           "text": "Ecological chain",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -3025,7 +3025,7 @@ Map<String, dynamic> scienceData = {
           "text": "Kilobyte",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -3056,7 +3056,7 @@ Map<String, dynamic> scienceData = {
           "text": "Reproduction",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -3087,7 +3087,7 @@ Map<String, dynamic> scienceData = {
           "text": "Uranus",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -3118,7 +3118,7 @@ Map<String, dynamic> scienceData = {
           "text": "Basalt",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -3149,7 +3149,7 @@ Map<String, dynamic> scienceData = {
           "text": "Cloning",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -3180,7 +3180,7 @@ Map<String, dynamic> scienceData = {
           "text": "Firewall",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -3211,7 +3211,7 @@ Map<String, dynamic> scienceData = {
           "text": "Organism",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -3242,7 +3242,7 @@ Map<String, dynamic> scienceData = {
           "text": "Rom",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -3273,7 +3273,7 @@ Map<String, dynamic> scienceData = {
           "text": "Landslide",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -3304,7 +3304,7 @@ Map<String, dynamic> scienceData = {
           "text": "Melting",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -3335,7 +3335,7 @@ Map<String, dynamic> scienceData = {
           "text": "Antivirus software",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -3366,7 +3366,7 @@ Map<String, dynamic> scienceData = {
           "text": "Ore",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -3397,7 +3397,7 @@ Map<String, dynamic> scienceData = {
           "text": "Voyager",
           "value": true,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -3428,7 +3428,7 @@ Map<String, dynamic> scienceData = {
           "text": "Liver",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -3459,7 +3459,7 @@ Map<String, dynamic> scienceData = {
           "text": "Nitrogen",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -3490,7 +3490,7 @@ Map<String, dynamic> scienceData = {
           "text": "Haumea",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -3521,7 +3521,7 @@ Map<String, dynamic> scienceData = {
           "text": "Operating system",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -3552,7 +3552,7 @@ Map<String, dynamic> scienceData = {
           "text": "Metabolism",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -3583,7 +3583,7 @@ Map<String, dynamic> scienceData = {
           "text": "Aorta",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -3614,7 +3614,7 @@ Map<String, dynamic> scienceData = {
           "text": "Allele",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -3645,7 +3645,7 @@ Map<String, dynamic> scienceData = {
           "text": "Ruby",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -3676,7 +3676,7 @@ Map<String, dynamic> scienceData = {
           "text": "Condensation",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -3707,7 +3707,7 @@ Map<String, dynamic> scienceData = {
           "text": "Kidney",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -3738,7 +3738,7 @@ Map<String, dynamic> scienceData = {
           "text": "Hydrogen",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -3769,7 +3769,7 @@ Map<String, dynamic> scienceData = {
           "text": "Mutation",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -3800,7 +3800,7 @@ Map<String, dynamic> scienceData = {
           "text": "Condensation",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -3831,7 +3831,7 @@ Map<String, dynamic> scienceData = {
           "text": "Firewall",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -3862,7 +3862,7 @@ Map<String, dynamic> scienceData = {
           "text": "Tornado",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -3893,7 +3893,7 @@ Map<String, dynamic> scienceData = {
           "text": "Hair follicle",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -3924,7 +3924,7 @@ Map<String, dynamic> scienceData = {
           "text": "Operating system",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -3955,7 +3955,7 @@ Map<String, dynamic> scienceData = {
           "text": "Liver",
           "value": false,
           "color": "yellow",
-        }
+        },
       ]
     },
     {
@@ -3986,8 +3986,8 @@ Map<String, dynamic> scienceData = {
           "text": "Email client",
           "value": false,
           "color": "yellow",
-        }
-      ]
-    }
-  ]
+        },
+      ],
+    },
+  ],
 };
