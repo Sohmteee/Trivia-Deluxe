@@ -4006,10 +4006,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Avocado is a fruit that is typically yellow on the outside and creamy on the inside. It's often used to make guacamole, a popular dip or condiment."
       },
       "options": [
-        {"text": "Banana", "value": false, "color": "yellow"},
-        {"text": "Apple", "value": false, "color": "yellow"},
-        {"text": "Orange", "value": false, "color": "yellow"},
-        {"text": "Avocado", "value": true, "color": "yellow"},
+        {
+          "text": "Banana",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Apple",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Orange",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Avocado",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4021,10 +4037,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Cherries are red, juicy fruits commonly used in desserts like pies and cobblers. They add a delightful sweetness and vibrant color to various baked goods."
       },
       "options": [
-        {"text": "Strawberry", "value": false, "color": "yellow"},
-        {"text": "Blueberry", "value": false, "color": "yellow"},
-        {"text": "Raspberry", "value": false, "color": "yellow"},
-        {"text": "Cherry", "value": true, "color": "yellow"},
+        {
+          "text": "Strawberry",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Blueberry",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Raspberry",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Cherry",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4036,10 +4068,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Cucumbers are crunchy, long, green vegetables often utilized in salads. Their refreshing and mild flavor makes them a popular choice in many salad recipes."
       },
       "options": [
-        {"text": "Cucumber", "value": true, "color": "yellow"},
-        {"text": "Zucchini", "value": false, "color": "yellow"},
-        {"text": "Lettuce", "value": false, "color": "yellow"},
-        {"text": "Celery", "value": false, "color": "yellow"},
+        {
+          "text": "Cucumber",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Zucchini",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Lettuce",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Celery",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4051,10 +4099,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Tomatoes are fruits that can be red or yellow when ripe. They are commonly used in a wide range of dishes and are sometimes referred to as \"love apples.\""
       },
       "options": [
-        {"text": "Garlic", "value": false, "color": "yellow"},
-        {"text": "Lettuce", "value": false, "color": "yellow"},
-        {"text": "Cucumber", "value": false, "color": "yellow"},
-        {"text": "Tomato", "value": true, "color": "yellow"},
+        {
+          "text": "Garlic",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Lettuce",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Cucumber",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Tomato",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4066,10 +4130,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Strawberries are small, red, and often heart-shaped fruits that are closely associated with love and are frequently given as gifts on Valentine's Day."
       },
       "options": [
-        {"text": "Strawberry", "value": true, "color": "yellow"},
-        {"text": "Banana", "value": false, "color": "yellow"},
-        {"text": "Lemon", "value": false, "color": "yellow"},
-        {"text": "Pineapple", "value": false, "color": "yellow"},
+        {
+          "text": "Strawberry",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Banana",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Lemon",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Pineapple",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4081,10 +4161,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Cucumbers are vegetables known for their elongated shape and are commonly used in pickles. They can be green or yellow, depending on the variety."
       },
       "options": [
-        {"text": "Cauliflower", "value": false, "color": "yellow"},
-        {"text": "Lettuce", "value": false, "color": "yellow"},
-        {"text": "Cabbage", "value": false, "color": "yellow"},
-        {"text": "Cucumber", "value": true, "color": "yellow"},
+        {
+          "text": "Cauliflower",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Lettuce",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Cabbage",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Cucumber",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4096,10 +4192,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Pineapples are fruits recognized for their tough, spiky skin and sweet, juicy interior. They are often enjoyed by slicing them into rings or chunks."
       },
       "options": [
-        {"text": "Pineapple", "value": true, "color": "yellow"},
-        {"text": "Lemon", "value": false, "color": "yellow"},
-        {"text": "Pear", "value": false, "color": "yellow"},
-        {"text": "Fig", "value": false, "color": "yellow"},
+        {
+          "text": "Pineapple",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Lemon",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Pear",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Fig",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4111,10 +4223,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Turnips are root vegetables that come in red, yellow, or white varieties. They are frequently used in cooking and serve as a side dish in various culinary preparations."
       },
       "options": [
-        {"text": "Potato", "value": false, "color": "yellow"},
-        {"text": "Garlic", "value": false, "color": "yellow"},
-        {"text": "Onion", "value": false, "color": "yellow"},
-        {"text": "Turnip", "value": true, "color": "yellow"},
+        {
+          "text": "Potato",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Garlic",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Onion",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Turnip",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4126,10 +4254,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Carrots are root vegetables that are typically orange in color. They are commonly used in stews and soups and are well-known for their sweet flavor and nutritional value."
       },
       "options": [
-        {"text": "Potato", "value": false, "color": "yellow"},
-        {"text": "Tomato", "value": false, "color": "yellow"},
-        {"text": "Onion", "value": false, "color": "yellow"},
-        {"text": "Carrot", "value": true, "color": "yellow"},
+        {
+          "text": "Potato",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Tomato",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Onion",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Carrot",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4141,10 +4285,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Garlic is a pungent vegetable commonly used as a seasoning. It is a close relative of onions and adds a distinctive flavor to a wide range of dishes."
       },
       "options": [
-        {"text": "Bell pepper", "value": false, "color": "yellow"},
-        {"text": "Corn", "value": false, "color": "yellow"},
-        {"text": "Spinach", "value": false, "color": "yellow"},
-        {"text": "Garlic", "value": true, "color": "yellow"},
+        {
+          "text": "Bell pepper",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Corn",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Spinach",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Garlic",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4156,10 +4316,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Lettuce is a green, leafy vegetable known for its crisp texture. It is a common ingredient in salads and sandwiches and adds a refreshing crunch to these dishes."
       },
       "options": [
-        {"text": "Avocado", "value": false, "color": "yellow"},
-        {"text": "Cauliflower", "value": false, "color": "yellow"},
-        {"text": "Eggplant", "value": false, "color": "yellow"},
-        {"text": "Lettuce", "value": true, "color": "yellow"},
+        {
+          "text": "Avocado",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Cauliflower",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Eggplant",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Lettuce",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4171,10 +4347,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Eggplants, often purple in color, are vegetables used in Italian cuisine and are known for their role in dishes like eggplant parmesan. They have a unique and somewhat meaty texture."
       },
       "options": [
-        {"text": "Cauliflower", "value": false, "color": "yellow"},
-        {"text": "Eggplant", "value": true, "color": "yellow"},
-        {"text": "Eggplant", "value": true, "color": "yellow"},
-        {"text": "Lettuce", "value": false, "color": "yellow"},
+        {
+          "text": "Cauliflower",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Eggplant",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Eggplant",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Lettuce",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4186,10 +4378,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Spinach is a green, leafy vegetable commonly used in salads, sandwiches, and smoothies. It's packed with nutrients and has a mild, slightly earthy flavor."
       },
       "options": [
-        {"text": "Spinach", "value": true, "color": "yellow"},
-        {"text": "Avocado", "value": false, "color": "yellow"},
-        {"text": "Cucumber", "value": false, "color": "yellow"},
-        {"text": "Broccoli", "value": false, "color": "yellow"},
+        {
+          "text": "Spinach",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Avocado",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Cucumber",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Broccoli",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4201,10 +4409,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Bananas are fruits associated with the color yellow, rich in potassium, and conveniently packaged in their own peel."
       },
       "options": [
-        {"text": "Avocado", "value": false, "color": "yellow"},
-        {"text": "Grape", "value": false, "color": "yellow"},
-        {"text": "Peach", "value": false, "color": "yellow"},
-        {"text": "Banana", "value": true, "color": "yellow"},
+        {
+          "text": "Avocado",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Grape",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Peach",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Banana",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4216,10 +4440,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Oranges are citrus fruits known for their use in cooking and baking. They are commonly associated with the color orange and are used for their zesty flavor."
       },
       "options": [
-        {"text": "Orange", "value": true, "color": "yellow"},
-        {"text": "Lemon", "value": false, "color": "yellow"},
-        {"text": "Apple", "value": false, "color": "yellow"},
-        {"text": "Grapefruit", "value": false, "color": "yellow"},
+        {
+          "text": "Orange",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Lemon",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Apple",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Grapefruit",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4231,10 +4471,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Apples, particularly varieties like Granny Smith and Red Delicious, are commonly used to make pies due to their sweet and crisp texture."
       },
       "options": [
-        {"text": "Pear", "value": false, "color": "yellow"},
-        {"text": "Kiwi", "value": false, "color": "yellow"},
-        {"text": "Cherry", "value": false, "color": "yellow"},
-        {"text": "Apple", "value": true, "color": "yellow"},
+        {
+          "text": "Pear",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Kiwi",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Cherry",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Apple",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4246,10 +4502,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Raspberries, small and red, are often used to make jams and are popularly paired with peanut butter in sandwiches for a delightful contrast of flavors."
       },
       "options": [
-        {"text": "Grape", "value": false, "color": "yellow"},
-        {"text": "Raspberry", "value": true, "color": "yellow"},
-        {"text": "Orange", "value": false, "color": "yellow"},
-        {"text": "Pineapple", "value": false, "color": "yellow"},
+        {
+          "text": "Grape",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Raspberry",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Orange",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Pineapple",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4261,10 +4533,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Kiwi, with its prickly skin and sweet-tangy flesh, is a tropical fruit associated with regions like New Zealand and is commonly eaten fresh or used in desserts."
       },
       "options": [
-        {"text": "Coconut", "value": false, "color": "yellow"},
-        {"text": "Lime", "value": false, "color": "yellow"},
-        {"text": "Lemon", "value": false, "color": "yellow"},
-        {"text": "Kiwi", "value": true, "color": "yellow"},
+        {
+          "text": "Coconut",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Lime",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Lemon",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Kiwi",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4276,10 +4564,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Grapes, including varieties like Flame and Thompson Seedless, are eaten fresh and are known for their heart-healthy properties; they are also used to make raisins and wine."
       },
       "options": [
-        {"text": "Strawberry", "value": false, "color": "yellow"},
-        {"text": "Grape", "value": true, "color": "yellow"},
-        {"text": "Peach", "value": false, "color": "yellow"},
-        {"text": "Watermelon", "value": false, "color": "yellow"},
+        {
+          "text": "Strawberry",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Grape",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Peach",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Watermelon",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4291,10 +4595,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Mangoes, yellow when ripe, have a tropical flavor and are frequently used in cocktails, desserts, and salsas, adding a burst of sweetness to various dishes."
       },
       "options": [
-        {"text": "Grapefruit", "value": false, "color": "yellow"},
-        {"text": "Raspberry", "value": false, "color": "yellow"},
-        {"text": "Plum", "value": false, "color": "yellow"},
-        {"text": "Mango", "value": true, "color": "yellow"},
+        {
+          "text": "Grapefruit",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Raspberry",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Plum",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Mango",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4306,10 +4626,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Blueberries, small and round, are sweet-tart fruits used in baking, making jams, and adding a burst of flavor to both sweet and savory recipes."
       },
       "options": [
-        {"text": "Orange", "value": false, "color": "yellow"},
-        {"text": "Lemon", "value": false, "color": "yellow"},
-        {"text": "Blueberry", "value": true, "color": "yellow"},
-        {"text": "Mango", "value": false, "color": "yellow"},
+        {
+          "text": "Orange",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Lemon",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Blueberry",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Mango",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4321,10 +4657,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Watermelons, large and green, are enjoyed in slices during summer due to their sweet and juicy flesh, making them a refreshing choice in hot weather."
       },
       "options": [
-        {"text": "Lemon", "value": false, "color": "yellow"},
-        {"text": "Watermelon", "value": true, "color": "yellow"},
-        {"text": "Pear", "value": false, "color": "yellow"},
-        {"text": "Banana", "value": false, "color": "yellow"},
+        {
+          "text": "Lemon",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Watermelon",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Pear",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Banana",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4336,10 +4688,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Bell peppers, known for their crunchy texture and vibrant colors like red and yellow, are often used in salads, stir-fries, and various culinary dishes."
       },
       "options": [
-        {"text": "Lettuce", "value": false, "color": "yellow"},
-        {"text": "Cucumber", "value": false, "color": "yellow"},
-        {"text": "Coconut", "value": false, "color": "yellow"},
-        {"text": "Bell pepper", "value": true, "color": "yellow"},
+        {
+          "text": "Lettuce",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Cucumber",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Coconut",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Bell pepper",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4351,10 +4719,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Potatoes, root vegetables, are boiled, mashed, and seasoned, serving as a popular side dish appreciated for their versatility and comforting taste."
       },
       "options": [
-        {"text": "Rutabaga", "value": false, "color": "yellow"},
-        {"text": "Tamarind", "value": false, "color": "yellow"},
-        {"text": "Plantain", "value": false, "color": "yellow"},
-        {"text": "Potato", "value": true, "color": "yellow"},
+        {
+          "text": "Rutabaga",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Tamarind",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Plantain",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Potato",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4366,10 +4750,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Okra, with long, edible pods, is a staple ingredient in Nigerian soup, contributing to its unique texture and flavor."
       },
       "options": [
-        {"text": "Jicama", "value": false, "color": "yellow"},
-        {"text": "Dragon fruit", "value": false, "color": "yellow"},
-        {"text": "Swiss chard", "value": false, "color": "yellow"},
-        {"text": "Okra", "value": true, "color": "yellow"},
+        {
+          "text": "Jicama",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Dragon fruit",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Swiss chard",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Okra",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4381,10 +4781,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Papaya, with sweet and fragrant flesh, is a spiky fruit found in Southeast Asian cuisine, used in both sweet and savory dishes."
       },
       "options": [
-        {"text": "Papaya", "value": true, "color": "yellow"},
-        {"text": "Cantaloupe", "value": false, "color": "yellow"},
-        {"text": "Pomegranate", "value": false, "color": "yellow"},
-        {"text": "Nectarine", "value": false, "color": "yellow"},
+        {
+          "text": "Papaya",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Cantaloupe",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Pomegranate",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Nectarine",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4402,9 +4818,21 @@ Map<String, dynamic> fruitsAndVegetablesData = {
           "value": false,
           "color": "yellow"
         },
-        {"text": "Lychee", "value": false, "color": "yellow"},
-        {"text": "Boysenberry", "value": false, "color": "yellow"},
-        {"text": "Tangerine", "value": true, "color": "yellow"},
+        {
+          "text": "Lychee",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Boysenberry",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Tangerine",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4416,10 +4844,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Coconuts, with a tough, spiky shell and sweet, white flesh, are used in tropical cocktails, desserts, and savory dishes in various cuisines."
       },
       "options": [
-        {"text": "Coconut", "value": true, "color": "yellow"},
-        {"text": "Lime", "value": false, "color": "yellow"},
-        {"text": "Papaya", "value": false, "color": "yellow"},
-        {"text": "Cantaloupe", "value": false, "color": "yellow"},
+        {
+          "text": "Coconut",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Lime",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Papaya",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Cantaloupe",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4431,10 +4875,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Pears, sweet and juicy with a distinctive bell-like shape, are enjoyed fresh and are used in cooking and baking for their delightful flavor."
       },
       "options": [
-        {"text": "Plum", "value": false, "color": "yellow"},
-        {"text": "Banana", "value": false, "color": "yellow"},
-        {"text": "Pear", "value": true, "color": "yellow"},
-        {"text": "Lemon", "value": false, "color": "yellow"},
+        {
+          "text": "Plum",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Banana",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Pear",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Lemon",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4446,10 +4906,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Figs, often enjoyed dried, have a unique sweet taste and are used in both sweet and savory dishes, adding a natural sweetness to recipes."
       },
       "options": [
-        {"text": "Peach", "value": false, "color": "yellow"},
-        {"text": "Grape", "value": false, "color": "yellow"},
-        {"text": "Fig", "value": true, "color": "yellow"},
-        {"text": "Cherry", "value": false, "color": "yellow"},
+        {
+          "text": "Peach",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Grape",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Fig",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Cherry",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4461,10 +4937,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Blackberries, dark and juicy, are picked in the wild and used in pies, jams, and desserts, bringing a burst of flavor and color to various dishes."
       },
       "options": [
-        {"text": "Raspberry", "value": false, "color": "yellow"},
-        {"text": "Blueberry", "value": false, "color": "yellow"},
-        {"text": "Strawberry", "value": false, "color": "yellow"},
-        {"text": "Blackberry", "value": true, "color": "yellow"},
+        {
+          "text": "Raspberry",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Blueberry",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Strawberry",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Blackberry",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4475,10 +4967,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Peanut butter is primarily made from peanuts, ground into a creamy or crunchy paste, serving as a popular spread and ingredient in various recipes."
       },
       "options": [
-        {"text": "Peanuts", "value": true, "color": "yellow"},
-        {"text": "Almonds", "value": false, "color": "yellow"},
-        {"text": "Walnuts", "value": false, "color": "yellow"},
-        {"text": "Cashews", "value": false, "color": "yellow"},
+        {
+          "text": "Peanuts",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Almonds",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Walnuts",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Cashews",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4490,10 +4998,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Green beans, green and elongated, are served as side dishes or in casseroles, valued for their crisp texture and versatility in cooking."
       },
       "options": [
-        {"text": "Green beans", "value": true, "color": "yellow"},
-        {"text": "Zucchini", "value": false, "color": "yellow"},
-        {"text": "Carrots", "value": false, "color": "yellow"},
-        {"text": "Broccoli", "value": false, "color": "yellow"},
+        {
+          "text": "Green beans",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Zucchini",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Carrots",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Broccoli",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4505,10 +5029,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Rice, a staple ingredient, is the primary component in dishes like sushi and rice pudding, enjoyed worldwide for its versatility and mild taste."
       },
       "options": [
-        {"text": "Rice", "value": true, "color": "yellow"},
-        {"text": "Pasta", "value": false, "color": "yellow"},
-        {"text": "Quinoa", "value": false, "color": "yellow"},
-        {"text": "Barley", "value": false, "color": "yellow"},
+        {
+          "text": "Rice",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Pasta",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Quinoa",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Barley",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4520,10 +5060,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Wheat, a versatile grain, is commonly used to make bread, pasta, and various baked goods, offering a hearty texture and nutty flavor."
       },
       "options": [
-        {"text": "Wheat", "value": true, "color": "yellow"},
-        {"text": "Oats", "value": false, "color": "yellow"},
-        {"text": "Rice", "value": false, "color": "yellow"},
-        {"text": "Millet", "value": false, "color": "yellow"},
+        {
+          "text": "Wheat",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Oats",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Rice",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Millet",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4535,10 +5091,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Oats are the key ingredient in oatmeal, a classic breakfast dish, providing a warm and comforting meal with their hearty and nutritious qualities."
       },
       "options": [
-        {"text": "Oats", "value": true, "color": "yellow"},
-        {"text": "Rice", "value": false, "color": "yellow"},
-        {"text": "Barley", "value": false, "color": "yellow"},
-        {"text": "Quinoa", "value": false, "color": "yellow"},
+        {
+          "text": "Oats",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Rice",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Barley",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Quinoa",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4550,10 +5122,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Barley, a grain, is used in soups and stews for its chewy texture and nutty flavor, enhancing the overall taste and consistency of the dish."
       },
       "options": [
-        {"text": "Barley", "value": true, "color": "yellow"},
-        {"text": "Wheat", "value": false, "color": "yellow"},
-        {"text": "Rice", "value": false, "color": "yellow"},
-        {"text": "Millet", "value": false, "color": "yellow"},
+        {
+          "text": "Barley",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Wheat",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Rice",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Millet",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4565,10 +5153,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Quinoa, a complete protein, is often used in salads and as a rice substitute, providing a nutritious and filling option for various recipes."
       },
       "options": [
-        {"text": "Quinoa", "value": true, "color": "yellow"},
-        {"text": "Oats", "value": false, "color": "yellow"},
-        {"text": "Wheat", "value": false, "color": "yellow"},
-        {"text": "Rice", "value": false, "color": "yellow"},
+        {
+          "text": "Quinoa",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Oats",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Wheat",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Rice",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4580,10 +5184,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Millet, a small, round grain, is a staple in African and Asian cuisines, used in porridge and birdseed, appreciated for its versatility and nutritional value."
       },
       "options": [
-        {"text": "Millet", "value": true, "color": "yellow"},
-        {"text": "Barley", "value": false, "color": "yellow"},
-        {"text": "Wheat", "value": false, "color": "yellow"},
-        {"text": "Oats", "value": false, "color": "yellow"},
+        {
+          "text": "Millet",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Barley",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Wheat",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Oats",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4595,10 +5215,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Soursop, a green, spiky fruit native to Africa, has a sweet and tangy flavor, commonly used in refreshing beverages and desserts, adding a tropical twist to recipes."
       },
       "options": [
-        {"text": "Soursop", "value": true, "color": "yellow"},
-        {"text": "Star Apple", "value": false, "color": "yellow"},
-        {"text": "Guava", "value": false, "color": "yellow"},
-        {"text": "Horned Cucumber", "value": false, "color": "yellow"},
+        {
+          "text": "Soursop",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Star Apple",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Guava",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Horned Cucumber",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4610,10 +5246,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Star Apple, known for its unique star-like shape when sliced, is a tropical fruit enjoyed fresh, offering a visually appealing and flavorful experience."
       },
       "options": [
-        {"text": "Soursop", "value": false, "color": "yellow"},
-        {"text": "Star Apple", "value": true, "color": "yellow"},
-        {"text": "Guava", "value": false, "color": "yellow"},
-        {"text": "Monkey Orange", "value": false, "color": "yellow"},
+        {
+          "text": "Soursop",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Star Apple",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Guava",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Monkey Orange",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4625,10 +5277,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Guava, often cultivated in Africa, has green skin and sweet, white or pinkish flesh, commonly used in fruit salads and desserts, contributing a tropical taste to dishes."
       },
       "options": [
-        {"text": "Soursop", "value": false, "color": "yellow"},
-        {"text": "Star Apple", "value": false, "color": "yellow"},
-        {"text": "Guava", "value": true, "color": "yellow"},
-        {"text": "Marula", "value": false, "color": "yellow"},
+        {
+          "text": "Soursop",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Star Apple",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Guava",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Marula",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4640,10 +5308,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Tangerines, similar in appearance to peaches but with fuzzy skin, are known for their bright orange color and sweet, citrusy flavor, enjoyed fresh or used in various culinary creations."
       },
       "options": [
-        {"text": "Tangerine", "value": false, "color": "yellow"},
-        {"text": "Kiwifruit", "value": false, "color": "yellow"},
-        {"text": "Peach", "value": true, "color": "yellow"},
-        {"text": "Cherry", "value": false, "color": "yellow"},
+        {
+          "text": "Tangerine",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Kiwifruit",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Peach",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Cherry",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4655,10 +5339,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Romaine Lettuce, a green leafy vegetable, is popular in salads and sandwiches due to its crisp texture, adding freshness and crunch to dishes."
       },
       "options": [
-        {"text": "Spinach", "value": false, "color": "yellow"},
-        {"text": "Romaine Lettuce", "value": true, "color": "yellow"},
-        {"text": "Kale", "value": false, "color": "yellow"},
-        {"text": "Arugula", "value": false, "color": "yellow"},
+        {
+          "text": "Spinach",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Romaine Lettuce",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Kale",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Arugula",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4670,10 +5370,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Dragon Fruit, with its spiky exterior and sweet, white flesh, is a tropical fruit used in smoothies and desserts, known for its visually striking appearance."
       },
       "options": [
-        {"text": "Durian", "value": false, "color": "yellow"},
-        {"text": "Lychee", "value": false, "color": "yellow"},
-        {"text": "Jackfruit", "value": false, "color": "yellow"},
-        {"text": "Dragon Fruit", "value": true, "color": "yellow"},
+        {
+          "text": "Durian",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Lychee",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Jackfruit",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Dragon Fruit",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4685,10 +5401,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Lemons, with a yellow peel and a citrusy flavor, are often eaten as snacks and used in various culinary applications, adding a tangy twist to recipes."
       },
       "options": [
-        {"text": "Banana", "value": false, "color": "yellow"},
-        {"text": "Lemon", "value": true, "color": "yellow"},
-        {"text": "Pineapple", "value": false, "color": "yellow"},
-        {"text": "Mango", "value": false, "color": "yellow"},
+        {
+          "text": "Banana",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Lemon",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Pineapple",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Mango",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4700,10 +5432,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Arugula, a leafy green, is used in salads and mixed with other greens due to its mild, peppery flavor, enhancing the overall taste of dishes."
       },
       "options": [
-        {"text": "Cucumber", "value": false, "color": "yellow"},
-        {"text": "Swiss Chard", "value": false, "color": "yellow"},
-        {"text": "Celery", "value": false, "color": "yellow"},
-        {"text": "Arugula", "value": true, "color": "yellow"},
+        {
+          "text": "Cucumber",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Swiss Chard",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Celery",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Arugula",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4715,10 +5463,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Pumpkins, known for their bright orange color and sweet taste, are often associated with Halloween and used in pies, soups, and desserts, adding a festive touch to recipes."
       },
       "options": [
-        {"text": "Carrot", "value": false, "color": "yellow"},
-        {"text": "Pumpkin", "value": true, "color": "yellow"},
-        {"text": "Persimmon", "value": false, "color": "yellow"},
-        {"text": "Cantaloupe", "value": false, "color": "yellow"},
+        {
+          "text": "Carrot",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Pumpkin",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Persimmon",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Cantaloupe",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4730,10 +5494,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Ginger, a root spice, is known for its strong, pungent flavor and is used in various cuisines for both its taste and potential health benefits."
       },
       "options": [
-        {"text": "Cumin", "value": false, "color": "yellow"},
-        {"text": "Turmeric", "value": false, "color": "yellow"},
-        {"text": "Cinnamon", "value": false, "color": "yellow"},
-        {"text": "Ginger", "value": true, "color": "yellow"},
+        {
+          "text": "Cumin",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Turmeric",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Cinnamon",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Ginger",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4745,10 +5525,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Cabbage, commonly used to make sauerkraut and coleslaw, has a round, compact head of leaves, appreciated for its versatility and crunchy texture in culinary dishes."
       },
       "options": [
-        {"text": "Kale", "value": false, "color": "yellow"},
-        {"text": "Spinach", "value": false, "color": "yellow"},
-        {"text": "Broccoli", "value": false, "color": "yellow"},
-        {"text": "Cabbage", "value": true, "color": "yellow"},
+        {
+          "text": "Kale",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Spinach",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Broccoli",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Cabbage",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4760,10 +5556,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Onions, often used as a base ingredient in many recipes, have a pungent aroma and consist of layers that can be peeled apart, enhancing the flavor of numerous dishes."
       },
       "options": [
-        {"text": "Garlic", "value": false, "color": "yellow"},
-        {"text": "Onion", "value": true, "color": "yellow"},
-        {"text": "Radish", "value": false, "color": "yellow"},
-        {"text": "Shallot", "value": false, "color": "yellow"},
+        {
+          "text": "Garlic",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Onion",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Radish",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Shallot",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4775,10 +5587,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Plantains, starchy fruits, are fried and served as a side dish in African and Caribbean cuisines, valued for their versatility and satisfying taste."
       },
       "options": [
-        {"text": "Mango", "value": false, "color": "yellow"},
-        {"text": "Banana", "value": false, "color": "yellow"},
-        {"text": "Pineapple", "value": false, "color": "yellow"},
-        {"text": "Plantain", "value": true, "color": "yellow"},
+        {
+          "text": "Mango",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Banana",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Pineapple",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Plantain",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4790,10 +5618,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Limes, smaller and more tart than lemons, add a tangy flavor to dishes and beverages, enhancing the overall taste with their citrusy zing."
       },
       "options": [
-        {"text": "Lemon", "value": false, "color": "yellow"},
-        {"text": "Orange", "value": false, "color": "yellow"},
-        {"text": "Grapefruit", "value": false, "color": "yellow"},
-        {"text": "Lime", "value": true, "color": "yellow"},
+        {
+          "text": "Lemon",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Orange",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Grapefruit",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Lime",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4805,10 +5649,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Plums, with their deep purple color and sweet, juicy flesh, are commonly used in desserts like pies and cobblers, offering a burst of fruity flavor."
       },
       "options": [
-        {"text": "Plum", "value": true, "color": "yellow"},
-        {"text": "Tangerine", "value": false, "color": "yellow"},
-        {"text": "Nectarine", "value": false, "color": "yellow"},
-        {"text": "Jujube", "value": false, "color": "yellow"},
+        {
+          "text": "Plum",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Tangerine",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Nectarine",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Jujube",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4820,10 +5680,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Broccoli, characterized by its tree-like structure, is often steamed, roasted, or used in stir-fries and salads, providing a nutritious and crunchy addition to meals."
       },
       "options": [
-        {"text": "Cauliflower", "value": false, "color": "yellow"},
-        {"text": "Spinach", "value": false, "color": "yellow"},
-        {"text": "Broccoli", "value": true, "color": "yellow"},
-        {"text": "Cabbage", "value": false, "color": "yellow"},
+        {
+          "text": "Cauliflower",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Spinach",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Broccoli",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Cabbage",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4835,10 +5711,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Dragon Fruit, with its bright pink or white flesh and tiny black seeds, is used in smoothies and fruit salads, adding a visually appealing and sweet element to recipes."
       },
       "options": [
-        {"text": "Lychee", "value": false, "color": "yellow"},
-        {"text": "Kiwifruit", "value": false, "color": "yellow"},
-        {"text": "Dragon fruit", "value": true, "color": "yellow"},
-        {"text": "Mango", "value": false, "color": "yellow"},
+        {
+          "text": "Lychee",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Kiwifruit",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Dragon fruit",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Mango",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4850,10 +5742,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Lychee, with rough, pink-red skin and a fragrant, sweet taste, is a tropical fruit eaten fresh, offering a unique and exotic flavor experience."
       },
       "options": [
-        {"text": "Mango", "value": false, "color": "yellow"},
-        {"text": "Kiwifruit", "value": false, "color": "yellow"},
-        {"text": "Dragon fruit", "value": false, "color": "yellow"},
-        {"text": "Lychee", "value": true, "color": "yellow"},
+        {
+          "text": "Mango",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Kiwifruit",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Dragon fruit",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Lychee",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4865,10 +5773,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Durian, known for its strong odor, is a tropical fruit that people either love or find repulsive, offering a distinct and polarizing sensory experience."
       },
       "options": [
-        {"text": "Durian", "value": true, "color": "yellow"},
-        {"text": "Cinnamon", "value": false, "color": "yellow"},
-        {"text": "Shallot", "value": false, "color": "yellow"},
-        {"text": "Radish", "value": false, "color": "yellow"},
+        {
+          "text": "Durian",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Cinnamon",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Shallot",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Radish",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4880,10 +5804,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Cinnamon, obtained from the inner bark of trees, adds flavor to both sweet and savory dishes, contributing a warm and aromatic essence to recipes."
       },
       "options": [
-        {"text": "Jujube", "value": false, "color": "yellow"},
-        {"text": "Swiss chard", "value": false, "color": "yellow"},
-        {"text": "Cumin", "value": false, "color": "yellow"},
-        {"text": "Cinnamon", "value": true, "color": "yellow"},
+        {
+          "text": "Jujube",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Swiss chard",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Cumin",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Cinnamon",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4895,10 +5835,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Radishes, white with green stems, are mild and slightly sweet, commonly used in salads, coleslaw, and other culinary applications, adding a crisp and refreshing element to dishes."
       },
       "options": [
-        {"text": "Jujube", "value": false, "color": "yellow"},
-        {"text": "Swiss chard", "value": false, "color": "yellow"},
-        {"text": "Radish", "value": true, "color": "yellow"},
-        {"text": "Cucumber", "value": false, "color": "yellow"},
+        {
+          "text": "Jujube",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Swiss chard",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Radish",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Cucumber",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4910,10 +5866,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Jujube, a small, sweet fruit sometimes called a red date, is used in traditional Chinese medicine and appreciated for its unique taste and potential health benefits."
       },
       "options": [
-        {"text": "Boysenberry", "value": false, "color": "yellow"},
-        {"text": "Cumin", "value": false, "color": "yellow"},
-        {"text": "Jujube", "value": true, "color": "yellow"},
-        {"text": "Arugula", "value": false, "color": "yellow"},
+        {
+          "text": "Boysenberry",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Cumin",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Jujube",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Arugula",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4925,10 +5897,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Arugula, a leafy green with a peppery and slightly spicy flavor, is often used in salads, enhancing their taste with its distinctive and zesty profile."
       },
       "options": [
-        {"text": "Arugula", "value": true, "color": "yellow"},
-        {"text": "Kale", "value": false, "color": "yellow"},
-        {"text": "Horned cucumber", "value": false, "color": "yellow"},
-        {"text": "Monkey orange", "value": false, "color": "yellow"},
+        {
+          "text": "Arugula",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Kale",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Horned cucumber",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Monkey orange",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4940,10 +5928,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Durian, spiky on the outside and custard-like on the inside, offers a unique flavor experience and is often enjoyed in Southeast Asian cuisine, used in a variety of sweet and savory dishes."
       },
       "options": [
-        {"text": "Jicama", "value": false, "color": "yellow"},
-        {"text": "Boysenberry", "value": false, "color": "yellow"},
-        {"text": "Durian", "value": true, "color": "yellow"},
-        {"text": "Cumin", "value": false, "color": "yellow"},
+        {
+          "text": "Jicama",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Boysenberry",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Durian",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Cumin",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4955,10 +5959,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Cantaloupe, with its sweet and juicy flesh, is used in fruit salads and smoothies, known for its refreshing and tropical taste."
       },
       "options": [
-        {"text": "Cantaloupe", "value": true, "color": "yellow"},
-        {"text": "Pomegranate", "value": false, "color": "yellow"},
-        {"text": "Mango", "value": false, "color": "yellow"},
-        {"text": "Papaya", "value": false, "color": "yellow"},
+        {
+          "text": "Cantaloupe",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Pomegranate",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Mango",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Papaya",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4970,10 +5990,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Pomegranates, with juicy ruby-red seeds, are associated with mythology and fertility in various cultures and are used in both sweet and savory dishes."
       },
       "options": [
-        {"text": "Kiwi", "value": false, "color": "yellow"},
-        {"text": "Pomegranate", "value": true, "color": "yellow"},
-        {"text": "Pear", "value": false, "color": "yellow"},
-        {"text": "Grapefruit", "value": false, "color": "yellow"},
+        {
+          "text": "Kiwi",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Pomegranate",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Pear",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Grapefruit",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -4985,10 +6021,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Nectarines, similar to peaches but with smooth skin, are known for their sweet and juicy flesh, adding a delightful flavor to recipes."
       },
       "options": [
-        {"text": "Nectarine", "value": true, "color": "yellow"},
-        {"text": "Plum", "value": false, "color": "yellow"},
-        {"text": "Apricot", "value": false, "color": "yellow"},
-        {"text": "Cherry", "value": false, "color": "yellow"},
+        {
+          "text": "Nectarine",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Plum",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Apricot",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Cherry",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5000,10 +6052,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Celery, often used in salads, snacks, and soups, has a crisp texture and a mild, slightly peppery flavor, contributing freshness and crunch to dishes."
       },
       "options": [
-        {"text": "Spinach", "value": false, "color": "yellow"},
-        {"text": "Lettuce", "value": false, "color": "yellow"},
-        {"text": "Celery", "value": true, "color": "yellow"},
-        {"text": "Cucumber", "value": false, "color": "yellow"},
+        {
+          "text": "Spinach",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Lettuce",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Celery",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Cucumber",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5015,10 +6083,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Zucchini, with a long, cylindrical shape and dark green color, is commonly used in salads and sandwiches, offering versatility and a mild flavor."
       },
       "options": [
-        {"text": "Eggplant", "value": false, "color": "yellow"},
-        {"text": "Zucchini", "value": true, "color": "yellow"},
-        {"text": "Bell pepper", "value": false, "color": "yellow"},
-        {"text": "Cauliflower", "value": false, "color": "yellow"},
+        {
+          "text": "Eggplant",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Zucchini",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Bell pepper",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Cauliflower",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5030,10 +6114,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Starfruit, with its distinctive star-like shape when sliced, has a sweet and slightly tangy flavor, enjoyed fresh and used in various culinary creations."
       },
       "options": [
-        {"text": "Lychee", "value": false, "color": "yellow"},
-        {"text": "Durian", "value": false, "color": "yellow"},
-        {"text": "Star apple", "value": false, "color": "yellow"},
-        {"text": "Starfruit", "value": true, "color": "yellow"},
+        {
+          "text": "Lychee",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Durian",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Star apple",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Starfruit",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5045,10 +6145,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Hummus, a popular Middle Eastern dip, is primarily made from chickpeas, resulting in a creamy and flavorful spread or condiment."
       },
       "options": [
-        {"text": "Chickpeas", "value": true, "color": "yellow"},
-        {"text": "Lentils", "value": false, "color": "yellow"},
-        {"text": "Black beans", "value": false, "color": "yellow"},
-        {"text": "Pinto beans", "value": false, "color": "yellow"},
+        {
+          "text": "Chickpeas",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Lentils",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Black beans",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Pinto beans",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5060,10 +6176,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Persimmons, small and orange, are known for their tart flavor and are often used to flavor pies and pastries, providing a unique and slightly bitter taste."
       },
       "options": [
-        {"text": "Tangerine", "value": false, "color": "yellow"},
-        {"text": "Clementine", "value": false, "color": "yellow"},
-        {"text": "Kumquat", "value": false, "color": "yellow"},
-        {"text": "Persimmon", "value": true, "color": "yellow"},
+        {
+          "text": "Tangerine",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Clementine",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Kumquat",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Persimmon",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5075,10 +6207,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Walnuts, distinctive with their lobed shape, are a common ingredient in desserts and snacks, adding a nutty and satisfying element to various dishes."
       },
       "options": [
-        {"text": "Almonds", "value": false, "color": "yellow"},
-        {"text": "Cashews", "value": false, "color": "yellow"},
-        {"text": "Walnuts", "value": true, "color": "yellow"},
-        {"text": "Pecans", "value": false, "color": "yellow"},
+        {
+          "text": "Almonds",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Cashews",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Walnuts",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Pecans",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5090,10 +6238,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Kumquats, small and orange, are used in making marmalade and are known for their slightly bitter taste, which contributes complexity to culinary creations."
       },
       "options": [
-        {"text": "Tangerine", "value": false, "color": "yellow"},
-        {"text": "Clementine", "value": false, "color": "yellow"},
-        {"text": "Orange", "value": false, "color": "yellow"},
-        {"text": "Kumquat", "value": true, "color": "yellow"},
+        {
+          "text": "Tangerine",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Clementine",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Orange",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Kumquat",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5105,10 +6269,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Passion fruit, with purple-black skin and sweet white or red flesh with black seeds, is used in desserts and beverages, offering a distinctive and visually striking flavor."
       },
       "options": [
-        {"text": "Lychee", "value": false, "color": "yellow"},
-        {"text": "Grape", "value": false, "color": "yellow"},
-        {"text": "Raspberry", "value": false, "color": "yellow"},
-        {"text": "Passion fruit", "value": true, "color": "yellow"},
+        {
+          "text": "Lychee",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Grape",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Raspberry",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Passion fruit",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5120,10 +6300,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Elderberries, small and round with a dark purple to black skin, are used in making jams and jellies and are known for their strong, sweet flavor."
       },
       "options": [
-        {"text": "Blackberry", "value": false, "color": "yellow"},
-        {"text": "Raspberry", "value": false, "color": "yellow"},
-        {"text": "Blueberry", "value": false, "color": "yellow"},
-        {"text": "Elderberry", "value": true, "color": "yellow"},
+        {
+          "text": "Blackberry",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Raspberry",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Blueberry",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Elderberry",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5135,10 +6331,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Cranberries, typically round with bright red skin, are used to make cranberry sauce and are appreciated for their sweet and slightly tart flavor."
       },
       "options": [
-        {"text": "Raspberry", "value": false, "color": "yellow"},
-        {"text": "Blueberry", "value": false, "color": "yellow"},
-        {"text": "Cherry", "value": false, "color": "yellow"},
-        {"text": "Cranberry", "value": true, "color": "yellow"},
+        {
+          "text": "Raspberry",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Blueberry",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Cherry",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Cranberry",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5150,10 +6362,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Cantaloupe, with a thin, orange skin and sweet, juicy pulp, is often associated with the phrase \"breakfast fruit,\" offering a refreshing and delicious start to the day."
       },
       "options": [
-        {"text": "Pineapple", "value": false, "color": "yellow"},
-        {"text": "Orange", "value": false, "color": "yellow"},
-        {"text": "Mango", "value": false, "color": "yellow"},
-        {"text": "Cantaloupe", "value": true, "color": "yellow"},
+        {
+          "text": "Pineapple",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Orange",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Mango",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Cantaloupe",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5165,10 +6393,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Strawberries, small, red, and heart-shaped, are often given on Valentine's Day due to their bright red color and sweet taste, adding a romantic touch to desserts and dishes."
       },
       "options": [
-        {"text": "Strawberry", "value": false, "color": "yellow"},
-        {"text": "Cherry", "value": false, "color": "yellow"},
-        {"text": "Raspberry", "value": false, "color": "yellow"},
-        {"text": "Cranberry", "value": true, "color": "yellow"},
+        {
+          "text": "Strawberry",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Cherry",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Raspberry",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Cranberry",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5180,10 +6424,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Black currants, known for their tiny seeds in jelly-like flesh, are used in making jams and offer a sweet and tangy flavor, often used in various culinary creations."
       },
       "options": [
-        {"text": "Blackberry", "value": false, "color": "yellow"},
-        {"text": "Blueberry", "value": false, "color": "yellow"},
-        {"text": "Raspberry", "value": false, "color": "yellow"},
-        {"text": "Black currant", "value": true, "color": "yellow"},
+        {
+          "text": "Blackberry",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Blueberry",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Raspberry",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Black currant",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5195,10 +6455,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Jackfruit, known as the \"king of fruits,\" has a strong odor, sweet taste, and spiky appearance, offering a unique and polarizing tropical fruit experience."
       },
       "options": [
-        {"text": "Jackfruit", "value": true, "color": "yellow"},
-        {"text": "Durian", "value": false, "color": "yellow"},
-        {"text": "Lychee", "value": false, "color": "yellow"},
-        {"text": "Longan", "value": false, "color": "yellow"},
+        {
+          "text": "Jackfruit",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Durian",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Lychee",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Longan",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5210,10 +6486,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Satsumas, a hybrid of mandarin and sweet orange, are sweet, seedless, and bright orange, used in culinary dishes and enjoyed as a delicious citrus fruit."
       },
       "options": [
-        {"text": "Tangerine", "value": false, "color": "yellow"},
-        {"text": "Clementine", "value": false, "color": "yellow"},
-        {"text": "Blood orange", "value": false, "color": "yellow"},
-        {"text": "Satsuma", "value": true, "color": "yellow"},
+        {
+          "text": "Tangerine",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Clementine",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Blood orange",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Satsuma",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5225,10 +6517,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Mangosteens, with a tough shell and sweet, white flesh, are considered a tropical delicacy, offering a unique and exotic flavor experience."
       },
       "options": [
-        {"text": "Lychee", "value": false, "color": "yellow"},
-        {"text": "Durian", "value": false, "color": "yellow"},
-        {"text": "Rambutan", "value": false, "color": "yellow"},
-        {"text": "Mangosteen", "value": true, "color": "yellow"},
+        {
+          "text": "Lychee",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Durian",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Rambutan",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Mangosteen",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5240,10 +6548,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Longans, similar in appearance to lychee but smaller, have translucent flesh with a sweet and floral flavor, used in Asian desserts for their unique taste."
       },
       "options": [
-        {"text": "Rambutan", "value": false, "color": "yellow"},
-        {"text": "Lychee", "value": false, "color": "yellow"},
-        {"text": "Lychee", "value": false, "color": "yellow"},
-        {"text": "Longan", "value": true, "color": "yellow"},
+        {
+          "text": "Rambutan",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Lychee",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Lychee",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Longan",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5255,10 +6579,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Navel oranges, known for their sweet, seedless segments, are often used in making orange juice, offering a refreshing and citrusy drink."
       },
       "options": [
-        {"text": "Clementine", "value": false, "color": "yellow"},
-        {"text": "Grapefruit", "value": false, "color": "yellow"},
-        {"text": "Tangerine", "value": false, "color": "yellow"},
-        {"text": "Navel orange", "value": true, "color": "yellow"},
+        {
+          "text": "Clementine",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Grapefruit",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Tangerine",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Navel orange",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5270,10 +6610,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Feijoas, with a unique taste combining flavors of pineapple, guava, and mint, are native to New Zealand and commonly grown in the region."
       },
       "options": [
-        {"text": "Quince", "value": false, "color": "yellow"},
-        {"text": "Star apple", "value": false, "color": "yellow"},
-        {"text": "Fig", "value": false, "color": "yellow"},
-        {"text": "Feijoa", "value": true, "color": "yellow"},
+        {
+          "text": "Quince",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Star apple",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Fig",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Feijoa",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5285,10 +6641,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Celery, usually white with green stems, is a common vegetable in salads, offering a mild and slightly sweet flavor and adding a crisp and refreshing element to dishes."
       },
       "options": [
-        {"text": "Kohlrabi", "value": false, "color": "yellow"},
-        {"text": "Celery", "value": true, "color": "yellow"},
-        {"text": "Fennel", "value": false, "color": "yellow"},
-        {"text": "Parsley", "value": false, "color": "yellow"},
+        {
+          "text": "Kohlrabi",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Celery",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Fennel",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Parsley",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5300,10 +6672,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Zucchini, with a long, cylindrical shape and dark green color, is commonly used in salads and sandwiches for its mild flavor and versatile use."
       },
       "options": [
-        {"text": "Cucumber", "value": false, "color": "yellow"},
-        {"text": "Zucchini", "value": true, "color": "yellow"},
-        {"text": "Green bean", "value": false, "color": "yellow"},
-        {"text": "Celery", "value": false, "color": "yellow"},
+        {
+          "text": "Cucumber",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Zucchini",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Green bean",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Celery",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5315,10 +6703,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Lychee, with a rough, pink-red skin and a fragrant, sweet taste, is a tropical fruit enjoyed fresh, offering a unique and delightful flavor experience."
       },
       "options": [
-        {"text": "Lychee", "value": false, "color": "yellow"},
-        {"text": "Longan", "value": false, "color": "yellow"},
-        {"text": "Rambutan", "value": false, "color": "yellow"},
-        {"text": "Litchi", "value": true, "color": "yellow"},
+        {
+          "text": "Lychee",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Longan",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Rambutan",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Litchi",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5330,10 +6734,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Rambutan, similar in appearance to lychee but smaller and with translucent flesh and a sweet taste, is used in Asian cuisine, adding a visually appealing and tasty element to dishes."
       },
       "options": [
-        {"text": "Lychee", "value": false, "color": "yellow"},
-        {"text": "Longan", "value": false, "color": "yellow"},
-        {"text": "Rambutan", "value": true, "color": "yellow"},
-        {"text": "Dragon fruit", "value": false, "color": "yellow"},
+        {
+          "text": "Lychee",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Longan",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Rambutan",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Dragon fruit",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5345,10 +6765,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Dragon fruit, with a spiky exterior and sweet, juicy flesh, is often eaten fresh or used in smoothies and desserts, providing a refreshing and tropical taste."
       },
       "options": [
-        {"text": "Pineapple", "value": false, "color": "yellow"},
-        {"text": "Kiwano (Horned Melon)", "value": false, "color": "yellow"},
-        {"text": "Kiwano (Horned Melon)", "value": false, "color": "yellow"},
-        {"text": "Dragon fruit", "value": true, "color": "yellow"},
+        {
+          "text": "Pineapple",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Kiwano (Horned Melon)",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Kiwano (Horned Melon)",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Dragon fruit",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5360,10 +6796,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Seville oranges, resembling small oranges, are often used to make marmalade and are known for their bitter taste, adding complexity to culinary creations."
       },
       "options": [
-        {"text": "Grapefruit", "value": false, "color": "yellow"},
-        {"text": "Seville orange", "value": true, "color": "yellow"},
-        {"text": "Mandarin", "value": false, "color": "yellow"},
-        {"text": "Tangerine", "value": false, "color": "yellow"},
+        {
+          "text": "Grapefruit",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Seville orange",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Mandarin",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Tangerine",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5375,10 +6827,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Hawthorn, often called a \"Chinese apple,\" is similar to a small apple, used in jams and desserts, appreciated for its unique taste and culinary versatility."
       },
       "options": [
-        {"text": "Lychee", "value": false, "color": "yellow"},
-        {"text": "Longan", "value": false, "color": "yellow"},
-        {"text": "Hawthorn", "value": true, "color": "yellow"},
-        {"text": "Quince", "value": false, "color": "yellow"},
+        {
+          "text": "Lychee",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Longan",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Hawthorn",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Quince",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5390,10 +6858,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Tomatillos, known as the \"tree tomato,\" are native to South America and are commonly used in sauces and salsas, offering a tangy and flavorful addition to various dishes."
       },
       "options": [
-        {"text": "Kiwano (Horned Melon)", "value": false, "color": "yellow"},
-        {"text": "Tomatillo", "value": true, "color": "yellow"},
-        {"text": "Feijoa", "value": false, "color": "yellow"},
-        {"text": "Guava", "value": false, "color": "yellow"},
+        {
+          "text": "Kiwano (Horned Melon)",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Tomatillo",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Feijoa",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Guava",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5405,10 +6889,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Calamondin, resembling a small orange, is known for its extremely sour taste and is used to add an acidic flavor to various culinary dishes."
       },
       "options": [
-        {"text": "Kumquat", "value": false, "color": "yellow"},
-        {"text": "Calamondin", "value": true, "color": "yellow"},
-        {"text": "Yuzu", "value": false, "color": "yellow"},
-        {"text": "Buddha's Hand", "value": false, "color": "yellow"},
+        {
+          "text": "Kumquat",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Calamondin",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Yuzu",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Buddha's Hand",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5420,10 +6920,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Casaba melons, resembling small melons, are often used in Asian cuisine, known for their crunchy texture and slightly sweet flavor, enhancing the overall taste of recipes."
       },
       "options": [
-        {"text": "Cantaloupe", "value": false, "color": "yellow"},
-        {"text": "Honeydew melon", "value": false, "color": "yellow"},
-        {"text": "Crenshaw melon", "value": false, "color": "yellow"},
-        {"text": "Casaba melon", "value": true, "color": "yellow"},
+        {
+          "text": "Cantaloupe",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Honeydew melon",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Crenshaw melon",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Casaba melon",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5435,10 +6951,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Acai berries, known for their vibrant purple color and sweet taste, are often used in desserts and beverages, adding a visually striking and delicious element to dishes."
       },
       "options": [
-        {"text": "Acai berry", "value": true, "color": "yellow"},
-        {"text": "Goji berry", "value": false, "color": "yellow"},
-        {"text": "Black currant", "value": false, "color": "yellow"},
-        {"text": "Blueberry", "value": false, "color": "yellow"},
+        {
+          "text": "Acai berry",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Goji berry",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Black currant",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Blueberry",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5450,10 +6982,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Tamarind, often used in Indian and Middle Eastern cuisines, is a small, red fruit with a sweet and tangy flavor, valued for its juice and flavoring properties."
       },
       "options": [
-        {"text": "Raspberry", "value": false, "color": "yellow"},
-        {"text": "Pomegranate", "value": false, "color": "yellow"},
-        {"text": "Tamarind", "value": true, "color": "yellow"},
-        {"text": "Cranberry", "value": false, "color": "yellow"},
+        {
+          "text": "Raspberry",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Pomegranate",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Tamarind",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Cranberry",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5465,10 +7013,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Prickly pears, green or yellow with prickly skin and sweet, seedy flesh, are commonly eaten fresh or used in jams, offering a unique and versatile taste."
       },
       "options": [
-        {"text": "Prickly pear", "value": true, "color": "yellow"},
-        {"text": "Dragon fruit", "value": false, "color": "yellow"},
-        {"text": "Rambutan", "value": false, "color": "yellow"},
-        {"text": "Kiwi", "value": false, "color": "yellow"},
+        {
+          "text": "Prickly pear",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Dragon fruit",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Rambutan",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Kiwi",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5480,10 +7044,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Quince, often used to make preserves, jellies, and sauces, is primarily yellow when ripe, adding a delightful and slightly tart flavor to culinary creations."
       },
       "options": [
-        {"text": "Yellow", "value": true, "color": "yellow"},
-        {"text": "Green", "value": false, "color": "yellow"},
-        {"text": "Red", "value": false, "color": "yellow"},
-        {"text": "Red", "value": false, "color": "yellow"},
+        {
+          "text": "Yellow",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Green",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Red",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Red",
+          "value": false,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5495,10 +7075,26 @@ Map<String, dynamic> fruitsAndVegetablesData = {
             "Feijoa, with a unique taste combining pineapple, guava, and mint flavors, is native to New Zealand and commonly grown in the region, contributing to its popularity in New Zealand cuisine."
       },
       "options": [
-        {"text": "Brazil", "value": false, "color": "yellow"},
-        {"text": "New Zealand", "value": false, "color": "yellow"},
-        {"text": "Thailand", "value": true, "color": "yellow"},
-        {"text": "Spain", "value": false, "color": "yellow"},
+        {
+          "text": "Brazil",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "New Zealand",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Thailand",
+          "value": true,
+          "color": "yellow",
+        },
+        {
+          "text": "Spain",
+          "value": false,
+          "color": "yellow",
+        },
       ],
     },
   ],
@@ -5517,10 +7113,26 @@ Map<String, dynamic> discoveries = {
             "Christopher Columbus is the explorer who discovered America."
       },
       "options": [
-        {"text": "Ferdinand Magellan", "value": false, "color": "yellow"},
-        {"text": "Marco Polo", "value": false, "color": "yellow"},
-        {"text": "Vasco da Gama", "value": false, "color": "yellow"},
-        {"text": "Christopher Columbus", "value": true, "color": "yellow"},
+        {
+          "text": "Ferdinand Magellan",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Marco Polo",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Vasco da Gama",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Christopher Columbus",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5532,10 +7144,26 @@ Map<String, dynamic> discoveries = {
             "Penicillin was discovered in 1928 and helps people get better when they're sick."
       },
       "options": [
-        {"text": "1935", "value": false, "color": "yellow"},
-        {"text": "1942", "value": false, "color": "yellow"},
-        {"text": "1955", "value": false, "color": "yellow"},
-        {"text": "1928", "value": true, "color": "yellow"},
+        {
+          "text": "1935",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "1942",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "1955",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "1928",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5547,10 +7175,26 @@ Map<String, dynamic> discoveries = {
             "Marie Curie found something called \"radioactivity,\" which is like a special kind of energy."
       },
       "options": [
-        {"text": "Electricity", "value": false, "color": "yellow"},
-        {"text": "Magnetism", "value": false, "color": "yellow"},
-        {"text": "X-rays", "value": false, "color": "yellow"},
-        {"text": "Radioactivity", "value": true, "color": "yellow"},
+        {
+          "text": "Electricity",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Magnetism",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "X-rays",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Radioactivity",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5562,9 +7206,21 @@ Map<String, dynamic> discoveries = {
             "James Watson and Francis Crick are the scientists who discovered how DNA looks."
       },
       "options": [
-        {"text": "Rosalind Franklin", "value": false, "color": "yellow"},
-        {"text": "Gregor Mendel", "value": false, "color": "yellow"},
-        {"text": "Charles Darwin", "value": false, "color": "yellow"},
+        {
+          "text": "Rosalind Franklin",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Gregor Mendel",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Charles Darwin",
+          "value": false,
+          "color": "yellow",
+        },
         {
           "text": "James Watson and Francis Crick",
           "value": true,
@@ -5581,10 +7237,26 @@ Map<String, dynamic> discoveries = {
             "The Maya people from a long time ago were great at math and thought of \"zero\" as a number."
       },
       "options": [
-        {"text": "The Egyptians", "value": false, "color": "yellow"},
-        {"text": "The Greeks", "value": false, "color": "yellow"},
-        {"text": "The Romans", "value": false, "color": "yellow"},
-        {"text": "The Maya", "value": true, "color": "yellow"},
+        {
+          "text": "The Egyptians",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "The Greeks",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "The Romans",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "The Maya",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5596,10 +7268,26 @@ Map<String, dynamic> discoveries = {
             "Nicolaus Copernicus said that the Earth goes around the Sun, not the other way around."
       },
       "options": [
-        {"text": "Galileo Galilei", "value": false, "color": "yellow"},
-        {"text": "Johannes Kepler", "value": false, "color": "yellow"},
-        {"text": "Isaac Newton", "value": false, "color": "yellow"},
-        {"text": "Nicolaus Copernicus", "value": true, "color": "yellow"},
+        {
+          "text": "Galileo Galilei",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Johannes Kepler",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Isaac Newton",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Nicolaus Copernicus",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5611,10 +7299,26 @@ Map<String, dynamic> discoveries = {
             "Isaac Newton is the scientist who told us why things, like apples, fall down to the ground."
       },
       "options": [
-        {"text": "Albert Einstein", "value": false, "color": "yellow"},
-        {"text": "Galileo Galilei", "value": false, "color": "yellow"},
-        {"text": "Johannes Kepler", "value": false, "color": "yellow"},
-        {"text": "Isaac Newton", "value": true, "color": "yellow"},
+        {
+          "text": "Albert Einstein",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Galileo Galilei",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Johannes Kepler",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Isaac Newton",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5626,9 +7330,21 @@ Map<String, dynamic> discoveries = {
             "Edwin Hubble found that the universe is getting bigger, like it's expanding."
       },
       "options": [
-        {"text": "Dark matter", "value": false, "color": "yellow"},
-        {"text": "Black holes", "value": false, "color": "yellow"},
-        {"text": "Quasars", "value": false, "color": "yellow"},
+        {
+          "text": "Dark matter",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Black holes",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Quasars",
+          "value": false,
+          "color": "yellow",
+        },
         {
           "text": "The universe is getting bigger",
           "value": true,
@@ -5645,10 +7361,26 @@ Map<String, dynamic> discoveries = {
             "Barnum Brown was the one who found the first T. rex skeleton and taught us a lot about dinosaurs."
       },
       "options": [
-        {"text": "Mary Anning", "value": false, "color": "yellow"},
-        {"text": "Richard Owen", "value": false, "color": "yellow"},
-        {"text": "Roy Chapman Andrews", "value": false, "color": "yellow"},
-        {"text": "Barnum Brown", "value": true, "color": "yellow"},
+        {
+          "text": "Mary Anning",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Richard Owen",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Roy Chapman Andrews",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Barnum Brown",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5660,10 +7392,26 @@ Map<String, dynamic> discoveries = {
             "Edwin Hubble showed us that galaxies are moving away from each other like stars in a big balloon."
       },
       "options": [
-        {"text": "Carl Sagan", "value": false, "color": "yellow"},
-        {"text": "Neil deGrasse Tyson", "value": false, "color": "yellow"},
-        {"text": "Stephen Hawking", "value": false, "color": "yellow"},
-        {"text": "Edwin Hubble", "value": true, "color": "yellow"},
+        {
+          "text": "Carl Sagan",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Neil deGrasse Tyson",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Stephen Hawking",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Edwin Hubble",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5675,10 +7423,26 @@ Map<String, dynamic> discoveries = {
             "Alexander Fleming found penicillin, a special medicine that helps people get better when they're sick."
       },
       "options": [
-        {"text": "Insulin", "value": false, "color": "yellow"},
-        {"text": "Vaccination", "value": false, "color": "yellow"},
-        {"text": "Aspirin", "value": false, "color": "yellow"},
-        {"text": "Penicillin", "value": true, "color": "yellow"},
+        {
+          "text": "Insulin",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Vaccination",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Aspirin",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Penicillin",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5690,10 +7454,26 @@ Map<String, dynamic> discoveries = {
             "Neil Armstrong was the very first person to take a walk on the moon during the Apollo 11 mission."
       },
       "options": [
-        {"text": "Buzz Aldrin", "value": false, "color": "yellow"},
-        {"text": "John Glenn", "value": false, "color": "yellow"},
-        {"text": "Yuri Gagarin", "value": false, "color": "yellow"},
-        {"text": "Neil Armstrong", "value": true, "color": "yellow"},
+        {
+          "text": "Buzz Aldrin",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "John Glenn",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Yuri Gagarin",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Neil Armstrong",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5705,10 +7485,26 @@ Map<String, dynamic> discoveries = {
             "X-rays, which are like special X-rays, were found by accident in 1895 and help doctors see inside our bodies."
       },
       "options": [
-        {"text": "MRI", "value": false, "color": "yellow"},
-        {"text": "Ultrasound", "value": false, "color": "yellow"},
-        {"text": "CT scans", "value": false, "color": "yellow"},
-        {"text": "X-rays", "value": true, "color": "yellow"},
+        {
+          "text": "MRI",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Ultrasound",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "CT scans",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "X-rays",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5720,10 +7516,26 @@ Map<String, dynamic> discoveries = {
             "Gregor Mendel is called the \"father of modern genetics\" because he figured out how our traits come from our parents."
       },
       "options": [
-        {"text": "Charles Darwin", "value": false, "color": "yellow"},
-        {"text": "Thomas Hunt Morgan", "value": false, "color": "yellow"},
-        {"text": "Alfred Wallace", "value": false, "color": "yellow"},
-        {"text": "Gregor Mendel", "value": true, "color": "yellow"},
+        {
+          "text": "Charles Darwin",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Thomas Hunt Morgan",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Alfred Wallace",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Gregor Mendel",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5735,10 +7547,26 @@ Map<String, dynamic> discoveries = {
             "The Rosetta Stone had special writing that helped us learn how the ancient Egyptians talked."
       },
       "options": [
-        {"text": "The Sphinx", "value": false, "color": "yellow"},
-        {"text": "The Obelisk", "value": false, "color": "yellow"},
-        {"text": "The Papyrus Scroll", "value": false, "color": "yellow"},
-        {"text": "The Rosetta Stone", "value": true, "color": "yellow"},
+        {
+          "text": "The Sphinx",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "The Obelisk",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "The Papyrus Scroll",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "The Rosetta Stone",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5750,10 +7578,26 @@ Map<String, dynamic> discoveries = {
             "Scientists found something called a \"transistor\" in 1947, and it's important for computers and smartphones."
       },
       "options": [
-        {"text": "The laser", "value": false, "color": "yellow"},
-        {"text": "The computer chip", "value": false, "color": "yellow"},
-        {"text": "The telephone", "value": false, "color": "yellow"},
-        {"text": "The transistor", "value": true, "color": "yellow"},
+        {
+          "text": "The laser",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "The computer chip",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "The telephone",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "The transistor",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5765,7 +7609,11 @@ Map<String, dynamic> discoveries = {
             "In 1922, an almost-intact tomb of an Egyptian king named King Tutankhamun was discovered."
       },
       "options": [
-        {"text": "The Great Wall of China", "value": false, "color": "yellow"},
+        {
+          "text": "The Great Wall of China",
+          "value": false,
+          "color": "yellow",
+        },
         {
           "text": "The Hanging Gardens of Babylon",
           "value": false,
@@ -5776,7 +7624,11 @@ Map<String, dynamic> discoveries = {
           "value": false,
           "color": "yellow"
         },
-        {"text": "King Tutankhamun's tomb", "value": true, "color": "yellow"},
+        {
+          "text": "King Tutankhamun's tomb",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5788,10 +7640,26 @@ Map<String, dynamic> discoveries = {
             "Alexander Fleming found penicillin in 1928, which is like a special medicine that makes people feel better when they're sick."
       },
       "options": [
-        {"text": "Louis Pasteur", "value": false, "color": "yellow"},
-        {"text": "Robert Koch", "value": false, "color": "yellow"},
-        {"text": "Jonas Salk", "value": false, "color": "yellow"},
-        {"text": "Alexander Fleming", "value": true, "color": "yellow"},
+        {
+          "text": "Louis Pasteur",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Robert Koch",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Jonas Salk",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Alexander Fleming",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5803,10 +7671,26 @@ Map<String, dynamic> discoveries = {
             "Albert Einstein came up with an important equation, E=mc\u00c2\u00b2, and taught us many things about space and how it works."
       },
       "options": [
-        {"text": "Niels Bohr", "value": false, "color": "yellow"},
-        {"text": "Werner Heisenberg", "value": false, "color": "yellow"},
-        {"text": "Max Planck", "value": false, "color": "yellow"},
-        {"text": "Albert Einstein", "value": true, "color": "yellow"},
+        {
+          "text": "Niels Bohr",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Werner Heisenberg",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Max Planck",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Albert Einstein",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5818,10 +7702,26 @@ Map<String, dynamic> discoveries = {
             "Alexander Graham Bell invented the telephone, which lets us talk to people who are not close by."
       },
       "options": [
-        {"text": "The television", "value": false, "color": "yellow"},
-        {"text": "The computer", "value": false, "color": "yellow"},
-        {"text": "The camera", "value": false, "color": "yellow"},
-        {"text": "The telephone", "value": true, "color": "yellow"},
+        {
+          "text": "The television",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "The computer",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "The camera",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "The telephone",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5833,10 +7733,26 @@ Map<String, dynamic> discoveries = {
             "Christopher Columbus discovered America in 1492 and had ships named the Ni\u00c3\u00b1a, the Pinta, and the Santa Maria."
       },
       "options": [
-        {"text": "Ferdinand Magellan", "value": false, "color": "yellow"},
-        {"text": "Marco Polo", "value": false, "color": "yellow"},
-        {"text": "Vasco da Gama", "value": false, "color": "yellow"},
-        {"text": "Christopher Columbus", "value": true, "color": "yellow"},
+        {
+          "text": "Ferdinand Magellan",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Marco Polo",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Vasco da Gama",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Christopher Columbus",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5848,10 +7764,26 @@ Map<String, dynamic> discoveries = {
             "The first humans to walk on the moon during the Apollo 11 mission in 1969 were called \"astronauts.\""
       },
       "options": [
-        {"text": "Pilots", "value": false, "color": "yellow"},
-        {"text": "Explorers", "value": false, "color": "yellow"},
-        {"text": "Sailors", "value": false, "color": "yellow"},
-        {"text": "Astronauts", "value": true, "color": "yellow"},
+        {
+          "text": "Pilots",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Explorers",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Sailors",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Astronauts",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5863,10 +7795,26 @@ Map<String, dynamic> discoveries = {
             "Thomas Edison invented the light bulb, which makes our homes and cities bright."
       },
       "options": [
-        {"text": "Alexander Graham Bell", "value": false, "color": "yellow"},
-        {"text": "Benjamin Franklin", "value": false, "color": "yellow"},
-        {"text": "George Washington Carver", "value": false, "color": "yellow"},
-        {"text": "Thomas Edison", "value": true, "color": "yellow"},
+        {
+          "text": "Alexander Graham Bell",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Benjamin Franklin",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "George Washington Carver",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Thomas Edison",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5878,10 +7826,26 @@ Map<String, dynamic> discoveries = {
             "Louis Pasteur discovered something called \"pasteurization,\" which makes our milk and food safe to eat."
       },
       "options": [
-        {"text": "Refrigeration", "value": false, "color": "yellow"},
-        {"text": "Sterilization", "value": false, "color": "yellow"},
-        {"text": "Vaccination", "value": false, "color": "yellow"},
-        {"text": "Pasteurization", "value": true, "color": "yellow"},
+        {
+          "text": "Refrigeration",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Sterilization",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Vaccination",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Pasteurization",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5893,10 +7857,26 @@ Map<String, dynamic> discoveries = {
             "Nicolaus Copernicus discovered that Earth goes around the Sun, changing how we see our solar system."
       },
       "options": [
-        {"text": "Galileo Galilei", "value": false, "color": "yellow"},
-        {"text": "Johannes Kepler", "value": false, "color": "yellow"},
-        {"text": "Isaac Newton", "value": false, "color": "yellow"},
-        {"text": "Nicolaus Copernicus", "value": true, "color": "yellow"},
+        {
+          "text": "Galileo Galilei",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Johannes Kepler",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Isaac Newton",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Nicolaus Copernicus",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5908,10 +7888,26 @@ Map<String, dynamic> discoveries = {
             "Marie Curie discovered radium and polonium and is famous for her research on radioactivity."
       },
       "options": [
-        {"text": "Rosalind Franklin", "value": false, "color": "yellow"},
-        {"text": "Florence Nightingale", "value": false, "color": "yellow"},
-        {"text": "Amelia Earhart", "value": false, "color": "yellow"},
-        {"text": "Marie Curie", "value": true, "color": "yellow"},
+        {
+          "text": "Rosalind Franklin",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Florence Nightingale",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Amelia Earhart",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Marie Curie",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5923,10 +7919,26 @@ Map<String, dynamic> discoveries = {
             "Alexander Fleming discovered penicillin in 1928, which helps us get better when we're sick."
       },
       "options": [
-        {"text": "Aspirin", "value": false, "color": "yellow"},
-        {"text": "Insulin", "value": false, "color": "yellow"},
-        {"text": "Vaccination", "value": false, "color": "yellow"},
-        {"text": "Penicillin", "value": true, "color": "yellow"},
+        {
+          "text": "Aspirin",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Insulin",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Vaccination",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Penicillin",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5938,10 +7950,26 @@ Map<String, dynamic> discoveries = {
             "The ancient Egyptians wrote with pictures and symbols called \"hieroglyphics\" on stone, paper, or walls."
       },
       "options": [
-        {"text": "Calligraphy", "value": false, "color": "yellow"},
-        {"text": "Pictograms", "value": false, "color": "yellow"},
-        {"text": "Cuneiform", "value": false, "color": "yellow"},
-        {"text": "Hieroglyphics", "value": true, "color": "yellow"},
+        {
+          "text": "Calligraphy",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Pictograms",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Cuneiform",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Hieroglyphics",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5953,7 +7981,11 @@ Map<String, dynamic> discoveries = {
             "In 1922, an almost-intact tomb of an Egyptian king named Tutankhamun was discovered."
       },
       "options": [
-        {"text": "The Great Wall of China", "value": false, "color": "yellow"},
+        {
+          "text": "The Great Wall of China",
+          "value": false,
+          "color": "yellow",
+        },
         {
           "text": "The Hanging Gardens of Babylon",
           "value": false,
@@ -5964,7 +7996,11 @@ Map<String, dynamic> discoveries = {
           "value": false,
           "color": "yellow"
         },
-        {"text": "King Tutankhamun's tomb", "value": true, "color": "yellow"},
+        {
+          "text": "King Tutankhamun's tomb",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5976,10 +8012,26 @@ Map<String, dynamic> discoveries = {
             "Gregor Mendel is called the \"father of modern genetics\" because he figured out how our traits come from our parents."
       },
       "options": [
-        {"text": "Charles Darwin", "value": false, "color": "yellow"},
-        {"text": "Thomas Hunt Morgan", "value": false, "color": "yellow"},
-        {"text": "Alfred Wallace", "value": false, "color": "yellow"},
-        {"text": "Gregor Mendel", "value": true, "color": "yellow"},
+        {
+          "text": "Charles Darwin",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Thomas Hunt Morgan",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Alfred Wallace",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Gregor Mendel",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -5991,10 +8043,26 @@ Map<String, dynamic> discoveries = {
             "The amazing wall built by the ancient Chinese is called \"The Great Wall of China.\""
       },
       "options": [
-        {"text": "The Eiffel Tower", "value": false, "color": "yellow"},
-        {"text": "The Pyramids of Giza", "value": false, "color": "yellow"},
-        {"text": "The Colosseum", "value": false, "color": "yellow"},
-        {"text": "The Great Wall of China", "value": true, "color": "yellow"},
+        {
+          "text": "The Eiffel Tower",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "The Pyramids of Giza",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "The Colosseum",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "The Great Wall of China",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6006,10 +8074,26 @@ Map<String, dynamic> discoveries = {
             "Galileo Galilei was a scientist who told us how our solar system works and that the Earth goes around the Sun."
       },
       "options": [
-        {"text": "Sir Isaac Newton", "value": false, "color": "yellow"},
-        {"text": "Johannes Kepler", "value": false, "color": "yellow"},
-        {"text": "Nicolaus Copernicus", "value": false, "color": "yellow"},
-        {"text": "Galileo Galilei", "value": true, "color": "yellow"},
+        {
+          "text": "Sir Isaac Newton",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Johannes Kepler",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Nicolaus Copernicus",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Galileo Galilei",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6021,10 +8105,26 @@ Map<String, dynamic> discoveries = {
             "The Egyptians were an ancient civilization that built huge pyramids and used special pictures called hieroglyphs to write."
       },
       "options": [
-        {"text": "The Greeks", "value": false, "color": "yellow"},
-        {"text": "The Romans", "value": false, "color": "yellow"},
-        {"text": "The Mayans", "value": false, "color": "yellow"},
-        {"text": "The Egyptians", "value": true, "color": "yellow"},
+        {
+          "text": "The Greeks",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "The Romans",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "The Mayans",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "The Egyptians",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6036,10 +8136,26 @@ Map<String, dynamic> discoveries = {
             "Benjamin Franklin was an early American who helped invent electricity and learned about lightning by flying a kite."
       },
       "options": [
-        {"text": "Thomas Edison", "value": false, "color": "yellow"},
-        {"text": "Alexander Graham Bell", "value": false, "color": "yellow"},
-        {"text": "George Washington", "value": false, "color": "yellow"},
-        {"text": "Benjamin Franklin", "value": true, "color": "yellow"},
+        {
+          "text": "Thomas Edison",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Alexander Graham Bell",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "George Washington",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Benjamin Franklin",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6051,10 +8167,26 @@ Map<String, dynamic> discoveries = {
             "The Babylonians made the first written laws called the Code of Hammurabi on a stone pillar."
       },
       "options": [
-        {"text": "The Mayans", "value": false, "color": "yellow"},
-        {"text": "The Romans", "value": false, "color": "yellow"},
-        {"text": "The Greeks", "value": false, "color": "yellow"},
-        {"text": "The Babylonians", "value": true, "color": "yellow"},
+        {
+          "text": "The Mayans",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "The Romans",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "The Greeks",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "The Babylonians",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6066,10 +8198,26 @@ Map<String, dynamic> discoveries = {
             "Johannes Kepler is the scientist who told us how the planets move and made three laws about it."
       },
       "options": [
-        {"text": "Nicolaus Copernicus", "value": false, "color": "yellow"},
-        {"text": "Galileo Galilei", "value": false, "color": "yellow"},
-        {"text": "Sir Isaac Newton", "value": false, "color": "yellow"},
-        {"text": "Johannes Kepler", "value": true, "color": "yellow"},
+        {
+          "text": "Nicolaus Copernicus",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Galileo Galilei",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Sir Isaac Newton",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Johannes Kepler",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6081,10 +8229,26 @@ Map<String, dynamic> discoveries = {
             "Thomas Edison was an American inventor who made helpful things like the light bulb and the phonograph."
       },
       "options": [
-        {"text": "Benjamin Franklin", "value": false, "color": "yellow"},
-        {"text": "Alexander Graham Bell", "value": false, "color": "yellow"},
-        {"text": "George Washington", "value": false, "color": "yellow"},
-        {"text": "Thomas Edison", "value": true, "color": "yellow"},
+        {
+          "text": "Benjamin Franklin",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Alexander Graham Bell",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "George Washington",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Thomas Edison",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6127,10 +8291,26 @@ Map<String, dynamic> discoveries = {
             "Charles Darwin was the British naturalist who thought of the theory of evolution and wrote a book about it called \"On the Origin of Species.\""
       },
       "options": [
-        {"text": "Gregor Mendel", "value": false, "color": "yellow"},
-        {"text": "Alfred Russel Wallace", "value": false, "color": "yellow"},
-        {"text": "Richard Dawkins", "value": false, "color": "yellow"},
-        {"text": "Charles Darwin", "value": true, "color": "yellow"},
+        {
+          "text": "Gregor Mendel",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Alfred Russel Wallace",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Richard Dawkins",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Charles Darwin",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6142,10 +8322,26 @@ Map<String, dynamic> discoveries = {
             "Pompeii is the name of the ancient city in Italy that was covered in ash by a volcano and stayed preserved for a very long time."
       },
       "options": [
-        {"text": "Athens", "value": false, "color": "yellow"},
-        {"text": "Rome", "value": false, "color": "yellow"},
-        {"text": "Cairo", "value": false, "color": "yellow"},
-        {"text": "Pompeii", "value": true, "color": "yellow"},
+        {
+          "text": "Athens",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Rome",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Cairo",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Pompeii",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6157,10 +8353,26 @@ Map<String, dynamic> discoveries = {
             "Nikola Tesla was a scientist and inventor known for his genius and for creating things like the electric coil and the radio."
       },
       "options": [
-        {"text": "Thomas Edison", "value": false, "color": "yellow"},
-        {"text": "Benjamin Franklin", "value": false, "color": "yellow"},
-        {"text": "Alexander Graham Bell", "value": false, "color": "yellow"},
-        {"text": "Nikola Tesla", "value": true, "color": "yellow"},
+        {
+          "text": "Thomas Edison",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Benjamin Franklin",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Alexander Graham Bell",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Nikola Tesla",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6172,10 +8384,26 @@ Map<String, dynamic> discoveries = {
             "Giza is the name of the place in Egypt where the great pyramids were built as tombs for pharaohs."
       },
       "options": [
-        {"text": "Cairo", "value": false, "color": "yellow"},
-        {"text": "Luxor", "value": false, "color": "yellow"},
-        {"text": "Alexandria", "value": false, "color": "yellow"},
-        {"text": "Giza", "value": true, "color": "yellow"},
+        {
+          "text": "Cairo",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Luxor",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Alexandria",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Giza",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6187,10 +8415,26 @@ Map<String, dynamic> discoveries = {
             "Louis Pasteur discovered a process called \"pasteurization\" that helps make food and drinks safe to eat and drink by killing bad germs."
       },
       "options": [
-        {"text": "Refrigeration", "value": false, "color": "yellow"},
-        {"text": "Fermentation", "value": false, "color": "yellow"},
-        {"text": "Dehydration", "value": false, "color": "yellow"},
-        {"text": "Pasteurization", "value": true, "color": "yellow"},
+        {
+          "text": "Refrigeration",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Fermentation",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Dehydration",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Pasteurization",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6202,9 +8446,21 @@ Map<String, dynamic> discoveries = {
             "James Watson and Francis Crick unraveled the double helix structure of DNA, a vital breakthrough in genetics."
       },
       "options": [
-        {"text": "Rosalind Franklin", "value": false, "color": "yellow"},
-        {"text": "Gregor Mendel", "value": false, "color": "yellow"},
-        {"text": "Charles Darwin", "value": false, "color": "yellow"},
+        {
+          "text": "Rosalind Franklin",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Gregor Mendel",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Charles Darwin",
+          "value": false,
+          "color": "yellow",
+        },
         {
           "text": "James Watson and Francis Crick",
           "value": true,
@@ -6221,10 +8477,26 @@ Map<String, dynamic> discoveries = {
             "The ancient civilization of Druids is believed to have built Stonehenge, the mysterious stone monument."
       },
       "options": [
-        {"text": "Romans", "value": false, "color": "yellow"},
-        {"text": "Egyptians", "value": false, "color": "yellow"},
-        {"text": "Greeks", "value": false, "color": "yellow"},
-        {"text": "Druids", "value": true, "color": "yellow"},
+        {
+          "text": "Romans",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Egyptians",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Greeks",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Druids",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6236,10 +8508,26 @@ Map<String, dynamic> discoveries = {
             "Johannes Gutenberg's Printing Press transformed the sharing of knowledge by making books more accessible."
       },
       "options": [
-        {"text": "Telescope", "value": false, "color": "yellow"},
-        {"text": "Telephone", "value": false, "color": "yellow"},
-        {"text": "Steam Engine", "value": false, "color": "yellow"},
-        {"text": "Printing Press", "value": true, "color": "yellow"},
+        {
+          "text": "Telescope",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Telephone",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Steam Engine",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Printing Press",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6251,10 +8539,26 @@ Map<String, dynamic> discoveries = {
             "Roald Amundsen was the first to reach the South Pole, marking a significant polar discovery."
       },
       "options": [
-        {"text": "Amelia Earhart", "value": false, "color": "yellow"},
-        {"text": "Sir Ernest Shackleton", "value": false, "color": "yellow"},
-        {"text": "Robert Falcon Scott", "value": false, "color": "yellow"},
-        {"text": "Roald Amundsen", "value": true, "color": "yellow"},
+        {
+          "text": "Amelia Earhart",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Sir Ernest Shackleton",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Robert Falcon Scott",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Roald Amundsen",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6266,10 +8570,26 @@ Map<String, dynamic> discoveries = {
             "The Library of Alexandria in the city of Alexandria, Egypt, was a vast repository of knowledge."
       },
       "options": [
-        {"text": "Library of Congress", "value": false, "color": "yellow"},
-        {"text": "British Museum", "value": false, "color": "yellow"},
-        {"text": "Louvre Museum", "value": false, "color": "yellow"},
-        {"text": "Library of Alexandria", "value": true, "color": "yellow"},
+        {
+          "text": "Library of Congress",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "British Museum",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Louvre Museum",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Library of Alexandria",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6281,10 +8601,26 @@ Map<String, dynamic> discoveries = {
             "Alexander Graham Bell invented the telephone, enabling long-distance communication."
       },
       "options": [
-        {"text": "Television", "value": false, "color": "yellow"},
-        {"text": "Computer", "value": false, "color": "yellow"},
-        {"text": "Camera", "value": false, "color": "yellow"},
-        {"text": "Telephone", "value": true, "color": "yellow"},
+        {
+          "text": "Television",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Computer",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Camera",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Telephone",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6296,10 +8632,26 @@ Map<String, dynamic> discoveries = {
             "The Chinese civilization is celebrated for building the Great Wall of China, an immense defensive wall."
       },
       "options": [
-        {"text": "Romans", "value": false, "color": "yellow"},
-        {"text": "Egyptians", "value": false, "color": "yellow"},
-        {"text": "Greeks", "value": false, "color": "yellow"},
-        {"text": "Chinese", "value": true, "color": "yellow"},
+        {
+          "text": "Romans",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Egyptians",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Greeks",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Chinese",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6311,10 +8663,26 @@ Map<String, dynamic> discoveries = {
             "Thomas Edison is the American inventor who created the light bulb."
       },
       "options": [
-        {"text": "Alexander Graham Bell", "value": false, "color": "yellow"},
-        {"text": "Benjamin Franklin", "value": false, "color": "yellow"},
-        {"text": "George Washington Carver", "value": false, "color": "yellow"},
-        {"text": "Thomas Edison", "value": true, "color": "yellow"},
+        {
+          "text": "Alexander Graham Bell",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Benjamin Franklin",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "George Washington Carver",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Thomas Edison",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6326,10 +8694,26 @@ Map<String, dynamic> discoveries = {
             "Louis Pasteur discovered a process called \"pasteurization,\" which makes food and drinks safe to eat and drink by killing harmful germs."
       },
       "options": [
-        {"text": "Refrigeration", "value": false, "color": "yellow"},
-        {"text": "Fermentation", "value": false, "color": "yellow"},
-        {"text": "Dehydration", "value": false, "color": "yellow"},
-        {"text": "Pasteurization", "value": true, "color": "yellow"},
+        {
+          "text": "Refrigeration",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Fermentation",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Dehydration",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Pasteurization",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6341,10 +8725,26 @@ Map<String, dynamic> discoveries = {
             "Gold, discovered in ancient times, has been used to create coins and jewelry."
       },
       "options": [
-        {"text": "Silver", "value": false, "color": "yellow"},
-        {"text": "Copper", "value": false, "color": "yellow"},
-        {"text": "Platinum", "value": false, "color": "yellow"},
-        {"text": "Gold", "value": true, "color": "yellow"},
+        {
+          "text": "Silver",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Copper",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Platinum",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Gold",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6356,10 +8756,26 @@ Map<String, dynamic> discoveries = {
             "Pompeii is the name of the ancient city in Italy that was covered in ash by a volcano and preserved for a very long time."
       },
       "options": [
-        {"text": "Athens", "value": false, "color": "yellow"},
-        {"text": "Rome", "value": false, "color": "yellow"},
-        {"text": "Cairo", "value": false, "color": "yellow"},
-        {"text": "Pompeii", "value": true, "color": "yellow"},
+        {
+          "text": "Athens",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Rome",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Cairo",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Pompeii",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6371,10 +8787,26 @@ Map<String, dynamic> discoveries = {
             "Nikola Tesla was a scientist and inventor known for his genius, creating things like the electric coil and the radio."
       },
       "options": [
-        {"text": "Thomas Edison", "value": false, "color": "yellow"},
-        {"text": "Benjamin Franklin", "value": false, "color": "yellow"},
-        {"text": "Alexander Graham Bell", "value": false, "color": "yellow"},
-        {"text": "Nikola Tesla", "value": true, "color": "yellow"},
+        {
+          "text": "Thomas Edison",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Benjamin Franklin",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Alexander Graham Bell",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Nikola Tesla",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6386,10 +8818,26 @@ Map<String, dynamic> discoveries = {
             "Giza is the name of the place in Egypt where the great pyramids were built as tombs for pharaohs."
       },
       "options": [
-        {"text": "Cairo", "value": false, "color": "yellow"},
-        {"text": "Luxor", "value": false, "color": "yellow"},
-        {"text": "Alexandria", "value": false, "color": "yellow"},
-        {"text": "Giza", "value": true, "color": "yellow"},
+        {
+          "text": "Cairo",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Luxor",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Alexandria",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Giza",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6401,10 +8849,26 @@ Map<String, dynamic> discoveries = {
             "Pythagoras was the ancient Greek mathematician who developed the Pythagorean theorem, focused on right triangles."
       },
       "options": [
-        {"text": "Euclid", "value": false, "color": "yellow"},
-        {"text": "Archimedes", "value": false, "color": "yellow"},
-        {"text": "Aristotle", "value": false, "color": "yellow"},
-        {"text": "Pythagoras", "value": true, "color": "yellow"},
+        {
+          "text": "Euclid",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Archimedes",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Aristotle",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Pythagoras",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6416,10 +8880,26 @@ Map<String, dynamic> discoveries = {
             "Fossilized bones of early humans, such as Australopithecus, have been discovered in Africa and contributed to our understanding of human evolution."
       },
       "options": [
-        {"text": "Neanderthals", "value": false, "color": "yellow"},
-        {"text": "Cro-Magnons", "value": false, "color": "yellow"},
-        {"text": "Homo erectus", "value": false, "color": "yellow"},
-        {"text": "Australopithecus", "value": true, "color": "yellow"},
+        {
+          "text": "Neanderthals",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Cro-Magnons",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Homo erectus",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Australopithecus",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6431,10 +8911,26 @@ Map<String, dynamic> discoveries = {
             "Archimedes shouted \"Eureka!\" when he figured out how to measure the volume of irregularly shaped objects."
       },
       "options": [
-        {"text": "Bravo!", "value": false, "color": "yellow"},
-        {"text": "Hallelujah!", "value": false, "color": "yellow"},
-        {"text": "Oops!", "value": false, "color": "yellow"},
-        {"text": "Eureka!", "value": true, "color": "yellow"},
+        {
+          "text": "Bravo!",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Hallelujah!",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Oops!",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Eureka!",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6446,10 +8942,26 @@ Map<String, dynamic> discoveries = {
             "The legendary lost city called Ciudad Blanca was found in the Honduran rainforest using LiDAR technology."
       },
       "options": [
-        {"text": "Atlantis", "value": false, "color": "yellow"},
-        {"text": "El Dorado", "value": false, "color": "yellow"},
-        {"text": "Shangri-La", "value": false, "color": "yellow"},
-        {"text": "Ciudad Blanca", "value": true, "color": "yellow"},
+        {
+          "text": "Atlantis",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "El Dorado",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Shangri-La",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Ciudad Blanca",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6461,10 +8973,26 @@ Map<String, dynamic> discoveries = {
             "Michael Faraday, the renowned scientist, made the crucial discovery of electromagnetic induction, essential for electricity generation."
       },
       "options": [
-        {"text": "Thomas Edison", "value": false, "color": "yellow"},
-        {"text": "Benjamin Franklin", "value": false, "color": "yellow"},
-        {"text": "Galileo Galilei", "value": false, "color": "yellow"},
-        {"text": "Michael Faraday", "value": true, "color": "yellow"},
+        {
+          "text": "Thomas Edison",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Benjamin Franklin",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Galileo Galilei",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Michael Faraday",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6476,10 +9004,26 @@ Map<String, dynamic> discoveries = {
             "Urbain Le Verrier discovered the planet Neptune in 1846 through mathematical calculations."
       },
       "options": [
-        {"text": "Johannes Kepler", "value": false, "color": "yellow"},
-        {"text": "Galileo Galilei", "value": false, "color": "yellow"},
-        {"text": "Nicolaus Copernicus", "value": false, "color": "yellow"},
-        {"text": "Urbain Le Verrier", "value": true, "color": "yellow"},
+        {
+          "text": "Johannes Kepler",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Galileo Galilei",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Nicolaus Copernicus",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Urbain Le Verrier",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6491,10 +9035,26 @@ Map<String, dynamic> discoveries = {
             "Thomas Edison, the famous American inventor, developed the phonograph for recording and playing back sound."
       },
       "options": [
-        {"text": "Alexander Graham Bell", "value": false, "color": "yellow"},
-        {"text": "Benjamin Franklin", "value": false, "color": "yellow"},
-        {"text": "Nikola Tesla", "value": false, "color": "yellow"},
-        {"text": "Thomas Edison", "value": true, "color": "yellow"},
+        {
+          "text": "Alexander Graham Bell",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Benjamin Franklin",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Nikola Tesla",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Thomas Edison",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6506,10 +9066,26 @@ Map<String, dynamic> discoveries = {
             "Leonardo da Vinci, a Renaissance artist and inventor, is known for his anatomical drawings and the idea of a flying machine."
       },
       "options": [
-        {"text": "Michelangelo", "value": false, "color": "yellow"},
-        {"text": "Raphael", "value": false, "color": "yellow"},
-        {"text": "Donatello", "value": false, "color": "yellow"},
-        {"text": "Leonardo da Vinci", "value": true, "color": "yellow"},
+        {
+          "text": "Michelangelo",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Raphael",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Donatello",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Leonardo da Vinci",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6521,10 +9097,26 @@ Map<String, dynamic> discoveries = {
             "Nikola Tesla, the American engineer and inventor, developed the modern alternating current (AC) electrical system."
       },
       "options": [
-        {"text": "Thomas Edison", "value": false, "color": "yellow"},
-        {"text": "Benjamin Franklin", "value": false, "color": "yellow"},
-        {"text": "Michael Faraday", "value": false, "color": "yellow"},
-        {"text": "Nikola Tesla", "value": true, "color": "yellow"},
+        {
+          "text": "Thomas Edison",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Benjamin Franklin",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Michael Faraday",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Nikola Tesla",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6536,10 +9128,26 @@ Map<String, dynamic> discoveries = {
             "Cappadocia is the ancient city in Turkey renowned for its rock-cut architecture and underground cities."
       },
       "options": [
-        {"text": "Athens", "value": false, "color": "yellow"},
-        {"text": "Rome", "value": false, "color": "yellow"},
-        {"text": "Cairo", "value": false, "color": "yellow"},
-        {"text": "Cappadocia", "value": true, "color": "yellow"},
+        {
+          "text": "Athens",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Rome",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Cairo",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Cappadocia",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6551,10 +9159,26 @@ Map<String, dynamic> discoveries = {
             "Ernest Rutherford discovered the proton, a positively charged particle in the nucleus of an atom."
       },
       "options": [
-        {"text": "Electron", "value": false, "color": "yellow"},
-        {"text": "Neutron", "value": false, "color": "yellow"},
-        {"text": "Photon", "value": false, "color": "yellow"},
-        {"text": "Proton", "value": true, "color": "yellow"},
+        {
+          "text": "Electron",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Neutron",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Photon",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Proton",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6566,10 +9190,26 @@ Map<String, dynamic> discoveries = {
             "The Wright brothers' significant achievement was the first powered flight in aviation history."
       },
       "options": [
-        {"text": "Moon landing", "value": false, "color": "yellow"},
-        {"text": "Supersonic flight", "value": false, "color": "yellow"},
-        {"text": "Transatlantic flight", "value": false, "color": "yellow"},
-        {"text": "First powered flight", "value": true, "color": "yellow"},
+        {
+          "text": "Moon landing",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Supersonic flight",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Transatlantic flight",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "First powered flight",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6581,10 +9221,26 @@ Map<String, dynamic> discoveries = {
             "Heracleion is the underwater city off the coast of Egypt with ancient artifacts and submerged temples in the Mediterranean Sea."
       },
       "options": [
-        {"text": "Atlantis", "value": false, "color": "yellow"},
-        {"text": "Troy", "value": false, "color": "yellow"},
-        {"text": "El Dorado", "value": false, "color": "yellow"},
-        {"text": "Heracleion", "value": true, "color": "yellow"},
+        {
+          "text": "Atlantis",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Troy",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "El Dorado",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Heracleion",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6596,10 +9252,26 @@ Map<String, dynamic> discoveries = {
             "William Harvey, the British physician and scientist, is known for discovering the circulation of blood in the human body."
       },
       "options": [
-        {"text": "Edward Jenner", "value": false, "color": "yellow"},
-        {"text": "Joseph Lister", "value": false, "color": "yellow"},
-        {"text": "Robert Hooke", "value": false, "color": "yellow"},
-        {"text": "William Harvey", "value": true, "color": "yellow"},
+        {
+          "text": "Edward Jenner",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Joseph Lister",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Robert Hooke",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "William Harvey",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6611,10 +9283,26 @@ Map<String, dynamic> discoveries = {
             "Gregor Mendel discovered the principles of heredity and introduced the concepts of dominant and recessive genes."
       },
       "options": [
-        {"text": "Charles Darwin", "value": false, "color": "yellow"},
-        {"text": "James Watson", "value": false, "color": "yellow"},
-        {"text": "Francis Crick", "value": false, "color": "yellow"},
-        {"text": "Gregor Mendel", "value": true, "color": "yellow"},
+        {
+          "text": "Charles Darwin",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "James Watson",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Francis Crick",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Gregor Mendel",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6626,10 +9314,26 @@ Map<String, dynamic> discoveries = {
             "Ur, an archaeological site in modern-day Iraq, showcases ancient ziggurats and is one of the earliest cities in history."
       },
       "options": [
-        {"text": "Babylon", "value": false, "color": "yellow"},
-        {"text": "Nineveh", "value": false, "color": "yellow"},
-        {"text": "Sumer", "value": false, "color": "yellow"},
-        {"text": "Ur", "value": true, "color": "yellow"},
+        {
+          "text": "Babylon",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Nineveh",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Sumer",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Ur",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6641,10 +9345,26 @@ Map<String, dynamic> discoveries = {
             "Howard Carter is the British archaeologist famous for discovering the tomb of Tutankhamun in 1922."
       },
       "options": [
-        {"text": "Richard Leakey", "value": false, "color": "yellow"},
-        {"text": "Heinrich Schliemann", "value": false, "color": "yellow"},
-        {"text": "Hiram Bingham", "value": false, "color": "yellow"},
-        {"text": "Howard Carter", "value": true, "color": "yellow"},
+        {
+          "text": "Richard Leakey",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Heinrich Schliemann",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Hiram Bingham",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Howard Carter",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6656,10 +9376,26 @@ Map<String, dynamic> discoveries = {
             "Ernest Rutherford discovered the structure of the atom, including the nucleus with protons and neutrons, in the gold foil experiment."
       },
       "options": [
-        {"text": "J.J. Thomson", "value": false, "color": "yellow"},
-        {"text": "John Dalton", "value": false, "color": "yellow"},
-        {"text": "Niels Bohr", "value": false, "color": "yellow"},
-        {"text": "Ernest Rutherford", "value": true, "color": "yellow"},
+        {
+          "text": "J.J. Thomson",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "John Dalton",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Niels Bohr",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Ernest Rutherford",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6671,10 +9407,26 @@ Map<String, dynamic> discoveries = {
             "Neanderthal is the term for the human-like species that lived before modern humans and is known for cave paintings in Europe."
       },
       "options": [
-        {"text": "Cro-Magnon", "value": false, "color": "yellow"},
-        {"text": "Homo habilis", "value": false, "color": "yellow"},
-        {"text": "Australopithecus", "value": false, "color": "yellow"},
-        {"text": "Neanderthal", "value": true, "color": "yellow"},
+        {
+          "text": "Cro-Magnon",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Homo habilis",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Australopithecus",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Neanderthal",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6686,10 +9438,26 @@ Map<String, dynamic> discoveries = {
             "Christopher Columbus, the Italian explorer, famously sailed to the Americas in 1492, altering history's course."
       },
       "options": [
-        {"text": "Ferdinand Magellan", "value": false, "color": "yellow"},
-        {"text": "Marco Polo", "value": false, "color": "yellow"},
-        {"text": "Vasco da Gama", "value": false, "color": "yellow"},
-        {"text": "Christopher Columbus", "value": true, "color": "yellow"},
+        {
+          "text": "Ferdinand Magellan",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Marco Polo",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Vasco da Gama",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Christopher Columbus",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6701,10 +9469,26 @@ Map<String, dynamic> discoveries = {
             "Antonie van Leeuwenhoek, the Dutch scientist, is famous for inventing the first practical microscope and observing microorganisms."
       },
       "options": [
-        {"text": "Robert Hooke", "value": false, "color": "yellow"},
-        {"text": "Louis Pasteur", "value": false, "color": "yellow"},
-        {"text": "Marcello Malpighi", "value": false, "color": "yellow"},
-        {"text": "Antonie van Leeuwenhoek", "value": true, "color": "yellow"},
+        {
+          "text": "Robert Hooke",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Louis Pasteur",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Marcello Malpighi",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Antonie van Leeuwenhoek",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6716,10 +9500,26 @@ Map<String, dynamic> discoveries = {
             "Heinrich Hertz discovered and proved the existence of electromagnetic waves, laying the foundation for modern wireless communication."
       },
       "options": [
-        {"text": "Guglielmo Marconi", "value": false, "color": "yellow"},
-        {"text": "James Clerk Maxwell", "value": false, "color": "yellow"},
-        {"text": "Samuel Morse", "value": false, "color": "yellow"},
-        {"text": "Heinrich Hertz", "value": true, "color": "yellow"},
+        {
+          "text": "Guglielmo Marconi",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "James Clerk Maxwell",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Samuel Morse",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Heinrich Hertz",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6731,10 +9531,26 @@ Map<String, dynamic> discoveries = {
             "Antoine Lavoisier, the French scientist, is known as the \"father of modern chemistry\" for his pioneering work on elements and compounds."
       },
       "options": [
-        {"text": "Dmitri Mendeleev", "value": false, "color": "yellow"},
-        {"text": "Robert Boyle", "value": false, "color": "yellow"},
-        {"text": "Linus Pauling", "value": false, "color": "yellow"},
-        {"text": "Antoine Lavoisier", "value": true, "color": "yellow"},
+        {
+          "text": "Dmitri Mendeleev",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Robert Boyle",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Linus Pauling",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Antoine Lavoisier",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6746,10 +9562,26 @@ Map<String, dynamic> discoveries = {
             "The telegraph, credited to Samuel Morse, revolutionized long-distance communication using coded electrical signals."
       },
       "options": [
-        {"text": "Telephone", "value": false, "color": "yellow"},
-        {"text": "Radio", "value": false, "color": "yellow"},
-        {"text": "Internet", "value": false, "color": "yellow"},
-        {"text": "Telegraph", "value": true, "color": "yellow"},
+        {
+          "text": "Telephone",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Radio",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Internet",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Telegraph",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6761,10 +9593,26 @@ Map<String, dynamic> discoveries = {
             "James Watt, the Scottish inventor, pioneered the development of the steam engine, igniting the Industrial Revolution."
       },
       "options": [
-        {"text": "George Stephenson", "value": false, "color": "yellow"},
-        {"text": "Thomas Newcomen", "value": false, "color": "yellow"},
-        {"text": "Richard Trevithick", "value": false, "color": "yellow"},
-        {"text": "James Watt", "value": true, "color": "yellow"},
+        {
+          "text": "George Stephenson",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Thomas Newcomen",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Richard Trevithick",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "James Watt",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6776,10 +9624,26 @@ Map<String, dynamic> discoveries = {
             "Alfred Nobel, the Swedish chemist, invented dynamite and established the Nobel Prizes, including the Nobel Peace Prize."
       },
       "options": [
-        {"text": "Marie Curie", "value": false, "color": "yellow"},
-        {"text": "Nikola Tesla", "value": false, "color": "yellow"},
-        {"text": "Thomas Edison", "value": false, "color": "yellow"},
-        {"text": "Alfred Nobel", "value": true, "color": "yellow"},
+        {
+          "text": "Marie Curie",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Nikola Tesla",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Thomas Edison",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Alfred Nobel",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6791,10 +9655,26 @@ Map<String, dynamic> discoveries = {
             "The ancient Greeks, known for their advanced knowledge of mathematics and astronomy, created the famous Antikythera Mechanism."
       },
       "options": [
-        {"text": "Ancient Egyptians", "value": false, "color": "yellow"},
-        {"text": "Ancient Romans", "value": false, "color": "yellow"},
-        {"text": "Ancient Mayans", "value": false, "color": "yellow"},
-        {"text": "Ancient Greeks", "value": true, "color": "yellow"},
+        {
+          "text": "Ancient Egyptians",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Ancient Romans",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Ancient Mayans",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Ancient Greeks",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6806,10 +9686,26 @@ Map<String, dynamic> discoveries = {
             "Garrett Morgan, the famous African-American inventor, is known for developing agricultural and mechanical innovations, including the traffic signal."
       },
       "options": [
-        {"text": "George Washington Carver", "value": false, "color": "yellow"},
-        {"text": "Lewis Howard Latimer", "value": false, "color": "yellow"},
-        {"text": "Elijah McCoy", "value": false, "color": "yellow"},
-        {"text": "Garrett Morgan", "value": true, "color": "yellow"},
+        {
+          "text": "George Washington Carver",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Lewis Howard Latimer",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Elijah McCoy",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Garrett Morgan",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6821,10 +9717,26 @@ Map<String, dynamic> discoveries = {
             "The important fossil, discovered in the 19th century, is the Neanderthal, which helped us understand early human evolution and is named after a town in Germany."
       },
       "options": [
-        {"text": "Australopithecus", "value": false, "color": "yellow"},
-        {"text": "Homo habilis", "value": false, "color": "yellow"},
-        {"text": "Cro-Magnon", "value": false, "color": "yellow"},
-        {"text": "Neanderthal", "value": true, "color": "yellow"},
+        {
+          "text": "Australopithecus",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Homo habilis",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Cro-Magnon",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Neanderthal",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6836,10 +9748,26 @@ Map<String, dynamic> discoveries = {
             "The Olmec civilization, known for colossal stone heads and a unique calendar system, existed in Mesoamerica."
       },
       "options": [
-        {"text": "Inca", "value": false, "color": "yellow"},
-        {"text": "Maya", "value": false, "color": "yellow"},
-        {"text": "Aztec", "value": false, "color": "yellow"},
-        {"text": "Olmec", "value": true, "color": "yellow"},
+        {
+          "text": "Inca",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Maya",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Aztec",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Olmec",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6851,10 +9779,26 @@ Map<String, dynamic> discoveries = {
             "The invention by Guglielmo Marconi was the wireless telegraph, which revolutionized long-distance communication using radio waves, contributing to radio's development."
       },
       "options": [
-        {"text": "Telegraph", "value": false, "color": "yellow"},
-        {"text": "Telephone", "value": false, "color": "yellow"},
-        {"text": "Internet", "value": false, "color": "yellow"},
-        {"text": "Wireless Telegraph", "value": true, "color": "yellow"},
+        {
+          "text": "Telegraph",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Telephone",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Internet",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Wireless Telegraph",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6866,10 +9810,26 @@ Map<String, dynamic> discoveries = {
             "The ancient Greeks, known for their advanced knowledge of mathematics, created the first known analog computer, the Antikythera Mechanism."
       },
       "options": [
-        {"text": "Ancient Egyptians", "value": false, "color": "yellow"},
-        {"text": "Ancient Romans", "value": false, "color": "yellow"},
-        {"text": "Ancient Mayans", "value": false, "color": "yellow"},
-        {"text": "Ancient Greeks", "value": true, "color": "yellow"},
+        {
+          "text": "Ancient Egyptians",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Ancient Romans",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Ancient Mayans",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Ancient Greeks",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6881,10 +9841,26 @@ Map<String, dynamic> discoveries = {
             "James Watt, the Scottish scientist and inventor, improved the steam engine, playing a crucial role in the Industrial Revolution."
       },
       "options": [
-        {"text": "George Stephenson", "value": false, "color": "yellow"},
-        {"text": "Thomas Newcomen", "value": false, "color": "yellow"},
-        {"text": "Richard Trevithick", "value": false, "color": "yellow"},
-        {"text": "James Watt", "value": true, "color": "yellow"},
+        {
+          "text": "George Stephenson",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Thomas Newcomen",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Richard Trevithick",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "James Watt",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6896,10 +9872,26 @@ Map<String, dynamic> discoveries = {
             "Euclid, the ancient Greek mathematician, is known as the \"Father of Geometry\" and credited with many important mathematical theorems."
       },
       "options": [
-        {"text": "Pythagoras", "value": false, "color": "yellow"},
-        {"text": "Archimedes", "value": false, "color": "yellow"},
-        {"text": "Aristotle", "value": false, "color": "yellow"},
-        {"text": "Euclid", "value": true, "color": "yellow"},
+        {
+          "text": "Pythagoras",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Archimedes",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Aristotle",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Euclid",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6911,10 +9903,26 @@ Map<String, dynamic> discoveries = {
             "Silver, symbolized by \"Ag,\" is used for coins, jewelry, and photography."
       },
       "options": [
-        {"text": "Gold", "value": false, "color": "yellow"},
-        {"text": "Copper", "value": false, "color": "yellow"},
-        {"text": "Platinum", "value": false, "color": "yellow"},
-        {"text": "Silver", "value": true, "color": "yellow"},
+        {
+          "text": "Gold",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Copper",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Platinum",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Silver",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6926,10 +9934,26 @@ Map<String, dynamic> discoveries = {
             "The Sumerians developed an advanced system of writing called cuneiform."
       },
       "options": [
-        {"text": "The Egyptians", "value": false, "color": "yellow"},
-        {"text": "The Greeks", "value": false, "color": "yellow"},
-        {"text": "The Romans", "value": false, "color": "yellow"},
-        {"text": "The Sumerians", "value": true, "color": "yellow"},
+        {
+          "text": "The Egyptians",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "The Greeks",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "The Romans",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "The Sumerians",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6941,10 +9965,26 @@ Map<String, dynamic> discoveries = {
             "Heliocentrism is the name of the famous theory that explains the movement of the Earth around the Sun."
       },
       "options": [
-        {"text": "Geocentrism", "value": false, "color": "yellow"},
-        {"text": "Astronomism", "value": false, "color": "yellow"},
-        {"text": "Universe Theory", "value": false, "color": "yellow"},
-        {"text": "Heliocentrism", "value": true, "color": "yellow"},
+        {
+          "text": "Geocentrism",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Astronomism",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Universe Theory",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Heliocentrism",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6956,10 +9996,26 @@ Map<String, dynamic> discoveries = {
             "Apollo 11 is the name of the famous spacecraft that successfully landed humans on the moon in 1969."
       },
       "options": [
-        {"text": "Gemini 7", "value": false, "color": "yellow"},
-        {"text": "Mercury 8", "value": false, "color": "yellow"},
-        {"text": "Skylab 1", "value": false, "color": "yellow"},
-        {"text": "Apollo 11", "value": true, "color": "yellow"},
+        {
+          "text": "Gemini 7",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Mercury 8",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Skylab 1",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Apollo 11",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6971,10 +10027,26 @@ Map<String, dynamic> discoveries = {
             "Alan Turing is the computer scientist considered the father of artificial intelligence and designed the Turing Machine."
       },
       "options": [
-        {"text": "John von Neumann", "value": false, "color": "yellow"},
-        {"text": "Tim Berners-Lee", "value": false, "color": "yellow"},
-        {"text": "Linus Torvalds", "value": false, "color": "yellow"},
-        {"text": "Alan Turing", "value": true, "color": "yellow"},
+        {
+          "text": "John von Neumann",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Tim Berners-Lee",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Linus Torvalds",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Alan Turing",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -6986,10 +10058,26 @@ Map<String, dynamic> discoveries = {
             "Stonehenge is the name of the famous ancient monument in England that is a circle of standing stones."
       },
       "options": [
-        {"text": "Pyramids", "value": false, "color": "yellow"},
-        {"text": "Sphinx", "value": false, "color": "yellow"},
-        {"text": "Colosseum", "value": false, "color": "yellow"},
-        {"text": "Stonehenge", "value": true, "color": "yellow"},
+        {
+          "text": "Pyramids",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Sphinx",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Colosseum",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Stonehenge",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -7001,10 +10089,26 @@ Map<String, dynamic> discoveries = {
             "The Colosseum is the name of the ancient structure in Greece that was used for athletic contests and games."
       },
       "options": [
-        {"text": "The Parthenon", "value": false, "color": "yellow"},
-        {"text": "The Acropolis", "value": false, "color": "yellow"},
-        {"text": "The Forum", "value": false, "color": "yellow"},
-        {"text": "The Colosseum", "value": true, "color": "yellow"},
+        {
+          "text": "The Parthenon",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "The Acropolis",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "The Forum",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "The Colosseum",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -7016,14 +10120,26 @@ Map<String, dynamic> discoveries = {
             "Blaise Pascal is the famous mathematician who came up with the theory of probability and the concept of Pascal's Triangle."
       },
       "options": [
-        {"text": "Leonhard Euler", "value": false, "color": "yellow"},
-        {"text": "Pierre-Simon Laplace", "value": false, "color": "yellow"},
+        {
+          "text": "Leonhard Euler",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Pierre-Simon Laplace",
+          "value": false,
+          "color": "yellow",
+        },
         {
           "text": "Ren\u00c3\u00a9 Descartes",
           "value": false,
           "color": "yellow"
         },
-        {"text": "Blaise Pascal", "value": true, "color": "yellow"},
+        {
+          "text": "Blaise Pascal",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -7035,10 +10151,26 @@ Map<String, dynamic> discoveries = {
             "Vasco da Gama is the famous explorer who was the first European to reach India by sea, opening up a new trade route."
       },
       "options": [
-        {"text": "Christopher Columbus", "value": false, "color": "yellow"},
-        {"text": "Ferdinand Magellan", "value": false, "color": "yellow"},
-        {"text": "Marco Polo", "value": false, "color": "yellow"},
-        {"text": "Vasco da Gama", "value": true, "color": "yellow"},
+        {
+          "text": "Christopher Columbus",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Ferdinand Magellan",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Marco Polo",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Vasco da Gama",
+          "value": true,
+          "color": "yellow",
+        },
       ]
     },
     {
@@ -7050,10 +10182,26 @@ Map<String, dynamic> discoveries = {
             "The Bastille is the name of the famous fortress in Paris, known as the former royal palace and later a prison during the French Revolution."
       },
       "options": [
-        {"text": "The Louvre", "value": false, "color": "yellow"},
-        {"text": "The Eiffel Tower", "value": false, "color": "yellow"},
-        {"text": "Notre-Dame Cathedral", "value": false, "color": "yellow"},
-        {"text": "The Bastille", "value": true, "color": "yellow"},
+        {
+          "text": "The Louvre",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "The Eiffel Tower",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "Notre-Dame Cathedral",
+          "value": false,
+          "color": "yellow",
+        },
+        {
+          "text": "The Bastille",
+          "value": true,
+          "color": "yellow",
+        },
       ],
     },
   ],
