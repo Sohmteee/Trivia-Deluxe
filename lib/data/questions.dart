@@ -3992,7 +3992,7 @@ Map<String, dynamic> scienceData = {
   ],
 };
 
-fruitsAndVegetables = {
+Map<String, dynamic> fruitsAndVegetables = {
   "title": "",
   "currentIndex": 0,
   "currentLevel": 1,
@@ -4023,7 +4023,7 @@ fruitsAndVegetables = {
           "text": "Avocado",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -4052,7 +4052,7 @@ fruitsAndVegetables = {
           "text": "Cherry",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -4081,7 +4081,7 @@ fruitsAndVegetables = {
           "text": "Celery",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -4110,7 +4110,7 @@ fruitsAndVegetables = {
           "text": "Tomato",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -4139,7 +4139,7 @@ fruitsAndVegetables = {
           "text": "Pineapple",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -4168,7 +4168,7 @@ fruitsAndVegetables = {
           "text": "Cucumber",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -4197,7 +4197,7 @@ fruitsAndVegetables = {
           "text": "Fig",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -4226,7 +4226,7 @@ fruitsAndVegetables = {
           "text": "Turnip",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -4255,7 +4255,7 @@ fruitsAndVegetables = {
           "text": "Carrot",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -4284,7 +4284,7 @@ fruitsAndVegetables = {
           "text": "Garlic",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -4313,7 +4313,7 @@ fruitsAndVegetables = {
           "text": "Lettuce",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -4342,7 +4342,7 @@ fruitsAndVegetables = {
           "text": "Lettuce",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -4371,7 +4371,7 @@ fruitsAndVegetables = {
           "text": "Broccoli",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -4400,7 +4400,7 @@ fruitsAndVegetables = {
           "text": "Banana",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -4429,7 +4429,7 @@ fruitsAndVegetables = {
           "text": "Grapefruit",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -4458,7 +4458,7 @@ fruitsAndVegetables = {
           "text": "Apple",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -4487,7 +4487,7 @@ fruitsAndVegetables = {
           "text": "Pineapple",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -4516,7 +4516,7 @@ fruitsAndVegetables = {
           "text": "Kiwi",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -4545,7 +4545,7 @@ fruitsAndVegetables = {
           "text": "Watermelon",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -4574,7 +4574,7 @@ fruitsAndVegetables = {
           "text": "Mango",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -4603,7 +4603,7 @@ fruitsAndVegetables = {
           "text": "Mango",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -4632,7 +4632,7 @@ fruitsAndVegetables = {
           "text": "Banana",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -4661,7 +4661,7 @@ fruitsAndVegetables = {
           "text": "Bell pepper",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -4690,7 +4690,7 @@ fruitsAndVegetables = {
           "text": "Potato",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -4719,7 +4719,7 @@ fruitsAndVegetables = {
           "text": "Okra",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -4748,7 +4748,7 @@ fruitsAndVegetables = {
           "text": "Nectarine",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -4777,7 +4777,7 @@ fruitsAndVegetables = {
           "text": "Tangerine",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -4806,7 +4806,7 @@ fruitsAndVegetables = {
           "text": "Cantaloupe",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -4835,7 +4835,7 @@ fruitsAndVegetables = {
           "text": "Lemon",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -4864,7 +4864,7 @@ fruitsAndVegetables = {
           "text": "Cherry",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -4893,7 +4893,7 @@ fruitsAndVegetables = {
           "text": "Blackberry",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -4922,7 +4922,7 @@ fruitsAndVegetables = {
           "text": "Cashews",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -4951,7 +4951,7 @@ fruitsAndVegetables = {
           "text": "Broccoli",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -4980,7 +4980,7 @@ fruitsAndVegetables = {
           "text": "Barley",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -5009,7 +5009,7 @@ fruitsAndVegetables = {
           "text": "Millet",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -5038,7 +5038,7 @@ fruitsAndVegetables = {
           "text": "Quinoa",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -5067,7 +5067,7 @@ fruitsAndVegetables = {
           "text": "Millet",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -5096,7 +5096,7 @@ fruitsAndVegetables = {
           "text": "Rice",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -5125,7 +5125,7 @@ fruitsAndVegetables = {
           "text": "Oats",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -5154,7 +5154,7 @@ fruitsAndVegetables = {
           "text": "Horned Cucumber",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -5183,7 +5183,7 @@ fruitsAndVegetables = {
           "text": "Monkey Orange",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -5212,7 +5212,7 @@ fruitsAndVegetables = {
           "text": "Marula",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -5241,7 +5241,7 @@ fruitsAndVegetables = {
           "text": "Cherry",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -5270,7 +5270,7 @@ fruitsAndVegetables = {
           "text": "Arugula",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -5299,7 +5299,7 @@ fruitsAndVegetables = {
           "text": "Dragon Fruit",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -5328,7 +5328,7 @@ fruitsAndVegetables = {
           "text": "Mango",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -5357,7 +5357,7 @@ fruitsAndVegetables = {
           "text": "Arugula",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -5386,7 +5386,7 @@ fruitsAndVegetables = {
           "text": "Cantaloupe",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -5415,7 +5415,7 @@ fruitsAndVegetables = {
           "text": "Ginger",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -5444,7 +5444,7 @@ fruitsAndVegetables = {
           "text": "Cabbage",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -5473,7 +5473,7 @@ fruitsAndVegetables = {
           "text": "Shallot",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -5502,7 +5502,7 @@ fruitsAndVegetables = {
           "text": "Plantain",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -5531,7 +5531,7 @@ fruitsAndVegetables = {
           "text": "Lime",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -5560,7 +5560,7 @@ fruitsAndVegetables = {
           "text": "Jujube",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -5589,7 +5589,7 @@ fruitsAndVegetables = {
           "text": "Cabbage",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -5618,7 +5618,7 @@ fruitsAndVegetables = {
           "text": "Mango",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -5647,7 +5647,7 @@ fruitsAndVegetables = {
           "text": "Lychee",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -5676,7 +5676,7 @@ fruitsAndVegetables = {
           "text": "Radish",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -5705,7 +5705,7 @@ fruitsAndVegetables = {
           "text": "Cinnamon",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -5734,7 +5734,7 @@ fruitsAndVegetables = {
           "text": "Cucumber",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -5763,7 +5763,7 @@ fruitsAndVegetables = {
           "text": "Arugula",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -5792,7 +5792,7 @@ fruitsAndVegetables = {
           "text": "Monkey orange",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -5821,7 +5821,7 @@ fruitsAndVegetables = {
           "text": "Cumin",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -5850,7 +5850,7 @@ fruitsAndVegetables = {
           "text": "Papaya",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -5879,7 +5879,7 @@ fruitsAndVegetables = {
           "text": "Grapefruit",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -5908,7 +5908,7 @@ fruitsAndVegetables = {
           "text": "Cherry",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -5937,7 +5937,7 @@ fruitsAndVegetables = {
           "text": "Cucumber",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -5966,7 +5966,7 @@ fruitsAndVegetables = {
           "text": "Cauliflower",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -5995,7 +5995,7 @@ fruitsAndVegetables = {
           "text": "Starfruit",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -6024,7 +6024,7 @@ fruitsAndVegetables = {
           "text": "Pinto beans",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -6053,7 +6053,7 @@ fruitsAndVegetables = {
           "text": "Persimmon",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -6082,7 +6082,7 @@ fruitsAndVegetables = {
           "text": "Pecans",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -6111,7 +6111,7 @@ fruitsAndVegetables = {
           "text": "Kumquat",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -6140,7 +6140,7 @@ fruitsAndVegetables = {
           "text": "Passion fruit",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -6169,7 +6169,7 @@ fruitsAndVegetables = {
           "text": "Elderberry",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -6198,7 +6198,7 @@ fruitsAndVegetables = {
           "text": "Cranberry",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -6227,7 +6227,7 @@ fruitsAndVegetables = {
           "text": "Cantaloupe",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -6256,7 +6256,7 @@ fruitsAndVegetables = {
           "text": "Cranberry",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -6285,7 +6285,7 @@ fruitsAndVegetables = {
           "text": "Black currant",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -6314,7 +6314,7 @@ fruitsAndVegetables = {
           "text": "Longan",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -6343,7 +6343,7 @@ fruitsAndVegetables = {
           "text": "Satsuma",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -6372,7 +6372,7 @@ fruitsAndVegetables = {
           "text": "Mangosteen",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -6401,7 +6401,7 @@ fruitsAndVegetables = {
           "text": "Longan",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -6430,7 +6430,7 @@ fruitsAndVegetables = {
           "text": "Navel orange",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -6459,7 +6459,7 @@ fruitsAndVegetables = {
           "text": "Feijoa",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -6488,7 +6488,7 @@ fruitsAndVegetables = {
           "text": "Parsley",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -6517,7 +6517,7 @@ fruitsAndVegetables = {
           "text": "Celery",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -6546,7 +6546,7 @@ fruitsAndVegetables = {
           "text": "Litchi",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -6575,7 +6575,7 @@ fruitsAndVegetables = {
           "text": "Dragon fruit",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -6604,7 +6604,7 @@ fruitsAndVegetables = {
           "text": "Dragon fruit",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -6633,7 +6633,7 @@ fruitsAndVegetables = {
           "text": "Tangerine",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -6662,7 +6662,7 @@ fruitsAndVegetables = {
           "text": "Quince",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -6691,7 +6691,7 @@ fruitsAndVegetables = {
           "text": "Guava",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -6720,7 +6720,7 @@ fruitsAndVegetables = {
           "text": "Buddha's Hand",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -6749,7 +6749,7 @@ fruitsAndVegetables = {
           "text": "Casaba melon",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -6778,7 +6778,7 @@ fruitsAndVegetables = {
           "text": "Blueberry",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -6807,7 +6807,7 @@ fruitsAndVegetables = {
           "text": "Cranberry",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -6836,7 +6836,7 @@ fruitsAndVegetables = {
           "text": "Kiwi",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -6865,7 +6865,7 @@ fruitsAndVegetables = {
           "text": "Red",
           "value": false,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -6894,8 +6894,8 @@ fruitsAndVegetables = {
           "text": "Spain",
           "value": false,
           "color": "yellow"
-        }
-      ]
-    }
-  ]
-}
+        },
+      ],
+    },
+  ],
+};
