@@ -3992,7 +3992,7 @@ Map<String, dynamic> scienceData = {
   ],
 };
 
-Map<String, dynamic> fruitsAndVegetables = {
+Map<String, dynamic> fruitsAndVegetablesData = {
   "title": "",
   "currentIndex": 0,
   "currentLevel": 1,
