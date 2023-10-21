@@ -40,6 +40,7 @@ class SelectScreen extends StatefulWidget {
 
 class _SelectScreenState extends State<SelectScreen> {
   // BannerAd? _bannerAd;
+  int pageIndex = 0;
 
   List<List<Map<String, dynamic>>> selectItems = [
     [
@@ -168,6 +169,12 @@ class _SelectScreenState extends State<SelectScreen> {
                     itemCount: selectItems.length,
                     physics: const BouncingScrollPhysics(),
                     scrollDirection: Axis.horizontal,
+
+                    onPageChanged: (value) {
+                      setSt
+                    },
+
+
                     itemBuilder: (context, pageIndex) {
                       final selectItem = selectItems[pageIndex];
 
@@ -251,7 +258,6 @@ class _SelectScreenState extends State<SelectScreen> {
                     }),
               ),
               const Spacer(),
-              
               const Spacer(),
             ],
           ),
