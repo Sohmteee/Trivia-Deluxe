@@ -257,6 +257,23 @@ class _SelectScreenState extends State<SelectScreen> {
                     }),
               ),
               const Spacer(),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  for (int i = 0; i < selectItems.length; i++)
+                    Container(
+                      margin: EdgeInsets.symmetric(horizontal: 5.sp),
+                      width: 10.sp,
+                      height: 10.sp,
+                      decoration: BoxDecoration(
+                        color: (pageIndex == i)
+                            ? AppColor.yellow
+                            : AppColor.lightRed,
+                        borderRadius: BorderRadius.circular(50.r),
+                      ),
+                    ),
+                ],
+              ),
               const Spacer(),
             ],
           ),
