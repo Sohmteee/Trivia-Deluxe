@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:auto_size_text/auto_size_text.dart';
 import 'package:circular_countdown_timer/circular_countdown_timer.dart';
 import 'package:confetti/confetti.dart';
 import 'package:flutter/material.dart';
@@ -227,6 +228,7 @@ class _GameScreenState extends State<GameScreen> {
               ),
               child: Center(
                 child: AutoSizeText(
+                  minFontSize: StepGra 20.sp,
                   questionProvider.question,
                   style: TextStyle(
                     color: AppColor.white,
