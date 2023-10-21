@@ -248,7 +248,8 @@ class _SelectScreenState extends State<SelectScreen> {
                                           ),
                                         ),
                                         SizedBox(height: 5.h),
-                                        Column(
+                                        Stack(
+                                          alignment: Alignment.centerLeft,
                                           children: [
                                             Container(
                                               height: 6.h,
@@ -257,7 +258,19 @@ class _SelectScreenState extends State<SelectScreen> {
                                                 borderRadius:
                                                     BorderRadius.circular(50.r),
                                               ),
-                                              
+                                            ),
+                                            Container(
+                                              height: 6.h,
+                                              width: box.get(item["data"]
+                                                              ["title"])?[
+                                                          "currentLevel"] /
+                                                      100 +
+                                                  2,
+                                              decoration: BoxDecoration(
+                                                color: AppColor.white,
+                                                borderRadius:
+                                                    BorderRadius.circular(50.r),
+                                              ),
                                             ),
                                           ],
                                         ),
