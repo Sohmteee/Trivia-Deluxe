@@ -43,7 +43,7 @@ class SelectScreen extends StatefulWidget {
 class _SelectScreenState extends State<SelectScreen> {
   // BannerAd? _bannerAd;
   late PageController pageController;
-  int pageIndex = 0;
+  late int pageIndex;
 
   List<List<Map<String, dynamic>>> selectItems = [
     [
@@ -134,7 +134,8 @@ class _SelectScreenState extends State<SelectScreen> {
     _loadBannerAd(); */
 
     final selectProvider = Provider.of<SelectProvider>(context, listen: false);
-    pageController =  selectProvider.pageIndex
+    pageController = PageController(initialPage: selectProvider.pageIndex);
+    pageIndex = selectProvider.pageIndex;
     super.initState();
   }
 
@@ -177,7 +178,9 @@ class _SelectScreenState extends State<SelectScreen> {
                     scrollDirection: Axis.horizontal,
                     onPageChanged: (value) {
                       setState(() {
-                        pageIndex = value;
+                        final selectProvider =
+                            Provider.of<SelectProvider>(context, listen: false);
+                        selectProvider.pageIndex = value;
                       });
                     },
                     itemBuilder: (context, pageIndex) {
