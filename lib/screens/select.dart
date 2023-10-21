@@ -235,47 +235,46 @@ class _SelectScreenState extends State<SelectScreen> {
                                     ),
                                     textAlign: TextAlign.center,
                                   ),
-                                  trailing: IntrinsicWidth(
-                                    child: Column(
-                                      mainAxisAlignment:
-                                          MainAxisAlignment.center,
-                                      children: [
-                                        Text(
-                                          "Level ${box.get(item["data"]["title"])?["currentLevel"]} / 30",
-                                          style: TextStyle(
-                                            fontSize: 16.sp,
-                                            color: AppColor.yellow,
+                                  trailing: Column(
+                                    mainAxisAlignment:
+                                        MainAxisAlignment.center,
+                                    children: [
+                                      Text(
+                                        "Level ${box.get(item["data"]["title"])?["currentLevel"]} / 30",
+                                        style: TextStyle(
+                                          fontSize: 16.sp,
+                                          color: AppColor.yellow,
+                                        ),
+                                      ),
+                                      SizedBox(height: 5.h),
+                                      Stack(
+                                        alignment: Alignment.centerLeft,
+                                        children: [
+                                          Container(
+                                            height: 6.h,
+                                            width: 100,
+                                            decoration: BoxDecoration(
+                                              color: AppColor.white,
+                                              borderRadius:
+                                                  BorderRadius.circular(50.r),
+                                            ),
                                           ),
-                                        ),
-                                        SizedBox(height: 5.h),
-                                        Stack(
-                                          alignment: Alignment.centerLeft,
-                                          children: [
-                                            Container(
-                                              height: 6.h,
-                                              decoration: BoxDecoration(
-                                                color: AppColor.white,
-                                                borderRadius:
-                                                    BorderRadius.circular(50.r),
-                                              ),
+                                          Container(
+                                            height: 6.h,
+                                            width: (box.get(item["data"]
+                                                            ["title"])?[
+                                                        "currentLevel"] +
+                                                    20)
+                                                .toDouble(),
+                                            decoration: BoxDecoration(
+                                              color: AppColor.yellow,
+                                              borderRadius:
+                                                  BorderRadius.circular(50.r),
                                             ),
-                                            Container(
-                                              height: 6.h,
-                                              width: (box.get(item["data"]
-                                                              ["title"])?[
-                                                          "currentLevel"] +
-                                                      10)
-                                                  .toDouble(),
-                                              decoration: BoxDecoration(
-                                                color: AppColor.yellow,
-                                                borderRadius:
-                                                    BorderRadius.circular(50.r),
-                                              ),
-                                            ),
-                                          ],
-                                        ),
-                                      ],
-                                    ),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
                                   ),
                                 ),
                               ),
