@@ -43,7 +43,6 @@ class SelectScreen extends StatefulWidget {
 class _SelectScreenState extends State<SelectScreen> {
   // BannerAd? _bannerAd;
   late PageController pageController;
-  late int pageIndex;
 
   List<List<Map<String, dynamic>>> selectItems = [
     [
@@ -135,7 +134,6 @@ class _SelectScreenState extends State<SelectScreen> {
 
     final selectProvider = Provider.of<SelectProvider>(context, listen: false);
     pageController = PageController(initialPage: selectProvider.pageIndex);
-    pageIndex = selectProvider.pageIndex;
     super.initState();
   }
 
@@ -173,133 +171,134 @@ class _SelectScreenState extends State<SelectScreen> {
               SizedBox(
                 height: 400.h,
                 child: Consumer<SelectProvider>(
-                  builder: (context, selectProvider, _) {
-                    return PageView.builder(
-                        itemCount: selectItems.length,
-                        
-                        physics: const BouncingScrollPhysics(),
-                        scrollDirection: Axis.horizontal,
-                        onPageChanged: (value) {
-                          
-                            selectProvider.pageIndex = value;
-                          
-                        },
-                        itemBuilder: (context, pageIndex) {
-                          final selectItem = selectItems[pageIndex];
+                    builder: (context, selectProvider, _) {
+                  return PageView.builder(
+                      itemCount: selectItems.length,
+                      controller: pageController,
+                      physics: const BouncingScrollPhysics(),
+                      scrollDirection: Axis.horizontal,
+                      onPageChanged: (value) {
+                        selectProvider.pageIndex = value;
+                      },
+                      itemBuilder: (context, pageIndex) {
+                        final selectItem = selectItems[pageIndex];
 
-                          return ListView.builder(
-                            itemCount: selectItems.length,
-                            padding: EdgeInsets.only(
-                                top: 20.h, left: 10.sp, right: 10.sp),
-                            physics: const NeverScrollableScrollPhysics(),
-                            itemBuilder: (BuildContext context, int listIndex) {
-                              final item = selectItem[listIndex];
+                        return ListView.builder(
+                          itemCount: selectItems.length,
+                          padding: EdgeInsets.only(
+                              top: 20.h, left: 10.sp, right: 10.sp),
+                          physics: const NeverScrollableScrollPhysics(),
+                          itemBuilder: (BuildContext context, int listIndex) {
+                            final item = selectItem[listIndex];
 
-                              return Consumer<QuestionProvider>(
-                                  builder: (_, questionProvider, child) {
-                                return ZoomTapAnimation(
-                                  onTap: () {
-                                    var stageProvider = Provider.of<StageProvider>(
-                                        context,
-                                        listen: false);
-                                    stageProvider.resetCompletedStage();
-                                    questionProvider.title = item["data"]["title"];
+                            return Consumer<QuestionProvider>(
+                                builder: (_, questionProvider, child) {
+                              return ZoomTapAnimation(
+                                onTap: () {
+                                  var stageProvider =
+                                      Provider.of<StageProvider>(context,
+                                          listen: false);
+                                  stageProvider.resetCompletedStage();
+                                  questionProvider.title =
+                                      item["data"]["title"];
 
-                                    if (box.get(item["data"]["title"]) == null) {
-                                      box.put(item["data"]["title"], item["data"]);
-                                    }
+                                  if (box.get(item["data"]["title"]) == null) {
+                                    box.put(
+                                        item["data"]["title"], item["data"]);
+                                  }
 
-                                    questionProvider.data =
-                                        box.get(item["data"]["title"]);
+                                  questionProvider.data =
+                                      box.get(item["data"]["title"]);
 
-                                    questionProvider.currentLevel = box
-                                        .get(item["data"]["title"])["currentLevel"];
-                                    Future.delayed(
-                                      3.microseconds,
-                                      () => Navigator.pushNamed(context, "/stage"),
-                                    );
-                                  },
-                                  child: Container(
-                                    padding: EdgeInsets.all(10.sp),
-                                    margin: EdgeInsets.only(bottom: 20.sp),
-                                    decoration: BoxDecoration(
+                                  questionProvider.currentLevel = box.get(
+                                      item["data"]["title"])["currentLevel"];
+                                  Future.delayed(
+                                    3.microseconds,
+                                    () =>
+                                        Navigator.pushNamed(context, "/stage"),
+                                  );
+                                },
+                                child: Container(
+                                  padding: EdgeInsets.all(10.sp),
+                                  margin: EdgeInsets.only(bottom: 20.sp),
+                                  decoration: BoxDecoration(
+                                    color: AppColor.lightRed,
+                                    border: Border.all(
+                                      width: 2.sp,
                                       color: AppColor.lightRed,
-                                      border: Border.all(
-                                        width: 2.sp,
-                                        color: AppColor.lightRed,
-                                      ),
-                                      borderRadius: BorderRadius.circular(20.r),
                                     ),
-                                    child: ListTile(
-                                      leading: Image.asset(
-                                        item["image"],
-                                        width: item["data"]["title"] ==
-                                                "Proverbs, Idioms, and Riddles"
-                                            ? 35.w
-                                            : 40.w,
-                                        height: item["data"]["title"] ==
-                                                "Proverbs, Idioms, and Riddles"
-                                            ? 35.h
-                                            : 40.h,
+                                    borderRadius: BorderRadius.circular(20.r),
+                                  ),
+                                  child: ListTile(
+                                    leading: Image.asset(
+                                      item["image"],
+                                      width: item["data"]["title"] ==
+                                              "Proverbs, Idioms, and Riddles"
+                                          ? 35.w
+                                          : 40.w,
+                                      height: item["data"]["title"] ==
+                                              "Proverbs, Idioms, and Riddles"
+                                          ? 35.h
+                                          : 40.h,
+                                    ),
+                                    title: Text(
+                                      item["data"]["title"],
+                                      style: TextStyle(
+                                        color: AppColor.white,
+                                        fontSize: 16.sp,
                                       ),
-                                      title: Text(
-                                        item["data"]["title"],
-                                        style: TextStyle(
-                                          color: AppColor.white,
-                                          fontSize: 16.sp,
+                                      textAlign: TextAlign.center,
+                                    ),
+                                    trailing: Column(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.center,
+                                      children: [
+                                        Text(
+                                          "Level ${box.get(item["data"]["title"])?["currentLevel"]} / 30",
+                                          style: TextStyle(
+                                            fontSize: 16.sp,
+                                            color: AppColor.yellow,
+                                          ),
                                         ),
-                                        textAlign: TextAlign.center,
-                                      ),
-                                      trailing: Column(
-                                        mainAxisAlignment: MainAxisAlignment.center,
-                                        children: [
-                                          Text(
-                                            "Level ${box.get(item["data"]["title"])?["currentLevel"]} / 30",
-                                            style: TextStyle(
-                                              fontSize: 16.sp,
-                                              color: AppColor.yellow,
+                                        SizedBox(height: 5.h),
+                                        Stack(
+                                          alignment: Alignment.centerLeft,
+                                          children: [
+                                            Container(
+                                              height: 6.h,
+                                              width: 50.toDouble(),
+                                              decoration: BoxDecoration(
+                                                color: AppColor.white,
+                                                borderRadius:
+                                                    BorderRadius.circular(50.r),
+                                              ),
                                             ),
-                                          ),
-                                          SizedBox(height: 5.h),
-                                          Stack(
-                                            alignment: Alignment.centerLeft,
-                                            children: [
-                                              Container(
-                                                height: 6.h,
-                                                width: 50.toDouble(),
-                                                decoration: BoxDecoration(
-                                                  color: AppColor.white,
-                                                  borderRadius:
-                                                      BorderRadius.circular(50.r),
-                                                ),
+                                            Container(
+                                              height: 6.h,
+                                              width: (box.get(item["data"]
+                                                              ["title"])?[
+                                                          "currentLevel"] +
+                                                      1) *
+                                                  50 /
+                                                  30.toDouble(),
+                                              decoration: BoxDecoration(
+                                                color: AppColor.yellow,
+                                                borderRadius:
+                                                    BorderRadius.circular(50.r),
                                               ),
-                                              Container(
-                                                height: 6.h,
-                                                width: (box.get(item["data"]
-                                                                ["title"])?[
-                                                            "currentLevel"] +
-                                                        1) *
-                                                    50 /
-                                                    30.toDouble(),
-                                                decoration: BoxDecoration(
-                                                  color: AppColor.yellow,
-                                                  borderRadius:
-                                                      BorderRadius.circular(50.r),
-                                                ),
-                                              ),
-                                            ],
-                                          ),
-                                        ],
-                                      ),
+                                            ),
+                                          ],
+                                        ),
+                                      ],
                                     ),
                                   ),
-                                );
-                              });
-                            },
-                          );
-                        });
-                  }
-                ),
+                                ),
+                              );
+                            });
+                          },
+                        );
+                      });
+                }),
               ),
               const Spacer(flex: 2),
               Row(
@@ -312,9 +311,11 @@ class _SelectScreenState extends State<SelectScreen> {
                       width: 10.sp,
                       height: 10.sp,
                       decoration: BoxDecoration(
-                        color: (pageIndex == i)
-                            ? AppColor.yellow
-                            : AppColor.lightRed,
+                        color:
+                            (Provider.of<SelectProvider>(context).pageIndex ==
+                                    i)
+                                ? AppColor.yellow
+                                : AppColor.lightRed,
                         borderRadius: BorderRadius.circular(50.r),
                       ),
                     ),
