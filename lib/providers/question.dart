@@ -1,6 +1,3 @@
-import 'dart:io';
-
-import 'package:csv/csv.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:provider/provider.dart';
@@ -113,34 +110,6 @@ class QuestionProvider extends ChangeNotifier {
       Future.delayed(.2.seconds, () {
         notifyListeners();
       });
-    }
-  }
-
-  Future<List<List<dynamic>>?> readCSV(String path) async {
-    final input = File(path);
-
-    try {
-      String contents = await input.readAsString();
-      final List<List<dynamic>> rowsAsListOfValues =
-          const CsvToListConverter().convert(contents);
-      return rowsAsListOfValues;
-    } catch (e) {
-      print('Error reading CSV: $e');
-      return null;
-    }
-  }
-
-  validateCSV() async {
-    List<List<dynamic>>? csvData = await readCSV("assets/csv/science.csv");
-
-    if (csvData != null) {
-      for (var row in csvData) {
-        for (var cell in row) {
-          print(cell);
-        }
-      }
-    } else {
-      print('Failed to read and parse CSV file.');
     }
   }
 }
