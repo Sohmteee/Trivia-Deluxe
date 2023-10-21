@@ -153,7 +153,7 @@ class _SelectScreenState extends State<SelectScreen> {
           child: Column(
             children: [
               const GameStats(),
-              const Spacer(flex: 2flex: 2),
+              const Spacer(flex: 4),
               Text(
                 "Choose a category",
                 style: TextStyle(
