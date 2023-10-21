@@ -237,6 +237,8 @@ class _SelectScreenState extends State<SelectScreen> {
                                   ),
                                   trailing: IntrinsicWidth(
                                     child: Column(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.center,
                                       children: [
                                         Text(
                                           "Level ${box.get(item["data"]["title"])?["currentLevel"]} / 30",
