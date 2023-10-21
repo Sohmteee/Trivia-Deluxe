@@ -40,7 +40,6 @@ class QuestionProvider extends ChangeNotifier {
 
     question = questions[questionIndex]["question"];
     options = questions[questionIndex]["options"];
-
     options.shuffle();
 
     notifyListeners();
