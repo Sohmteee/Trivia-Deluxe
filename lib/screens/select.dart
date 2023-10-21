@@ -248,25 +248,18 @@ class _SelectScreenState extends State<SelectScreen> {
                                           ),
                                         ),
                                         SizedBox(height: 5.h),
-                                        Container(
-                                          height: 6.h,
-                                          decoration: BoxDecoration(
-                                            color: AppColor.white,
-                                            borderRadius:
-                                                BorderRadius.circular(50.r),
-                                          ),
-                                          child: Container(
-                                            height: 6.h,
-                                            width:
-                                                box.get(item["data"]["title"])?[
-                                                        "currentLevel"] /
-                                                    100,
-                                            decoration: BoxDecoration(
-                                              color: AppColor.white,
-                                              borderRadius:
-                                                  BorderRadius.circular(50.r),
+                                        Column(
+                                          children: [
+                                            Container(
+                                              height: 6.h,
+                                              decoration: BoxDecoration(
+                                                color: AppColor.white,
+                                                borderRadius:
+                                                    BorderRadius.circular(50.r),
+                                              ),
+                                              
                                             ),
-                                          ),
+                                          ],
                                         ),
                                       ],
                                     ),
