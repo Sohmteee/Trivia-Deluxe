@@ -16,6 +16,10 @@ import 'package:trivia/data/questions/history.dart';
 import 'package:trivia/data/questions/inventions.dart';
 import 'package:trivia/data/questions/politics.dart';
 import 'package:trivia/data/questions/pop_culture.dart';
+import 'package:trivia/data/questions/proverbs.dart';
+import 'package:trivia/data/questions/religion.dart';
+import 'package:trivia/data/questions/sports.dart';
+import 'package:trivia/data/questions/vocab.dart';
 import 'package:trivia/main.dart';
 import 'package:trivia/models/game_background.dart';
 import 'package:trivia/models/stat_bar.dart';
@@ -89,25 +93,25 @@ class _SelectScreenState extends State<SelectScreen> {
       },
       {
         "image": "assets/images/science.png",
-        "data": booksData,
+        "data": proverbsIdiomsRiddlesData,
       },
     ],
     [
       {
         "image": "assets/images/dolphin.png",
-        "data": animalsData,
+        "data": religionData,
       },
       {
         "image": "assets/images/science.png",
-        "data": animeData,
+        "data": scienceData,
       },
       {
         "image": "assets/images/dolphin.png",
-        "data": artsData,
+        "data": sportsData,
       },
       {
         "image": "assets/images/science.png",
-        "data": booksData,
+        "data": vocabData,
       },
     ],
   ];

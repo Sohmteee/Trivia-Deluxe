@@ -1,4 +1,4 @@
-Map<String, dynamic> vocab = {
+Map<String, dynamic> vocabData = {
   "title": "Vocabulary",
   "currentIndex": 0,
   "currentLevel": 1,
