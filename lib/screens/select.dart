@@ -6,7 +6,6 @@ import 'package:toast/toast.dart';
 import 'package:trivia/ad_helper.dart';
 import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/data/box.dart';
-import 'package:trivia/data/questions.dart';
 import 'package:trivia/main.dart';
 import 'package:trivia/models/game_background.dart';
 import 'package:trivia/models/stat_bar.dart';
@@ -14,6 +13,11 @@ import 'package:trivia/providers/stage.dart';
 import 'package:trivia/providers/question.dart';
 import 'package:velocity_x/velocity_x.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
+
+import '../data/questions/animals.dart';
+import '../data/questions/proverbs.dart';
+import '../data/questions/riddles.dart';
+import '../data/questions/science.dart';
 
 class SelectScreen extends StatefulWidget {
   const SelectScreen({super.key});
