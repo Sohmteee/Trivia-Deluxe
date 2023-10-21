@@ -245,6 +245,7 @@ class _SelectScreenState extends State<SelectScreen> {
                                             color: AppColor.yellow,
                                           ),
                                         ),
+                                        SizedBox(height: 5.h),
                                         Container(
                                           height: 10.h,
                                           decoration: BoxDecoration(
