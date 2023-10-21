@@ -226,7 +226,7 @@ class _GameScreenState extends State<GameScreen> {
                 ),
               ),
               child: Center(
-                child: AutoSizeT(
+                child: AutoSizeText(
                   questionProvider.question,
                   style: TextStyle(
                     color: AppColor.white,
