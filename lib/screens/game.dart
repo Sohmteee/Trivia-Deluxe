@@ -226,16 +226,13 @@ class _GameScreenState extends State<GameScreen> {
                 ),
               ),
               child: Center(
-                child: FittedBox(
-                  fit: BoxFit.contain,
-                  child: Text(
-                    questionProvider.question,
-                    style: TextStyle(
-                      color: AppColor.white,
-                      fontSize: 30.sp,
-                    ),
-                    textAlign: TextAlign.center,
+                child: Text(
+                  questionProvider.question,
+                  style: TextStyle(
+                    color: AppColor.white,
+                    fontSize: 30.sp,
                   ),
+                  textAlign: TextAlign.center,
                 ),
               ),
             ),
