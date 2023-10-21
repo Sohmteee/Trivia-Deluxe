@@ -84,7 +84,7 @@ class _SelectScreenState extends State<SelectScreen> {
         "data": inventionsData,
       },
       {
-        "image": "",
+        "image": "assets/images/politics.png",
         "data": politicsData,
       },
       {
