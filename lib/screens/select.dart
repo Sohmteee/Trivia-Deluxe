@@ -251,7 +251,7 @@ class _SelectScreenState extends State<SelectScreen> {
                                         children: [
                                           Container(
                                             height: 6.h,
-                                            width: 30.toDouble(),
+                                            width: 50.toDouble(),
                                             decoration: BoxDecoration(
                                               color: AppColor.white,
                                               borderRadius:
