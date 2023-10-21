@@ -236,8 +236,7 @@ class _SelectScreenState extends State<SelectScreen> {
                                     textAlign: TextAlign.center,
                                   ),
                                   trailing: Column(
-                                    mainAxisAlignment:
-                                        MainAxisAlignment.center,
+                                    mainAxisAlignment: MainAxisAlignment.center,
                                     children: [
                                       Text(
                                         "Level ${box.get(item["data"]["title"])?["currentLevel"]} / 30",
@@ -252,7 +251,7 @@ class _SelectScreenState extends State<SelectScreen> {
                                         children: [
                                           Container(
                                             height: 6.h,
-                                            width: 100,
+                                            width: 30.toDouble(),
                                             decoration: BoxDecoration(
                                               color: AppColor.white,
                                               borderRadius:
