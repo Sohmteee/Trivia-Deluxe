@@ -28,14 +28,14 @@ class QuestionProvider extends ChangeNotifier {
     // currentLevel = box.get(data["title"])["currentLevel"];
 
     if (!questionIsShuffled) {
-      questions.shuffle();
+      // questions.shuffle();
       questionIsShuffled = true;
     }
 
     if (questionIndex >= questions.length - 1) {
       questionIndex = 0;
       data["currentIndex"] = questionIndex;
-      questions.shuffle();
+      // questions.shuffle();
     }
 
     question = questions[questionIndex]["question"];
