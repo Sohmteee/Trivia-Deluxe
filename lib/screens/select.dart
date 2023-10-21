@@ -88,11 +88,11 @@ class _SelectScreenState extends State<SelectScreen> {
         "data": politicsData,
       },
       {
-        "image": "",
+        "image": "assets/images/pop.png",
         "data": popCultureData,
       },
       {
-        "image": "",
+        "image": "assets/images/quote.png",
         "data": proverbsIdiomsRiddlesData,
       },
     ],
