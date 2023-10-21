@@ -3993,7 +3993,7 @@ Map<String, dynamic> scienceData = {
 };
 
 Map<String, dynamic> fruitsAndVegetablesData = {
-  "title": "",
+  "title": "Fruits and Vegetables",
   "currentIndex": 0,
   "currentLevel": 1,
   "data": [
@@ -7101,7 +7101,7 @@ Map<String, dynamic> fruitsAndVegetablesData = {
 };
 
 Map<String, dynamic> discoveriesData = {
-  "title": "",
+  "title": "Discoveries",
   "currentIndex": 0,
   "currentLevel": 1,
   "data": [
@@ -10208,7 +10208,7 @@ Map<String, dynamic> discoveriesData = {
 };
 
 Map<String, dynamic> geographyData = {
-  "title": "",
+  "title": "Geography",
   "currentIndex": 0,
   "currentLevel": 1,
   "data": [
