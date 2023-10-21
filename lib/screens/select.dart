@@ -9,14 +9,12 @@ import 'package:trivia/data/box.dart';
 import 'package:trivia/main.dart';
 import 'package:trivia/models/game_background.dart';
 import 'package:trivia/models/stat_bar.dart';
-import 'package:trivia/providers/stage.dart';
 import 'package:trivia/providers/question.dart';
+import 'package:trivia/providers/stage.dart';
 import 'package:velocity_x/velocity_x.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 import '../data/questions/animals.dart';
-import '../data/questions/proverbs.dart';
-import '../data/questions/riddles.dart';
 import '../data/questions/science.dart';
 
 class SelectScreen extends StatefulWidget {
@@ -32,14 +30,6 @@ class _SelectScreenState extends State<SelectScreen> {
     {
       "image": "assets/images/dolphin.png",
       "data": animalsData,
-    },
-    {
-      "image": "assets/images/quote.png",
-      "data": proverbsData,
-    },
-    {
-      "image": "assets/images/puzzle.png",
-      "data": riddlesData,
     },
     {
       "image": "assets/images/science.png",
