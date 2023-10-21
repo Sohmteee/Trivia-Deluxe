@@ -260,12 +260,11 @@ class _SelectScreenState extends State<SelectScreen> {
                                           ),
                                           Container(
                                             height: 6.h,
-                                            width: (box.get(item["data"]
-                                                            ["title"])?[
-                                                        "currentLevel"] +
-                                                    10) *
+                                            width: (box.get(
+                                                        item["data"]["title"])?[
+                                                    "currentLevel"]) *
                                                 50 /
-                                                100.toDouble(),
+                                                30.toDouble(),
                                             decoration: BoxDecoration(
                                               color: AppColor.yellow,
                                               borderRadius:
