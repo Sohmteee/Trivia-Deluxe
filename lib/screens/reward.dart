@@ -295,7 +295,7 @@ class _RewardScreenState extends State<RewardScreen> {
                                     .followPath(
                                       path: path,
                                       delay: 1.seconds,
-                                      duration: 1.seconds,
+                                      duration: .6.seconds,
                                     )
                                     .fadeOut(
                                       delay: 1.seconds,
