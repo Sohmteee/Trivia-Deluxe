@@ -170,12 +170,14 @@ class _SelectScreenState extends State<SelectScreen> {
                     scrollDirection: Axis.horizontal,
                     itemBuilder: (context, pageIndex) {
                       final selectItem = selectItems[pageIndex];
+
                       return ListView.builder(
                         itemCount: selectItems.length,
                         padding: EdgeInsets.only(top: 20.h),
                         physics: const NeverScrollableScrollPhysics(),
                         itemBuilder: (BuildContext context, int listIndex) {
                           final item = selectItem[listIndex];
+
                           return Consumer<QuestionProvider>(
                               builder: (_, questionProvider, child) {
                             return ZoomTapAnimation(
@@ -185,19 +187,19 @@ class _SelectScreenState extends State<SelectScreen> {
                                     listen: false);
                                 stageProvider.resetCompletedStage();
                                 questionProvider.title =
-                                    selectItem["data"]["title"];
+                                    item["data"]["title"];
 
-                                if (box.get(selectItem["data"]["title"]) ==
+                                if (box.get(item["data"]["title"]) ==
                                     null) {
-                                  box.put(selectItem["data"]["title"],
-                                      selectItem["data"]);
+                                  box.put(item["data"]["title"],
+                                      item["data"]);
                                 }
 
                                 questionProvider.data =
-                                    box.get(selectItem["data"]["title"]);
+                                    box.get(item["data"]["title"]);
 
                                 questionProvider.currentLevel = box.get(
-                                    selectItem["data"]
+                                    item["data"]
                                         ["title"])["currentLevel"];
                                 Future.delayed(
                                   3.microseconds,
@@ -217,12 +219,12 @@ class _SelectScreenState extends State<SelectScreen> {
                                 ),
                                 child: ListTile(
                                   leading: Image.asset(
-                                    selectItem["image"],
+                                    item["image"],
                                     width: 40.w,
                                     height: 40.h,
                                   ),
                                   title: Text(
-                                    selectItem["data"]["title"],
+                                    item["data"]["title"],
                                     style: TextStyle(
                                       color: AppColor.white,
                                       fontSize: 16.sp,
@@ -237,7 +239,7 @@ class _SelectScreenState extends State<SelectScreen> {
                                       borderRadius: BorderRadius.circular(50.r),
                                     ),
                                     child: Text(
-                                      "Level ${box.get(selectItem["data"]["title"])?["currentLevel"]}",
+                                      "Level ${box.get(item["data"]["title"])?["currentLevel"]}",
                                       style: TextStyle(
                                         fontSize: 16.sp,
                                       ),
