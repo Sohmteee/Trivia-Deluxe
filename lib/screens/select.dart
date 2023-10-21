@@ -153,7 +153,7 @@ class _SelectScreenState extends State<SelectScreen> {
           child: Column(
             children: [
               const GameStats(),
-              const Spacer(flex: 2),
+              const Spacer(flex: 2flex: 2),
               Text(
                 "Choose a category",
                 style: TextStyle(
@@ -162,7 +162,7 @@ class _SelectScreenState extends State<SelectScreen> {
                 ),
                 textAlign: TextAlign.center,
               ),
-              const Spacer(),
+              const Spacer(flex: 2),
               SizedBox(
                 height: 400.h,
                 child: PageView.builder(
@@ -256,7 +256,7 @@ class _SelectScreenState extends State<SelectScreen> {
                       );
                     }),
               ),
-              const Spacer(),
+              const Spacer(flex: 2),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
