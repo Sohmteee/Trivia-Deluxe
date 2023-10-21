@@ -1,5 +1,5 @@
 Map<String, dynamic> animalsData ={
-  "title": "",
+  "title": "Animals",
   "currentIndex": 0,
   "currentLevel": 1,
   "data": [
