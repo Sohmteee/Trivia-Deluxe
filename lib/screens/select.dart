@@ -238,7 +238,7 @@ class _SelectScreenState extends State<SelectScreen> {
                                   trailing: Column(
                                     children: [
                                       Text(
-                                        "Level ${box.get(item["data"]["title"])?["currentLevel"]}",
+                                        "Level ${box.get(item["data"]["title"])?["currentLevel"]} of 30",
                                         style: TextStyle(
                                           fontSize: 16.sp,
                                           color: AppColor.yellow,
@@ -251,12 +251,6 @@ class _SelectScreenState extends State<SelectScreen> {
                                           color: AppColor.yellow,
                                           borderRadius:
                                               BorderRadius.circular(50.r),
-                                        ),
-                                        child: Text(
-                                          "Level ${box.get(item["data"]["title"])?["currentLevel"]}",
-                                          style: TextStyle(
-                                            fontSize: 16.sp,
-                                          ),
                                         ),
                                       ),
                                     ],
