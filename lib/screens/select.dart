@@ -48,69 +48,69 @@ class _SelectScreenState extends State<SelectScreen> {
         "data": animalsData,
       },
       {
-        "image": "assets/images/science.png",
+        "image": "assets/images/anime.png",
         "data": animeData,
       },
       {
-        "image": "assets/images/dolphin.png",
+        "image": "assets/images/arts.png",
         "data": artsData,
       },
       {
-        "image": "assets/images/science.png",
+        "image": "",
         "data": booksData,
       },
     ],
     [
       {
-        "image": "assets/images/dolphin.png",
+        "image": "",
         "data": discoveriesData,
       },
       {
-        "image": "assets/images/science.png",
+        "image": "",
         "data": fruitsAndVegetablesData,
       },
       {
-        "image": "assets/images/dolphin.png",
+        "image": "",
         "data": geographyData,
       },
       {
-        "image": "assets/images/science.png",
+        "image": "",
         "data": historyData,
       },
     ],
     [
       {
-        "image": "assets/images/dolphin.png",
+        "image": "",
         "data": inventionsData,
       },
       {
-        "image": "assets/images/science.png",
+        "image": "",
         "data": politicsData,
       },
       {
-        "image": "assets/images/dolphin.png",
+        "image": "",
         "data": popCultureData,
       },
       {
-        "image": "assets/images/science.png",
+        "image": "",
         "data": proverbsIdiomsRiddlesData,
       },
     ],
     [
       {
-        "image": "assets/images/dolphin.png",
+        "image": "",
         "data": religionData,
       },
       {
-        "image": "assets/images/science.png",
+        "image": "",
         "data": scienceData,
       },
       {
-        "image": "assets/images/dolphin.png",
+        "image": "",
         "data": sportsData,
       },
       {
-        "image": "assets/images/science.png",
+        "image": "",
         "data": vocabData,
       },
     ],
