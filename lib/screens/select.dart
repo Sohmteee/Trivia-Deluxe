@@ -118,9 +118,11 @@ class _SelectScreenState extends State<SelectScreen> {
 
   @override
   void initState() {
-    for (var item in selectItems) {
-      if (box.get(item["data"]["title"]) == null) {
-        box.put(item["data"]["title"], item["data"]);
+    for (var selectItem in selectItems) {
+      for (var item in selectItem) {
+        if (box.get(item["data"]["title"]) == null) {
+          box.put(item["data"]["title"], item["data"]);
+        }
       }
     }
 
@@ -162,82 +164,86 @@ class _SelectScreenState extends State<SelectScreen> {
               const Spacer(),
               SizedBox(
                 height: 400.h,
-                child: ListView.builder(
-                  itemCount: selectItems.length,
-                  padding: EdgeInsets.only(top: 20.h),
-                  physics: const NeverScrollableScrollPhysics(),
-                  itemBuilder: (BuildContext context, int index) {
-                    final selectItem = selectItems[index];
+                child: Builder(
+                  builder: (context) {
+                    return ListView.builder(
+                      itemCount: selectItems.length,
+                      padding: EdgeInsets.only(top: 20.h),
+                      physics: const NeverScrollableScrollPhysics(),
+                      itemBuilder: (BuildContext context, int index) {
+                        final selectItem = selectItems[index];
 
-                    return Consumer<QuestionProvider>(
-                        builder: (_, questionProvider, child) {
-                      return ZoomTapAnimation(
-                        onTap: () {
-                          var stageProvider = Provider.of<StageProvider>(
-                              context,
-                              listen: false);
-                          stageProvider.resetCompletedStage();
-                          questionProvider.title = selectItem["data"]["title"];
+                        return Consumer<QuestionProvider>(
+                            builder: (_, questionProvider, child) {
+                          return ZoomTapAnimation(
+                            onTap: () {
+                              var stageProvider = Provider.of<StageProvider>(
+                                  context,
+                                  listen: false);
+                              stageProvider.resetCompletedStage();
+                              questionProvider.title = selectItem["data"]["title"];
 
-                          if (box.get(selectItem["data"]["title"]) == null) {
-                            box.put(selectItem["data"]["title"],
-                                selectItem["data"]);
-                          }
+                              if (box.get(selectItem["data"]["title"]) == null) {
+                                box.put(selectItem["data"]["title"],
+                                    selectItem["data"]);
+                              }
 
-                          questionProvider.data =
-                              box.get(selectItem["data"]["title"]);
+                              questionProvider.data =
+                                  box.get(selectItem["data"]["title"]);
 
-                          questionProvider.currentLevel = box
-                              .get(selectItem["data"]["title"])["currentLevel"];
-                          Future.delayed(
-                            3.microseconds,
-                            () => Navigator.pushNamed(context, "/stage"),
-                          );
-                        },
-                        child: Container(
-                          padding: EdgeInsets.all(10.sp),
-                          margin: EdgeInsets.only(bottom: 20.sp),
-                          decoration: BoxDecoration(
-                            color: AppColor.lightRed,
-                            border: Border.all(
-                              width: 2.sp,
-                              color: AppColor.lightRed,
-                            ),
-                            borderRadius: BorderRadius.circular(20.r),
-                          ),
-                          child: ListTile(
-                            leading: Image.asset(
-                              selectItem["image"],
-                              width: 40.w,
-                              height: 40.h,
-                            ),
-                            title: Text(
-                              selectItem["data"]["title"],
-                              style: TextStyle(
-                                color: AppColor.white,
-                                fontSize: 16.sp,
-                              ),
-                              textAlign: TextAlign.center,
-                            ),
-                            trailing: Container(
-                              padding: EdgeInsets.symmetric(
-                                  horizontal: 15.sp, vertical: 10.sp),
+                              questionProvider.currentLevel = box
+                                  .get(selectItem["data"]["title"])["currentLevel"];
+                              Future.delayed(
+                                3.microseconds,
+                                () => Navigator.pushNamed(context, "/stage"),
+                              );
+                            },
+                            child: Container(
+                              padding: EdgeInsets.all(10.sp),
+                              margin: EdgeInsets.only(bottom: 20.sp),
                               decoration: BoxDecoration(
-                                color: AppColor.yellow,
-                                borderRadius: BorderRadius.circular(50.r),
+                                color: AppColor.lightRed,
+                                border: Border.all(
+                                  width: 2.sp,
+                                  color: AppColor.lightRed,
+                                ),
+                                borderRadius: BorderRadius.circular(20.r),
                               ),
-                              child: Text(
-                                "Level ${box.get(selectItem["data"]["title"])?["currentLevel"]}",
-                                style: TextStyle(
-                                  fontSize: 16.sp,
+                              child: ListTile(
+                                leading: Image.asset(
+                                  selectItem["image"],
+                                  width: 40.w,
+                                  height: 40.h,
+                                ),
+                                title: Text(
+                                  selectItem["data"]["title"],
+                                  style: TextStyle(
+                                    color: AppColor.white,
+                                    fontSize: 16.sp,
+                                  ),
+                                  textAlign: TextAlign.center,
+                                ),
+                                trailing: Container(
+                                  padding: EdgeInsets.symmetric(
+                                      horizontal: 15.sp, vertical: 10.sp),
+                                  decoration: BoxDecoration(
+                                    color: AppColor.yellow,
+                                    borderRadius: BorderRadius.circular(50.r),
+                                  ),
+                                  child: Text(
+                                    "Level ${box.get(selectItem["data"]["title"])?["currentLevel"]}",
+                                    style: TextStyle(
+                                      fontSize: 16.sp,
+                                    ),
+                                  ),
                                 ),
                               ),
                             ),
-                          ),
-                        ),
-                      );
-                    });
-                  },
+                          );
+                        });
+                      },
+                    );
+                  }
                 ),
               ),
               const Spacer(),
