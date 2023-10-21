@@ -164,8 +164,11 @@ class _SelectScreenState extends State<SelectScreen> {
               const Spacer(),
               SizedBox(
                 height: 400.h,
-                child: Builder(
-                  builder: (context) {
+                child: PageView.builder(
+                  itemCount: selectItems.length,
+                    physics: const BouncingScrollPhysics(),
+                    
+                  itemBuilder: (context, index) {
                     return ListView.builder(
                       itemCount: selectItems.length,
                       padding: EdgeInsets.only(top: 20.h),
