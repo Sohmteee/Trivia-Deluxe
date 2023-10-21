@@ -41,6 +41,7 @@ class SelectScreen extends StatefulWidget {
 
 class _SelectScreenState extends State<SelectScreen> {
   // BannerAd? _bannerAd;
+  final pageController = PageController();
   int pageIndex = 0;
 
   List<List<Map<String, dynamic>>> selectItems = [
