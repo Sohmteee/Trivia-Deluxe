@@ -235,25 +235,26 @@ class _SelectScreenState extends State<SelectScreen> {
                                     ),
                                     textAlign: TextAlign.center,
                                   ),
-                                  trailing: Column(
-                                    children: [
-                                      Text(
-                                        "Level ${box.get(item["data"]["title"])?["currentLevel"]} of 30",
-                                        style: TextStyle(
-                                          fontSize: 16.sp,
-                                          color: AppColor.yellow,
+                                  trailing: Intr(
+                                    child: Column(
+                                      children: [
+                                        Text(
+                                          "Level ${box.get(item["data"]["title"])?["currentLevel"]} of 30",
+                                          style: TextStyle(
+                                            fontSize: 16.sp,
+                                            color: AppColor.yellow,
+                                          ),
                                         ),
-                                      ),
-                                      Container(
-                                        width: 100.w,
-                                        height: 10.h,
-                                        decoration: BoxDecoration(
-                                          color: AppColor.white,
-                                          borderRadius:
-                                              BorderRadius.circular(50.r),
+                                        Container(
+                                          height: 10.h,
+                                          decoration: BoxDecoration(
+                                            color: AppColor.white,
+                                            borderRadius:
+                                                BorderRadius.circular(50.r),
+                                          ),
                                         ),
-                                      ),
-                                    ],
+                                      ],
+                                    ),
                                   ),
                                 ),
                               ),
