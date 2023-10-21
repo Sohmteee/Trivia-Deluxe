@@ -235,19 +235,30 @@ class _SelectScreenState extends State<SelectScreen> {
                                     ),
                                     textAlign: TextAlign.center,
                                   ),
-                                  trailing: Container(
-                                    padding: EdgeInsets.symmetric(
-                                        horizontal: 15.sp, vertical: 10.sp),
-                                    decoration: BoxDecoration(
-                                      color: AppColor.yellow,
-                                      borderRadius: BorderRadius.circular(50.r),
-                                    ),
-                                    child: Text(
-                                      "Level ${box.get(item["data"]["title"])?["currentLevel"]}",
-                                      style: TextStyle(
-                                        fontSize: 16.sp,
+                                  trailing: Column(
+                                    children: [
+                                      Text(
+                                        "Level ${box.get(item["data"]["title"])?["currentLevel"]}",
+                                        style: TextStyle(
+                                          fontSize: 16.sp,
+                                        ),
                                       ),
-                                    ),
+                                      Container(
+                                        padding: EdgeInsets.symmetric(
+                                            horizontal: 15.sp, vertical: 10.sp),
+                                        decoration: BoxDecoration(
+                                          color: AppColor.yellow,
+                                          borderRadius:
+                                              BorderRadius.circular(50.r),
+                                        ),
+                                        child: Text(
+                                          "Level ${box.get(item["data"]["title"])?["currentLevel"]}",
+                                          style: TextStyle(
+                                            fontSize: 16.sp,
+                                          ),
+                                        ),
+                                      ),
+                                    ],
                                   ),
                                 ),
                               ),
