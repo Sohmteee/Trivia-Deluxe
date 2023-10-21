@@ -165,6 +165,7 @@ class _SelectScreenState extends State<SelectScreen> {
               SizedBox(
                 height: 400.h,
                 child: PageView.builder(
+
                     itemCount: selectItems.length,
                     physics: const BouncingScrollPhysics(),
                     scrollDirection: Axis.horizontal,
@@ -173,7 +174,7 @@ class _SelectScreenState extends State<SelectScreen> {
 
                       return ListView.builder(
                         itemCount: selectItems.length,
-                        padding: EdgeInsets.only(top: 20.h),
+                        padding: EdgeInsets.only(top: 20.h, left: 10.sp, right: 10.sp),
                         physics: const NeverScrollableScrollPhysics(),
                         itemBuilder: (BuildContext context, int listIndex) {
                           final item = selectItem[listIndex];
