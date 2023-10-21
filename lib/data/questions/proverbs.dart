@@ -7,7 +7,8 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
       "question": "Proverb: Actions speak louder than words.",
       "dialog": {
         "title": "Deeds are more important than what we say",
-        "content": "This proverb advises against prematurely celebrating or assuming success before it happens."
+        "content":
+            "This proverb advises against prematurely celebrating or assuming success before it happens."
       },
       "options": [
         {
@@ -20,11 +21,7 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
           "value": false,
           "color": "yellow"
         },
-        {
-          "text": "Silence is golden",
-          "value": false,
-          "color": "yellow"
-        },
+        {"text": "Silence is golden", "value": false, "color": "yellow"},
         {
           "text": "It's better to be safe than sorry",
           "value": false,
@@ -36,7 +33,8 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
       "question": "Don't count your chickens before they hatch.",
       "dialog": {
         "title": "Don't make assumptions about future success",
-        "content": "This proverb warns against judging something's worth solely by its appearance."
+        "content":
+            "This proverb warns against judging something's worth solely by its appearance."
       },
       "options": [
         {
@@ -54,18 +52,15 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
           "value": false,
           "color": "yellow"
         },
-        {
-          "text": "Trust your instincts",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "Trust your instincts", "value": false, "color": "yellow"}
       ]
     },
     {
       "question": "All that glitters is not gold.",
       "dialog": {
         "title": "Things that look valuable may not always be valuable",
-        "content": "This proverb advises adapting to local customs when in a foreign place."
+        "content":
+            "This proverb advises adapting to local customs when in a foreign place."
       },
       "options": [
         {
@@ -94,7 +89,8 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
       "question": "When in Rome, do as the Romans do.",
       "dialog": {
         "title": "Adapt to the customs of the place you are in",
-        "content": "This proverb conveys the idea that time appears to pass more slowly when you're eagerly waiting for something."
+        "content":
+            "This proverb conveys the idea that time appears to pass more slowly when you're eagerly waiting for something."
       },
       "options": [
         {
@@ -123,7 +119,8 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
       "question": "A watched pot never boils.",
       "dialog": {
         "title": "Time seems to pass slowly when you're waiting for something",
-        "content": "This idiom is used to wish someone good luck, especially before a performance."
+        "content":
+            "This idiom is used to wish someone good luck, especially before a performance."
       },
       "options": [
         {
@@ -141,47 +138,29 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
           "value": false,
           "color": "yellow"
         },
-        {
-          "text": "Patience is not a virtue",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "Patience is not a virtue", "value": false, "color": "yellow"}
       ]
     },
     {
       "question": "Break a leg!",
       "dialog": {
         "title": "Good luck!",
-        "content": "This idiom means to confront a difficult situation with courage."
+        "content":
+            "This idiom means to confront a difficult situation with courage."
       },
       "options": [
-        {
-          "text": "Good luck!",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "Be careful!",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Get well soon!",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Stop walking!",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "Good luck!", "value": true, "color": "yellow"},
+        {"text": "Be careful!", "value": false, "color": "yellow"},
+        {"text": "Get well soon!", "value": false, "color": "yellow"},
+        {"text": "Stop walking!", "value": false, "color": "yellow"}
       ]
     },
     {
       "question": "Bite the bullet.",
       "dialog": {
         "title": "Face a difficult or unpleasant situation with courage",
-        "content": "This idiom advises not to worry about past mistakes but to move on."
+        "content":
+            "This idiom advises not to worry about past mistakes but to move on."
       },
       "options": [
         {
@@ -189,21 +168,9 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
           "value": true,
           "color": "yellow"
         },
-        {
-          "text": "Avoid confrontation",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Eat a metal bullet",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Make a decision quickly",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "Avoid confrontation", "value": false, "color": "yellow"},
+        {"text": "Eat a metal bullet", "value": false, "color": "yellow"},
+        {"text": "Make a decision quickly", "value": false, "color": "yellow"}
       ]
     },
     {
@@ -228,11 +195,7 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
           "value": false,
           "color": "yellow"
         },
-        {
-          "text": "Avoid drinking milk",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "Avoid drinking milk", "value": false, "color": "yellow"}
       ]
     },
     {
@@ -247,28 +210,17 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
           "value": true,
           "color": "yellow"
         },
-        {
-          "text": "Hit a nail with a hammer",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Avoid making decisions",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Be indecisive",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "Hit a nail with a hammer", "value": false, "color": "yellow"},
+        {"text": "Avoid making decisions", "value": false, "color": "yellow"},
+        {"text": "Be indecisive", "value": false, "color": "yellow"}
       ]
     },
     {
       "question": "An arm and a leg.",
       "dialog": {
         "title": "Something that is very expensive",
-        "content": "This riddle describes an echo, a sound phenomenon that doesn't have physical features."
+        "content":
+            "This riddle describes an echo, a sound phenomenon that doesn't have physical features."
       },
       "options": [
         {
@@ -276,608 +228,310 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
           "value": true,
           "color": "yellow"
         },
-        {
-          "text": "A physical fight",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "An easy task",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A body part",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "A physical fight", "value": false, "color": "yellow"},
+        {"text": "An easy task", "value": false, "color": "yellow"},
+        {"text": "A body part", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question": "I speak without a mouth and hear without ears. I have no body, but I come alive with the wind. What am I?",
+      "question":
+          "I speak without a mouth and hear without ears. I have no body, but I come alive with the wind. What am I?",
       "dialog": {
         "title": "An echo",
-        "content": "This riddle describes pencil lead, which is enclosed in a wooden case (pencil) and used for writing."
+        "content":
+            "This riddle describes pencil lead, which is enclosed in a wooden case (pencil) and used for writing."
       },
       "options": [
-        {
-          "text": "An echo",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "A tree",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A book",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A river",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "An echo", "value": true, "color": "yellow"},
+        {"text": "A tree", "value": false, "color": "yellow"},
+        {"text": "A book", "value": false, "color": "yellow"},
+        {"text": "A river", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question": "I am taken from a mine and shut up in a wooden case, from which I am never released, and yet I am used by almost every person. What am I?",
+      "question":
+          "I am taken from a mine and shut up in a wooden case, from which I am never released, and yet I am used by almost every person. What am I?",
       "dialog": {
         "title": "Pencil lead",
-        "content": "This riddle describes fire, which consumes oxygen and grows but is not alive in the traditional sense."
+        "content":
+            "This riddle describes fire, which consumes oxygen and grows but is not alive in the traditional sense."
       },
       "options": [
-        {
-          "text": "Pencil lead",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "Gold",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Diamond",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Water",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "Pencil lead", "value": true, "color": "yellow"},
+        {"text": "Gold", "value": false, "color": "yellow"},
+        {"text": "Diamond", "value": false, "color": "yellow"},
+        {"text": "Water", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question": "I am not alive, but I can grow; I don't have lungs, but I need air; I don't have a mouth, but water kills me. What am I?",
+      "question":
+          "I am not alive, but I can grow; I don't have lungs, but I need air; I don't have a mouth, but water kills me. What am I?",
       "dialog": {
         "title": "Fire",
-        "content": "This riddle describes footsteps, as the more you walk, the more footprints you leave behind."
+        "content":
+            "This riddle describes footsteps, as the more you walk, the more footprints you leave behind."
       },
       "options": [
-        {
-          "text": "Fire",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "Ice",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Mold",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Stone",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "Fire", "value": true, "color": "yellow"},
+        {"text": "Ice", "value": false, "color": "yellow"},
+        {"text": "Mold", "value": false, "color": "yellow"},
+        {"text": "Stone", "value": false, "color": "yellow"}
       ]
     },
     {
       "question": "The more you take, the more you leave behind. What am I?",
       "dialog": {
         "title": "Footsteps",
-        "content": "This riddle describes footsteps, as the more you walk, the more footprints you leave behind."
+        "content":
+            "This riddle describes footsteps, as the more you walk, the more footprints you leave behind."
       },
       "options": [
-        {
-          "text": "Footsteps",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "Money",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Knowledge",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Food",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "Footsteps", "value": true, "color": "yellow"},
+        {"text": "Money", "value": false, "color": "yellow"},
+        {"text": "Knowledge", "value": false, "color": "yellow"},
+        {"text": "Food", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question": "I'm light as a feather, yet the strongest person can't hold me for much longer than a minute. What",
+      "question":
+          "I'm light as a feather, yet the strongest person can't hold me for much longer than a minute. What",
       "dialog": {
         "title": "A candle",
-        "content": "This riddle describes a candle, which becomes shorter as it burns."
+        "content":
+            "This riddle describes a candle, which becomes shorter as it burns."
       },
       "options": [
-        {
-          "text": "A candle",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "Geek",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Mouth",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Meat",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "A candle", "value": true, "color": "yellow"},
+        {"text": "Geek", "value": false, "color": "yellow"},
+        {"text": "Mouth", "value": false, "color": "yellow"},
+        {"text": "Meat", "value": false, "color": "yellow"}
       ]
     },
     {
       "question": "I'm tall when I'm young, and short when I'm old. What am I?",
       "dialog": {
         "title": "A tree",
-        "content": "This riddle refers to a piano, which has keys for playing music."
+        "content":
+            "This riddle refers to a piano, which has keys for playing music."
       },
       "options": [
-        {
-          "text": "A tree",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "A mountain",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A river",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A doorbell",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "A tree", "value": true, "color": "yellow"},
+        {"text": "A mountain", "value": false, "color": "yellow"},
+        {"text": "A river", "value": false, "color": "yellow"},
+        {"text": "A doorbell", "value": false, "color": "yellow"}
       ]
     },
     {
       "question": "What has keys but can't open locks?",
       "dialog": {
         "title": "A piano",
-        "content": "This riddle describes fire, which consumes oxygen and appears to grow, yet it's not alive."
+        "content":
+            "This riddle describes fire, which consumes oxygen and appears to grow, yet it's not alive."
       },
       "options": [
-        {
-          "text": "A piano",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "A computer",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A doorbell",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A map",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "A piano", "value": true, "color": "yellow"},
+        {"text": "A computer", "value": false, "color": "yellow"},
+        {"text": "A doorbell", "value": false, "color": "yellow"},
+        {"text": "A map", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question": "I'm not alive, but I can grow; I don't have lungs, but I need air; I don't have a mouth, but water kills me. What am I?",
+      "question":
+          "I'm not alive, but I can grow; I don't have lungs, but I need air; I don't have a mouth, but water kills me. What am I?",
       "dialog": {
         "title": "Fire",
-        "content": "This riddle is about footsteps, as they leave a trail the more you take them."
+        "content":
+            "This riddle is about footsteps, as they leave a trail the more you take them."
       },
       "options": [
-        {
-          "text": "Fire",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "Ice",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Mold",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Stone",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "Fire", "value": true, "color": "yellow"},
+        {"text": "Ice", "value": false, "color": "yellow"},
+        {"text": "Mold", "value": false, "color": "yellow"},
+        {"text": "Stone", "value": false, "color": "yellow"}
       ]
     },
     {
       "question": "The more you take, the more you leave behind. What am I?",
       "dialog": {
         "title": "Footsteps",
-        "content": "This riddle describes a shadow, which can appear to fly without wings and extend in the presence of light."
+        "content":
+            "This riddle describes a shadow, which can appear to fly without wings and extend in the presence of light."
       },
       "options": [
-        {
-          "text": "Footsteps",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "Money",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Knowledge",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Food",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "Footsteps", "value": true, "color": "yellow"},
+        {"text": "Money", "value": false, "color": "yellow"},
+        {"text": "Knowledge", "value": false, "color": "yellow"},
+        {"text": "Food", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question": "I can fly without wings. I can cry without eyes. Wherever I go, darkness follows me. What am I?",
+      "question":
+          "I can fly without wings. I can cry without eyes. Wherever I go, darkness follows me. What am I?",
       "dialog": {
         "title": "A cloud",
-        "content": "This riddle refers to a piano, which has keys for producing musical notes."
+        "content":
+            "This riddle refers to a piano, which has keys for producing musical notes."
       },
       "options": [
-        {
-          "text": "A cloud",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "A bird",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A bat",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A shadow",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "A cloud", "value": true, "color": "yellow"},
+        {"text": "A bird", "value": false, "color": "yellow"},
+        {"text": "A bat", "value": false, "color": "yellow"},
+        {"text": "A shadow", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question": "What has keys but can't open locks, and music comes from within?",
+      "question":
+          "What has keys but can't open locks, and music comes from within?",
       "dialog": {
         "title": "A piano",
-        "content": "This riddle describes a keyboard, which has keys but doesn't open locks."
+        "content":
+            "This riddle describes a keyboard, which has keys but doesn't open locks."
       },
       "options": [
-        {
-          "text": "A piano",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "A keyboard",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A typewriter",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A guitar",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "A piano", "value": true, "color": "yellow"},
+        {"text": "A keyboard", "value": false, "color": "yellow"},
+        {"text": "A typewriter", "value": false, "color": "yellow"},
+        {"text": "A guitar", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question": "I have keys but open no locks, I have space but no room, you can enter, but you can't go inside. What am I?",
+      "question":
+          "I have keys but open no locks, I have space but no room, you can enter, but you can't go inside. What am I?",
       "dialog": {
         "title": "A keyboard",
-        "content": "This riddle is about a sponge, which is lightweight despite having holes."
+        "content":
+            "This riddle is about a sponge, which is lightweight despite having holes."
       },
       "options": [
-        {
-          "text": "A keyboard",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "A car",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A tree",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A map",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "A keyboard", "value": true, "color": "yellow"},
+        {"text": "A car", "value": false, "color": "yellow"},
+        {"text": "A tree", "value": false, "color": "yellow"},
+        {"text": "A map", "value": false, "color": "yellow"}
       ]
     },
     {
       "question": "I'm full of holes, yet I'm still heavy. What am I?",
       "dialog": {
         "title": "A sponge",
-        "content": "This riddle describes a car, as you can enter it, but you can't physically go inside the car."
+        "content":
+            "This riddle describes a car, as you can enter it, but you can't physically go inside the car."
       },
       "options": [
-        {
-          "text": "A sponge",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "Swiss cheese",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A net",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A cloud",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "A sponge", "value": true, "color": "yellow"},
+        {"text": "Swiss cheese", "value": false, "color": "yellow"},
+        {"text": "A net", "value": false, "color": "yellow"},
+        {"text": "A cloud", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question": "I have keys but can't open locks, I have space but no room, and you can enter, but you can't go inside. What am I?",
+      "question":
+          "I have keys but can't open locks, I have space but no room, and you can enter, but you can't go inside. What am I?",
       "dialog": {
         "title": "A car",
-        "content": "This riddle refers to a joke, as it can be cracked (told) and played (shared humorously)."
+        "content":
+            "This riddle refers to a joke, as it can be cracked (told) and played (shared humorously)."
       },
       "options": [
-        {
-          "text": "A car",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "A house",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A keyboard",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A wallet",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "A car", "value": true, "color": "yellow"},
+        {"text": "A house", "value": false, "color": "yellow"},
+        {"text": "A keyboard", "value": false, "color": "yellow"},
+        {"text": "A wallet", "value": false, "color": "yellow"}
       ]
     },
     {
       "question": "I can be cracked, made, told, and played. What am I?",
       "dialog": {
         "title": "A joke",
-        "content": "This riddle describes a piano, which has keys like a keyboard and produces musical sounds."
+        "content":
+            "This riddle describes a piano, which has keys like a keyboard and produces musical sounds."
       },
       "options": [
-        {
-          "text": "A joke",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "A riddle",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A game",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A poem",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "A joke", "value": true, "color": "yellow"},
+        {"text": "A riddle", "value": false, "color": "yellow"},
+        {"text": "A game", "value": false, "color": "yellow"},
+        {"text": "A poem", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question": "I have keys but can't open locks, and I sound like a musical box. What am I?",
+      "question":
+          "I have keys but can't open locks, and I sound like a musical box. What am I?",
       "dialog": {
         "title": "A piano",
-        "content": "This riddle is about footsteps, as the more you take, the more footprints you leave behind."
+        "content":
+            "This riddle is about footsteps, as the more you take, the more footprints you leave behind."
       },
       "options": [
-        {
-          "text": "A piano",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "A guitar",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A typewriter",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A xylophone",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "A piano", "value": true, "color": "yellow"},
+        {"text": "A guitar", "value": false, "color": "yellow"},
+        {"text": "A typewriter", "value": false, "color": "yellow"},
+        {"text": "A xylophone", "value": false, "color": "yellow"}
       ]
     },
     {
       "question": "The more you take, the more you leave behind. What am I?",
       "dialog": {
         "title": "Footsteps",
-        "content": "This riddle refers to a piano, which has keys that produce musical sounds."
+        "content":
+            "This riddle refers to a piano, which has keys that produce musical sounds."
       },
       "options": [
-        {
-          "text": "Footsteps",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "Money",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Knowledge",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Food",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "Footsteps", "value": true, "color": "yellow"},
+        {"text": "Money", "value": false, "color": "yellow"},
+        {"text": "Knowledge", "value": false, "color": "yellow"},
+        {"text": "Food", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question": "What has keys but can't open locks, and music comes from within?",
+      "question":
+          "What has keys but can't open locks, and music comes from within?",
       "dialog": {
         "title": "A piano",
-        "content": "This riddle describes a shadow, which can appear to fly and extends in the presence of light."
+        "content":
+            "This riddle describes a shadow, which can appear to fly and extends in the presence of light."
       },
       "options": [
-        {
-          "text": "A piano",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "A drum",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A guitar",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A flute",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "A piano", "value": true, "color": "yellow"},
+        {"text": "A drum", "value": false, "color": "yellow"},
+        {"text": "A guitar", "value": false, "color": "yellow"},
+        {"text": "A flute", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question": "I can fly without wings, and I can cry without eyes. Wherever I go, darkness follows me. What am I?",
+      "question":
+          "I can fly without wings, and I can cry without eyes. Wherever I go, darkness follows me. What am I?",
       "dialog": {
         "title": "A cloud",
-        "content": "This riddle refers to a candle, which becomes shorter as it burns."
+        "content":
+            "This riddle refers to a candle, which becomes shorter as it burns."
       },
       "options": [
-        {
-          "text": "A cloud",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "A bat",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A bird",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A shadow",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "A cloud", "value": true, "color": "yellow"},
+        {"text": "A bat", "value": false, "color": "yellow"},
+        {"text": "A bird", "value": false, "color": "yellow"},
+        {"text": "A shadow", "value": false, "color": "yellow"}
       ]
     },
     {
       "question": "I'm tall when I'm young, and short when I'm old. What am I?",
       "dialog": {
         "title": "A candle",
-        "content": "This idiom conveys that conflicts among the powerful can have adverse effects on ordinary people"
+        "content":
+            "This idiom conveys that conflicts among the powerful can have adverse effects on ordinary people"
       },
       "options": [
-        {
-          "text": "A candle",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "A tree",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A mountain",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A river",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "A candle", "value": true, "color": "yellow"},
+        {"text": "A tree", "value": false, "color": "yellow"},
+        {"text": "A mountain", "value": false, "color": "yellow"},
+        {"text": "A river", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question": "The common people bear the brunt of powerful conflicts When elephants fight, it is the grass that suffers.",
+      "question":
+          "The common people bear the brunt of powerful conflicts When elephants fight, it is the grass that suffers.",
       "dialog": {
         "title": "The common people bear the brunt of powerful conflicts",
-        "content": "This idiom emphasizes the value of cooperation and teamwork for achieving lasting success."
+        "content":
+            "This idiom emphasizes the value of cooperation and teamwork for achieving lasting success."
       },
       "options": [
         {
@@ -903,10 +557,12 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
       ]
     },
     {
-      "question": "If you want to go fast, go alone; if you want to go far, go with others.",
+      "question":
+          "If you want to go fast, go alone; if you want to go far, go with others.",
       "dialog": {
         "title": "Collaboration is important for long-term success",
-        "content": "This idiom advises conserving and managing resources responsibly."
+        "content":
+            "This idiom advises conserving and managing resources responsibly."
       },
       "options": [
         {
@@ -924,18 +580,15 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
           "value": false,
           "color": "yellow"
         },
-        {
-          "text": "Teamwork is unimportant",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "Teamwork is unimportant", "value": false, "color": "yellow"}
       ]
     },
     {
       "question": "The frog does not drink up the pond in which it lives.",
       "dialog": {
         "title": "Use resources wisely in your surroundings",
-        "content": "This idiom signifies that some situations or problems cannot be controlled or contained easily."
+        "content":
+            "This idiom signifies that some situations or problems cannot be controlled or contained easily."
       },
       "options": [
         {
@@ -943,28 +596,21 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
           "value": true,
           "color": "yellow"
         },
-        {
-          "text": "Frogs don't drink water",
-          "value": false,
-          "color": "yellow"
-        },
+        {"text": "Frogs don't drink water", "value": false, "color": "yellow"},
         {
           "text": "Ponds are not good for frogs",
           "value": false,
           "color": "yellow"
         },
-        {
-          "text": "Frogs are good swimmers",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "Frogs are good swimmers", "value": false, "color": "yellow"}
       ]
     },
     {
       "question": "You can't wrap fire in paper.",
       "dialog": {
         "title": "Certain things are impossible or uncontrollable",
-        "content": "This idiom highlights the significance of strong, well-functioning families for the strength of a nation."
+        "content":
+            "This idiom highlights the significance of strong, well-functioning families for the strength of a nation."
       },
       "options": [
         {
@@ -972,11 +618,7 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
           "value": true,
           "color": "yellow"
         },
-        {
-          "text": "Fire is easily contained",
-          "value": false,
-          "color": "yellow"
-        },
+        {"text": "Fire is easily contained", "value": false, "color": "yellow"},
         {
           "text": "Fire can be put out with paper",
           "value": false,
@@ -993,7 +635,8 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
       "question": "The ruin of a nation begins in the homes of its people.",
       "dialog": {
         "title": "The family is the foundation of a strong nation",
-        "content": "This idiom suggests that individuals tend to remain true to their character or nature."
+        "content":
+            "This idiom suggests that individuals tend to remain true to their character or nature."
       },
       "options": [
         {
@@ -1022,7 +665,8 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
       "question": "The leopard does not change his spots.",
       "dialog": {
         "title": "People rarely change their inherent nature",
-        "content": "This idiom conveys that collective effort or cooperation is more effective in making a difference."
+        "content":
+            "This idiom conveys that collective effort or cooperation is more effective in making a difference."
       },
       "options": [
         {
@@ -1040,18 +684,15 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
           "value": false,
           "color": "yellow"
         },
-        {
-          "text": "Leopards don't have spots",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "Leopards don't have spots", "value": false, "color": "yellow"}
       ]
     },
     {
       "question": "A single bracelet does not jingle.",
       "dialog": {
         "title": "One person alone cannot make a noticeable impact",
-        "content": "This idiom emphasizes the importance of having principles and standing up for what one believes in."
+        "content":
+            "This idiom emphasizes the importance of having principles and standing up for what one believes in."
       },
       "options": [
         {
@@ -1069,18 +710,16 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
           "value": false,
           "color": "yellow"
         },
-        {
-          "text": "One bracelet is enough",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "One bracelet is enough", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question": "If you don't stand for something, you will fall for anything.",
+      "question":
+          "If you don't stand for something, you will fall for anything.",
       "dialog": {
         "title": "Having principles and beliefs is important",
-        "content": "This idiom highlights the lasting impact of emotional experiences on memory."
+        "content":
+            "This idiom highlights the lasting impact of emotional experiences on memory."
       },
       "options": [
         {
@@ -1088,16 +727,8 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
           "value": true,
           "color": "yellow"
         },
-        {
-          "text": "Falling is inevitable",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Standing is unimportant",
-          "value": false,
-          "color": "yellow"
-        },
+        {"text": "Falling is inevitable", "value": false, "color": "yellow"},
+        {"text": "Standing is unimportant", "value": false, "color": "yellow"},
         {
           "text": "Falling is better than standing",
           "value": false,
@@ -1109,7 +740,8 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
       "question": "The eye never forgets what the heart has seen.",
       "dialog": {
         "title": "Emotional experiences are remembered deeply",
-        "content": "This idiom underscores the importance of collective effort and teamwork."
+        "content":
+            "This idiom underscores the importance of collective effort and teamwork."
       },
       "options": [
         {
@@ -1138,7 +770,8 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
       "question": "A tree cannot make a forest.",
       "dialog": {
         "title": "One person alone cannot achieve great things",
-        "content": "This idiom conveys that those in positions of power or privilege receive benefits before others."
+        "content":
+            "This idiom conveys that those in positions of power or privilege receive benefits before others."
       },
       "options": [
         {
@@ -1156,18 +789,16 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
           "value": false,
           "color": "yellow"
         },
-        {
-          "text": "Forests are made of rocks",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "Forests are made of rocks", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question": "The sun will shine on those who stand before it shines on those who kneel under them.",
+      "question":
+          "The sun will shine on those who stand before it shines on those who kneel under them.",
       "dialog": {
         "title": "Those in power receive benefits first",
-        "content": "This idiom suggests that borrowed items may not work as well as one's own."
+        "content":
+            "This idiom suggests that borrowed items may not work as well as one's own."
       },
       "options": [
         {
@@ -1196,7 +827,8 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
       "question": "A borrowed fiddle doesn't sound well.",
       "dialog": {
         "title": "Borrowed things are often subpar",
-        "content": "This idiom implies that once you start a dangerous or difficult endeavor, it can be hard to stop."
+        "content":
+            "This idiom implies that once you start a dangerous or difficult endeavor, it can be hard to stop."
       },
       "options": [
         {
@@ -1214,18 +846,15 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
           "value": false,
           "color": "yellow"
         },
-        {
-          "text": "Fiddles make great sounds",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "Fiddles make great sounds", "value": false, "color": "yellow"}
       ]
     },
     {
       "question": "He who rides on the back of a tiger is afraid to dismount.",
       "dialog": {
         "title": "Once you commit to something, it's hard to change course",
-        "content": "This idiom conveys that individuals are influenced by their environment and community."
+        "content":
+            "This idiom conveys that individuals are influenced by their environment and community."
       },
       "options": [
         {
@@ -1238,11 +867,7 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
           "value": false,
           "color": "yellow"
         },
-        {
-          "text": "Riding on tigers is safe",
-          "value": false,
-          "color": "yellow"
-        },
+        {"text": "Riding on tigers is safe", "value": false, "color": "yellow"},
         {
           "text": "Dismounting is always easy",
           "value": false,
@@ -1254,7 +879,8 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
       "question": "Even a stone will share the same destiny as its tribe.",
       "dialog": {
         "title": "People are influenced by their surroundings and community",
-        "content": "This idiom suggests that facing the truth, even if it's difficult, leads to positive outcomes."
+        "content":
+            "This idiom suggests that facing the truth, even if it's difficult, leads to positive outcomes."
       },
       "options": [
         {
@@ -1262,16 +888,8 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
           "value": true,
           "color": "yellow"
         },
-        {
-          "text": "Stones have tribes",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Destiny is not real",
-          "value": false,
-          "color": "yellow"
-        },
+        {"text": "Stones have tribes", "value": false, "color": "yellow"},
+        {"text": "Destiny is not real", "value": false, "color": "yellow"},
         {
           "text": "Stones are not affected by tribes",
           "value": false,
@@ -1282,20 +900,19 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
     {
       "question": "The truth is bitter, but its results are sweet.",
       "dialog": {
-        "title": "Facing the truth may be difficult, but the outcomes are positive",
-        "content": "This riddle refers to a zebra, which has black and white stripes and is beloved."
+        "title":
+            "Facing the truth may be difficult, but the outcomes are positive",
+        "content":
+            "This riddle refers to a zebra, which has black and white stripes and is beloved."
       },
       "options": [
         {
-          "text": "Facing the truth may be difficult, but the outcomes are positive",
+          "text":
+              "Facing the truth may be difficult, but the outcomes are positive",
           "value": true,
           "color": "yellow"
         },
-        {
-          "text": "Truth is sweet",
-          "value": false,
-          "color": "yellow"
-        },
+        {"text": "Truth is sweet", "value": false, "color": "yellow"},
         {
           "text": "Lies are better than the truth",
           "value": false,
@@ -1312,442 +929,227 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
       "question": "I am black and white and loved all over. What am I?",
       "dialog": {
         "title": "A zebra",
-        "content": "This riddle describes a sponge, which has holes and is still heavy when wet."
+        "content":
+            "This riddle describes a sponge, which has holes and is still heavy when wet."
       },
       "options": [
-        {
-          "text": "A zebra",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "A panda",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A soccer ball",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A cow",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "A zebra", "value": true, "color": "yellow"},
+        {"text": "A panda", "value": false, "color": "yellow"},
+        {"text": "A soccer ball", "value": false, "color": "yellow"},
+        {"text": "A cow", "value": false, "color": "yellow"}
       ]
     },
     {
       "question": "I am full of holes, yet I'm still heavy. What am I?",
       "dialog": {
         "title": "A sponge",
-        "content": "This riddle refers to a joke, which can be cracked (told) and played (shared humorously)."
+        "content":
+            "This riddle refers to a joke, which can be cracked (told) and played (shared humorously)."
       },
       "options": [
-        {
-          "text": "A sponge",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "Swiss cheese",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A cloud",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A net",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "A sponge", "value": true, "color": "yellow"},
+        {"text": "Swiss cheese", "value": false, "color": "yellow"},
+        {"text": "A cloud", "value": false, "color": "yellow"},
+        {"text": "A net", "value": false, "color": "yellow"}
       ]
     },
     {
       "question": "I can be cracked, made, told, and played. What am I?",
       "dialog": {
         "title": "A joke",
-        "content": "This riddle describes pencil lead, which is enclosed in a wooden case (pencil) and used for writing."
+        "content":
+            "This riddle describes pencil lead, which is enclosed in a wooden case (pencil) and used for writing."
       },
       "options": [
-        {
-          "text": "A joke",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "A riddle",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A game",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A poem",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "A joke", "value": true, "color": "yellow"},
+        {"text": "A riddle", "value": false, "color": "yellow"},
+        {"text": "A game", "value": false, "color": "yellow"},
+        {"text": "A poem", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question": "I am taken from a mine and shut up in a wooden case, from which I am never released, and yet I am used by almost every person. What am I?",
+      "question":
+          "I am taken from a mine and shut up in a wooden case, from which I am never released, and yet I am used by almost every person. What am I?",
       "dialog": {
         "title": "Pencil lead",
-        "content": "This riddle describes an echo, which doesn't have a physical form but is created by sound waves."
+        "content":
+            "This riddle describes an echo, which doesn't have a physical form but is created by sound waves."
       },
       "options": [
-        {
-          "text": "Pencil lead",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "Gold",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Diamond",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Water",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "Pencil lead", "value": true, "color": "yellow"},
+        {"text": "Gold", "value": false, "color": "yellow"},
+        {"text": "Diamond", "value": false, "color": "yellow"},
+        {"text": "Water", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question": "I speak without a mouth and hear without ears. I have no body, but I come alive with the wind. What am I?",
+      "question":
+          "I speak without a mouth and hear without ears. I have no body, but I come alive with the wind. What am I?",
       "dialog": {
         "title": "An echo",
-        "content": "This riddle describes a piano, which has keys like a keyboard and produces musical sounds."
+        "content":
+            "This riddle describes a piano, which has keys like a keyboard and produces musical sounds."
       },
       "options": [
-        {
-          "text": "An echo",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "A tree",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A book",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A river",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "An echo", "value": true, "color": "yellow"},
+        {"text": "A tree", "value": false, "color": "yellow"},
+        {"text": "A book", "value": false, "color": "yellow"},
+        {"text": "A river", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question": "I'm full of keys but can't open locks, and I sound like a musical box. What am I?",
+      "question":
+          "I'm full of keys but can't open locks, and I sound like a musical box. What am I?",
       "dialog": {
         "title": "A piano",
-        "content": "This riddle describes fire, which consumes oxygen and appears to grow, yet it's not alive."
+        "content":
+            "This riddle describes fire, which consumes oxygen and appears to grow, yet it's not alive."
       },
       "options": [
-        {
-          "text": "A piano",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "A guitar",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A typewriter",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A xylophone",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "A piano", "value": true, "color": "yellow"},
+        {"text": "A guitar", "value": false, "color": "yellow"},
+        {"text": "A typewriter", "value": false, "color": "yellow"},
+        {"text": "A xylophone", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question": "I'm not alive, but I can grow; I don't have lungs, but I need air; I don't have a mouth, but water kills me. What am I?",
+      "question":
+          "I'm not alive, but I can grow; I don't have lungs, but I need air; I don't have a mouth, but water kills me. What am I?",
       "dialog": {
         "title": "Fire",
-        "content": "This riddle describes a car, as you can enter it but can't physically go inside the car."
+        "content":
+            "This riddle describes a car, as you can enter it but can't physically go inside the car."
       },
       "options": [
-        {
-          "text": "Fire",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "Ice",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Mold",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Stone",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "Fire", "value": true, "color": "yellow"},
+        {"text": "Ice", "value": false, "color": "yellow"},
+        {"text": "Mold", "value": false, "color": "yellow"},
+        {"text": "Stone", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question": "I have keys but can't open locks, I have space but no room, and you can enter, but you can't go inside. What am I?",
+      "question":
+          "I have keys but can't open locks, I have space but no room, and you can enter, but you can't go inside. What am I?",
       "dialog": {
         "title": "A car",
-        "content": "This riddle refers to a breath, which is intangible and fleeting."
+        "content":
+            "This riddle refers to a breath, which is intangible and fleeting."
       },
       "options": [
-        {
-          "text": "A car",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "A house",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A keyboard",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A wallet",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "A car", "value": true, "color": "yellow"},
+        {"text": "A house", "value": false, "color": "yellow"},
+        {"text": "A keyboard", "value": false, "color": "yellow"},
+        {"text": "A wallet", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question": "I'm light as a feather, yet the strongest person can't hold me for much longer than a minute. What am I?",
+      "question":
+          "I'm light as a feather, yet the strongest person can't hold me for much longer than a minute. What am I?",
       "dialog": {
         "title": "Breath",
-        "content": "This riddle is about footsteps, as the more you walk, the more footprints you leave behind."
+        "content":
+            "This riddle is about footsteps, as the more you walk, the more footprints you leave behind."
       },
       "options": [
-        {
-          "text": "Breath",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "Feather",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Thought",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Balloon",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "Breath", "value": true, "color": "yellow"},
+        {"text": "Feather", "value": false, "color": "yellow"},
+        {"text": "Thought", "value": false, "color": "yellow"},
+        {"text": "Balloon", "value": false, "color": "yellow"}
       ]
     },
     {
       "question": "The more you take, the more you leave behind. What am I?",
       "dialog": {
         "title": "Footsteps",
-        "content": "This riddle is about footsteps, as the more you walk, the more footprints you leave behind."
+        "content":
+            "This riddle is about footsteps, as the more you walk, the more footprints you leave behind."
       },
       "options": [
-        {
-          "text": "Footsteps",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "Money",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Knowledge",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Food",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "Footsteps", "value": true, "color": "yellow"},
+        {"text": "Money", "value": false, "color": "yellow"},
+        {"text": "Knowledge", "value": false, "color": "yellow"},
+        {"text": "Food", "value": false, "color": "yellow"}
       ]
     },
     {
       "question": "The more you take, the more you leave behind. What am I?",
       "dialog": {
         "title": "Footsteps",
-        "content": "This riddle describes a shadow, which can appear to fly and extends in the presence of light."
+        "content":
+            "This riddle describes a shadow, which can appear to fly and extends in the presence of light."
       },
       "options": [
-        {
-          "text": "Footsteps",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "Money",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Knowledge",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Food",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "Footsteps", "value": true, "color": "yellow"},
+        {"text": "Money", "value": false, "color": "yellow"},
+        {"text": "Knowledge", "value": false, "color": "yellow"},
+        {"text": "Food", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question": "I can fly without wings, and I can cry without eyes. Wherever I go, darkness follows me. What am I?",
+      "question":
+          "I can fly without wings, and I can cry without eyes. Wherever I go, darkness follows me. What am I?",
       "dialog": {
         "title": "A cloud",
-        "content": "This riddle refers to a candle, which becomes shorter as it burns."
+        "content":
+            "This riddle refers to a candle, which becomes shorter as it burns."
       },
       "options": [
-        {
-          "text": "A cloud",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "A bat",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A bird",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A shadow",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "A cloud", "value": true, "color": "yellow"},
+        {"text": "A bat", "value": false, "color": "yellow"},
+        {"text": "A bird", "value": false, "color": "yellow"},
+        {"text": "A shadow", "value": false, "color": "yellow"}
       ]
     },
     {
       "question": "I'm tall when I'm young, and short when I'm old. What am I?",
       "dialog": {
         "title": "A candle",
-        "content": "This riddle describes a keyboard, which has keys but doesn't open locks."
+        "content":
+            "This riddle describes a keyboard, which has keys but doesn't open locks."
       },
       "options": [
-        {
-          "text": "A candle",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "A tree",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A mountain",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A river",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "A candle", "value": true, "color": "yellow"},
+        {"text": "A tree", "value": false, "color": "yellow"},
+        {"text": "A mountain", "value": false, "color": "yellow"},
+        {"text": "A river", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question": "I have keys but can't open locks, I have space but no room, you can enter, but you can't go inside. What am I?",
+      "question":
+          "I have keys but can't open locks, I have space but no room, you can enter, but you can't go inside. What am I?",
       "dialog": {
         "title": "A keyboard",
-        "content": "This riddle describes a piano, which has keys that produce musical sounds."
+        "content":
+            "This riddle describes a piano, which has keys that produce musical sounds."
       },
       "options": [
-        {
-          "text": "A keyboard",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "A car",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A tree",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A map",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "A keyboard", "value": true, "color": "yellow"},
+        {"text": "A car", "value": false, "color": "yellow"},
+        {"text": "A tree", "value": false, "color": "yellow"},
+        {"text": "A map", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question": "I have keys but can't open locks, and I sound like a musical box. What am I?",
+      "question":
+          "I have keys but can't open locks, and I sound like a musical box. What am I?",
       "dialog": {
         "title": "A piano",
-        "content": "This proverb emphasizes the importance of hope and the eventual end of hardships."
+        "content":
+            "This proverb emphasizes the importance of hope and the eventual end of hardships."
       },
       "options": [
-        {
-          "text": "A piano",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "A guitar",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A typewriter",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A xylophone",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "A piano", "value": true, "color": "yellow"},
+        {"text": "A guitar", "value": false, "color": "yellow"},
+        {"text": "A typewriter", "value": false, "color": "yellow"},
+        {"text": "A xylophone", "value": false, "color": "yellow"}
       ]
     },
     {
       "question": "However long the night, the dawn will break.",
       "dialog": {
         "title": "Hope is essential to endure difficulties",
-        "content": "This proverb highlights the power of working together and the weakness of division."
+        "content":
+            "This proverb highlights the power of working together and the weakness of division."
       },
       "options": [
         {
@@ -1760,23 +1162,16 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
           "value": false,
           "color": "yellow"
         },
-        {
-          "text": "Dawn is never breaking",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Nights are always short",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "Dawn is never breaking", "value": false, "color": "yellow"},
+        {"text": "Nights are always short", "value": false, "color": "yellow"}
       ]
     },
     {
       "question": "Unity is strength, division is weakness.",
       "dialog": {
         "title": "Cooperation leads to strength",
-        "content": "This proverb suggests that individuals tend to remain true to their character or nature."
+        "content":
+            "This proverb suggests that individuals tend to remain true to their character or nature."
       },
       "options": [
         {
@@ -1784,28 +1179,21 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
           "value": true,
           "color": "yellow"
         },
-        {
-          "text": "Division is stronger",
-          "value": false,
-          "color": "yellow"
-        },
+        {"text": "Division is stronger", "value": false, "color": "yellow"},
         {
           "text": "Strength is not important",
           "value": false,
           "color": "yellow"
         },
-        {
-          "text": "Unity is unimportant",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "Unity is unimportant", "value": false, "color": "yellow"}
       ]
     },
     {
       "question": "A leopard cannot change its spots.",
       "dialog": {
         "title": "People rarely change their inherent nature",
-        "content": "This proverb conveys that facing challenges and obstacles can lead to personal development and skill."
+        "content":
+            "This proverb conveys that facing challenges and obstacles can lead to personal development and skill."
       },
       "options": [
         {
@@ -1823,18 +1211,15 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
           "value": false,
           "color": "yellow"
         },
-        {
-          "text": "Leopards don't have spots",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "Leopards don't have spots", "value": false, "color": "yellow"}
       ]
     },
     {
       "question": "Smooth seas do not make skillful sailors.",
       "dialog": {
         "title": "Challenges and difficulties lead to personal growth",
-        "content": "This proverb advises individuals to find their own way and not rely on others for guidance."
+        "content":
+            "This proverb advises individuals to find their own way and not rely on others for guidance."
       },
       "options": [
         {
@@ -1863,7 +1248,8 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
       "question": "Don't set sail using someone else's star.",
       "dialog": {
         "title": "Find your own path and guidance",
-        "content": "This proverb implies that one's social or economic status is not easily altered."
+        "content":
+            "This proverb implies that one's social or economic status is not easily altered."
       },
       "options": [
         {
@@ -1881,18 +1267,16 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
           "value": false,
           "color": "yellow"
         },
-        {
-          "text": "Stars are unimportant",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "Stars are unimportant", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question": "A bird that flies off the earth and lands on an anthill is still on the ground.",
+      "question":
+          "A bird that flies off the earth and lands on an anthill is still on the ground.",
       "dialog": {
         "title": "One's status or background cannot be changed easily",
-        "content": "This proverb encourages taking bold actions and seizing opportunities in life."
+        "content":
+            "This proverb encourages taking bold actions and seizing opportunities in life."
       },
       "options": [
         {
@@ -1900,28 +1284,22 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
           "value": true,
           "color": "yellow"
         },
-        {
-          "text": "Birds can't fly high",
-          "value": false,
-          "color": "yellow"
-        },
+        {"text": "Birds can't fly high", "value": false, "color": "yellow"},
         {
           "text": "Anthills are the best places",
           "value": false,
           "color": "yellow"
         },
-        {
-          "text": "Flying is overrated",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "Flying is overrated", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question": "It is better to be a lion for a day than a sheep all your life.",
+      "question":
+          "It is better to be a lion for a day than a sheep all your life.",
       "dialog": {
         "title": "Seizing opportunities is better than passivity",
-        "content": "This proverb suggests that without evidence or witnesses, innocent parties can be falsely accused."
+        "content":
+            "This proverb suggests that without evidence or witnesses, innocent parties can be falsely accused."
       },
       "options": [
         {
@@ -1947,10 +1325,12 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
       ]
     },
     {
-      "question": "Where there are no dogs, the tigers are unjustly accused of eating the goats.",
+      "question":
+          "Where there are no dogs, the tigers are unjustly accused of eating the goats.",
       "dialog": {
         "title": "The absence of evidence leads to false accusations",
-        "content": "This proverb encourages individuals to recognize and use their strengths effectively."
+        "content":
+            "This proverb encourages individuals to recognize and use their strengths effectively."
       },
       "options": [
         {
@@ -1958,28 +1338,21 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
           "value": true,
           "color": "yellow"
         },
-        {
-          "text": "Tigers are always guilty",
-          "value": false,
-          "color": "yellow"
-        },
+        {"text": "Tigers are always guilty", "value": false, "color": "yellow"},
         {
           "text": "Dogs are better than tigers",
           "value": false,
           "color": "yellow"
         },
-        {
-          "text": "Tigers should eat goats",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "Tigers should eat goats", "value": false, "color": "yellow"}
       ]
     },
     {
       "question": "The lion's power lies in its claws.",
       "dialog": {
         "title": "People should recognize their strengths",
-        "content": "This proverb conveys that even slow and steady progress can lead to significant achievements."
+        "content":
+            "This proverb conveys that even slow and steady progress can lead to significant achievements."
       },
       "options": [
         {
@@ -1992,23 +1365,17 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
           "value": false,
           "color": "yellow"
         },
-        {
-          "text": "Power is not important",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Lions have no power",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "Power is not important", "value": false, "color": "yellow"},
+        {"text": "Lions have no power", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question": "The moon moves slowly but by daybreak, it has crossed the sky.",
+      "question":
+          "The moon moves slowly but by daybreak, it has crossed the sky.",
       "dialog": {
         "title": "Steady progress leads to success",
-        "content": "This proverb suggests that those who are privileged may not understand the challenges faced by the less fortunate."
+        "content":
+            "This proverb suggests that those who are privileged may not understand the challenges faced by the less fortunate."
       },
       "options": [
         {
@@ -2016,16 +1383,8 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
           "value": true,
           "color": "yellow"
         },
-        {
-          "text": "The moon moves fast",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Daybreak is slow",
-          "value": false,
-          "color": "yellow"
-        },
+        {"text": "The moon moves fast", "value": false, "color": "yellow"},
+        {"text": "Daybreak is slow", "value": false, "color": "yellow"},
         {
           "text": "The moon is always in the sky",
           "value": false,
@@ -2034,14 +1393,18 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
       ]
     },
     {
-      "question": "The one who is sheltered cannot know that the one who is exposed feels cold.",
+      "question":
+          "The one who is sheltered cannot know that the one who is exposed feels cold.",
       "dialog": {
-        "title": "Those who are protected may not understand the struggles of others",
-        "content": "This proverb conveys the idea that challenges and difficulties are shared by many."
+        "title":
+            "Those who are protected may not understand the struggles of others",
+        "content":
+            "This proverb conveys the idea that challenges and difficulties are shared by many."
       },
       "options": [
         {
-          "text": "Those who are protected may not understand the struggles of others",
+          "text":
+              "Those who are protected may not understand the struggles of others",
           "value": true,
           "color": "yellow"
         },
@@ -2055,18 +1418,15 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
           "value": false,
           "color": "yellow"
         },
-        {
-          "text": "Cold is a good thing",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "Cold is a good thing", "value": false, "color": "yellow"}
       ]
     },
     {
       "question": "Rain does not fall on one roof alone.",
       "dialog": {
         "title": "Difficulties affect many people",
-        "content": "This proverb emphasizes that individuals cannot change their essential character or nature."
+        "content":
+            "This proverb emphasizes that individuals cannot change their essential character or nature."
       },
       "options": [
         {
@@ -2084,18 +1444,16 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
           "value": false,
           "color": "yellow"
         },
-        {
-          "text": "Roofs are more important",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "Roofs are more important", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question": "However long a log stays in the water, it doesn't become a crocodile.",
+      "question":
+          "However long a log stays in the water, it doesn't become a crocodile.",
       "dialog": {
         "title": "You cannot change your inherent nature",
-        "content": "This proverb implies that individual accomplishments can be more noticeable than a collective effort."
+        "content":
+            "This proverb implies that individual accomplishments can be more noticeable than a collective effort."
       },
       "options": [
         {
@@ -2121,10 +1479,12 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
       ]
     },
     {
-      "question": "A tree that falls to the ground makes more noise than a forest that grows.",
+      "question":
+          "A tree that falls to the ground makes more noise than a forest that grows.",
       "dialog": {
         "title": "Success is more significant than noise",
-        "content": "This proverb suggests that proverbs are intended to teach wisdom to those who lack it."
+        "content":
+            "This proverb suggests that proverbs are intended to teach wisdom to those who lack it."
       },
       "options": [
         {
@@ -2132,28 +1492,21 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
           "value": true,
           "color": "yellow"
         },
-        {
-          "text": "Forests are noisy",
-          "value": false,
-          "color": "yellow"
-        },
+        {"text": "Forests are noisy", "value": false, "color": "yellow"},
         {
           "text": "Trees never fall to the ground",
           "value": false,
           "color": "yellow"
         },
-        {
-          "text": "Falling trees are silent",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "Falling trees are silent", "value": false, "color": "yellow"}
       ]
     },
     {
       "question": "The wise create proverbs for fools to learn, not to repeat.",
       "dialog": {
         "title": "Proverbs are meant to convey wisdom and knowledge",
-        "content": "This riddle describes a piano, which has keys that produce musical sounds."
+        "content":
+            "This riddle describes a piano, which has keys that produce musical sounds."
       },
       "options": [
         {
@@ -2161,470 +1514,245 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
           "value": true,
           "color": "yellow"
         },
-        {
-          "text": "Fools are wise",
-          "value": false,
-          "color": "yellow"
-        },
+        {"text": "Fools are wise", "value": false, "color": "yellow"},
         {
           "text": "Proverbs are meant to be repeated",
           "value": false,
           "color": "yellow"
         },
-        {
-          "text": "Wisdom is not important",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "Wisdom is not important", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question": "I have keys but can't open locks, and I sound like a musical box. What am I?",
+      "question":
+          "I have keys but can't open locks, and I sound like a musical box. What am I?",
       "dialog": {
         "title": "A piano",
-        "content": "This riddle describes a sponge, which is lightweight despite having holes."
+        "content":
+            "This riddle describes a sponge, which is lightweight despite having holes."
       },
       "options": [
-        {
-          "text": "A piano",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "A guitar",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A typewriter",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A xylophone",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "A piano", "value": true, "color": "yellow"},
+        {"text": "A guitar", "value": false, "color": "yellow"},
+        {"text": "A typewriter", "value": false, "color": "yellow"},
+        {"text": "A xylophone", "value": false, "color": "yellow"}
       ]
     },
     {
       "question": "I'm full of holes, yet I'm still heavy. What am I?",
       "dialog": {
         "title": "A sponge",
-        "content": "This riddle describes a shadow, which can appear to fly and extends in the presence of light."
+        "content":
+            "This riddle describes a shadow, which can appear to fly and extends in the presence of light."
       },
       "options": [
-        {
-          "text": "A sponge",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "Swiss cheese",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A cloud",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A net",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "A sponge", "value": true, "color": "yellow"},
+        {"text": "Swiss cheese", "value": false, "color": "yellow"},
+        {"text": "A cloud", "value": false, "color": "yellow"},
+        {"text": "A net", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question": "I can fly without wings, and I can cry without eyes. Wherever I go, darkness follows me. What am I?",
+      "question":
+          "I can fly without wings, and I can cry without eyes. Wherever I go, darkness follows me. What am I?",
       "dialog": {
         "title": "A shadow",
-        "content": "This riddle describes fire, which consumes oxygen and appears to grow, yet it's not alive."
+        "content":
+            "This riddle describes fire, which consumes oxygen and appears to grow, yet it's not alive."
       },
       "options": [
-        {
-          "text": "A shadow",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "A bat",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A bird",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A cloud",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "A shadow", "value": true, "color": "yellow"},
+        {"text": "A bat", "value": false, "color": "yellow"},
+        {"text": "A bird", "value": false, "color": "yellow"},
+        {"text": "A cloud", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question": "I am not alive, but I can grow; I don't have lungs, but I need air; I don't have a mouth, but water kills me. What am I?",
+      "question":
+          "I am not alive, but I can grow; I don't have lungs, but I need air; I don't have a mouth, but water kills me. What am I?",
       "dialog": {
         "title": "Fire",
-        "content": "This riddle is about footsteps, as the more you walk, the more footprints you leave behind."
+        "content":
+            "This riddle is about footsteps, as the more you walk, the more footprints you leave behind."
       },
       "options": [
-        {
-          "text": "Fire",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "Ice",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Mold",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Stone",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "Fire", "value": true, "color": "yellow"},
+        {"text": "Ice", "value": false, "color": "yellow"},
+        {"text": "Mold", "value": false, "color": "yellow"},
+        {"text": "Stone", "value": false, "color": "yellow"}
       ]
     },
     {
       "question": "The more you take, the more you leave behind. What am I?",
       "dialog": {
         "title": "Footsteps",
-        "content": "This riddle describes an echo, a sound phenomenon that doesn't have a physical form."
+        "content":
+            "This riddle describes an echo, a sound phenomenon that doesn't have a physical form."
       },
       "options": [
-        {
-          "text": "Footsteps",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "Money",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Knowledge",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Food",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "Footsteps", "value": true, "color": "yellow"},
+        {"text": "Money", "value": false, "color": "yellow"},
+        {"text": "Knowledge", "value": false, "color": "yellow"},
+        {"text": "Food", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question": "I speak without a mouth and hear without ears. I have no body, but I come alive with the wind. What am I?",
+      "question":
+          "I speak without a mouth and hear without ears. I have no body, but I come alive with the wind. What am I?",
       "dialog": {
         "title": "An echo",
-        "content": "This riddle refers to a candle, which becomes shorter as it burns."
+        "content":
+            "This riddle refers to a candle, which becomes shorter as it burns."
       },
       "options": [
-        {
-          "text": "An echo",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "A tree",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A book",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A river",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "An echo", "value": true, "color": "yellow"},
+        {"text": "A tree", "value": false, "color": "yellow"},
+        {"text": "A book", "value": false, "color": "yellow"},
+        {"text": "A river", "value": false, "color": "yellow"}
       ]
     },
     {
       "question": "I'm tall when I'm young, and short when I'm old. What am I?",
       "dialog": {
         "title": "A candle",
-        "content": "This riddle describes a car, as you can enter it but can't physically go inside the car."
+        "content":
+            "This riddle describes a car, as you can enter it but can't physically go inside the car."
       },
       "options": [
-        {
-          "text": "A candle",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "A tree",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A mountain",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A river",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "A candle", "value": true, "color": "yellow"},
+        {"text": "A tree", "value": false, "color": "yellow"},
+        {"text": "A mountain", "value": false, "color": "yellow"},
+        {"text": "A river", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question": "I have keys but can't open locks, I have space but no room, and you can enter, but you can't go inside. What am I?",
+      "question":
+          "I have keys but can't open locks, I have space but no room, and you can enter, but you can't go inside. What am I?",
       "dialog": {
         "title": "A car",
-        "content": "This riddle describes pencil lead, which is enclosed in a wooden case (pencil) and used for writing."
+        "content":
+            "This riddle describes pencil lead, which is enclosed in a wooden case (pencil) and used for writing."
       },
       "options": [
-        {
-          "text": "A car",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "A house",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A keyboard",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A wallet",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "A car", "value": true, "color": "yellow"},
+        {"text": "A house", "value": false, "color": "yellow"},
+        {"text": "A keyboard", "value": false, "color": "yellow"},
+        {"text": "A wallet", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question": "I am taken from a mine and shut up in a wooden case, from which I am never released, and yet I am used by almost every person. What am I?",
+      "question":
+          "I am taken from a mine and shut up in a wooden case, from which I am never released, and yet I am used by almost every person. What am I?",
       "dialog": {
         "title": "Pencil lead",
-        "content": "This riddle is about footsteps, as the more you take, the more footprints you leave behind."
+        "content":
+            "This riddle is about footsteps, as the more you take, the more footprints you leave behind."
       },
       "options": [
-        {
-          "text": "Pencil lead",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "Gold",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Diamond",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Water",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "Pencil lead", "value": true, "color": "yellow"},
+        {"text": "Gold", "value": false, "color": "yellow"},
+        {"text": "Diamond", "value": false, "color": "yellow"},
+        {"text": "Water", "value": false, "color": "yellow"}
       ]
     },
     {
       "question": "The more you take, the more you leave behind. What am I?",
       "dialog": {
         "title": "Footsteps",
-        "content": "This riddle refers to a breath, which is intangible and fleeting."
+        "content":
+            "This riddle refers to a breath, which is intangible and fleeting."
       },
       "options": [
-        {
-          "text": "Footsteps",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "Money",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Knowledge",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Food",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "Footsteps", "value": true, "color": "yellow"},
+        {"text": "Money", "value": false, "color": "yellow"},
+        {"text": "Knowledge", "value": false, "color": "yellow"},
+        {"text": "Food", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question": "I'm light as a feather, yet the strongest person can't hold me for much longer than a minute. What am I?",
+      "question":
+          "I'm light as a feather, yet the strongest person can't hold me for much longer than a minute. What am I?",
       "dialog": {
         "title": "Breath",
-        "content": "This riddle describes a piano, which has keys for producing musical notes."
+        "content":
+            "This riddle describes a piano, which has keys for producing musical notes."
       },
       "options": [
-        {
-          "text": "Breath",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "Feather",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Thought",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Balloon",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "Breath", "value": true, "color": "yellow"},
+        {"text": "Feather", "value": false, "color": "yellow"},
+        {"text": "Thought", "value": false, "color": "yellow"},
+        {"text": "Balloon", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question": "I'm full of keys but can't open locks, and I sound like a musical box. What am I?",
+      "question":
+          "I'm full of keys but can't open locks, and I sound like a musical box. What am I?",
       "dialog": {
         "title": "A piano",
-        "content": "This riddle describes a keyboard, which has keys but doesn't open locks."
+        "content":
+            "This riddle describes a keyboard, which has keys but doesn't open locks."
       },
       "options": [
-        {
-          "text": "A piano",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "A guitar",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A typewriter",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A xylophone",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "A piano", "value": true, "color": "yellow"},
+        {"text": "A guitar", "value": false, "color": "yellow"},
+        {"text": "A typewriter", "value": false, "color": "yellow"},
+        {"text": "A xylophone", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question": "I have keys but can't open locks, I have space but no room, and you can enter, but you can't go inside. What am I?",
+      "question":
+          "I have keys but can't open locks, I have space but no room, and you can enter, but you can't go inside. What am I?",
       "dialog": {
         "title": "A keyboard",
-        "content": "This riddle refers to a shadow, which can appear to fly without wings and extends in the presence of light."
+        "content":
+            "This riddle refers to a shadow, which can appear to fly without wings and extends in the presence of light."
       },
       "options": [
-        {
-          "text": "A keyboard",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "A car",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A tree",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A map",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "A keyboard", "value": true, "color": "yellow"},
+        {"text": "A car", "value": false, "color": "yellow"},
+        {"text": "A tree", "value": false, "color": "yellow"},
+        {"text": "A map", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question": "I can fly without wings, and I can cry without eyes. Wherever I go, darkness follows me. What am I?",
+      "question":
+          "I can fly without wings, and I can cry without eyes. Wherever I go, darkness follows me. What am I?",
       "dialog": {
         "title": "A shadow",
-        "content": "This riddle is about footsteps, as the more you walk, the more footprints you leave behind."
+        "content":
+            "This riddle is about footsteps, as the more you walk, the more footprints you leave behind."
       },
       "options": [
-        {
-          "text": "A shadow",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "A bat",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A bird",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A cloud",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "A shadow", "value": true, "color": "yellow"},
+        {"text": "A bat", "value": false, "color": "yellow"},
+        {"text": "A bird", "value": false, "color": "yellow"},
+        {"text": "A cloud", "value": false, "color": "yellow"}
       ]
     },
     {
       "question": "The more you take, the more you leave behind. What am I?",
       "dialog": {
         "title": "Footsteps",
-        "content": "This proverb from the Book of Proverbs warns against the destructive consequences of pride."
+        "content":
+            "This proverb from the Book of Proverbs warns against the destructive consequences of pride."
       },
       "options": [
-        {
-          "text": "Footsteps",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "Money",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Knowledge",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Food",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "Footsteps", "value": true, "color": "yellow"},
+        {"text": "Money", "value": false, "color": "yellow"},
+        {"text": "Knowledge", "value": false, "color": "yellow"},
+        {"text": "Food", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question": "Pride goes before destruction, and a haughty spirit before a fall.",
+      "question":
+          "Pride goes before destruction, and a haughty spirit before a fall.",
       "dialog": {
         "title": "Pride leads to downfall",
-        "content": "This proverb emphasizes the power of a kind response to defuse anger."
+        "content":
+            "This proverb emphasizes the power of a kind response to defuse anger."
       },
       "options": [
-        {
-          "text": "Pride leads to downfall",
-          "value": true,
-          "color": "yellow"
-        },
+        {"text": "Pride leads to downfall", "value": true, "color": "yellow"},
         {
           "text": "Humility leads to destruction",
           "value": false,
@@ -2643,10 +1771,12 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
       ]
     },
     {
-      "question": "A gentle answer turns away wrath, but a harsh word stirs up anger.",
+      "question":
+          "A gentle answer turns away wrath, but a harsh word stirs up anger.",
       "dialog": {
         "title": "A gentle response calms anger",
-        "content": "This proverb emphasizes the importance of teaching children the right way to live."
+        "content":
+            "This proverb emphasizes the importance of teaching children the right way to live."
       },
       "options": [
         {
@@ -2654,16 +1784,8 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
           "value": true,
           "color": "yellow"
         },
-        {
-          "text": "Harsh words are better",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Wrath is necessary",
-          "value": false,
-          "color": "yellow"
-        },
+        {"text": "Harsh words are better", "value": false, "color": "yellow"},
+        {"text": "Wrath is necessary", "value": false, "color": "yellow"},
         {
           "text": "Gentle answers cause anger",
           "value": false,
@@ -2672,10 +1794,12 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
       ]
     },
     {
-      "question": "Train up a child in the way he should go: and when he is old, he will not depart from it.",
+      "question":
+          "Train up a child in the way he should go: and when he is old, he will not depart from it.",
       "dialog": {
         "title": "Proper upbringing leads to lifelong values",
-        "content": "This proverb highlights the impact of a child's wisdom or foolishness on their parents' emotions."
+        "content":
+            "This proverb highlights the impact of a child's wisdom or foolishness on their parents' emotions."
       },
       "options": [
         {
@@ -2701,10 +1825,12 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
       ]
     },
     {
-      "question": "A wise son brings joy to his father, but a foolish son grief to his mother.",
+      "question":
+          "A wise son brings joy to his father, but a foolish son grief to his mother.",
       "dialog": {
         "title": "Wisdom brings joy to parents",
-        "content": "This proverb conveys the idea that people can influence and improve each other's character."
+        "content":
+            "This proverb conveys the idea that people can influence and improve each other's character."
       },
       "options": [
         {
@@ -2722,18 +1848,15 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
           "value": false,
           "color": "yellow"
         },
-        {
-          "text": "Mothers prefer wise sons",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "Mothers prefer wise sons", "value": false, "color": "yellow"}
       ]
     },
     {
       "question": "As iron sharpens iron, so one person sharpens another.",
       "dialog": {
         "title": "People can influence and improve each other",
-        "content": "This riddle refers to Jesus Christ, who said, I am the way, the truth, and the life in the Bible."
+        "content":
+            "This riddle refers to Jesus Christ, who said, I am the way, the truth, and the life in the Bible."
       },
       "options": [
         {
@@ -2759,155 +1882,87 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
       ]
     },
     {
-      "question": "I am the way, the truth, and the life; no one comes to the Father except through me. Who am I?",
+      "question":
+          "I am the way, the truth, and the life; no one comes to the Father except through me. Who am I?",
       "dialog": {
         "title": "Jesus Christ",
-        "content": "This riddle refers to Jesus Christ, who spoke of being the bread of life in the Bible."
+        "content":
+            "This riddle refers to Jesus Christ, who spoke of being the bread of life in the Bible."
       },
       "options": [
-        {
-          "text": "Jesus Christ",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "Moses",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "David",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Solomon",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "Jesus Christ", "value": true, "color": "yellow"},
+        {"text": "Moses", "value": false, "color": "yellow"},
+        {"text": "David", "value": false, "color": "yellow"},
+        {"text": "Solomon", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question": "I am the bread of life; whoever comes to me shall not hunger, and whoever believes in me shall never thirst. Who am I?",
+      "question":
+          "I am the bread of life; whoever comes to me shall not hunger, and whoever believes in me shall never thirst. Who am I?",
       "dialog": {
         "title": "Jesus Christ",
-        "content": "This riddle refers to Jesus Christ, who declared himself as the resurrection and the life in the Bible."
+        "content":
+            "This riddle refers to Jesus Christ, who declared himself as the resurrection and the life in the Bible."
       },
       "options": [
-        {
-          "text": "Jesus Christ",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "Abraham",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Noah",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "John the Baptist",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "Jesus Christ", "value": true, "color": "yellow"},
+        {"text": "Abraham", "value": false, "color": "yellow"},
+        {"text": "Noah", "value": false, "color": "yellow"},
+        {"text": "John the Baptist", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question": "I am the resurrection and the life. Whoever believes in me, though he die, yet shall he live, and everyone who lives and believes in me shall never die. Who am I?",
+      "question":
+          "I am the resurrection and the life. Whoever believes in me, though he die, yet shall he live, and everyone who lives and believes in me shall never die. Who am I?",
       "dialog": {
         "title": "Jesus Christ",
-        "content": "This riddle refers to Jesus Christ, who identifies as the Alpha and the Omega in the Bible."
+        "content":
+            "This riddle refers to Jesus Christ, who identifies as the Alpha and the Omega in the Bible."
       },
       "options": [
-        {
-          "text": "Jesus Christ",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "King David",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Prophet Elijah",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Apostle Paul",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "Jesus Christ", "value": true, "color": "yellow"},
+        {"text": "King David", "value": false, "color": "yellow"},
+        {"text": "Prophet Elijah", "value": false, "color": "yellow"},
+        {"text": "Apostle Paul", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question": "I am the Alpha and the Omega, the first and the last, the beginning and the end. Who am I",
+      "question":
+          "I am the Alpha and the Omega, the first and the last, the beginning and the end. Who am I",
       "dialog": {
         "title": "Jesus Christ",
-        "content": "This riddle refers to Jesus Christ, who described himself as the Good Shepherd in the Bible."
+        "content":
+            "This riddle refers to Jesus Christ, who described himself as the Good Shepherd in the Bible."
       },
       "options": [
-        {
-          "text": "Jesus Christ",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "Adam",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Abraham",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Moses",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "Jesus Christ", "value": true, "color": "yellow"},
+        {"text": "Adam", "value": false, "color": "yellow"},
+        {"text": "Abraham", "value": false, "color": "yellow"},
+        {"text": "Moses", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question": "I am the Good Shepherd. The good shepherd lays down his life for the sheep. Who am I?",
+      "question":
+          "I am the Good Shepherd. The good shepherd lays down his life for the sheep. Who am I?",
       "dialog": {
         "title": "Jesus Christ",
-        "content": "This proverb emphasizes the power of a kind response to defuse anger."
+        "content":
+            "This proverb emphasizes the power of a kind response to defuse anger."
       },
       "options": [
-        {
-          "text": "Jesus Christ",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "King Solomon",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Prophet Isaiah",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Apostle Peter",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "Jesus Christ", "value": true, "color": "yellow"},
+        {"text": "King Solomon", "value": false, "color": "yellow"},
+        {"text": "Prophet Isaiah", "value": false, "color": "yellow"},
+        {"text": "Apostle Peter", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question": "A soft answer turns away wrath, but a harsh word stirs up anger.",
+      "question":
+          "A soft answer turns away wrath, but a harsh word stirs up anger.",
       "dialog": {
         "title": "A gentle response calms anger",
-        "content": "This proverb underscores the importance of a reverential fear of God as the foundation of wisdom."
+        "content":
+            "This proverb underscores the importance of a reverential fear of God as the foundation of wisdom."
       },
       "options": [
         {
@@ -2915,16 +1970,8 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
           "value": true,
           "color": "yellow"
         },
-        {
-          "text": "Harsh words are better",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Wrath is necessary",
-          "value": false,
-          "color": "yellow"
-        },
+        {"text": "Harsh words are better", "value": false, "color": "yellow"},
+        {"text": "Wrath is necessary", "value": false, "color": "yellow"},
         {
           "text": "Gentle answers cause anger",
           "value": false,
@@ -2933,10 +1980,12 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
       ]
     },
     {
-      "question": "The fear of the LORD is the beginning of wisdom, and knowledge of the Holy One is understanding.",
+      "question":
+          "The fear of the LORD is the beginning of wisdom, and knowledge of the Holy One is understanding.",
       "dialog": {
         "title": "Fear of God is the foundation of wisdom",
-        "content": "This proverb highlights the healing power of a cheerful and joyful heart."
+        "content":
+            "This proverb highlights the healing power of a cheerful and joyful heart."
       },
       "options": [
         {
@@ -2954,25 +2003,19 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
           "value": false,
           "color": "yellow"
         },
-        {
-          "text": "Wisdom is overrated",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "Wisdom is overrated", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question": "A cheerful heart is good medicine, but a crushed spirit dries up the bones.",
+      "question":
+          "A cheerful heart is good medicine, but a crushed spirit dries up the bones.",
       "dialog": {
         "title": "A joyful heart is healing",
-        "content": "This proverb emphasizes the importance of honoring one's parents for a long and prosperous life."
+        "content":
+            "This proverb emphasizes the importance of honoring one's parents for a long and prosperous life."
       },
       "options": [
-        {
-          "text": "A joyful heart is healing",
-          "value": true,
-          "color": "yellow"
-        },
+        {"text": "A joyful heart is healing", "value": true, "color": "yellow"},
         {
           "text": "Medicine is not effective",
           "value": false,
@@ -2983,18 +2026,16 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
           "value": false,
           "color": "yellow"
         },
-        {
-          "text": "Bones don't need moisture",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "Bones don't need moisture", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question": "Honor your father and mother, so that you may live long in the land the LORD your God is giving you.",
+      "question":
+          "Honor your father and mother, so that you may live long in the land the LORD your God is giving you.",
       "dialog": {
         "title": "Honoring parents leads to a long life",
-        "content": "This proverb conveys the idea that genuine friends stand by you through all circumstances, while siblings are particularly supportive during tough times."
+        "content":
+            "This proverb conveys the idea that genuine friends stand by you through all circumstances, while siblings are particularly supportive during tough times."
       },
       "options": [
         {
@@ -3012,11 +2053,7 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
           "value": false,
           "color": "yellow"
         },
-        {
-          "text": "Long life is not valuable",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "Long life is not valuable", "value": false, "color": "yellow"}
       ]
     }
   ]
