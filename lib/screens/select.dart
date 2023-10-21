@@ -56,25 +56,25 @@ class _SelectScreenState extends State<SelectScreen> {
         "data": artsData,
       },
       {
-        "image": "",
+        "image": "assets/images/books.png",
         "data": booksData,
       },
     ],
     [
       {
-        "image": "",
+        "image": "assets/images/discovery.png",
         "data": discoveriesData,
       },
       {
-        "image": "",
+        "image": "assets/images/fruits_and_vegetables.png",
         "data": fruitsAndVegetablesData,
       },
       {
-        "image": "",
+        "image": "assets/images/geography.png",
         "data": geographyData,
       },
       {
-        "image": "",
+        "image": "assets/images/history.png",
         "data": historyData,
       },
     ],
