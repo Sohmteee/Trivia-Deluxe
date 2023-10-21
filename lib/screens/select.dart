@@ -245,10 +245,11 @@ class _SelectScreenState extends State<SelectScreen> {
                                         ),
                                       ),
                                       Container(
+                                        width: 100.w,
                                         padding: EdgeInsets.symmetric(
                                             horizontal: 15.sp, vertical: 10.sp),
                                         decoration: BoxDecoration(
-                                          color: AppColor.yellow,
+                                          color: AppColor.white,
                                           borderRadius:
                                               BorderRadius.circular(50.r),
                                         ),
