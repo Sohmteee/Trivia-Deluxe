@@ -42,7 +42,7 @@ class SelectScreen extends StatefulWidget {
 
 class _SelectScreenState extends State<SelectScreen> {
   // BannerAd? _bannerAd;
-  final pageController = PageController();
+  late PageController pageController;
   int pageIndex = 0;
 
   List<List<Map<String, dynamic>>> selectItems = [
@@ -134,7 +134,7 @@ class _SelectScreenState extends State<SelectScreen> {
     _loadBannerAd(); */
 
     final selectProvider = Provider.of<SelectProvider>(context, listen: false);
-    selectProvider.pageIndex
+    pageController =  selectProvider.pageIndex
     super.initState();
   }
 
