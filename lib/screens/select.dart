@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:provider/provider.dart';
@@ -261,7 +262,8 @@ class _SelectScreenState extends State<SelectScreen> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   for (int i = 0; i < selectItems.length; i++)
-                    Container(
+                    AnimatedContainer(
+                      duration: .5.seconds,
                       margin: EdgeInsets.symmetric(horizontal: 5.sp),
                       width: 10.sp,
                       height: 10.sp,
