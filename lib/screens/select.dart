@@ -6,6 +6,9 @@ import 'package:toast/toast.dart';
 import 'package:trivia/ad_helper.dart';
 import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/data/box.dart';
+import 'package:trivia/data/questions/anime.dart';
+import 'package:trivia/data/questions/arts.dart';
+import 'package:trivia/data/questions/books.dart';
 import 'package:trivia/main.dart';
 import 'package:trivia/models/game_background.dart';
 import 'package:trivia/models/stat_bar.dart';
@@ -35,9 +38,71 @@ class _SelectScreenState extends State<SelectScreen> {
       },
       {
         "image": "assets/images/science.png",
-        "data": scienceData,
+        "data": animeData,
       },
-    ]
+      {
+        "image": "assets/images/dolphin.png",
+        "data": artsData,
+      },
+      {
+        "image": "assets/images/science.png",
+        "data": booksData,
+      },
+    ],
+    [
+      {
+        "image": "assets/images/dolphin.png",
+        "data": animalsData,
+      },
+      {
+        "image": "assets/images/science.png",
+        "data": animeData,
+      },
+      {
+        "image": "assets/images/dolphin.png",
+        "data": artsData,
+      },
+      {
+        "image": "assets/images/science.png",
+        "data": booksData,
+      },
+    ],
+    [
+      {
+        "image": "assets/images/dolphin.png",
+        "data": animalsData,
+      },
+      {
+        "image": "assets/images/science.png",
+        "data": animeData,
+      },
+      {
+        "image": "assets/images/dolphin.png",
+        "data": artsData,
+      },
+      {
+        "image": "assets/images/science.png",
+        "data": booksData,
+      },
+    ],
+    [
+      {
+        "image": "assets/images/dolphin.png",
+        "data": animalsData,
+      },
+      {
+        "image": "assets/images/science.png",
+        "data": animeData,
+      },
+      {
+        "image": "assets/images/dolphin.png",
+        "data": artsData,
+      },
+      {
+        "image": "assets/images/science.png",
+        "data": booksData,
+      },
+    ],
   ];
 
   @override
