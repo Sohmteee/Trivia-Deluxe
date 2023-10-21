@@ -1,5 +1,5 @@
 Map<String, dynamic> artsData = {
-  "title": "",
+  "title": "Arts",
   "currentIndex": 0,
   "currentLevel": 1,
   "data": [

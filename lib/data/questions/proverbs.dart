@@ -1,5 +1,5 @@
-Map<String, dynamic> proverbsData = {
-  "title": "",
+Map<String, dynamic> proverbsIdiomsRiddlesData = {
+  "title": "Proverbs, Idioms, and Riddles",
   "currentIndex": 0,
   "currentLevel": 1,
   "data": [
