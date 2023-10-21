@@ -241,6 +241,7 @@ class _SelectScreenState extends State<SelectScreen> {
                                         "Level ${box.get(item["data"]["title"])?["currentLevel"]}",
                                         style: TextStyle(
                                           fontSize: 16.sp,
+                                          color: AppColor.yellow,
                                         ),
                                       ),
                                       Container(
