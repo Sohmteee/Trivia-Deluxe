@@ -11,6 +11,7 @@ import 'package:trivia/providers/audio.dart';
 import 'package:trivia/providers/money.dart';
 import 'package:trivia/providers/question.dart';
 import 'package:trivia/providers/score.dart';
+import 'package:trivia/providers/select.dart';
 import 'package:trivia/providers/stage.dart';
 import 'package:trivia/providers/time.dart';
 import 'package:trivia/screens/ad.dart';
@@ -41,6 +42,7 @@ Future<void> main() async {
         ChangeNotifierProvider(create: (_) => MoneyProvider()),
         ChangeNotifierProvider(create: (_) => AudioProvider()),
         ChangeNotifierProvider(create: (_) => ScoreProvider()),
+        ChangeNotifierProvider(create: (_) => SelectProvider()),
       ],
       child: const MyApp(),
     ),
