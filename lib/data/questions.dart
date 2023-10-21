@@ -13297,7 +13297,7 @@ Map<String, dynamic> historyData = {
           "text": "1492",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -13326,7 +13326,7 @@ Map<String, dynamic> historyData = {
           "text": "George Washington",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -13355,7 +13355,7 @@ Map<String, dynamic> historyData = {
           "text": "United Kingdom",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -13384,7 +13384,7 @@ Map<String, dynamic> historyData = {
           "text": "Defense",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -13413,7 +13413,7 @@ Map<String, dynamic> historyData = {
           "text": "William Shakespeare",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -13442,7 +13442,7 @@ Map<String, dynamic> historyData = {
           "text": "Mayflower",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -13471,7 +13471,7 @@ Map<String, dynamic> historyData = {
           "text": "Ancient Egypt",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -13500,7 +13500,7 @@ Map<String, dynamic> historyData = {
           "text": "Martin Luther King Jr.",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -13529,7 +13529,7 @@ Map<String, dynamic> historyData = {
           "text": "The Battles of Lexington and Concord",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -13558,7 +13558,7 @@ Map<String, dynamic> historyData = {
           "text": "Leonardo da Vinci",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -13587,7 +13587,7 @@ Map<String, dynamic> historyData = {
           "text": "Ancient Greece",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -13616,7 +13616,7 @@ Map<String, dynamic> historyData = {
           "text": "HMS Beagle",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -13645,7 +13645,7 @@ Map<String, dynamic> historyData = {
           "text": "Italy",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -13674,7 +13674,7 @@ Map<String, dynamic> historyData = {
           "text": "Amelia Earhart",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -13703,7 +13703,7 @@ Map<String, dynamic> historyData = {
           "text": "Titanic",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -13732,7 +13732,7 @@ Map<String, dynamic> historyData = {
           "text": "Apollo 11 Moon Landing",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -13761,7 +13761,7 @@ Map<String, dynamic> historyData = {
           "text": "Mahatma Gandhi",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -13790,7 +13790,7 @@ Map<String, dynamic> historyData = {
           "text": "Babylon",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -13819,7 +13819,7 @@ Map<String, dynamic> historyData = {
           "text": "Berlin Wall",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -13848,7 +13848,7 @@ Map<String, dynamic> historyData = {
           "text": "Blackbeard",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -13877,7 +13877,7 @@ Map<String, dynamic> historyData = {
           "text": "Moon landing",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -13906,7 +13906,7 @@ Map<String, dynamic> historyData = {
           "text": "Romans",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -13935,7 +13935,7 @@ Map<String, dynamic> historyData = {
           "text": "King Arthur",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -13964,7 +13964,7 @@ Map<String, dynamic> historyData = {
           "text": "Vasco da Gama",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -13993,7 +13993,7 @@ Map<String, dynamic> historyData = {
           "text": "Rapa Nui (Easter Island)",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -14022,7 +14022,7 @@ Map<String, dynamic> historyData = {
           "text": "Nikita Khrushchev",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -14051,7 +14051,7 @@ Map<String, dynamic> historyData = {
           "text": "Reconquista",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -14080,7 +14080,7 @@ Map<String, dynamic> historyData = {
           "text": "Cleopatra",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -14109,7 +14109,7 @@ Map<String, dynamic> historyData = {
           "text": "Civil War",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -14138,7 +14138,7 @@ Map<String, dynamic> historyData = {
           "text": "Anne Frank",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -14167,7 +14167,7 @@ Map<String, dynamic> historyData = {
           "text": "Renaissance",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -14196,7 +14196,7 @@ Map<String, dynamic> historyData = {
           "text": "Confucius",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -14225,7 +14225,7 @@ Map<String, dynamic> historyData = {
           "text": "Isaac Newton",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -14254,7 +14254,7 @@ Map<String, dynamic> historyData = {
           "text": "Druids",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -14283,7 +14283,7 @@ Map<String, dynamic> historyData = {
           "text": "Boston Tea Party",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -14312,7 +14312,7 @@ Map<String, dynamic> historyData = {
           "text": "Johannes Gutenberg",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -14341,7 +14341,7 @@ Map<String, dynamic> historyData = {
           "text": "Magna Carta",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -14370,7 +14370,7 @@ Map<String, dynamic> historyData = {
           "text": "Ancient Egyptians",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -14399,7 +14399,7 @@ Map<String, dynamic> historyData = {
           "text": "Florence Nightingale",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -14428,7 +14428,7 @@ Map<String, dynamic> historyData = {
           "text": "First Voyage to the Americas",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -14457,7 +14457,7 @@ Map<String, dynamic> historyData = {
           "text": "Jane Austen",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -14486,7 +14486,7 @@ Map<String, dynamic> historyData = {
           "text": "Great Wall of China",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -14515,7 +14515,7 @@ Map<String, dynamic> historyData = {
           "text": "Robin Hood",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -14544,7 +14544,7 @@ Map<String, dynamic> historyData = {
           "text": "1939",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -14573,7 +14573,7 @@ Map<String, dynamic> historyData = {
           "text": "Hadrian's Wall",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -14602,7 +14602,7 @@ Map<String, dynamic> historyData = {
           "text": "Pompeii",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -14631,7 +14631,7 @@ Map<String, dynamic> historyData = {
           "text": "Christopher Columbus",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -14660,7 +14660,7 @@ Map<String, dynamic> historyData = {
           "text": "Declaration of Independence",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -14689,7 +14689,7 @@ Map<String, dynamic> historyData = {
           "text": "Inca",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -14718,7 +14718,7 @@ Map<String, dynamic> historyData = {
           "text": "1914",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -14747,7 +14747,7 @@ Map<String, dynamic> historyData = {
           "text": "Albert Einstein",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -14776,7 +14776,7 @@ Map<String, dynamic> historyData = {
           "text": "Ferdinand Magellan",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -14805,7 +14805,7 @@ Map<String, dynamic> historyData = {
           "text": "Nabataeans",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -14834,7 +14834,7 @@ Map<String, dynamic> historyData = {
           "text": "Alexander Graham Bell",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -14863,7 +14863,7 @@ Map<String, dynamic> historyData = {
           "text": "Great Pyramid of Giza",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -14892,7 +14892,7 @@ Map<String, dynamic> historyData = {
           "text": "Colossus of Rhodes",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -14921,7 +14921,7 @@ Map<String, dynamic> historyData = {
           "text": "Nazca",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -14950,7 +14950,7 @@ Map<String, dynamic> historyData = {
           "text": "Lewis Carroll",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -14979,7 +14979,7 @@ Map<String, dynamic> historyData = {
           "text": "Standing Stones",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -15008,7 +15008,7 @@ Map<String, dynamic> historyData = {
           "text": "Johannes Kepler",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -15037,7 +15037,7 @@ Map<String, dynamic> historyData = {
           "text": "Castle",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -15066,7 +15066,7 @@ Map<String, dynamic> historyData = {
           "text": "Sumerians",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -15095,7 +15095,7 @@ Map<String, dynamic> historyData = {
           "text": "George Orwell",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -15124,7 +15124,7 @@ Map<String, dynamic> historyData = {
           "text": "Nile River",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -15153,7 +15153,7 @@ Map<String, dynamic> historyData = {
           "text": "Athens",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -15182,7 +15182,7 @@ Map<String, dynamic> historyData = {
           "text": "Herman Melville",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -15211,7 +15211,7 @@ Map<String, dynamic> historyData = {
           "text": "Moai",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -15240,7 +15240,7 @@ Map<String, dynamic> historyData = {
           "text": "Sandro Botticelli",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -15269,7 +15269,7 @@ Map<String, dynamic> historyData = {
           "text": "Silk Road",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -15298,7 +15298,7 @@ Map<String, dynamic> historyData = {
           "text": "Nelson Mandela",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -15327,7 +15327,7 @@ Map<String, dynamic> historyData = {
           "text": "Olmec",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -15356,7 +15356,7 @@ Map<String, dynamic> historyData = {
           "text": "Incas",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -15385,7 +15385,7 @@ Map<String, dynamic> historyData = {
           "text": "Salvador Dali",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -15414,7 +15414,7 @@ Map<String, dynamic> historyData = {
           "text": "Delphi",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -15443,7 +15443,7 @@ Map<String, dynamic> historyData = {
           "text": "Maya",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -15472,7 +15472,7 @@ Map<String, dynamic> historyData = {
           "text": "Aztec",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -15501,7 +15501,7 @@ Map<String, dynamic> historyData = {
           "text": "Persians",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -15530,7 +15530,7 @@ Map<String, dynamic> historyData = {
           "text": "Emily Bront\u00c3\u00ab",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -15559,7 +15559,7 @@ Map<String, dynamic> historyData = {
           "text": "Indus Valley",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -15588,7 +15588,7 @@ Map<String, dynamic> historyData = {
           "text": "Qin Dynasty",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -15617,7 +15617,7 @@ Map<String, dynamic> historyData = {
           "text": "Louisa May Alcott",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -15646,7 +15646,7 @@ Map<String, dynamic> historyData = {
           "text": "Terracotta Army",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -15675,7 +15675,7 @@ Map<String, dynamic> historyData = {
           "text": "Genghis Khan",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -15704,7 +15704,7 @@ Map<String, dynamic> historyData = {
           "text": "Phoenicians",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -15733,7 +15733,7 @@ Map<String, dynamic> historyData = {
           "text": "H.G. Wells",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -15762,7 +15762,7 @@ Map<String, dynamic> historyData = {
           "text": "Ludwig van Beethoven",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -15791,7 +15791,7 @@ Map<String, dynamic> historyData = {
           "text": "Long John Silver",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -15820,7 +15820,7 @@ Map<String, dynamic> historyData = {
           "text": "Trojans",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -15849,7 +15849,7 @@ Map<String, dynamic> historyData = {
           "text": "Harriet Tubman",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -15878,7 +15878,7 @@ Map<String, dynamic> historyData = {
           "text": "Edgar Allan Poe",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -15907,7 +15907,7 @@ Map<String, dynamic> historyData = {
           "text": "Alexander the Great",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -15936,7 +15936,7 @@ Map<String, dynamic> historyData = {
           "text": "Ancient India",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -15965,7 +15965,7 @@ Map<String, dynamic> historyData = {
           "text": "Hans Christian Andersen",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -15994,7 +15994,7 @@ Map<String, dynamic> historyData = {
           "text": "Sigmund Freud",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -16023,7 +16023,7 @@ Map<String, dynamic> historyData = {
           "text": "Benjamin Franklin",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -16052,7 +16052,7 @@ Map<String, dynamic> historyData = {
           "text": "Roald Amundsen",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -16081,7 +16081,7 @@ Map<String, dynamic> historyData = {
           "text": "Samuel Morse",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -16110,7 +16110,7 @@ Map<String, dynamic> historyData = {
           "text": "Roman Roads",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -16139,7 +16139,7 @@ Map<String, dynamic> historyData = {
           "text": "Mesopotamia",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     },
     {
@@ -16168,7 +16168,7 @@ Map<String, dynamic> historyData = {
           "text": "Leo Tolstoy",
           "value": true,
           "color": "yellow"
-        }
+        },
       ]
     }
   ]
