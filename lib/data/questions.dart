@@ -13267,7 +13267,7 @@ Map<String, dynamic> geographyData = {
 };
 
 Map<String, dynamic> historyData = {
-  "title": "",
+  "title": "History",
   "currentIndex": 0,
   "currentLevel": 1,
   "data": [
