@@ -228,7 +228,7 @@ class _GameScreenState extends State<GameScreen> {
               ),
               child: Center(
                 child: AutoSizeText(
-                  minFontSize: 20.sp,
+                  minFontSize: 20,
                   questionProvider.question,
                   style: TextStyle(
                     color: AppColor.white,
