@@ -50,4 +50,6 @@ Leaderboard Achievements
 Ultimate Achievement
 20. Collect all achievements: "Ultimate Achiever"
 
+Average Time answering
+
  */
