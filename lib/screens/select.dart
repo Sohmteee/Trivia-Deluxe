@@ -25,6 +25,7 @@ import 'package:trivia/main.dart';
 import 'package:trivia/models/game_background.dart';
 import 'package:trivia/models/stat_bar.dart';
 import 'package:trivia/providers/question.dart';
+import 'package:trivia/providers/select.dart';
 import 'package:trivia/providers/stage.dart';
 import 'package:velocity_x/velocity_x.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
@@ -131,6 +132,9 @@ class _SelectScreenState extends State<SelectScreen> {
 
     /* _initGoogleMobileAds();
     _loadBannerAd(); */
+
+    final selectProvider = Provider.of<SelectProvider>(context, listen: false);
+    selectProvider.pageIndex
     super.initState();
   }
 
