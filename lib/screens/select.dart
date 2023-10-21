@@ -110,7 +110,7 @@ class _SelectScreenState extends State<SelectScreen> {
         "data": sportsData,
       },
       {
-        "image": "assets/images/sports.png",
+        "image": "assets/images/vocab.png",
         "data": vocabData,
       },
     ],
