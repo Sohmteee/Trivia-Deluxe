@@ -235,11 +235,11 @@ class _SelectScreenState extends State<SelectScreen> {
                                     ),
                                     textAlign: TextAlign.center,
                                   ),
-                                  trailing: Intr(
+                                  trailing: IntrinsicWidth(
                                     child: Column(
                                       children: [
                                         Text(
-                                          "Level ${box.get(item["data"]["title"])?["currentLevel"]} of 30",
+                                          "Level ${box.get(item["data"]["title"])?["currentLevel"]} / 30",
                                           style: TextStyle(
                                             fontSize: 16.sp,
                                             color: AppColor.yellow,
