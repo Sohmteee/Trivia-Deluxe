@@ -169,12 +169,11 @@ class _SelectScreenState extends State<SelectScreen> {
                     itemCount: selectItems.length,
                     physics: const BouncingScrollPhysics(),
                     scrollDirection: Axis.horizontal,
-
                     onPageChanged: (value) {
-                      setSt
+                      setState(() {
+                        pageIndex = value;
+                      });
                     },
-
-
                     itemBuilder: (context, pageIndex) {
                       final selectItem = selectItems[pageIndex];
 
@@ -258,6 +257,7 @@ class _SelectScreenState extends State<SelectScreen> {
                     }),
               ),
               const Spacer(),
+              
               const Spacer(),
             ],
           ),
