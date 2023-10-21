@@ -299,7 +299,7 @@ class _RewardScreenState extends State<RewardScreen> {
                                     )
                                     .fadeOut(
                                       delay: 1.seconds,
-                                      duration: 1.seconds,
+                                      duration: .6.seconds,
                                     ),
                               ),
                               SizedBox(
