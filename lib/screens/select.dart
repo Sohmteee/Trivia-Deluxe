@@ -26,15 +26,18 @@ class SelectScreen extends StatefulWidget {
 
 class _SelectScreenState extends State<SelectScreen> {
   // BannerAd? _bannerAd;
-  List<Map<String, dynamic>> selectItems = [
-    {
-      "image": "assets/images/dolphin.png",
-      "data": animalsData,
-    },
-    {
-      "image": "assets/images/science.png",
-      "data": scienceData,
-    },
+
+  List<List<Map<String, dynamic>>> selectItems = [
+    [
+      {
+        "image": "assets/images/dolphin.png",
+        "data": animalsData,
+      },
+      {
+        "image": "assets/images/science.png",
+        "data": scienceData,
+      },
+    ]
   ];
 
   @override
