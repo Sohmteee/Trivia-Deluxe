@@ -1,5 +1,4 @@
-Map<String, dynamic> politics = C:\Users\Somto\PycharmProjects\Practice\venv\Scripts\python.exe C:/Users/Somto/PycharmProjects/Practice/CSV.py 
-{
+Map<String, dynamic> politicsData = {
   "title": "",
   "currentIndex": 0,
   "currentLevel": 1,
