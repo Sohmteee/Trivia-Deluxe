@@ -1,4 +1,4 @@
-Map<String, dynamic> popCulture = {
+Map<String, dynamic> popCultureData = {
   "title": "Pop Culture",
   "currentIndex": 0,
   "currentLevel": 1,

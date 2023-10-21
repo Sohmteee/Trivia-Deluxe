@@ -1,4 +1,4 @@
-Map<String, dynamic> inventions = {
+Map<String, dynamic> inventionsData = {
   "title": "Inventions",
   "currentIndex": 0,
   "currentLevel": 1,

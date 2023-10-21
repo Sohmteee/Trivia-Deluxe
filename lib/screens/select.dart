@@ -9,6 +9,13 @@ import 'package:trivia/data/box.dart';
 import 'package:trivia/data/questions/anime.dart';
 import 'package:trivia/data/questions/arts.dart';
 import 'package:trivia/data/questions/books.dart';
+import 'package:trivia/data/questions/discoveries.dart';
+import 'package:trivia/data/questions/fruits_and_vegetables.dart';
+import 'package:trivia/data/questions/geography.dart';
+import 'package:trivia/data/questions/history.dart';
+import 'package:trivia/data/questions/inventions.dart';
+import 'package:trivia/data/questions/politics.dart';
+import 'package:trivia/data/questions/pop_culture.dart';
 import 'package:trivia/main.dart';
 import 'package:trivia/models/game_background.dart';
 import 'package:trivia/models/stat_bar.dart';
@@ -52,33 +59,33 @@ class _SelectScreenState extends State<SelectScreen> {
     [
       {
         "image": "assets/images/dolphin.png",
-        "data": animalsData,
+        "data": discoveriesData,
       },
       {
         "image": "assets/images/science.png",
-        "data": animeData,
+        "data": fruitsAndVegetablesData,
       },
       {
         "image": "assets/images/dolphin.png",
-        "data": artsData,
+        "data": geographyData,
       },
       {
         "image": "assets/images/science.png",
-        "data": booksData,
+        "data": historyData,
       },
     ],
     [
       {
         "image": "assets/images/dolphin.png",
-        "data": animalsData,
+        "data": inventionsData,
       },
       {
         "image": "assets/images/science.png",
-        "data": animeData,
+        "data": politicsData,
       },
       {
         "image": "assets/images/dolphin.png",
-        "data": artsData,
+        "data": popCultureData,
       },
       {
         "image": "assets/images/science.png",
