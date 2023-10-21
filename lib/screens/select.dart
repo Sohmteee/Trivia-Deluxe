@@ -98,11 +98,11 @@ class _SelectScreenState extends State<SelectScreen> {
     ],
     [
       {
-        "image": "",
+        "image": "assets/images/religion.png",
         "data": religionData,
       },
       {
-        "image": "",
+        "image": "assets/images/science.png",
         "data": scienceData,
       },
       {
@@ -110,7 +110,7 @@ class _SelectScreenState extends State<SelectScreen> {
         "data": sportsData,
       },
       {
-        "image": "",
+        "image": "assets/images/sports.png",
         "data": vocabData,
       },
     ],
