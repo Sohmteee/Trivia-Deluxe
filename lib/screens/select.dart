@@ -224,7 +224,7 @@ class _SelectScreenState extends State<SelectScreen> {
                                 child: ListTile(
                                   leading: Image.asset(
                                     item["image"],
-                                    width: 40.w,
+                                    width: item["data"]["title"] == "" ? 35.w : 40.w,
                                     height: 40.h,
                                   ),
                                   title: Text(
