@@ -4,2056 +4,1955 @@ Map<String, dynamic> proverbsIdiomsRiddlesData = {
   "currentLevel": 1,
   "data": [
     {
-      "question": "Proverb: Actions speak louder than words.",
+      "question": "What kind of room has no doors or windows?",
       "dialog": {
-        "title": "Deeds are more important than what we say",
-        "content":
-            "This proverb advises against prematurely celebrating or assuming success before it happens."
+        "title": "A mushroom",
+        "content": "Mushrooms grow in rooms without doors or windows"
       },
       "options": [
+        {"text": "A prison cell", "value": false, "color": "yellow"},
+        {"text": "A basement", "value": false, "color": "yellow"},
+        {"text": "A mushroom", "value": true, "color": "yellow"},
+        {"text": "An attic", "value": false, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "What does \"break a leg\" mean?",
+      "dialog": {
+        "title": "Said for good luck before a performance",
+        "content":
+            "Though injuries limit performance, this phrase wishes good luck"
+      },
+      "options": [
+        {"text": "Cause an injury", "value": false, "color": "yellow"},
+        {"text": "Impede performance", "value": false, "color": "yellow"},
+        {"text": "Bad luck", "value": false, "color": "yellow"},
         {
-          "text": "Deeds are more important than what we say",
+          "text": "Said for good luck before a performance",
           "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "Words are more important than deeds",
-          "value": false,
-          "color": "yellow"
-        },
-        {"text": "Silence is golden", "value": false, "color": "yellow"},
-        {
-          "text": "It's better to be safe than sorry",
-          "value": false,
           "color": "yellow"
         }
       ]
     },
     {
-      "question": "Don't count your chickens before they hatch.",
+      "question": "What does \"Don't cry over spilled milk\" mean?",
       "dialog": {
-        "title": "Don't make assumptions about future success",
+        "title": "Don't worry about unintended mistakes or losses",
         "content":
-            "This proverb warns against judging something's worth solely by its appearance."
+            "Spilt milk can't be recovered, so don't fret over what can't be changed"
       },
       "options": [
+        {"text": "Messy kitchens", "value": false, "color": "yellow"},
+        {"text": "Wastefulness", "value": false, "color": "yellow"},
+        {"text": "Mourning a loss", "value": false, "color": "yellow"},
         {
-          "text": "Don't make assumptions about future success",
+          "text": "Don't worry about unintended mistakes or losses",
           "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "You should plan for the future",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Always be prepared for the unexpected",
-          "value": false,
-          "color": "yellow"
-        },
-        {"text": "Trust your instincts", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "All that glitters is not gold.",
-      "dialog": {
-        "title": "Things that look valuable may not always be valuable",
-        "content":
-            "This proverb advises adapting to local customs when in a foreign place."
-      },
-      "options": [
-        {
-          "text": "Things that look valuable may not always be valuable",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "Genuine gold always shines",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Beauty is in the eye of the beholder",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "It's best to have lots of possessions",
-          "value": false,
           "color": "yellow"
         }
       ]
     },
     {
-      "question": "When in Rome, do as the Romans do.",
+      "question": "What has words but never speaks?",
       "dialog": {
-        "title": "Adapt to the customs of the place you are in",
-        "content":
-            "This proverb conveys the idea that time appears to pass more slowly when you're eagerly waiting for something."
+        "title": "A book",
+        "content": "Books contain words but cannot speak"
       },
       "options": [
+        {"text": "A person", "value": false, "color": "yellow"},
+        {"text": "A radio", "value": false, "color": "yellow"},
+        {"text": "A book", "value": true, "color": "yellow"},
+        {"text": "A phone", "value": false, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "What does \" elephant in the room\" mean?",
+      "dialog": {
+        "title": "An obvious issue avoiding discussion",
+        "content":
+            "An elephant is hard to ignore. The idiom refers to not discussing an evident issue"
+      },
+      "options": [
+        {"text": "A large decoration", "value": false, "color": "yellow"},
+        {"text": "Good memory", "value": false, "color": "yellow"},
+        {"text": "Forgetfulness", "value": false, "color": "yellow"},
         {
-          "text": "Adapt to the customs of the place you are in",
+          "text": "An obvious issue avoiding discussion",
           "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "Always follow your own customs",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Never travel to foreign countries",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Be a leader, not a follower",
-          "value": false,
           "color": "yellow"
         }
       ]
     },
     {
-      "question": "A watched pot never boils.",
+      "question": "What does \"Curiosity killed the cat\" mean?",
       "dialog": {
-        "title": "Time seems to pass slowly when you're waiting for something",
+        "title": "Being too inquisitive can lead to harm",
         "content":
-            "This idiom is used to wish someone good luck, especially before a performance."
+            "Though curious, cats who stick their noses where they shouldn't may get hurt"
       },
       "options": [
+        {"text": "Reckless animals", "value": false, "color": "yellow"},
+        {"text": "Natural selection", "value": false, "color": "yellow"},
+        {"text": "Cautious behavior", "value": false, "color": "yellow"},
         {
-          "text": "Time seems to pass slowly when you're waiting for something",
+          "text": "Being too inquisitive can lead to harm",
           "value": true,
           "color": "yellow"
-        },
-        {
-          "text": "Watching cooking is entertaining",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Boiling water is dangerous",
-          "value": false,
-          "color": "yellow"
-        },
-        {"text": "Patience is not a virtue", "value": false, "color": "yellow"}
+        }
       ]
     },
     {
-      "question": "Break a leg!",
+      "question": "What does \"steal someone's thunder\" mean?",
       "dialog": {
-        "title": "Good luck!",
+        "title": "Taking credit for someone else's work",
         "content":
-            "This idiom means to confront a difficult situation with courage."
+            "Thunder symbolizes attention, so stealing it means taking undeserved credit"
       },
       "options": [
-        {"text": "Good luck!", "value": true, "color": "yellow"},
-        {"text": "Be careful!", "value": false, "color": "yellow"},
-        {"text": "Get well soon!", "value": false, "color": "yellow"},
-        {"text": "Stop walking!", "value": false, "color": "yellow"}
+        {"text": "Theft of noise", "value": false, "color": "yellow"},
+        {"text": "A storm's thunderclouds", "value": false, "color": "yellow"},
+        {
+          "text": "Giving someone else credit",
+          "value": false,
+          "color": "yellow"
+        },
+        {
+          "text": "Taking credit for someone else's work",
+          "value": true,
+          "color": "yellow"
+        }
       ]
     },
     {
-      "question": "Bite the bullet.",
+      "question": "What does \"under the weather\" mean?",
       "dialog": {
-        "title": "Face a difficult or unpleasant situation with courage",
+        "title": "Feeling sick or unwell",
+        "content": "Though unclear origins, it refers to being ill"
+      },
+      "options": [
+        {"text": "Outside in bad weather", "value": false, "color": "yellow"},
+        {
+          "text": "Protected from the elements",
+          "value": false,
+          "color": "yellow"
+        },
+        {"text": "Feeling fine", "value": false, "color": "yellow"},
+        {"text": "Feeling sick or unwell", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "What does \"The pen is mightier than the sword\" mean?",
+      "dialog": {
+        "title": "Communication outpowers brute force",
         "content":
-            "This idiom advises not to worry about past mistakes but to move on."
+            "Words and ideas have more influence than violence and aggression"
       },
       "options": [
+        {"text": "Writing is powerful", "value": false, "color": "yellow"},
+        {"text": "Swords are obsolete", "value": false, "color": "yellow"},
+        {"text": "Nonviolent resistance", "value": false, "color": "yellow"},
         {
-          "text": "Face a difficult or unpleasant situation with courage",
+          "text": "Communication outpowers brute force",
           "value": true,
           "color": "yellow"
-        },
-        {"text": "Avoid confrontation", "value": false, "color": "yellow"},
-        {"text": "Eat a metal bullet", "value": false, "color": "yellow"},
-        {"text": "Make a decision quickly", "value": false, "color": "yellow"}
+        }
       ]
     },
     {
-      "question": "Don't cry over spilled milk.",
-      "dialog": {
-        "title": "Don't dwell on past mistakes or misfortunes",
-        "content": "This idiom means to describe something with great accuracy."
-      },
-      "options": [
-        {
-          "text": "Don't dwell on past mistakes or misfortunes",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "It's okay to cry over accidents",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Always cry when things go wrong",
-          "value": false,
-          "color": "yellow"
-        },
-        {"text": "Avoid drinking milk", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "Hit the nail on the head.",
-      "dialog": {
-        "title": "Describe something accurately",
-        "content": "This idiom refers to something that is extremely costly."
-      },
-      "options": [
-        {
-          "text": "Describe something accurately",
-          "value": true,
-          "color": "yellow"
-        },
-        {"text": "Hit a nail with a hammer", "value": false, "color": "yellow"},
-        {"text": "Avoid making decisions", "value": false, "color": "yellow"},
-        {"text": "Be indecisive", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "An arm and a leg.",
+      "question": "What does \"cost an arm and a leg\" mean?",
       "dialog": {
         "title": "Something that is very expensive",
         "content":
-            "This riddle describes an echo, a sound phenomenon that doesn't have physical features."
+            "If something costs an arm and a leg, it's very costly, like those body parts!"
       },
       "options": [
+        {"text": "Medium cost", "value": false, "color": "yellow"},
+        {"text": "Costing a limb", "value": false, "color": "yellow"},
+        {
+          "text": "Something that is very cheap",
+          "value": false,
+          "color": "yellow"
+        },
         {
           "text": "Something that is very expensive",
           "value": true,
           "color": "yellow"
+        }
+      ]
+    },
+    {
+      "question": "What is always coming but never arrives?",
+      "dialog": {
+        "title": "Tomorrow",
+        "content": "Tomorrow never actually comes, it's always the next day"
+      },
+      "options": [
+        {"text": "Night", "value": false, "color": "yellow"},
+        {"text": "Dusk", "value": false, "color": "yellow"},
+        {"text": "Tomorrow", "value": true, "color": "yellow"},
+        {"text": "Dawn", "value": false, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "What does \"beat around the bush\" mean?",
+      "dialog": {
+        "title": "Avoiding the main issue, not speaking directly",
+        "content": "It means not addressing the real topic directly"
+      },
+      "options": [
+        {
+          "text": "Landscaping around plants",
+          "value": false,
+          "color": "yellow"
         },
-        {"text": "A physical fight", "value": false, "color": "yellow"},
-        {"text": "An easy task", "value": false, "color": "yellow"},
-        {"text": "A body part", "value": false, "color": "yellow"}
+        {
+          "text": "Hitting a bush with a stick",
+          "value": false,
+          "color": "yellow"
+        },
+        {
+          "text": "Sneaking around quietly outside",
+          "value": false,
+          "color": "yellow"
+        },
+        {
+          "text": "Avoiding the main issue, not speaking directly",
+          "value": true,
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "question": "What goes through towns and over hills but never moves?",
+      "dialog": {
+        "title": "A road",
+        "content": "Roads go through towns and over hills but stay put"
+      },
+      "options": [
+        {"text": "A bus", "value": false, "color": "yellow"},
+        {"text": "A train", "value": false, "color": "yellow"},
+        {"text": "A road", "value": true, "color": "yellow"},
+        {"text": "A bike", "value": false, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "What does \"stick your neck out\" mean?",
+      "dialog": {
+        "title": "Taking an unnecessary risk",
+        "content":
+            "Exposing your neck makes you vulnerable, similar to taking a risk"
+      },
+      "options": [
+        {"text": "Stretching", "value": false, "color": "yellow"},
+        {"text": "Good posture", "value": false, "color": "yellow"},
+        {"text": "Playing it safe", "value": false, "color": "yellow"},
+        {"text": "Taking an unnecessary risk", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "What does \"go out on a limb\" mean?",
+      "dialog": {
+        "title": "Taking a risk by doing something unconventional",
+        "content": "Being on a limb is dangerous, like taking a risk"
+      },
+      "options": [
+        {"text": "Climbing a tree", "value": false, "color": "yellow"},
+        {"text": "Crawling", "value": false, "color": "yellow"},
+        {"text": "Playing it safe", "value": false, "color": "yellow"},
+        {
+          "text": "Taking a risk by doing something unconventional",
+          "value": true,
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "question": "What does \"A leopard can't change its spots\" mean?",
+      "dialog": {
+        "title": "It's hard to change your inherent nature",
+        "content": "Leopard spots are permanent, so personalities are ingrained"
+      },
+      "options": [
+        {"text": "Wildlife conservation", "value": false, "color": "yellow"},
+        {"text": "Camouflage", "value": false, "color": "yellow"},
+        {"text": "Learning new tricks", "value": false, "color": "yellow"},
+        {
+          "text": "It's hard to change your inherent nature",
+          "value": true,
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "question": "What does \"One rotten apple spoils the barrel\" mean?",
+      "dialog": {
+        "title": "One bad part corrupts the whole",
+        "content":
+            "One rotten apple spreads mold to all. One bad thing can taint everything"
+      },
+      "options": [
+        {"text": "Waste management", "value": false, "color": "yellow"},
+        {"text": "Produce sales", "value": false, "color": "yellow"},
+        {"text": "Food preservation", "value": false, "color": "yellow"},
+        {
+          "text": "One bad part corrupts the whole",
+          "value": true,
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "question": "What does \"Make hay while the sun shines\" mean?",
+      "dialog": {
+        "title": "Take advantage of favorable conditions while they last",
+        "content":
+            "Hay must be dried by the sun. It means capitalize on opportunities while you can"
+      },
+      "options": [
+        {"text": "Farming methods", "value": false, "color": "yellow"},
+        {"text": "Crop harvesting", "value": false, "color": "yellow"},
+        {
+          "text": "Wasting good opportunities",
+          "value": false,
+          "color": "yellow"
+        },
+        {
+          "text": "Take advantage of favorable conditions while they last",
+          "value": true,
+          "color": "yellow"
+        }
       ]
     },
     {
       "question":
-          "I speak without a mouth and hear without ears. I have no body, but I come alive with the wind. What am I?",
+          "What can run but never walks, has a mouth but never talks, has a head but never weeps, has a bed but never sleeps?",
       "dialog": {
-        "title": "An echo",
+        "title": "A river",
         "content":
-            "This riddle describes pencil lead, which is enclosed in a wooden case (pencil) and used for writing."
+            "Rivers run, have a mouth, headwaters and riverbed but no other human qualities"
       },
       "options": [
-        {"text": "An echo", "value": true, "color": "yellow"},
-        {"text": "A tree", "value": false, "color": "yellow"},
-        {"text": "A book", "value": false, "color": "yellow"},
-        {"text": "A river", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "I am taken from a mine and shut up in a wooden case, from which I am never released, and yet I am used by almost every person. What am I?",
-      "dialog": {
-        "title": "Pencil lead",
-        "content":
-            "This riddle describes fire, which consumes oxygen and grows but is not alive in the traditional sense."
-      },
-      "options": [
-        {"text": "Pencil lead", "value": true, "color": "yellow"},
-        {"text": "Gold", "value": false, "color": "yellow"},
-        {"text": "Diamond", "value": false, "color": "yellow"},
-        {"text": "Water", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "I am not alive, but I can grow; I don't have lungs, but I need air; I don't have a mouth, but water kills me. What am I?",
-      "dialog": {
-        "title": "Fire",
-        "content":
-            "This riddle describes footsteps, as the more you walk, the more footprints you leave behind."
-      },
-      "options": [
-        {"text": "Fire", "value": true, "color": "yellow"},
-        {"text": "Ice", "value": false, "color": "yellow"},
-        {"text": "Mold", "value": false, "color": "yellow"},
-        {"text": "Stone", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "The more you take, the more you leave behind. What am I?",
-      "dialog": {
-        "title": "Footsteps",
-        "content":
-            "This riddle describes footsteps, as the more you walk, the more footprints you leave behind."
-      },
-      "options": [
-        {"text": "Footsteps", "value": true, "color": "yellow"},
-        {"text": "Money", "value": false, "color": "yellow"},
-        {"text": "Knowledge", "value": false, "color": "yellow"},
-        {"text": "Food", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "I'm light as a feather, yet the strongest person can't hold me for much longer than a minute. What",
-      "dialog": {
-        "title": "A candle",
-        "content":
-            "This riddle describes a candle, which becomes shorter as it burns."
-      },
-      "options": [
-        {"text": "A candle", "value": true, "color": "yellow"},
-        {"text": "Geek", "value": false, "color": "yellow"},
-        {"text": "Mouth", "value": false, "color": "yellow"},
-        {"text": "Meat", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "I'm tall when I'm young, and short when I'm old. What am I?",
-      "dialog": {
-        "title": "A tree",
-        "content":
-            "This riddle refers to a piano, which has keys for playing music."
-      },
-      "options": [
-        {"text": "A tree", "value": true, "color": "yellow"},
-        {"text": "A mountain", "value": false, "color": "yellow"},
-        {"text": "A river", "value": false, "color": "yellow"},
-        {"text": "A doorbell", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "What has keys but can't open locks?",
-      "dialog": {
-        "title": "A piano",
-        "content":
-            "This riddle describes fire, which consumes oxygen and appears to grow, yet it's not alive."
-      },
-      "options": [
-        {"text": "A piano", "value": true, "color": "yellow"},
-        {"text": "A computer", "value": false, "color": "yellow"},
-        {"text": "A doorbell", "value": false, "color": "yellow"},
-        {"text": "A map", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "I'm not alive, but I can grow; I don't have lungs, but I need air; I don't have a mouth, but water kills me. What am I?",
-      "dialog": {
-        "title": "Fire",
-        "content":
-            "This riddle is about footsteps, as they leave a trail the more you take them."
-      },
-      "options": [
-        {"text": "Fire", "value": true, "color": "yellow"},
-        {"text": "Ice", "value": false, "color": "yellow"},
-        {"text": "Mold", "value": false, "color": "yellow"},
-        {"text": "Stone", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "The more you take, the more you leave behind. What am I?",
-      "dialog": {
-        "title": "Footsteps",
-        "content":
-            "This riddle describes a shadow, which can appear to fly without wings and extend in the presence of light."
-      },
-      "options": [
-        {"text": "Footsteps", "value": true, "color": "yellow"},
-        {"text": "Money", "value": false, "color": "yellow"},
-        {"text": "Knowledge", "value": false, "color": "yellow"},
-        {"text": "Food", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "I can fly without wings. I can cry without eyes. Wherever I go, darkness follows me. What am I?",
-      "dialog": {
-        "title": "A cloud",
-        "content":
-            "This riddle refers to a piano, which has keys for producing musical notes."
-      },
-      "options": [
-        {"text": "A cloud", "value": true, "color": "yellow"},
-        {"text": "A bird", "value": false, "color": "yellow"},
-        {"text": "A bat", "value": false, "color": "yellow"},
-        {"text": "A shadow", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "What has keys but can't open locks, and music comes from within?",
-      "dialog": {
-        "title": "A piano",
-        "content":
-            "This riddle describes a keyboard, which has keys but doesn't open locks."
-      },
-      "options": [
-        {"text": "A piano", "value": true, "color": "yellow"},
-        {"text": "A keyboard", "value": false, "color": "yellow"},
-        {"text": "A typewriter", "value": false, "color": "yellow"},
-        {"text": "A guitar", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "I have keys but open no locks, I have space but no room, you can enter, but you can't go inside. What am I?",
-      "dialog": {
-        "title": "A keyboard",
-        "content":
-            "This riddle is about a sponge, which is lightweight despite having holes."
-      },
-      "options": [
-        {"text": "A keyboard", "value": true, "color": "yellow"},
+        {"text": "A child", "value": false, "color": "yellow"},
         {"text": "A car", "value": false, "color": "yellow"},
-        {"text": "A tree", "value": false, "color": "yellow"},
-        {"text": "A map", "value": false, "color": "yellow"}
+        {"text": "A river", "value": true, "color": "yellow"},
+        {"text": "A dog", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question": "I'm full of holes, yet I'm still heavy. What am I?",
+      "question": "What does \"Actions speak louder than words\" mean?",
       "dialog": {
-        "title": "A sponge",
-        "content":
-            "This riddle describes a car, as you can enter it, but you can't physically go inside the car."
+        "title": "Deeds matter more than what is said",
+        "content": "Your actions ultimately show more than talk and promises do"
       },
       "options": [
-        {"text": "A sponge", "value": true, "color": "yellow"},
-        {"text": "Swiss cheese", "value": false, "color": "yellow"},
-        {"text": "A net", "value": false, "color": "yellow"},
-        {"text": "A cloud", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "I have keys but can't open locks, I have space but no room, and you can enter, but you can't go inside. What am I?",
-      "dialog": {
-        "title": "A car",
-        "content":
-            "This riddle refers to a joke, as it can be cracked (told) and played (shared humorously)."
-      },
-      "options": [
-        {"text": "A car", "value": true, "color": "yellow"},
-        {"text": "A house", "value": false, "color": "yellow"},
-        {"text": "A keyboard", "value": false, "color": "yellow"},
-        {"text": "A wallet", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "I can be cracked, made, told, and played. What am I?",
-      "dialog": {
-        "title": "A joke",
-        "content":
-            "This riddle describes a piano, which has keys like a keyboard and produces musical sounds."
-      },
-      "options": [
-        {"text": "A joke", "value": true, "color": "yellow"},
-        {"text": "A riddle", "value": false, "color": "yellow"},
-        {"text": "A game", "value": false, "color": "yellow"},
-        {"text": "A poem", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "I have keys but can't open locks, and I sound like a musical box. What am I?",
-      "dialog": {
-        "title": "A piano",
-        "content":
-            "This riddle is about footsteps, as the more you take, the more footprints you leave behind."
-      },
-      "options": [
-        {"text": "A piano", "value": true, "color": "yellow"},
-        {"text": "A guitar", "value": false, "color": "yellow"},
-        {"text": "A typewriter", "value": false, "color": "yellow"},
-        {"text": "A xylophone", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "The more you take, the more you leave behind. What am I?",
-      "dialog": {
-        "title": "Footsteps",
-        "content":
-            "This riddle refers to a piano, which has keys that produce musical sounds."
-      },
-      "options": [
-        {"text": "Footsteps", "value": true, "color": "yellow"},
-        {"text": "Money", "value": false, "color": "yellow"},
-        {"text": "Knowledge", "value": false, "color": "yellow"},
-        {"text": "Food", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "What has keys but can't open locks, and music comes from within?",
-      "dialog": {
-        "title": "A piano",
-        "content":
-            "This riddle describes a shadow, which can appear to fly and extends in the presence of light."
-      },
-      "options": [
-        {"text": "A piano", "value": true, "color": "yellow"},
-        {"text": "A drum", "value": false, "color": "yellow"},
-        {"text": "A guitar", "value": false, "color": "yellow"},
-        {"text": "A flute", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "I can fly without wings, and I can cry without eyes. Wherever I go, darkness follows me. What am I?",
-      "dialog": {
-        "title": "A cloud",
-        "content":
-            "This riddle refers to a candle, which becomes shorter as it burns."
-      },
-      "options": [
-        {"text": "A cloud", "value": true, "color": "yellow"},
-        {"text": "A bat", "value": false, "color": "yellow"},
-        {"text": "A bird", "value": false, "color": "yellow"},
-        {"text": "A shadow", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "I'm tall when I'm young, and short when I'm old. What am I?",
-      "dialog": {
-        "title": "A candle",
-        "content":
-            "This idiom conveys that conflicts among the powerful can have adverse effects on ordinary people"
-      },
-      "options": [
-        {"text": "A candle", "value": true, "color": "yellow"},
-        {"text": "A tree", "value": false, "color": "yellow"},
-        {"text": "A mountain", "value": false, "color": "yellow"},
-        {"text": "A river", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "The common people bear the brunt of powerful conflicts When elephants fight, it is the grass that suffers.",
-      "dialog": {
-        "title": "The common people bear the brunt of powerful conflicts",
-        "content":
-            "This idiom emphasizes the value of cooperation and teamwork for achieving lasting success."
-      },
-      "options": [
+        {"text": "Being loud", "value": false, "color": "yellow"},
+        {"text": "Angry yelling", "value": false, "color": "yellow"},
+        {"text": "Whispering quietly", "value": false, "color": "yellow"},
         {
-          "text": "The common people bear the brunt of powerful conflicts",
+          "text": "Deeds matter more than what is said",
           "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "Elephants enjoy battles in the grass",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Grass is a symbol of good luck",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Grass is a profitable business",
-          "value": false,
           "color": "yellow"
         }
       ]
     },
     {
+      "question": "What does \"Birds of a feather flock together\" mean?",
+      "dialog": {
+        "title": "Similar people associate with each other",
+        "content":
+            "Birds that resemble each other travel together, as people with common traits stick together"
+      },
+      "options": [
+        {"text": "Migrating birds", "value": false, "color": "yellow"},
+        {"text": "Bird-watching", "value": false, "color": "yellow"},
+        {"text": "Diversity", "value": false, "color": "yellow"},
+        {
+          "text": "Similar people associate with each other",
+          "value": true,
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "question": "What can you catch but not throw?",
+      "dialog": {
+        "title": "A cold",
+        "content":
+            "You catch a sickness/cold but can't throw it to someone else"
+      },
+      "options": [
+        {"text": "A ball", "value": false, "color": "yellow"},
+        {"text": "A Frisbee", "value": false, "color": "yellow"},
+        {"text": "A cold", "value": true, "color": "yellow"},
+        {"text": "A rope", "value": false, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "What does \"Don't cry over spilled milk\" mean?",
+      "dialog": {
+        "title": "Don't fret over unintended losses or mistakes",
+        "content":
+            "Spilt milk can't be recovered \u00e2\u20ac\u201c don't worry over what can't be changed"
+      },
+      "options": [
+        {"text": "Messy kitchens", "value": false, "color": "yellow"},
+        {"text": "Wastefulness", "value": false, "color": "yellow"},
+        {"text": "Mourning a loss", "value": false, "color": "yellow"},
+        {
+          "text": "Don't fret over unintended losses or mistakes",
+          "value": true,
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "question": "What does \"Cut corners\" mean?",
+      "dialog": {
+        "title": "Taking shortcuts that reduce quality",
+        "content":
+            "It refers to trimming literal corners, not doing a thorough job"
+      },
+      "options": [
+        {"text": "Shaping edges", "value": false, "color": "yellow"},
+        {"text": "Manufacturing flaws", "value": false, "color": "yellow"},
+        {"text": "Meticulousness", "value": false, "color": "yellow"},
+        {
+          "text": "Taking shortcuts that reduce quality",
+          "value": true,
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "question": "What gets broken without being held?",
+      "dialog": {
+        "title": "A promise",
+        "content": "You can break a promise without physically holding it"
+      },
+      "options": [
+        {"text": "A glass", "value": false, "color": "yellow"},
+        {"text": "A vase", "value": false, "color": "yellow"},
+        {"text": "A promise", "value": true, "color": "yellow"},
+        {"text": "A window", "value": false, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "What does \"clock is ticking\" mean?",
+      "dialog": {
+        "title": "Time is passing quickly, deadline is approaching",
+        "content": "A ticking clock indicates time progressing, showing urgency"
+      },
+      "options": [
+        {"text": "Watch is broken", "value": false, "color": "yellow"},
+        {"text": "Time is standing still", "value": false, "color": "yellow"},
+        {"text": "Plenty of time left", "value": false, "color": "yellow"},
+        {
+          "text": "Time is passing quickly, deadline is approaching",
+          "value": true,
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "question": "What goes up and down but does not move?",
+      "dialog": {
+        "title": "Stairs",
+        "content":
+            "Stairs allow you to walk up and down but stay in the same place"
+      },
+      "options": [
+        {"text": "An elevator", "value": false, "color": "yellow"},
+        {"text": "Escalator", "value": false, "color": "yellow"},
+        {"text": "Stairs", "value": true, "color": "yellow"},
+        {"text": "A see-saw", "value": false, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "What does \"Let sleeping dogs lie\" mean?",
+      "dialog": {
+        "title": "Leave things undisturbed if they're not causing issues",
+        "content":
+            "Disturbing sleeping dogs risks trouble. It means leave unbothered situations alone"
+      },
+      "options": [
+        {"text": "Napping dogs", "value": false, "color": "yellow"},
+        {"text": "Dog grooming", "value": false, "color": "yellow"},
+        {"text": "Animal neglect", "value": false, "color": "yellow"},
+        {
+          "text": "Leave things undisturbed if they're not causing issues",
+          "value": true,
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "question": "What does \"The squeaky wheel gets the grease\" mean?",
+      "dialog": {
+        "title": "The most noticeable problem gets attention",
+        "content":
+            "A squeaky wheel needs oil. It means the most obtrusive issues are addressed"
+      },
+      "options": [
+        {"text": "Noisy wheels", "value": false, "color": "yellow"},
+        {"text": "Wheel maintenance", "value": false, "color": "yellow"},
+        {"text": "Ignoring problems", "value": false, "color": "yellow"},
+        {
+          "text": "The most noticeable problem gets attention",
+          "value": true,
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "question": "What does \"beating around the bush\" mean?",
+      "dialog": {
+        "title": "Avoiding the main topic, not speaking directly",
+        "content":
+            "If someone beats around the bush, they avoid discussing the real issue"
+      },
+      "options": [
+        {
+          "text": "Landscaping around plants",
+          "value": false,
+          "color": "yellow"
+        },
+        {
+          "text": "Hitting a bush with a stick",
+          "value": false,
+          "color": "yellow"
+        },
+        {
+          "text": "Sneaking around quietly outside",
+          "value": false,
+          "color": "yellow"
+        },
+        {
+          "text": "Avoiding the main topic, not speaking directly",
+          "value": true,
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "question": "What does \"Every cloud has a silver lining\" mean?",
+      "dialog": {
+        "title": "Good things can come from bad situations",
+        "content":
+            "Clouds have silver linings. It means bad events have positive outcomes"
+      },
+      "options": [
+        {"text": "Meteorology", "value": false, "color": "yellow"},
+        {"text": "Stormy weather", "value": false, "color": "yellow"},
+        {"text": "Hopelessness", "value": false, "color": "yellow"},
+        {
+          "text": "Good things can come from bad situations",
+          "value": true,
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "question": "What has four wheels and flies?",
+      "dialog": {
+        "title": "A garbage truck",
+        "content":
+            "Garbage trucks have four wheels and compact trash, which allows it to \"fly\""
+      },
+      "options": [
+        {"text": "An airplane", "value": false, "color": "yellow"},
+        {"text": "A car", "value": false, "color": "yellow"},
+        {"text": "A garbage truck", "value": true, "color": "yellow"},
+        {"text": "A bus", "value": false, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "What does \"let someone off the hook\" mean?",
+      "dialog": {
+        "title": "To free someone from a duty or responsibility",
+        "content":
+            "Like freeing a fish from a hook, this idiom means freeing someone from obligation"
+      },
+      "options": [
+        {"text": "Catching a fish", "value": false, "color": "yellow"},
+        {"text": "Putting bait on a hook", "value": false, "color": "yellow"},
+        {"text": "Assigning someone a job", "value": false, "color": "yellow"},
+        {
+          "text": "To free someone from a duty or responsibility",
+          "value": true,
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "question": "What does \"Two peas in a pod\" mean?",
+      "dialog": {
+        "title": "Two very similar people",
+        "content":
+            "Peas in a pod are identical. It means people of like minds or natures"
+      },
+      "options": [
+        {"text": "Vegetable gardening", "value": false, "color": "yellow"},
+        {"text": "Bean sprouts", "value": false, "color": "yellow"},
+        {"text": "Close friendship", "value": false, "color": "yellow"},
+        {"text": "Two very similar people", "value": true, "color": "yellow"}
+      ]
+    },
+    {
       "question":
-          "If you want to go fast, go alone; if you want to go far, go with others.",
-      "dialog": {
-        "title": "Collaboration is important for long-term success",
-        "content":
-            "This idiom advises conserving and managing resources responsibly."
-      },
-      "options": [
-        {
-          "text": "Collaboration is important for long-term success",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "Solitude is the key to speed",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Going alone is always better",
-          "value": false,
-          "color": "yellow"
-        },
-        {"text": "Teamwork is unimportant", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "The frog does not drink up the pond in which it lives.",
-      "dialog": {
-        "title": "Use resources wisely in your surroundings",
-        "content":
-            "This idiom signifies that some situations or problems cannot be controlled or contained easily."
-      },
-      "options": [
-        {
-          "text": "Use resources wisely in your surroundings",
-          "value": true,
-          "color": "yellow"
-        },
-        {"text": "Frogs don't drink water", "value": false, "color": "yellow"},
-        {
-          "text": "Ponds are not good for frogs",
-          "value": false,
-          "color": "yellow"
-        },
-        {"text": "Frogs are good swimmers", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "You can't wrap fire in paper.",
-      "dialog": {
-        "title": "Certain things are impossible or uncontrollable",
-        "content":
-            "This idiom highlights the significance of strong, well-functioning families for the strength of a nation."
-      },
-      "options": [
-        {
-          "text": "Certain things are impossible or uncontrollable",
-          "value": true,
-          "color": "yellow"
-        },
-        {"text": "Fire is easily contained", "value": false, "color": "yellow"},
-        {
-          "text": "Fire can be put out with paper",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Fire should be wrapped in paper",
-          "value": false,
-          "color": "yellow"
-        }
-      ]
-    },
-    {
-      "question": "The ruin of a nation begins in the homes of its people.",
-      "dialog": {
-        "title": "The family is the foundation of a strong nation",
-        "content":
-            "This idiom suggests that individuals tend to remain true to their character or nature."
-      },
-      "options": [
-        {
-          "text": "The family is the foundation of a strong nation",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "Nations are not important",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Homes have no impact on nations",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Nations are indestructible",
-          "value": false,
-          "color": "yellow"
-        }
-      ]
-    },
-    {
-      "question": "The leopard does not change his spots.",
-      "dialog": {
-        "title": "People rarely change their inherent nature",
-        "content":
-            "This idiom conveys that collective effort or cooperation is more effective in making a difference."
-      },
-      "options": [
-        {
-          "text": "People rarely change their inherent nature",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "Leopards change their appearance",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "People are like chameleons",
-          "value": false,
-          "color": "yellow"
-        },
-        {"text": "Leopards don't have spots", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "A single bracelet does not jingle.",
-      "dialog": {
-        "title": "One person alone cannot make a noticeable impact",
-        "content":
-            "This idiom emphasizes the importance of having principles and standing up for what one believes in."
-      },
-      "options": [
-        {
-          "text": "One person alone cannot make a noticeable impact",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "Bracelets should not be worn",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Jingles are not important",
-          "value": false,
-          "color": "yellow"
-        },
-        {"text": "One bracelet is enough", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "If you don't stand for something, you will fall for anything.",
-      "dialog": {
-        "title": "Having principles and beliefs is important",
-        "content":
-            "This idiom highlights the lasting impact of emotional experiences on memory."
-      },
-      "options": [
-        {
-          "text": "Having principles and beliefs is important",
-          "value": true,
-          "color": "yellow"
-        },
-        {"text": "Falling is inevitable", "value": false, "color": "yellow"},
-        {"text": "Standing is unimportant", "value": false, "color": "yellow"},
-        {
-          "text": "Falling is better than standing",
-          "value": false,
-          "color": "yellow"
-        }
-      ]
-    },
-    {
-      "question": "The eye never forgets what the heart has seen.",
-      "dialog": {
-        "title": "Emotional experiences are remembered deeply",
-        "content":
-            "This idiom underscores the importance of collective effort and teamwork."
-      },
-      "options": [
-        {
-          "text": "Emotional experiences are remembered deeply",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "Eyes have better memories than hearts",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Hearts have better memories than eyes",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Emotions do not influence memory",
-          "value": false,
-          "color": "yellow"
-        }
-      ]
-    },
-    {
-      "question": "A tree cannot make a forest.",
-      "dialog": {
-        "title": "One person alone cannot achieve great things",
-        "content":
-            "This idiom conveys that those in positions of power or privilege receive benefits before others."
-      },
-      "options": [
-        {
-          "text": "One person alone cannot achieve great things",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "Trees don't grow in forests",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "A forest is made up of many trees",
-          "value": false,
-          "color": "yellow"
-        },
-        {"text": "Forests are made of rocks", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "The sun will shine on those who stand before it shines on those who kneel under them.",
-      "dialog": {
-        "title": "Those in power receive benefits first",
-        "content":
-            "This idiom suggests that borrowed items may not work as well as one's own."
-      },
-      "options": [
-        {
-          "text": "Those in power receive benefits first",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "The sun doesn't shine on anyone",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Kneeling is better than standing",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "The sun shines on all equally",
-          "value": false,
-          "color": "yellow"
-        }
-      ]
-    },
-    {
-      "question": "A borrowed fiddle doesn't sound well.",
-      "dialog": {
-        "title": "Borrowed things are often subpar",
-        "content":
-            "This idiom implies that once you start a dangerous or difficult endeavor, it can be hard to stop."
-      },
-      "options": [
-        {
-          "text": "Borrowed things are often subpar",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "Fiddles are not good to borrow",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Borrowed fiddles are the best",
-          "value": false,
-          "color": "yellow"
-        },
-        {"text": "Fiddles make great sounds", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "He who rides on the back of a tiger is afraid to dismount.",
-      "dialog": {
-        "title": "Once you commit to something, it's hard to change course",
-        "content":
-            "This idiom conveys that individuals are influenced by their environment and community."
-      },
-      "options": [
-        {
-          "text": "Once you commit to something, it's hard to change course",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "Tigers are excellent for riding",
-          "value": false,
-          "color": "yellow"
-        },
-        {"text": "Riding on tigers is safe", "value": false, "color": "yellow"},
-        {
-          "text": "Dismounting is always easy",
-          "value": false,
-          "color": "yellow"
-        }
-      ]
-    },
-    {
-      "question": "Even a stone will share the same destiny as its tribe.",
-      "dialog": {
-        "title": "People are influenced by their surroundings and community",
-        "content":
-            "This idiom suggests that facing the truth, even if it's difficult, leads to positive outcomes."
-      },
-      "options": [
-        {
-          "text": "People are influenced by their surroundings and community",
-          "value": true,
-          "color": "yellow"
-        },
-        {"text": "Stones have tribes", "value": false, "color": "yellow"},
-        {"text": "Destiny is not real", "value": false, "color": "yellow"},
-        {
-          "text": "Stones are not affected by tribes",
-          "value": false,
-          "color": "yellow"
-        }
-      ]
-    },
-    {
-      "question": "The truth is bitter, but its results are sweet.",
+          "What does \"A bird in the hand is worth two in the bush\" mean?",
       "dialog": {
         "title":
-            "Facing the truth may be difficult, but the outcomes are positive",
+            "What you already have is better than the prospect of getting more",
         "content":
-            "This riddle refers to a zebra, which has black and white stripes and is beloved."
+            "A bird physically held is better than the possibility of two undiscovered birds in bushes"
       },
       "options": [
+        {"text": "Bird watching", "value": false, "color": "yellow"},
+        {"text": "Catch and release", "value": false, "color": "yellow"},
+        {"text": "Conserving wildlife", "value": false, "color": "yellow"},
         {
           "text":
-              "Facing the truth may be difficult, but the outcomes are positive",
+              "What you already have is better than the prospect of getting more",
           "value": true,
-          "color": "yellow"
-        },
-        {"text": "Truth is sweet", "value": false, "color": "yellow"},
-        {
-          "text": "Lies are better than the truth",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "The truth is always pleasant",
-          "value": false,
           "color": "yellow"
         }
       ]
     },
     {
-      "question": "I am black and white and loved all over. What am I?",
+      "question": "What does \"Two wrongs don't make a right\" mean?",
       "dialog": {
-        "title": "A zebra",
-        "content":
-            "This riddle describes a sponge, which has holes and is still heavy when wet."
+        "title": "Repaying wrongdoing with more wrongdoing is unethical",
+        "content": "Doing wrong in retaliation multiplies harm"
       },
       "options": [
-        {"text": "A zebra", "value": true, "color": "yellow"},
-        {"text": "A panda", "value": false, "color": "yellow"},
-        {"text": "A soccer ball", "value": false, "color": "yellow"},
-        {"text": "A cow", "value": false, "color": "yellow"}
+        {"text": "Forgiveness", "value": false, "color": "yellow"},
+        {"text": "Revenge", "value": false, "color": "yellow"},
+        {"text": "Correcting a mistake", "value": false, "color": "yellow"},
+        {
+          "text": "Repaying wrongdoing with more wrongdoing is unethical",
+          "value": true,
+          "color": "yellow"
+        }
       ]
     },
     {
-      "question": "I am full of holes, yet I'm still heavy. What am I?",
+      "question": "What does \"take under one's wing\" mean?",
       "dialog": {
-        "title": "A sponge",
+        "title": "To mentor someone, take them under guidance",
         "content":
-            "This riddle refers to a joke, which can be cracked (told) and played (shared humorously)."
+            "Like a bird shelters its young with its wing, it means nurturing someone"
       },
       "options": [
-        {"text": "A sponge", "value": true, "color": "yellow"},
-        {"text": "Swiss cheese", "value": false, "color": "yellow"},
-        {"text": "A cloud", "value": false, "color": "yellow"},
-        {"text": "A net", "value": false, "color": "yellow"}
+        {"text": "Flying lessons", "value": false, "color": "yellow"},
+        {"text": "Airplane seating", "value": false, "color": "yellow"},
+        {"text": "Push someone away", "value": false, "color": "yellow"},
+        {
+          "text": "To mentor someone, take them under guidance",
+          "value": true,
+          "color": "yellow"
+        }
       ]
     },
     {
-      "question": "I can be cracked, made, told, and played. What am I?",
+      "question": "What word becomes shorter when you add two letters to it?",
       "dialog": {
-        "title": "A joke",
-        "content":
-            "This riddle describes pencil lead, which is enclosed in a wooden case (pencil) and used for writing."
+        "title": "Short",
+        "content": "Short becomes shorter when you add \"er\""
       },
       "options": [
-        {"text": "A joke", "value": true, "color": "yellow"},
-        {"text": "A riddle", "value": false, "color": "yellow"},
-        {"text": "A game", "value": false, "color": "yellow"},
-        {"text": "A poem", "value": false, "color": "yellow"}
+        {"text": "Long", "value": false, "color": "yellow"},
+        {"text": "Less", "value": false, "color": "yellow"},
+        {"text": "Short", "value": true, "color": "yellow"},
+        {"text": "More", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question":
-          "I am taken from a mine and shut up in a wooden case, from which I am never released, and yet I am used by almost every person. What am I?",
+      "question": "What has a neck but no head?",
       "dialog": {
-        "title": "Pencil lead",
-        "content":
-            "This riddle describes an echo, which doesn't have a physical form but is created by sound waves."
+        "title": "A bottle",
+        "content": "Bottles have necks to pour from but no separate head"
       },
       "options": [
-        {"text": "Pencil lead", "value": true, "color": "yellow"},
-        {"text": "Gold", "value": false, "color": "yellow"},
-        {"text": "Diamond", "value": false, "color": "yellow"},
-        {"text": "Water", "value": false, "color": "yellow"}
+        {"text": "A shirt", "value": false, "color": "yellow"},
+        {"text": "A vase", "value": false, "color": "yellow"},
+        {"text": "A bottle", "value": true, "color": "yellow"},
+        {"text": "A jar", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question":
-          "I speak without a mouth and hear without ears. I have no body, but I come alive with the wind. What am I?",
+      "question": "What is so fragile that saying its name breaks it?",
       "dialog": {
-        "title": "An echo",
-        "content":
-            "This riddle describes a piano, which has keys like a keyboard and produces musical sounds."
+        "title": "Silence",
+        "content": "When you speak, silence is broken"
       },
       "options": [
-        {"text": "An echo", "value": true, "color": "yellow"},
-        {"text": "A tree", "value": false, "color": "yellow"},
-        {"text": "A book", "value": false, "color": "yellow"},
-        {"text": "A river", "value": false, "color": "yellow"}
+        {"text": "Glass", "value": false, "color": "yellow"},
+        {"text": "A secret", "value": false, "color": "yellow"},
+        {"text": "Silence", "value": true, "color": "yellow"},
+        {"text": "Ice", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question":
-          "I'm full of keys but can't open locks, and I sound like a musical box. What am I?",
+      "question": "What does \"a blessing in disguise\" mean?",
       "dialog": {
-        "title": "A piano",
+        "title": "A beneficial outcome from an unfortunate event",
         "content":
-            "This riddle describes fire, which consumes oxygen and appears to grow, yet it's not alive."
+            "Disguises conceal something's true form. The idiom refers to a silver lining"
       },
       "options": [
-        {"text": "A piano", "value": true, "color": "yellow"},
-        {"text": "A guitar", "value": false, "color": "yellow"},
-        {"text": "A typewriter", "value": false, "color": "yellow"},
-        {"text": "A xylophone", "value": false, "color": "yellow"}
+        {"text": "Wearing a costume", "value": false, "color": "yellow"},
+        {"text": "Secular clothing", "value": false, "color": "yellow"},
+        {"text": "An obvious benefit", "value": false, "color": "yellow"},
+        {
+          "text": "A beneficial outcome from an unfortunate event",
+          "value": true,
+          "color": "yellow"
+        }
       ]
     },
     {
-      "question":
-          "I'm not alive, but I can grow; I don't have lungs, but I need air; I don't have a mouth, but water kills me. What am I?",
+      "question": "What does \"piece of cake\" mean?",
       "dialog": {
-        "title": "Fire",
-        "content":
-            "This riddle describes a car, as you can enter it but can't physically go inside the car."
+        "title": "Something that is very easy",
+        "content": "Having a piece of cake is easy and enjoyable"
       },
       "options": [
-        {"text": "Fire", "value": true, "color": "yellow"},
-        {"text": "Ice", "value": false, "color": "yellow"},
-        {"text": "Mold", "value": false, "color": "yellow"},
-        {"text": "Stone", "value": false, "color": "yellow"}
+        {"text": "A slice of dessert", "value": false, "color": "yellow"},
+        {"text": "A baked treat", "value": false, "color": "yellow"},
+        {"text": "A difficult task", "value": false, "color": "yellow"},
+        {
+          "text": "Something that is very easy",
+          "value": true,
+          "color": "yellow"
+        }
       ]
     },
     {
-      "question":
-          "I have keys but can't open locks, I have space but no room, and you can enter, but you can't go inside. What am I?",
+      "question": "What does \"The straw that broke the camel's back\" mean?",
       "dialog": {
-        "title": "A car",
+        "title": "The minor trouble that finally causes everything to collapse",
         "content":
-            "This riddle refers to a breath, which is intangible and fleeting."
+            "It alludes to overburdened camels. It refers to the small final problem causing failure"
       },
       "options": [
-        {"text": "A car", "value": true, "color": "yellow"},
-        {"text": "A house", "value": false, "color": "yellow"},
-        {"text": "A keyboard", "value": false, "color": "yellow"},
-        {"text": "A wallet", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "I'm light as a feather, yet the strongest person can't hold me for much longer than a minute. What am I?",
-      "dialog": {
-        "title": "Breath",
-        "content":
-            "This riddle is about footsteps, as the more you walk, the more footprints you leave behind."
-      },
-      "options": [
-        {"text": "Breath", "value": true, "color": "yellow"},
-        {"text": "Feather", "value": false, "color": "yellow"},
-        {"text": "Thought", "value": false, "color": "yellow"},
-        {"text": "Balloon", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "The more you take, the more you leave behind. What am I?",
-      "dialog": {
-        "title": "Footsteps",
-        "content":
-            "This riddle is about footsteps, as the more you walk, the more footprints you leave behind."
-      },
-      "options": [
-        {"text": "Footsteps", "value": true, "color": "yellow"},
-        {"text": "Money", "value": false, "color": "yellow"},
-        {"text": "Knowledge", "value": false, "color": "yellow"},
-        {"text": "Food", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "The more you take, the more you leave behind. What am I?",
-      "dialog": {
-        "title": "Footsteps",
-        "content":
-            "This riddle describes a shadow, which can appear to fly and extends in the presence of light."
-      },
-      "options": [
-        {"text": "Footsteps", "value": true, "color": "yellow"},
-        {"text": "Money", "value": false, "color": "yellow"},
-        {"text": "Knowledge", "value": false, "color": "yellow"},
-        {"text": "Food", "value": false, "color": "yellow"}
+        {"text": "Pack animals", "value": false, "color": "yellow"},
+        {"text": "Desert travel", "value": false, "color": "yellow"},
+        {"text": "Light burdens", "value": false, "color": "yellow"},
+        {
+          "text":
+              "The minor trouble that finally causes everything to collapse",
+          "value": true,
+          "color": "yellow"
+        }
       ]
     },
     {
       "question":
-          "I can fly without wings, and I can cry without eyes. Wherever I go, darkness follows me. What am I?",
+          "What question can someone ask all day long, always getting completely different answers, yet all the answers could be correct?",
       "dialog": {
-        "title": "A cloud",
+        "title": "\"What time is it?\"",
         "content":
-            "This riddle refers to a candle, which becomes shorter as it burns."
+            "The time is always changing so the answer will always be different"
       },
       "options": [
-        {"text": "A cloud", "value": true, "color": "yellow"},
-        {"text": "A bat", "value": false, "color": "yellow"},
-        {"text": "A bird", "value": false, "color": "yellow"},
-        {"text": "A shadow", "value": false, "color": "yellow"}
+        {"text": "\"How are you?\"", "value": false, "color": "yellow"},
+        {"text": "\"What's your name?\"", "value": false, "color": "yellow"},
+        {"text": "\"What time is it?\"", "value": true, "color": "yellow"},
+        {"text": "\"Where do you live?\"", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question": "I'm tall when I'm young, and short when I'm old. What am I?",
+      "question": "What does \"steel oneself\" mean?",
       "dialog": {
-        "title": "A candle",
+        "title": "Preparing to endure something difficult",
         "content":
-            "This riddle describes a keyboard, which has keys but doesn't open locks."
+            "Steeling metal makes it stronger, so this means resolutely bracing oneself"
       },
       "options": [
-        {"text": "A candle", "value": true, "color": "yellow"},
-        {"text": "A tree", "value": false, "color": "yellow"},
-        {"text": "A mountain", "value": false, "color": "yellow"},
-        {"text": "A river", "value": false, "color": "yellow"}
+        {"text": "Working out", "value": false, "color": "yellow"},
+        {"text": "Getting metal implants", "value": false, "color": "yellow"},
+        {"text": "Relaxing", "value": false, "color": "yellow"},
+        {
+          "text": "Preparing to endure something difficult",
+          "value": true,
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "question": "What does \"Don't look a gift horse in the mouth\" mean?",
+      "dialog": {
+        "title": "Don't criticize something received as a gift",
+        "content":
+            "Checking a horse's teeth analyzes its value, so don't inspect a gift's value"
+      },
+      "options": [
+        {"text": "Veterinary medicine", "value": false, "color": "yellow"},
+        {"text": "Animal dentistry", "value": false, "color": "yellow"},
+        {"text": "Gift suggestions", "value": false, "color": "yellow"},
+        {
+          "text": "Don't criticize something received as a gift",
+          "value": true,
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "question": "What does \"The whole nine yards\" mean?",
+      "dialog": {
+        "title": "Going all out, full effort",
+        "content":
+            "Though debated origins, it means total effort like fully unspooling cloth"
+      },
+      "options": [
+        {"text": "American football", "value": false, "color": "yellow"},
+        {"text": "Construction work", "value": false, "color": "yellow"},
+        {"text": "Minimal effort", "value": false, "color": "yellow"},
+        {"text": "Going all out, full effort", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "What does \"seeing eye to eye\" mean?",
+      "dialog": {
+        "title": "Agreeing fully with someone else",
+        "content": "Your eyes match when you share a perspective"
+      },
+      "options": [
+        {"text": "Staring contest", "value": false, "color": "yellow"},
+        {
+          "text": "Looking someone in the eye",
+          "value": false,
+          "color": "yellow"
+        },
+        {"text": "Opposing views", "value": false, "color": "yellow"},
+        {
+          "text": "Agreeing fully with someone else",
+          "value": true,
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "question": "What does \"Too many cooks in the kitchen\" mean?",
+      "dialog": {
+        "title": "Too many people trying to control something leads to failure",
+        "content": "Many cooks with competing ideas spoil the dish"
+      },
+      "options": [
+        {"text": "Cooking teams", "value": false, "color": "yellow"},
+        {"text": "Restaurant staffing", "value": false, "color": "yellow"},
+        {"text": "Helpful contributions", "value": false, "color": "yellow"},
+        {
+          "text":
+              "Too many people trying to control something leads to failure",
+          "value": true,
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "question": "What does \"elephant in the room\" mean?",
+      "dialog": {
+        "title": "A big, obvious issue no one addresses",
+        "content":
+            "An elephant would be hard to ignore, like an evident issue avoiding discussion"
+      },
+      "options": [
+        {"text": "A large decoration", "value": false, "color": "yellow"},
+        {"text": "Excellent memory", "value": false, "color": "yellow"},
+        {"text": "Forgetfulness", "value": false, "color": "yellow"},
+        {
+          "text": "A big, obvious issue no one addresses",
+          "value": true,
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "question": "What does \"You can't have your cake and eat it too\" mean?",
+      "dialog": {
+        "title": "You can't have two incompatible things",
+        "content":
+            "Eaten cake is gone \u00e2\u20ac\u201c you can't eat cake and still possess it"
+      },
+      "options": [
+        {"text": "Bakery challenges", "value": false, "color": "yellow"},
+        {"text": "Dessert cravings", "value": false, "color": "yellow"},
+        {
+          "text": "Generous dessert portions",
+          "value": false,
+          "color": "yellow"
+        },
+        {
+          "text": "You can't have two incompatible things",
+          "value": true,
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "question": "What does \"let the cat out of the bag\" mean?",
+      "dialog": {
+        "title": "Revealing something secret accidentally",
+        "content": "It means exposing something, like a cat escaping from a bag"
+      },
+      "options": [
+        {"text": "Releasing a pet", "value": false, "color": "yellow"},
+        {"text": "Putting a cat in a bag", "value": false, "color": "yellow"},
+        {"text": "Hiding something", "value": false, "color": "yellow"},
+        {
+          "text": "Revealing something secret accidentally",
+          "value": true,
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "question": "People make me, save me, change me, spend me. What am I?",
+      "dialog": {
+        "title": "Money",
+        "content": "Money is made, saved, changed, and spent"
+      },
+      "options": [
+        {"text": "Food", "value": false, "color": "yellow"},
+        {"text": "Clothes", "value": false, "color": "yellow"},
+        {"text": "Money", "value": true, "color": "yellow"},
+        {"text": "Toys", "value": false, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "What does \"A penny saved is a penny earned\" mean?",
+      "dialog": {
+        "title": "Saving money is as valuable as making money",
+        "content": "Saved pennies build over time, so saving is productive"
+      },
+      "options": [
+        {"text": "Coupon clipping", "value": false, "color": "yellow"},
+        {"text": "Profit seeking", "value": false, "color": "yellow"},
+        {"text": "Overspending", "value": false, "color": "yellow"},
+        {
+          "text": "Saving money is as valuable as making money",
+          "value": true,
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "question": "What does \"when pigs fly\" mean?",
+      "dialog": {
+        "title": "Something that will never happen",
+        "content": "Pigs cannot fly, so this idiom means something impossible"
+      },
+      "options": [
+        {"text": "When there's a tornado", "value": false, "color": "yellow"},
+        {
+          "text": "When it's very windy outside",
+          "value": false,
+          "color": "yellow"
+        },
+        {"text": "An expression of shock", "value": false, "color": "yellow"},
+        {
+          "text": "Something that will never happen",
+          "value": true,
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "question": "What does \"early bird gets the worm\" mean?",
+      "dialog": {
+        "title": "Acting promptly leads to advantages",
+        "content":
+            "Birds who get up early get food faster, meaning punctuality pays off"
+      },
+      "options": [
+        {"text": "Morning person", "value": false, "color": "yellow"},
+        {"text": "Late sleeper", "value": false, "color": "yellow"},
+        {"text": "Night owl", "value": false, "color": "yellow"},
+        {
+          "text": "Acting promptly leads to advantages",
+          "value": true,
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "question": "What does \"kill two birds with one stone\" mean?",
+      "dialog": {
+        "title": "Accomplishing two things at once",
+        "content": "Killing two birds with one stone has greater efficiency"
+      },
+      "options": [
+        {"text": "Failing at two tasks", "value": false, "color": "yellow"},
+        {"text": "Cruelty to animals", "value": false, "color": "yellow"},
+        {"text": "Focusing on one task", "value": false, "color": "yellow"},
+        {
+          "text": "Accomplishing two things at once",
+          "value": true,
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "question": "What does \"The pot calling the kettle black\" mean?",
+      "dialog": {
+        "title": "Hypocritical criticism",
+        "content":
+            "Though both pots and kettles are blackened from fire, only a hypocrite would criticize that"
+      },
+      "options": [
+        {"text": "Cooking tools", "value": false, "color": "yellow"},
+        {"text": "Name-calling", "value": false, "color": "yellow"},
+        {"text": "Stylish homewares", "value": false, "color": "yellow"},
+        {"text": "Hypocritical criticism", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "What does \"barking up the wrong tree\" mean?",
+      "dialog": {
+        "title": "Mistakenly looking in the wrong place",
+        "content": "When dogs bark at the wrong tree, they make a mistake"
+      },
+      "options": [
+        {"text": "Stuck in a tree", "value": false, "color": "yellow"},
+        {"text": "Lost in the woods", "value": false, "color": "yellow"},
+        {
+          "text": "Looking in the right spot",
+          "value": false,
+          "color": "yellow"
+        },
+        {
+          "text": "Mistakenly looking in the wrong place",
+          "value": true,
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "question": "What does \"take with a grain of salt\" mean?",
+      "dialog": {
+        "title": "To view something with skepticism or not take it literally",
+        "content":
+            "Just as salt grains are small, don't take it fully seriously"
+      },
+      "options": [
+        {"text": "Add seasoning", "value": false, "color": "yellow"},
+        {"text": "Spice something up", "value": false, "color": "yellow"},
+        {"text": "Absorb fully", "value": false, "color": "yellow"},
+        {
+          "text": "To view something with skepticism or not take it literally",
+          "value": true,
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "question": "What does \"apple of my eye\" mean?",
+      "dialog": {
+        "title": "Someone cherished above others",
+        "content":
+            "Historically, the eye's pupil was believed to be apple-shaped"
+      },
+      "options": [
+        {"text": "Eye doctor", "value": false, "color": "yellow"},
+        {"text": "Eye injury", "value": false, "color": "yellow"},
+        {"text": "Someone disliked", "value": false, "color": "yellow"},
+        {
+          "text": "Someone cherished above others",
+          "value": true,
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "question": "What does \"goody two shoes\" mean?",
+      "dialog": {
+        "title": "A goody-goody, someone overly virtuous",
+        "content": "From a nursery rhyme, it means nauseatingly well-behaved"
+      },
+      "options": [
+        {"text": "Fancy footwear", "value": false, "color": "yellow"},
+        {"text": "Shared shoes", "value": false, "color": "yellow"},
+        {"text": "Troublemaker", "value": false, "color": "yellow"},
+        {
+          "text": "A goody-goody, someone overly virtuous",
+          "value": true,
+          "color": "yellow"
+        }
       ]
     },
     {
       "question":
-          "I have keys but can't open locks, I have space but no room, you can enter, but you can't go inside. What am I?",
+          "What does \"The apple doesn't fall far from the tree\" mean?",
+      "dialog": {
+        "title": "Children resemble their parents",
+        "content":
+            "Apples near trees resemble them, so kids are like their parents"
+      },
+      "options": [
+        {"text": "Newton's gravity", "value": false, "color": "yellow"},
+        {"text": "Apple harvesting", "value": false, "color": "yellow"},
+        {
+          "text": "Differences between generations",
+          "value": false,
+          "color": "yellow"
+        },
+        {
+          "text": "Children resemble their parents",
+          "value": true,
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "question": "What does \"skating on thin ice\" mean?",
+      "dialog": {
+        "title": "Doing something risky that could fail",
+        "content": "Thin ice is dangerous to skate on and could break"
+      },
+      "options": [
+        {"text": "Ice skating", "value": false, "color": "yellow"},
+        {"text": "Safe ice skating", "value": false, "color": "yellow"},
+        {"text": "Carefree", "value": false, "color": "yellow"},
+        {
+          "text": "Doing something risky that could fail",
+          "value": true,
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "question": "What does \"butterflies in your stomach\" mean?",
+      "dialog": {
+        "title": "Feeling nervous",
+        "content": "Butterflies represent fluttering sensations when anxious"
+      },
+      "options": [
+        {"text": "Ulcer problems", "value": false, "color": "yellow"},
+        {"text": "Hunger pangs", "value": false, "color": "yellow"},
+        {"text": "Calmness", "value": false, "color": "yellow"},
+        {"text": "Feeling nervous", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "What does \"let the cat out of the bag\" mean?",
+      "dialog": {
+        "title": "To reveal a secret",
+        "content":
+            "It means to accidentally leak a secret, like a cat escaping a bag"
+      },
+      "options": [
+        {"text": "To release a pet", "value": false, "color": "yellow"},
+        {"text": "To place a cat in a bag", "value": false, "color": "yellow"},
+        {"text": "To hide a secret", "value": false, "color": "yellow"},
+        {"text": "To reveal a secret", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "What does \"go cold turkey\" mean?",
+      "dialog": {
+        "title": "To abruptly quit something without tapering off",
+        "content":
+            "Like a cold turkey has no fat, this idiom refers to abruptly stopping"
+      },
+      "options": [
+        {"text": "Eat poultry", "value": false, "color": "yellow"},
+        {"text": "Chill a cooked bird", "value": false, "color": "yellow"},
+        {"text": "Gradually reduce", "value": false, "color": "yellow"},
+        {
+          "text": "To abruptly quit something without tapering off",
+          "value": true,
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "question": "What building has the most stories?",
+      "dialog": {
+        "title": "A library",
+        "content": "Libraries contain many stories in books"
+      },
+      "options": [
+        {"text": "A school", "value": false, "color": "yellow"},
+        {"text": "A skyscraper", "value": false, "color": "yellow"},
+        {"text": "A library", "value": true, "color": "yellow"},
+        {"text": "An apartment building", "value": false, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "What does \"A chain is only as strong as its weakest link\" mean?",
+      "dialog": {
+        "title": "A system's flaws depend on its worst parts",
+        "content":
+            "The weak link breaks chains. A system fails at its most defective part"
+      },
+      "options": [
+        {"text": "Metalworking", "value": false, "color": "yellow"},
+        {"text": "Strong connections", "value": false, "color": "yellow"},
+        {"text": "Individual components", "value": false, "color": "yellow"},
+        {
+          "text": "A system's flaws depend on its worst parts",
+          "value": true,
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "question": "What does \"straight from the horse's mouth\" mean?",
+      "dialog": {
+        "title": "Hearing something directly from the source",
+        "content":
+            "Horses' mouths reveal horse facts. It means getting info directly from the source"
+      },
+      "options": [
+        {"text": "Talking to a horse", "value": false, "color": "yellow"},
+        {"text": "Knowledge about horses", "value": false, "color": "yellow"},
+        {"text": "Hearsay", "value": false, "color": "yellow"},
+        {
+          "text": "Hearing something directly from the source",
+          "value": true,
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "question": "What gets wetter the more it dries?",
+      "dialog": {
+        "title": "A towel",
+        "content": "When you use a towel to dry something, the towel gets wet"
+      },
+      "options": [
+        {"text": "A sponge", "value": false, "color": "yellow"},
+        {"text": "A towel", "value": true, "color": "yellow"},
+        {"text": "A mop", "value": false, "color": "yellow"},
+        {"text": "A rag", "value": false, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "What comes once in a minute, twice in a moment, but never in a thousand years?",
+      "dialog": {
+        "title": "The letter M",
+        "content":
+            "There is one M in minute, two Ms in moment, but none in thousand years"
+      },
+      "options": [
+        {"text": "The letter A", "value": false, "color": "yellow"},
+        {"text": "The letter T", "value": false, "color": "yellow"},
+        {"text": "The letter M", "value": true, "color": "yellow"},
+        {"text": "The letter K", "value": false, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "What does \"play devil's advocate\" mean?",
+      "dialog": {
+        "title": "To argue the opposite side of a position",
+        "content": "It means arguing against something, like the devil"
+      },
+      "options": [
+        {"text": "Cause trouble", "value": false, "color": "yellow"},
+        {"text": "Support a stance", "value": false, "color": "yellow"},
+        {"text": "Take no position", "value": false, "color": "yellow"},
+        {
+          "text": "To argue the opposite side of a position",
+          "value": true,
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "question": "What does \"miss the boat\" mean?",
+      "dialog": {
+        "title": "Missing an opportunity",
+        "content":
+            "It refers to someone being too late to take advantage of an opportunity"
+      },
+      "options": [
+        {"text": "Missing your ferry", "value": false, "color": "yellow"},
+        {
+          "text": "Sailing away without someone",
+          "value": false,
+          "color": "yellow"
+        },
+        {"text": "Falling overboard", "value": false, "color": "yellow"},
+        {"text": "Missing an opportunity", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "What does \"skating on thin ice\" mean?",
+      "dialog": {
+        "title": "Doing something risky that could fail",
+        "content":
+            "Thin ice can't support and may crack. The idiom refers to taking a precarious risk."
+      },
+      "options": [
+        {"text": "Ice skating", "value": false, "color": "yellow"},
+        {"text": "Safe ice skating", "value": false, "color": "yellow"},
+        {"text": "Carefreeness", "value": false, "color": "yellow"},
+        {
+          "text": "Doing something risky that could fail",
+          "value": true,
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "question": "What goes up and never comes down?",
+      "dialog": {
+        "title": "Your age",
+        "content": "You age continuously goes up but never comes back down"
+      },
+      "options": [
+        {"text": "A child on a slide", "value": false, "color": "yellow"},
+        {"text": "A balloon", "value": false, "color": "yellow"},
+        {"text": "Your age", "value": true, "color": "yellow"},
+        {"text": "An airplane", "value": false, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "What does \"raining cats and dogs\" mean?",
+      "dialog": {
+        "title": "Heavy rain is falling",
+        "content":
+            "The origins of this idiom are debated, but it refers to a heavy downpour"
+      },
+      "options": [
+        {
+          "text": "Cats and dogs falling from the sky",
+          "value": false,
+          "color": "yellow"
+        },
+        {"text": "Calm drizzle", "value": false, "color": "yellow"},
+        {"text": "Sunny weather", "value": false, "color": "yellow"},
+        {"text": "Heavy rain is falling", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "What does \"go cold turkey\" mean?",
+      "dialog": {
+        "title": "To abruptly stop something without phasing it out",
+        "content":
+            "Like a cold turkey has no fat, this refers to abruptly stopping"
+      },
+      "options": [
+        {"text": "Eat poultry", "value": false, "color": "yellow"},
+        {"text": "Chill a cooked bird", "value": false, "color": "yellow"},
+        {
+          "text": "Gradually reduce frequency",
+          "value": false,
+          "color": "yellow"
+        },
+        {
+          "text": "To abruptly stop something without phasing it out",
+          "value": true,
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "question":
+          "You see me once in June, twice in November and not at all in May. What am I?",
+      "dialog": {
+        "title": "The letter 'e'",
+        "content": "June has 1 'e', November has 2, May has 0"
+      },
+      "options": [
+        {"text": "The letter 'a'", "value": false, "color": "yellow"},
+        {"text": "The letter 'n'", "value": false, "color": "yellow"},
+        {"text": "The letter 'e'", "value": true, "color": "yellow"},
+        {"text": "The letter 'm'", "value": false, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "I have keys but no locks. I have a space but no room. You can enter, but can\u00e2\u20ac\u2122t go outside. What am I?",
       "dialog": {
         "title": "A keyboard",
         "content":
-            "This riddle describes a piano, which has keys that produce musical sounds."
+            "A keyboard has keys but doesn't lock. It takes up space but has no room. You can enter text but it doesn't let you go outside"
       },
       "options": [
+        {"text": "A door", "value": false, "color": "yellow"},
+        {"text": "A house", "value": false, "color": "yellow"},
         {"text": "A keyboard", "value": true, "color": "yellow"},
-        {"text": "A car", "value": false, "color": "yellow"},
+        {"text": "A safe", "value": false, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "What does \"The grass is always greener on the other side\" mean?",
+      "dialog": {
+        "title": "Others' lives look more appealing than your own",
+        "content":
+            "From wishing for your neighbor's greener lawn, it means thinking others have it better"
+      },
+      "options": [
+        {"text": "Lush landscaping", "value": false, "color": "yellow"},
+        {"text": "Weed control", "value": false, "color": "yellow"},
+        {"text": "Home appreciation", "value": false, "color": "yellow"},
+        {
+          "text": "Others' lives look more appealing than your own",
+          "value": true,
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "question": "What does \"black sheep of the family\" mean?",
+      "dialog": {
+        "title": "A person who is different from other family members",
+        "content": "Black sheep stand out from a herd of white sheep"
+      },
+      "options": [
+        {"text": "An outsider", "value": false, "color": "yellow"},
+        {"text": "A negative person", "value": false, "color": "yellow"},
+        {
+          "text": "The family's favorite member",
+          "value": false,
+          "color": "yellow"
+        },
+        {
+          "text": "A person who is different from other family members",
+          "value": true,
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "question": "What does \"straight from the horse's mouth\" mean?",
+      "dialog": {
+        "title": "Hearing something directly from the authoritative source",
+        "content":
+            "Horses' mouths are the source of horse facts. This idiom means getting info straight from the source"
+      },
+      "options": [
+        {"text": "Talking to a horse", "value": false, "color": "yellow"},
+        {"text": "Knowledge about horses", "value": false, "color": "yellow"},
+        {"text": "Hearsay", "value": false, "color": "yellow"},
+        {
+          "text": "Hearing something directly from the authoritative source",
+          "value": true,
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "question": "What does \"cost a pretty penny\" mean?",
+      "dialog": {
+        "title": "Something that is expensive",
+        "content":
+            "A penny can be pretty but not have much monetary value, so this idiom refers to high expense"
+      },
+      "options": [
+        {"text": "Affordable", "value": false, "color": "yellow"},
+        {"text": "Cheap", "value": false, "color": "yellow"},
+        {"text": "Very valuable", "value": false, "color": "yellow"},
+        {
+          "text": "Something that is expensive",
+          "value": true,
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "question": "What does \"Like looking for a needle in a haystack\" mean?",
+      "dialog": {
+        "title": "Searching for something extremely difficult to find",
+        "content": "Needles in haystacks are incredibly hard to locate"
+      },
+      "options": [
+        {"text": "Sewing", "value": false, "color": "yellow"},
+        {"text": "Farming", "value": false, "color": "yellow"},
+        {"text": "Easy search", "value": false, "color": "yellow"},
+        {
+          "text": "Searching for something extremely difficult to find",
+          "value": true,
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "question":
+          "I have cities, but no houses. I have mountains, but no trees. I have water, but no fish. What am I?",
+      "dialog": {
+        "title": "A map",
+        "content":
+            "Maps have symbols for cities, mountains, and bodies of water but no actual houses, trees or fish."
+      },
+      "options": [
+        {"text": "A globe", "value": false, "color": "yellow"},
+        {"text": "A book", "value": false, "color": "yellow"},
+        {"text": "A map", "value": true, "color": "yellow"},
+        {"text": "A puzzle", "value": false, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "What has four fingers and a thumb, but is not alive?",
+      "dialog": {
+        "title": "A glove",
+        "content":
+            "Gloves have finger and thumb slots but are not living things"
+      },
+      "options": [
+        {"text": "A hand", "value": false, "color": "yellow"},
+        {"text": "A mitten", "value": false, "color": "yellow"},
+        {"text": "A glove", "value": true, "color": "yellow"},
+        {"text": "A shoe", "value": false, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "What has fingers and thumbs but no hands or feet?",
+      "dialog": {
+        "title": "Gloves",
+        "content":
+            "Gloves have fingers and thumbs but no complete hands or feet"
+      },
+      "options": [
+        {"text": "Socks", "value": false, "color": "yellow"},
+        {"text": "Mittens", "value": false, "color": "yellow"},
+        {"text": "Gloves", "value": true, "color": "yellow"},
+        {"text": "Shoes", "value": false, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "What belongs to you but others use it more than you do?",
+      "dialog": {
+        "title": "Your name",
+        "content":
+            "Your name belongs to you but others use it more when they refer to you"
+      },
+      "options": [
+        {"text": "Your clothes", "value": false, "color": "yellow"},
+        {"text": "Your phone", "value": false, "color": "yellow"},
+        {"text": "Your name", "value": true, "color": "yellow"},
+        {"text": "Your house", "value": false, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "What does \"Rome wasn't built in a day\" mean?",
+      "dialog": {
+        "title": "Major achievements take time and patience",
+        "content":
+            "Rome took centuries to build, so accomplishments require sustained effort"
+      },
+      "options": [
+        {"text": "Travel advice", "value": false, "color": "yellow"},
+        {"text": "Urban development", "value": false, "color": "yellow"},
+        {"text": "Rapid progress", "value": false, "color": "yellow"},
+        {
+          "text": "Major achievements take time and patience",
+          "value": true,
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "question": "I have branches but no fruit, leaves or flowers. What am I?",
+      "dialog": {
+        "title": "A bank",
+        "content":
+            "Banks have branch locations but don't produce anything physical"
+      },
+      "options": [
         {"text": "A tree", "value": false, "color": "yellow"},
-        {"text": "A map", "value": false, "color": "yellow"}
+        {"text": "A bush", "value": false, "color": "yellow"},
+        {"text": "A bank", "value": true, "color": "yellow"},
+        {"text": "A vine", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question":
-          "I have keys but can't open locks, and I sound like a musical box. What am I?",
+      "question": "What has a head and a tail but no body?",
       "dialog": {
-        "title": "A piano",
-        "content":
-            "This proverb emphasizes the importance of hope and the eventual end of hardships."
+        "title": "A coin",
+        "content": "Coins have a head and tail side but no body"
       },
       "options": [
-        {"text": "A piano", "value": true, "color": "yellow"},
-        {"text": "A guitar", "value": false, "color": "yellow"},
-        {"text": "A typewriter", "value": false, "color": "yellow"},
-        {"text": "A xylophone", "value": false, "color": "yellow"}
+        {"text": "A snake", "value": false, "color": "yellow"},
+        {"text": "A coin", "value": true, "color": "yellow"},
+        {"text": "A worm", "value": false, "color": "yellow"},
+        {"text": "A shoe", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question": "However long the night, the dawn will break.",
+      "question": "What does \"When in Rome, do as the Romans do\" mean?",
       "dialog": {
-        "title": "Hope is essential to endure difficulties",
-        "content":
-            "This proverb highlights the power of working together and the weakness of division."
+        "title": "Follow the customs of wherever you are",
+        "content": "Act like the locals when somewhere new"
       },
       "options": [
+        {"text": "Tourist advice", "value": false, "color": "yellow"},
+        {"text": "Roman history", "value": false, "color": "yellow"},
+        {"text": "Disregarding rules", "value": false, "color": "yellow"},
         {
-          "text": "Hope is essential to endure difficulties",
+          "text": "Follow the customs of wherever you are",
           "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "The night is longer than the day",
-          "value": false,
-          "color": "yellow"
-        },
-        {"text": "Dawn is never breaking", "value": false, "color": "yellow"},
-        {"text": "Nights are always short", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "Unity is strength, division is weakness.",
-      "dialog": {
-        "title": "Cooperation leads to strength",
-        "content":
-            "This proverb suggests that individuals tend to remain true to their character or nature."
-      },
-      "options": [
-        {
-          "text": "Cooperation leads to strength",
-          "value": true,
-          "color": "yellow"
-        },
-        {"text": "Division is stronger", "value": false, "color": "yellow"},
-        {
-          "text": "Strength is not important",
-          "value": false,
-          "color": "yellow"
-        },
-        {"text": "Unity is unimportant", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "A leopard cannot change its spots.",
-      "dialog": {
-        "title": "People rarely change their inherent nature",
-        "content":
-            "This proverb conveys that facing challenges and obstacles can lead to personal development and skill."
-      },
-      "options": [
-        {
-          "text": "People rarely change their inherent nature",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "Leopards can change their appearance",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "People are like chameleons",
-          "value": false,
-          "color": "yellow"
-        },
-        {"text": "Leopards don't have spots", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "Smooth seas do not make skillful sailors.",
-      "dialog": {
-        "title": "Challenges and difficulties lead to personal growth",
-        "content":
-            "This proverb advises individuals to find their own way and not rely on others for guidance."
-      },
-      "options": [
-        {
-          "text": "Challenges and difficulties lead to personal growth",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "Smooth seas are best for sailing",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Skillful sailors don't face challenges",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Skillful sailors need calm seas",
-          "value": false,
           "color": "yellow"
         }
       ]
     },
     {
-      "question": "Don't set sail using someone else's star.",
+      "question": "What does \"call it a day\" mean?",
       "dialog": {
-        "title": "Find your own path and guidance",
-        "content":
-            "This proverb implies that one's social or economic status is not easily altered."
+        "title": "Stopping work for the day, going home",
+        "content": "At the end of a day, work stops. The idiom means stopping"
       },
       "options": [
+        {"text": "Nap time", "value": false, "color": "yellow"},
+        {"text": "Leaving briefly", "value": false, "color": "yellow"},
         {
-          "text": "Find your own path and guidance",
+          "text": "Continuing work through the day",
+          "value": false,
+          "color": "yellow"
+        },
+        {
+          "text": "Stopping work for the day, going home",
           "value": true,
           "color": "yellow"
-        },
-        {
-          "text": "Borrowing stars is better",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "You should never set sail",
-          "value": false,
-          "color": "yellow"
-        },
-        {"text": "Stars are unimportant", "value": false, "color": "yellow"}
+        }
       ]
     },
     {
-      "question":
-          "A bird that flies off the earth and lands on an anthill is still on the ground.",
+      "question": "What does \"can't judge a book by its cover\" mean?",
       "dialog": {
-        "title": "One's status or background cannot be changed easily",
-        "content":
-            "This proverb encourages taking bold actions and seizing opportunities in life."
+        "title": "Can't assess something by appearance alone",
+        "content": "Cover appearances don't reveal content quality"
       },
       "options": [
+        {"text": "Literary analysis", "value": false, "color": "yellow"},
+        {"text": "Book packaging", "value": false, "color": "yellow"},
+        {"text": "Quick book review", "value": false, "color": "yellow"},
         {
-          "text": "One's status or background cannot be changed easily",
+          "text": "Can't assess something by appearance alone",
           "value": true,
-          "color": "yellow"
-        },
-        {"text": "Birds can't fly high", "value": false, "color": "yellow"},
-        {
-          "text": "Anthills are the best places",
-          "value": false,
-          "color": "yellow"
-        },
-        {"text": "Flying is overrated", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "It is better to be a lion for a day than a sheep all your life.",
-      "dialog": {
-        "title": "Seizing opportunities is better than passivity",
-        "content":
-            "This proverb suggests that without evidence or witnesses, innocent parties can be falsely accused."
-      },
-      "options": [
-        {
-          "text": "Seizing opportunities is better than passivity",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "Being a sheep is better than being a lion",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Sheep are superior to lions",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Lions are better than sheep",
-          "value": false,
           "color": "yellow"
         }
       ]
     },
     {
       "question":
-          "Where there are no dogs, the tigers are unjustly accused of eating the goats.",
+          "What does \"Don't throw stones if you live in a glass house\" mean?",
       "dialog": {
-        "title": "The absence of evidence leads to false accusations",
+        "title": "Don't criticize others if you have weaknesses yourself",
         "content":
-            "This proverb encourages individuals to recognize and use their strengths effectively."
+            "Throwing stones would shatter glass houses. It means don't be a hypocrite criticizer"
       },
       "options": [
+        {"text": "Home repair", "value": false, "color": "yellow"},
+        {"text": "Masonry work", "value": false, "color": "yellow"},
+        {"text": "Defensive fortification", "value": false, "color": "yellow"},
         {
-          "text": "The absence of evidence leads to false accusations",
+          "text": "Don't criticize others if you have weaknesses yourself",
           "value": true,
           "color": "yellow"
-        },
-        {"text": "Tigers are always guilty", "value": false, "color": "yellow"},
-        {
-          "text": "Dogs are better than tigers",
-          "value": false,
-          "color": "yellow"
-        },
-        {"text": "Tigers should eat goats", "value": false, "color": "yellow"}
+        }
       ]
     },
     {
-      "question": "The lion's power lies in its claws.",
+      "question": "What does the idiom \"back to square one\" mean?",
       "dialog": {
-        "title": "People should recognize their strengths",
+        "title": "Having to start over again from the beginning",
         "content":
-            "This proverb conveys that even slow and steady progress can lead to significant achievements."
+            "When you go back to square one, you start again from the very beginning"
       },
       "options": [
+        {"text": "Being very successful", "value": false, "color": "yellow"},
         {
-          "text": "People should recognize their strengths",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "Lions are known for their claws",
+          "text": "Finally reaching your goal",
           "value": false,
           "color": "yellow"
         },
-        {"text": "Power is not important", "value": false, "color": "yellow"},
-        {"text": "Lions have no power", "value": false, "color": "yellow"}
+        {
+          "text": "Having to start over again from the beginning",
+          "value": true,
+          "color": "yellow"
+        },
+        {"text": "Going backwards", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question":
-          "The moon moves slowly but by daybreak, it has crossed the sky.",
+      "question": "What does \"Where there's smoke, there's fire\" mean?",
       "dialog": {
-        "title": "Steady progress leads to success",
-        "content":
-            "This proverb suggests that those who are privileged may not understand the challenges faced by the less fortunate."
+        "title": "Suspect problem where there are signs of one",
+        "content": "Smoke suggests a fire, so hints indicate a real issue"
       },
       "options": [
         {
-          "text": "Steady progress leads to success",
-          "value": true,
+          "text": "Calling emergency services",
+          "value": false,
           "color": "yellow"
         },
-        {"text": "The moon moves fast", "value": false, "color": "yellow"},
-        {"text": "Daybreak is slow", "value": false, "color": "yellow"},
+        {"text": "Investigating the source", "value": false, "color": "yellow"},
+        {"text": "False alarms", "value": false, "color": "yellow"},
         {
-          "text": "The moon is always in the sky",
-          "value": false,
+          "text": "Suspect problem where there are signs of one",
+          "value": true,
           "color": "yellow"
         }
       ]
     },
     {
       "question":
-          "The one who is sheltered cannot know that the one who is exposed feels cold.",
+          "What does \"Don't count your chickens before they hatch\" mean?",
       "dialog": {
-        "title":
-            "Those who are protected may not understand the struggles of others",
+        "title": "Don't make plans based on unrealized gains",
         "content":
-            "This proverb conveys the idea that challenges and difficulties are shared by many."
+            "Baby chicks may not survive to hatch, so don't count on uncertain outcomes"
       },
       "options": [
+        {"text": "Impatiently waiting", "value": false, "color": "yellow"},
+        {"text": "Poultry farming methods", "value": false, "color": "yellow"},
+        {"text": "Counting baby animals", "value": false, "color": "yellow"},
         {
-          "text":
-              "Those who are protected may not understand the struggles of others",
+          "text": "Don't make plans based on unrealized gains",
           "value": true,
           "color": "yellow"
-        },
-        {
-          "text": "Being sheltered is better",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Exposed people never feel cold",
-          "value": false,
-          "color": "yellow"
-        },
-        {"text": "Cold is a good thing", "value": false, "color": "yellow"}
+        }
       ]
     },
     {
-      "question": "Rain does not fall on one roof alone.",
+      "question": "What does \"Don't rain on my parade\" mean?",
       "dialog": {
-        "title": "Difficulties affect many people",
-        "content":
-            "This proverb emphasizes that individuals cannot change their essential character or nature."
+        "title": "Don't ruin my pleasure or pride",
+        "content": "Rain ruins parades. It means don't spoil someone's joy"
       },
       "options": [
+        {"text": "Weather forecasting", "value": false, "color": "yellow"},
+        {"text": "Storm preparedness", "value": false, "color": "yellow"},
+        {"text": "Bringing an umbrella", "value": false, "color": "yellow"},
         {
-          "text": "Difficulties affect many people",
+          "text": "Don't ruin my pleasure or pride",
           "value": true,
           "color": "yellow"
-        },
-        {
-          "text": "Some roofs never get rain",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Rain always falls on one roof",
-          "value": false,
-          "color": "yellow"
-        },
-        {"text": "Roofs are more important", "value": false, "color": "yellow"}
+        }
       ]
     },
     {
-      "question":
-          "However long a log stays in the water, it doesn't become a crocodile.",
+      "question": "What does the idiom \"once in a blue moon\" mean?",
       "dialog": {
-        "title": "You cannot change your inherent nature",
+        "title": "Very rarely, not very often",
         "content":
-            "This proverb implies that individual accomplishments can be more noticeable than a collective effort."
+            "A blue moon is the rare second full moon in a month, so the idiom means rarely"
       },
       "options": [
+        {"text": "A lunar eclipse", "value": false, "color": "yellow"},
+        {"text": "An evening stroll", "value": false, "color": "yellow"},
         {
-          "text": "You cannot change your inherent nature",
+          "text": "Very rarely, not very often",
           "value": true,
           "color": "yellow"
         },
         {
-          "text": "Logs can become crocodiles",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Water is the best place for logs",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Crocodiles don't stay in water",
+          "text": "A month with only one full moon",
           "value": false,
           "color": "yellow"
         }
       ]
     },
     {
-      "question":
-          "A tree that falls to the ground makes more noise than a forest that grows.",
+      "question": "What does \"benefit of the doubt\" mean?",
       "dialog": {
-        "title": "Success is more significant than noise",
+        "title": "Believing someone's good intentions without proof",
         "content":
-            "This proverb suggests that proverbs are intended to teach wisdom to those who lack it."
+            "When in doubt, give them this benefit by trusting without evidence"
+      },
+      "options": [
+        {"text": "Unsure belief", "value": false, "color": "yellow"},
+        {"text": "Suspicious view", "value": false, "color": "yellow"},
+        {"text": "Definite certainty", "value": false, "color": "yellow"},
+        {
+          "text": "Believing someone's good intentions without proof",
+          "value": true,
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "question": "What does \"The blind leading the blind\" mean?",
+      "dialog": {
+        "title": "Unqualified people guiding others",
+        "content":
+            "Blind people would struggle to show others the right way, like incompetents instructing"
       },
       "options": [
         {
-          "text": "Success is more significant than noise",
-          "value": true,
-          "color": "yellow"
-        },
-        {"text": "Forests are noisy", "value": false, "color": "yellow"},
-        {
-          "text": "Trees never fall to the ground",
+          "text": "Helping the visually impaired",
           "value": false,
           "color": "yellow"
         },
-        {"text": "Falling trees are silent", "value": false, "color": "yellow"}
+        {"text": "Optometrists", "value": false, "color": "yellow"},
+        {"text": "Inexperienced leadership", "value": false, "color": "yellow"},
+        {
+          "text": "Unqualified people guiding others",
+          "value": true,
+          "color": "yellow"
+        }
       ]
     },
     {
-      "question": "The wise create proverbs for fools to learn, not to repeat.",
+      "question": "What does \"break the ice\" mean?",
       "dialog": {
-        "title": "Proverbs are meant to convey wisdom and knowledge",
+        "title": "To initiate a social conversation or interaction",
         "content":
-            "This riddle describes a piano, which has keys that produce musical sounds."
+            "It means to start a conversation to reduce tension or awkwardness"
       },
       "options": [
+        {"text": "To melt ice", "value": false, "color": "yellow"},
         {
-          "text": "Proverbs are meant to convey wisdom and knowledge",
-          "value": true,
-          "color": "yellow"
-        },
-        {"text": "Fools are wise", "value": false, "color": "yellow"},
-        {
-          "text": "Proverbs are meant to be repeated",
+          "text": "To divide ice into pieces",
           "value": false,
           "color": "yellow"
         },
-        {"text": "Wisdom is not important", "value": false, "color": "yellow"}
+        {"text": "To damage an ice surface", "value": false, "color": "yellow"},
+        {
+          "text": "To initiate a social conversation or interaction",
+          "value": true,
+          "color": "yellow"
+        }
       ]
     },
     {
-      "question":
-          "I have keys but can't open locks, and I sound like a musical box. What am I?",
+      "question": "What does \"take a rain check\" mean?",
       "dialog": {
-        "title": "A piano",
-        "content":
-            "This riddle describes a sponge, which is lightweight despite having holes."
+        "title": "Delaying something for a later date or time",
+        "content": "From baseball tickets, it means postponing something"
       },
       "options": [
-        {"text": "A piano", "value": true, "color": "yellow"},
-        {"text": "A guitar", "value": false, "color": "yellow"},
-        {"text": "A typewriter", "value": false, "color": "yellow"},
-        {"text": "A xylophone", "value": false, "color": "yellow"}
+        {"text": "Using a coupon", "value": false, "color": "yellow"},
+        {"text": "Waiting in the rain", "value": false, "color": "yellow"},
+        {
+          "text": "Going inside to avoid rain",
+          "value": false,
+          "color": "yellow"
+        },
+        {
+          "text": "Delaying something for a later date or time",
+          "value": true,
+          "color": "yellow"
+        }
       ]
     },
     {
-      "question": "I'm full of holes, yet I'm still heavy. What am I?",
+      "question": "What does \"Don't put the cart before the horse\" mean?",
+      "dialog": {
+        "title": "Work in the proper sequence",
+        "content":
+            "Carts only go after horses. It means doing things in the right order."
+      },
+      "options": [
+        {"text": "Workout routine", "value": false, "color": "yellow"},
+        {"text": "Animal care", "value": false, "color": "yellow"},
+        {"text": "Quick progress", "value": false, "color": "yellow"},
+        {
+          "text": "Work in the proper sequence",
+          "value": true,
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "question": "What does \"Don't put all your eggs in one basket\" mean?",
+      "dialog": {
+        "title": "Don't risk everything on a single opportunity",
+        "content":
+            "Spread your chances rather than gamble on one possibility only"
+      },
+      "options": [
+        {"text": "Store eggs carefully", "value": false, "color": "yellow"},
+        {"text": "Make an omelet", "value": false, "color": "yellow"},
+        {"text": "Egg gathering", "value": false, "color": "yellow"},
+        {
+          "text": "Don't risk everything on a single opportunity",
+          "value": true,
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "question": "I am full of holes but can still hold water. What am I?",
       "dialog": {
         "title": "A sponge",
-        "content":
-            "This riddle describes a shadow, which can appear to fly and extends in the presence of light."
+        "content": "Sponges are porous but can absorb and hold water"
       },
       "options": [
+        {"text": "A bucket", "value": false, "color": "yellow"},
+        {"text": "A sieve", "value": false, "color": "yellow"},
         {"text": "A sponge", "value": true, "color": "yellow"},
-        {"text": "Swiss cheese", "value": false, "color": "yellow"},
-        {"text": "A cloud", "value": false, "color": "yellow"},
-        {"text": "A net", "value": false, "color": "yellow"}
+        {"text": "A bottle", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question":
-          "I can fly without wings, and I can cry without eyes. Wherever I go, darkness follows me. What am I?",
+      "question": "What does \"bark up the wrong tree\" mean?",
       "dialog": {
-        "title": "A shadow",
-        "content":
-            "This riddle describes fire, which consumes oxygen and appears to grow, yet it's not alive."
+        "title": "Looking in the wrong place, mistaken",
+        "content": "When dogs bark at the wrong tree, they make a mistake"
       },
       "options": [
-        {"text": "A shadow", "value": true, "color": "yellow"},
-        {"text": "A bat", "value": false, "color": "yellow"},
-        {"text": "A bird", "value": false, "color": "yellow"},
-        {"text": "A cloud", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "I am not alive, but I can grow; I don't have lungs, but I need air; I don't have a mouth, but water kills me. What am I?",
-      "dialog": {
-        "title": "Fire",
-        "content":
-            "This riddle is about footsteps, as the more you walk, the more footprints you leave behind."
-      },
-      "options": [
-        {"text": "Fire", "value": true, "color": "yellow"},
-        {"text": "Ice", "value": false, "color": "yellow"},
-        {"text": "Mold", "value": false, "color": "yellow"},
-        {"text": "Stone", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "The more you take, the more you leave behind. What am I?",
-      "dialog": {
-        "title": "Footsteps",
-        "content":
-            "This riddle describes an echo, a sound phenomenon that doesn't have a physical form."
-      },
-      "options": [
-        {"text": "Footsteps", "value": true, "color": "yellow"},
-        {"text": "Money", "value": false, "color": "yellow"},
-        {"text": "Knowledge", "value": false, "color": "yellow"},
-        {"text": "Food", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "I speak without a mouth and hear without ears. I have no body, but I come alive with the wind. What am I?",
-      "dialog": {
-        "title": "An echo",
-        "content":
-            "This riddle refers to a candle, which becomes shorter as it burns."
-      },
-      "options": [
-        {"text": "An echo", "value": true, "color": "yellow"},
-        {"text": "A tree", "value": false, "color": "yellow"},
-        {"text": "A book", "value": false, "color": "yellow"},
-        {"text": "A river", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "I'm tall when I'm young, and short when I'm old. What am I?",
-      "dialog": {
-        "title": "A candle",
-        "content":
-            "This riddle describes a car, as you can enter it but can't physically go inside the car."
-      },
-      "options": [
-        {"text": "A candle", "value": true, "color": "yellow"},
-        {"text": "A tree", "value": false, "color": "yellow"},
-        {"text": "A mountain", "value": false, "color": "yellow"},
-        {"text": "A river", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "I have keys but can't open locks, I have space but no room, and you can enter, but you can't go inside. What am I?",
-      "dialog": {
-        "title": "A car",
-        "content":
-            "This riddle describes pencil lead, which is enclosed in a wooden case (pencil) and used for writing."
-      },
-      "options": [
-        {"text": "A car", "value": true, "color": "yellow"},
-        {"text": "A house", "value": false, "color": "yellow"},
-        {"text": "A keyboard", "value": false, "color": "yellow"},
-        {"text": "A wallet", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "I am taken from a mine and shut up in a wooden case, from which I am never released, and yet I am used by almost every person. What am I?",
-      "dialog": {
-        "title": "Pencil lead",
-        "content":
-            "This riddle is about footsteps, as the more you take, the more footprints you leave behind."
-      },
-      "options": [
-        {"text": "Pencil lead", "value": true, "color": "yellow"},
-        {"text": "Gold", "value": false, "color": "yellow"},
-        {"text": "Diamond", "value": false, "color": "yellow"},
-        {"text": "Water", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "The more you take, the more you leave behind. What am I?",
-      "dialog": {
-        "title": "Footsteps",
-        "content":
-            "This riddle refers to a breath, which is intangible and fleeting."
-      },
-      "options": [
-        {"text": "Footsteps", "value": true, "color": "yellow"},
-        {"text": "Money", "value": false, "color": "yellow"},
-        {"text": "Knowledge", "value": false, "color": "yellow"},
-        {"text": "Food", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "I'm light as a feather, yet the strongest person can't hold me for much longer than a minute. What am I?",
-      "dialog": {
-        "title": "Breath",
-        "content":
-            "This riddle describes a piano, which has keys for producing musical notes."
-      },
-      "options": [
-        {"text": "Breath", "value": true, "color": "yellow"},
-        {"text": "Feather", "value": false, "color": "yellow"},
-        {"text": "Thought", "value": false, "color": "yellow"},
-        {"text": "Balloon", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "I'm full of keys but can't open locks, and I sound like a musical box. What am I?",
-      "dialog": {
-        "title": "A piano",
-        "content":
-            "This riddle describes a keyboard, which has keys but doesn't open locks."
-      },
-      "options": [
-        {"text": "A piano", "value": true, "color": "yellow"},
-        {"text": "A guitar", "value": false, "color": "yellow"},
-        {"text": "A typewriter", "value": false, "color": "yellow"},
-        {"text": "A xylophone", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "I have keys but can't open locks, I have space but no room, and you can enter, but you can't go inside. What am I?",
-      "dialog": {
-        "title": "A keyboard",
-        "content":
-            "This riddle refers to a shadow, which can appear to fly without wings and extends in the presence of light."
-      },
-      "options": [
-        {"text": "A keyboard", "value": true, "color": "yellow"},
-        {"text": "A car", "value": false, "color": "yellow"},
-        {"text": "A tree", "value": false, "color": "yellow"},
-        {"text": "A map", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "I can fly without wings, and I can cry without eyes. Wherever I go, darkness follows me. What am I?",
-      "dialog": {
-        "title": "A shadow",
-        "content":
-            "This riddle is about footsteps, as the more you walk, the more footprints you leave behind."
-      },
-      "options": [
-        {"text": "A shadow", "value": true, "color": "yellow"},
-        {"text": "A bat", "value": false, "color": "yellow"},
-        {"text": "A bird", "value": false, "color": "yellow"},
-        {"text": "A cloud", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "The more you take, the more you leave behind. What am I?",
-      "dialog": {
-        "title": "Footsteps",
-        "content":
-            "This proverb from the Book of Proverbs warns against the destructive consequences of pride."
-      },
-      "options": [
-        {"text": "Footsteps", "value": true, "color": "yellow"},
-        {"text": "Money", "value": false, "color": "yellow"},
-        {"text": "Knowledge", "value": false, "color": "yellow"},
-        {"text": "Food", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "Pride goes before destruction, and a haughty spirit before a fall.",
-      "dialog": {
-        "title": "Pride leads to downfall",
-        "content":
-            "This proverb emphasizes the power of a kind response to defuse anger."
-      },
-      "options": [
-        {"text": "Pride leads to downfall", "value": true, "color": "yellow"},
+        {"text": "Stuck in a tree", "value": false, "color": "yellow"},
+        {"text": "Lost in the woods", "value": false, "color": "yellow"},
         {
-          "text": "Humility leads to destruction",
+          "text": "Looking in the right spot",
           "value": false,
           "color": "yellow"
         },
         {
-          "text": "Haughtiness is beneficial",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Destruction is better than pride",
-          "value": false,
+          "text": "Looking in the wrong place, mistaken",
+          "value": true,
           "color": "yellow"
         }
       ]
     },
     {
-      "question":
-          "A gentle answer turns away wrath, but a harsh word stirs up anger.",
+      "question": "What has a face and two hands but no arms or legs?",
       "dialog": {
-        "title": "A gentle response calms anger",
-        "content":
-            "This proverb emphasizes the importance of teaching children the right way to live."
+        "title": "A clock",
+        "content": "Clocks have faces and hour/minute hands but no arms or legs"
       },
       "options": [
-        {
-          "text": "A gentle response calms anger",
-          "value": true,
-          "color": "yellow"
-        },
-        {"text": "Harsh words are better", "value": false, "color": "yellow"},
-        {"text": "Wrath is necessary", "value": false, "color": "yellow"},
-        {
-          "text": "Gentle answers cause anger",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "A plate", "value": false, "color": "yellow"},
+        {"text": "A photo", "value": false, "color": "yellow"},
+        {"text": "A clock", "value": true, "color": "yellow"},
+        {"text": "A mirror", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question":
-          "Train up a child in the way he should go: and when he is old, he will not depart from it.",
+      "question": "What can fill a room but takes up no space?",
       "dialog": {
-        "title": "Proper upbringing leads to lifelong values",
-        "content":
-            "This proverb highlights the impact of a child's wisdom or foolishness on their parents' emotions."
+        "title": "Light",
+        "content": "Light fills up a room but doesn't take up physical space"
       },
       "options": [
-        {
-          "text": "Proper upbringing leads to lifelong values",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "Children should be left to their own devices",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Training children is pointless",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Children always depart from their upbringing",
-          "value": false,
-          "color": "yellow"
-        }
+        {"text": "Water", "value": false, "color": "yellow"},
+        {"text": "Furniture", "value": false, "color": "yellow"},
+        {"text": "Light", "value": true, "color": "yellow"},
+        {"text": "Air", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question":
-          "A wise son brings joy to his father, but a foolish son grief to his mother.",
+      "question": "What has to be broken before you can use it?",
       "dialog": {
-        "title": "Wisdom brings joy to parents",
+        "title": "An egg",
         "content":
-            "This proverb conveys the idea that people can influence and improve each other's character."
+            "You have to break the shell before you can use the egg inside"
       },
       "options": [
-        {
-          "text": "Wisdom brings joy to parents",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "Folly is better than wisdom",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Fathers prefer foolish sons",
-          "value": false,
-          "color": "yellow"
-        },
-        {"text": "Mothers prefer wise sons", "value": false, "color": "yellow"}
+        {"text": "A pencil", "value": false, "color": "yellow"},
+        {"text": "A plate", "value": false, "color": "yellow"},
+        {"text": "An egg", "value": true, "color": "yellow"},
+        {"text": "A vase", "value": false, "color": "yellow"}
       ]
     },
     {
-      "question": "As iron sharpens iron, so one person sharpens another.",
+      "question": "What does \"Bite the hand that feeds you\" mean?",
       "dialog": {
-        "title": "People can influence and improve each other",
-        "content":
-            "This riddle refers to Jesus Christ, who said, I am the way, the truth, and the life in the Bible."
+        "title": "Harming one's benefactor",
+        "content": "Biting a hand that provides food is unwise and ungrateful"
       },
       "options": [
-        {
-          "text": "People can influence and improve each other",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "Iron is sharper than other materials",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Sharpening tools is a waste of time",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Iron is not good for sharpening",
-          "value": false,
-          "color": "yellow"
-        }
-      ]
-    },
-    {
-      "question":
-          "I am the way, the truth, and the life; no one comes to the Father except through me. Who am I?",
-      "dialog": {
-        "title": "Jesus Christ",
-        "content":
-            "This riddle refers to Jesus Christ, who spoke of being the bread of life in the Bible."
-      },
-      "options": [
-        {"text": "Jesus Christ", "value": true, "color": "yellow"},
-        {"text": "Moses", "value": false, "color": "yellow"},
-        {"text": "David", "value": false, "color": "yellow"},
-        {"text": "Solomon", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "I am the bread of life; whoever comes to me shall not hunger, and whoever believes in me shall never thirst. Who am I?",
-      "dialog": {
-        "title": "Jesus Christ",
-        "content":
-            "This riddle refers to Jesus Christ, who declared himself as the resurrection and the life in the Bible."
-      },
-      "options": [
-        {"text": "Jesus Christ", "value": true, "color": "yellow"},
-        {"text": "Abraham", "value": false, "color": "yellow"},
-        {"text": "Noah", "value": false, "color": "yellow"},
-        {"text": "John the Baptist", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "I am the resurrection and the life. Whoever believes in me, though he die, yet shall he live, and everyone who lives and believes in me shall never die. Who am I?",
-      "dialog": {
-        "title": "Jesus Christ",
-        "content":
-            "This riddle refers to Jesus Christ, who identifies as the Alpha and the Omega in the Bible."
-      },
-      "options": [
-        {"text": "Jesus Christ", "value": true, "color": "yellow"},
-        {"text": "King David", "value": false, "color": "yellow"},
-        {"text": "Prophet Elijah", "value": false, "color": "yellow"},
-        {"text": "Apostle Paul", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "I am the Alpha and the Omega, the first and the last, the beginning and the end. Who am I",
-      "dialog": {
-        "title": "Jesus Christ",
-        "content":
-            "This riddle refers to Jesus Christ, who described himself as the Good Shepherd in the Bible."
-      },
-      "options": [
-        {"text": "Jesus Christ", "value": true, "color": "yellow"},
-        {"text": "Adam", "value": false, "color": "yellow"},
-        {"text": "Abraham", "value": false, "color": "yellow"},
-        {"text": "Moses", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "I am the Good Shepherd. The good shepherd lays down his life for the sheep. Who am I?",
-      "dialog": {
-        "title": "Jesus Christ",
-        "content":
-            "This proverb emphasizes the power of a kind response to defuse anger."
-      },
-      "options": [
-        {"text": "Jesus Christ", "value": true, "color": "yellow"},
-        {"text": "King Solomon", "value": false, "color": "yellow"},
-        {"text": "Prophet Isaiah", "value": false, "color": "yellow"},
-        {"text": "Apostle Peter", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "A soft answer turns away wrath, but a harsh word stirs up anger.",
-      "dialog": {
-        "title": "A gentle response calms anger",
-        "content":
-            "This proverb underscores the importance of a reverential fear of God as the foundation of wisdom."
-      },
-      "options": [
-        {
-          "text": "A gentle response calms anger",
-          "value": true,
-          "color": "yellow"
-        },
-        {"text": "Harsh words are better", "value": false, "color": "yellow"},
-        {"text": "Wrath is necessary", "value": false, "color": "yellow"},
-        {
-          "text": "Gentle answers cause anger",
-          "value": false,
-          "color": "yellow"
-        }
-      ]
-    },
-    {
-      "question":
-          "The fear of the LORD is the beginning of wisdom, and knowledge of the Holy One is understanding.",
-      "dialog": {
-        "title": "Fear of God is the foundation of wisdom",
-        "content":
-            "This proverb highlights the healing power of a cheerful and joyful heart."
-      },
-      "options": [
-        {
-          "text": "Fear of God is the foundation of wisdom",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "Knowledge is not important",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Holy Ones don't provide understanding",
-          "value": false,
-          "color": "yellow"
-        },
-        {"text": "Wisdom is overrated", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "A cheerful heart is good medicine, but a crushed spirit dries up the bones.",
-      "dialog": {
-        "title": "A joyful heart is healing",
-        "content":
-            "This proverb emphasizes the importance of honoring one's parents for a long and prosperous life."
-      },
-      "options": [
-        {"text": "A joyful heart is healing", "value": true, "color": "yellow"},
-        {
-          "text": "Medicine is not effective",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Crushed spirits are healthy",
-          "value": false,
-          "color": "yellow"
-        },
-        {"text": "Bones don't need moisture", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "Honor your father and mother, so that you may live long in the land the LORD your God is giving you.",
-      "dialog": {
-        "title": "Honoring parents leads to a long life",
-        "content":
-            "This proverb conveys the idea that genuine friends stand by you through all circumstances, while siblings are particularly supportive during tough times."
-      },
-      "options": [
-        {
-          "text": "Honoring parents leads to a long life",
-          "value": true,
-          "color": "yellow"
-        },
-        {
-          "text": "Parents don't deserve honor",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "God's land is not important",
-          "value": false,
-          "color": "yellow"
-        },
-        {"text": "Long life is not valuable", "value": false, "color": "yellow"}
+        {"text": "Reciprocating kindness", "value": false, "color": "yellow"},
+        {"text": "Animal training", "value": false, "color": "yellow"},
+        {"text": "Thanklessness", "value": false, "color": "yellow"},
+        {"text": "Harming one's benefactor", "value": true, "color": "yellow"}
       ]
     }
   ]
