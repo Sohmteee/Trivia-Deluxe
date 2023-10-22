@@ -5,7 +5,7 @@ Map<String, dynamic> fruitsAndVegetablesData = {
   "data": [
     {
       "question":
-          "Which fruit is yellow on the outside, creamy on the inside, and is often used to make guacamole?",
+          "Which fruit is used to make guacamole and is known for its creamy texture and green color?",
       "dialog": {
         "title": "Avocado",
         "content":
