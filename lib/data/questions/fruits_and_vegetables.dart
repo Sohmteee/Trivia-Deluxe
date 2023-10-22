@@ -364,8 +364,8 @@ Map<String, dynamic> fruitsAndVegetablesData = {
           "color": "yellow",
         },
         {
-          "text": "Eggplant",
-          "value": true,
+          "text": "Peach",
+          "value": false,
           "color": "yellow",
         },
         {
