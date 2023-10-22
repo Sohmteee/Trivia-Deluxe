@@ -11,7 +11,7 @@ Map<String, dynamic> historyData = {
         {"text": "1498", "value": false, "color": "yellow"},
         {"text": "1520", "value": false, "color": "yellow"},
         {"text": "1450", "value": false, "color": "yellow"},
-        {"text": "1492", "value": true, "color": "yellow"},
+        {"text": "1492", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -24,7 +24,7 @@ Map<String, dynamic> historyData = {
         {"text": "Thomas Jefferson", "value": false, "color": "yellow"},
         {"text": "Benjamin Franklin", "value": false, "color": "yellow"},
         {"text": "John Adams", "value": false, "color": "yellow"},
-        {"text": "George Washington", "value": true, "color": "yellow"},
+        {"text": "George Washington", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -37,7 +37,7 @@ Map<String, dynamic> historyData = {
         {"text": "Germany", "value": false, "color": "yellow"},
         {"text": "France", "value": false, "color": "yellow"},
         {"text": "United States", "value": false, "color": "yellow"},
-        {"text": "United Kingdom", "value": true, "color": "yellow"},
+        {"text": "United Kingdom", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -47,11 +47,11 @@ Map<String, dynamic> historyData = {
         {"text": "Transportation", "value": false, "color": "yellow"},
         {"text": "Agriculture", "value": false, "color": "yellow"},
         {"text": "Education", "value": false, "color": "yellow"},
-        {"text": "Defense", "value": true, "color": "yellow"},
+        {"text": "Defense", "value": true, "color": "yellow"}
       ]
     },
     {
-      "question": "Who wrote \"Romeo and Juliet\"?",
+      "question": "Who wrote Romeo and Juliet?",
       "dialog": {
         "title": "William Shakespeare",
         "content": "Famous playwright"
@@ -60,7 +60,7 @@ Map<String, dynamic> historyData = {
         {"text": "Jane Austen", "value": false, "color": "yellow"},
         {"text": "Charles Dickens", "value": false, "color": "yellow"},
         {"text": "Mark Twain", "value": false, "color": "yellow"},
-        {"text": "William Shakespeare", "value": true, "color": "yellow"},
+        {"text": "William Shakespeare", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -71,7 +71,7 @@ Map<String, dynamic> historyData = {
         {"text": "Santa Maria", "value": false, "color": "yellow"},
         {"text": "Nina", "value": false, "color": "yellow"},
         {"text": "Pinta", "value": false, "color": "yellow"},
-        {"text": "Mayflower", "value": true, "color": "yellow"},
+        {"text": "Mayflower", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -84,7 +84,7 @@ Map<String, dynamic> historyData = {
         {"text": "Ancient Greece", "value": false, "color": "yellow"},
         {"text": "Roman Empire", "value": false, "color": "yellow"},
         {"text": "Maya Civilization", "value": false, "color": "yellow"},
-        {"text": "Ancient Egypt", "value": true, "color": "yellow"},
+        {"text": "Ancient Egypt", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -98,11 +98,11 @@ Map<String, dynamic> historyData = {
         {"text": "Malcolm X", "value": false, "color": "yellow"},
         {"text": "Nelson Mandela", "value": false, "color": "yellow"},
         {"text": "Rosa Parks", "value": false, "color": "yellow"},
-        {"text": "Martin Luther King Jr.", "value": true, "color": "yellow"},
+        {"text": "Martin Luther King Jr.", "value": true, "color": "yellow"}
       ]
     },
     {
-      "question": "What event is known as the \"shot heard 'round the world\"?",
+      "question": "What event is known as the shot heard 'round the world?",
       "dialog": {
         "title": "The Battles of Lexington and Concord",
         "content": "Sparked the American Revolution"
@@ -115,7 +115,7 @@ Map<String, dynamic> historyData = {
           "text": "The Battles of Lexington and Concord",
           "value": true,
           "color": "yellow"
-        },
+        }
       ]
     },
     {
@@ -128,7 +128,7 @@ Map<String, dynamic> historyData = {
         {"text": "Pablo Picasso", "value": false, "color": "yellow"},
         {"text": "Vincent van Gogh", "value": false, "color": "yellow"},
         {"text": "Michelangelo", "value": false, "color": "yellow"},
-        {"text": "Leonardo da Vinci", "value": true, "color": "yellow"},
+        {"text": "Leonardo da Vinci", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -142,7 +142,7 @@ Map<String, dynamic> historyData = {
         {"text": "Ancient Rome", "value": false, "color": "yellow"},
         {"text": "Ancient Egypt", "value": false, "color": "yellow"},
         {"text": "Ancient China", "value": false, "color": "yellow"},
-        {"text": "Ancient Greece", "value": true, "color": "yellow"},
+        {"text": "Ancient Greece", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -153,7 +153,7 @@ Map<String, dynamic> historyData = {
         {"text": "HMS Victory", "value": false, "color": "yellow"},
         {"text": "HMS Enterprise", "value": false, "color": "yellow"},
         {"text": "HMS Discovery", "value": false, "color": "yellow"},
-        {"text": "HMS Beagle", "value": true, "color": "yellow"},
+        {"text": "HMS Beagle", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -163,7 +163,7 @@ Map<String, dynamic> historyData = {
         {"text": "France", "value": false, "color": "yellow"},
         {"text": "Spain", "value": false, "color": "yellow"},
         {"text": "England", "value": false, "color": "yellow"},
-        {"text": "Italy", "value": true, "color": "yellow"},
+        {"text": "Italy", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -174,7 +174,7 @@ Map<String, dynamic> historyData = {
         {"text": "Bessie Coleman", "value": false, "color": "yellow"},
         {"text": "Harriet Quimby", "value": false, "color": "yellow"},
         {"text": "Beryl Markham", "value": false, "color": "yellow"},
-        {"text": "Amelia Earhart", "value": true, "color": "yellow"},
+        {"text": "Amelia Earhart", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -185,7 +185,7 @@ Map<String, dynamic> historyData = {
         {"text": "Lusitania", "value": false, "color": "yellow"},
         {"text": "Britannic", "value": false, "color": "yellow"},
         {"text": "Queen Mary", "value": false, "color": "yellow"},
-        {"text": "Titanic", "value": true, "color": "yellow"},
+        {"text": "Titanic", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -207,7 +207,7 @@ Map<String, dynamic> historyData = {
           "color": "yellow"
         },
         {"text": "First Spacewalk", "value": false, "color": "yellow"},
-        {"text": "Apollo 11 Moon Landing", "value": true, "color": "yellow"},
+        {"text": "Apollo 11 Moon Landing", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -221,7 +221,7 @@ Map<String, dynamic> historyData = {
         {"text": "Jawaharlal Nehru", "value": false, "color": "yellow"},
         {"text": "Sardar Patel", "value": false, "color": "yellow"},
         {"text": "Subhas Chandra Bose", "value": false, "color": "yellow"},
-        {"text": "Mahatma Gandhi", "value": true, "color": "yellow"},
+        {"text": "Mahatma Gandhi", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -232,7 +232,7 @@ Map<String, dynamic> historyData = {
         {"text": "Athens", "value": false, "color": "yellow"},
         {"text": "Rome", "value": false, "color": "yellow"},
         {"text": "Jerusalem", "value": false, "color": "yellow"},
-        {"text": "Babylon", "value": true, "color": "yellow"},
+        {"text": "Babylon", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -243,7 +243,7 @@ Map<String, dynamic> historyData = {
         {"text": "Iron Curtain", "value": false, "color": "yellow"},
         {"text": "Great Wall of China", "value": false, "color": "yellow"},
         {"text": "Maginot Line", "value": false, "color": "yellow"},
-        {"text": "Berlin Wall", "value": true, "color": "yellow"},
+        {"text": "Berlin Wall", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -254,7 +254,7 @@ Map<String, dynamic> historyData = {
         {"text": "Captain Kidd", "value": false, "color": "yellow"},
         {"text": "Calico Jack", "value": false, "color": "yellow"},
         {"text": "Captain Hook", "value": false, "color": "yellow"},
-        {"text": "Blackbeard", "value": true, "color": "yellow"},
+        {"text": "Blackbeard", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -269,7 +269,7 @@ Map<String, dynamic> historyData = {
         {"text": "Mars landing", "value": false, "color": "yellow"},
         {"text": "Venus landing", "value": false, "color": "yellow"},
         {"text": "Pluto landing", "value": false, "color": "yellow"},
-        {"text": "Moon landing", "value": true, "color": "yellow"},
+        {"text": "Moon landing", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -284,7 +284,7 @@ Map<String, dynamic> historyData = {
         {"text": "Greeks", "value": false, "color": "yellow"},
         {"text": "Egyptians", "value": false, "color": "yellow"},
         {"text": "Persians", "value": false, "color": "yellow"},
-        {"text": "Romans", "value": true, "color": "yellow"},
+        {"text": "Romans", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -303,7 +303,7 @@ Map<String, dynamic> historyData = {
           "color": "yellow"
         },
         {"text": "King John", "value": false, "color": "yellow"},
-        {"text": "King Arthur", "value": true, "color": "yellow"},
+        {"text": "King Arthur", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -318,7 +318,7 @@ Map<String, dynamic> historyData = {
         {"text": "Christopher Columbus", "value": false, "color": "yellow"},
         {"text": "Ferdinand Magellan", "value": false, "color": "yellow"},
         {"text": "Marco Polo", "value": false, "color": "yellow"},
-        {"text": "Vasco da Gama", "value": true, "color": "yellow"},
+        {"text": "Vasco da Gama", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -333,7 +333,7 @@ Map<String, dynamic> historyData = {
         {"text": "Aztecs", "value": false, "color": "yellow"},
         {"text": "Mayans", "value": false, "color": "yellow"},
         {"text": "Incas", "value": false, "color": "yellow"},
-        {"text": "Rapa Nui (Easter Island)", "value": true, "color": "yellow"},
+        {"text": "Rapa Nui (Easter Island)", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -348,7 +348,7 @@ Map<String, dynamic> historyData = {
         {"text": "Joseph Stalin", "value": false, "color": "yellow"},
         {"text": "Vladimir Putin", "value": false, "color": "yellow"},
         {"text": "Leon Trotsky", "value": false, "color": "yellow"},
-        {"text": "Nikita Khrushchev", "value": true, "color": "yellow"},
+        {"text": "Nikita Khrushchev", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -363,7 +363,7 @@ Map<String, dynamic> historyData = {
         {"text": "Inquisition", "value": false, "color": "yellow"},
         {"text": "Revolution of 1492", "value": false, "color": "yellow"},
         {"text": "Treaty of Tordesillas", "value": false, "color": "yellow"},
-        {"text": "Reconquista", "value": true, "color": "yellow"},
+        {"text": "Reconquista", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -378,7 +378,7 @@ Map<String, dynamic> historyData = {
         {"text": "Nefertiti", "value": false, "color": "yellow"},
         {"text": "Hatshepsut", "value": false, "color": "yellow"},
         {"text": "Joan of Arc", "value": false, "color": "yellow"},
-        {"text": "Cleopatra", "value": true, "color": "yellow"},
+        {"text": "Cleopatra", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -393,7 +393,7 @@ Map<String, dynamic> historyData = {
         {"text": "Revolutionary War", "value": false, "color": "yellow"},
         {"text": "War of 1812", "value": false, "color": "yellow"},
         {"text": "World War I", "value": false, "color": "yellow"},
-        {"text": "Civil War", "value": true, "color": "yellow"},
+        {"text": "Civil War", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -408,7 +408,7 @@ Map<String, dynamic> historyData = {
         {"text": "Elie Wiesel", "value": false, "color": "yellow"},
         {"text": "Primo Levi", "value": false, "color": "yellow"},
         {"text": "Oskar Schindler", "value": false, "color": "yellow"},
-        {"text": "Anne Frank", "value": true, "color": "yellow"},
+        {"text": "Anne Frank", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -423,7 +423,7 @@ Map<String, dynamic> historyData = {
         {"text": "Middle Ages", "value": false, "color": "yellow"},
         {"text": "Enlightenment", "value": false, "color": "yellow"},
         {"text": "Industrial Revolution", "value": false, "color": "yellow"},
-        {"text": "Renaissance", "value": true, "color": "yellow"},
+        {"text": "Renaissance", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -438,7 +438,7 @@ Map<String, dynamic> historyData = {
         {"text": "Laozi", "value": false, "color": "yellow"},
         {"text": "Sun Tzu", "value": false, "color": "yellow"},
         {"text": "Buddha", "value": false, "color": "yellow"},
-        {"text": "Confucius", "value": true, "color": "yellow"},
+        {"text": "Confucius", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -453,7 +453,7 @@ Map<String, dynamic> historyData = {
         {"text": "Albert Einstein", "value": false, "color": "yellow"},
         {"text": "Galileo Galilei", "value": false, "color": "yellow"},
         {"text": "Charles Darwin", "value": false, "color": "yellow"},
-        {"text": "Isaac Newton", "value": true, "color": "yellow"},
+        {"text": "Isaac Newton", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -468,7 +468,7 @@ Map<String, dynamic> historyData = {
         {"text": "Vikings", "value": false, "color": "yellow"},
         {"text": "Celts", "value": false, "color": "yellow"},
         {"text": "Anglo-Saxons", "value": false, "color": "yellow"},
-        {"text": "Druids", "value": true, "color": "yellow"},
+        {"text": "Druids", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -483,7 +483,7 @@ Map<String, dynamic> historyData = {
         {"text": "Lexington and Concord", "value": false, "color": "yellow"},
         {"text": "Battle of Bunker Hill", "value": false, "color": "yellow"},
         {"text": "Stamp Act Congress", "value": false, "color": "yellow"},
-        {"text": "Boston Tea Party", "value": true, "color": "yellow"},
+        {"text": "Boston Tea Party", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -498,7 +498,7 @@ Map<String, dynamic> historyData = {
         {"text": "Leonardo da Vinci", "value": false, "color": "yellow"},
         {"text": "Galileo Galilei", "value": false, "color": "yellow"},
         {"text": "Marco Polo", "value": false, "color": "yellow"},
-        {"text": "Johannes Gutenberg", "value": true, "color": "yellow"},
+        {"text": "Johannes Gutenberg", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -513,7 +513,7 @@ Map<String, dynamic> historyData = {
         {"text": "Habeas Corpus Act", "value": false, "color": "yellow"},
         {"text": "Bill of Rights", "value": false, "color": "yellow"},
         {"text": "Petition of Right", "value": false, "color": "yellow"},
-        {"text": "Magna Carta", "value": true, "color": "yellow"},
+        {"text": "Magna Carta", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -528,7 +528,7 @@ Map<String, dynamic> historyData = {
         {"text": "Mayans", "value": false, "color": "yellow"},
         {"text": "Incas", "value": false, "color": "yellow"},
         {"text": "Sumerians", "value": false, "color": "yellow"},
-        {"text": "Ancient Egyptians", "value": true, "color": "yellow"},
+        {"text": "Ancient Egyptians", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -543,7 +543,7 @@ Map<String, dynamic> historyData = {
         {"text": "Mary Seacole", "value": false, "color": "yellow"},
         {"text": "Clara Barton", "value": false, "color": "yellow"},
         {"text": "Elizabeth Blackwell", "value": false, "color": "yellow"},
-        {"text": "Florence Nightingale", "value": true, "color": "yellow"},
+        {"text": "Florence Nightingale", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -562,22 +562,22 @@ Map<String, dynamic> historyData = {
           "text": "First Voyage to the Americas",
           "value": true,
           "color": "yellow"
-        },
+        }
       ]
     },
     {
       "question":
-          "Who is known for writing classic novels like \"Pride and Prejudice\" and \"Sense and Sensibility\" in the 19th century?",
+          "Who is known for writing classic novels like Pride and Prejudice and Sense and Sensibility in the 19th century?",
       "dialog": {
         "title": "Jane Austen",
         "content":
-            "Jane Austen is a renowned author known for her classic novels, including \"Pride and Prejudice.\""
+            "Jane Austen is a renowned author known for her classic novels, including Pride and Prejudice."
       },
       "options": [
         {"text": "Charles Dickens", "value": false, "color": "yellow"},
         {"text": "Mark Twain", "value": false, "color": "yellow"},
         {"text": "Emily Bront\u00c3\u00ab", "value": false, "color": "yellow"},
-        {"text": "Jane Austen", "value": true, "color": "yellow"},
+        {"text": "Jane Austen", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -592,7 +592,7 @@ Map<String, dynamic> historyData = {
         {"text": "Hadrian's Wall", "value": false, "color": "yellow"},
         {"text": "Berlin Wall", "value": false, "color": "yellow"},
         {"text": "Antonine Wall", "value": false, "color": "yellow"},
-        {"text": "Great Wall of China", "value": true, "color": "yellow"},
+        {"text": "Great Wall of China", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -607,7 +607,7 @@ Map<String, dynamic> historyData = {
         {"text": "King Arthur", "value": false, "color": "yellow"},
         {"text": "William Tell", "value": false, "color": "yellow"},
         {"text": "Blackbeard", "value": false, "color": "yellow"},
-        {"text": "Robin Hood", "value": true, "color": "yellow"},
+        {"text": "Robin Hood", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -622,7 +622,7 @@ Map<String, dynamic> historyData = {
         {"text": "1941", "value": false, "color": "yellow"},
         {"text": "1944", "value": false, "color": "yellow"},
         {"text": "1936", "value": false, "color": "yellow"},
-        {"text": "1939", "value": true, "color": "yellow"},
+        {"text": "1939", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -637,7 +637,7 @@ Map<String, dynamic> historyData = {
         {"text": "Great Wall of China", "value": false, "color": "yellow"},
         {"text": "Berlin Wall", "value": false, "color": "yellow"},
         {"text": "Antonine Wall", "value": false, "color": "yellow"},
-        {"text": "Hadrian's Wall", "value": true, "color": "yellow"},
+        {"text": "Hadrian's Wall", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -652,7 +652,7 @@ Map<String, dynamic> historyData = {
         {"text": "Herculaneum", "value": false, "color": "yellow"},
         {"text": "Athens", "value": false, "color": "yellow"},
         {"text": "Rome", "value": false, "color": "yellow"},
-        {"text": "Pompeii", "value": true, "color": "yellow"},
+        {"text": "Pompeii", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -667,7 +667,7 @@ Map<String, dynamic> historyData = {
         {"text": "Ferdinand Magellan", "value": false, "color": "yellow"},
         {"text": "Marco Polo", "value": false, "color": "yellow"},
         {"text": "Vasco da Gama", "value": false, "color": "yellow"},
-        {"text": "Christopher Columbus", "value": true, "color": "yellow"},
+        {"text": "Christopher Columbus", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -686,7 +686,7 @@ Map<String, dynamic> historyData = {
           "text": "Declaration of Independence",
           "value": true,
           "color": "yellow"
-        },
+        }
       ]
     },
     {
@@ -701,7 +701,7 @@ Map<String, dynamic> historyData = {
         {"text": "Maya", "value": false, "color": "yellow"},
         {"text": "Aztec", "value": false, "color": "yellow"},
         {"text": "Moche", "value": false, "color": "yellow"},
-        {"text": "Inca", "value": true, "color": "yellow"},
+        {"text": "Inca", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -715,7 +715,7 @@ Map<String, dynamic> historyData = {
         {"text": "1905", "value": false, "color": "yellow"},
         {"text": "1917", "value": false, "color": "yellow"},
         {"text": "1923", "value": false, "color": "yellow"},
-        {"text": "1914", "value": true, "color": "yellow"},
+        {"text": "1914", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -730,7 +730,7 @@ Map<String, dynamic> historyData = {
         {"text": "Isaac Newton", "value": false, "color": "yellow"},
         {"text": "Marie Curie", "value": false, "color": "yellow"},
         {"text": "Galileo Galilei", "value": false, "color": "yellow"},
-        {"text": "Albert Einstein", "value": true, "color": "yellow"},
+        {"text": "Albert Einstein", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -745,7 +745,7 @@ Map<String, dynamic> historyData = {
         {"text": "Christopher Columbus", "value": false, "color": "yellow"},
         {"text": "Marco Polo", "value": false, "color": "yellow"},
         {"text": "Vasco da Gama", "value": false, "color": "yellow"},
-        {"text": "Ferdinand Magellan", "value": true, "color": "yellow"},
+        {"text": "Ferdinand Magellan", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -760,7 +760,7 @@ Map<String, dynamic> historyData = {
         {"text": "Egyptians", "value": false, "color": "yellow"},
         {"text": "Persians", "value": false, "color": "yellow"},
         {"text": "Assyrians", "value": false, "color": "yellow"},
-        {"text": "Nabataeans", "value": true, "color": "yellow"},
+        {"text": "Nabataeans", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -774,7 +774,7 @@ Map<String, dynamic> historyData = {
         {"text": "Thomas Edison", "value": false, "color": "yellow"},
         {"text": "Nikola Tesla", "value": false, "color": "yellow"},
         {"text": "Samuel Morse", "value": false, "color": "yellow"},
-        {"text": "Alexander Graham Bell", "value": true, "color": "yellow"},
+        {"text": "Alexander Graham Bell", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -789,7 +789,7 @@ Map<String, dynamic> historyData = {
         {"text": "Taj Mahal", "value": false, "color": "yellow"},
         {"text": "Petra", "value": false, "color": "yellow"},
         {"text": "Machu Picchu", "value": false, "color": "yellow"},
-        {"text": "Great Pyramid of Giza", "value": true, "color": "yellow"},
+        {"text": "Great Pyramid of Giza", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -812,7 +812,7 @@ Map<String, dynamic> historyData = {
           "value": false,
           "color": "yellow"
         },
-        {"text": "Colossus of Rhodes", "value": true, "color": "yellow"},
+        {"text": "Colossus of Rhodes", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -827,22 +827,22 @@ Map<String, dynamic> historyData = {
         {"text": "Moche", "value": false, "color": "yellow"},
         {"text": "Chimu", "value": false, "color": "yellow"},
         {"text": "Paracas", "value": false, "color": "yellow"},
-        {"text": "Nazca", "value": true, "color": "yellow"},
+        {"text": "Nazca", "value": true, "color": "yellow"}
       ]
     },
     {
       "question":
-          "Who was the famous author of \"Alice's Adventures in Wonderland\" and \"Through the Looking-Glass\"?",
+          "Who was the famous author of Alice's Adventures in Wonderland and Through the Looking-Glass?",
       "dialog": {
         "title": "Lewis Carroll",
         "content":
-            "Lewis Carroll is known for writing \"Alice's Adventures in Wonderland\" and \"Through the Looking-Glass.\""
+            "Lewis Carroll is known for writing Alice's Adventures in Wonderland and Through the Looking-Glass."
       },
       "options": [
         {"text": "J.R.R. Tolkien", "value": false, "color": "yellow"},
         {"text": "C.S. Lewis", "value": false, "color": "yellow"},
         {"text": "H.G. Wells", "value": false, "color": "yellow"},
-        {"text": "Lewis Carroll", "value": true, "color": "yellow"},
+        {"text": "Lewis Carroll", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -857,7 +857,7 @@ Map<String, dynamic> historyData = {
         {"text": "Stonehenge", "value": false, "color": "yellow"},
         {"text": "Moai", "value": false, "color": "yellow"},
         {"text": "Dolmens", "value": false, "color": "yellow"},
-        {"text": "Standing Stones", "value": true, "color": "yellow"},
+        {"text": "Standing Stones", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -872,7 +872,7 @@ Map<String, dynamic> historyData = {
         {"text": "Galileo Galilei", "value": false, "color": "yellow"},
         {"text": "Nicolaus Copernicus", "value": false, "color": "yellow"},
         {"text": "Tycho Brahe", "value": false, "color": "yellow"},
-        {"text": "Johannes Kepler", "value": true, "color": "yellow"},
+        {"text": "Johannes Kepler", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -887,7 +887,7 @@ Map<String, dynamic> historyData = {
         {"text": "Fort", "value": false, "color": "yellow"},
         {"text": "Moat", "value": false, "color": "yellow"},
         {"text": "Keep", "value": false, "color": "yellow"},
-        {"text": "Castle", "value": true, "color": "yellow"},
+        {"text": "Castle", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -902,22 +902,21 @@ Map<String, dynamic> historyData = {
         {"text": "Babylonians", "value": false, "color": "yellow"},
         {"text": "Assyrians", "value": false, "color": "yellow"},
         {"text": "Hittites", "value": false, "color": "yellow"},
-        {"text": "Sumerians", "value": true, "color": "yellow"},
+        {"text": "Sumerians", "value": true, "color": "yellow"}
       ]
     },
     {
       "question":
-          "Who is the famous author known for writing the classic novel \"1984\" and \"Animal Farm\" in the mid-20th century?",
+          "Who is the famous author known for writing the classic novel 1984 and Animal Farm in the mid-20th century?",
       "dialog": {
         "title": "George Orwell",
-        "content":
-            "George Orwell is known for writing \"1984\" and \"Animal Farm.\""
+        "content": "George Orwell is known for writing 1984 and Animal Farm."
       },
       "options": [
         {"text": "Aldous Huxley", "value": false, "color": "yellow"},
         {"text": "Ray Bradbury", "value": false, "color": "yellow"},
         {"text": "H.G. Wells", "value": false, "color": "yellow"},
-        {"text": "George Orwell", "value": true, "color": "yellow"},
+        {"text": "George Orwell", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -932,7 +931,7 @@ Map<String, dynamic> historyData = {
         {"text": "Tigris River", "value": false, "color": "yellow"},
         {"text": "Euphrates River", "value": false, "color": "yellow"},
         {"text": "Amazon River", "value": false, "color": "yellow"},
-        {"text": "Nile River", "value": true, "color": "yellow"},
+        {"text": "Nile River", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -947,21 +946,21 @@ Map<String, dynamic> historyData = {
         {"text": "Sparta", "value": false, "color": "yellow"},
         {"text": "Thebes", "value": false, "color": "yellow"},
         {"text": "Corinth", "value": false, "color": "yellow"},
-        {"text": "Athens", "value": true, "color": "yellow"},
+        {"text": "Athens", "value": true, "color": "yellow"}
       ]
     },
     {
       "question":
-          "Who is the famous author of the novel \"Moby-Dick\" in the 19th century?",
+          "Who is the famous author of the novel Moby-Dick in the 19th century?",
       "dialog": {
         "title": "Herman Melville",
-        "content": "Herman Melville is the author of the novel \"Moby-Dick.\""
+        "content": "Herman Melville is the author of the novel Moby-Dick."
       },
       "options": [
         {"text": "Nathaniel Hawthorne", "value": false, "color": "yellow"},
         {"text": "Mark Twain", "value": false, "color": "yellow"},
         {"text": "Emily Dickinson", "value": false, "color": "yellow"},
-        {"text": "Herman Melville", "value": true, "color": "yellow"},
+        {"text": "Herman Melville", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -976,22 +975,22 @@ Map<String, dynamic> historyData = {
         {"text": "Tiki", "value": false, "color": "yellow"},
         {"text": "Totem", "value": false, "color": "yellow"},
         {"text": "Obelisk", "value": false, "color": "yellow"},
-        {"text": "Moai", "value": true, "color": "yellow"},
+        {"text": "Moai", "value": true, "color": "yellow"}
       ]
     },
     {
       "question":
-          "Who is the famous artist known for creating \"The Birth of Venus\" and \"Primavera\" during the Italian Renaissance?",
+          "Who is the famous artist known for creating The Birth of Venus and Primavera during the Italian Renaissance?",
       "dialog": {
         "title": "Sandro Botticelli",
         "content":
-            "Sandro Botticelli is known for creating \"The Birth of Venus\" and \"Primavera\" during the Italian Renaissance."
+            "Sandro Botticelli is known for creating The Birth of Venus and Primavera during the Italian Renaissance."
       },
       "options": [
         {"text": "Raphael", "value": false, "color": "yellow"},
         {"text": "Michelangelo", "value": false, "color": "yellow"},
         {"text": "Leonardo da Vinci", "value": false, "color": "yellow"},
-        {"text": "Sandro Botticelli", "value": true, "color": "yellow"},
+        {"text": "Sandro Botticelli", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1006,7 +1005,7 @@ Map<String, dynamic> historyData = {
         {"text": "Spice Route", "value": false, "color": "yellow"},
         {"text": "Trans-Saharan Trade", "value": false, "color": "yellow"},
         {"text": "Incense Trail", "value": false, "color": "yellow"},
-        {"text": "Silk Road", "value": true, "color": "yellow"},
+        {"text": "Silk Road", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1021,7 +1020,7 @@ Map<String, dynamic> historyData = {
         {"text": "Desmond Tutu", "value": false, "color": "yellow"},
         {"text": "F.W. de Klerk", "value": false, "color": "yellow"},
         {"text": "Thabo Mbeki", "value": false, "color": "yellow"},
-        {"text": "Nelson Mandela", "value": true, "color": "yellow"},
+        {"text": "Nelson Mandela", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1036,7 +1035,7 @@ Map<String, dynamic> historyData = {
         {"text": "Aztec", "value": false, "color": "yellow"},
         {"text": "Inca", "value": false, "color": "yellow"},
         {"text": "Maya", "value": false, "color": "yellow"},
-        {"text": "Olmec", "value": true, "color": "yellow"},
+        {"text": "Olmec", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1051,22 +1050,22 @@ Map<String, dynamic> historyData = {
         {"text": "Mayans", "value": false, "color": "yellow"},
         {"text": "Aztecs", "value": false, "color": "yellow"},
         {"text": "Olmecs", "value": false, "color": "yellow"},
-        {"text": "Incas", "value": true, "color": "yellow"},
+        {"text": "Incas", "value": true, "color": "yellow"}
       ]
     },
     {
       "question":
-          "Who is the famous artist known for painting \"The Persistence of Memory\" with melting clocks and surreal imagery?",
+          "Who is the famous artist known for painting The Persistence of Memory with melting clocks and surreal imagery?",
       "dialog": {
         "title": "Salvador Dali",
         "content":
-            "Salvador Dali is known for painting \"The Persistence of Memory\" with melting clocks and surreal imagery."
+            "Salvador Dali is known for painting The Persistence of Memory with melting clocks and surreal imagery."
       },
       "options": [
         {"text": "Pablo Picasso", "value": false, "color": "yellow"},
         {"text": "Vincent van Gogh", "value": false, "color": "yellow"},
         {"text": "Jackson Pollock", "value": false, "color": "yellow"},
-        {"text": "Salvador Dali", "value": true, "color": "yellow"},
+        {"text": "Salvador Dali", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1081,7 +1080,7 @@ Map<String, dynamic> historyData = {
         {"text": "Athens", "value": false, "color": "yellow"},
         {"text": "Sparta", "value": false, "color": "yellow"},
         {"text": "Thebes", "value": false, "color": "yellow"},
-        {"text": "Delphi", "value": true, "color": "yellow"},
+        {"text": "Delphi", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1096,7 +1095,7 @@ Map<String, dynamic> historyData = {
         {"text": "Inca", "value": false, "color": "yellow"},
         {"text": "Aztec", "value": false, "color": "yellow"},
         {"text": "Olmec", "value": false, "color": "yellow"},
-        {"text": "Maya", "value": true, "color": "yellow"},
+        {"text": "Maya", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1111,7 +1110,7 @@ Map<String, dynamic> historyData = {
         {"text": "Inca", "value": false, "color": "yellow"},
         {"text": "Maya", "value": false, "color": "yellow"},
         {"text": "Olmec", "value": false, "color": "yellow"},
-        {"text": "Aztec", "value": true, "color": "yellow"},
+        {"text": "Aztec", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1126,16 +1125,16 @@ Map<String, dynamic> historyData = {
         {"text": "Greeks", "value": false, "color": "yellow"},
         {"text": "Egyptians", "value": false, "color": "yellow"},
         {"text": "Romans", "value": false, "color": "yellow"},
-        {"text": "Persians", "value": true, "color": "yellow"},
+        {"text": "Persians", "value": true, "color": "yellow"}
       ]
     },
     {
       "question":
-          "Who is the famous author known for writing \"Wuthering Heights\" in the 19th century, a classic of English literature?",
+          "Who is the famous author known for writing Wuthering Heights in the 19th century, a classic of English literature?",
       "dialog": {
         "title": "Emily Bront\u00c3\u00ab",
         "content":
-            "Emily Bront\u00c3\u00ab is known for writing \"Wuthering Heights,\" a classic of English literature in the 19th century."
+            "Emily Bront\u00c3\u00ab is known for writing Wuthering Heights, a classic of English literature in the 19th century."
       },
       "options": [
         {
@@ -1145,7 +1144,7 @@ Map<String, dynamic> historyData = {
         },
         {"text": "Jane Austen", "value": false, "color": "yellow"},
         {"text": "Louisa May Alcott", "value": false, "color": "yellow"},
-        {"text": "Emily Bront\u00c3\u00ab", "value": true, "color": "yellow"},
+        {"text": "Emily Bront\u00c3\u00ab", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1160,7 +1159,7 @@ Map<String, dynamic> historyData = {
         {"text": "Mesopotamians", "value": false, "color": "yellow"},
         {"text": "Egyptians", "value": false, "color": "yellow"},
         {"text": "Mayans", "value": false, "color": "yellow"},
-        {"text": "Indus Valley", "value": true, "color": "yellow"},
+        {"text": "Indus Valley", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1175,16 +1174,16 @@ Map<String, dynamic> historyData = {
         {"text": "Han Dynasty", "value": false, "color": "yellow"},
         {"text": "Tang Dynasty", "value": false, "color": "yellow"},
         {"text": "Ming Dynasty", "value": false, "color": "yellow"},
-        {"text": "Qin Dynasty", "value": true, "color": "yellow"},
+        {"text": "Qin Dynasty", "value": true, "color": "yellow"}
       ]
     },
     {
       "question":
-          "Who is the famous author known for writing the \"Little Women\" novel in the 19th century?",
+          "Who is the famous author known for writing the Little Women novel in the 19th century?",
       "dialog": {
         "title": "Louisa May Alcott",
         "content":
-            "Louisa May Alcott is known for writing the \"Little Women\" novel in the 19th century."
+            "Louisa May Alcott is known for writing the Little Women novel in the 19th century."
       },
       "options": [
         {"text": "Jane Austen", "value": false, "color": "yellow"},
@@ -1194,7 +1193,7 @@ Map<String, dynamic> historyData = {
           "color": "yellow"
         },
         {"text": "Emily Bront\u00c3\u00ab", "value": false, "color": "yellow"},
-        {"text": "Louisa May Alcott", "value": true, "color": "yellow"},
+        {"text": "Louisa May Alcott", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1209,7 +1208,7 @@ Map<String, dynamic> historyData = {
         {"text": "Silk Road", "value": false, "color": "yellow"},
         {"text": "Great Wall", "value": false, "color": "yellow"},
         {"text": "Forbidden City", "value": false, "color": "yellow"},
-        {"text": "Terracotta Army", "value": true, "color": "yellow"},
+        {"text": "Terracotta Army", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1224,7 +1223,7 @@ Map<String, dynamic> historyData = {
         {"text": "Attila the Hun", "value": false, "color": "yellow"},
         {"text": "Alexander the Great", "value": false, "color": "yellow"},
         {"text": "Julius Caesar", "value": false, "color": "yellow"},
-        {"text": "Genghis Khan", "value": true, "color": "yellow"},
+        {"text": "Genghis Khan", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1239,57 +1238,56 @@ Map<String, dynamic> historyData = {
         {"text": "Sumerians", "value": false, "color": "yellow"},
         {"text": "Hittites", "value": false, "color": "yellow"},
         {"text": "Persians", "value": false, "color": "yellow"},
-        {"text": "Phoenicians", "value": true, "color": "yellow"},
+        {"text": "Phoenicians", "value": true, "color": "yellow"}
       ]
     },
     {
       "question":
-          "Who is the famous author known for his science fiction works, including \"War of the Worlds\" and \"The Time Machine\"?",
+          "Who is the famous author known for his science fiction works, including War of the Worlds and The Time Machine?",
       "dialog": {
         "title": "H.G. Wells",
         "content":
-            "H.G. Wells is known for his science fiction works, including \"War of the Worlds\" and \"The Time Machine.\""
+            "H.G. Wells is known for his science fiction works, including War of the Worlds and The Time Machine."
       },
       "options": [
         {"text": "Jules Verne", "value": false, "color": "yellow"},
         {"text": "Arthur C. Clarke", "value": false, "color": "yellow"},
         {"text": "Isaac Asimov", "value": false, "color": "yellow"},
-        {"text": "H.G. Wells", "value": true, "color": "yellow"},
+        {"text": "H.G. Wells", "value": true, "color": "yellow"}
       ]
     },
     {
       "question":
-          "Who is the famous musician and composer known for works like \"F\u00c3\u00bcr Elise\" and \"Symphony No. 9\" in the 18th century?",
+          "Who is the famous musician and composer known for works like F\u00c3\u00bcr Elise and Symphony No. 9 in the 18th century?",
       "dialog": {
         "title": "Ludwig van Beethoven",
         "content":
-            "Ludwig van Beethoven is known for works like \"F\u00c3\u00bcr Elise\" and \"Symphony No. 9.\""
+            "Ludwig van Beethoven is known for works like F\u00c3\u00bcr Elise and Symphony No. 9."
       },
       "options": [
         {"text": "Wolfgang Amadeus Mozart", "value": false, "color": "yellow"},
         {"text": "Johann Sebastian Bach", "value": false, "color": "yellow"},
         {"text": "Franz Schubert", "value": false, "color": "yellow"},
-        {"text": "Ludwig van Beethoven", "value": true, "color": "yellow"},
+        {"text": "Ludwig van Beethoven", "value": true, "color": "yellow"}
       ]
     },
     {
       "question":
-          "Who is the famous pirate known for his treasure buried on Treasure Island in the novel \"Treasure Island\" by Robert Louis Stevenson?",
+          "Who is the famous pirate known for his treasure buried on Treasure Island in the novel Treasure Island by Robert Louis Stevenson?",
       "dialog": {
         "title": "Long John Silver",
-        "content":
-            "Long John Silver is the famous pirate in \"Treasure Island.\""
+        "content": "Long John Silver is the famous pirate in Treasure Island."
       },
       "options": [
         {"text": "Blackbeard", "value": false, "color": "yellow"},
         {"text": "Captain Hook", "value": false, "color": "yellow"},
         {"text": "Davy Jones", "value": false, "color": "yellow"},
-        {"text": "Long John Silver", "value": true, "color": "yellow"},
+        {"text": "Long John Silver", "value": true, "color": "yellow"}
       ]
     },
     {
       "question":
-          "What is the term for the ancient civilization known for its city of Troy and the Trojan War, as described in Homer's \"Iliad\"?",
+          "What is the term for the ancient civilization known for its city of Troy and the Trojan War, as described in Homer's Iliad?",
       "dialog": {
         "title": "Trojans",
         "content":
@@ -1299,7 +1297,7 @@ Map<String, dynamic> historyData = {
         {"text": "Greeks", "value": false, "color": "yellow"},
         {"text": "Persians", "value": false, "color": "yellow"},
         {"text": "Hittites", "value": false, "color": "yellow"},
-        {"text": "Trojans", "value": true, "color": "yellow"},
+        {"text": "Trojans", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1314,12 +1312,12 @@ Map<String, dynamic> historyData = {
         {"text": "Sojourner Truth", "value": false, "color": "yellow"},
         {"text": "Frederick Douglass", "value": false, "color": "yellow"},
         {"text": "John Brown", "value": false, "color": "yellow"},
-        {"text": "Harriet Tubman", "value": true, "color": "yellow"},
+        {"text": "Harriet Tubman", "value": true, "color": "yellow"}
       ]
     },
     {
       "question":
-          "Who is the famous American poet known for her works like \"The Raven\" and \"Annabel Lee\" in the 19th century?",
+          "Who is the famous American poet known for her works like The Raven and Annabel Lee in the 19th century?",
       "dialog": {
         "title": "Edgar Allan Poe",
         "content": "Edgar Allan Poe is known for these famous poems."
@@ -1328,7 +1326,7 @@ Map<String, dynamic> historyData = {
         {"text": "Robert Frost", "value": false, "color": "yellow"},
         {"text": "Emily Dickinson", "value": false, "color": "yellow"},
         {"text": "Walt Whitman", "value": false, "color": "yellow"},
-        {"text": "Edgar Allan Poe", "value": true, "color": "yellow"},
+        {"text": "Edgar Allan Poe", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1342,12 +1340,12 @@ Map<String, dynamic> historyData = {
         {"text": "Julius Caesar", "value": false, "color": "yellow"},
         {"text": "Genghis Khan", "value": false, "color": "yellow"},
         {"text": "Attila the Hun", "value": false, "color": "yellow"},
-        {"text": "Alexander the Great", "value": true, "color": "yellow"},
+        {"text": "Alexander the Great", "value": true, "color": "yellow"}
       ]
     },
     {
       "question":
-          "What is the term for the ancient civilization known for its use of chariots, its contributions to early writing, and its epic poem \"The Mahabharata\"?",
+          "What is the term for the ancient civilization known for its use of chariots, its contributions to early writing, and its epic poem The Mahabharata?",
       "dialog": {
         "title": "Ancient India",
         "content": "Ancient India is known for these contributions."
@@ -1356,12 +1354,12 @@ Map<String, dynamic> historyData = {
         {"text": "Ancient China", "value": false, "color": "yellow"},
         {"text": "Ancient Mesopotamia", "value": false, "color": "yellow"},
         {"text": "Ancient Persia", "value": false, "color": "yellow"},
-        {"text": "Ancient India", "value": true, "color": "yellow"},
+        {"text": "Ancient India", "value": true, "color": "yellow"}
       ]
     },
     {
       "question":
-          "Who is the famous Danish author known for his fairy tales like \"The Little Mermaid\" and \"The Ugly Duckling\" in the 19th century?",
+          "Who is the famous Danish author known for his fairy tales like The Little Mermaid and The Ugly Duckling in the 19th century?",
       "dialog": {
         "title": "Hans Christian Andersen",
         "content":
@@ -1371,7 +1369,7 @@ Map<String, dynamic> historyData = {
         {"text": "Leo Tolstoy", "value": false, "color": "yellow"},
         {"text": "Charles Dickens", "value": false, "color": "yellow"},
         {"text": "Fyodor Dostoevsky", "value": false, "color": "yellow"},
-        {"text": "Hans Christian Andersen", "value": true, "color": "yellow"},
+        {"text": "Hans Christian Andersen", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1386,12 +1384,12 @@ Map<String, dynamic> historyData = {
         {"text": "Carl Jung", "value": false, "color": "yellow"},
         {"text": "B.F. Skinner", "value": false, "color": "yellow"},
         {"text": "Ivan Pavlov", "value": false, "color": "yellow"},
-        {"text": "Sigmund Freud", "value": true, "color": "yellow"},
+        {"text": "Sigmund Freud", "value": true, "color": "yellow"}
       ]
     },
     {
       "question":
-          "Who is the famous American founding father and author of the \"Poor Richard's Almanack\" known for his experiments with electricity and the kite-flying story?",
+          "Who is the famous American founding father and author of the Poor Richard's Almanack known for his experiments with electricity and the kite-flying story?",
       "dialog": {
         "title": "Benjamin Franklin",
         "content":
@@ -1401,7 +1399,7 @@ Map<String, dynamic> historyData = {
         {"text": "John Adams", "value": false, "color": "yellow"},
         {"text": "Thomas Jefferson", "value": false, "color": "yellow"},
         {"text": "George Washington", "value": false, "color": "yellow"},
-        {"text": "Benjamin Franklin", "value": true, "color": "yellow"},
+        {"text": "Benjamin Franklin", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1415,7 +1413,7 @@ Map<String, dynamic> historyData = {
         {"text": "Robert Falcon Scott", "value": false, "color": "yellow"},
         {"text": "Ernest Shackleton", "value": false, "color": "yellow"},
         {"text": "Fridtjof Nansen", "value": false, "color": "yellow"},
-        {"text": "Roald Amundsen", "value": true, "color": "yellow"},
+        {"text": "Roald Amundsen", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1430,7 +1428,7 @@ Map<String, dynamic> historyData = {
         {"text": "Thomas Edison", "value": false, "color": "yellow"},
         {"text": "Alexander Graham Bell", "value": false, "color": "yellow"},
         {"text": "Guglielmo Marconi", "value": false, "color": "yellow"},
-        {"text": "Samuel Morse", "value": true, "color": "yellow"},
+        {"text": "Samuel Morse", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1445,7 +1443,7 @@ Map<String, dynamic> historyData = {
         {"text": "Silk Road", "value": false, "color": "yellow"},
         {"text": "Great Wall", "value": false, "color": "yellow"},
         {"text": "Appalachian Trail", "value": false, "color": "yellow"},
-        {"text": "Roman Roads", "value": true, "color": "yellow"},
+        {"text": "Roman Roads", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1460,12 +1458,12 @@ Map<String, dynamic> historyData = {
         {"text": "Egypt", "value": false, "color": "yellow"},
         {"text": "Greece", "value": false, "color": "yellow"},
         {"text": "Rome", "value": false, "color": "yellow"},
-        {"text": "Mesopotamia", "value": true, "color": "yellow"},
+        {"text": "Mesopotamia", "value": true, "color": "yellow"}
       ]
     },
     {
       "question":
-          "Who is the famous Russian author known for writing classic novels like \"War and Peace\" and \"Anna Karenina\"?",
+          "Who is the famous Russian author known for writing classic novels like War and Peace and Anna Karenina?",
       "dialog": {
         "title": "Leo Tolstoy",
         "content":
@@ -1475,7 +1473,7 @@ Map<String, dynamic> historyData = {
         {"text": "Fyodor Dostoevsky", "value": false, "color": "yellow"},
         {"text": "Anton Chekhov", "value": false, "color": "yellow"},
         {"text": "Vladimir Nabokov", "value": false, "color": "yellow"},
-        {"text": "Leo Tolstoy", "value": true, "color": "yellow"},
+        {"text": "Leo Tolstoy", "value": true, "color": "yellow"}
       ]
     }
   ]
