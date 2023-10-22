@@ -35,7 +35,7 @@ Map<String, dynamic> popCultureData = {
       ]
     },
     {
-      "question": "Who is known as the \"Queen of Pop\"?",
+      "question": "Who is known as the Queen of Pop?",
       "dialog": {
         "title": "Madonna",
         "content":
@@ -161,7 +161,21 @@ Map<String, dynamic> popCultureData = {
     },
     {
       "question":
-          "What is the real name of the singer known as \"The Weeknd\"?",
+          "Who is often referred to as the \"African Giant\" and is a prominent Nigerian musician known for hit songs like \"Ye\" and \"Anybody\"?",
+      "dialog": {
+        "title": "Burna Boy",
+        "content":
+            "Burna Boy, also known as the \"African Giant,\" is a prominent Nigerian musician."
+      },
+      "options": [
+        {"text": "Davido", "value": false, "color": "yellow"},
+        {"text": "Wizkid", "value": false, "color": "yellow"},
+        {"text": "Tiwa Savage", "value": false, "color": "yellow"},
+        {"text": "Burna Boy", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "What is the real name of the singer known as The Weeknd?",
       "dialog": {
         "title": "Abel Tesfaye",
         "content": "The Weeknd is the stage name of Abel Tesfaye."
@@ -175,7 +189,7 @@ Map<String, dynamic> popCultureData = {
     },
     {
       "question":
-          "Who portrayed the character Jack Dawson in the film \"Titanic\"?",
+          "Who portrayed the character Jack Dawson in the film Titanic?",
       "dialog": {
         "title": "Leonardo DiCaprio",
         "content": "Leonardo DiCaprio played Jack Dawson in the epic film."
@@ -193,7 +207,7 @@ Map<String, dynamic> popCultureData = {
       "dialog": {
         "title": "Game of Thrones",
         "content":
-            "Game of Thrones is based on George R.R. Martin's \"A Song of Ice and Fire\" series."
+            "Game of Thrones is based on George R.R. Martin's A Song of Ice and Fire series."
       },
       "options": [
         {"text": "Stranger Things", "value": false, "color": "yellow"},
@@ -203,10 +217,10 @@ Map<String, dynamic> popCultureData = {
       ]
     },
     {
-      "question": "Which singer is known for her \"Little Monsters\" fan base?",
+      "question": "Which singer is known for her Little Monsters fan base?",
       "dialog": {
         "title": "Lady Gaga",
-        "content": "Lady Gaga's fans are famously known as \"Little Monsters.\""
+        "content": "Lady Gaga's fans are famously known as Little Monsters."
       },
       "options": [
         {"text": "Beyonc\u00c3\u00a9", "value": false, "color": "yellow"},
@@ -217,7 +231,7 @@ Map<String, dynamic> popCultureData = {
     },
     {
       "question":
-          "What is the name of the Demogorgon-hunting group in \"Stranger Things\"?",
+          "What is the name of the Demogorgon-hunting group in Stranger Things?",
       "dialog": {
         "title": "The Hawkins AV Club",
         "content":
@@ -231,7 +245,7 @@ Map<String, dynamic> popCultureData = {
       ]
     },
     {
-      "question": "In \"Star Wars,\" who is Luke Skywalker's twin sister?",
+      "question": "In Star Wars, who is Luke Skywalker's twin sister?",
       "dialog": {
         "title": "Princess Leia",
         "content":
@@ -245,7 +259,7 @@ Map<String, dynamic> popCultureData = {
       ]
     },
     {
-      "question": "Which 2013 film features the song \"Let It Go\"?",
+      "question": "Which 2013 film features the song Let It Go?",
       "dialog": {
         "title": "Frozen",
         "content": "Let It Go is a hit song from Disney's Frozen."
@@ -286,11 +300,10 @@ Map<String, dynamic> popCultureData = {
       ]
     },
     {
-      "question": "Who directed the film \"Jurassic Park\"?",
+      "question": "Who directed the film Jurassic Park?",
       "dialog": {
         "title": "Steven Spielberg",
-        "content":
-            "Steven Spielberg directed the iconic film \"Jurassic Park.\""
+        "content": "Steven Spielberg directed the iconic film Jurassic Park."
       },
       "options": [
         {"text": "George Lucas", "value": false, "color": "yellow"},
@@ -301,10 +314,25 @@ Map<String, dynamic> popCultureData = {
     },
     {
       "question":
-          "In \"The Hunger Games\" series, what is the name of the main character played by Jennifer Lawrence?",
+          "Which Nigerian musician is famous for his role in the \"Naija Ninja\" music genre, known for songs like \"So Long\" and \"Kini Big Deal\"?",
+      "dialog": {
+        "title": "Sound Sultan",
+        "content":
+            "Sound Sultan is known for his role in the \"Naija Ninja\" music genre."
+      },
+      "options": [
+        {"text": "D'banj", "value": false, "color": "yellow"},
+        {"text": "Flavour", "value": false, "color": "yellow"},
+        {"text": "Timaya", "value": false, "color": "yellow"},
+        {"text": "Sound Sultan", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "In The Hunger Games series, what is the name of the main character played by Jennifer Lawrence?",
       "dialog": {
         "title": "Katniss Everdeen",
-        "content": "Katniss is the brave protagonist of \"The Hunger Games.\""
+        "content": "Katniss is the brave protagonist of The Hunger Games."
       },
       "options": [
         {"text": "Bella Swan", "value": false, "color": "yellow"},
@@ -319,7 +347,7 @@ Map<String, dynamic> popCultureData = {
       "dialog": {
         "title": "IT",
         "content":
-            "The film \"IT\" is based on Stephen King's novel and features Pennywise the Clown."
+            "The film IT is based on Stephen King's novel and features Pennywise the Clown."
       },
       "options": [
         {"text": "Stranger Things", "value": false, "color": "yellow"},
@@ -360,8 +388,7 @@ Map<String, dynamic> popCultureData = {
       ]
     },
     {
-      "question":
-          "In \"Star Trek,\" what is Captain Kirk's famous catchphrase?",
+      "question": "In Star Trek, what is Captain Kirk's famous catchphrase?",
       "dialog": {
         "title": "Beam me up, Scotty!",
         "content": "Beam me up, Scotty! is Captain Kirk's famous catchphrase."
@@ -375,7 +402,7 @@ Map<String, dynamic> popCultureData = {
     },
     {
       "question":
-          "Who played the role of Katniss Everdeen in \"The Hunger Games\" film series?",
+          "Who played the role of Katniss Everdeen in The Hunger Games film series?",
       "dialog": {
         "title": "Jennifer Lawrence",
         "content": "Jennifer Lawrence portrayed the brave Katniss Everdeen."
@@ -417,7 +444,7 @@ Map<String, dynamic> popCultureData = {
     },
     {
       "question":
-          "What is the name of the friendly blue alien in \"Lilo & Stitch\"?",
+          "What is the name of the friendly blue alien in Lilo & Stitch?",
       "dialog": {
         "title": "Stitch",
         "content": "Stitch is the name of the blue alien in the film."
@@ -431,7 +458,7 @@ Map<String, dynamic> popCultureData = {
     },
     {
       "question":
-          "In the TV series \"Stranger Things,\" what is Eleven's real name?",
+          "In the TV series Stranger Things, what is Eleven's real name?",
       "dialog": {
         "title": "Jane Ives",
         "content": "Eleven's real name is revealed as Jane Ives."
@@ -444,10 +471,25 @@ Map<String, dynamic> popCultureData = {
       ]
     },
     {
-      "question": "Who is known as the \"King of Pop\"?",
+      "question":
+          "What popular Nigerian dance style became a global sensation, with artists like Drake incorporating it into their music and videos?",
+      "dialog": {
+        "title": "Shaku Shaku",
+        "content":
+            "The Shaku Shaku dance style became a global sensation and was featured in international music."
+      },
+      "options": [
+        {"text": "Azonto", "value": false, "color": "yellow"},
+        {"text": "Zanku", "value": false, "color": "yellow"},
+        {"text": "Alingo", "value": false, "color": "yellow"},
+        {"text": "Shaku Shaku", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "Who is known as the King of Pop?",
       "dialog": {
         "title": "Michael Jackson",
-        "content": "Michael Jackson earned the title \"King of Pop.\""
+        "content": "Michael Jackson earned the title King of Pop."
       },
       "options": [
         {"text": "Elvis Presley", "value": false, "color": "yellow"},
@@ -471,21 +513,7 @@ Map<String, dynamic> popCultureData = {
     },
     {
       "question":
-          "What is the name of the fictional wizarding sport played on broomsticks in the Harry Potter series?",
-      "dialog": {
-        "title": "Quidditch",
-        "content": "Quidditch is the wizarding sport played on broomsticks."
-      },
-      "options": [
-        {"text": "Broom Ball", "value": false, "color": "yellow"},
-        {"text": "Wand Tennis", "value": false, "color": "yellow"},
-        {"text": "Wizard Golf", "value": false, "color": "yellow"},
-        {"text": "Quidditch", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "What is the name of the fictional town in which \"The Simpsons\" reside?",
+          "What is the name of the fictional town in which The Simpsons reside?",
       "dialog": {
         "title": "Springfield",
         "content": "The Simpsons reside in the fictional town of Springfield."
@@ -498,10 +526,10 @@ Map<String, dynamic> popCultureData = {
       ]
     },
     {
-      "question": "Who is the famous spy known by the code name \"007\"?",
+      "question": "Who is the famous spy known by the code name 007?",
       "dialog": {
         "title": "James Bond",
-        "content": "James Bond is the spy known by the code name \"007.\""
+        "content": "James Bond is the spy known by the code name 007."
       },
       "options": [
         {"text": "Ethan Hunt", "value": false, "color": "yellow"},
@@ -512,11 +540,11 @@ Map<String, dynamic> popCultureData = {
     },
     {
       "question":
-          "What is the name of the enchanted castle in Disney's \"Beauty and the Beast\"?",
+          "What is the name of the enchanted castle in Disney's Beauty and the Beast?",
       "dialog": {
         "title": "Beast's Castle",
         "content":
-            "The enchanted castle in \"Beauty and the Beast\" is known as Beast's Castle."
+            "The enchanted castle in Beauty and the Beast is known as Beast's Castle."
       },
       "options": [
         {"text": "Cinderella's Castle", "value": false, "color": "yellow"},
@@ -540,11 +568,10 @@ Map<String, dynamic> popCultureData = {
     },
     {
       "question":
-          "What is the name of the fictional African country in \"Black Panther\"?",
+          "What is the name of the fictional African country in Black Panther?",
       "dialog": {
         "title": "Wakanda",
-        "content":
-            "Wakanda is the fictional African country in \"Black Panther.\""
+        "content": "Wakanda is the fictional African country in Black Panther."
       },
       "options": [
         {"text": "Zamunda", "value": false, "color": "yellow"},
@@ -555,7 +582,7 @@ Map<String, dynamic> popCultureData = {
     },
     {
       "question":
-          "What is the name of the archaeologist and adventurer in the \"Indiana Jones\" film series?",
+          "What is the name of the archaeologist and adventurer in the Indiana Jones film series?",
       "dialog": {
         "title": "Indiana Jones",
         "content": "Indiana Jones is the iconic archaeologist and adventurer."
@@ -573,7 +600,7 @@ Map<String, dynamic> popCultureData = {
       "dialog": {
         "title": "Cruella de Vil",
         "content":
-            "Cruella de Vil is obsessed with Dalmatian puppies in \"101 Dalmatians.\""
+            "Cruella de Vil is obsessed with Dalmatian puppies in 101 Dalmatians."
       },
       "options": [
         {"text": "Ursula", "value": false, "color": "yellow"},
@@ -584,7 +611,7 @@ Map<String, dynamic> popCultureData = {
     },
     {
       "question":
-          "In \"Star Wars,\" who is the wise Jedi Master who trains Luke Skywalker?",
+          "In Star Wars, who is the wise Jedi Master who trains Luke Skywalker?",
       "dialog": {
         "title": "Yoda",
         "content": "Yoda is the wise Jedi Master who trains Luke Skywalker."
@@ -598,11 +625,26 @@ Map<String, dynamic> popCultureData = {
     },
     {
       "question":
-          "What is the name of the fictional Middle-earth creature who calls the One Ring \"my precious\"?",
+          "Who is a Nigerian comedian known for his humorous skits and online presence, with catchphrases like \"Egungun be careful\"?",
+      "dialog": {
+        "title": "Mr Macaroni",
+        "content":
+            "Mr Macaroni is a Nigerian comedian known for humorous skits and catchphrases like \"Egungun be careful.\""
+      },
+      "options": [
+        {"text": "Broda Shaggi", "value": false, "color": "yellow"},
+        {"text": "Taaooma", "value": false, "color": "yellow"},
+        {"text": "Maraji", "value": false, "color": "yellow"},
+        {"text": "Mr Macaroni", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "What is the name of the fictional Middle-earth creature who calls the One Ring my precious?",
       "dialog": {
         "title": "Gollum",
         "content":
-            "Gollum, formerly known as Sm\u00c3\u00a9agol, refers to the One Ring as \"my precious.\""
+            "Gollum, formerly known as Sm\u00c3\u00a9agol, refers to the One Ring as my precious."
       },
       "options": [
         {"text": "Frodo", "value": false, "color": "yellow"},
@@ -612,11 +654,10 @@ Map<String, dynamic> popCultureData = {
       ]
     },
     {
-      "question":
-          "Who is the famous Muppet frog who hosts \"The Muppet Show\"?",
+      "question": "Who is the famous Muppet frog who hosts The Muppet Show?",
       "dialog": {
         "title": "Kermit the Frog",
-        "content": "Kermit the Frog is the host of \"The Muppet Show.\""
+        "content": "Kermit the Frog is the host of The Muppet Show."
       },
       "options": [
         {"text": "Miss Piggy", "value": false, "color": "yellow"},
@@ -627,7 +668,7 @@ Map<String, dynamic> popCultureData = {
     },
     {
       "question":
-          "In Disney's \"The Little Mermaid,\" what is the name of Ariel's crab friend?",
+          "In Disney's The Little Mermaid, what is the name of Ariel's crab friend?",
       "dialog": {
         "title": "Sebastian",
         "content": "Ariel's crab friend is named Sebastian."
@@ -640,11 +681,10 @@ Map<String, dynamic> popCultureData = {
       ]
     },
     {
-      "question": "Which artist is famous for the painting \"Starry Night\"?",
+      "question": "Which artist is famous for the painting Starry Night?",
       "dialog": {
         "title": "Vincent van Gogh",
-        "content":
-            "Vincent van Gogh created the iconic painting \"Starry Night.\""
+        "content": "Vincent van Gogh created the iconic painting Starry Night."
       },
       "options": [
         {"text": "Leonardo da Vinci", "value": false, "color": "yellow"},
@@ -673,10 +713,10 @@ Map<String, dynamic> popCultureData = {
       ]
     },
     {
-      "question": "Who wrote the \"Harry Potter\" book series?",
+      "question": "Who wrote the Harry Potter book series?",
       "dialog": {
         "title": "J.K. Rowling",
-        "content": "J.K. Rowling authored the \"Harry Potter\" books."
+        "content": "J.K. Rowling authored the Harry Potter books."
       },
       "options": [
         {"text": "George R.R. Martin", "value": false, "color": "yellow"},
@@ -686,7 +726,7 @@ Map<String, dynamic> popCultureData = {
       ]
     },
     {
-      "question": "In \"Star Wars,\" what is the name of Han Solo's ship?",
+      "question": "In Star Wars, what is the name of Han Solo's ship?",
       "dialog": {
         "title": "Millennium Falcon",
         "content": "Han Solo's ship is called the Millennium Falcon."
@@ -700,11 +740,11 @@ Map<String, dynamic> popCultureData = {
     },
     {
       "question":
-          "Who played the character of Lara Croft in the \"Tomb Raider\" film series?",
+          "Who played the character of Lara Croft in the Tomb Raider film series?",
       "dialog": {
         "title": "Angelina Jolie",
         "content":
-            "Angelina Jolie portrayed Lara Croft in the \"Tomb Raider\" films."
+            "Angelina Jolie portrayed Lara Croft in the Tomb Raider films."
       },
       "options": [
         {"text": "Scarlett Johansson", "value": false, "color": "yellow"},
@@ -714,65 +754,11 @@ Map<String, dynamic> popCultureData = {
       ]
     },
     {
-      "question":
-          "What is the name of the fictional school of witchcraft and wizardry in the \"Harry Potter\" series?",
-      "dialog": {
-        "title": "Hogwarts School of Witchcraft and Wizardry",
-        "content": "Hogwarts is the school in the \"Harry Potter\" series."
-      },
-      "options": [
-        {
-          "text": "Beauxbatons Academy of Magic",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Ilvermorny School of Witchcraft and Wizardry",
-          "value": false,
-          "color": "yellow"
-        },
-        {"text": "Durmstrang Institute", "value": false, "color": "yellow"},
-        {
-          "text": "Hogwarts School of Witchcraft and Wizardry",
-          "value": true,
-          "color": "yellow"
-        }
-      ]
-    },
-    {
-      "question": "Who is the director of the \"Jurassic Park\" films?",
-      "dialog": {
-        "title": "Steven Spielberg",
-        "content": "Steven Spielberg directed the \"Jurassic Park\" films."
-      },
-      "options": [
-        {"text": "James Cameron", "value": false, "color": "yellow"},
-        {"text": "Ridley Scott", "value": false, "color": "yellow"},
-        {"text": "Michael Bay", "value": false, "color": "yellow"},
-        {"text": "Steven Spielberg", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "Which character from \"The Lord of the Rings\" is known for saying \"My preciousss\"?",
-      "dialog": {
-        "title": "Gollum",
-        "content": "Gollum is the character who says \"My preciousss.\""
-      },
-      "options": [
-        {"text": "Frodo", "value": false, "color": "yellow"},
-        {"text": "Aragorn", "value": false, "color": "yellow"},
-        {"text": "Legolas", "value": false, "color": "yellow"},
-        {"text": "Gollum", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "Which actor played the title role in the 2021 film \"Dune\"?",
+      "question": "Which actor played the title role in the 2021 film Dune?",
       "dialog": {
         "title": "Timoth\u00c3\u00a9e Chalamet",
         "content":
-            "Timoth\u00c3\u00a9e Chalamet portrayed the title role in \"Dune.\""
+            "Timoth\u00c3\u00a9e Chalamet portrayed the title role in Dune."
       },
       "options": [
         {"text": "Oscar Isaac", "value": false, "color": "yellow"},
@@ -787,17 +773,31 @@ Map<String, dynamic> popCultureData = {
     },
     {
       "question":
-          "In the TV series \"Squid Game,\" what is the deadly children's game played by the contestants?",
+          "In the TV series Squid Game, what is the deadly children's game played by the contestants?",
       "dialog": {
         "title": "Red Light, Green Light",
         "content":
-            "Squid Game features the deadly children's game \"Red Light, Green Light.\""
+            "Squid Game features the deadly children's game Red Light, Green Light."
       },
       "options": [
         {"text": "Hopscotch", "value": false, "color": "yellow"},
         {"text": "Tag", "value": false, "color": "yellow"},
         {"text": "Hide and Seek", "value": false, "color": "yellow"},
         {"text": "Red Light, Green Light", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "Which Nigerian actress gained international recognition for her role in the movie \"12 Years a Slave\" and has won numerous awards for her performances?",
+      "dialog": {
+        "title": "Lupita Nyong'o",
+        "content": "Lupita Nyong'o is a Kenyan-Mexican actress, not Nigerian."
+      },
+      "options": [
+        {"text": "Genevieve Nnaji", "value": false, "color": "yellow"},
+        {"text": "Funke Akindele", "value": false, "color": "yellow"},
+        {"text": "Mercy Johnson", "value": false, "color": "yellow"},
+        {"text": "Lupita Nyong'o", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -820,11 +820,11 @@ Map<String, dynamic> popCultureData = {
     },
     {
       "question":
-          "Who won the Academy Award for Best Actor in a Leading Role in 2021 for his role in \"The Father\"?",
+          "Who won the Academy Award for Best Actor in a Leading Role in 2021 for his role in The Father?",
       "dialog": {
         "title": "Anthony Hopkins",
         "content":
-            "Anthony Hopkins won the Academy Award for his role in \"The Father.\""
+            "Anthony Hopkins won the Academy Award for his role in The Father."
       },
       "options": [
         {"text": "Chadwick Boseman", "value": false, "color": "yellow"},
@@ -835,11 +835,10 @@ Map<String, dynamic> popCultureData = {
     },
     {
       "question":
-          "In \"Squid Game,\" what is the cash prize offered to the contestants for winning the games?",
+          "In Squid Game, what is the cash prize offered to the contestants for winning the games?",
       "dialog": {
         "title": "45.6 billion won",
-        "content":
-            "The cash prize offered in \"Squid Game\" is 45.6 billion won."
+        "content": "The cash prize offered in Squid Game is 45.6 billion won."
       },
       "options": [
         {"text": "10 million dollars", "value": false, "color": "yellow"},
@@ -865,11 +864,10 @@ Map<String, dynamic> popCultureData = {
     },
     {
       "question":
-          "In the Marvel series \"WandaVision,\" what classic sitcom era inspired the first episode?",
+          "In the Marvel series WandaVision, what classic sitcom era inspired the first episode?",
       "dialog": {
         "title": "1950s",
-        "content":
-            "The first episode of \"WandaVision\" is inspired by the 1950s."
+        "content": "The first episode of WandaVision is inspired by the 1950s."
       },
       "options": [
         {"text": "1980s", "value": false, "color": "yellow"},
@@ -880,7 +878,7 @@ Map<String, dynamic> popCultureData = {
     },
     {
       "question":
-          "Who is the central character of the 2021 series \"The Falcon and the Winter Soldier\"?",
+          "Who is the central character of the 2021 series The Falcon and the Winter Soldier?",
       "dialog": {
         "title": "Sam Wilson",
         "content":
@@ -910,10 +908,10 @@ Map<String, dynamic> popCultureData = {
     },
     {
       "question":
-          "Which actor played the lead role in the 2021 film \"No Time to Die,\" the 25th James Bond movie?",
+          "Which actor played the lead role in the 2021 film No Time to Die, the 25th James Bond movie?",
       "dialog": {
         "title": "Daniel Craig",
-        "content": "Daniel Craig played the lead role in \"No Time to Die.\""
+        "content": "Daniel Craig played the lead role in No Time to Die."
       },
       "options": [
         {"text": "Pierce Brosnan", "value": false, "color": "yellow"},
@@ -939,10 +937,10 @@ Map<String, dynamic> popCultureData = {
     },
     {
       "question":
-          "In the 2021 Disney+ series \"WandaVision,\" what alias does Wanda use as a stand-up comedian in the second episode?",
+          "In the 2021 Disney+ series WandaVision, what alias does Wanda use as a stand-up comedian in the second episode?",
       "dialog": {
         "title": "Glamorous",
-        "content": "Wanda uses the alias \"Glamorous\" as a stand-up comedian."
+        "content": "Wanda uses the alias Glamorous as a stand-up comedian."
       },
       "options": [
         {"text": "Radiant", "value": false, "color": "yellow"},
@@ -953,10 +951,24 @@ Map<String, dynamic> popCultureData = {
     },
     {
       "question":
-          "Which actor portrayed the character Geralt of Rivia in the Netflix series \"The Witcher\"?",
+          "What popular Nigerian reality TV show features contestants living together in a house while competing in various challenges to win a cash prize?",
+      "dialog": {
+        "title": "Big Brother Naija",
+        "content": "Big Brother Naija is a popular Nigerian reality TV show."
+      },
+      "options": [
+        {"text": "Project Fame", "value": false, "color": "yellow"},
+        {"text": "The Voice Nigeria", "value": false, "color": "yellow"},
+        {"text": "Nigerian Idol", "value": false, "color": "yellow"},
+        {"text": "Big Brother Naija", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "Which actor portrayed the character Geralt of Rivia in the Netflix series The Witcher?",
       "dialog": {
         "title": "Henry Cavill",
-        "content": "Henry Cavill portrayed Geralt of Rivia in \"The Witcher.\""
+        "content": "Henry Cavill portrayed Geralt of Rivia in The Witcher."
       },
       "options": [
         {"text": "Jason Momoa", "value": false, "color": "yellow"},
@@ -986,11 +998,10 @@ Map<String, dynamic> popCultureData = {
     },
     {
       "question":
-          "In the series \"Loki,\" what organization monitors and controls the flow of time in the universe?",
+          "In the series Loki, what organization monitors and controls the flow of time in the universe?",
       "dialog": {
         "title": "TVA (Time Variance Authority)",
-        "content":
-            "TVA, the Time Variance Authority, monitors time in \"Loki.\""
+        "content": "TVA, the Time Variance Authority, monitors time in Loki."
       },
       "options": [
         {"text": "MIB (Men in Black)", "value": false, "color": "yellow"},
@@ -1018,7 +1029,7 @@ Map<String, dynamic> popCultureData = {
       "dialog": {
         "title": "Dune",
         "content":
-            "The film adaptation of \"Dune\" explores the desert planet Arrakis."
+            "The film adaptation of Dune explores the desert planet Arrakis."
       },
       "options": [
         {"text": "Blade Runner 2049", "value": false, "color": "yellow"},
@@ -1029,10 +1040,10 @@ Map<String, dynamic> popCultureData = {
     },
     {
       "question":
-          "In the series \"The Mandalorian,\" what is the real name of the character known as \"Baby Yoda\"?",
+          "In the series The Mandalorian, what is the real name of the character known as Baby Yoda?",
       "dialog": {
         "title": "Grogu",
-        "content": "The character known as \"Baby Yoda\" is named Grogu."
+        "content": "The character known as Baby Yoda is named Grogu."
       },
       "options": [
         {"text": "Yaddle", "value": false, "color": "yellow"},
@@ -1058,11 +1069,11 @@ Map<String, dynamic> popCultureData = {
     },
     {
       "question":
-          "In the film \"The Suicide Squad,\" who plays the character Harley Quinn?",
+          "In the film The Suicide Squad, who plays the character Harley Quinn?",
       "dialog": {
         "title": "Margot Robbie",
         "content":
-            "Margot Robbie plays the character Harley Quinn in \"The Suicide Squad.\""
+            "Margot Robbie plays the character Harley Quinn in The Suicide Squad."
       },
       "options": [
         {"text": "Scarlett Johansson", "value": false, "color": "yellow"},
@@ -1092,7 +1103,7 @@ Map<String, dynamic> popCultureData = {
       "dialog": {
         "title": "Black Widow",
         "content":
-            "Scarlett Johansson stars as Natasha Romanoff in \"Black Widow.\""
+            "Scarlett Johansson stars as Natasha Romanoff in Black Widow."
       },
       "options": [
         {"text": "Red Sparrow", "value": false, "color": "yellow"},
@@ -1103,11 +1114,11 @@ Map<String, dynamic> popCultureData = {
     },
     {
       "question":
-          "In the series \"The Witcher,\" what is the nickname given to Geralt because of his white hair and mutant status?",
+          "In the series The Witcher, what is the nickname given to Geralt because of his white hair and mutant status?",
       "dialog": {
         "title": "The White Wolf",
         "content":
-            "Geralt is known as \"The White Wolf\" due to his white hair and mutant status."
+            "Geralt is known as The White Wolf due to his white hair and mutant status."
       },
       "options": [
         {"text": "The Silver Fox", "value": false, "color": "yellow"},
@@ -1118,10 +1129,25 @@ Map<String, dynamic> popCultureData = {
     },
     {
       "question":
-          "Which artist released the 2022 album \"30,\" featuring songs like \"Easy on Me\"?",
+          "Which Nigerian author is known for the novel \"Half of a Yellow Sun,\" which tells the story of the Biafran War, and has received critical acclaim worldwide?",
+      "dialog": {
+        "title": "Chimamanda Ngozi Adichie",
+        "content":
+            "Chimamanda Ngozi Adichie is known for the novel \"Half of a Yellow Sun.\""
+      },
+      "options": [
+        {"text": "Wole Soyinka", "value": false, "color": "yellow"},
+        {"text": "Chinua Achebe", "value": false, "color": "yellow"},
+        {"text": "Buchi Emecheta", "value": false, "color": "yellow"},
+        {"text": "Chimamanda Ngozi Adichie", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "Which artist released the 2022 album 30, featuring songs like Easy on Me?",
       "dialog": {
         "title": "Adele",
-        "content": "Adele released the album \"30\" in 2022."
+        "content": "Adele released the album 30 in 2022."
       },
       "options": [
         {"text": "Taylor Swift", "value": false, "color": "yellow"},
@@ -1162,7 +1188,7 @@ Map<String, dynamic> popCultureData = {
     },
     {
       "question":
-          "In the Netflix series \"The Witcher,\" what is the primary weapon used by Geralt of Rivia?",
+          "In the Netflix series The Witcher, what is the primary weapon used by Geralt of Rivia?",
       "dialog": {
         "title": "Silver Sword",
         "content": "Geralt of Rivia primarily uses a Silver Sword."
@@ -1176,10 +1202,10 @@ Map<String, dynamic> popCultureData = {
     },
     {
       "question":
-          "What musician, known for hits like \"Stay with Me,\" released the album \"Love Goes\" in 2020?",
+          "What musician, known for hits like Stay with Me, released the album Love Goes in 2020?",
       "dialog": {
         "title": "Sam Smith",
-        "content": "Sam Smith released the album \"Love Goes\" in 2020."
+        "content": "Sam Smith released the album Love Goes in 2020."
       },
       "options": [
         {"text": "John Legend", "value": false, "color": "yellow"},
@@ -1204,10 +1230,10 @@ Map<String, dynamic> popCultureData = {
     },
     {
       "question":
-          "What popular K-pop group made their debut with the song \"Ddu-Du Ddu-Du\" in 2018?",
+          "What popular K-pop group made their debut with the song Ddu-Du Ddu-Du in 2018?",
       "dialog": {
         "title": "BLACKPINK",
-        "content": "BLACKPINK made their debut with \"Ddu-Du Ddu-Du\" in 2018."
+        "content": "BLACKPINK made their debut with Ddu-Du Ddu-Du in 2018."
       },
       "options": [
         {"text": "BTS", "value": false, "color": "yellow"},
@@ -1218,11 +1244,11 @@ Map<String, dynamic> popCultureData = {
     },
     {
       "question":
-          "In the novel \"To Kill a Mockingbird,\" who is the reclusive neighbor rumored to be a dangerous figure?",
+          "In the novel To Kill a Mockingbird, who is the reclusive neighbor rumored to be a dangerous figure?",
       "dialog": {
         "title": "Boo Radley",
         "content":
-            "Boo Radley is the reclusive neighbor in \"To Kill a Mockingbird.\""
+            "Boo Radley is the reclusive neighbor in To Kill a Mockingbird."
       },
       "options": [
         {"text": "Tom Robinson", "value": false, "color": "yellow"},
@@ -1248,11 +1274,11 @@ Map<String, dynamic> popCultureData = {
     },
     {
       "question":
-          "Who won the Nobel Prize in Literature in 2021 for her novel \"The Magician\"?",
+          "Who won the Nobel Prize in Literature in 2021 for her novel The Magician?",
       "dialog": {
         "title": "Abdulrazak Gurnah",
         "content":
-            "Abdulrazak Gurnah won the Nobel Prize in Literature in 2021 for \"The Magician.\""
+            "Abdulrazak Gurnah won the Nobel Prize in Literature in 2021 for The Magician."
       },
       "options": [
         {"text": "Kazuo Ishiguro", "value": false, "color": "yellow"},
@@ -1262,11 +1288,25 @@ Map<String, dynamic> popCultureData = {
       ]
     },
     {
+      "question":
+          "What Nigerian fashion designer is celebrated for blending traditional African fabrics with contemporary styles, often worn by celebrities and public figures?",
+      "dialog": {
+        "title": "Deola Sagoe",
+        "content": "Deola Sagoe is a celebrated Nigerian fashion designer."
+      },
+      "options": [
+        {"text": "Mai Atafo", "value": false, "color": "yellow"},
+        {"text": "Lisa Folawiyo", "value": false, "color": "yellow"},
+        {"text": "Ituen Basi", "value": false, "color": "yellow"},
+        {"text": "Deola Sagoe", "value": true, "color": "yellow"}
+      ]
+    },
+    {
       "question": "In 2023, what film won the Academy Award for Best Picture?",
       "dialog": {
         "title": "The Power of the Dog",
         "content":
-            "In 2023, \"The Power of the Dog\" won the Academy Award for Best Picture."
+            "In 2023, The Power of the Dog won the Academy Award for Best Picture."
       },
       "options": [
         {"text": "Dune", "value": false, "color": "yellow"},
@@ -1306,10 +1346,10 @@ Map<String, dynamic> popCultureData = {
     },
     {
       "question":
-          "Who is the lead actress in the 2022 film \"Don't Look Up,\" where she plays an astronomer trying to save Earth?",
+          "Who is the lead actress in the 2022 film Don't Look Up, where she plays an astronomer trying to save Earth?",
       "dialog": {
         "title": "Jennifer Lawrence",
-        "content": "Jennifer Lawrence plays the lead role in \"Don't Look Up.\""
+        "content": "Jennifer Lawrence plays the lead role in Don't Look Up."
       },
       "options": [
         {"text": "Meryl Streep", "value": false, "color": "yellow"},
@@ -1320,11 +1360,11 @@ Map<String, dynamic> popCultureData = {
     },
     {
       "question":
-          "What 2023 film is a sequel to \"Spider-Man: No Way Home\" and stars Tom Holland as the title character?",
+          "What 2023 film is a sequel to Spider-Man: No Way Home and stars Tom Holland as the title character?",
       "dialog": {
         "title": "Spider-Man: Homeworlds",
         "content":
-            "Spider-Man: Homeworlds is the sequel to \"No Way Home\" with Tom Holland."
+            "Spider-Man: Homeworlds is the sequel to No Way Home with Tom Holland."
       },
       "options": [
         {
@@ -1343,11 +1383,11 @@ Map<String, dynamic> popCultureData = {
     },
     {
       "question":
-          "In the book \"The Great Gatsby,\" who is the mysterious millionaire who throws lavish parties?",
+          "In the book The Great Gatsby, who is the mysterious millionaire who throws lavish parties?",
       "dialog": {
         "title": "Jay Gatsby",
         "content":
-            "Jay Gatsby is the mysterious millionaire in \"The Great Gatsby.\""
+            "Jay Gatsby is the mysterious millionaire in The Great Gatsby."
       },
       "options": [
         {"text": "Tom Buchanan", "value": false, "color": "yellow"},
@@ -1377,11 +1417,11 @@ Map<String, dynamic> popCultureData = {
     },
     {
       "question":
-          "In 2022, what film starred Dwayne Johnson as an intergalactic lawman known as the \"Galactic Marshall\"?",
+          "In 2022, what film starred Dwayne Johnson as an intergalactic lawman known as the Galactic Marshall?",
       "dialog": {
         "title": "The Adam Project",
         "content":
-            "The Adam Project stars Dwayne Johnson as the \"Galactic Marshall.\""
+            "The Adam Project stars Dwayne Johnson as the Galactic Marshall."
       },
       "options": [
         {"text": "Red Notice", "value": false, "color": "yellow"},
@@ -1392,11 +1432,10 @@ Map<String, dynamic> popCultureData = {
     },
     {
       "question":
-          "Who is the author of the fantasy series \"A Song of Ice and Fire,\" which inspired the TV series \"Game of Thrones\"?",
+          "Who is the author of the fantasy series A Song of Ice and Fire, which inspired the TV series Game of Thrones?",
       "dialog": {
         "title": "George R.R. Martin",
-        "content":
-            "George R.R. Martin is the author of \"A Song of Ice and Fire.\""
+        "content": "George R.R. Martin is the author of A Song of Ice and Fire."
       },
       "options": [
         {"text": "J.K. Rowling", "value": false, "color": "yellow"},
@@ -1407,44 +1446,32 @@ Map<String, dynamic> popCultureData = {
     },
     {
       "question":
-          "What is the name of the fictional wizarding school in the \"Harry Potter\" series?",
-      "dialog": {
-        "title": "Hogwarts School of Witchcraft and Wizardry",
-        "content":
-            "The fictional wizarding school is Hogwarts School of Witchcraft and Wizardry."
-      },
-      "options": [
-        {
-          "text": "Beauxbatons Academy of Magic",
-          "value": false,
-          "color": "yellow"
-        },
-        {
-          "text": "Ilvermorny School of Witchcraft and Wizardry",
-          "value": false,
-          "color": "yellow"
-        },
-        {"text": "Durmstrang Institute", "value": false, "color": "yellow"},
-        {
-          "text": "Hogwarts School of Witchcraft and Wizardry",
-          "value": true,
-          "color": "yellow"
-        }
-      ]
-    },
-    {
-      "question":
-          "Who won the Academy Award for Best Director for the film \"Nomadland\" in 2021?",
+          "Who won the Academy Award for Best Director for the film Nomadland in 2021?",
       "dialog": {
         "title": "Chlo\u00c3\u00a9 Zhao",
         "content":
-            "Chlo\u00c3\u00a9 Zhao won the Academy Award for Best Director for \"Nomadland\" in 2021."
+            "Chlo\u00c3\u00a9 Zhao won the Academy Award for Best Director for Nomadland in 2021."
       },
       "options": [
         {"text": "Greta Gerwig", "value": false, "color": "yellow"},
         {"text": "Kathryn Bigelow", "value": false, "color": "yellow"},
         {"text": "Sofia Coppola", "value": false, "color": "yellow"},
         {"text": "Chlo\u00c3\u00a9 Zhao", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "What is the term for the vibrant and colorful Nigerian film industry, known for producing a large number of movies each year?",
+      "dialog": {
+        "title": "Nollywood",
+        "content":
+            "The Nigerian film industry is often referred to as \"Nollywood.\""
+      },
+      "options": [
+        {"text": "Bollywood", "value": false, "color": "yellow"},
+        {"text": "Hollywood", "value": false, "color": "yellow"},
+        {"text": "Kannywood", "value": false, "color": "yellow"},
+        {"text": "Nollywood", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1508,6 +1535,21 @@ Map<String, dynamic> popCultureData = {
         {"text": "Kenya", "value": false, "color": "yellow"},
         {"text": "South Africa", "value": false, "color": "yellow"},
         {"text": "Ghana", "value": false, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "Who is the Nigerian music producer known for his contributions to the Afrobeats genre and for producing hit songs for various artists, including Beyonc\u00c3\u00a9's \"The Lion King: The Gift\" album?",
+      "dialog": {
+        "title": "Sarz",
+        "content":
+            "Sarz is a Nigerian music producer known for his contributions to the Afrobeats genre."
+      },
+      "options": [
+        {"text": "Don Jazzy", "value": false, "color": "yellow"},
+        {"text": "Masterkraft", "value": false, "color": "yellow"},
+        {"text": "Pheelz", "value": false, "color": "yellow"},
+        {"text": "Sarz", "value": true, "color": "yellow"}
       ]
     }
   ]
