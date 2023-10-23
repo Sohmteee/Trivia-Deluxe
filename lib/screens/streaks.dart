@@ -98,7 +98,7 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                             ),
                           ],
                         ),
-                        SizedBox(height: 10.h),
+                        SizedBox(height: 5.h),
                         Column(
                           children: streakList
                               .map(
