@@ -4,7 +4,7 @@ Map<String, dynamic> booksData = {
   "currentLevel": 1,
   "data": [
     {
-      "question": "Who wrote \"Harry Potter and the Sorcerer's Stone\"?",
+      "question": "Who wrote Harry Potter and the Sorcerer's Stone?",
       "dialog": {
         "title": "J.K. Rowling",
         "content": "J.K. Rowling is the author of this book."
@@ -18,7 +18,7 @@ Map<String, dynamic> booksData = {
     },
     {
       "question":
-          "In \"Charlie and the Chocolate Factory,\" who owns the chocolate factory?",
+          "In Charlie and the Chocolate Factory, who owns the chocolate factory?",
       "dialog": {
         "title": "Willy Wonka",
         "content": "Willy Wonka is the owner of the factory."
@@ -32,7 +32,7 @@ Map<String, dynamic> booksData = {
     },
     {
       "question":
-          "What's the name of the young boy who never grows up in \"Peter Pan\"?",
+          "What's the name of the young boy who never grows up in Peter Pan?",
       "dialog": {
         "title": "Peter Pan",
         "content": "The main character is named Peter Pan."
@@ -47,10 +47,7 @@ Map<String, dynamic> booksData = {
     {
       "question":
           "Which book features a girl named Matilda with telekinetic powers?",
-      "dialog": {
-        "title": "Matilda",
-        "content": "The book is called \"Matilda.\""
-      },
+      "dialog": {"title": "Matilda", "content": "The book is called Matilda."},
       "options": [
         {"text": "Annie", "value": false, "color": "yellow"},
         {"text": "Alice", "value": false, "color": "yellow"},
@@ -60,7 +57,21 @@ Map<String, dynamic> booksData = {
     },
     {
       "question":
-          "In \"The Cat in the Hat,\" what is the name of the mischievous cat?",
+          "Which seminal novel by Chinua Achebe depicts pre-colonial life in Nigeria?",
+      "dialog": {
+        "title": "Things Fall Apart",
+        "content": "Achebe's masterpiece about cultural change"
+      },
+      "options": [
+        {"text": "Anthills of the Savannah", "value": false, "color": "yellow"},
+        {"text": "A Man of the People", "value": false, "color": "yellow"},
+        {"text": "Arrow of God", "value": false, "color": "yellow"},
+        {"text": "Things Fall Apart", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "In The Cat in the Hat, what is the name of the mischievous cat?",
       "dialog": {
         "title": "The Cat in the Hat",
         "content": "The book is named after the cat."
@@ -120,7 +131,25 @@ Map<String, dynamic> booksData = {
     },
     {
       "question":
-          "In \"Alice's Adventures in Wonderland,\" what does Alice follow down a rabbit hole?",
+          "What is Chimamanda Ngozi Adichie's novel about the Biafran war?",
+      "dialog": {
+        "title": "Half of a Yellow Sun",
+        "content": "An acclaimed story about the war's impact"
+      },
+      "options": [
+        {
+          "text": "We Should All Be Feminists",
+          "value": false,
+          "color": "yellow"
+        },
+        {"text": "Dear Ijeawele", "value": false, "color": "yellow"},
+        {"text": "Americanah", "value": false, "color": "yellow"},
+        {"text": "Half of a Yellow Sun", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "In Alice's Adventures in Wonderland, what does Alice follow down a rabbit hole?",
       "dialog": {
         "title": "A white rabbit",
         "content": "She follows the white rabbit on an adventure."
@@ -148,7 +177,7 @@ Map<String, dynamic> booksData = {
     },
     {
       "question":
-          "What's the name of the famous pirate in \"Treasure Island\" by Robert Louis Stevenson?",
+          "What's the name of the famous pirate in Treasure Island by Robert Louis Stevenson?",
       "dialog": {
         "title": "Long John Silver",
         "content": "Long John Silver is the primary antagonist."
@@ -162,7 +191,7 @@ Map<String, dynamic> booksData = {
     },
     {
       "question":
-          "Who wrote the classic novel \"Charlotte's Web\" about a pig named Wilbur and a spider named Charlotte?",
+          "Who wrote the classic novel Charlotte's Web about a pig named Wilbur and a spider named Charlotte?",
       "dialog": {
         "title": "E.B. White",
         "content": "E.B. White is the author of this beloved story."
@@ -172,6 +201,20 @@ Map<String, dynamic> booksData = {
         {"text": "Beverly Cleary", "value": false, "color": "yellow"},
         {"text": "Roald Dahl", "value": false, "color": "yellow"},
         {"text": "E.B. White", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "Which Ben Okri book about an abiku child won the Booker Prize?",
+      "dialog": {
+        "title": "The Famished Road",
+        "content": "Okri's acclaimed magical realist novel"
+      },
+      "options": [
+        {"text": "Songs of Enchantment", "value": false, "color": "yellow"},
+        {"text": "Dangerous Love", "value": false, "color": "yellow"},
+        {"text": "Astonishing the Gods", "value": false, "color": "yellow"},
+        {"text": "The Famished Road", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -205,7 +248,7 @@ Map<String, dynamic> booksData = {
     },
     {
       "question":
-          "In \"The Little Mermaid,\" what does Ariel give up in exchange for legs?",
+          "In The Little Mermaid, what does Ariel give up in exchange for legs?",
       "dialog": {
         "title": "Her voice",
         "content": "She trades her voice with Ursula the sea witch."
@@ -237,7 +280,25 @@ Map<String, dynamic> booksData = {
     },
     {
       "question":
-          "In \"Green Eggs and Ham,\" who tries to convince the character to try the unusual dish?",
+          "What debut novel by Ayobami Adebayo was shortlisted for the Baileys Prize?",
+      "dialog": {
+        "title": "Stay with Me",
+        "content": "About a Nigerian couple's relationship"
+      },
+      "options": [
+        {
+          "text": "The Secret Lives of the Four Wives",
+          "value": false,
+          "color": "yellow"
+        },
+        {"text": "The Full set of Sisters", "value": false, "color": "yellow"},
+        {"text": "Happiness, Like Water", "value": false, "color": "yellow"},
+        {"text": "Stay with Me", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "In Green Eggs and Ham, who tries to convince the character to try the unusual dish?",
       "dialog": {
         "title": "Sam-I-Am",
         "content": "Sam-I-Am is persistent in offering green eggs and ham."
@@ -250,7 +311,7 @@ Map<String, dynamic> booksData = {
       ]
     },
     {
-      "question": "Who wrote the book \"The Cat in the Hat\"?",
+      "question": "Who wrote the book The Cat in the Hat?",
       "dialog": {
         "title": "Dr. Seuss",
         "content": "Dr. Seuss is the author of this classic children's book."
@@ -277,7 +338,7 @@ Map<String, dynamic> booksData = {
       ]
     },
     {
-      "question": "In \"Winnie the Pooh,\" who is a timid, honey-loving bear?",
+      "question": "In Winnie the Pooh, who is a timid, honey-loving bear?",
       "dialog": {
         "title": "Winnie the Pooh",
         "content": "Winnie the Pooh is known for his love of honey."
@@ -287,6 +348,24 @@ Map<String, dynamic> booksData = {
         {"text": "Eeyore", "value": false, "color": "yellow"},
         {"text": "Piglet", "value": false, "color": "yellow"},
         {"text": "Winnie the Pooh", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "Which feminist Chimamanda Ngozi Adichie book was a letter to a friend?",
+      "dialog": {
+        "title": "Dear Ijeawele",
+        "content": "Guidance to a new mother on raising a feminist daughter"
+      },
+      "options": [
+        {"text": "Half of a Yellow Sun", "value": false, "color": "yellow"},
+        {
+          "text": "We Should All Be Feminists",
+          "value": false,
+          "color": "yellow"
+        },
+        {"text": "Americanah", "value": false, "color": "yellow"},
+        {"text": "Dear Ijeawele", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -305,7 +384,7 @@ Map<String, dynamic> booksData = {
     },
     {
       "question":
-          "Who wrote \"The Chronicles of Narnia\" series, featuring a magical world accessed through a wardrobe?",
+          "Who wrote The Chronicles of Narnia series, featuring a magical world accessed through a wardrobe?",
       "dialog": {
         "title": "C.S. Lewis",
         "content": "C.S. Lewis is the author of this series."
@@ -336,7 +415,7 @@ Map<String, dynamic> booksData = {
           "What's the name of the book about a young pig named Wilbur and his friendship with a spider named Charlotte?",
       "dialog": {
         "title": "Charlotte's Web",
-        "content": "The book is titled \"Charlotte's Web.\""
+        "content": "The book is titled Charlotte's Web."
       },
       "options": [
         {"text": "Babe", "value": false, "color": "yellow"},
@@ -347,10 +426,24 @@ Map<String, dynamic> booksData = {
     },
     {
       "question":
-          "In \"The Jungle Book,\" who is the young boy raised by wolves in the jungle?",
+          "What Booker Prize winning novel by Ben Okri is set in a Nigerian ghetto?",
+      "dialog": {
+        "title": "The Famished Road",
+        "content": "An acclaimed magical realist tale"
+      },
+      "options": [
+        {"text": "Dangerous Love", "value": false, "color": "yellow"},
+        {"text": "Songs of Enchantment", "value": false, "color": "yellow"},
+        {"text": "Astonishing the Gods", "value": false, "color": "yellow"},
+        {"text": "The Famished Road", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "In The Jungle Book, who is the young boy raised by wolves in the jungle?",
       "dialog": {
         "title": "Mowgli",
-        "content": "Mowgli is the main character of \"The Jungle Book.\""
+        "content": "Mowgli is the main character of The Jungle Book."
       },
       "options": [
         {"text": "Tarzan", "value": false, "color": "yellow"},
@@ -364,7 +457,7 @@ Map<String, dynamic> booksData = {
           "What's the title of the book series about a young girl named Bella Swan who falls in love with a vampire?",
       "dialog": {
         "title": "Twilight",
-        "content": "The series starts with \"Twilight.\""
+        "content": "The series starts with Twilight."
       },
       "options": [
         {"text": "The Vampire Chronicles", "value": false, "color": "yellow"},
@@ -375,7 +468,7 @@ Map<String, dynamic> booksData = {
     },
     {
       "question":
-          "In \"Percy Jackson and the Olympians,\" what is Percy's divine parent?",
+          "In Percy Jackson and the Olympians, what is Percy's divine parent?",
       "dialog": {
         "title": "Poseidon",
         "content": "Percy is the son of Poseidon, the god of the sea."
@@ -403,6 +496,24 @@ Map<String, dynamic> booksData = {
     },
     {
       "question":
+          "Which book of short stories by Chimamanda Ngozi Adichie reflects on Nigerian culture?",
+      "dialog": {
+        "title": "The Thing Around Your Neck",
+        "content": "Stories about Nigerians' immigrant experiences"
+      },
+      "options": [
+        {
+          "text": "We Should All Be Feminists",
+          "value": false,
+          "color": "yellow"
+        },
+        {"text": "Half of a Yellow Sun", "value": false, "color": "yellow"},
+        {"text": "Dear Ijeawele", "value": false, "color": "yellow"},
+        {"text": "The Thing Around Your Neck", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
           "What's the title of the book series about a young wizard named Artemis Fowl?",
       "dialog": {
         "title": "Artemis Fowl",
@@ -417,7 +528,7 @@ Map<String, dynamic> booksData = {
     },
     {
       "question":
-          "In \"Alice's Adventures in Wonderland,\" what character is always late and in a hurry?",
+          "In Alice's Adventures in Wonderland, what character is always late and in a hurry?",
       "dialog": {
         "title": "The White Rabbit",
         "content": "The White Rabbit is known for being late."
@@ -449,7 +560,7 @@ Map<String, dynamic> booksData = {
     },
     {
       "question":
-          "In \"Where the Wild Things Are,\" what do the wild things want to do with Max?",
+          "In Where the Wild Things Are, what do the wild things want to do with Max?",
       "dialog": {
         "title": "Make him king",
         "content": "The wild things want Max to be their king."
@@ -463,7 +574,21 @@ Map<String, dynamic> booksData = {
     },
     {
       "question":
-          "Who wrote the book \"The Secret Garden\" about a girl named Mary Lennox who discovers a hidden, magical garden?",
+          "What Sefi Atta novel traces the life of an educated single mother in Lagos?",
+      "dialog": {
+        "title": "Everything Good Will Come",
+        "content": "An award-winning coming of age tale"
+      },
+      "options": [
+        {"text": "A Bit of Difference", "value": false, "color": "yellow"},
+        {"text": "Swallow", "value": false, "color": "yellow"},
+        {"text": "The Bead Collector", "value": false, "color": "yellow"},
+        {"text": "Everything Good Will Come", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "Who wrote the book The Secret Garden about a girl named Mary Lennox who discovers a hidden, magical garden?",
       "dialog": {
         "title": "Frances Hodgson Burnett",
         "content": "The book is authored by Frances Hodgson Burnett."
@@ -488,7 +613,7 @@ Map<String, dynamic> booksData = {
     },
     {
       "question":
-          "In \"The Wind in the Willows,\" what type of animal is the character Mr. Toad?",
+          "In The Wind in the Willows, what type of animal is the character Mr. Toad?",
       "dialog": {"title": "A toad", "content": "Mr. Toad is a toad."},
       "options": [
         {"text": "A rabbit", "value": false, "color": "yellow"},
@@ -499,7 +624,7 @@ Map<String, dynamic> booksData = {
     },
     {
       "question":
-          "In \"The Hobbit,\" what is the name of the small, ring-obsessed creature that accompanies Bilbo on his adventure?",
+          "In The Hobbit, what is the name of the small, ring-obsessed creature that accompanies Bilbo on his adventure?",
       "dialog": {
         "title": "Gollum",
         "content": "Gollum is the character who possesses the One Ring."
@@ -509,6 +634,20 @@ Map<String, dynamic> booksData = {
         {"text": "Legolas", "value": false, "color": "yellow"},
         {"text": "Smaug", "value": false, "color": "yellow"},
         {"text": "Gollum", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "Whose first novel, Purple Hibiscus, portrayed an abusive Nigerian household?",
+      "dialog": {
+        "title": "Chimamanda Ngozi Adichie",
+        "content": "Launched her esteemed literary career"
+      },
+      "options": [
+        {"text": "Ben Okri", "value": false, "color": "yellow"},
+        {"text": "Chinelo Okparanta", "value": false, "color": "yellow"},
+        {"text": "Sefi Atta", "value": false, "color": "yellow"},
+        {"text": "Chimamanda Ngozi Adichie", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -527,7 +666,7 @@ Map<String, dynamic> booksData = {
     },
     {
       "question":
-          "Who is the author of the \"A Series of Unfortunate Events\" books, which follow the Baudelaire orphans' misadventures?",
+          "Who is the author of the A Series of Unfortunate Events books, which follow the Baudelaire orphans' misadventures?",
       "dialog": {
         "title": "Lemony Snicket",
         "content":
@@ -556,7 +695,7 @@ Map<String, dynamic> booksData = {
     },
     {
       "question":
-          "In \"Peter Pan,\" what is the name of the fairy who accompanies Peter and the Darling children to Neverland?",
+          "In Peter Pan, what is the name of the fairy who accompanies Peter and the Darling children to Neverland?",
       "dialog": {
         "title": "Tinker Bell",
         "content": "Tinker Bell is the tiny fairy."
@@ -566,6 +705,20 @@ Map<String, dynamic> booksData = {
         {"text": "Nana", "value": false, "color": "yellow"},
         {"text": "Tiger Lily", "value": false, "color": "yellow"},
         {"text": "Tinker Bell", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "What novel by Buchi Emecheta told of struggles for independence as a new bride?",
+      "dialog": {
+        "title": "The Bride Price",
+        "content": "Emecheta's early acclaimed work"
+      },
+      "options": [
+        {"text": "The Joys of Motherhood", "value": false, "color": "yellow"},
+        {"text": "Destination Biafra", "value": false, "color": "yellow"},
+        {"text": "Second-Class Citizen", "value": false, "color": "yellow"},
+        {"text": "The Bride Price", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -584,7 +737,7 @@ Map<String, dynamic> booksData = {
     },
     {
       "question":
-          "Who wrote the famous book \"The Very Hungry Caterpillar\" that tells the story of a caterpillar's transformation into a butterfly?",
+          "Who wrote the famous book The Very Hungry Caterpillar that tells the story of a caterpillar's transformation into a butterfly?",
       "dialog": {
         "title": "Eric Carle",
         "content": "Eric Carle is the author and illustrator of this book."
@@ -598,7 +751,7 @@ Map<String, dynamic> booksData = {
     },
     {
       "question":
-          "In \"Little Women,\" which sister is known for her love of writing and becomes an author in the story?",
+          "In Little Women, which sister is known for her love of writing and becomes an author in the story?",
       "dialog": {
         "title": "Jo March",
         "content": "Jo is the aspiring writer in the novel."
@@ -612,7 +765,7 @@ Map<String, dynamic> booksData = {
     },
     {
       "question":
-          "In \"The Secret Garden,\" what is the name of the hidden, neglected garden Mary discovers?",
+          "In The Secret Garden, what is the name of the hidden, neglected garden Mary discovers?",
       "dialog": {
         "title": "The Secret Garden",
         "content": "The garden's name is the same as the book's title."
@@ -622,6 +775,20 @@ Map<String, dynamic> booksData = {
         {"text": "The Mysterious Meadow", "value": false, "color": "yellow"},
         {"text": "The Hidden Oasis", "value": false, "color": "yellow"},
         {"text": "The Secret Garden", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "Whose debut The Secret Lives of the Four Wives explored polygamy in Nigeria?",
+      "dialog": {
+        "title": "Lola Shoneyin",
+        "content": "An insightful contemporary portrait"
+      },
+      "options": [
+        {"text": "Chimamanda Ngozi Adichie", "value": false, "color": "yellow"},
+        {"text": "Abi Dare", "value": false, "color": "yellow"},
+        {"text": "Ayobami Adebayo", "value": false, "color": "yellow"},
+        {"text": "Lola Shoneyin", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -680,35 +847,7 @@ Map<String, dynamic> booksData = {
     },
     {
       "question":
-          "In \"The Little Mermaid,\" what does Ariel give up in exchange for human legs?",
-      "dialog": {
-        "title": "Her voice",
-        "content": "Ariel trades her voice with Ursula the sea witch."
-      },
-      "options": [
-        {"text": "Her sight", "value": false, "color": "yellow"},
-        {"text": "Her beauty", "value": false, "color": "yellow"},
-        {"text": "Her memory", "value": false, "color": "yellow"},
-        {"text": "Her voice", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "What book series follows the adventures of a young girl named Katniss Everdeen in a dystopian society?",
-      "dialog": {
-        "title": "The Hunger Games",
-        "content": "Katniss is the protagonist in this series."
-      },
-      "options": [
-        {"text": "Divergent", "value": false, "color": "yellow"},
-        {"text": "The Maze Runner", "value": false, "color": "yellow"},
-        {"text": "The Giver", "value": false, "color": "yellow"},
-        {"text": "The Hunger Games", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "Who is the author of the \"Magic Tree House\" series, which follows the adventures of Jack and Annie as they travel through time?",
+          "Who is the author of the Magic Tree House series, which follows the adventures of Jack and Annie as they travel through time?",
       "dialog": {
         "title": "Mary Pope Osborne",
         "content": "Mary Pope Osborne is the author of this popular series."
@@ -718,6 +857,20 @@ Map<String, dynamic> booksData = {
         {"text": "Roald Dahl", "value": false, "color": "yellow"},
         {"text": "Enid Blyton", "value": false, "color": "yellow"},
         {"text": "Mary Pope Osborne", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "What bestselling Chimamanda Ngozi Adichie book was a feminist manifesto?",
+      "dialog": {
+        "title": "We Should All Be Feminists",
+        "content": "A powerful essay on gender roles"
+      },
+      "options": [
+        {"text": "Dear Ijeawele", "value": false, "color": "yellow"},
+        {"text": "Half of a Yellow Sun", "value": false, "color": "yellow"},
+        {"text": "Americanah", "value": false, "color": "yellow"},
+        {"text": "We Should All Be Feminists", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -736,7 +889,7 @@ Map<String, dynamic> booksData = {
     },
     {
       "question":
-          "In \"Goldilocks and the Three Bears,\" what does Goldilocks do when she enters the bears' home?",
+          "In Goldilocks and the Three Bears, what does Goldilocks do when she enters the bears' home?",
       "dialog": {
         "title":
             "She eats their porridge, sits in their chairs, and sleeps in their beds",
@@ -764,21 +917,7 @@ Map<String, dynamic> booksData = {
     },
     {
       "question":
-          "What book series features a young wizard named Percy Jackson and his adventures with Greek mythology?",
-      "dialog": {
-        "title": "Percy Jackson",
-        "content": "Percy is the demigod hero of this series."
-      },
-      "options": [
-        {"text": "Harry Potter", "value": false, "color": "yellow"},
-        {"text": "Artemis Fowl", "value": false, "color": "yellow"},
-        {"text": "Eragon", "value": false, "color": "yellow"},
-        {"text": "Percy Jackson", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "In \"The Cat in the Hat,\" what does the Cat balance on while causing chaos in the house?",
+          "In The Cat in the Hat, what does the Cat balance on while causing chaos in the house?",
       "dialog": {
         "title": "A ball",
         "content": "The Cat balances a variety of things on a ball."
@@ -814,7 +953,35 @@ Map<String, dynamic> booksData = {
     },
     {
       "question":
-          "In \"Alice's Adventures in Wonderland,\" what is the name of the grinning, mischievous cat?",
+          "Which novel by Chinelo Okparanta told about a lesbian couple?",
+      "dialog": {
+        "title": "Under the Udala Trees",
+        "content": "A story of same-sex love's struggles"
+      },
+      "options": [
+        {"text": "Happiness, Like Water", "value": false, "color": "yellow"},
+        {"text": "Dear Ijeawele", "value": false, "color": "yellow"},
+        {"text": "Half of a Yellow Sun", "value": false, "color": "yellow"},
+        {"text": "Under the Udala Trees", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "Whose first novel, The Secret Lives of Baba Segi's Wives, was about polygamy?",
+      "dialog": {
+        "title": "Lola Shoneyin",
+        "content": "A witty contemporary portrait"
+      },
+      "options": [
+        {"text": "Buchi Emecheta", "value": false, "color": "yellow"},
+        {"text": "Chimamanda Ngozi Adichie", "value": false, "color": "yellow"},
+        {"text": "Sefi Atta", "value": false, "color": "yellow"},
+        {"text": "Lola Shoneyin", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "In Alice's Adventures in Wonderland, what is the name of the grinning, mischievous cat?",
       "dialog": {
         "title": "The Cheshire Cat",
         "content": "The Cheshire Cat is known for its grin."
@@ -832,7 +999,7 @@ Map<String, dynamic> booksData = {
       "dialog": {
         "title": "Laura Ingalls Wilder",
         "content":
-            "Laura wrote about her own experiences in the \"Little House\" series."
+            "Laura wrote about her own experiences in the Little House series."
       },
       "options": [
         {"text": "Beverly Cleary", "value": false, "color": "yellow"},
@@ -843,21 +1010,7 @@ Map<String, dynamic> booksData = {
     },
     {
       "question":
-          "What's the title of the book series about a young boy wizard named Artemis Fowl, who is a criminal mastermind?",
-      "dialog": {
-        "title": "Artemis Fowl",
-        "content": "The series is named after the main character."
-      },
-      "options": [
-        {"text": "Percy Jackson", "value": false, "color": "yellow"},
-        {"text": "Harry Potter", "value": false, "color": "yellow"},
-        {"text": "Eragon", "value": false, "color": "yellow"},
-        {"text": "Artemis Fowl", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "In \"The Hobbit,\" what is the name of the dragon who guards the treasure in the Lonely Mountain?",
+          "In The Hobbit, what is the name of the dragon who guards the treasure in the Lonely Mountain?",
       "dialog": {"title": "Smaug", "content": "Smaug is the fearsome dragon."},
       "options": [
         {"text": "Drogon", "value": false, "color": "yellow"},
@@ -868,7 +1021,29 @@ Map<String, dynamic> booksData = {
     },
     {
       "question":
-          "In \"The Jungle Book,\" who is the wise and protective black panther who looks after Mowgli?",
+          "Whose book Swallow explored the cost of drug trafficking on Nigerian women?",
+      "dialog": {
+        "title": "Sefi Atta",
+        "content": "An acclaimed novel about the drug trade's impact"
+      },
+      "options": [
+        {
+          "text": "Everything Good Will Come",
+          "value": false,
+          "color": "yellow"
+        },
+        {
+          "text": "The Secret Lives of Baba Segi's Wives",
+          "value": false,
+          "color": "yellow"
+        },
+        {"text": "Under the Udala Trees", "value": false, "color": "yellow"},
+        {"text": "Sefi Atta", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "In The Jungle Book, who is the wise and protective black panther who looks after Mowgli?",
       "dialog": {
         "title": "Bagheera",
         "content": "Bagheera is Mowgli's protector and friend."
@@ -882,7 +1057,7 @@ Map<String, dynamic> booksData = {
     },
     {
       "question":
-          "What's the name of the magical land in \"The Wizard of Oz\" that Dorothy travels to after a tornado?",
+          "What's the name of the magical land in The Wizard of Oz that Dorothy travels to after a tornado?",
       "dialog": {"title": "Oz", "content": "The land is known as Oz."},
       "options": [
         {"text": "Wonderland", "value": false, "color": "yellow"},
@@ -893,21 +1068,7 @@ Map<String, dynamic> booksData = {
     },
     {
       "question":
-          "What book is about a young boy named Max who wears a wolf suit and embarks on imaginative adventures in a forest?",
-      "dialog": {
-        "title": "Where the Wild Things Are",
-        "content": "Max is the imaginative character in the book."
-      },
-      "options": [
-        {"text": "The Gruffalo", "value": false, "color": "yellow"},
-        {"text": "The BFG", "value": false, "color": "yellow"},
-        {"text": "Peter Pan", "value": false, "color": "yellow"},
-        {"text": "Where the Wild Things Are", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "Who wrote the classic novel \"A Wrinkle in Time\" about a young girl named Meg Murry and her interstellar journey?",
+          "Who wrote the classic novel A Wrinkle in Time about a young girl named Meg Murry and her interstellar journey?",
       "dialog": {
         "title": "Madeleine L'Engle",
         "content": "Madeleine L'Engle is the author of the book."
@@ -921,21 +1082,7 @@ Map<String, dynamic> booksData = {
     },
     {
       "question":
-          "What book series features a young girl named Katniss Everdeen who volunteers as tribute in a deadly competition?",
-      "dialog": {
-        "title": "The Hunger Games",
-        "content": "Katniss is the brave heroine in the series."
-      },
-      "options": [
-        {"text": "Divergent", "value": false, "color": "yellow"},
-        {"text": "The Maze Runner", "value": false, "color": "yellow"},
-        {"text": "The Giver", "value": false, "color": "yellow"},
-        {"text": "The Hunger Games", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "In \"Percy Jackson and the Olympians,\" what type of creatures does Percy encounter, including satyrs and centaurs?",
+          "In Percy Jackson and the Olympians, what type of creatures does Percy encounter, including satyrs and centaurs?",
       "dialog": {
         "title": "Mythical creatures",
         "content":
@@ -950,21 +1097,29 @@ Map<String, dynamic> booksData = {
     },
     {
       "question":
-          "What classic novel features the adventures of a young girl named Anne Shirley in the Canadian Maritimes?",
+          "Whose historical book Oil on Water explored oil conflict in the Niger Delta?",
       "dialog": {
-        "title": "Anne of Green Gables",
-        "content": "Anne is the imaginative redhead in the story."
+        "title": "Helon Habila",
+        "content": "An illuminating perspective on petro-politics"
       },
       "options": [
-        {"text": "Little Women", "value": false, "color": "yellow"},
-        {"text": "Pollyanna", "value": false, "color": "yellow"},
-        {"text": "Black Beauty", "value": false, "color": "yellow"},
-        {"text": "Anne of Green Gables", "value": true, "color": "yellow"}
+        {"text": "The Chibok Girls", "value": false, "color": "yellow"},
+        {
+          "text": "Nights of the Creaking Bed",
+          "value": false,
+          "color": "yellow"
+        },
+        {
+          "text": "The Secret Lives of Baba Segi's Wives",
+          "value": false,
+          "color": "yellow"
+        },
+        {"text": "Helon Habila", "value": true, "color": "yellow"}
       ]
     },
     {
       "question":
-          "In \"Matilda,\" what special power does the young girl Matilda possess?",
+          "In Matilda, what special power does the young girl Matilda possess?",
       "dialog": {
         "title": "Telekinesis",
         "content": "Matilda has the power of telekinesis."
@@ -978,21 +1133,7 @@ Map<String, dynamic> booksData = {
     },
     {
       "question":
-          "What book tells the story of a young elephant who is mocked for his large ears but learns to fly with the help of a magical feather?",
-      "dialog": {
-        "title": "Dumbo",
-        "content": "Dumbo is the young elephant who learns to fly."
-      },
-      "options": [
-        {"text": "Bambi", "value": false, "color": "yellow"},
-        {"text": "Ferdinand", "value": false, "color": "yellow"},
-        {"text": "Simba", "value": false, "color": "yellow"},
-        {"text": "Dumbo", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "In \"The Wind in the Willows,\" what type of animal is the character Ratty, who is friends with Mole?",
+          "In The Wind in the Willows, what type of animal is the character Ratty, who is friends with Mole?",
       "dialog": {
         "title": "A water vole",
         "content": "Ratty is a water vole, a type of riverbank rodent."
@@ -1038,22 +1179,21 @@ Map<String, dynamic> booksData = {
     },
     {
       "question":
-          "Who wrote the series of books about a young girl named Mary Lennox who discovers a hidden, magical garden?",
+          "Who wrote the classic book The Catcher in the Rye about a young boy named Holden Caulfield's experiences in New York City?",
       "dialog": {
-        "title": "Frances Hodgson Burnett",
-        "content":
-            "Frances Hodgson Burnett is the author of \"The Secret Garden.\""
+        "title": "J.D. Salinger",
+        "content": "J.D. Salinger is the author of The Catcher in the Rye."
       },
       "options": [
-        {"text": "Louisa May Alcott", "value": false, "color": "yellow"},
-        {"text": "Beatrix Potter", "value": false, "color": "yellow"},
-        {"text": "A.A. Milne", "value": false, "color": "yellow"},
-        {"text": "Frances Hodgson Burnett", "value": true, "color": "yellow"}
+        {"text": "F. Scott Fitzgerald", "value": false, "color": "yellow"},
+        {"text": "Ernest Hemingway", "value": false, "color": "yellow"},
+        {"text": "Mark Twain", "value": false, "color": "yellow"},
+        {"text": "J.D. Salinger", "value": true, "color": "yellow"}
       ]
     },
     {
       "question":
-          "In \"The Chronicles of Narnia,\" what is the name of the magical world accessed through a wardrobe?",
+          "In The Chronicles of Narnia, what is the name of the magical world accessed through a wardrobe?",
       "dialog": {"title": "Narnia", "content": "The land is called Narnia."},
       "options": [
         {"text": "Wonderland", "value": false, "color": "yellow"},
@@ -1074,33 +1214,6 @@ Map<String, dynamic> booksData = {
         {"text": "Big Nate", "value": false, "color": "yellow"},
         {"text": "Goosebumps", "value": false, "color": "yellow"},
         {"text": "Diary of a Wimpy Kid", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "In \"Where the Wild Things Are,\" what do the wild things want to do with Max?",
-      "dialog": {
-        "title": "Make him king",
-        "content": "The wild things want Max to be their king."
-      },
-      "options": [
-        {"text": "Eat him", "value": false, "color": "yellow"},
-        {"text": "Scare him", "value": false, "color": "yellow"},
-        {"text": "Tame him", "value": false, "color": "yellow"},
-        {"text": "Make him king", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "Who is the author of \"The Cat in the Hat\"?",
-      "dialog": {
-        "title": "Dr. Seuss",
-        "content": "Dr. Seuss is the author of this classic children's book."
-      },
-      "options": [
-        {"text": "Roald Dahl", "value": false, "color": "yellow"},
-        {"text": "Beatrix Potter", "value": false, "color": "yellow"},
-        {"text": "Shel Silverstein", "value": false, "color": "yellow"},
-        {"text": "Dr. Seuss", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1127,7 +1240,7 @@ Map<String, dynamic> booksData = {
     },
     {
       "question":
-          "In \"The Little Mermaid,\" what does Ariel trade her voice for with Ursula?",
+          "In The Little Mermaid, what does Ariel trade her voice for with Ursula?",
       "dialog": {
         "title": "A pair of human legs",
         "content": "Ariel trades her voice to become human."
@@ -1137,6 +1250,20 @@ Map<String, dynamic> booksData = {
         {"text": "A treasure chest", "value": false, "color": "yellow"},
         {"text": "A royal crown", "value": false, "color": "yellow"},
         {"text": "A pair of human legs", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "Whose memoir The Chibok Girls examined the infamous Boko Haram kidnapping?",
+      "dialog": {
+        "title": "Helon Habila",
+        "content": "Shed light on the horrifying mass abduction"
+      },
+      "options": [
+        {"text": "Oil on Water", "value": false, "color": "yellow"},
+        {"text": "Waiting for an Angel", "value": false, "color": "yellow"},
+        {"text": "Measuring Time", "value": false, "color": "yellow"},
+        {"text": "Helon Habila", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1159,21 +1286,7 @@ Map<String, dynamic> booksData = {
     },
     {
       "question":
-          "What book series features a young girl named Katniss Everdeen who becomes a symbol of rebellion in a dystopian world?",
-      "dialog": {
-        "title": "The Hunger Games",
-        "content": "Katniss is the strong protagonist in the series."
-      },
-      "options": [
-        {"text": "Divergent", "value": false, "color": "yellow"},
-        {"text": "The Maze Runner", "value": false, "color": "yellow"},
-        {"text": "The Giver", "value": false, "color": "yellow"},
-        {"text": "The Hunger Games", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "In \"Charlie and the Chocolate Factory,\" what are the children looking for when they find the golden tickets?",
+          "In Charlie and the Chocolate Factory, what are the children looking for when they find the golden tickets?",
       "dialog": {
         "title": "A tour of Willy Wonka's chocolate factory",
         "content": "The golden tickets grant them this opportunity."
@@ -1195,7 +1308,7 @@ Map<String, dynamic> booksData = {
     },
     {
       "question":
-          "In \"Goldilocks and the Three Bears,\" what do the bears discover when they return home?",
+          "In Goldilocks and the Three Bears, what do the bears discover when they return home?",
       "dialog": {
         "title": "Goldilocks sleeping in Baby Bear's bed",
         "content": "The bears find Goldilocks in Baby Bear's bed."
@@ -1213,21 +1326,7 @@ Map<String, dynamic> booksData = {
     },
     {
       "question":
-          "What classic novel features a young girl named Scout Finch and her father, Atticus, in the racially charged American South?",
-      "dialog": {
-        "title": "To Kill a Mockingbird",
-        "content": "Scout is the narrator, and Atticus is her father."
-      },
-      "options": [
-        {"text": "Huckleberry Finn", "value": false, "color": "yellow"},
-        {"text": "Little Women", "value": false, "color": "yellow"},
-        {"text": "Jane Eyre", "value": false, "color": "yellow"},
-        {"text": "To Kill a Mockingbird", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "In \"Matilda,\" who is the cruel and oppressive headmistress of Crunchem Hall Elementary School?",
+          "In Matilda, who is the cruel and oppressive headmistress of Crunchem Hall Elementary School?",
       "dialog": {
         "title": "Miss Trunchbull",
         "content": "Miss Trunchbull is the formidable antagonist."
@@ -1241,7 +1340,7 @@ Map<String, dynamic> booksData = {
     },
     {
       "question":
-          "Who wrote the classic children's book \"Where the Wild Things Are,\" about a young boy named Max and his imaginative adventures?",
+          "Who wrote the classic children's book Where the Wild Things Are, about a young boy named Max and his imaginative adventures?",
       "dialog": {
         "title": "Maurice Sendak",
         "content": "Maurice Sendak is the author and illustrator of the book."
@@ -1273,7 +1372,7 @@ Map<String, dynamic> booksData = {
     },
     {
       "question":
-          "In \"The Hobbit,\" what does Bilbo Baggins find deep within the Lonely Mountain?",
+          "In The Hobbit, what does Bilbo Baggins find deep within the Lonely Mountain?",
       "dialog": {
         "title": "The Arkenstone",
         "content": "Bilbo finds the Arkenstone, a valuable gem."
@@ -1287,21 +1386,7 @@ Map<String, dynamic> booksData = {
     },
     {
       "question":
-          "What book series follows the adventures of a young boy named Percy Jackson who is a demigod and the son of Poseidon?",
-      "dialog": {
-        "title": "Percy Jackson",
-        "content": "Percy Jackson is the demigod protagonist."
-      },
-      "options": [
-        {"text": "Harry Potter", "value": false, "color": "yellow"},
-        {"text": "Artemis Fowl", "value": false, "color": "yellow"},
-        {"text": "Eragon", "value": false, "color": "yellow"},
-        {"text": "Percy Jackson", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "In \"The Wizard of Oz,\" what does the Scarecrow wish for when he reaches the Emerald City?",
+          "In The Wizard of Oz, what does the Scarecrow wish for when he reaches the Emerald City?",
       "dialog": {
         "title": "A brain",
         "content": "The Scarecrow wishes for a brain."
@@ -1315,10 +1400,10 @@ Map<String, dynamic> booksData = {
     },
     {
       "question":
-          "Who is the author of \"The Phantom Tollbooth,\" a book about a young boy named Milo who embarks on a whimsical adventure?",
+          "Who is the author of The Phantom Tollbooth, a book about a young boy named Milo who embarks on a whimsical adventure?",
       "dialog": {
         "title": "Norton Juster",
-        "content": "Norton Juster is the author of \"The Phantom Tollbooth.\""
+        "content": "Norton Juster is the author of The Phantom Tollbooth."
       },
       "options": [
         {"text": "Roald Dahl", "value": false, "color": "yellow"},
@@ -1329,25 +1414,25 @@ Map<String, dynamic> booksData = {
     },
     {
       "question":
-          "What classic book tells the story of a young orphan named Anne Shirley who is mistakenly sent to Green Gables?",
+          "What LGBT novel by Jude Dibia was about a gay man's life in Nigeria?",
       "dialog": {
-        "title": "Anne of Green Gables",
-        "content": "Anne Shirley is the imaginative redhead in the story."
+        "title": "Walking with Shadows",
+        "content": "An early landmark for Nigerian queer lit"
       },
       "options": [
-        {"text": "Little Women", "value": false, "color": "yellow"},
-        {"text": "Pollyanna", "value": false, "color": "yellow"},
-        {"text": "Black Beauty", "value": false, "color": "yellow"},
-        {"text": "Anne of Green Gables", "value": true, "color": "yellow"}
+        {"text": "Unbridled", "value": false, "color": "yellow"},
+        {"text": "Wetin Dey", "value": false, "color": "yellow"},
+        {"text": "Under the Udala Trees", "value": false, "color": "yellow"},
+        {"text": "Walking with Shadows", "value": true, "color": "yellow"}
       ]
     },
     {
       "question":
-          "In \"The Chronicles of Narnia,\" what is the name of the magical wardrobe that serves as a portal to Narnia?",
+          "In The Chronicles of Narnia, what is the name of the magical wardrobe that serves as a portal to Narnia?",
       "dialog": {
         "title": "The Professor's wardrobe",
         "content":
-            "The wardrobe belongs to the Professor in \"The Lion, the Witch and the Wardrobe.\""
+            "The wardrobe belongs to the Professor in The Lion, the Witch and the Wardrobe."
       },
       "options": [
         {"text": "The Golden Wardrobe", "value": false, "color": "yellow"},
@@ -1358,11 +1443,10 @@ Map<String, dynamic> booksData = {
     },
     {
       "question":
-          "Who wrote the book \"The Wind in the Willows\" about the adventures of animals like Mole, Ratty, and Toad?",
+          "Who wrote the book The Wind in the Willows about the adventures of animals like Mole, Ratty, and Toad?",
       "dialog": {
         "title": "Kenneth Grahame",
-        "content":
-            "Kenneth Grahame is the author of \"The Wind in the Willows.\""
+        "content": "Kenneth Grahame is the author of The Wind in the Willows."
       },
       "options": [
         {"text": "Beatrix Potter", "value": false, "color": "yellow"},
@@ -1387,7 +1471,7 @@ Map<String, dynamic> booksData = {
     },
     {
       "question":
-          "In \"The Little Mermaid,\" what is the name of the prince that Ariel falls in love with?",
+          "In The Little Mermaid, what is the name of the prince that Ariel falls in love with?",
       "dialog": {
         "title": "Prince Eric",
         "content": "Prince Eric is the love interest in the story."
@@ -1415,7 +1499,7 @@ Map<String, dynamic> booksData = {
     },
     {
       "question":
-          "In \"A Wrinkle in Time,\" what is the name of Meg's younger brother who goes missing in space and time?",
+          "In A Wrinkle in Time, what is the name of Meg's younger brother who goes missing in space and time?",
       "dialog": {
         "title": "Charles Wallace Murry",
         "content": "Charles Wallace is the brother who goes missing."
@@ -1428,21 +1512,7 @@ Map<String, dynamic> booksData = {
       ]
     },
     {
-      "question":
-          "What book series features a young girl named Bella Swan who falls in love with a vampire named Edward Cullen?",
-      "dialog": {
-        "title": "Twilight",
-        "content": "Bella Swan is the protagonist in the \"Twilight\" series."
-      },
-      "options": [
-        {"text": "The Vampire Chronicles", "value": false, "color": "yellow"},
-        {"text": "The Mortal Instruments", "value": false, "color": "yellow"},
-        {"text": "Vampire Academy", "value": false, "color": "yellow"},
-        {"text": "Twilight", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "In \"Peter Pan,\" what is the name of Captain Hook's ship?",
+      "question": "In Peter Pan, what is the name of Captain Hook's ship?",
       "dialog": {
         "title": "The Jolly Roger",
         "content": "Captain Hook commands the ship called the Jolly Roger."
@@ -1452,20 +1522,6 @@ Map<String, dynamic> booksData = {
         {"text": "The Flying Dutchman", "value": false, "color": "yellow"},
         {"text": "The Golden Hind", "value": false, "color": "yellow"},
         {"text": "The Jolly Roger", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "Who wrote the classic book \"The Catcher in the Rye\" about a young boy named Holden Caulfield's experiences in New York City?",
-      "dialog": {
-        "title": "J.D. Salinger",
-        "content": "J.D. Salinger is the author of \"The Catcher in the Rye.\""
-      },
-      "options": [
-        {"text": "F. Scott Fitzgerald", "value": false, "color": "yellow"},
-        {"text": "Ernest Hemingway", "value": false, "color": "yellow"},
-        {"text": "Mark Twain", "value": false, "color": "yellow"},
-        {"text": "J.D. Salinger", "value": true, "color": "yellow"}
       ]
     }
   ]
