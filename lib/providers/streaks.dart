@@ -442,8 +442,11 @@ class StreaksProvider extends ChangeNotifier {
   }
 
   void updateLeaderboardStreak(bool correct) {
+    int index = permanentLeaderboardStreakList.indexOf(leaderboardStreak);
+
+
     if (correct) {
-      leaderboardStreak += 1;
+      leaderboardStreak = permanentLeaderboardStreakList[index + 1];
       box.put("leaderboardStreak", leaderboardStreak);
 
       if (leaderboardStreak > permanentLeaderboardStreak &&
@@ -452,7 +455,7 @@ class StreaksProvider extends ChangeNotifier {
         box.put("permanentLeaderboardStreak", permanentLeaderboardStreak);
       }
     } else {
-      leaderboardStreak = 0;
+      leaderboardStreak = le;
       box.put("leaderboardStreak", leaderboardStreak);
     }
 
