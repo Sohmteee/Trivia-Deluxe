@@ -50,7 +50,7 @@ Map streaks = {
     "image": "",
     "streaks": [
       {
-        "": {
+        "Coin Collector": {
           "subtitle": "Earn 50 coins",
           "status": false,
           "progress": 0,
@@ -58,7 +58,7 @@ Map streaks = {
         }
       },
       {
-        "": {
+        "Coin Hoarder": {
           "subtitle": "Earn 100 coins",
           "status": false,
           "progress": 0,
@@ -66,24 +66,24 @@ Map streaks = {
         }
       },
       {
-        "": {
-          "subtitle": "",
+        "Gold Gatherer": {
+          "subtitle": "Earn 200 coins",
           "status": false,
           "progress": 0,
           "limit": 200,
         }
       },
       {
-        "Earn 500 coins": {
-          "subtitle": "",
+        "Treasure Hunter": {
+          "subtitle": "Earn 500 coins",
           "status": false,
           "progress": 0,
           "limit": 500,
         }
       },
       {
-        "Earn 1000 coins": {
-          "subtitle": "",
+        "Coin Millionaire": {
+          "subtitle": "Earn 1000 coins",
           "status": false,
           "progress": 0,
           "limit": 1000,
