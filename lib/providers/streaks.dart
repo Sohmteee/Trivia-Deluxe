@@ -207,7 +207,8 @@ class StreaksProvider extends ChangeNotifier {
     levelStreak = level ?? levelStreak + 1;
     box.put("levelStreak", levelStreak);
 
-    if (levelStreak > permanentLevelStreak && levelStreak permanentLevelStreakList) {
+    if (levelStreak > permanentLevelStreak &&
+        permanentLevelStreakList.contains(levelStreak)) {
       permanentLevelStreak = levelStreak;
       box.put("permanentLevelStreak", permanentLevelStreak);
     }
