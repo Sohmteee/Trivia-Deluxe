@@ -127,7 +127,7 @@ List<Map<String, dynamic>> streaks = [
   {
     "title": "Leaderboard Streaks",
     "image": "assets/images/rank.png",
-    "streaks": {
+    "streaks": [
       {
         "title": "Achiever",
         "subtitle": "Rank top 10 on the leaderboard",
@@ -156,12 +156,12 @@ List<Map<String, dynamic>> streaks = [
         "progress": 0,
         "limit": 1,
       },
-    },
+    ],
   },
   {
     "title": "Ultimate Achievement",
     "image": "assets/images/goal.png",
-    "streaks": {
+    "streaks": [
       {
         "title": "Ultimate Achiever",
         "subtitle": "Finish all streaks",
@@ -169,7 +169,7 @@ List<Map<String, dynamic>> streaks = [
         "progress": 0,
         "limit": 19,
       },
-    }
+    ],
   },
 ];
 
