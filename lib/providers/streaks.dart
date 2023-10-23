@@ -404,9 +404,8 @@ class StreaksProvider extends ChangeNotifier {
       box.put("levelStreak", levelStreak);
     }
 
-    update
+    updateUltimateStreak();
     updateStreaksData();
-    
     notifyListeners();
   }
 
@@ -420,7 +419,7 @@ class StreaksProvider extends ChangeNotifier {
       box.put("permanentCoinStreak", permanentCoinStreak);
     }
 
-    update
+    updateUltimateStreak();
     updateStreaksData();
     notifyListeners();
   }
@@ -440,14 +439,13 @@ class StreaksProvider extends ChangeNotifier {
       box.put("triviaStreak", triviaStreak);
     }
 
-    update
+    updateUltimateStreak();
     updateStreaksData();
     notifyListeners();
   }
 
   void updateLeaderboardStreak(bool correct) {
     int index = permanentLeaderboardStreakList.indexOf(leaderboardStreak);
-
 
     if (correct) {
       leaderboardStreak = permanentLeaderboardStreakList[index + 1];
@@ -465,7 +463,7 @@ class StreaksProvider extends ChangeNotifier {
       box.put("leaderboardStreak", leaderboardStreak);
     }
 
-    update
+    updateUltimateStreak();
     updateStreaksData();
     notifyListeners();
   }
@@ -484,7 +482,7 @@ class StreaksProvider extends ChangeNotifier {
     ultimateStreak = totalStreaksFinished;
     box.put("ultimateStreak", ultimateStreak);
 
-    update
+    updateUltimateStreak();
     updateStreaksData();
     notifyListeners();
   }
