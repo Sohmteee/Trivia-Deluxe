@@ -119,7 +119,7 @@ Map streaks = {
         }
       },
       {
-        "": {
+        "Trivia Grandmaster": {
           "subtitle": "Answer 50 questions correctly in a row",
           "status": false,
           "progress": 0,
@@ -127,7 +127,7 @@ Map streaks = {
         }
       },
       {
-        "": {
+        "Trivia Maestro": {
           "subtitle": "Answer 100 questions correctly in a row",
           "status": false,
           "progress": 0,
@@ -140,32 +140,32 @@ Map streaks = {
     "image": "",
     "streaks": {
       {
-        "Rank top 10 on the leaderboard": {
-          "subtitle": "",
+        "": {
+          "subtitle": "Rank top 10 on the leaderboard",
           "status": false,
           "progress": 0,
           "limit": 1,
         },
       },
       {
-        "Rank top 5 on the leaderboard": {
-          "subtitle": "",
+        "": {
+          "subtitle": "Rank top 5 on the leaderboard",
           "status": false,
           "progress": 0,
           "limit": 1,
         },
       },
       {
-        "Rank top 3 on the leaderboard": {
-          "subtitle": "",
+        "": {
+          "subtitle": "Rank top 3 on the leaderboard",
           "status": false,
           "progress": 0,
           "limit": 1,
         },
       },
       {
-        "Rank first on the leaderboard": {
-          "subtitle": "",
+        "": {
+          "subtitle": "Rank first on the leaderboard",
           "status": false,
           "progress": 0,
           "limit": 1,
