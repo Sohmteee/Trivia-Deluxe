@@ -78,7 +78,10 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
               ],
             ),
             ListTile(
-              leading: Image.asset("assets/images/level.png"),
+              leading: Image.asset(
+                width: 20.w,
+                "assets/images/level.png",
+              ),
               title: Text(
                 "Complete 5 levels without failing",
                 style: TextStyle(
