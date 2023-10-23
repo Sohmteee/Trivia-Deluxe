@@ -5,7 +5,7 @@ class StreaksProvider extends ChangeNotifier {
   final permanentLevelStreakList = [5, 10, 20, 50, 100];
   final permanentCoinStreakList = [50, 100, 200, 500, 1000];
   final permanentTriviaStreakList = [5, 10, 20, 50, 100];
-  final permanentLeaderboardStreakList = [1, 3, 5, 10];
+  final permanentLeaderboardStreakList = [0, 10, 5, 3, 1];
 
   List<Map<String, dynamic>> streaks = box.get(
     "streaks",
@@ -436,7 +436,23 @@ class StreaksProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-  
+  void updateLeaderboardStreak(bool correct) {
+    if (correct) {
+      leaderboardStreak += 1;
+      box.put("leaderboardStreak", leaderboardStreak);
+
+      if (leaderboardStreak > permanentLeaderboardStreak &&
+          permanentLeaderboardStreakList.contains(leaderboardStreak)) {
+        permanentLeaderboardStreak = leaderboardStreak;
+        box.put("permanentLeaderboardStreak", permanentLeaderboardStreak);
+      }
+    } else {
+      leaderboardStreak = 0;
+      box.put("leaderboardStreak", leaderboardStreak);
+    }
+
+    notifyListeners();
+  }
 
   void updateStreakProgress(
       {required int streakIndex, required int subStreakIndex, int? progress}) {
