@@ -50,23 +50,23 @@ Map streaks = {
     "image": "",
     "streaks": [
       {
-        "Earn 50 coins": {
-          "subtitle": "",
+        "": {
+          "subtitle": "Earn 50 coins",
           "status": false,
           "progress": 0,
           "limit": 50,
         }
       },
       {
-        "Earn 100 coins": {
-          "subtitle": "",
+        "": {
+          "subtitle": "Earn 100 coins",
           "status": false,
           "progress": 0,
           "limit": 100,
         }
       },
       {
-        "Earn 200 coins": {
+        "": {
           "subtitle": "",
           "status": false,
           "progress": 0,
