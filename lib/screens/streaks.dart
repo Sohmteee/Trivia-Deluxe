@@ -67,10 +67,11 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                 textAlign: TextAlign.center,
               ),
             ),
-            SizedBox(height: 40.h),
+            SizedBox(height: 20.h),
             Expanded(
               child: ListView.separated(
                 itemCount: streaks.length,
+                padding: EdgeInsets.only(top: 20.h),
                 itemBuilder: (BuildContext context, int index) {
                   String streakTitle = streaks[index]["title"];
                   String image = streaks[index]["image"];
@@ -109,7 +110,7 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                   item["subtitle"],
                                   style: TextStyle(
                                     color: Vx.gray300,
-                                    fontSize: 12.sp,
+                                    fontSize: 14.sp,
                                   ),
                                 ),
                                 trailing: Column(
