@@ -195,6 +195,8 @@ class StreaksProvider extends ChangeNotifier {
           box.get("permanentLeaderboardStreak", defaultValue: 0);
   int ultimateStreak = box.get("ultimateStreak", defaultValue: 0);
 
+  bool steadyProgressStatus = box.get("")
+
   void updateStreakStatus(
       {required int streakIndex,
       required int subStreakIndex,
