@@ -9,7 +9,7 @@ class StreaksProvider extends ChangeNotifier {
 
   int count = 0;
 
-  List<Map<String, dynamic>> streaks = box.get(
+  List streaks = box.get(
     "streaks",
     defaultValue: [
       {
