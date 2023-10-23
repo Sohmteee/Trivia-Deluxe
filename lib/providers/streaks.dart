@@ -42,6 +42,7 @@ Map streaks = {
     ],
   },
   "Coin Streaks": {
+    "image": "",
     "streaks": [
       {
         "Earn 50 coins": {
@@ -81,6 +82,7 @@ Map streaks = {
     ],
   },
   "Trivia Streaks": {
+    "image": "",
     "streaks": {
       {
         "Answer 5 questions correctly in a row": {
@@ -119,6 +121,17 @@ Map streaks = {
       },
     },
   },
+  "Leaderboard Streaks": {
+    "image":"",
+    "streaks": 
+      {
+      "Complete 5 levels without failing": {
+        "status": false,
+        "progress": 0,
+        "limit": 5,
+      }
+    },
+  }
 };
 
 class StreaksProvider extends ChangeNotifier {}
