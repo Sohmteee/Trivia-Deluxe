@@ -29,16 +29,16 @@ Map streaks = {
         }
       },
       {
-        "Complete 50 levels without failing": {
-          "subtitle": "",
+        "Masterful Streak": {
+          "subtitle": "Complete 50 levels without failing",
           "status": false,
           "progress": 0,
           "limit": 50,
         }
       },
       {
-        "Complete 100 levels without failing": {
-          "subtitle": "",
+        "Unstoppable Champion": {
+          "subtitle": "Complete 100 levels without failing",
           "status": false,
           "progress": 0,
           "limit": 100,
