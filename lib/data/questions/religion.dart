@@ -373,21 +373,6 @@ Map<String, dynamic> religionData = {
       ]
     },
     {
-      "question":
-          "What is the Arabic term for the declaration of faith in Islam?",
-      "dialog": {
-        "title": "Shahada",
-        "content":
-            "The Shahada is the central and most fundamental tenet of Islamic faith in Islam."
-      },
-      "options": [
-        {"text": "Shahada", "value": true, "color": "yellow"},
-        {"text": "Salah", "value": false, "color": "yellow"},
-        {"text": "Zakat", "value": false, "color": "yellow"},
-        {"text": "Hajj", "value": false, "color": "yellow"}
-      ]
-    },
-    {
       "question": "What is the primary holy text of Islam besides the Quran?",
       "dialog": {
         "title": "Hadith",
@@ -428,21 +413,6 @@ Map<String, dynamic> religionData = {
         {"text": "Sacrifice", "value": false, "color": "yellow"},
         {"text": "Journey", "value": false, "color": "yellow"},
         {"text": "Cause and Effect", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "Which Islamic month is known as the month of fasting and is the ninth month of the Islamic lunar calendar?",
-      "dialog": {
-        "title": "Ramadan",
-        "content":
-            "Ramadan is the ninth month of the Islamic lunar calendar and is a time when Muslims around the world fast from dawn (Suhoor) until sunset (Iftar)."
-      },
-      "options": [
-        {"text": "Muharram", "value": false, "color": "yellow"},
-        {"text": "Ramadan", "value": true, "color": "yellow"},
-        {"text": "Dhul-Qi'dah", "value": false, "color": "yellow"},
-        {"text": "Safar", "value": false, "color": "yellow"}
       ]
     },
     {
