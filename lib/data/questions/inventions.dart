@@ -170,21 +170,6 @@ Map<String, dynamic> inventionsData = {
     },
     {
       "question":
-          "Who is the inventor known for developing the first successful airplane, making a historic flight in Kitty Hawk, North Carolina?",
-      "dialog": {
-        "title": "The Wright Brothers",
-        "content":
-            "The Wright Brothers, Orville and Wilbur Wright, are the inventors known for developing the first successful airplane and making a historic flight in Kitty Hawk, North Carolina."
-      },
-      "options": [
-        {"text": "Charles Lindbergh", "value": false, "color": "yellow"},
-        {"text": "Amelia Earhart", "value": false, "color": "yellow"},
-        {"text": "John Glenn", "value": false, "color": "yellow"},
-        {"text": "The Wright Brothers", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
           "What inventor is famous for his contributions to the development of the modern alternating current (AC) electrical system?",
       "dialog": {
         "title": "Nikola Tesla",
@@ -301,21 +286,6 @@ Map<String, dynamic> inventionsData = {
     },
     {
       "question":
-          "Who is famous for inventing the first practical electric fan?",
-      "dialog": {
-        "title": "Schuyler Skaats Wheeler",
-        "content":
-            "Schuyler Skaats Wheeler is known for inventing the first practical electric fan."
-      },
-      "options": [
-        {"text": "Sewing machine", "value": false, "color": "yellow"},
-        {"text": "Telegraph", "value": false, "color": "yellow"},
-        {"text": "Electric fan", "value": false, "color": "yellow"},
-        {"text": "Phonograph", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
           "What invention is associated with the name Johannes Gutenberg?",
       "dialog": {
         "title": "Printing press",
@@ -327,21 +297,6 @@ Map<String, dynamic> inventionsData = {
         {"text": "Telephone", "value": false, "color": "yellow"},
         {"text": "Printing press", "value": true, "color": "yellow"},
         {"text": "Electric fan", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "Who is known for inventing the first practical sewing machine with a lockstitch design?",
-      "dialog": {
-        "title": "Isaac Singer",
-        "content":
-            "Isaac Singer is known for inventing the first practical sewing machine with a lockstitch design."
-      },
-      "options": [
-        {"text": "Typewriter", "value": false, "color": "yellow"},
-        {"text": "Steam engine", "value": false, "color": "yellow"},
-        {"text": "Sewing machine", "value": false, "color": "yellow"},
-        {"text": "Refrigerator", "value": false, "color": "yellow"}
       ]
     },
     {
@@ -360,20 +315,6 @@ Map<String, dynamic> inventionsData = {
       ]
     },
     {
-      "question": "Who invented the first successful helicopter?",
-      "dialog": {
-        "title": "Igor Sikorsky",
-        "content":
-            "Igor Sikorsky is known for inventing the first successful helicopter, the VS-300."
-      },
-      "options": [
-        {"text": "Sewing machine", "value": false, "color": "yellow"},
-        {"text": "Refrigerator", "value": false, "color": "yellow"},
-        {"text": "Helicopter", "value": false, "color": "yellow"},
-        {"text": "Computer mouse", "value": false, "color": "yellow"}
-      ]
-    },
-    {
       "question": "What did Hiram Maxim invent in the late 19th century?",
       "dialog": {
         "title": "Machine gun",
@@ -385,21 +326,6 @@ Map<String, dynamic> inventionsData = {
         {"text": "Electric fan", "value": false, "color": "yellow"},
         {"text": "Machine gun", "value": true, "color": "yellow"},
         {"text": "Phonograph", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "Who is credited with inventing the first practical air conditioning system?",
-      "dialog": {
-        "title": "Willis Haviland Carrier",
-        "content":
-            "Willis Haviland Carrier is known for inventing the first practical air conditioning system."
-      },
-      "options": [
-        {"text": "Printing press", "value": false, "color": "yellow"},
-        {"text": "Typewriter", "value": false, "color": "yellow"},
-        {"text": "Air conditioning", "value": false, "color": "yellow"},
-        {"text": "Television", "value": false, "color": "yellow"}
       ]
     },
     {
@@ -418,21 +344,6 @@ Map<String, dynamic> inventionsData = {
     },
     {
       "question":
-          "Who is known for inventing the first successful light aircraft, the \"Kitty Hawk Flyer\"?",
-      "dialog": {
-        "title": "Orville and Wilbur Wright",
-        "content":
-            "Orville and Wilbur Wright are known for inventing the \"Kitty Hawk Flyer,\" the first successful powered aircraft."
-      },
-      "options": [
-        {"text": "Electric fan", "value": false, "color": "yellow"},
-        {"text": "Sewing machine", "value": false, "color": "yellow"},
-        {"text": "Airplane", "value": false, "color": "yellow"},
-        {"text": "Typewriter", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
           "What invention is associated with the name Benjamin Franklin?",
       "dialog": {
         "title": "Lightning rod",
@@ -443,21 +354,6 @@ Map<String, dynamic> inventionsData = {
         {"text": "Refrigerator", "value": false, "color": "yellow"},
         {"text": "Lightning rod", "value": true, "color": "yellow"},
         {"text": "Machine gun", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "Who is famous for inventing the first practical safety razor?",
-      "dialog": {
-        "title": "King C. Gillette",
-        "content":
-            "King C. Gillette is known for inventing the first practical safety razor."
-      },
-      "options": [
-        {"text": "Phonograph", "value": false, "color": "yellow"},
-        {"text": "Electric fan", "value": false, "color": "yellow"},
-        {"text": "Safety razor", "value": false, "color": "yellow"},
-        {"text": "Steam engine", "value": false, "color": "yellow"}
       ]
     },
     {
@@ -833,21 +729,6 @@ Map<String, dynamic> inventionsData = {
       ]
     },
     {
-      "question":
-          "What invention is associated with the name Charles Goodyear?",
-      "dialog": {
-        "title": "Vulcanized rubber",
-        "content":
-            "Charles Goodyear is known for inventing the process of vulcanizing rubber."
-      },
-      "options": [
-        {"text": "Machine gun", "value": false, "color": "yellow"},
-        {"text": "Braille system", "value": false, "color": "yellow"},
-        {"text": "Analytical Engine", "value": false, "color": "yellow"},
-        {"text": "Vulcanized rubber", "value": true, "color": "yellow"}
-      ]
-    },
-    {
       "question": "Who invented the first practical automatic dishwasher?",
       "dialog": {
         "title": "Josephine Cochrane",
@@ -878,11 +759,11 @@ Map<String, dynamic> inventionsData = {
     },
     {
       "question":
-          "Who is credited with inventing the first practical video game, \"Pong\"?",
+          "Who is credited with inventing the first practical video game, Pong?",
       "dialog": {
         "title": "Atari, Inc.",
         "content":
-            "Atari, Inc. is known for developing the first successful video game, \"Pong.\""
+            "Atari, Inc. is known for developing the first successful video game, Pong."
       },
       "options": [
         {"text": "Vulcanized rubber", "value": false, "color": "yellow"},
@@ -908,6 +789,21 @@ Map<String, dynamic> inventionsData = {
     },
     {
       "question":
+          "Who invented the first working helicopter prototype in Nigeria in 1986?",
+      "dialog": {
+        "title": "Engr. Jelani Aliyu",
+        "content":
+            "Jelani Aliyu created the first functional helicopter prototype."
+      },
+      "options": [
+        {"text": "Ibrahim Abubakar", "value": false, "color": "yellow"},
+        {"text": "Samuel Achilefu", "value": false, "color": "yellow"},
+        {"text": "Basil Agboarumi", "value": false, "color": "yellow"},
+        {"text": "Engr. Jelani Aliyu", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
           "Who is known for inventing the first practical microwave oven?",
       "dialog": {
         "title": "Percy Spencer",
@@ -919,6 +815,20 @@ Map<String, dynamic> inventionsData = {
         {"text": "Lewis Howard Latimer", "value": false, "color": "yellow"},
         {"text": "Percy Spencer", "value": true, "color": "yellow"},
         {"text": "Television", "value": false, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "What internet fraud technique involving impersonating people online originated in Nigeria in the 1990s?",
+      "dialog": {
+        "title": "419 Scam",
+        "content": "The advance fee 419 scam originated in Nigeria."
+      },
+      "options": [
+        {"text": "Spear phishing", "value": false, "color": "yellow"},
+        {"text": "Pretexting", "value": false, "color": "yellow"},
+        {"text": "Pharming", "value": false, "color": "yellow"},
+        {"text": "419 Scam", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -938,6 +848,20 @@ Map<String, dynamic> inventionsData = {
     },
     {
       "question":
+          "What snack made from roasted peanuts originated in northern Nigeria as kuli-kuli?",
+      "dialog": {
+        "title": "Peanut crisps",
+        "content": "Kuli-kuli are a peanut snack food from Nigeria."
+      },
+      "options": [
+        {"text": "Peanut brittle", "value": false, "color": "yellow"},
+        {"text": "Peanut butter", "value": false, "color": "yellow"},
+        {"text": "Peanut bars", "value": false, "color": "yellow"},
+        {"text": "Peanut crisps", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
           "Who is credited with inventing the first practical hearing aid?",
       "dialog": {
         "title": "Miller Reese Hutchison",
@@ -949,6 +873,34 @@ Map<String, dynamic> inventionsData = {
         {"text": "Sewing machine", "value": false, "color": "yellow"},
         {"text": "Compiler", "value": false, "color": "yellow"},
         {"text": "Miller Reese Hutchison", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "Who invented the sickle cell disease diagnostic tool SickleScan in 2016?",
+      "dialog": {
+        "title": "Dare Oladipo",
+        "content": "Dare Oladipo invented SickleScan to test for sickle cell."
+      },
+      "options": [
+        {"text": "Oluwatoyin Ashiru", "value": false, "color": "yellow"},
+        {"text": "Cyprian Emeka Uzoh", "value": false, "color": "yellow"},
+        {"text": "Oluyinka Olutoye", "value": false, "color": "yellow"},
+        {"text": "Dare Oladipo", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "Who pioneered the technique of using dried seeds as beads worn as jewelry in Nigeria?",
+      "dialog": {
+        "title": "Joan Akpaka",
+        "content": "Joan Akpaka pioneered seed bead art jewelry."
+      },
+      "options": [
+        {"text": "Nike Okundaye", "value": false, "color": "yellow"},
+        {"text": "Theresa Nwagwu", "value": false, "color": "yellow"},
+        {"text": "Peju Alatise", "value": false, "color": "yellow"},
+        {"text": "Joan Akpaka", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -968,6 +920,20 @@ Map<String, dynamic> inventionsData = {
     },
     {
       "question":
+          "Whose invention of a smokeless coal stove cut indoor air pollution in Nigeria?",
+      "dialog": {
+        "title": "Oluwayemisi Obike",
+        "content": "Obike invented a cleaner burning stove."
+      },
+      "options": [
+        {"text": "Agbebi Ajileye", "value": false, "color": "yellow"},
+        {"text": "Mohammed Bah Abba", "value": false, "color": "yellow"},
+        {"text": "Segun Adebutu", "value": false, "color": "yellow"},
+        {"text": "Oluwayemisi Obike", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
           "Who is famous for inventing the first practical barcode scanner?",
       "dialog": {
         "title": "Norman Joseph Woodland",
@@ -983,17 +949,16 @@ Map<String, dynamic> inventionsData = {
     },
     {
       "question":
-          "Who is known for inventing the first practical handheld calculator?",
+          "Who invented Alabukun powder, a local anesthetic and antiseptic used in Nigeria?",
       "dialog": {
-        "title": "Jack Kilby",
-        "content":
-            "Jack Kilby is known for inventing the first practical handheld calculator."
+        "title": "Agbebi Ajileye",
+        "content": "Agbebi Ajileye invented the Alabukun powder in the 1920s."
       },
       "options": [
-        {"text": "Vulcanized rubber", "value": false, "color": "yellow"},
-        {"text": "Atari, Inc.", "value": false, "color": "yellow"},
-        {"text": "Jack Kilby", "value": true, "color": "yellow"},
-        {"text": "Compiler", "value": false, "color": "yellow"}
+        {"text": "Theresa Nwagwu", "value": false, "color": "yellow"},
+        {"text": "Garba Idris", "value": false, "color": "yellow"},
+        {"text": "Oluwayemisi Obike", "value": false, "color": "yellow"},
+        {"text": "Agbebi Ajileye", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1016,25 +981,6 @@ Map<String, dynamic> inventionsData = {
     },
     {
       "question":
-          "Who is famous for inventing the first practical photocopier?",
-      "dialog": {
-        "title": "Chester Carlson",
-        "content":
-            "Chester Carlson is known for inventing the first practical photocopier."
-      },
-      "options": [
-        {"text": "Compiler", "value": false, "color": "yellow"},
-        {"text": "Jack Kilby", "value": false, "color": "yellow"},
-        {
-          "text": "Frequency-hopping technology",
-          "value": false,
-          "color": "yellow"
-        },
-        {"text": "Chester Carlson", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
           "What did \u00c3\u2030douard Michelin invent in the 19th century, related to tires?",
       "dialog": {
         "title": "Pneumatic tire",
@@ -1046,6 +992,20 @@ Map<String, dynamic> inventionsData = {
         {"text": "Water frame", "value": false, "color": "yellow"},
         {"text": "Pneumatic tire", "value": true, "color": "yellow"},
         {"text": "Vulcanized rubber", "value": false, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "What Nigerian first synthesized a drug called Rioxin to treat trypanosomiasis?",
+      "dialog": {
+        "title": "Isa Marte Hussaini",
+        "content": "Isa Marte Hussaini created the anti-trypanosomal drug."
+      },
+      "options": [
+        {"text": "Chukuka Okonjo", "value": false, "color": "yellow"},
+        {"text": "Oluyinka Olutoye", "value": false, "color": "yellow"},
+        {"text": "Njideka Ugwumba", "value": false, "color": "yellow"},
+        {"text": "Isa Marte Hussaini", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1068,17 +1028,17 @@ Map<String, dynamic> inventionsData = {
       ]
     },
     {
-      "question": "What invention is associated with the name Tim Berners-Lee?",
+      "question":
+          "Whose technology converts plastic waste into interlocking construction bricks?",
       "dialog": {
-        "title": "World Wide Web (WWW)",
-        "content":
-            "Tim Berners-Lee is credited with inventing the World Wide Web (WWW)."
+        "title": "Olawale Adewale",
+        "content": "Olawale Adewale invented the conversion process."
       },
       "options": [
-        {"text": "Atmospheric engine", "value": false, "color": "yellow"},
-        {"text": "Jack Kilby", "value": false, "color": "yellow"},
-        {"text": "World Wide Web (WWW)", "value": true, "color": "yellow"},
-        {"text": "Vulcanized rubber", "value": false, "color": "yellow"}
+        {"text": "Atinuke Aweda", "value": false, "color": "yellow"},
+        {"text": "Segun Adebutu", "value": false, "color": "yellow"},
+        {"text": "Oluwatoyin Ashiru", "value": false, "color": "yellow"},
+        {"text": "Olawale Adewale", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1094,6 +1054,34 @@ Map<String, dynamic> inventionsData = {
         {"text": "Pneumatic tire", "value": false, "color": "yellow"},
         {"text": "Steven Sasson", "value": true, "color": "yellow"},
         {"text": "Compiler", "value": false, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "Who pioneered wind turbine technology for electricity generation in Nigeria?",
+      "dialog": {
+        "title": "Emeka Okonkwo",
+        "content": "Emeka Okonkwo advanced wind power."
+      },
+      "options": [
+        {"text": "Segun Adebutu", "value": false, "color": "yellow"},
+        {"text": "Mohammed Bah Abba", "value": false, "color": "yellow"},
+        {"text": "Njideka Ugwumba", "value": false, "color": "yellow"},
+        {"text": "Emeka Okonkwo", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "Who invented a rescue drone called the Aerobot for disaster management in 2019?",
+      "dialog": {
+        "title": "Oluwatobiloba Amusan",
+        "content": "Amusan created drones for emergency response."
+      },
+      "options": [
+        {"text": "Garba Idris", "value": false, "color": "yellow"},
+        {"text": "Ibrahim Abubakar", "value": false, "color": "yellow"},
+        {"text": "Nonso Amadi", "value": false, "color": "yellow"},
+        {"text": "Oluwatobiloba Amusan", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1117,6 +1105,20 @@ Map<String, dynamic> inventionsData = {
     },
     {
       "question":
+          "What Nigerian engineer pioneered terraforming technology to regrow forests in the Sahel region?",
+      "dialog": {
+        "title": "Abel Adeleke",
+        "content": "Abel Adeleke created technology to regrow forests."
+      },
+      "options": [
+        {"text": "Babatunde Abiodun", "value": false, "color": "yellow"},
+        {"text": "Adenike Adeyemi", "value": false, "color": "yellow"},
+        {"text": "Njideka Ugwumba", "value": false, "color": "yellow"},
+        {"text": "Abel Adeleke", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
           "Who is famous for inventing the first practical lithium-ion battery?",
       "dialog": {
         "title": "John B. Goodenough",
@@ -1132,6 +1134,20 @@ Map<String, dynamic> inventionsData = {
     },
     {
       "question":
+          "Whose natural insecticide derived from neem oil protects crops from pests?",
+      "dialog": {
+        "title": "Adenike Adeyemi",
+        "content": "Adenike Adeyemi produced natural insecticides."
+      },
+      "options": [
+        {"text": "Theresa Nwagwu", "value": false, "color": "yellow"},
+        {"text": "Garba Idris", "value": false, "color": "yellow"},
+        {"text": "Atinuke Aweda", "value": false, "color": "yellow"},
+        {"text": "Adenike Adeyemi", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
           "What invention is associated with the name Joseph Nic\u00c3\u00a9phore Ni\u00c3\u00a9pce?",
       "dialog": {
         "title": "Photography",
@@ -1139,7 +1155,7 @@ Map<String, dynamic> inventionsData = {
             "Joseph Nic\u00c3\u00a9phore Ni\u00c3\u00a9pce is known for pioneering photography with the heliography process."
       },
       "options": [
-        {"text": "Jack Kilby", "value": false, "color": "yellow"},
+        {"text": "Photography", "value": true, "color": "yellow"},
         {"text": "World Wide Web (WWW)", "value": false, "color": "yellow"},
         {"text": "Heliography", "value": false, "color": "yellow"},
         {"text": "Compiler", "value": false, "color": "yellow"}
@@ -1147,21 +1163,16 @@ Map<String, dynamic> inventionsData = {
     },
     {
       "question":
-          "Who is credited with inventing the first practical smoke detector?",
+          "What Nigerian developed a bulletproof human surveillance robot in 2017?",
       "dialog": {
-        "title": "Walter Jaeger",
-        "content":
-            "Walter Jaeger is known for inventing the first practical ionization smoke detector."
+        "title": "Oluyinka Olutoye",
+        "content": "Oluyinka Olutoye created a robot guardsman."
       },
       "options": [
-        {
-          "text": "Frequency-hopping technology",
-          "value": false,
-          "color": "yellow"
-        },
-        {"text": "Atmospheric engine", "value": false, "color": "yellow"},
-        {"text": "Smoke detector", "value": false, "color": "yellow"},
-        {"text": "Vulcanized rubber", "value": false, "color": "yellow"}
+        {"text": "Chukuka Okonjo", "value": false, "color": "yellow"},
+        {"text": "Nonso Amadi", "value": false, "color": "yellow"},
+        {"text": "Olawale Adewale", "value": false, "color": "yellow"},
+        {"text": "Oluyinka Olutoye", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1180,17 +1191,17 @@ Map<String, dynamic> inventionsData = {
       ]
     },
     {
-      "question": "Who is known for inventing the first practical snowmobile?",
+      "question":
+          "Whose invention charges phones using radio frequencies from antennas?",
       "dialog": {
-        "title": "Joseph-Armand Bombardier",
-        "content":
-            "Joseph-Armand Bombardier is known for inventing the first practical snowmobile."
+        "title": "Babatunde Abiodun",
+        "content": "Babatunde Abiodun found a way to charge phones."
       },
       "options": [
-        {"text": "Photography", "value": false, "color": "yellow"},
-        {"text": "Steven Sasson", "value": false, "color": "yellow"},
-        {"text": "Snowmobile", "value": false, "color": "yellow"},
-        {"text": "Compiler", "value": false, "color": "yellow"}
+        {"text": "Adenike Adeyemi", "value": false, "color": "yellow"},
+        {"text": "Atinuke Aweda", "value": false, "color": "yellow"},
+        {"text": "Abel Adeleke", "value": false, "color": "yellow"},
+        {"text": "Babatunde Abiodun", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1208,41 +1219,40 @@ Map<String, dynamic> inventionsData = {
     },
     {
       "question":
-          "Who is famous for inventing the first practical breathalyzer?",
+          "Who pioneered artificial intelligence for detecting cyber crimes in Nigeria?",
       "dialog": {
-        "title": "Robert F. Borkenstein",
-        "content":
-            "Robert F. Borkenstein is known for inventing the practical breathalyzer."
+        "title": "Bassey Ekpenyong",
+        "content": "Bassey Ekpenyong advanced AI for cybersecurity."
       },
       "options": [
-        {"text": "Smoke detector", "value": false, "color": "yellow"},
-        {"text": "Atmospheric engine", "value": false, "color": "yellow"},
-        {"text": "Breathalyzer", "value": false, "color": "yellow"},
-        {"text": "Vulcanized rubber", "value": false, "color": "yellow"}
+        {"text": "Garba Idris", "value": false, "color": "yellow"},
+        {"text": "Nonso Amadi", "value": false, "color": "yellow"},
+        {"text": "Oluyinka Olutoye", "value": false, "color": "yellow"},
+        {"text": "Bassey Ekpenyong", "value": true, "color": "yellow"}
       ]
     },
     {
       "question":
           "What did Percy Shaw invent in the 20th century related to road safety?",
       "dialog": {
-        "title": "Cat's eye (road reflector)",
+        "title": "Cat's eye",
         "content":
             "Percy Shaw is known for inventing the cat's eye, a road reflector."
       },
       "options": [
         {"text": "Frozen food", "value": false, "color": "yellow"},
         {"text": "Joseph-Armand Bombardier", "value": false, "color": "yellow"},
-        {"text": "Cat's eye", "value": false, "color": "yellow"},
+        {"text": "Cat's eye", "value": true, "color": "yellow"},
         {"text": "Waterproof fabric", "value": false, "color": "yellow"}
       ]
     },
     {
       "question":
-          "Who is credited with inventing the first practical home video game console, the \"Magnavox Odyssey\"?",
+          "Who is credited with inventing the first practical home video game console, the Magnavox Odyssey?",
       "dialog": {
         "title": "Ralph H. Baer",
         "content":
-            "Ralph H. Baer is known for inventing the \"Magnavox Odyssey,\" the first home video game console."
+            "Ralph H. Baer is known for inventing the Magnavox Odyssey, the first home video game console."
       },
       "options": [
         {"text": "Photography", "value": false, "color": "yellow"},
@@ -1268,41 +1278,25 @@ Map<String, dynamic> inventionsData = {
     },
     {
       "question":
-          "Who is known for inventing the first practical handheld electronic calculator, the \"Pocketronic\"?",
+          "Whose patented microbial biofertilizer helps Nigerian farmers naturally enrich soil?",
       "dialog": {
-        "title": "Jack Kilby",
-        "content":
-            "Jack Kilby is known for his role in the development of the first handheld electronic calculator, the \"Pocketronic.\""
+        "title": "Cyprian Emeka Uzoh",
+        "content": "Cyprian Emeka Uzoh created natural biofertilizers."
       },
       "options": [
-        {"text": "Breathalyzer", "value": false, "color": "yellow"},
-        {"text": "Cat's eye", "value": false, "color": "yellow"},
-        {"text": "Pocketronic", "value": false, "color": "yellow"},
-        {"text": "Compiler", "value": false, "color": "yellow"}
+        {"text": "Njideka Ugwumba", "value": false, "color": "yellow"},
+        {"text": "Theresa Nwagwu", "value": false, "color": "yellow"},
+        {"text": "Oluwatobiloba Amusan", "value": false, "color": "yellow"},
+        {"text": "Cyprian Emeka Uzoh", "value": true, "color": "yellow"}
       ]
     },
     {
       "question":
-          "What invention is associated with the name Sir Tim Berners-Lee?",
-      "dialog": {
-        "title": "World Wide Web (WWW)",
-        "content":
-            "Sir Tim Berners-Lee is credited with inventing the World Wide Web (WWW)."
-      },
-      "options": [
-        {"text": "Smoke detector", "value": false, "color": "yellow"},
-        {"text": "Ralph H. Baer", "value": false, "color": "yellow"},
-        {"text": "World Wide Web (WWW)", "value": true, "color": "yellow"},
-        {"text": "Vulcanized rubber", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "Who invented the first practical automatic coffee maker, the \"Mr. Coffee\"?",
+          "Who invented the first practical automatic coffee maker, the Mr. Coffee?",
       "dialog": {
         "title": "Vincent Marotta",
         "content":
-            "Vincent Marotta is known for inventing the \"Mr. Coffee\" automatic drip coffee maker."
+            "Vincent Marotta is known for inventing the Mr. Coffee automatic drip coffee maker."
       },
       "options": [
         {"text": "Snowmobile", "value": false, "color": "yellow"},
@@ -1323,21 +1317,6 @@ Map<String, dynamic> inventionsData = {
         {"text": "Jack Kilby", "value": false, "color": "yellow"},
         {"text": "Windshield wiper", "value": true, "color": "yellow"},
         {"text": "Heliography", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "Who is famous for inventing the first practical smoke detector?",
-      "dialog": {
-        "title": "Walter Jaeger",
-        "content":
-            "Walter Jaeger is known for inventing the first practical ionization smoke detector."
-      },
-      "options": [
-        {"text": "Pocketronic", "value": false, "color": "yellow"},
-        {"text": "Sir Tim Berners-Lee", "value": false, "color": "yellow"},
-        {"text": "Smoke detector", "value": false, "color": "yellow"},
-        {"text": "Compiler", "value": false, "color": "yellow"}
       ]
     },
     {
@@ -1371,6 +1350,20 @@ Map<String, dynamic> inventionsData = {
     },
     {
       "question":
+          "Who developed wireless transmission equipment adopted by Nigerian broadcast companies?",
+      "dialog": {
+        "title": "Engr Garba Idris",
+        "content": "Garba Idris pioneered Nigerian broadcasting equipment."
+      },
+      "options": [
+        {"text": "Atinuke Aweda", "value": false, "color": "yellow"},
+        {"text": "Emeka Okonkwo", "value": false, "color": "yellow"},
+        {"text": "Chukuka Okonjo", "value": false, "color": "yellow"},
+        {"text": "Engr Garba Idris", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
           "What invention is associated with the name Sir Frank Whittle?",
       "dialog": {
         "title": "Jet engine",
@@ -1381,21 +1374,6 @@ Map<String, dynamic> inventionsData = {
         {"text": "Walter Jaeger", "value": false, "color": "yellow"},
         {"text": "Jet engine", "value": true, "color": "yellow"},
         {"text": "Vulcanized rubber", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "Who invented the first practical microwave oven for household use?",
-      "dialog": {
-        "title": "Percy Spencer",
-        "content":
-            "Percy Spencer is known for inventing the first practical microwave oven for household use."
-      },
-      "options": [
-        {"text": "Pocketronic", "value": false, "color": "yellow"},
-        {"text": "Vincent Marotta", "value": false, "color": "yellow"},
-        {"text": "Percy Spencer", "value": true, "color": "yellow"},
-        {"text": "Mr. Coffee", "value": false, "color": "yellow"}
       ]
     },
     {
@@ -1415,6 +1393,20 @@ Map<String, dynamic> inventionsData = {
     },
     {
       "question":
+          "Who innovated natural cassava starch bioplastic as an eco-friendly alternative?",
+      "dialog": {
+        "title": "Mohammed Bah Abba",
+        "content": "Mohammed Bah Abba pioneered cassava bioplastic."
+      },
+      "options": [
+        {"text": "Abel Adeleke", "value": false, "color": "yellow"},
+        {"text": "Adenike Adeyemi", "value": false, "color": "yellow"},
+        {"text": "Olawale Adewale", "value": false, "color": "yellow"},
+        {"text": "Mohammed Bah Abba", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
           "Who is famous for inventing the first practical computer mouse with a ball mechanism?",
       "dialog": {
         "title": "Douglas Engelbart",
@@ -1429,24 +1421,6 @@ Map<String, dynamic> inventionsData = {
       ]
     },
     {
-      "question": "What invention is associated with the name Hedy Lamarr?",
-      "dialog": {
-        "title": "Frequency-hopping technology",
-        "content":
-            "Hedy Lamarr is known for her contributions to frequency-hopping technology used in secure communications."
-      },
-      "options": [
-        {"text": "Jet engine", "value": false, "color": "yellow"},
-        {"text": "Walter Jaeger", "value": false, "color": "yellow"},
-        {
-          "text": "Frequency-hopping technology",
-          "value": true,
-          "color": "yellow"
-        },
-        {"text": "Vulcanized rubber", "value": false, "color": "yellow"}
-      ]
-    },
-    {
       "question":
           "Who is credited with inventing the first practical electric toothbrush?",
       "dialog": {
@@ -1455,7 +1429,7 @@ Map<String, dynamic> inventionsData = {
             "Philippe-G. Woog is known for inventing the first practical electric toothbrush."
       },
       "options": [
-        {"text": "Percy Spencer", "value": false, "color": "yellow"},
+        {"text": "Philippe-G. Woog", "value": true, "color": "yellow"},
         {"text": "Sir Frank Whittle", "value": false, "color": "yellow"},
         {"text": "Electric toothbrush", "value": false, "color": "yellow"},
         {"text": "Jonas Salk", "value": false, "color": "yellow"}
@@ -1478,17 +1452,16 @@ Map<String, dynamic> inventionsData = {
     },
     {
       "question":
-          "Who is known for inventing the first practical snow blower, also known as a snow thrower?",
+          "Whose patented mycobiotics utilize fungus to eliminate drug-resistant diseases?",
       "dialog": {
-        "title": "Arthur Sicard",
-        "content":
-            "Arthur Sicard is known for inventing the first practical snow blower."
+        "title": "Oluyinka Olutoye",
+        "content": "Oluyinka Olutoye developed antifungal antibiotics."
       },
       "options": [
-        {"text": "Jet engine", "value": false, "color": "yellow"},
-        {"text": "Walter Jaeger", "value": false, "color": "yellow"},
-        {"text": "Snow blower", "value": false, "color": "yellow"},
-        {"text": "Vulcanized rubber", "value": false, "color": "yellow"}
+        {"text": "Bassey Ekpenyong", "value": false, "color": "yellow"},
+        {"text": "Cyprian Emeka Uzoh", "value": false, "color": "yellow"},
+        {"text": "Nonso Amadi", "value": false, "color": "yellow"},
+        {"text": "Oluyinka Olutoye", "value": true, "color": "yellow"}
       ]
     },
     {
