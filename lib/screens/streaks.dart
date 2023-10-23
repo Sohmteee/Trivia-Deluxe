@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:trivia/colors/app_color.dart';
+import 'package:trivia/main.dart';
 import 'package:trivia/models/game_background.dart';
+import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 class StreaksScreeen extends StatefulWidget {
   const StreaksScreeen({super.key});
@@ -52,6 +54,48 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                 fontSize: 25.sp,
               ),
               textAlign: TextAlign.center,
+            ),
+            const Spacer(),
+            ZoomTapAnimation(
+              onTap: () {
+                playTap(context);
+                return true;
+              },
+              child: Container(
+                padding:
+                    EdgeInsets.symmetric(horizontal: 20.sp, vertical: 10.sp),
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(20.r),
+                ),
+                child: Text(
+                  "Yes, I'll create a profile now",
+                  style: TextStyle(
+                    fontSize: 15.sp,
+                  ),
+                ),
+              ),
+            ),
+            const Spacer(),
+            ZoomTapAnimation(
+              onTap: () {
+                playTap(context);
+                return true;
+              },
+              child: Container(
+                padding:
+                    EdgeInsets.symmetric(horizontal: 20.sp, vertical: 10.sp),
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(20.r),
+                ),
+                child: Text(
+                  "Yes, I'll create a profile now",
+                  style: TextStyle(
+                    fontSize: 15.sp,
+                  ),
+                ),
+              ),
             ),
             const Spacer(),
           ],
