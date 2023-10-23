@@ -215,8 +215,17 @@ class _MenuScreenState extends State<MenuScreen>
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
                       children: [
-                        SizedBox(
+                        Container(
                           height: 35.h,
+                          decoration: BoxDecoration(
+                            boxShadow: [
+                              BoxShadow(
+                                color: AppColor.yellow.withOpacity(.5),
+                                blurRadius: 20.sp,
+                                offset: const Offset(0, 5),
+                              ),
+                            ],
+                          ),
                           child: ZoomTapAnimation(
                             onTap: () {
                               playTap(context);
@@ -290,6 +299,7 @@ class _MenuScreenState extends State<MenuScreen>
                           ],
                         ),
                         Container(
+                          height: 35.h,
                           decoration: BoxDecoration(
                             boxShadow: [
                               BoxShadow(
@@ -299,7 +309,6 @@ class _MenuScreenState extends State<MenuScreen>
                               ),
                             ],
                           ),
-                          height: 35.h,
                           child: ZoomTapAnimation(
                             onTap: () {
                               playTap(context);
