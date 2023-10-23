@@ -38,6 +38,43 @@ Map streaks = {
       }
     },
   ],
+  "Coin Streaks": [
+    {
+      "Earn 50 coins": {
+        "status": false,
+        "progress": 0,
+        "limit": 50,
+      }
+    },
+    {
+      "Earn 50 coins": {
+        "status": false,
+        "progress": 0,
+        "limit": 50,
+      }
+    },
+    {
+      "Earn 50 coins": {
+        "status": false,
+        "progress": 0,
+        "limit": 50,
+      }
+    },
+    {
+      "Earn 50 coins": {
+        "status": false,
+        "progress": 0,
+        "limit": 50,
+      }
+    },
+    {
+      "Earn 50 coins": {
+        "status": false,
+        "progress": 0,
+        "limit": 50,
+      }
+    },
+  ]
 };
 
 class StreaksProvider extends ChangeNotifier {}
