@@ -230,6 +230,11 @@ class StreaksProvider extends ChangeNotifier {
 
   bool ultimateAchieverStatus = box.get("ultimateAchieverStatus", defaultValue: false);
 
+  void updateStreaksData() {
+    box.put("streaks", streaks);
+    notifyListeners();
+  }
+
   void updateStreakStatus(
       {required int streakIndex,
       required int subStreakIndex,
