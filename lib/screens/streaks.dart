@@ -56,7 +56,7 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
     return GameBackground(
       body: Consumer<StreaksProvider>(builder: (context, streaksProvider, _) {
         return Padding(
-          padding: EdgeInsets.fr(horizontal: 40.w, vertical: 40.h),
+          padding: EdgeInsets.fromLTRB(40.w, 40.h, 40.w, 0),
           child: Column(
             children: [
               Center(
