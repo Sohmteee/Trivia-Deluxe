@@ -206,14 +206,14 @@ class StreaksProvider extends ChangeNotifier {
             "title": "Steady Progress",
             "subtitle": "Complete 5 levels without failing",
             "status": permanentLevelStreak >= 5,
-            "progress": permanentLevelStreak >= 5 ? 5 : levelStreak,
+            "progress": permanentLevelStreak >= 5 ? 5 : levelStreak >= 5 ? 5 : levelStreak,
             "limit": 5,
           },
           {
             "title": "Leveling Up",
             "subtitle": "Complete 10 levels without failing",
             "status": permanentLevelStreak >= 10,
-            "progress": permanentLevelStreak >= 10 ? 10 : levelStreak,
+            "progress": permanentLevelStreak >= 10 ? 10 : levelStreak >= 10 ? 10 : levelStreak,
             "limit": 10,
           },
           {
