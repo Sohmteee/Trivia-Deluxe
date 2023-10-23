@@ -11,7 +11,7 @@ List<Map<String, dynamic>> streaks = [
           "status": false,
           "progress": 0,
           "limit": 5,
-        
+        }
       },
       {
         
@@ -19,7 +19,7 @@ List<Map<String, dynamic>> streaks = [
           "status": false,
           "progress": 0,
           "limit": 10,
-        
+        }
       },
       {
         
@@ -27,7 +27,7 @@ List<Map<String, dynamic>> streaks = [
           "status": false,
           "progress": 0,
           "limit": 20,
-        
+        }
       },
       {
         
@@ -35,7 +35,7 @@ List<Map<String, dynamic>> streaks = [
           "status": false,
           "progress": 0,
           "limit": 50,
-        
+        }
       },
       {
         
@@ -43,7 +43,7 @@ List<Map<String, dynamic>> streaks = [
           "status": false,
           "progress": 0,
           "limit": 100,
-        
+        }
       },
     ],
   },
@@ -57,7 +57,7 @@ List<Map<String, dynamic>> streaks = [
           "status": false,
           "progress": 0,
           "limit": 50,
-        
+        }
       },
       {
         
@@ -65,7 +65,7 @@ List<Map<String, dynamic>> streaks = [
           "status": false,
           "progress": 0,
           "limit": 100,
-        
+        }
       },
       {
         
@@ -73,7 +73,7 @@ List<Map<String, dynamic>> streaks = [
           "status": false,
           "progress": 0,
           "limit": 200,
-        
+        }
       },
       {
         
@@ -81,7 +81,7 @@ List<Map<String, dynamic>> streaks = [
           "status": false,
           "progress": 0,
           "limit": 500,
-        
+        }
       },
       {
         
@@ -89,7 +89,7 @@ List<Map<String, dynamic>> streaks = [
           "status": false,
           "progress": 0,
           "limit": 1000,
-        
+        }
       },
     ],
   },
@@ -103,7 +103,7 @@ List<Map<String, dynamic>> streaks = [
           "status": false,
           "progress": 0,
           "limit": 5,
-        
+        }
       },
       {
         
@@ -111,7 +111,7 @@ List<Map<String, dynamic>> streaks = [
           "status": false,
           "progress": 0,
           "limit": 10,
-        
+        }
       },
       {
 
@@ -119,7 +119,7 @@ List<Map<String, dynamic>> streaks = [
           "status": false,
           "progress": 0,
           "limit": 20,
-        
+        }
       },
       {
         
@@ -127,7 +127,7 @@ List<Map<String, dynamic>> streaks = [
           "status": false,
           "progress": 0,
           "limit": 50,
-        
+        }
       },
       {
         
@@ -135,7 +135,7 @@ List<Map<String, dynamic>> streaks = [
           "status": false,
           "progress": 0,
           "limit": 100,
-        
+        }
       },
     },
   },
@@ -149,7 +149,7 @@ List<Map<String, dynamic>> streaks = [
           "status": false,
           "progress": 0,
           "limit": 1,
-        }
+        },
       },
       {
         
@@ -157,7 +157,7 @@ List<Map<String, dynamic>> streaks = [
           "status": false,
           "progress": 0,
           "limit": 1,
-        }
+        },
       },
       {
         
@@ -165,15 +165,15 @@ List<Map<String, dynamic>> streaks = [
           "status": false,
           "progress": 0,
           "limit": 1,
-        }
-      },
+        
+      
       {
         
           "title": "Leaderboard Champion","subtitle": "Rank first on the leaderboard",
           "status": false,
           "progress": 0,
           "limit": 1,
-        }
+        },
       },
     },
   },
@@ -187,7 +187,7 @@ List<Map<String, dynamic>> streaks = [
           "status": false,
           "progress": 0,
           "limit": 19,
-        }
+        },
       },
     }
   },
