@@ -93,8 +93,8 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                             .map(
                               (item) => ListTile(
                                 leading: Image.asset(
-                                  width: 38.w,
-                                  "assets/images/level.png",
+                                  width: 35.w,
+                                  image,
                                 ),
                                 title: Text(
                                   "Complete 5 levels without failing",
