@@ -47,34 +47,72 @@ Map streaks = {
       }
     },
     {
-      "Earn 50 coins": {
+      "Earn 100 coins": {
         "status": false,
         "progress": 0,
-        "limit": 50,
+        "limit": 100,
       }
     },
     {
-      "Earn 50 coins": {
+      "Earn 200 coins": {
         "status": false,
         "progress": 0,
-        "limit": 50,
+        "limit": 200,
       }
     },
     {
-      "Earn 50 coins": {
+      "Earn 500 coins": {
         "status": false,
         "progress": 0,
-        "limit": 50,
+        "limit": 500,
       }
     },
     {
-      "Earn 50 coins": {
+      "Earn 1000 coins": {
         "status": false,
         "progress": 0,
-        "limit": 50,
+        "limit": 1000,
       }
     },
-  ]
+  ],
+  "Trivia Streaks": {
+    
+    {
+      "Answer 5 questions correctly in a row": {
+        "status": false,
+        "progress": 0,
+        "limit": 5,
+      }
+    },
+    {
+      "Answer 10 questions correctly in a row": {
+        "status": false,
+        "progress": 0,
+        "limit": 10,
+      }
+    },
+    {
+      "Answer 5 questions correctly in a row": {
+        "status": false,
+        "progress": 0,
+        "limit": 5,
+      }
+    },
+    {
+      "Answer 5 questions correctly in a row": {
+        "status": false,
+        "progress": 0,
+        "limit": 5,
+      }
+    },
+    {
+      "Answer 5 questions correctly in a row": {
+        "status": false,
+        "progress": 0,
+        "limit": 5,
+      }
+    },
+  }
 };
 
 class StreaksProvider extends ChangeNotifier {}
