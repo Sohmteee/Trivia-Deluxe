@@ -159,10 +159,10 @@ Map streaks = {
     "streaks": {
       
       {
-        "Rank top 10 on the leaderboard": {
+        "Finish all streaks": {
           "status": false,
           "progress": 0,
-          "limit": 1,
+          "limit": ,
         },
       },
     }
