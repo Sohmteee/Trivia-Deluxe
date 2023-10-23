@@ -4,7 +4,7 @@ Map<String, dynamic> animeData = {
   "currentLevel": 1,
   "data": [
     {
-      "question": "Who is the protagonist in \"Naruto\"?",
+      "question": "Who is the protagonist in Naruto?",
       "dialog": {
         "title": "Naruto Uzumaki",
         "content": "Naruto Uzumaki is the main character."
@@ -17,21 +17,8 @@ Map<String, dynamic> animeData = {
       ]
     },
     {
-      "question": "What is the name of the pirate crew in \"One Piece\"?",
-      "dialog": {
-        "title": "Straw Hat Pirates",
-        "content": "The Straw Hat Pirates are led by Monkey D. Luffy."
-      },
-      "options": [
-        {"text": "Red-Haired Pirates", "value": false, "color": "yellow"},
-        {"text": "Black Beard", "value": false, "color": "yellow"},
-        {"text": "Whitebeard Pirates", "value": false, "color": "yellow"},
-        {"text": "Straw Hat Pirates", "value": true, "color": "yellow"}
-      ]
-    },
-    {
       "question":
-          "In \"Pok\u00c3\u00a9mon,\" what type of Pok\u00c3\u00a9mon is Pikachu?",
+          "In Pok\u00c3\u00a9mon, what type of Pok\u00c3\u00a9mon is Pikachu?",
       "dialog": {
         "title": "Electric",
         "content": "Pikachu is an Electric-type Pok\u00c3\u00a9mon."
@@ -44,85 +31,7 @@ Map<String, dynamic> animeData = {
       ]
     },
     {
-      "question": "What is the magical item in \"Cardcaptor Sakura\"?",
-      "dialog": {
-        "title": "Clow Cards",
-        "content": "Sakura captures Clow Cards in the series."
-      },
-      "options": [
-        {"text": "Magic Wands", "value": false, "color": "yellow"},
-        {"text": "Crystal Balls", "value": false, "color": "yellow"},
-        {"text": "Spell Books", "value": false, "color": "yellow"},
-        {"text": "Clow Cards", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "Who is known as the \"Fullmetal Alchemist\"?",
-      "dialog": {
-        "title": "Edward Elric",
-        "content": "Edward Elric is the Fullmetal Alchemist."
-      },
-      "options": [
-        {"text": "Alphonse Elric", "value": false, "color": "yellow"},
-        {"text": "Roy Mustang", "value": false, "color": "yellow"},
-        {"text": "Winry Rockbell", "value": false, "color": "yellow"},
-        {"text": "Edward Elric", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "What is the name of the ninja village in \"Naruto\"?",
-      "dialog": {
-        "title": "Konohagakure",
-        "content": "Konohagakure is Naruto's home village."
-      },
-      "options": [
-        {"text": "Sunagakure", "value": false, "color": "yellow"},
-        {"text": "Kirigakure", "value": false, "color": "yellow"},
-        {"text": "Iwagakure", "value": false, "color": "yellow"},
-        {"text": "Konohagakure", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "Who is the main character in \"My Neighbor Totoro\"?",
-      "dialog": {
-        "title": "Satsuki",
-        "content": "Satsuki is one of the main characters."
-      },
-      "options": [
-        {"text": "Totoro", "value": false, "color": "yellow"},
-        {"text": "Mei", "value": false, "color": "yellow"},
-        {"text": "Kanta", "value": false, "color": "yellow"},
-        {"text": "Satsuki", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "In \"Dragon Ball Z,\" what are the dragon balls used for?",
-      "dialog": {
-        "title": "Granting Wishes",
-        "content": "The dragon balls grant wishes when collected."
-      },
-      "options": [
-        {"text": "Summons Dragons", "value": false, "color": "yellow"},
-        {"text": "Magical Battles", "value": false, "color": "yellow"},
-        {"text": "Finding Treasure", "value": false, "color": "yellow"},
-        {"text": "Granting Wishes", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "What is the name of the magical world in \"Sailor Moon\"?",
-      "dialog": {
-        "title": "Silver Millennium",
-        "content": "The Silver Millennium is the Moon Kingdom."
-      },
-      "options": [
-        {"text": "Crystal Empire", "value": false, "color": "yellow"},
-        {"text": "Moonlight Realm", "value": false, "color": "yellow"},
-        {"text": "Starlight Kingdom", "value": false, "color": "yellow"},
-        {"text": "Silver Millennium", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "Who is Ash's best friend in \"Pok\u00c3\u00a9mon\"?",
+      "question": "Who is Ash's best friend in Pok\u00c3\u00a9mon?",
       "dialog": {
         "title": "Pikachu",
         "content": "Pikachu is Ash's loyal companion."
@@ -135,7 +44,438 @@ Map<String, dynamic> animeData = {
       ]
     },
     {
-      "question": "What is the main sport in \"Haikyuu!!\"?",
+      "question": "What is the name of the mysterious organization in Naruto?",
+      "dialog": {
+        "title": "Akatsuki",
+        "content": "The Akatsuki are a group of rogue ninja."
+      },
+      "options": [
+        {"text": "Sound Five", "value": false, "color": "yellow"},
+        {"text": "Hidden Leaf", "value": false, "color": "yellow"},
+        {"text": "Uchiha Clan", "value": false, "color": "yellow"},
+        {"text": "Akatsuki", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "What is the name of the pirate crew in One Piece?",
+      "dialog": {
+        "title": "Straw Hat Pirates",
+        "content": "The Straw Hat Pirates are led by Monkey D. Luffy."
+      },
+      "options": [
+        {"text": "Red-Haired Pirates", "value": false, "color": "yellow"},
+        {"text": "Black Beard", "value": false, "color": "yellow"},
+        {"text": "Whitebeard Pirates", "value": false, "color": "yellow"},
+        {"text": "Straw Hat Pirates", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "Who is the main character in One Punch Man?",
+      "dialog": {
+        "title": "Saitama",
+        "content": "Saitama, also known as One Punch Man."
+      },
+      "options": [
+        {"text": "Genos", "value": false, "color": "yellow"},
+        {"text": "Sonic", "value": false, "color": "yellow"},
+        {"text": "Mumen Rider", "value": false, "color": "yellow"},
+        {"text": "Saitama", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "In One Piece, what is the name of Sanji's special fighting style?",
+      "dialog": {
+        "title": "Black Leg Style",
+        "content": "Sanji is known for his Black Leg Style."
+      },
+      "options": [
+        {"text": "Fish-Man Karate", "value": false, "color": "yellow"},
+        {"text": "Rokushiki", "value": false, "color": "yellow"},
+        {"text": "Haki", "value": false, "color": "yellow"},
+        {"text": "Black Leg Style", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "What is the magical item in Cardcaptor Sakura?",
+      "dialog": {
+        "title": "Clow Cards",
+        "content": "Sakura captures Clow Cards in the series."
+      },
+      "options": [
+        {"text": "Magic Wands", "value": false, "color": "yellow"},
+        {"text": "Crystal Balls", "value": false, "color": "yellow"},
+        {"text": "Spell Books", "value": false, "color": "yellow"},
+        {"text": "Clow Cards", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "In Naruto, who is Naruto's childhood crush?",
+      "dialog": {
+        "title": "Sakura",
+        "content": "Naruto has a crush on Sakura Haruno."
+      },
+      "options": [
+        {"text": "Hinata", "value": false, "color": "yellow"},
+        {"text": "Ino", "value": false, "color": "yellow"},
+        {"text": "Tenten", "value": false, "color": "yellow"},
+        {"text": "Sakura", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "Who is the captain of the Straw Hat Pirates in One Piece?",
+      "dialog": {
+        "title": "Monkey D. Luffy",
+        "content": "Luffy is the captain of the Straw Hat Pirates."
+      },
+      "options": [
+        {"text": "Roronoa Zoro", "value": false, "color": "yellow"},
+        {"text": "Nami", "value": false, "color": "yellow"},
+        {"text": "Usopp", "value": false, "color": "yellow"},
+        {"text": "Monkey D. Luffy", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "What is the goal of the main character in One Punch Man?",
+      "dialog": {
+        "title": "Become a Hero",
+        "content": "Saitama aims to become a hero for fun."
+      },
+      "options": [
+        {"text": "Get rich", "value": false, "color": "yellow"},
+        {"text": "Find a villain", "value": false, "color": "yellow"},
+        {"text": "Win a tournament", "value": false, "color": "yellow"},
+        {"text": "Become a Hero", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "Who is the famous pirate captain in One Piece?",
+      "dialog": {
+        "title": "Gol D. Roger",
+        "content": "Gol D. Roger is known as the Pirate King."
+      },
+      "options": [
+        {"text": "Red-Haired Shanks", "value": false, "color": "yellow"},
+        {"text": "Whitebeard", "value": false, "color": "yellow"},
+        {"text": "Kaido", "value": false, "color": "yellow"},
+        {"text": "Gol D. Roger", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "What is the name of the ninja village in Naruto?",
+      "dialog": {
+        "title": "Konohagakure",
+        "content": "Konohagakure is Naruto's home village."
+      },
+      "options": [
+        {"text": "Sunagakure", "value": false, "color": "yellow"},
+        {"text": "Kirigakure", "value": false, "color": "yellow"},
+        {"text": "Iwagakure", "value": false, "color": "yellow"},
+        {"text": "Konohagakure", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "In Naruto, what is the name of the powerful demon fox sealed inside Naruto?",
+      "dialog": {
+        "title": "Kurama",
+        "content": "Kurama is the Nine-Tails, a powerful tailed beast."
+      },
+      "options": [
+        {"text": "Shukaku", "value": false, "color": "yellow"},
+        {"text": "Gyuki", "value": false, "color": "yellow"},
+        {"text": "Kurama", "value": true, "color": "yellow"},
+        {"text": "Isobu", "value": false, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "In One Piece, who is known as the Pirate Hunter?",
+      "dialog": {
+        "title": "Roronoa Zoro",
+        "content": "Zoro is known as the Pirate Hunter."
+      },
+      "options": [
+        {"text": "Nami", "value": false, "color": "yellow"},
+        {"text": "Luffy", "value": false, "color": "yellow"},
+        {"text": "Sanji", "value": false, "color": "yellow"},
+        {"text": "Roronoa Zoro", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "In Naruto, what is Sasuke's signature jutsu?",
+      "dialog": {
+        "title": "Chidori",
+        "content": "Sasuke's powerful jutsu is the Chidori."
+      },
+      "options": [
+        {"text": "Rasengan", "value": false, "color": "yellow"},
+        {"text": "Shadow Clone Jutsu", "value": false, "color": "yellow"},
+        {"text": "Fireball Jutsu", "value": false, "color": "yellow"},
+        {"text": "Chidori", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "What is the name of the pirate ship in One Piece?",
+      "dialog": {
+        "title": "Thousand Sunny",
+        "content": "The Thousand Sunny is the Straw Hat Pirates' ship."
+      },
+      "options": [
+        {"text": "Red Force", "value": false, "color": "yellow"},
+        {"text": "Going Merry", "value": false, "color": "yellow"},
+        {"text": "Baratie", "value": false, "color": "yellow"},
+        {"text": "Thousand Sunny", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "In One Punch Man, what is the hero name of Saitama?",
+      "dialog": {
+        "title": "Caped Baldy",
+        "content": "Saitama goes by the hero name Caped Baldy."
+      },
+      "options": [
+        {"text": "Tornado of Terror", "value": false, "color": "yellow"},
+        {"text": "Atomic Samurai", "value": false, "color": "yellow"},
+        {"text": "Silver Fang", "value": false, "color": "yellow"},
+        {"text": "Caped Baldy", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "In One Piece, what is the name of Luffy's signature attack?",
+      "dialog": {
+        "title": "Gum-Gum Pistol",
+        "content": "Luffy uses the Gum-Gum Pistol as a powerful punch."
+      },
+      "options": [
+        {"text": "Gum-Gum Gatling", "value": false, "color": "yellow"},
+        {"text": "Gum-Gum Bazooka", "value": false, "color": "yellow"},
+        {"text": "Gum-Gum Red Hawk", "value": false, "color": "yellow"},
+        {"text": "Gum-Gum Pistol", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "In Naruto, who is the Hokage of the Hidden Leaf Village at the beginning of the series?",
+      "dialog": {
+        "title": "Hiruzen Sarutobi",
+        "content": "Hiruzen Sarutobi serves as the Third Hokage."
+      },
+      "options": [
+        {"text": "Minato Namikaze", "value": false, "color": "yellow"},
+        {"text": "Tsunade", "value": false, "color": "yellow"},
+        {"text": "Kakashi Hatake", "value": false, "color": "yellow"},
+        {"text": "Hiruzen Sarutobi", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "In One Piece, what is Zoro's ultimate goal?",
+      "dialog": {
+        "title": "To become the world's greatest swordsman",
+        "content": "Zoro aims to become the best swordsman."
+      },
+      "options": [
+        {"text": "To find the One Piece", "value": false, "color": "yellow"},
+        {
+          "text": "To become the Pirate King",
+          "value": false,
+          "color": "yellow"
+        },
+        {"text": "To catch the most fish", "value": false, "color": "yellow"},
+        {
+          "text": "To become the world's greatest swordsman",
+          "value": true,
+          "color": "yellow"
+        }
+      ]
+    },
+    {
+      "question": "What is the ninja headband symbol in Naruto?",
+      "dialog": {
+        "title": "Leaf Village Symbol",
+        "content": "The Leaf Village symbol represents Konohagakure."
+      },
+      "options": [
+        {"text": "Water Symbol", "value": false, "color": "yellow"},
+        {"text": "Fire Symbol", "value": false, "color": "yellow"},
+        {"text": "Wind Symbol", "value": false, "color": "yellow"},
+        {"text": "Leaf Village Symbol", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "In Naruto, what is the name of Sasuke's clan?",
+      "dialog": {
+        "title": "Uchiha",
+        "content": "Sasuke belongs to the Uchiha clan."
+      },
+      "options": [
+        {"text": "Hyuga", "value": false, "color": "yellow"},
+        {"text": "Nara", "value": false, "color": "yellow"},
+        {"text": "Akimichi", "value": false, "color": "yellow"},
+        {"text": "Uchiha", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "What does Luffy from One Piece want to become?",
+      "dialog": {
+        "title": "Pirate King",
+        "content": "Luffy's dream is to become the Pirate King."
+      },
+      "options": [
+        {"text": "Marine Admiral", "value": false, "color": "yellow"},
+        {"text": "Bounty Hunter", "value": false, "color": "yellow"},
+        {"text": "World Government", "value": false, "color": "yellow"},
+        {"text": "Pirate King", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "Who is the main character in Demon Slayer: Kimetsu no Yaiba?",
+      "dialog": {
+        "title": "Tanjiro Kamado",
+        "content": "Tanjiro is the protagonist on a quest to save his sister."
+      },
+      "options": [
+        {"text": "Zenitsu Agatsuma", "value": false, "color": "yellow"},
+        {"text": "Inosuke Hashibira", "value": false, "color": "yellow"},
+        {"text": "Nezuko Kamado", "value": false, "color": "yellow"},
+        {"text": "Tanjiro Kamado", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "In One Punch Man, what is the hero name of Genos?",
+      "dialog": {
+        "title": "Demon Cyborg",
+        "content": "Genos goes by the name Demon Cyborg as a hero."
+      },
+      "options": [
+        {"text": "Silver Fang", "value": false, "color": "yellow"},
+        {"text": "Mumen Rider", "value": false, "color": "yellow"},
+        {"text": "Speed-o'-Sound Sonic", "value": false, "color": "yellow"},
+        {"text": "Demon Cyborg", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "In Naruto, what is the name of the spirit fox sealed within Naruto?",
+      "dialog": {
+        "title": "Nine-Tails",
+        "content": "The Nine-Tails is the powerful tailed beast."
+      },
+      "options": [
+        {"text": "Eight-Tails", "value": false, "color": "yellow"},
+        {"text": "Seven-Tails", "value": false, "color": "yellow"},
+        {"text": "Ten-Tails", "value": false, "color": "yellow"},
+        {"text": "Nine-Tails", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "What is the name of the ninja group in Naruto led by Sasuke?",
+      "dialog": {
+        "title": "Team 7",
+        "content": "Team 7 is led by Sasuke Uchiha."
+      },
+      "options": [
+        {"text": "Team 8", "value": false, "color": "yellow"},
+        {"text": "Team 10", "value": false, "color": "yellow"},
+        {"text": "Team Gai", "value": false, "color": "yellow"},
+        {"text": "Team 7", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "What is the name of the ninja technique in Naruto that involves creating clones?",
+      "dialog": {
+        "title": "Shadow Clone Jutsu",
+        "content": "Shadow Clone Jutsu creates duplicate copies of the user."
+      },
+      "options": [
+        {"text": "Fire Style Jutsu", "value": false, "color": "yellow"},
+        {"text": "Water Walk Jutsu", "value": false, "color": "yellow"},
+        {"text": "Chidori", "value": false, "color": "yellow"},
+        {"text": "Shadow Clone Jutsu", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "Who is known as the Fullmetal Alchemist?",
+      "dialog": {
+        "title": "Edward Elric",
+        "content": "Edward Elric is the Fullmetal Alchemist."
+      },
+      "options": [
+        {"text": "Alphonse Elric", "value": false, "color": "yellow"},
+        {"text": "Roy Mustang", "value": false, "color": "yellow"},
+        {"text": "Winry Rockbell", "value": false, "color": "yellow"},
+        {"text": "Edward Elric", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "Who is the main character in Dragon Ball Z?",
+      "dialog": {
+        "title": "Goku",
+        "content": "Goku is the central character of the series."
+      },
+      "options": [
+        {"text": "Vegeta", "value": false, "color": "yellow"},
+        {"text": "Piccolo", "value": false, "color": "yellow"},
+        {"text": "Gohan", "value": false, "color": "yellow"},
+        {"text": "Goku", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "Who is the main character in My Neighbor Totoro?",
+      "dialog": {
+        "title": "Satsuki",
+        "content": "Satsuki is one of the main characters."
+      },
+      "options": [
+        {"text": "Totoro", "value": false, "color": "yellow"},
+        {"text": "Mei", "value": false, "color": "yellow"},
+        {"text": "Kanta", "value": false, "color": "yellow"},
+        {"text": "Satsuki", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "In Dragon Ball Z, what are the dragon balls used for?",
+      "dialog": {
+        "title": "Granting Wishes",
+        "content": "The dragon balls grant wishes when collected."
+      },
+      "options": [
+        {"text": "Summons Dragons", "value": false, "color": "yellow"},
+        {"text": "Magical Battles", "value": false, "color": "yellow"},
+        {"text": "Finding Treasure", "value": false, "color": "yellow"},
+        {"text": "Granting Wishes", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "What is the name of the magical world in Sailor Moon?",
+      "dialog": {
+        "title": "Silver Millennium",
+        "content": "The Silver Millennium is the Moon Kingdom."
+      },
+      "options": [
+        {"text": "Crystal Empire", "value": false, "color": "yellow"},
+        {"text": "Moonlight Realm", "value": false, "color": "yellow"},
+        {"text": "Starlight Kingdom", "value": false, "color": "yellow"},
+        {"text": "Silver Millennium", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "In Dragon Ball Z, who is Goku's best friend?",
+      "dialog": {
+        "title": "Krillin",
+        "content": "Krillin is one of Goku's closest friends."
+      },
+      "options": [
+        {"text": "Tien", "value": false, "color": "yellow"},
+        {"text": "Yamcha", "value": false, "color": "yellow"},
+        {"text": "Piccolo", "value": false, "color": "yellow"},
+        {"text": "Krillin", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "What is the main sport in Haikyuu!!?",
       "dialog": {
         "title": "Volleyball",
         "content": "The series focuses on high school volleyball."
@@ -148,8 +488,21 @@ Map<String, dynamic> animeData = {
       ]
     },
     {
+      "question": "In Dragon Ball Z, what form does Goku achieve first?",
+      "dialog": {
+        "title": "Super Saiyan",
+        "content": "Goku first achieves the Super Saiyan form."
+      },
+      "options": [
+        {"text": "Great Ape", "value": false, "color": "yellow"},
+        {"text": "Super Saiyan 2", "value": false, "color": "yellow"},
+        {"text": "Namekian", "value": false, "color": "yellow"},
+        {"text": "Super Saiyan", "value": true, "color": "yellow"}
+      ]
+    },
+    {
       "question":
-          "What's the name of the magical school in \"Little Witch Academia\"?",
+          "What's the name of the magical school in Little Witch Academia?",
       "dialog": {
         "title": "Luna Nova Academy",
         "content": "Luna Nova Academy is where witches are trained."
@@ -163,7 +516,7 @@ Map<String, dynamic> animeData = {
     },
     {
       "question":
-          "In \"Digimon,\" what do the DigiDestined use to evolve their Digimon?",
+          "In Digimon, what do the DigiDestined use to evolve their Digimon?",
       "dialog": {
         "title": "Digivices",
         "content": "Digivices are devices for Digimon evolution."
@@ -176,20 +529,7 @@ Map<String, dynamic> animeData = {
       ]
     },
     {
-      "question": "What is the name of the pirate ship in \"One Piece\"?",
-      "dialog": {
-        "title": "Thousand Sunny",
-        "content": "The Thousand Sunny is the Straw Hat Pirates' ship."
-      },
-      "options": [
-        {"text": "Red Force", "value": false, "color": "yellow"},
-        {"text": "Going Merry", "value": false, "color": "yellow"},
-        {"text": "Baratie", "value": false, "color": "yellow"},
-        {"text": "Thousand Sunny", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "Who is known as the \"Sailor Moon\"?",
+      "question": "Who is known as the Sailor Moon?",
       "dialog": {
         "title": "Usagi Tsukino",
         "content": "Usagi Tsukino transforms into Sailor Moon."
@@ -202,20 +542,7 @@ Map<String, dynamic> animeData = {
       ]
     },
     {
-      "question": "What is the ninja headband symbol in \"Naruto\"?",
-      "dialog": {
-        "title": "Leaf Village Symbol",
-        "content": "The Leaf Village symbol represents Konohagakure."
-      },
-      "options": [
-        {"text": "Water Symbol", "value": false, "color": "yellow"},
-        {"text": "Fire Symbol", "value": false, "color": "yellow"},
-        {"text": "Wind Symbol", "value": false, "color": "yellow"},
-        {"text": "Leaf Village Symbol", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "What is the name of the cat in \"My Neighbor Totoro\"?",
+      "question": "What is the name of the cat in My Neighbor Totoro?",
       "dialog": {
         "title": "Totoro",
         "content": "Totoro is a friendly forest spirit."
@@ -229,7 +556,7 @@ Map<String, dynamic> animeData = {
     },
     {
       "question":
-          "In \"Sword Art Online,\" what is the name of the virtual world where players are trapped?",
+          "In Sword Art Online, what is the name of the virtual world where players are trapped?",
       "dialog": {
         "title": "Aincrad",
         "content": "Aincrad is the setting for the first arc."
@@ -242,7 +569,7 @@ Map<String, dynamic> animeData = {
       ]
     },
     {
-      "question": "Who is the detective in \"Case Closed\" (Detective Conan)?",
+      "question": "Who is the detective in Case Closed (Detective Conan)?",
       "dialog": {
         "title": "Conan Edogawa",
         "content": "Conan Edogawa is the main character."
@@ -255,8 +582,7 @@ Map<String, dynamic> animeData = {
       ]
     },
     {
-      "question":
-          "What is the name of the magical cat in \"Cardcaptor Sakura\"?",
+      "question": "What is the name of the magical cat in Cardcaptor Sakura?",
       "dialog": {
         "title": "Keroberos (Kero-chan)",
         "content": "Keroberos is the guardian beast."
@@ -269,7 +595,7 @@ Map<String, dynamic> animeData = {
       ]
     },
     {
-      "question": "Who is the main character in \"Attack on Titan\"?",
+      "question": "Who is the main character in Attack on Titan?",
       "dialog": {
         "title": "Eren Yeager",
         "content": "Eren Yeager is the protagonist."
@@ -282,7 +608,7 @@ Map<String, dynamic> animeData = {
       ]
     },
     {
-      "question": "What is the name of the spirit world in \"Spirited Away\"?",
+      "question": "What is the name of the spirit world in Spirited Away?",
       "dialog": {
         "title": "The Bathhouse",
         "content": "The Bathhouse is where much of the film is set."
@@ -295,7 +621,7 @@ Map<String, dynamic> animeData = {
       ]
     },
     {
-      "question": "In \"Yu-Gi-Oh!\", what card game do the characters play?",
+      "question": "In Yu-Gi-Oh!, what card game do the characters play?",
       "dialog": {
         "title": "Duel Monsters",
         "content": "The card game is known as Duel Monsters."
@@ -321,7 +647,7 @@ Map<String, dynamic> animeData = {
       ]
     },
     {
-      "question": "What is the name of the magical guild in \"Fairy Tail\"?",
+      "question": "What is the name of the magical guild in Fairy Tail?",
       "dialog": {
         "title": "Fairy Tail",
         "content": "The story centers around the Fairy Tail guild."
@@ -335,21 +661,7 @@ Map<String, dynamic> animeData = {
     },
     {
       "question":
-          "What is the name of the mysterious organization in \"Naruto\"?",
-      "dialog": {
-        "title": "Akatsuki",
-        "content": "The Akatsuki are a group of rogue ninja."
-      },
-      "options": [
-        {"text": "Sound Five", "value": false, "color": "yellow"},
-        {"text": "Hidden Leaf", "value": false, "color": "yellow"},
-        {"text": "Uchiha Clan", "value": false, "color": "yellow"},
-        {"text": "Akatsuki", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "What are the creatures that trainers capture in \"Pok\u00c3\u00a9mon\"?",
+          "What are the creatures that trainers capture in Pok\u00c3\u00a9mon?",
       "dialog": {
         "title": "Pok\u00c3\u00a9mon",
         "content": "Trainers capture and train Pok\u00c3\u00a9mon."
@@ -362,20 +674,7 @@ Map<String, dynamic> animeData = {
       ]
     },
     {
-      "question": "Who is the famous pirate captain in \"One Piece\"?",
-      "dialog": {
-        "title": "Gol D. Roger",
-        "content": "Gol D. Roger is known as the Pirate King."
-      },
-      "options": [
-        {"text": "Red-Haired Shanks", "value": false, "color": "yellow"},
-        {"text": "Whitebeard", "value": false, "color": "yellow"},
-        {"text": "Kaido", "value": false, "color": "yellow"},
-        {"text": "Gol D. Roger", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "What is the name of the school in \"My Hero Academia\"?",
+      "question": "What is the name of the school in My Hero Academia?",
       "dialog": {
         "title": "U.A. High School",
         "content": "U.A. High School is where young heroes train."
@@ -388,21 +687,7 @@ Map<String, dynamic> animeData = {
       ]
     },
     {
-      "question":
-          "What is the name of the ninja group in \"Naruto\" led by Sasuke?",
-      "dialog": {
-        "title": "Team 7",
-        "content": "Team 7 is led by Sasuke Uchiha."
-      },
-      "options": [
-        {"text": "Team 8", "value": false, "color": "yellow"},
-        {"text": "Team 10", "value": false, "color": "yellow"},
-        {"text": "Team Gai", "value": false, "color": "yellow"},
-        {"text": "Team 7", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "Who is the robot cat from the future in \"Doraemon\"?",
+      "question": "Who is the robot cat from the future in Doraemon?",
       "dialog": {
         "title": "Doraemon",
         "content": "Doraemon is a helpful robot cat."
@@ -415,35 +700,8 @@ Map<String, dynamic> animeData = {
       ]
     },
     {
-      "question": "In \"Dragon Ball Z,\" what form does Goku achieve first?",
-      "dialog": {
-        "title": "Super Saiyan",
-        "content": "Goku first achieves the Super Saiyan form."
-      },
-      "options": [
-        {"text": "Great Ape", "value": false, "color": "yellow"},
-        {"text": "Super Saiyan 2", "value": false, "color": "yellow"},
-        {"text": "Namekian", "value": false, "color": "yellow"},
-        {"text": "Super Saiyan", "value": true, "color": "yellow"}
-      ]
-    },
-    {
       "question":
-          "What is the goal of the main character in \"One Punch Man\"?",
-      "dialog": {
-        "title": "Become a Hero",
-        "content": "Saitama aims to become a hero for fun."
-      },
-      "options": [
-        {"text": "Get rich", "value": false, "color": "yellow"},
-        {"text": "Find a villain", "value": false, "color": "yellow"},
-        {"text": "Win a tournament", "value": false, "color": "yellow"},
-        {"text": "Become a Hero", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "What is the name of the magical item in \"Magi: The Labyrinth of Magic\"?",
+          "What is the name of the magical item in Magi: The Labyrinth of Magic?",
       "dialog": {
         "title": "Metal Vessel",
         "content": "Metal Vessels are used by magicians in the series."
@@ -456,7 +714,7 @@ Map<String, dynamic> animeData = {
       ]
     },
     {
-      "question": "What is the name of the talking cat in \"Sailor Moon\"?",
+      "question": "What is the name of the talking cat in Sailor Moon?",
       "dialog": {
         "title": "Luna",
         "content": "Luna is the advisor and companion to the Sailor Guardians."
@@ -470,21 +728,7 @@ Map<String, dynamic> animeData = {
     },
     {
       "question":
-          "Who is the captain of the Straw Hat Pirates in \"One Piece\"?",
-      "dialog": {
-        "title": "Monkey D. Luffy",
-        "content": "Luffy is the captain of the Straw Hat Pirates."
-      },
-      "options": [
-        {"text": "Roronoa Zoro", "value": false, "color": "yellow"},
-        {"text": "Nami", "value": false, "color": "yellow"},
-        {"text": "Usopp", "value": false, "color": "yellow"},
-        {"text": "Monkey D. Luffy", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "What is the name of the magical land in \"Alice in Wonderland\" by Lewis Carroll?",
+          "What is the name of the magical land in Alice in Wonderland by Lewis Carroll?",
       "dialog": {
         "title": "Wonderland",
         "content": "Wonderland is the whimsical setting of the story."
@@ -498,49 +742,7 @@ Map<String, dynamic> animeData = {
     },
     {
       "question":
-          "In \"Sword Art Online,\" what is the name of the first VRMMORPG the players are trapped in?",
-      "dialog": {
-        "title": "Sword Art Online",
-        "content": "The players are trapped in the game of the same name."
-      },
-      "options": [
-        {"text": "Gun Gale Online", "value": false, "color": "yellow"},
-        {"text": "ALO", "value": false, "color": "yellow"},
-        {"text": "ALfheim", "value": false, "color": "yellow"},
-        {"text": "Sword Art Online", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "What is the name of the ninja technique in \"Naruto\" that involves creating clones?",
-      "dialog": {
-        "title": "Shadow Clone Jutsu",
-        "content": "Shadow Clone Jutsu creates duplicate copies of the user."
-      },
-      "options": [
-        {"text": "Fire Style Jutsu", "value": false, "color": "yellow"},
-        {"text": "Water Walk Jutsu", "value": false, "color": "yellow"},
-        {"text": "Chidori", "value": false, "color": "yellow"},
-        {"text": "Shadow Clone Jutsu", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "Who is the main character in \"Demon Slayer: Kimetsu no Yaiba\"?",
-      "dialog": {
-        "title": "Tanjiro Kamado",
-        "content": "Tanjiro is the protagonist on a quest to save his sister."
-      },
-      "options": [
-        {"text": "Zenitsu Agatsuma", "value": false, "color": "yellow"},
-        {"text": "Inosuke Hashibira", "value": false, "color": "yellow"},
-        {"text": "Nezuko Kamado", "value": false, "color": "yellow"},
-        {"text": "Tanjiro Kamado", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "In \"Pok\u00c3\u00a9mon,\" what type of Pok\u00c3\u00a9mon is Charizard?",
+          "In Pok\u00c3\u00a9mon, what type of Pok\u00c3\u00a9mon is Charizard?",
       "dialog": {
         "title": "Fire",
         "content": "Charizard is a Fire/Flying-type Pok\u00c3\u00a9mon."
@@ -553,35 +755,8 @@ Map<String, dynamic> animeData = {
       ]
     },
     {
-      "question": "Who is the main character in \"One Punch Man\"?",
-      "dialog": {
-        "title": "Saitama",
-        "content": "Saitama, also known as One Punch Man."
-      },
-      "options": [
-        {"text": "Genos", "value": false, "color": "yellow"},
-        {"text": "Sonic", "value": false, "color": "yellow"},
-        {"text": "Mumen Rider", "value": false, "color": "yellow"},
-        {"text": "Saitama", "value": true, "color": "yellow"}
-      ]
-    },
-    {
       "question":
-          "What is the name of the magical book in \"Cardcaptor Sakura\"?",
-      "dialog": {
-        "title": "The Clow Book",
-        "content": "The Clow Book holds magical Clow Cards."
-      },
-      "options": [
-        {"text": "Spell Tome", "value": false, "color": "yellow"},
-        {"text": "Magic Grimoire", "value": false, "color": "yellow"},
-        {"text": "Enchanted Scroll", "value": false, "color": "yellow"},
-        {"text": "The Clow Book", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "In \"My Neighbor Totoro,\" what do Satsuki and Mei find in the forest?",
+          "In My Neighbor Totoro, what do Satsuki and Mei find in the forest?",
       "dialog": {
         "title": "Totoro",
         "content": "They encounter the magical creature Totoro."
@@ -594,21 +769,8 @@ Map<String, dynamic> animeData = {
       ]
     },
     {
-      "question": "Who is the main character in \"Dragon Ball Z\"?",
-      "dialog": {
-        "title": "Goku",
-        "content": "Goku is the central character of the series."
-      },
-      "options": [
-        {"text": "Vegeta", "value": false, "color": "yellow"},
-        {"text": "Piccolo", "value": false, "color": "yellow"},
-        {"text": "Gohan", "value": false, "color": "yellow"},
-        {"text": "Goku", "value": true, "color": "yellow"}
-      ]
-    },
-    {
       "question":
-          "What is the name of the giant humanoid creatures in \"Attack on Titan\"?",
+          "What is the name of the giant humanoid creatures in Attack on Titan?",
       "dialog": {
         "title": "Titans",
         "content": "The series revolves around the fight against Titans."
@@ -621,22 +783,7 @@ Map<String, dynamic> animeData = {
       ]
     },
     {
-      "question":
-          "In \"Naruto,\" what is the name of the spirit fox sealed within Naruto?",
-      "dialog": {
-        "title": "Nine-Tails",
-        "content": "The Nine-Tails is the powerful tailed beast."
-      },
-      "options": [
-        {"text": "Eight-Tails", "value": false, "color": "yellow"},
-        {"text": "Seven-Tails", "value": false, "color": "yellow"},
-        {"text": "Ten-Tails", "value": false, "color": "yellow"},
-        {"text": "Nine-Tails", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "What is the goal of the Sailor Guardians in \"Sailor Moon\"?",
+      "question": "What is the goal of the Sailor Guardians in Sailor Moon?",
       "dialog": {
         "title": "Protect Earth",
         "content": "They protect Earth from evil forces."
@@ -649,21 +796,8 @@ Map<String, dynamic> animeData = {
       ]
     },
     {
-      "question": "What does Luffy from \"One Piece\" want to become?",
-      "dialog": {
-        "title": "Pirate King",
-        "content": "Luffy's dream is to become the Pirate King."
-      },
-      "options": [
-        {"text": "Marine Admiral", "value": false, "color": "yellow"},
-        {"text": "Bounty Hunter", "value": false, "color": "yellow"},
-        {"text": "World Government", "value": false, "color": "yellow"},
-        {"text": "Pirate King", "value": true, "color": "yellow"}
-      ]
-    },
-    {
       "question":
-          "In \"Pok\u00c3\u00a9mon,\" which bird Pok\u00c3\u00a9mon is known for its speed?",
+          "In Pok\u00c3\u00a9mon, which bird Pok\u00c3\u00a9mon is known for its speed?",
       "dialog": {
         "title": "Pidgeot",
         "content": "Pidgeot is known for its impressive speed."
@@ -677,7 +811,7 @@ Map<String, dynamic> animeData = {
     },
     {
       "question":
-          "Who is the protagonist in \"Nausica\u00c3\u00a4 of the Valley of the Wind\"?",
+          "Who is the protagonist in Nausica\u00c3\u00a4 of the Valley of the Wind?",
       "dialog": {
         "title": "Nausica\u00c3\u00a4",
         "content": "Nausica\u00c3\u00a4 is the main character and a princess."
@@ -690,7 +824,7 @@ Map<String, dynamic> animeData = {
       ]
     },
     {
-      "question": "What is the name of the fox-demon in \"Inuyasha\"?",
+      "question": "What is the name of the fox-demon in Inuyasha?",
       "dialog": {
         "title": "Shippo",
         "content": "Shippo is a young fox-demon in the series."
@@ -704,7 +838,7 @@ Map<String, dynamic> animeData = {
     },
     {
       "question":
-          "In \"Fullmetal Alchemist,\" what do Edward and Alphonse Elric try to do?",
+          "In Fullmetal Alchemist, what do Edward and Alphonse Elric try to do?",
       "dialog": {
         "title": "Bring their mother back",
         "content": "They attempted human transmutation to revive her."
@@ -718,7 +852,7 @@ Map<String, dynamic> animeData = {
     },
     {
       "question":
-          "What is the name of the famous basketball team in \"Kuroko's Basketball\"?",
+          "What is the name of the famous basketball team in Kuroko's Basketball?",
       "dialog": {
         "title": "Seirin High",
         "content": "The Seirin High basketball team is central to the story."
@@ -731,20 +865,7 @@ Map<String, dynamic> animeData = {
       ]
     },
     {
-      "question": "In \"Naruto,\" who is Naruto's childhood crush?",
-      "dialog": {
-        "title": "Sakura",
-        "content": "Naruto has a crush on Sakura Haruno."
-      },
-      "options": [
-        {"text": "Hinata", "value": false, "color": "yellow"},
-        {"text": "Ino", "value": false, "color": "yellow"},
-        {"text": "Tenten", "value": false, "color": "yellow"},
-        {"text": "Sakura", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "What is the name of the space pirate in \"Space Dandy\"?",
+      "question": "What is the name of the space pirate in Space Dandy?",
       "dialog": {
         "title": "Dandy",
         "content": "Dandy is the lead character and a space adventurer."
@@ -757,7 +878,7 @@ Map<String, dynamic> animeData = {
       ]
     },
     {
-      "question": "Who is the main character in \"Kiki's Delivery Service\"?",
+      "question": "Who is the main character in Kiki's Delivery Service?",
       "dialog": {
         "title": "Kiki",
         "content": "Kiki is a young witch in the film."
@@ -771,7 +892,7 @@ Map<String, dynamic> animeData = {
     },
     {
       "question":
-          "In \"Death Note,\" what does the Death Note allow the user to do?",
+          "In Death Note, what does the Death Note allow the user to do?",
       "dialog": {
         "title": "Kill people by writing their names",
         "content": "Writing a name in the Death Note causes death."
@@ -789,7 +910,7 @@ Map<String, dynamic> animeData = {
     },
     {
       "question":
-          "What is the name of the magical world in \"The Seven Deadly Sins\"?",
+          "What is the name of the magical world in The Seven Deadly Sins?",
       "dialog": {
         "title": "Britannia",
         "content": "Britannia is the setting for the series."
@@ -802,7 +923,7 @@ Map<String, dynamic> animeData = {
       ]
     },
     {
-      "question": "Who is the main character in \"Astro Boy\"?",
+      "question": "Who is the main character in Astro Boy?",
       "dialog": {
         "title": "Astro Boy (Atom)",
         "content": "Astro Boy is the titular character."
@@ -815,7 +936,7 @@ Map<String, dynamic> animeData = {
       ]
     },
     {
-      "question": "What is the name of the monster in \"My Neighbor Monster\"?",
+      "question": "What is the name of the monster in My Neighbor Monster?",
       "dialog": {
         "title": "Totoro",
         "content": "Totoro is not a monster but a friendly creature."
@@ -829,7 +950,7 @@ Map<String, dynamic> animeData = {
     },
     {
       "question":
-          "In \"Sailor Moon,\" what is the main character's superhero name?",
+          "In Sailor Moon, what is the main character's superhero name?",
       "dialog": {
         "title": "Sailor Moon",
         "content": "Usagi Tsukino becomes Sailor Moon."
@@ -843,7 +964,7 @@ Map<String, dynamic> animeData = {
     },
     {
       "question":
-          "What is the magical artifact in \"Cardcaptor Sakura\" that holds the Clow Cards?",
+          "What is the magical artifact in Cardcaptor Sakura that holds the Clow Cards?",
       "dialog": {
         "title": "The Clow Book",
         "content": "The Clow Book holds the Clow Cards."
@@ -856,33 +977,7 @@ Map<String, dynamic> animeData = {
       ]
     },
     {
-      "question": "In \"Dragon Ball Z,\" who is Goku's best friend?",
-      "dialog": {
-        "title": "Krillin",
-        "content": "Krillin is one of Goku's closest friends."
-      },
-      "options": [
-        {"text": "Tien", "value": false, "color": "yellow"},
-        {"text": "Yamcha", "value": false, "color": "yellow"},
-        {"text": "Piccolo", "value": false, "color": "yellow"},
-        {"text": "Krillin", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "Who is the detective in \"Detective Conan\" (Case Closed)?",
-      "dialog": {
-        "title": "Conan Edogawa",
-        "content": "Conan Edogawa solves cases as a child detective."
-      },
-      "options": [
-        {"text": "Kaito Kuroba", "value": false, "color": "yellow"},
-        {"text": "Shinichi Kudo", "value": false, "color": "yellow"},
-        {"text": "Heiji Hattori", "value": false, "color": "yellow"},
-        {"text": "Conan Edogawa", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "What is the name of the powerful relic in \"Inuyasha\"?",
+      "question": "What is the name of the powerful relic in Inuyasha?",
       "dialog": {
         "title": "Shikon Jewel",
         "content": "The Shikon Jewel is a central plot element."
@@ -896,21 +991,7 @@ Map<String, dynamic> animeData = {
     },
     {
       "question":
-          "In \"One Piece,\" what is the name of Luffy's signature attack?",
-      "dialog": {
-        "title": "Gum-Gum Pistol",
-        "content": "Luffy uses the Gum-Gum Pistol as a powerful punch."
-      },
-      "options": [
-        {"text": "Gum-Gum Gatling", "value": false, "color": "yellow"},
-        {"text": "Gum-Gum Bazooka", "value": false, "color": "yellow"},
-        {"text": "Gum-Gum Red Hawk", "value": false, "color": "yellow"},
-        {"text": "Gum-Gum Pistol", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "What is the goal of the main character in \"Kiki's Delivery Service\"?",
+          "What is the goal of the main character in Kiki's Delivery Service?",
       "dialog": {
         "title": "Become an independent witch",
         "content": "Kiki's goal is to become an independent witch."
@@ -927,7 +1008,7 @@ Map<String, dynamic> animeData = {
       ]
     },
     {
-      "question": "Who is the magical girl in \"Magical Girl Lyrical Nanoha\"?",
+      "question": "Who is the magical girl in Magical Girl Lyrical Nanoha?",
       "dialog": {
         "title": "Nanoha Takamachi",
         "content": "Nanoha is the titular character."
@@ -940,22 +1021,7 @@ Map<String, dynamic> animeData = {
       ]
     },
     {
-      "question":
-          "In \"Naruto,\" who is the Hokage of the Hidden Leaf Village at the beginning of the series?",
-      "dialog": {
-        "title": "Hiruzen Sarutobi",
-        "content": "Hiruzen Sarutobi serves as the Third Hokage."
-      },
-      "options": [
-        {"text": "Minato Namikaze", "value": false, "color": "yellow"},
-        {"text": "Tsunade", "value": false, "color": "yellow"},
-        {"text": "Kakashi Hatake", "value": false, "color": "yellow"},
-        {"text": "Hiruzen Sarutobi", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "What is the name of the Death Note's owner in \"Death Note\"?",
+      "question": "What is the name of the Death Note's owner in Death Note?",
       "dialog": {
         "title": "Light Yagami",
         "content": "Light Yagami is the owner of the Death Note."
@@ -969,7 +1035,7 @@ Map<String, dynamic> animeData = {
     },
     {
       "question":
-          "In \"Fullmetal Alchemist,\" what is Edward Elric's primary goal?",
+          "In Fullmetal Alchemist, what is Edward Elric's primary goal?",
       "dialog": {
         "title": "Find the Philosopher's Stone",
         "content":
@@ -991,7 +1057,7 @@ Map<String, dynamic> animeData = {
       ]
     },
     {
-      "question": "What is the name of the giant robot in \"Gurren Lagann\"?",
+      "question": "What is the name of the giant robot in Gurren Lagann?",
       "dialog": {
         "title": "Gurren Lagann",
         "content": "Gurren Lagann is the main mecha of the series."
@@ -1005,7 +1071,7 @@ Map<String, dynamic> animeData = {
     },
     {
       "question":
-          "In \"Sword Art Online,\" what is the name of the game's creator?",
+          "In Sword Art Online, what is the name of the game's creator?",
       "dialog": {
         "title": "Akihiko Kayaba",
         "content": "Akihiko Kayaba is the creator of Sword Art Online."
@@ -1018,7 +1084,7 @@ Map<String, dynamic> animeData = {
       ]
     },
     {
-      "question": "Who is the mysterious cat in \"The Cat Returns\"?",
+      "question": "Who is the mysterious cat in The Cat Returns?",
       "dialog": {
         "title": "Baron Humbert von Gikkingen",
         "content": "Baron is a noble and dapper cat."
@@ -1036,7 +1102,7 @@ Map<String, dynamic> animeData = {
     },
     {
       "question":
-          "What is the name of the virtual reality game in \"Sword Art Online\"?",
+          "What is the name of the virtual reality game in Sword Art Online?",
       "dialog": {
         "title": "Sword Art Online",
         "content": "The game is called Sword Art Online."
@@ -1050,7 +1116,7 @@ Map<String, dynamic> animeData = {
     },
     {
       "question":
-          "In \"Attack on Titan,\" what is the name of the walled city where the story begins?",
+          "In Attack on Titan, what is the name of the walled city where the story begins?",
       "dialog": {
         "title": "Wall Maria",
         "content": "The story begins in Wall Maria, one of the walled cities."
@@ -1063,8 +1129,7 @@ Map<String, dynamic> animeData = {
       ]
     },
     {
-      "question":
-          "What is the name of the kingdom in \"Howl's Moving Castle\"?",
+      "question": "What is the name of the kingdom in Howl's Moving Castle?",
       "dialog": {
         "title": "Ingary",
         "content": "The story is set in the magical kingdom of Ingary."
@@ -1077,42 +1142,8 @@ Map<String, dynamic> animeData = {
       ]
     },
     {
-      "question": "In \"Naruto,\" what is the name of Sasuke's clan?",
-      "dialog": {
-        "title": "Uchiha",
-        "content": "Sasuke belongs to the Uchiha clan."
-      },
-      "options": [
-        {"text": "Hyuga", "value": false, "color": "yellow"},
-        {"text": "Nara", "value": false, "color": "yellow"},
-        {"text": "Akimichi", "value": false, "color": "yellow"},
-        {"text": "Uchiha", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "In \"One Piece,\" what is Zoro's ultimate goal?",
-      "dialog": {
-        "title": "To become the world's greatest swordsman",
-        "content": "Zoro aims to become the best swordsman."
-      },
-      "options": [
-        {"text": "To find the One Piece", "value": false, "color": "yellow"},
-        {
-          "text": "To become the Pirate King",
-          "value": false,
-          "color": "yellow"
-        },
-        {"text": "To catch the most fish", "value": false, "color": "yellow"},
-        {
-          "text": "To become the world's greatest swordsman",
-          "value": true,
-          "color": "yellow"
-        }
-      ]
-    },
-    {
       "question":
-          "What is the name of the spirit in \"Spirited Away\" who helps Chihiro?",
+          "What is the name of the spirit in Spirited Away who helps Chihiro?",
       "dialog": {
         "title": "Haku",
         "content": "Haku is a river spirit who assists Chihiro."
@@ -1125,7 +1156,7 @@ Map<String, dynamic> animeData = {
       ]
     },
     {
-      "question": "In \"Fairy Tail,\" what is Natsu Dragneel's magic type?",
+      "question": "In Fairy Tail, what is Natsu Dragneel's magic type?",
       "dialog": {
         "title": "Fire Dragon Slayer Magic",
         "content": "Natsu wields Fire Dragon Slayer Magic."
@@ -1138,8 +1169,7 @@ Map<String, dynamic> animeData = {
       ]
     },
     {
-      "question":
-          "Who is the main character in \"Black Butler\" (Kuroshitsuji)?",
+      "question": "Who is the main character in Black Butler (Kuroshitsuji)?",
       "dialog": {
         "title": "Ciel Phantomhive",
         "content": "Ciel is the young master of the Phantomhive household."
@@ -1153,7 +1183,7 @@ Map<String, dynamic> animeData = {
     },
     {
       "question":
-          "What is the name of the magical species in \"The Ancient Magus' Bride\"?",
+          "What is the name of the magical species in The Ancient Magus' Bride?",
       "dialog": {
         "title": "Sleigh Beggys",
         "content": "Sleigh Beggys are a unique magical species."
@@ -1166,7 +1196,7 @@ Map<String, dynamic> animeData = {
       ]
     },
     {
-      "question": "In \"Kiki's Delivery Service,\" what is Kiki's profession?",
+      "question": "In Kiki's Delivery Service, what is Kiki's profession?",
       "dialog": {
         "title": "Witch",
         "content": "Kiki is a young witch who runs a delivery service."
@@ -1180,7 +1210,7 @@ Map<String, dynamic> animeData = {
     },
     {
       "question":
-          "What is the name of the giant robot in \"Neon Genesis Evangelion\"?",
+          "What is the name of the giant robot in Neon Genesis Evangelion?",
       "dialog": {
         "title": "Evangelion Unit-01",
         "content": "Unit-01 is one of the main mechs in the series."
@@ -1194,7 +1224,7 @@ Map<String, dynamic> animeData = {
     },
     {
       "question":
-          "In \"My Neighbor Totoro,\" what does Mei discover in the forest?",
+          "In My Neighbor Totoro, what does Mei discover in the forest?",
       "dialog": {
         "title": "Dust Bunnies",
         "content": "Mei discovers and befriends Totoro."
@@ -1208,7 +1238,7 @@ Map<String, dynamic> animeData = {
     },
     {
       "question":
-          "What is the name of the magical bird in \"The Secret World of Arrietty\"?",
+          "What is the name of the magical bird in The Secret World of Arrietty?",
       "dialog": {
         "title": "Spiller",
         "content": "Spiller is a tiny borrower who befriends Arrietty."
@@ -1221,21 +1251,8 @@ Map<String, dynamic> animeData = {
       ]
     },
     {
-      "question": "In \"Naruto,\" what is Sasuke's signature jutsu?",
-      "dialog": {
-        "title": "Chidori",
-        "content": "Sasuke's powerful jutsu is the Chidori."
-      },
-      "options": [
-        {"text": "Rasengan", "value": false, "color": "yellow"},
-        {"text": "Shadow Clone Jutsu", "value": false, "color": "yellow"},
-        {"text": "Fireball Jutsu", "value": false, "color": "yellow"},
-        {"text": "Chidori", "value": true, "color": "yellow"}
-      ]
-    },
-    {
       "question":
-          "What is the name of the virtual world in \"Sword Art Online: Alicization\"?",
+          "What is the name of the virtual world in Sword Art Online: Alicization?",
       "dialog": {
         "title": "Underworld",
         "content": "The story is set in the virtual world of Underworld."
@@ -1248,7 +1265,7 @@ Map<String, dynamic> animeData = {
       ]
     },
     {
-      "question": "Who is the main character in \"The Boy and the Beast\"?",
+      "question": "Who is the main character in The Boy and the Beast?",
       "dialog": {
         "title": "Ren",
         "content": "Ren is the young boy who enters the beast world."
@@ -1262,7 +1279,7 @@ Map<String, dynamic> animeData = {
     },
     {
       "question":
-          "In \"Attack on Titan,\" what is the name of the main character's hometown?",
+          "In Attack on Titan, what is the name of the main character's hometown?",
       "dialog": {
         "title": "Shiganshina District",
         "content": "The story starts in Shiganshina District."
@@ -1276,38 +1293,7 @@ Map<String, dynamic> animeData = {
     },
     {
       "question":
-          "What is the name of the cat in \"Neko no Ongaeshi\" (The Cat Returns)?",
-      "dialog": {
-        "title": "Baron Humbert von Gikkingen",
-        "content": "Baron is a character who helps Haru."
-      },
-      "options": [
-        {"text": "Tama", "value": false, "color": "yellow"},
-        {"text": "Jiji", "value": false, "color": "yellow"},
-        {"text": "Gigi", "value": false, "color": "yellow"},
-        {
-          "text": "Baron Humbert von Gikkingen",
-          "value": true,
-          "color": "yellow"
-        }
-      ]
-    },
-    {
-      "question": "In \"One Punch Man,\" what is the hero name of Saitama?",
-      "dialog": {
-        "title": "Caped Baldy",
-        "content": "Saitama goes by the hero name \"Caped Baldy.\""
-      },
-      "options": [
-        {"text": "Tornado of Terror", "value": false, "color": "yellow"},
-        {"text": "Atomic Samurai", "value": false, "color": "yellow"},
-        {"text": "Silver Fang", "value": false, "color": "yellow"},
-        {"text": "Caped Baldy", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "What is the name of the magical world in \"Grimgar, Ashes and Illusions\"?",
+          "What is the name of the magical world in Grimgar, Ashes and Illusions?",
       "dialog": {
         "title": "Grimgar",
         "content": "The story unfolds in the world of Grimgar."
@@ -1321,7 +1307,7 @@ Map<String, dynamic> animeData = {
     },
     {
       "question":
-          "In \"Howl's Moving Castle,\" what is Calcifer's role in the castle?",
+          "In Howl's Moving Castle, what is Calcifer's role in the castle?",
       "dialog": {
         "title": "Fire Demon",
         "content": "Calcifer serves as the fire demon powering the castle."
@@ -1335,7 +1321,7 @@ Map<String, dynamic> animeData = {
     },
     {
       "question":
-          "What is the goal of the main character in \"Little Witch Academia\"?",
+          "What is the goal of the main character in Little Witch Academia?",
       "dialog": {
         "title": "Become a great witch",
         "content": "Atsuko aims to become a skilled witch."
@@ -1349,7 +1335,7 @@ Map<String, dynamic> animeData = {
     },
     {
       "question":
-          "In \"My Hero Academia,\" who is the number one hero at the start of the series?",
+          "In My Hero Academia, who is the number one hero at the start of the series?",
       "dialog": {
         "title": "All Might",
         "content": "All Might is the world's number one hero."
@@ -1363,7 +1349,7 @@ Map<String, dynamic> animeData = {
     },
     {
       "question":
-          "In \"Pok\u00c3\u00a9mon,\" what is the name of Brock's signature Pok\u00c3\u00a9mon?",
+          "In Pok\u00c3\u00a9mon, what is the name of Brock's signature Pok\u00c3\u00a9mon?",
       "dialog": {
         "title": "Onix",
         "content": "Onix is Brock's primary Pok\u00c3\u00a9mon."
@@ -1372,25 +1358,11 @@ Map<String, dynamic> animeData = {
         {"text": "Geodude", "value": false, "color": "yellow"},
         {"text": "Vulpix", "value": false, "color": "yellow"},
         {"text": "Zubat", "value": false, "color": "yellow"},
-        {"text": "Jigglypuff", "value": false, "color": "yellow"}
+        {"text": "Onix", "value": true, "color": "yellow"}
       ]
     },
     {
-      "question":
-          "In \"One Piece,\" what is the name of Sanji's special fighting style?",
-      "dialog": {
-        "title": "Black Leg Style",
-        "content": "Sanji is known for his Black Leg Style."
-      },
-      "options": [
-        {"text": "Fish-Man Karate", "value": false, "color": "yellow"},
-        {"text": "Rokushiki", "value": false, "color": "yellow"},
-        {"text": "Haki", "value": false, "color": "yellow"},
-        {"text": "Nen", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "Who is the main character in \"Sword Art Online\"?",
+      "question": "Who is the main character in Sword Art Online?",
       "dialog": {
         "title": "Kirito (Kazuto Kirigaya)",
         "content": "Kirito is the central character of the series."
@@ -1399,12 +1371,12 @@ Map<String, dynamic> animeData = {
         {"text": "Asuna Yuuki", "value": false, "color": "yellow"},
         {"text": "Sinon (Shino Asada)", "value": false, "color": "yellow"},
         {"text": "Leafa (Suguha Kirigaya)", "value": false, "color": "yellow"},
-        {"text": "Klein (Ryoutarou Tsuboi)", "value": false, "color": "yellow"}
+        {"text": "Kirito (Kazuto Kirigaya)", "value": true, "color": "yellow"}
       ]
     },
     {
       "question":
-          "In \"My Neighbor Totoro,\" what do the sisters discover in their new house?",
+          "In My Neighbor Totoro, what do the sisters discover in their new house?",
       "dialog": {
         "title": "Dust Spirits (Soot Sprites)",
         "content": "The sisters discover Soot Sprites."
@@ -1413,12 +1385,16 @@ Map<String, dynamic> animeData = {
         {"text": "Talking animals", "value": false, "color": "yellow"},
         {"text": "Hidden treasure", "value": false, "color": "yellow"},
         {"text": "Magical portals", "value": false, "color": "yellow"},
-        {"text": "Toy robots", "value": false, "color": "yellow"}
+        {
+          "text": "Dust Spirits (Soot Sprites)",
+          "value": true,
+          "color": "yellow"
+        }
       ]
     },
     {
       "question":
-          "What is the name of the fictional video game in \"Sword Art Online\"?",
+          "What is the name of the fictional video game in Sword Art Online?",
       "dialog": {
         "title": "Sword Art Online (SAO)",
         "content": "The story centers around the game SAO."
@@ -1427,26 +1403,12 @@ Map<String, dynamic> animeData = {
         {"text": "Alfheim Online", "value": false, "color": "yellow"},
         {"text": "Gun Gale Online", "value": false, "color": "yellow"},
         {"text": "Underworld", "value": false, "color": "yellow"},
-        {"text": "Aincrad", "value": false, "color": "yellow"}
+        {"text": "Sword Art Online (SAO)", "value": true, "color": "yellow"}
       ]
     },
     {
       "question":
-          "In \"Naruto,\" what is the name of the powerful demon fox sealed inside Naruto?",
-      "dialog": {
-        "title": "Kurama",
-        "content": "Kurama is the Nine-Tails, a powerful tailed beast."
-      },
-      "options": [
-        {"text": "Shukaku", "value": false, "color": "yellow"},
-        {"text": "Gyuki", "value": false, "color": "yellow"},
-        {"text": "Matatabi", "value": false, "color": "yellow"},
-        {"text": "Isobu", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "What is the name of the magical school in \"Kiki's Delivery Service\"?",
+          "What is the name of the magical school in Kiki's Delivery Service?",
       "dialog": {
         "title": "No specific name",
         "content": "The school is unnamed in the film."
@@ -1455,25 +1417,12 @@ Map<String, dynamic> animeData = {
         {"text": "Luna Nova Academy", "value": false, "color": "yellow"},
         {"text": "Witchcraft Institute", "value": false, "color": "yellow"},
         {"text": "Sorcery School", "value": false, "color": "yellow"},
-        {"text": "Magic University", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "In \"One Punch Man,\" what is the hero name of Genos?",
-      "dialog": {
-        "title": "Demon Cyborg",
-        "content": "Genos goes by the name \"Demon Cyborg\" as a hero."
-      },
-      "options": [
-        {"text": "Silver Fang", "value": false, "color": "yellow"},
-        {"text": "Mumen Rider", "value": false, "color": "yellow"},
-        {"text": "Speed-o'-Sound Sonic", "value": false, "color": "yellow"},
-        {"text": "King", "value": false, "color": "yellow"}
+        {"text": "No specific name", "value": true, "color": "yellow"}
       ]
     },
     {
       "question":
-          "What is the name of the studio that created \"My Neighbor Totoro\" and \"Spirited Away\"?",
+          "What is the name of the studio that created My Neighbor Totoro and Spirited Away?",
       "dialog": {
         "title": "Studio Ghibli",
         "content": "Studio Ghibli is known for many famous anime films."
@@ -1482,12 +1431,12 @@ Map<String, dynamic> animeData = {
         {"text": "Toei Animation", "value": false, "color": "yellow"},
         {"text": "Madhouse", "value": false, "color": "yellow"},
         {"text": "Sunrise", "value": false, "color": "yellow"},
-        {"text": "Kyoto Animation", "value": false, "color": "yellow"}
+        {"text": "Studio Ghibli", "value": true, "color": "yellow"}
       ]
     },
     {
       "question":
-          "In \"Attack on Titan,\" what is the name of the military branch that Eren joins?",
+          "In Attack on Titan, what is the name of the military branch that Eren joins?",
       "dialog": {
         "title": "Survey Corps (Scout Regiment)",
         "content": "Eren joins the Survey Corps."
@@ -1496,11 +1445,15 @@ Map<String, dynamic> animeData = {
         {"text": "Garrison", "value": false, "color": "yellow"},
         {"text": "Military Police", "value": false, "color": "yellow"},
         {"text": "Titans", "value": false, "color": "yellow"},
-        {"text": "Eldians", "value": false, "color": "yellow"}
+        {
+          "text": "Survey Corps (Scout Regiment)",
+          "value": true,
+          "color": "yellow"
+        }
       ]
     },
     {
-      "question": "What is the main sport in \"Yuri on Ice\"?",
+      "question": "What is the main sport in Yuri on Ice?",
       "dialog": {
         "title": "Figure Skating",
         "content": "Figure skating is the primary sport in the series."
@@ -1509,12 +1462,12 @@ Map<String, dynamic> animeData = {
         {"text": "Soccer", "value": false, "color": "yellow"},
         {"text": "Tennis", "value": false, "color": "yellow"},
         {"text": "Swimming", "value": false, "color": "yellow"},
-        {"text": "Gymnastics", "value": false, "color": "yellow"}
+        {"text": "Figure Skating", "value": true, "color": "yellow"}
       ]
     },
     {
       "question":
-          "In \"Neon Genesis Evangelion,\" what are the giant robots called?",
+          "In Neon Genesis Evangelion, what are the giant robots called?",
       "dialog": {
         "title": "Evangelions (Evas)",
         "content": "The robots are called Evangelions or Evas."
@@ -1523,12 +1476,12 @@ Map<String, dynamic> animeData = {
         {"text": "Gundams", "value": false, "color": "yellow"},
         {"text": "Transformers", "value": false, "color": "yellow"},
         {"text": "Mecha", "value": false, "color": "yellow"},
-        {"text": "Jaegers", "value": false, "color": "yellow"}
+        {"text": "Evangelions (Evas)", "value": true, "color": "yellow"}
       ]
     },
     {
       "question":
-          "What is the name of the magical academy in \"The Irregular at Magic High School\"?",
+          "What is the name of the magical academy in The Irregular at Magic High School?",
       "dialog": {
         "title": "First High School",
         "content": "The story unfolds at First High School."
@@ -1537,11 +1490,11 @@ Map<String, dynamic> animeData = {
         {"text": "Luna Nova Academy", "value": false, "color": "yellow"},
         {"text": "Magic University", "value": false, "color": "yellow"},
         {"text": "Sorcery School", "value": false, "color": "yellow"},
-        {"text": "Witchcraft Institute", "value": false, "color": "yellow"}
+        {"text": "First High School", "value": true, "color": "yellow"}
       ]
     },
     {
-      "question": "Who is the main character in \"Princess Mononoke\"?",
+      "question": "Who is the main character in Princess Mononoke?",
       "dialog": {
         "title": "Ashitaka",
         "content": "Ashitaka is the central character."
@@ -1550,25 +1503,11 @@ Map<String, dynamic> animeData = {
         {"text": "Mononoke Hime", "value": false, "color": "yellow"},
         {"text": "San (Princess Mononoke)", "value": false, "color": "yellow"},
         {"text": "Jiji", "value": false, "color": "yellow"},
-        {"text": "No-Face", "value": false, "color": "yellow"}
+        {"text": "Ashitaka", "value": true, "color": "yellow"}
       ]
     },
     {
-      "question": "In \"One Piece,\" who is known as the \"Pirate Hunter\"?",
-      "dialog": {
-        "title": "Roronoa Zoro",
-        "content": "Zoro is known as the \"Pirate Hunter.\""
-      },
-      "options": [
-        {"text": "Nami", "value": false, "color": "yellow"},
-        {"text": "Luffy", "value": false, "color": "yellow"},
-        {"text": "Sanji", "value": false, "color": "yellow"},
-        {"text": "Usopp", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "What is the goal of the main character in \"Fruits Basket\"?",
+      "question": "What is the goal of the main character in Fruits Basket?",
       "dialog": {
         "title": "Break the family curse",
         "content": "Tohru Honda aims to break the family curse."
@@ -1581,11 +1520,11 @@ Map<String, dynamic> animeData = {
           "value": false,
           "color": "yellow"
         },
-        {"text": "Become a pop star", "value": false, "color": "yellow"}
+        {"text": "Break the family curse", "value": true, "color": "yellow"}
       ]
     },
     {
-      "question": "What is the name of the magical land in \"Made in Abyss\"?",
+      "question": "What is the name of the magical land in Made in Abyss?",
       "dialog": {
         "title": "The Abyss",
         "content": "The story takes place in the Abyss."
@@ -1594,7 +1533,7 @@ Map<String, dynamic> animeData = {
         {"text": "Eldoria", "value": false, "color": "yellow"},
         {"text": "Grimgar", "value": false, "color": "yellow"},
         {"text": "Marvendia", "value": false, "color": "yellow"},
-        {"text": "Narnia", "value": false, "color": "yellow"}
+        {"text": "The Abyss", "value": true, "color": "yellow"}
       ]
     }
   ]
