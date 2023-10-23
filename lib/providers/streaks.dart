@@ -413,8 +413,8 @@ class StreaksProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-  void updateTriviaStreak({bool? correct}) {
-    if (correct!) {
+  void updateTriviaStreak(bool correct) {
+    if (correct) {
       triviaStreak += 1;
       box.put("triviaStreak", triviaStreak);
 
