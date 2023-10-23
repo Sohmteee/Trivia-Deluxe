@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:trivia/colors/app_color.dart';
-import 'package:trivia/main.dart';
 import 'package:trivia/models/game_background.dart';
-import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 class StreaksScreeen extends StatefulWidget {
   const StreaksScreeen({super.key});
@@ -74,52 +72,13 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                   "Level Streaks",
                   style: TextStyle(
                     color: AppColor.white,
-                    fontSize: 25.sp,
+                    fontSize: 30.sp,
                   ),
                 ),
               ],
             ),
-            const Spacer(),
-            ZoomTapAnimation(
-              onTap: () {
-                playTap(context);
-                return true;
-              },
-              child: Container(
-                padding:
-                    EdgeInsets.symmetric(horizontal: 25.sp, vertical: 15.sp),
-                decoration: BoxDecoration(
-                  color: Colors.white,
-                  borderRadius: BorderRadius.circular(100.r),
-                ),
-                child: Text(
-                  "Yes, I'll create one now",
-                  style: TextStyle(
-                    fontSize: 20.sp,
-                  ),
-                ),
-              ),
-            ),
-            SizedBox(height: 20.h),
-            ZoomTapAnimation(
-              onTap: () {
-                playTap(context);
-                return true;
-              },
-              child: Container(
-                padding:
-                    EdgeInsets.symmetric(horizontal: 25.sp, vertical: 15.sp),
-                decoration: BoxDecoration(
-                  color: Colors.white,
-                  borderRadius: BorderRadius.circular(100.r),
-                ),
-                child: Text(
-                  "No, I'll do it later",
-                  style: TextStyle(
-                    fontSize: 20.sp,
-                  ),
-                ),
-              ),
+            ListTile(
+              title: ,
             ),
             const Spacer(),
           ],
