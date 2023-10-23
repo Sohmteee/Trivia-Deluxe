@@ -16,10 +16,12 @@ import 'package:trivia/providers/stage.dart';
 import 'package:trivia/providers/time.dart';
 import 'package:trivia/screens/ad.dart';
 import 'package:trivia/screens/game.dart';
+import 'package:trivia/screens/leaderboard.dart';
 import 'package:trivia/screens/menu.dart';
 import 'package:trivia/screens/reward.dart';
 import 'package:trivia/screens/select.dart';
 import 'package:trivia/screens/stage.dart';
+import 'package:trivia/screens/streaks.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -77,8 +79,8 @@ class MyApp extends StatelessWidget {
               '/select': (context) => const SelectScreen(),
               '/ad': (context) => AdScreen(),
               '/reward': (context) => const RewardScreen(),
-              '/streaks': (context) => const RewardScreen(),
-              '/leaderboard': (context) => const RewardScreen(),
+              '/streaks': (context) => const StreaksScreeen(),
+              '/leaderboard': (context) => const LeaderBoardScreen(),
             },
           );
         });
