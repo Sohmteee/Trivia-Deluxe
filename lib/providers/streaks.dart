@@ -455,7 +455,9 @@ class StreaksProvider extends ChangeNotifier {
         box.put("permanentLeaderboardStreak", permanentLeaderboardStreak);
       }
     } else {
-      leaderboardStreak = le;
+      leaderboardStreak = leaderboardStreak == 0
+          ? 0
+          : permanentLeaderboardStreakList[index - 1];
       box.put("leaderboardStreak", leaderboardStreak);
     }
 
