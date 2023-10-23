@@ -191,18 +191,18 @@ class StreaksProvider extends ChangeNotifier {
           box.get("permanentLeaderboardStreak", defaultValue: 0);
   int ultimateStreak = box.get("ultimateStreak", defaultValue: 0);
 
-  void updateStreakStatus({required int index, required int streakIndex, required bool status}) {
-    streaks[index]["streaks"][streakIndex]["status"] = status;
+  void updateStreakStatus({required int streakIndex, required int subStreakIndex, required bool status}) {
+    streaks[streakIndex]["streaks"][subStreakIndex]["status"] = status;
     notifyListeners();
   }
 
-  void updateStreakProgress({required int index, required int streakIndex, int? progress}) {
-    streaks[index]["streaks"][streakIndex]["progress"] += progress ?? 1;
+  void updateStreakProgress({required int streakIndex, required int subStreakIndex, int? progress}) {
+    streaks[streakIndex]["streaks"][subStreakIndex]["progress"] += progress ?? 1;
     notifyListeners();
   }
 
-  void resetStreakProgress({required int index, required int streakIndex}) {
-    streaks[index]["streaks"][streakIndex]["progress"] = 0;
+  void resetStreakProgress({required int streakIndex, required int subStreakIndex}) {
+    streaks[streakIndex]["streaks"][subStreakIndex]["progress"] = 0;
     notifyListeners();
   }
 }
