@@ -364,28 +364,44 @@ class StreaksProvider extends ChangeNotifier {
             "title": "Achiever",
             "subtitle": "Rank top 10 on the leaderboard",
             "status": achieverStatus,
-            "progress": permanentLeaderboardStreak >= 10 ? 1 : leaderboardStreak,
+            "progress": permanentLeaderboardStreak >= 10
+                ? 1
+                : leaderboardStreak >= 10
+                    ? 1
+                    : 0,
             "limit": 1,
           },
           {
             "title": "Top Ranker",
             "subtitle": "Rank top 5 on the leaderboard",
             "status": topRankerStatus,
-            "progress": permanentLeaderboardStreak >= 5 ? 3 : leaderboardStreak,
+            "progress": permanentLeaderboardStreak >= 5
+                ? 1
+                : leaderboardStreak >= 5
+                    ? 1
+                    : 0,
             "limit": 1,
           },
           {
             "title": "Master Ranker",
             "subtitle": "Rank top 3 on the leaderboard",
             "status": masterRankerStatus,
-            "progress": 0,
+            "progress": permanentLeaderboardStreak >= 3
+                ? 1
+                : leaderboardStreak >= 3
+                    ? 1
+                    : 0,
             "limit": 1,
           },
           {
             "title": "Leaderboard Champion",
             "subtitle": "Rank first on the leaderboard",
             "status": leaderboardChampionStatus,
-            "progress": 0,
+            "progress": permanentLeaderboardStreak >= 1
+                ? 1
+                : leaderboardStreak >= 1
+                    ? 1
+                    : 0,
             "limit": 1,
           },
         ],
