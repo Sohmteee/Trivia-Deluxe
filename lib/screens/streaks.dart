@@ -22,7 +22,7 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
           children: [
             Center(
               child: Text(
-                "Leaderboard",
+                "Streaks",
                 style: TextStyle(
                   color: AppColor.yellow,
                   fontSize: 50.sp,
