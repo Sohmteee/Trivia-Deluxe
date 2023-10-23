@@ -68,29 +68,16 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
               ),
             ),
             const Spacer(),
-            Text(
-              "Level Streaks",
-              style: TextStyle(
-                color: AppColor.white,
-                fontSize: 25.sp,
-              ),
-              textAlign: TextAlign.center,
-            ),
-            Text(
-              "Would you like to create a profile before then?",
-              style: TextStyle(
-                color: AppColor.white,
-                fontSize: 25.sp,
-              ),
-              textAlign: TextAlign.center,
-            ),
-            Text(
-              "\nYour data will be synced once the feture is rolled out",
-              style: TextStyle(
-                color: AppColor.white,
-                fontSize: 25.sp,
-              ),
-              textAlign: TextAlign.center,
+            Row(
+              children: [
+                Text(
+                  "Level Streaks",
+                  style: TextStyle(
+                    color: AppColor.white,
+                    fontSize: 25.sp,
+                  ),
+                ),
+              ],
             ),
             const Spacer(),
             ZoomTapAnimation(
