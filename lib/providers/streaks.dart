@@ -199,6 +199,14 @@ class StreaksProvider extends ChangeNotifier {
 
   void updateLevelStreak({int? level}) {
     levelStreak = level ?? levelStreak + 1;
+    box.put("levelStreak", levelStreak);
+
+    switch (levelStreak) {
+      case value:
+        
+        break;
+      default:
+    }
     notifyListeners();
   }
 
