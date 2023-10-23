@@ -98,9 +98,16 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                             .map(
                               (item) => ListTile(
                                 title: Text(
-                                  "Complete 5 levels without failing",
+                                  item["title"],
                                   style: TextStyle(
                                     color: AppColor.white,
+                                    fontSize: 18.sp,
+                                  ),
+                                ),
+                                subtitle: Text(
+                                  item["subtitle"],
+                                  style: TextStyle(
+                                    color: AppColor.,
                                     fontSize: 18.sp,
                                   ),
                                 ),
