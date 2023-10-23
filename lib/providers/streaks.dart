@@ -202,8 +202,6 @@ class StreaksProvider extends ChangeNotifier {
     levelStreak = level ?? levelStreak + 1;
     box.put("levelStreak", levelStreak);
 
-    updateStreakProgress()
-
     if (levelStreak >= 5) {
       updateStreakStatus(
           streakIndex: levelStreakIndex,
