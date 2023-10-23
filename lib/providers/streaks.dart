@@ -371,7 +371,7 @@ class StreaksProvider extends ChangeNotifier {
             "title": "Top Ranker",
             "subtitle": "Rank top 5 on the leaderboard",
             "status": topRankerStatus,
-            "progress": 0,
+            "progress": permanentLeaderboardStreak >= 3 ? 3 : leaderboardStreak,
             "limit": 1,
           },
           {
