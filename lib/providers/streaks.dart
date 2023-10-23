@@ -461,6 +461,18 @@ class StreaksProvider extends ChangeNotifier {
   }
 
   void updateUltimateStreak() {
+
+    int totalStreaksFinished = 0;
+
+    
+    for (streak in streaks) {
+      for (subStreak in streak["streaks"]) {
+        if (subStreak["status"] == false) {
+          return;
+        }
+      }
+    }
+
     ultimateStreak += 1;
     box.put("ultimateStreak", ultimateStreak);
 
