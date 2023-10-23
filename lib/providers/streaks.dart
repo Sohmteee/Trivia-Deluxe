@@ -241,28 +241,40 @@ class StreaksProvider extends ChangeNotifier {
             "title": "Steady Progress",
             "subtitle": "Complete 5 levels without failing",
             "status": steadyProgressStatus,
-            "progress": permanentLevelStreak ,
+            "progress": permanentLevelStreak >= 5
+                ? 5
+                : levelStreak >= 5
+                    ? 5
+                    : 0,
             "limit": 5,
           },
           {
             "title": "Leveling Up",
             "subtitle": "Complete 10 levels without failing",
             "status": levelingUpStatus,
-            "progress": 0,
+            "progress": permanentLevelStreak >= 10
+                ? 10
+                : levelStreak >= 10
+                    ? 10
+                    : 0,
             "limit": 10,
           },
           {
             "title": "Tenacious Triumph",
             "subtitle": "Complete 20 levels without failing",
             "status": tenaciousTriumphStatus,
-            "progress": 0,
+            "progress": permanentLevelStreak >= 20
+                ? 20
+                : levelStreak,
             "limit": 20,
           },
           {
             "title": "Masterful Streak",
             "subtitle": "Complete 50 levels without failing",
             "status": masterfulStreakStatus,
-            "progress": 0,
+            "progress": permanentLevelStreak >= 50
+                ? 50
+                : levelStreak,
             "limit": 50,
           },
           {
