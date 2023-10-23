@@ -140,7 +140,7 @@ Map streaks = {
     "image": "",
     "streaks": {
       {
-        "": {
+        "Achiever": {
           "subtitle": "Rank top 10 on the leaderboard",
           "status": false,
           "progress": 0,
@@ -148,7 +148,7 @@ Map streaks = {
         },
       },
       {
-        "": {
+        "Master Ranker": {
           "subtitle": "Rank top 5 on the leaderboard",
           "status": false,
           "progress": 0,
@@ -156,7 +156,7 @@ Map streaks = {
         },
       },
       {
-        "": {
+        "Top": {
           "subtitle": "Rank top 3 on the leaderboard",
           "status": false,
           "progress": 0,
