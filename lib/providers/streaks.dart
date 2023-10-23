@@ -388,14 +388,6 @@ class StreaksProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-  void updateStreakStatus(
-      {required int streakIndex,
-      required int subStreakIndex,
-      required bool status}) {
-    streaks[streakIndex]["streaks"][subStreakIndex]["status"] = status;
-    notifyListeners();
-  }
-
   void updateLevelStreak({int? level}) {
     levelStreak = level ?? levelStreak + 1;
     box.put("levelStreak", levelStreak);
