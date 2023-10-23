@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 
 List streaks = [
-  {
-    "Level Streaks": {
+  
+    {
+      "title": "Level Streaks",
       "image": "assets/images/level.png",
       "streaks": [
         {
@@ -47,7 +48,7 @@ List streaks = [
         },
       ],
     },
-  },
+  
   {
     "Coin Streaks": {
       "image": "assets/images/coins.png",

@@ -71,7 +71,7 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
               child: ListView.separated(
                 itemCount: streaks.length,
                 itemBuilder: (BuildContext context, int index) {
-                  String streakTitle = streaks[inc]
+                  String streakTitle = streaks[index];
                   return Column(
                     children: [
                       Row(
