@@ -86,7 +86,7 @@ List<Map<String, dynamic>> streaks = [
   {
     "title": "Trivia Streaks",
     "image": "assets/images/answer.png",
-    "streaks": {
+    "streaks": [
       {
         "title": "Trivia Beginner",
         "subtitle": "Answer 5 questions correctly in a row",
@@ -122,7 +122,7 @@ List<Map<String, dynamic>> streaks = [
         "progress": 0,
         "limit": 100,
       },
-    },
+],
   },
   {
     "title": "Leaderboard Streaks",
