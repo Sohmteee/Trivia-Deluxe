@@ -47,6 +47,19 @@ Map<String, dynamic> geographyData = {
       ]
     },
     {
+      "question": "What is the capital of the United Kingdom?",
+      "dialog": {
+        "title": "London",
+        "content": "London is the capital of the UK."
+      },
+      "options": [
+        {"text": "Edinburgh", "value": false, "color": "yellow"},
+        {"text": "Dublin", "value": false, "color": "yellow"},
+        {"text": "Cardiff", "value": false, "color": "yellow"},
+        {"text": "London", "value": true, "color": "yellow"}
+      ]
+    },
+    {
       "question":
           "Mount Everest, the world's highest peak, is part of which mountain range?",
       "dialog": {
@@ -59,6 +72,20 @@ Map<String, dynamic> geographyData = {
         {"text": "Rocky Mountains", "value": false, "color": "yellow"},
         {"text": "Himalayas", "value": true, "color": "yellow"},
         {"text": "Alps", "value": false, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "What's the capital of Russia?",
+      "dialog": {
+        "title": "Moscow",
+        "content":
+            "Moscow serves as the capital of Russia, known for its rich history, landmarks like the Kremlin, and cultural significance."
+      },
+      "options": [
+        {"text": "St. Petersburg", "value": false, "color": "yellow"},
+        {"text": "Kiev", "value": false, "color": "yellow"},
+        {"text": "Moscow", "value": true, "color": "yellow"},
+        {"text": "Minsk", "value": false, "color": "yellow"}
       ]
     },
     {
@@ -90,6 +117,20 @@ Map<String, dynamic> geographyData = {
       ]
     },
     {
+      "question": "What is the capital of Canada?",
+      "dialog": {
+        "title": "Ottawa",
+        "content":
+            "Ottawa is the capital of Canada, known for its cultural diversity and historic landmarks."
+      },
+      "options": [
+        {"text": "Toronto", "value": false, "color": "yellow"},
+        {"text": "Ottawa", "value": true, "color": "yellow"},
+        {"text": "Montreal", "value": false, "color": "yellow"},
+        {"text": "Vancouver", "value": false, "color": "yellow"}
+      ]
+    },
+    {
       "question": "Which country is known as the Land of the Rising Sun?",
       "dialog": {
         "title": "Japan",
@@ -115,6 +156,20 @@ Map<String, dynamic> geographyData = {
         {"text": "Indian Ocean", "value": false, "color": "yellow"},
         {"text": "Arctic Ocean", "value": false, "color": "yellow"},
         {"text": "Pacific Ocean", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "What's the capital city of New Zealand?",
+      "dialog": {
+        "title": "Wellington",
+        "content":
+            "Wellington is the capital city of New Zealand, known for its natural beauty and vibrant cultural scene."
+      },
+      "options": [
+        {"text": "Sydney", "value": false, "color": "yellow"},
+        {"text": "Melbourne", "value": false, "color": "yellow"},
+        {"text": "Auckland", "value": false, "color": "yellow"},
+        {"text": "Wellington", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -161,6 +216,20 @@ Map<String, dynamic> geographyData = {
       ]
     },
     {
+      "question": "Which river flows through Cairo, the capital of Egypt?",
+      "dialog": {
+        "title": "Nile River",
+        "content":
+            "The Nile River flows through Cairo, the capital of Egypt. It is a lifeline for the region, providing water and fertile land for agriculture."
+      },
+      "options": [
+        {"text": "Danube River", "value": false, "color": "yellow"},
+        {"text": "Nile River", "value": true, "color": "yellow"},
+        {"text": "Amazon River", "value": false, "color": "yellow"},
+        {"text": "Rhine River", "value": false, "color": "yellow"}
+      ]
+    },
+    {
       "question": "The Pyramids of Giza are located near which Egyptian city?",
       "dialog": {
         "title": "Cairo",
@@ -203,6 +272,20 @@ Map<String, dynamic> geographyData = {
       ]
     },
     {
+      "question": "What is the capital of South Korea?",
+      "dialog": {
+        "title": "Seoul",
+        "content":
+            "Seoul is the capital of South Korea, a bustling city known for its technological advancements and rich culture."
+      },
+      "options": [
+        {"text": "Busan", "value": false, "color": "yellow"},
+        {"text": "Incheon", "value": false, "color": "yellow"},
+        {"text": "Daegu", "value": false, "color": "yellow"},
+        {"text": "Seoul", "value": true, "color": "yellow"}
+      ]
+    },
+    {
       "question":
           "The city of Venice is known for its canals and is located in which country?",
       "dialog": {
@@ -215,20 +298,6 @@ Map<String, dynamic> geographyData = {
         {"text": "Greece", "value": false, "color": "yellow"},
         {"text": "Italy", "value": true, "color": "yellow"},
         {"text": "France", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "What's the capital of Russia?",
-      "dialog": {
-        "title": "Moscow",
-        "content":
-            "Moscow serves as the capital of Russia, known for its rich history, landmarks like the Kremlin, and cultural significance."
-      },
-      "options": [
-        {"text": "St. Petersburg", "value": false, "color": "yellow"},
-        {"text": "Kiev", "value": false, "color": "yellow"},
-        {"text": "Moscow", "value": true, "color": "yellow"},
-        {"text": "Minsk", "value": false, "color": "yellow"}
       ]
     },
     {
@@ -262,6 +331,16 @@ Map<String, dynamic> geographyData = {
       ]
     },
     {
+      "question": "What is the capital of Italy?",
+      "dialog": {"title": "Rome", "content": "Rome is the capital of Italy."},
+      "options": [
+        {"text": "Milan", "value": false, "color": "yellow"},
+        {"text": "Venice", "value": false, "color": "yellow"},
+        {"text": "Florence", "value": false, "color": "yellow"},
+        {"text": "Rome", "value": true, "color": "yellow"}
+      ]
+    },
+    {
       "question": "What's the largest country in Africa by land area?",
       "dialog": {
         "title": "Algeria",
@@ -276,35 +355,6 @@ Map<String, dynamic> geographyData = {
       ]
     },
     {
-      "question":
-          "Which mountain range forms the border between Europe and Asia?",
-      "dialog": {
-        "title": "Ural Mountains",
-        "content":
-            "The Ural Mountains form the border between Europe and Asia, influencing the geography of both continents."
-      },
-      "options": [
-        {"text": "Rocky Mountains", "value": false, "color": "yellow"},
-        {"text": "Andes", "value": false, "color": "yellow"},
-        {"text": "Alps", "value": false, "color": "yellow"},
-        {"text": "Ural Mountains", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "What's the largest country in South America by land area?",
-      "dialog": {
-        "title": "Brazil",
-        "content":
-            "Brazil is the largest country in South America by land area, known for its Amazon Rainforest and diverse culture."
-      },
-      "options": [
-        {"text": "Argentina", "value": false, "color": "yellow"},
-        {"text": "Brazil", "value": true, "color": "yellow"},
-        {"text": "Colombia", "value": false, "color": "yellow"},
-        {"text": "Peru", "value": false, "color": "yellow"}
-      ]
-    },
-    {
       "question": "Which European city is known as the City of Light?",
       "dialog": {
         "title": "Paris",
@@ -316,6 +366,19 @@ Map<String, dynamic> geographyData = {
         {"text": "Paris", "value": true, "color": "yellow"},
         {"text": "Rome", "value": false, "color": "yellow"},
         {"text": "London", "value": false, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "What is the capital of Germany?",
+      "dialog": {
+        "title": "Berlin",
+        "content": "Berlin is the capital of Germany."
+      },
+      "options": [
+        {"text": "Vienna", "value": false, "color": "yellow"},
+        {"text": "Munich", "value": false, "color": "yellow"},
+        {"text": "Hamburg", "value": false, "color": "yellow"},
+        {"text": "Berlin", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -389,20 +452,6 @@ Map<String, dynamic> geographyData = {
       ]
     },
     {
-      "question": "What's the smallest continent in the world?",
-      "dialog": {
-        "title": "Australia",
-        "content":
-            "Australia is the smallest continent on Earth, known for its diverse ecosystems and unique wildlife."
-      },
-      "options": [
-        {"text": "Asia", "value": false, "color": "yellow"},
-        {"text": "Europe", "value": false, "color": "yellow"},
-        {"text": "Africa", "value": false, "color": "yellow"},
-        {"text": "Australia", "value": true, "color": "yellow"}
-      ]
-    },
-    {
       "question": "In which country would you find the ancient city of Petra?",
       "dialog": {
         "title": "Jordan",
@@ -431,20 +480,6 @@ Map<String, dynamic> geographyData = {
       ]
     },
     {
-      "question": "Which ocean is the world's largest by volume?",
-      "dialog": {
-        "title": "Pacific Ocean",
-        "content":
-            "The Pacific Ocean is the world's largest ocean by volume, covering a vast area and containing numerous islands."
-      },
-      "options": [
-        {"text": "Atlantic Ocean", "value": false, "color": "yellow"},
-        {"text": "Indian Ocean", "value": false, "color": "yellow"},
-        {"text": "Arctic Ocean", "value": false, "color": "yellow"},
-        {"text": "Pacific Ocean", "value": true, "color": "yellow"}
-      ]
-    },
-    {
       "question": "What is the southernmost continent on Earth?",
       "dialog": {
         "title": "Antarctica",
@@ -456,21 +491,6 @@ Map<String, dynamic> geographyData = {
         {"text": "Africa", "value": false, "color": "yellow"},
         {"text": "Asia", "value": false, "color": "yellow"},
         {"text": "Antarctica", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "The Great Wall of China was primarily built to protect against invasions from which group of people?",
-      "dialog": {
-        "title": "Mongols",
-        "content":
-            "The Great Wall of China was primarily built to protect against invasions from the Mongols, a historic nomadic group."
-      },
-      "options": [
-        {"text": "Romans", "value": false, "color": "yellow"},
-        {"text": "Vikings", "value": false, "color": "yellow"},
-        {"text": "Mongols", "value": true, "color": "yellow"},
-        {"text": "Aztecs", "value": false, "color": "yellow"}
       ]
     },
     {
@@ -519,6 +539,21 @@ Map<String, dynamic> geographyData = {
     },
     {
       "question":
+          "The historic city of Kyoto, known for its temples and traditional wooden houses, is located in which country?",
+      "dialog": {
+        "title": "Japan",
+        "content":
+            "Kyoto, located in Japan, is known for its temples, traditional wooden houses, and cultural heritage."
+      },
+      "options": [
+        {"text": "China", "value": false, "color": "yellow"},
+        {"text": "South Korea", "value": false, "color": "yellow"},
+        {"text": "Japan", "value": true, "color": "yellow"},
+        {"text": "Thailand", "value": false, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
           "What's the largest coral reef system in the world, located off the coast of Australia?",
       "dialog": {
         "title": "Great Barrier Reef",
@@ -534,20 +569,6 @@ Map<String, dynamic> geographyData = {
         {"text": "Great Barrier Reef", "value": true, "color": "yellow"},
         {"text": "Red Sea Coral Reef", "value": false, "color": "yellow"},
         {"text": "Maldives Coral Reef", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "What is the capital of Canada?",
-      "dialog": {
-        "title": "Ottawa",
-        "content":
-            "Ottawa is the capital of Canada, known for its cultural diversity and historic landmarks."
-      },
-      "options": [
-        {"text": "Toronto", "value": false, "color": "yellow"},
-        {"text": "Ottawa", "value": true, "color": "yellow"},
-        {"text": "Montreal", "value": false, "color": "yellow"},
-        {"text": "Vancouver", "value": false, "color": "yellow"}
       ]
     },
     {
@@ -641,20 +662,6 @@ Map<String, dynamic> geographyData = {
       ]
     },
     {
-      "question": "What's the capital city of New Zealand?",
-      "dialog": {
-        "title": "Wellington",
-        "content":
-            "Wellington is the capital city of New Zealand, known for its natural beauty and vibrant cultural scene."
-      },
-      "options": [
-        {"text": "Sydney", "value": false, "color": "yellow"},
-        {"text": "Melbourne", "value": false, "color": "yellow"},
-        {"text": "Auckland", "value": false, "color": "yellow"},
-        {"text": "Wellington", "value": true, "color": "yellow"}
-      ]
-    },
-    {
       "question": "What is the official language of Brazil?",
       "dialog": {
         "title": "Portuguese",
@@ -681,6 +688,20 @@ Map<String, dynamic> geographyData = {
         {"text": "Mongolia", "value": false, "color": "yellow"},
         {"text": "Kazakhstan", "value": false, "color": "yellow"},
         {"text": "Russia", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "What is the capital of Turkey?",
+      "dialog": {
+        "title": "Ankara",
+        "content":
+            "Ankara is the capital of Turkey, serving as the country's political and administrative center."
+      },
+      "options": [
+        {"text": "Istanbul", "value": false, "color": "yellow"},
+        {"text": "Izmir", "value": false, "color": "yellow"},
+        {"text": "Antalya", "value": false, "color": "yellow"},
+        {"text": "Ankara", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -758,21 +779,6 @@ Map<String, dynamic> geographyData = {
       ]
     },
     {
-      "question":
-          "The historic city of Kyoto, known for its temples and traditional wooden houses, is located in which country?",
-      "dialog": {
-        "title": "Japan",
-        "content":
-            "Kyoto, located in Japan, is known for its temples, traditional wooden houses, and cultural heritage."
-      },
-      "options": [
-        {"text": "China", "value": false, "color": "yellow"},
-        {"text": "South Korea", "value": false, "color": "yellow"},
-        {"text": "Japan", "value": true, "color": "yellow"},
-        {"text": "Thailand", "value": false, "color": "yellow"}
-      ]
-    },
-    {
       "question": "What's the deepest point in the world's oceans?",
       "dialog": {
         "title": "Mariana Trench",
@@ -847,34 +853,6 @@ Map<String, dynamic> geographyData = {
       ]
     },
     {
-      "question": "Which river flows through Cairo, the capital of Egypt?",
-      "dialog": {
-        "title": "Nile River",
-        "content":
-            "The Nile River flows through Cairo, the capital of Egypt. It is a lifeline for the region, providing water and fertile land for agriculture."
-      },
-      "options": [
-        {"text": "Danube River", "value": false, "color": "yellow"},
-        {"text": "Nile River", "value": true, "color": "yellow"},
-        {"text": "Amazon River", "value": false, "color": "yellow"},
-        {"text": "Rhine River", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "What's the capital of New Zealand?",
-      "dialog": {
-        "title": "Wellington",
-        "content":
-            "Wellington is the capital of New Zealand, serving as the country's political and administrative center."
-      },
-      "options": [
-        {"text": "Auckland", "value": false, "color": "yellow"},
-        {"text": "Christchurch", "value": false, "color": "yellow"},
-        {"text": "Sydney", "value": false, "color": "yellow"},
-        {"text": "Wellington", "value": true, "color": "yellow"}
-      ]
-    },
-    {
       "question": "Which mountain range separates Europe and Asia?",
       "dialog": {
         "title": "Ural Mountains",
@@ -904,20 +882,6 @@ Map<String, dynamic> geographyData = {
       ]
     },
     {
-      "question": "In which U.S. state would you find the Grand Canyon?",
-      "dialog": {
-        "title": "Arizona",
-        "content":
-            "The Grand Canyon is located in Arizona, known for its stunning geological formations."
-      },
-      "options": [
-        {"text": "California", "value": false, "color": "yellow"},
-        {"text": "Utah", "value": false, "color": "yellow"},
-        {"text": "Arizona", "value": true, "color": "yellow"},
-        {"text": "Nevada", "value": false, "color": "yellow"}
-      ]
-    },
-    {
       "question": "What's the northernmost capital city in the world?",
       "dialog": {
         "title": "Reykjavik",
@@ -944,20 +908,6 @@ Map<String, dynamic> geographyData = {
         {"text": "Israel and Jordan", "value": true, "color": "yellow"},
         {"text": "Egypt and Sudan", "value": false, "color": "yellow"},
         {"text": "Italy and Malta", "value": false, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "Which African country is known as the Rainbow Nation?",
-      "dialog": {
-        "title": "South Africa",
-        "content":
-            "South Africa is known as the Rainbow Nation due to its diverse population and post-apartheid reconciliation."
-      },
-      "options": [
-        {"text": "Nigeria", "value": false, "color": "yellow"},
-        {"text": "South Africa", "value": true, "color": "yellow"},
-        {"text": "Kenya", "value": false, "color": "yellow"},
-        {"text": "Ethiopia", "value": false, "color": "yellow"}
       ]
     },
     {
@@ -1050,6 +1000,20 @@ Map<String, dynamic> geographyData = {
       ]
     },
     {
+      "question": "What is the capital of Saudi Arabia?",
+      "dialog": {
+        "title": "Riyadh",
+        "content":
+            "Riyadh is the capital of Saudi Arabia, known for its modernization and historical sites."
+      },
+      "options": [
+        {"text": "Mecca", "value": false, "color": "yellow"},
+        {"text": "Medina", "value": false, "color": "yellow"},
+        {"text": "Riyadh", "value": true, "color": "yellow"},
+        {"text": "Jeddah", "value": false, "color": "yellow"}
+      ]
+    },
+    {
       "question":
           "In which European country would you find the historic city of Prague?",
       "dialog": {
@@ -1124,20 +1088,6 @@ Map<String, dynamic> geographyData = {
       ]
     },
     {
-      "question": "Which country is known as the Land of the Rising Sun?",
-      "dialog": {
-        "title": "Japan",
-        "content":
-            "Japan is known as the Land of the Rising Sun due to its name in Japanese, Nihon, which means origin of the sun."
-      },
-      "options": [
-        {"text": "China", "value": false, "color": "yellow"},
-        {"text": "South Korea", "value": false, "color": "yellow"},
-        {"text": "Japan", "value": true, "color": "yellow"},
-        {"text": "Thailand", "value": false, "color": "yellow"}
-      ]
-    },
-    {
       "question":
           "The Great Barrier Reef, one of the world's most famous coral reef systems, is located off the coast of which country?",
       "dialog": {
@@ -1197,20 +1147,6 @@ Map<String, dynamic> geographyData = {
       ]
     },
     {
-      "question": "What is the capital of Saudi Arabia?",
-      "dialog": {
-        "title": "Riyadh",
-        "content":
-            "Riyadh is the capital of Saudi Arabia, known for its modernization and historical sites."
-      },
-      "options": [
-        {"text": "Mecca", "value": false, "color": "yellow"},
-        {"text": "Medina", "value": false, "color": "yellow"},
-        {"text": "Riyadh", "value": true, "color": "yellow"},
-        {"text": "Jeddah", "value": false, "color": "yellow"}
-      ]
-    },
-    {
       "question":
           "In which African country is Victoria Falls, one of the world's largest waterfalls?",
       "dialog": {
@@ -1242,35 +1178,6 @@ Map<String, dynamic> geographyData = {
     },
     {
       "question":
-          "Which European country is known as the Land of a Thousand Lakes?",
-      "dialog": {
-        "title": "Finland",
-        "content":
-            "Finland, often referred to as the Land of a Thousand Lakes, boasts numerous lakes and is known for its natural beauty."
-      },
-      "options": [
-        {"text": "Sweden", "value": false, "color": "yellow"},
-        {"text": "Norway", "value": false, "color": "yellow"},
-        {"text": "Denmark", "value": false, "color": "yellow"},
-        {"text": "Finland", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "What is the capital of South Korea?",
-      "dialog": {
-        "title": "Seoul",
-        "content":
-            "Seoul is the capital of South Korea, a bustling city known for its technological advancements and rich culture."
-      },
-      "options": [
-        {"text": "Busan", "value": false, "color": "yellow"},
-        {"text": "Incheon", "value": false, "color": "yellow"},
-        {"text": "Daegu", "value": false, "color": "yellow"},
-        {"text": "Seoul", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
           "The Amazon Rainforest, one of the world's largest, is primarily located in which continent?",
       "dialog": {
         "title": "South America",
@@ -1282,20 +1189,6 @@ Map<String, dynamic> geographyData = {
         {"text": "Africa", "value": false, "color": "yellow"},
         {"text": "Australia", "value": false, "color": "yellow"},
         {"text": "South America", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "What is the capital of Turkey?",
-      "dialog": {
-        "title": "Ankara",
-        "content":
-            "Ankara is the capital of Turkey, serving as the country's political and administrative center."
-      },
-      "options": [
-        {"text": "Istanbul", "value": false, "color": "yellow"},
-        {"text": "Izmir", "value": false, "color": "yellow"},
-        {"text": "Antalya", "value": false, "color": "yellow"},
-        {"text": "Ankara", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1384,20 +1277,6 @@ Map<String, dynamic> geographyData = {
       ]
     },
     {
-      "question": "What is the largest island in the Mediterranean Sea?",
-      "dialog": {
-        "title": "Sicily",
-        "content":
-            "Sicily is the largest island in the Mediterranean Sea, offering a blend of historical and natural attractions."
-      },
-      "options": [
-        {"text": "Crete", "value": false, "color": "yellow"},
-        {"text": "Sardinia", "value": false, "color": "yellow"},
-        {"text": "Corsica", "value": false, "color": "yellow"},
-        {"text": "Sicily", "value": true, "color": "yellow"}
-      ]
-    },
-    {
       "question": "The city of Cape Town is located in which country?",
       "dialog": {
         "title": "South Africa",
@@ -1468,6 +1347,156 @@ Map<String, dynamic> geographyData = {
         {"text": "Asia", "value": false, "color": "yellow"},
         {"text": "Europe", "value": false, "color": "yellow"},
         {"text": "South America", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "Which country is the birthplace of the Olympic Games?",
+      "dialog": {
+        "title": "Greece",
+        "content": "The Olympic Games originated in Greece."
+      },
+      "options": [
+        {"text": "Italy", "value": false, "color": "yellow"},
+        {"text": "Spain", "value": false, "color": "yellow"},
+        {"text": "Turkey", "value": false, "color": "yellow"},
+        {"text": "Greece", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "Which city is known as the \"Venice of the North\" due to its numerous canals?",
+      "dialog": {
+        "title": "Amsterdam",
+        "content": "Amsterdam is often called the \"Venice of the North.\""
+      },
+      "options": [
+        {"text": "Bruges", "value": false, "color": "yellow"},
+        {"text": "Copenhagen", "value": false, "color": "yellow"},
+        {"text": "Venice", "value": false, "color": "yellow"},
+        {"text": "Amsterdam", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "Which European country is home to the famous fjords and is known for its stunning natural scenery?",
+      "dialog": {
+        "title": "Norway",
+        "content": "Norway is known for its picturesque fjords."
+      },
+      "options": [
+        {"text": "Sweden", "value": false, "color": "yellow"},
+        {"text": "Denmark", "value": false, "color": "yellow"},
+        {"text": "Iceland", "value": false, "color": "yellow"},
+        {"text": "Norway", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "Which mountain range stretches across southern Europe, forming a natural border between France and Spain?",
+      "dialog": {
+        "title": "Pyrenees Mountains",
+        "content": "The Pyrenees form the border between these countries."
+      },
+      "options": [
+        {"text": "Alps", "value": false, "color": "yellow"},
+        {"text": "Carpathian Mountains", "value": false, "color": "yellow"},
+        {"text": "Apennines Mountains", "value": false, "color": "yellow"},
+        {"text": "Pyrenees Mountains", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "Which European country is often referred to as the \"Emerald Isle\"?",
+      "dialog": {
+        "title": "Ireland",
+        "content": "Ireland is known as the \"Emerald Isle.\""
+      },
+      "options": [
+        {"text": "Scotland", "value": false, "color": "yellow"},
+        {"text": "Wales", "value": false, "color": "yellow"},
+        {"text": "Isle of Man", "value": false, "color": "yellow"},
+        {"text": "Ireland", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "What is the largest sea in Europe, separating Europe from Asia to the east?",
+      "dialog": {
+        "title": "Black Sea",
+        "content": "The Black Sea is the largest sea in this region."
+      },
+      "options": [
+        {"text": "Mediterranean Sea", "value": false, "color": "yellow"},
+        {"text": "Baltic Sea", "value": false, "color": "yellow"},
+        {"text": "Caspian Sea", "value": false, "color": "yellow"},
+        {"text": "Black Sea", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "Which European city is known as the \"City of a Hundred Spires\"?",
+      "dialog": {
+        "title": "Prague",
+        "content": "Prague is often called the \"City of a Hundred Spires.\""
+      },
+      "options": [
+        {"text": "Vienna", "value": false, "color": "yellow"},
+        {"text": "Budapest", "value": false, "color": "yellow"},
+        {"text": "Warsaw", "value": false, "color": "yellow"},
+        {"text": "Prague", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "What is the smallest country in Europe by land area?",
+      "dialog": {
+        "title": "Vatican City",
+        "content": "Vatican City is the smallest European country."
+      },
+      "options": [
+        {"text": "Monaco", "value": false, "color": "yellow"},
+        {"text": "San Marino", "value": false, "color": "yellow"},
+        {"text": "Andorra", "value": false, "color": "yellow"},
+        {"text": "Vatican City", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "Which river flows through the heart of Paris?",
+      "dialog": {
+        "title": "Seine River",
+        "content": "The Seine River runs through the center of Paris."
+      },
+      "options": [
+        {"text": "Rhine River", "value": false, "color": "yellow"},
+        {"text": "Danube River", "value": false, "color": "yellow"},
+        {"text": "Loire River", "value": false, "color": "yellow"},
+        {"text": "Seine River", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "Which European country is known for its beautiful castles and fairy-tale towns in Transylvania?",
+      "dialog": {
+        "title": "Romania",
+        "content": "Romania is known for these picturesque features."
+      },
+      "options": [
+        {"text": "Hungary", "value": false, "color": "yellow"},
+        {"text": "Bulgaria", "value": false, "color": "yellow"},
+        {"text": "Moldova", "value": false, "color": "yellow"},
+        {"text": "Romania", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "What is the capital of Spain?",
+      "dialog": {
+        "title": "Madrid",
+        "content": "Madrid is the capital of Spain."
+      },
+      "options": [
+        {"text": "Barcelona", "value": false, "color": "yellow"},
+        {"text": "Seville", "value": false, "color": "yellow"},
+        {"text": "Valencia", "value": false, "color": "yellow"},
+        {"text": "Madrid", "value": true, "color": "yellow"}
       ]
     }
   ]
