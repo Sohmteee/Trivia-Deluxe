@@ -187,8 +187,8 @@ class StreaksProvider extends ChangeNotifier {
 
   int levelStreak = box.get("levelStreak", defaultValue: 0),
       permanentLevelStreak = box.get("permanentLevelStreak", defaultValue: 0);
-  int coinStreak = box.get("coinStreak", defaultValue: 0),
-      permanentCoinStreak = box.get("permanentCoinStreak", defaultValue: 0);
+  int coinStreak = box.get("coinStreak", defaultValue: 50),
+      permanentCoinStreak = box.get("permanentCoinStreak", defaultValue: 50);
   int triviaStreak = box.get("triviaStreak", defaultValue: 0),
       permanentTriviaStreak = box.get("permanentTriviaStreak", defaultValue: 0);
   int leaderboardStreak = box.get("leaderboardStreak", defaultValue: 0),
