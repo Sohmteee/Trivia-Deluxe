@@ -65,7 +65,6 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                 textAlign: TextAlign.center,
               ),
             ),
-            const Spacer(),
             Row(
               children: [
                 Text(
@@ -124,7 +123,6 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                 ],
               ),
             ),
-            const Spacer(),
           ],
         ),
       ),
