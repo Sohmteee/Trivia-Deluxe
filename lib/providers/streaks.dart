@@ -125,10 +125,10 @@ Map streaks = {
     "image":"",
     "streaks": 
       {
-      "Complete 5 levels without failing": {
+      "Rank top 10 on the leaderboard": {
         "status": false,
         "progress": 0,
-        "limit": 5,
+        "limit": 1,
       }
     },
   }
