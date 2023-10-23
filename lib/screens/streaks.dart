@@ -118,7 +118,7 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
                                     Text(
-                                      "${item["progress"]} / 3",
+                                      "${item["progress"]} / ${item["limit"]}",
                                       style: TextStyle(
                                         fontSize: 16.sp,
                                         color: AppColor.yellow,
@@ -139,7 +139,9 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                         ),
                                         Container(
                                           height: 6.h,
-                                          width: (0 / 3) * 30.toDouble(),
+                                          width: (item["progress"] /
+                                                  item["limit"]) *
+                                              30.toDouble(),
                                           decoration: BoxDecoration(
                                             color: AppColor.yellow,
                                             borderRadius:
