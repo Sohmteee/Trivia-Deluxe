@@ -13,7 +13,7 @@ Map streaks = {
         }
       },
       {
-        "Leveling Up: {
+        "Leveling Up": {
           "subtitle": "Complete 10 levels without failing",
           "status": false,
           "progress": 0,
@@ -21,8 +21,8 @@ Map streaks = {
         }
       },
       {
-        "Complete 20 levels without failing": {
-          "subtitle": "",
+        "Tenacious Triumph": {
+          "subtitle": "Complete 20 levels without failing",
           "status": false,
           "progress": 0,
           "limit": 20,
