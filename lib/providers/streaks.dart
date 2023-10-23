@@ -265,17 +265,6 @@ class StreaksProvider extends ChangeNotifier {
         "streaks": [
           {
             "title": "Coin Collector",
-            "subtitle": "Earn 50 coins",
-            "status": permanentCoinStreak >= 50,
-            "progress": permanentCoinStreak >= 50
-                ? 50
-                : coinStreak >= 50
-                    ? 50
-                    : coinStreak,
-            "limit": 50,
-          },
-          {
-            "title": "Coin Hoarder",
             "subtitle": "Earn 100 coins",
             "status": permanentCoinStreak >= 100,
             "progress": permanentCoinStreak >= 100
@@ -286,7 +275,7 @@ class StreaksProvider extends ChangeNotifier {
             "limit": 100,
           },
           {
-            "title": "Gold Gatherer",
+            "title": "Coin Hoarder",
             "subtitle": "Earn 200 coins",
             "status": permanentCoinStreak >= 200,
             "progress": permanentCoinStreak >= 200
@@ -297,7 +286,7 @@ class StreaksProvider extends ChangeNotifier {
             "limit": 200,
           },
           {
-            "title": "Treasure Hunter",
+            "title": "Gold Gatherer",
             "subtitle": "Earn 500 coins",
             "status": permanentCoinStreak >= 500,
             "progress": permanentCoinStreak >= 500
@@ -308,7 +297,7 @@ class StreaksProvider extends ChangeNotifier {
             "limit": 500,
           },
           {
-            "title": "Coin Millionaire",
+            "title": "Treasure Hunter",
             "subtitle": "Earn 1000 coins",
             "status": permanentCoinStreak >= 1000,
             "progress": permanentCoinStreak >= 1000
@@ -317,6 +306,17 @@ class StreaksProvider extends ChangeNotifier {
                     ? 1000
                     : coinStreak,
             "limit": 1000,
+          },
+          {
+            "title": "Coin Millionaire",
+            "subtitle": "Earn 5000 coins",
+            "status": permanentCoinStreak >= 5000,
+            "progress": permanentCoinStreak >= 5000
+                ? 5000
+                : coinStreak >= 5000
+                    ? 5000
+                    : coinStreak,
+            "limit": 5000,
           },
         ],
       },
