@@ -379,7 +379,7 @@ class StreaksProvider extends ChangeNotifier {
             "title": "Ultimate Achiever",
             "subtitle": "Finish all streaks",
             "status": ultimateStreak >= 19,
-            "progress": ultimateStreak >= 19 ? 19 : ultimateStreak,
+            "progress": ultimateStreak >= 19 ? 19 : ultimateStreak >= 19 ? 19 : ultimateStreak,
             "limit": 19,
           },
         ],
