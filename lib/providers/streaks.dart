@@ -460,6 +460,14 @@ class StreaksProvider extends ChangeNotifier {
     notifyListeners();
   }
 
+  void updateUltimateStreak() {
+    ultimateStreak += 1;
+    box.put("ultimateStreak", ultimateStreak);
+
+    updateStreaksData();
+    notifyListeners();
+  }
+
   void updateStreakProgress(
       {required int streakIndex, required int subStreakIndex, int? progress}) {
     streaks[streakIndex]["streaks"][subStreakIndex]["progress"] +=
