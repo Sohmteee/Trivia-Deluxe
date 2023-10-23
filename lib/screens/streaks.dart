@@ -71,11 +71,12 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                 child: Text(
                   "Yes, I'll create one now",
                   style: TextStyle(
-                    fontSize: 15.sp,
+                    fontSize: 20.sp,
                   ),
                 ),
               ),
             ),
+            SizedBox(height: 20.h),
             ZoomTapAnimation(
               onTap: () {
                 playTap(context);
@@ -89,9 +90,9 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                   borderRadius: BorderRadius.circular(20.r),
                 ),
                 child: Text(
-                  "No, ",
+                  "No, I'll do it later",
                   style: TextStyle(
-                    fontSize: 15.sp,
+                    fontSize: 20.sp,
                   ),
                 ),
               ),
