@@ -92,24 +92,24 @@ Map streaks = {
       }
     },
     {
-      "Answer 5 questions correctly in a row": {
+      "Answer 20 questions correctly in a row": {
         "status": false,
         "progress": 0,
-        "limit": 5,
+        "limit": 20,
       }
     },
     {
-      "Answer 5 questions correctly in a row": {
+      "Answer 50 questions correctly in a row": {
         "status": false,
         "progress": 0,
-        "limit": 5,
+        "limit": 50,
       }
     },
     {
-      "Answer 5 questions correctly in a row": {
+      "Answer 100 questions correctly in a row": {
         "status": false,
         "progress": 0,
-        "limit": 5,
+        "limit": 100,
       }
     },
   }
