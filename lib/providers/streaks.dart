@@ -176,15 +176,16 @@ class StreaksProvider extends ChangeNotifier {
         },
       ];
 
-  int levelStreak = box.get("levelStreak") ?? 0,
-      permanentLevelStreak = box.get("permanentLevelStreak") ?? 0;
-  int coinStreak = box.get("coinStreak") ?? 0,
-      permanentCoinStreak = box.get("permanentCoinStreak") ?? 0;
-  int triviaStreak = box.get("triviaStreak") ?? 0,
-      permanentTriviaStreak = box.get("permanentTriviaStreak") ?? 0;
-  int leaderboardStreak = box.get("leaderboardStreak") ?? 0,
-      permanentLeaderboardStreak = box.get("permanentLeaderboardStreak") ?? 0;
-  int ultimateStreak = box.get("ultimateStreak") ?? 0;
+  int levelStreak = box.get("levelStreak", defaultValue: 0),
+      permanentLevelStreak = box.get("permanentLevelStreak", defaultValue: 0);
+  int coinStreak = box.get("coinStreak", defaultValue: 0),
+      permanentCoinStreak = box.get("permanentCoinStreak", defaultValue: 0);
+  int triviaStreak = box.get("triviaStreak", defaultValue: 0),
+      permanentTriviaStreak = box.get("permanentTriviaStreak", defaultValue: 0);
+  int leaderboardStreak = box.get("leaderboardStreak", defaultValue: 0),
+      permanentLeaderboardStreak =
+          box.get("permanentLeaderboardStreak", defaultValue: 0);
+  int ultimateStreak = box.get("ultimateStreak", defaultValue: 0);
 
   void updateStreakStatus(int index, int streakIndex) {
     streaks[index]["streaks"][streakIndex]["status"] = true;
