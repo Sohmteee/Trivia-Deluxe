@@ -8,6 +8,14 @@ class StreaksProvider extends ChangeNotifier {
       leaderboardStreakIndex = 3,
       ultimateStreakIndex = 4;
 
+  final steadyProgressIndex = 0,
+      levelingUpIndex = 1,
+      tenaciousTriumphIndex = 2,
+      masterfulStreakIndex = 3,
+      unstoppableChampionIndex = 4;
+
+  final coinCollectorIndex = 0, coinHoarderIndex = 1, goldGathererIndex = 2, treasureHunterIndex = 3, coinMillionaireIndex = 4;
+
   List<Map<String, dynamic>> streaks = box.get(
     "streaks",
     defaultValue: [
