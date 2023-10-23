@@ -72,6 +72,7 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
               child: ListView.separated(
                 itemCount: streaks.length,
                 padding: EdgeInsets.only(top: 20.h),
+                physics: const BouncingScrollPhysics(),
                 itemBuilder: (BuildContext context, int index) {
                   String streakTitle = streaks[index]["title"];
                   String image = streaks[index]["image"];
@@ -117,7 +118,7 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
                                     Text(
-                                      "0 / 3",
+                                      "${item["progress"]} / 3",
                                       style: TextStyle(
                                         fontSize: 16.sp,
                                         color: AppColor.yellow,
