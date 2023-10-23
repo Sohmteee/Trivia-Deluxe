@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/models/game_background.dart';
+import 'package:trivia/providers/streaks.dart';
 
 class StreaksScreeen extends StatefulWidget {
   const StreaksScreeen({super.key});
@@ -67,68 +68,70 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
             ),
             SizedBox(height: 40.h),
             Expanded(
-              child: Column(
-                children: [
-                  Row(
-                    children: [
-                      Text(
-                        "Level Streaks",
-                        style: TextStyle(
-                          color: AppColor.white,
-                          fontSize: 30.sp,
-                        ),
-                      ),
-                    ],
-                  ),
-                  SizedBox(height: 10.h),
-                  ListTile(
-                    leading: Image.asset(
-                      width: 38.w,
-                      "assets/images/level.png",
-                    ),
-                    title: Text(
-                      "Complete 5 levels without failing",
-                      style: TextStyle(
-                        color: AppColor.white,
-                        fontSize: 18.sp,
-                      ),
-                    ),
-                    trailing: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
+              child: SingleChildScrollView(
+                child: streaks Column(
+                  children: [
+                    Row(
                       children: [
                         Text(
-                          "0 / 3",
+                          "Level Streaks",
                           style: TextStyle(
-                            fontSize: 16.sp,
-                            color: AppColor.yellow,
+                            color: AppColor.white,
+                            fontSize: 30.sp,
                           ),
-                        ),
-                        SizedBox(height: 5.h),
-                        Stack(
-                          alignment: Alignment.centerLeft,
-                          children: [
-                            Container(
-                              height: 6.h,
-                              width: 30.toDouble(),
-                              decoration: BoxDecoration(
-                                color: AppColor.white,
-                                borderRadius: BorderRadius.circular(50.r),
-                              ),
-                            ),
-                            Container(
-                              height: 6.h,
-                              width: (0 / 3) * 30.toDouble(),
-                              decoration: BoxDecoration(
-                                color: AppColor.yellow,
-                                borderRadius: BorderRadius.circular(50.r),
-                              ),
-                            ),
-                          ],
                         ),
                       ],
                     ),
-                  ),
-                ],
+                    SizedBox(height: 10.h),
+                    ListTile(
+                      leading: Image.asset(
+                        width: 38.w,
+                        "assets/images/level.png",
+                      ),
+                      title: Text(
+                        "Complete 5 levels without failing",
+                        style: TextStyle(
+                          color: AppColor.white,
+                          fontSize: 18.sp,
+                        ),
+                      ),
+                      trailing: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Text(
+                            "0 / 3",
+                            style: TextStyle(
+                              fontSize: 16.sp,
+                              color: AppColor.yellow,
+                            ),
+                          ),
+                          SizedBox(height: 5.h),
+                          Stack(
+                            alignment: Alignment.centerLeft,
+                            children: [
+                              Container(
+                                height: 6.h,
+                                width: 30.toDouble(),
+                                decoration: BoxDecoration(
+                                  color: AppColor.white,
+                                  borderRadius: BorderRadius.circular(50.r),
+                                ),
+                              ),
+                              Container(
+                                height: 6.h,
+                                width: (0 / 3) * 30.toDouble(),
+                                decoration: BoxDecoration(
+                                  color: AppColor.yellow,
+                                  borderRadius: BorderRadius.circular(50.r),
+                                ),
+                              ),
+                            ],
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
               ),
             ),
           ],
