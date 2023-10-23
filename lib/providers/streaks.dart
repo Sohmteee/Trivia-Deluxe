@@ -387,23 +387,10 @@ class StreaksProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-  void updateLevelStreak({int? level}) {
-    levelStreak = level ?? levelStreak + 1;
-    box.put("levelStreak", levelStreak);
-
-    if (levelStreak > permanentLevelStreak &&
-        permanentLevelStreakList.contains(levelStreak)) {
-      permanentLevelStreak = levelStreak;
-      box.put("permanentLevelStreak", permanentLevelStreak);
-    }
-
-    notifyListeners();
-  }
-
   void updateLevelStreak(bool correct) {
     if (correct) {
-      triviaStreak += 1;
-      box.put("triviaStreak", triviaStreak);
+      levelStreak += 1;
+      box.put("levelStreak", levelStreak);
 
       if (levelStreak > permanentLevelStreak &&
           permanentLevelStreakList.contains(levelStreak)) {
@@ -411,8 +398,8 @@ class StreaksProvider extends ChangeNotifier {
         box.put("permanentLevelStreak", permanentLevelStreak);
       }
     } else {
-      triviaStreak = 0;
-      box.put("triviaStreak", triviaStreak);
+      levelStreak = 0;
+      box.put("levelStreak", levelStreak);
     }
 
     notifyListeners();
@@ -448,6 +435,8 @@ class StreaksProvider extends ChangeNotifier {
 
     notifyListeners();
   }
+
+  
 
   void updateStreakProgress(
       {required int streakIndex, required int subStreakIndex, int? progress}) {
