@@ -13,6 +13,7 @@ import 'package:trivia/providers/question.dart';
 import 'package:trivia/providers/score.dart';
 import 'package:trivia/providers/select.dart';
 import 'package:trivia/providers/stage.dart';
+import 'package:trivia/providers/streaks.dart';
 import 'package:trivia/providers/time.dart';
 import 'package:trivia/screens/ad.dart';
 import 'package:trivia/screens/game.dart';
@@ -45,7 +46,7 @@ Future<void> main() async {
         ChangeNotifierProvider(create: (_) => AudioProvider()),
         ChangeNotifierProvider(create: (_) => ScoreProvider()),
         ChangeNotifierProvider(create: (_) => SelectProvider()),
-        ChangeNotifierProvider(create: (_) => StreakPr()),
+        ChangeNotifierProvider(create: (_) => StreaksProvider()),
       ],
       child: const MyApp(),
     ),
