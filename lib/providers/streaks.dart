@@ -131,7 +131,41 @@ Map streaks = {
           "limit": 1,
         },
       },
+      {
+        "Rank top 5 on the leaderboard": {
+          "status": false,
+          "progress": 0,
+          "limit": 1,
+        },
+      },
+      {
+        "Rank top 3 on the leaderboard": {
+          "status": false,
+          "progress": 0,
+          "limit": 1,
+        },
+      },
+      {
+        "Rank first on the leaderboard": {
+          "status": false,
+          "progress": 0,
+          "limit": 1,
+        },
+      },
     },
+  },
+  "Ultimate Achievement": {
+    "image": "",
+    "streaks": {
+      
+      {
+        "Rank top 10 on the leaderboard": {
+          "status": false,
+          "progress": 0,
+          "limit": 1,
+        },
+      },
+    }
   }
 };
 
