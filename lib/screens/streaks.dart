@@ -65,6 +65,7 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                 textAlign: TextAlign.center,
               ),
             ),
+            SizedBox(height: 40.h),
             Expanded(
               child: Column(
                 children: [
