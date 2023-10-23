@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-
-
 class StreaksProvider extends ChangeNotifier {
   List<Map<String, dynamic>> streaks = [
     {
@@ -176,7 +174,7 @@ class StreaksProvider extends ChangeNotifier {
     },
   ];
 
-  
+  int levelStreak = 0;
 
   void updateStreakStatus(int index, int streakIndex) {
     streaks[index]["streaks"][streakIndex]["status"] = true;
