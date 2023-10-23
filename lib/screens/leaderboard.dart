@@ -12,8 +12,11 @@ class _LeaderBoardScreenState extends State<LeaderBoardScreen> {
   @override
   Widget build(BuildContext context) {
     return GameBackground(
-      
-      body: Column(),
+      body: Column(
+        children: [
+          Text("Leaderboard")
+        ],
+      ),
     );
   }
 }
