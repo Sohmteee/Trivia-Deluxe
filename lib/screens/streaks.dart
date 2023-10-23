@@ -79,7 +79,7 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
             ),
             ListTile(
               leading: Image.asset(
-                width: 20.w,
+                width: 38.w,
                 "assets/images/level.png",
               ),
               title: Text(
