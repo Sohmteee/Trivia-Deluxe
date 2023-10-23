@@ -216,7 +216,7 @@ class _MenuScreenState extends State<MenuScreen>
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
                       children: [
                         SizedBox(
-                          height: 50.w,
+                          height: 35.h,
                           child: ZoomTapAnimation(
                             onTap: () {
                               playTap(context);
@@ -290,7 +290,7 @@ class _MenuScreenState extends State<MenuScreen>
                           ],
                         ),
                         SizedBox(
-                          height: 50.w,
+                          height: 35.h,
                           child: ZoomTapAnimation(
                             onTap: () {
                               playTap(context);
