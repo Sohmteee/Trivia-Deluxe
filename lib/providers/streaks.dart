@@ -314,7 +314,7 @@ class StreaksProvider extends ChangeNotifier {
           {
             "title": "Trivia Maestro",
             "subtitle": "Answer 100 questions correctly in a row",
-            "status": triviaMaestroStatus,
+            "status": permanentTriviaStreak >= 100,
             "progress": permanentTriviaStreak >= 100 ? 100 : triviaStreak,
             "limit": 100,
           },
@@ -327,7 +327,7 @@ class StreaksProvider extends ChangeNotifier {
           {
             "title": "Achiever",
             "subtitle": "Rank top 10 on the leaderboard",
-            "status": achieverStatus,
+            "status": permanentLeaderboardStreak >= 10,
             "progress": permanentLeaderboardStreak >= 10
                 ? 1
                 : leaderboardStreak >= 10
@@ -338,7 +338,7 @@ class StreaksProvider extends ChangeNotifier {
           {
             "title": "Top Ranker",
             "subtitle": "Rank top 5 on the leaderboard",
-            "status": topRankerStatus,
+            "status": permanentLeaderboardStreak >= 5,
             "progress": permanentLeaderboardStreak >= 5
                 ? 1
                 : leaderboardStreak >= 5
@@ -349,7 +349,7 @@ class StreaksProvider extends ChangeNotifier {
           {
             "title": "Master Ranker",
             "subtitle": "Rank top 3 on the leaderboard",
-            "status": masterRankerStatus,
+            "status": permanentLeaderboardStreak >= 3,
             "progress": permanentLeaderboardStreak >= 3
                 ? 1
                 : leaderboardStreak >= 3
@@ -360,7 +360,7 @@ class StreaksProvider extends ChangeNotifier {
           {
             "title": "Leaderboard Champion",
             "subtitle": "Rank first on the leaderboard",
-            "status": leaderboardChampionStatus,
+            "status": permanentLeaderboardStreak >= 1,
             "progress": permanentLeaderboardStreak >= 1
                 ? 1
                 : leaderboardStreak >= 1
@@ -377,7 +377,7 @@ class StreaksProvider extends ChangeNotifier {
           {
             "title": "Ultimate Achiever",
             "subtitle": "Finish all streaks",
-            "status": ultimateAchieverStatus,
+            "status": ultimateStreak >= 19,
             "progress": ultimateStreak >= 19 ? 19 : ultimateStreak,
             "limit": 19,
           },
