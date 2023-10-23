@@ -72,6 +72,7 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                 itemCount: streaks.length,
                 itemBuilder: (BuildContext context, int index) {
                   String streakTitle = streaks[index]["title"];
+                  String image = streaks[index]["image"];
                   return Column(
                     children: [
                       Row(
