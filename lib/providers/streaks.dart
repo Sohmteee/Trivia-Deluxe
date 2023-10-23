@@ -3,10 +3,10 @@ import 'package:trivia/data/box.dart';
 import 'package:trivia/data/variables.dart';
 
 class StreaksProvider extends ChangeNotifier {
-final permanentLevelStreakList = [5, 10, 20, 50, 100];
+  final permanentLevelStreakList = [5, 10, 20, 50, 100];
   final permanentCoinStreakList = [50, 100, 200, 500, 1000];
   final permanentTriviaStreakList = [5, 10, 20, 50, 100];
-  
+  final permanentLeaderboardStreakList = [1, 3, 5, 10];
 
   List<Map<String, dynamic>> streaks = box.get(
     "streaks",
@@ -195,8 +195,6 @@ final permanentLevelStreakList = [5, 10, 20, 50, 100];
           box.get("permanentLeaderboardStreak", defaultValue: 0);
   int ultimateStreak = box.get("ultimateStreak", defaultValue: 0);
 
-  
-
   void updateStreakStatus(
       {required int streakIndex,
       required int subStreakIndex,
@@ -209,7 +207,7 @@ final permanentLevelStreakList = [5, 10, 20, 50, 100];
     levelStreak = level ?? levelStreak + 1;
     box.put("levelStreak", levelStreak);
 
-    if (levelStreak > permanentLevelStreak && levelStreak % 5 == 0) {
+    if (levelStreak > permanentLevelStreak && levelStreak permanentLevelStreakList) {
       permanentLevelStreak = levelStreak;
       box.put("permanentLevelStreak", permanentLevelStreak);
     }
