@@ -176,5 +176,8 @@ class StreaksProvider extends ChangeNotifier {
     },
   ];
 
-  
+  void updateStreaks(int index, int streakIndex) {
+    streaks[index]["streaks"][streakIndex]["status"] = true;
+    notifyListeners();
+  }
 }
