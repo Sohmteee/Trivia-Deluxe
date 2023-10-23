@@ -88,16 +88,60 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                         ],
                       ),
                       SizedBox(height: 10.h),
-                      Expanded(
-                        child: ListView.separated(
-                          itemCount: streakList.length,
-                          separatorBuilder: (BuildContext context, int index) {
-                            return SizedBox(height: 10.h);
-                          },
-                          itemBuilder: (BuildContext context, int index) {
-                            return ;
-                          },
-                        ),
+                      Column(
+                        children: streakList
+                            .map(
+                              (item) => ListTile(
+                                leading: Image.asset(
+                                  width: 38.w,
+                                  "assets/images/level.png",
+                                ),
+                                title: Text(
+                                  "Complete 5 levels without failing",
+                                  style: TextStyle(
+                                    color: AppColor.white,
+                                    fontSize: 18.sp,
+                                  ),
+                                ),
+                                trailing: Column(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Text(
+                                      "0 / 3",
+                                      style: TextStyle(
+                                        fontSize: 16.sp,
+                                        color: AppColor.yellow,
+                                      ),
+                                    ),
+                                    SizedBox(height: 5.h),
+                                    Stack(
+                                      alignment: Alignment.centerLeft,
+                                      children: [
+                                        Container(
+                                          height: 6.h,
+                                          width: 30.toDouble(),
+                                          decoration: BoxDecoration(
+                                            color: AppColor.white,
+                                            borderRadius:
+                                                BorderRadius.circular(50.r),
+                                          ),
+                                        ),
+                                        Container(
+                                          height: 6.h,
+                                          width: (0 / 3) * 30.toDouble(),
+                                          decoration: BoxDecoration(
+                                            color: AppColor.yellow,
+                                            borderRadius:
+                                                BorderRadius.circular(50.r),
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            )
+                            .toList(),
                       ),
                     ],
                   );
