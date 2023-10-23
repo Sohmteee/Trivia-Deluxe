@@ -71,13 +71,13 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
               child: ListView.separated(
                 itemCount: streaks.length,
                 itemBuilder: (BuildContext context, int index) {
-                  String streakTitle = streaks[index];
+                  String streakTitle = streaks[index]["title"];
                   return Column(
                     children: [
                       Row(
                         children: [
                           Text(
-                            "Level Streaks",
+                            streakTitle,
                             style: TextStyle(
                               color: AppColor.white,
                               fontSize: 30.sp,
