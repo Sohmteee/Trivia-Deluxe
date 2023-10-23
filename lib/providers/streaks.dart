@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-List streaks = [
+List<Map<String, dynamic>> streaks = [
   {
     "title": "Level Streaks",
     "image": "assets/images/level.png",
