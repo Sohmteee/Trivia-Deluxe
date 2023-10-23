@@ -4,7 +4,7 @@ Map<String, dynamic> vocabData = {
   "currentLevel": 1,
   "data": [
     {
-      "question": "What is the opposite of \"happy\"?",
+      "question": "What is the opposite of happy?",
       "dialog": {
         "title": "Sad",
         "content": "A word meaning the opposite of happy"
@@ -17,7 +17,7 @@ Map<String, dynamic> vocabData = {
       ]
     },
     {
-      "question": "What does \"gigantic\" mean?",
+      "question": "What does gigantic mean?",
       "dialog": {
         "title": "Extremely large",
         "content": "A word describing something very big"
@@ -30,7 +30,7 @@ Map<String, dynamic> vocabData = {
       ]
     },
     {
-      "question": "If you \"whisper,\" are you speaking loudly or quietly?",
+      "question": "If you whisper, are you speaking loudly or quietly?",
       "dialog": {
         "title": "Quietly",
         "content": "A word meaning speaking softly"
@@ -43,7 +43,7 @@ Map<String, dynamic> vocabData = {
       ]
     },
     {
-      "question": "What does \"celebrate\" mean?",
+      "question": "What does celebrate mean?",
       "dialog": {
         "title": "Mark a special occasion",
         "content": "To observe and enjoy an event"
@@ -66,7 +66,7 @@ Map<String, dynamic> vocabData = {
       ]
     },
     {
-      "question": "What does \"navigating\" mean?",
+      "question": "What does navigating mean?",
       "dialog": {
         "title": "Finding one's way",
         "content": "The action of planning a route"
@@ -79,7 +79,7 @@ Map<String, dynamic> vocabData = {
       ]
     },
     {
-      "question": "If you are \"exhausted,\" how do you feel?",
+      "question": "If you are exhausted, how do you feel?",
       "dialog": {
         "title": "Very tired",
         "content": "A word meaning extremely tired"
@@ -106,7 +106,7 @@ Map<String, dynamic> vocabData = {
       ]
     },
     {
-      "question": "What is the opposite of \"begin\"?",
+      "question": "What is the opposite of begin?",
       "dialog": {
         "title": "End",
         "content": "A word meaning the opposite of start"
@@ -119,7 +119,7 @@ Map<String, dynamic> vocabData = {
       ]
     },
     {
-      "question": "What does \"slumber\" mean?",
+      "question": "What does slumber mean?",
       "dialog": {
         "title": "Sleep",
         "content": "A word for a deep and peaceful rest"
@@ -160,7 +160,7 @@ Map<String, dynamic> vocabData = {
     },
     {
       "question":
-          "If you \"borrow\" something, do you take it for a short time or a long time?",
+          "If you borrow something, do you take it for a short time or a long time?",
       "dialog": {
         "title": "Short time",
         "content": "To temporarily take something"
@@ -173,7 +173,7 @@ Map<String, dynamic> vocabData = {
       ]
     },
     {
-      "question": "What is the opposite of \"fast\"?",
+      "question": "What is the opposite of fast?",
       "dialog": {
         "title": "Slow",
         "content": "A word meaning the opposite of quick"
@@ -200,7 +200,7 @@ Map<String, dynamic> vocabData = {
       ]
     },
     {
-      "question": "What does \"honest\" mean?",
+      "question": "What does honest mean?",
       "dialog": {
         "title": "Truthful",
         "content": "A word for someone who tells the truth"
@@ -227,7 +227,7 @@ Map<String, dynamic> vocabData = {
       ]
     },
     {
-      "question": "If something is \"invisible,\" can you see it or not?",
+      "question": "If something is invisible, can you see it or not?",
       "dialog": {
         "title": "Not see it",
         "content": "A word meaning unable to be seen"
@@ -251,7 +251,7 @@ Map<String, dynamic> vocabData = {
       ]
     },
     {
-      "question": "What does \"puzzle\" mean?",
+      "question": "What does puzzle mean?",
       "dialog": {
         "title": "A problem to solve",
         "content": "Something that challenges your mind"
@@ -276,7 +276,7 @@ Map<String, dynamic> vocabData = {
     },
     {
       "question":
-          "If you \"soar\" through the sky, are you flying high or crawling on the ground?",
+          "If you soar through the sky, are you flying high or crawling on the ground?",
       "dialog": {
         "title": "Flying high",
         "content": "A word for flying high in the air"
@@ -300,7 +300,7 @@ Map<String, dynamic> vocabData = {
       ]
     },
     {
-      "question": "What does \"fragile\" mean?",
+      "question": "What does fragile mean?",
       "dialog": {
         "title": "Easily broken",
         "content": "A word describing something delicate"
@@ -324,7 +324,7 @@ Map<String, dynamic> vocabData = {
       ]
     },
     {
-      "question": "What is the opposite of \"old\"?",
+      "question": "What is the opposite of old?",
       "dialog": {
         "title": "New",
         "content": "A word meaning the opposite of aged"
@@ -337,7 +337,7 @@ Map<String, dynamic> vocabData = {
       ]
     },
     {
-      "question": "If you are \"mimicking\" someone, what are you doing?",
+      "question": "If you are mimicking someone, what are you doing?",
       "dialog": {
         "title": "Copying",
         "content": "A word for imitating or emulating"
@@ -389,7 +389,7 @@ Map<String, dynamic> vocabData = {
       ]
     },
     {
-      "question": "If you \"arrive,\" are you coming or going?",
+      "question": "If you arrive, are you coming or going?",
       "dialog": {
         "title": "Coming",
         "content": "A word meaning to reach a destination"
@@ -402,7 +402,7 @@ Map<String, dynamic> vocabData = {
       ]
     },
     {
-      "question": "What is the opposite of \"loud\"?",
+      "question": "What is the opposite of loud?",
       "dialog": {
         "title": "Quiet",
         "content": "A word meaning the opposite of noisy"
@@ -426,8 +426,7 @@ Map<String, dynamic> vocabData = {
       ]
     },
     {
-      "question":
-          "If you are \"drenched,\" are you completely dry or soaking wet?",
+      "question": "If you are drenched, are you completely dry or soaking wet?",
       "dialog": {
         "title": "Soaking wet",
         "content": "A word meaning thoroughly wet"
@@ -482,7 +481,7 @@ Map<String, dynamic> vocabData = {
       ]
     },
     {
-      "question": "What does \"invisible\" mean?",
+      "question": "What does invisible mean?",
       "dialog": {
         "title": "Cannot be seen",
         "content": "A word for something that can't be seen"
@@ -510,7 +509,7 @@ Map<String, dynamic> vocabData = {
     },
     {
       "question":
-          "If you \"whistle,\" are you making a loud noise or a high-pitched sound?",
+          "If you whistle, are you making a loud noise or a high-pitched sound?",
       "dialog": {
         "title": "High-pitched sound",
         "content": "A word for producing a specific sound"
@@ -537,7 +536,7 @@ Map<String, dynamic> vocabData = {
       ]
     },
     {
-      "question": "If you \"shiver,\" are you feeling very hot or very cold?",
+      "question": "If you shiver, are you feeling very hot or very cold?",
       "dialog": {
         "title": "Very cold",
         "content": "A word for involuntary trembling"
@@ -551,7 +550,7 @@ Map<String, dynamic> vocabData = {
     },
     {
       "question":
-          "What is the term for a person who takes care of and treats sick people?",
+          "What is the word for a person who examines and treats diseases and medical conditions?",
       "dialog": {
         "title": "Doctor",
         "content": "A medical professional who helps patients"
@@ -564,7 +563,7 @@ Map<String, dynamic> vocabData = {
       ]
     },
     {
-      "question": "What is the opposite of \"smile\"?",
+      "question": "What is the opposite of smile?",
       "dialog": {
         "title": "Frown",
         "content": "A word meaning the opposite of grinning"
@@ -577,7 +576,7 @@ Map<String, dynamic> vocabData = {
       ]
     },
     {
-      "question": "What does \"curious\" mean?",
+      "question": "What does curious mean?",
       "dialog": {
         "title": "Eager to learn",
         "content": "A word for being interested and inquisitive"
@@ -590,7 +589,7 @@ Map<String, dynamic> vocabData = {
       ]
     },
     {
-      "question": "If you are \"brave,\" are you unafraid or scared?",
+      "question": "If you are brave, are you unafraid or scared?",
       "dialog": {
         "title": "Unafraid",
         "content": "A word for having courage and fearlessness"
@@ -629,7 +628,7 @@ Map<String, dynamic> vocabData = {
     },
     {
       "question":
-          "If something is \"slippery,\" does it have good traction or is it easy to slide on?",
+          "If something is slippery, does it have good traction or is it easy to slide on?",
       "dialog": {
         "title": "Easy to slide on",
         "content": "A word describing a surface that's not easy to grip"
@@ -642,21 +641,7 @@ Map<String, dynamic> vocabData = {
       ]
     },
     {
-      "question":
-          "What is the word for a person who designs and creates buildings and structures?",
-      "dialog": {
-        "title": "Architect",
-        "content": "A professional who plans and designs structures"
-      },
-      "options": [
-        {"text": "Engineer", "value": false, "color": "yellow"},
-        {"text": "Artist", "value": false, "color": "yellow"},
-        {"text": "Baker", "value": false, "color": "yellow"},
-        {"text": "Architect", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "What is the opposite of \"tiny\"?",
+      "question": "What is the opposite of tiny?",
       "dialog": {
         "title": "Huge",
         "content": "A word meaning the opposite of very small"
@@ -681,7 +666,7 @@ Map<String, dynamic> vocabData = {
     },
     {
       "question":
-          "If you \"apologize,\" are you expressing regret or satisfaction?",
+          "If you apologize, are you expressing regret or satisfaction?",
       "dialog": {
         "title": "Expressing regret",
         "content": "A word for saying you're sorry"
@@ -722,7 +707,7 @@ Map<String, dynamic> vocabData = {
       ]
     },
     {
-      "question": "If you \"whisper,\" are you speaking softly or loudly?",
+      "question": "If you whisper, are you speaking softly or loudly?",
       "dialog": {
         "title": "Speaking softly",
         "content": "A word for talking in hushed tones"
@@ -749,7 +734,7 @@ Map<String, dynamic> vocabData = {
       ]
     },
     {
-      "question": "What is the opposite of \"sunrise\"?",
+      "question": "What is the opposite of sunrise?",
       "dialog": {
         "title": "Sunset",
         "content": "A word meaning the opposite of dawn"
@@ -777,7 +762,7 @@ Map<String, dynamic> vocabData = {
     },
     {
       "question":
-          "If something is \"fragrant,\" does it have a pleasant or unpleasant smell?",
+          "If something is fragrant, does it have a pleasant or unpleasant smell?",
       "dialog": {
         "title": "Pleasant smell",
         "content": "A word for having a sweet or agreeable odor"
@@ -804,8 +789,7 @@ Map<String, dynamic> vocabData = {
       ]
     },
     {
-      "question":
-          "If you are \"invisible,\" can people see you or not see you?",
+      "question": "If you are invisible, can people see you or not see you?",
       "dialog": {
         "title": "Not see you",
         "content": "A word meaning not able to be seen"
@@ -818,7 +802,7 @@ Map<String, dynamic> vocabData = {
       ]
     },
     {
-      "question": "What is the opposite of \"open\"?",
+      "question": "What is the opposite of open?",
       "dialog": {
         "title": "Closed",
         "content": "A word meaning the opposite of not shut"
@@ -831,7 +815,7 @@ Map<String, dynamic> vocabData = {
       ]
     },
     {
-      "question": "What does \"chilly\" mean?",
+      "question": "What does chilly mean?",
       "dialog": {
         "title": "Slightly cold",
         "content": "A word for somewhat cool or brisk"
@@ -845,7 +829,7 @@ Map<String, dynamic> vocabData = {
     },
     {
       "question":
-          "If you \"solve\" a problem, do you find an answer or create more confusion?",
+          "If you solve a problem, do you find an answer or create more confusion?",
       "dialog": {
         "title": "Find an answer",
         "content": "A word for successfully resolving an issue"
@@ -887,20 +871,6 @@ Map<String, dynamic> vocabData = {
     },
     {
       "question":
-          "If something is \"fragile,\" is it strong and durable or easily broken?",
-      "dialog": {
-        "title": "Easily broken",
-        "content": "A word for something delicate or vulnerable"
-      },
-      "options": [
-        {"text": "Strong and durable", "value": false, "color": "yellow"},
-        {"text": "Light and soft", "value": false, "color": "yellow"},
-        {"text": "Hard and tough", "value": false, "color": "yellow"},
-        {"text": "Easily broken", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
           "What is the word for a person who creates beautiful artworks using various materials?",
       "dialog": {
         "title": "Artist",
@@ -928,7 +898,7 @@ Map<String, dynamic> vocabData = {
       ]
     },
     {
-      "question": "What does \"beneath\" mean?",
+      "question": "What does beneath mean?",
       "dialog": {
         "title": "Underneath",
         "content": "A word for being under or below something"
@@ -941,8 +911,7 @@ Map<String, dynamic> vocabData = {
       ]
     },
     {
-      "question":
-          "If you \"meow,\" are you making a sound like a cat or a dog?",
+      "question": "If you meow, are you making a sound like a cat or a dog?",
       "dialog": {
         "title": "Like a cat",
         "content": "A word for the sound a cat makes"
@@ -955,21 +924,7 @@ Map<String, dynamic> vocabData = {
       ]
     },
     {
-      "question":
-          "What is the word for a person who takes care of and treats people's teeth and gums?",
-      "dialog": {
-        "title": "Dentist",
-        "content": "A healthcare professional for oral health"
-      },
-      "options": [
-        {"text": "Optometrist", "value": false, "color": "yellow"},
-        {"text": "Pediatrician", "value": false, "color": "yellow"},
-        {"text": "Psychiatrist", "value": false, "color": "yellow"},
-        {"text": "Dentist", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "What is the opposite of \"ugly\"?",
+      "question": "What is the opposite of ugly?",
       "dialog": {
         "title": "Beautiful",
         "content": "A word meaning the opposite of unattractive"
@@ -982,7 +937,7 @@ Map<String, dynamic> vocabData = {
       ]
     },
     {
-      "question": "What does \"explore\" mean?",
+      "question": "What does explore mean?",
       "dialog": {
         "title": "Investigate",
         "content": "A word for searching and examining"
@@ -1009,7 +964,7 @@ Map<String, dynamic> vocabData = {
       ]
     },
     {
-      "question": "If you \"whisper,\" are you speaking quietly or loudly?",
+      "question": "If you whisper, are you speaking quietly or loudly?",
       "dialog": {
         "title": "Speaking quietly",
         "content": "A word for talking in hushed tones"
@@ -1036,7 +991,7 @@ Map<String, dynamic> vocabData = {
       ]
     },
     {
-      "question": "What is the opposite of \"victory\"?",
+      "question": "What is the opposite of victory?",
       "dialog": {
         "title": "Defeat",
         "content": "A word meaning the opposite of winning"
@@ -1049,7 +1004,7 @@ Map<String, dynamic> vocabData = {
       ]
     },
     {
-      "question": "What does \"melody\" mean?",
+      "question": "What does melody mean?",
       "dialog": {
         "title": "A sequence of musical notes",
         "content": "A word for a pleasing tune in music"
@@ -1085,7 +1040,7 @@ Map<String, dynamic> vocabData = {
     },
     {
       "question":
-          "If you \"whisper,\" are you talking very quietly or shouting loudly?",
+          "If you whisper, are you talking very quietly or shouting loudly?",
       "dialog": {
         "title": "Talking very quietly",
         "content": "A word for speaking softly"
@@ -1112,7 +1067,7 @@ Map<String, dynamic> vocabData = {
       ]
     },
     {
-      "question": "What is the opposite of \"beginning\"?",
+      "question": "What is the opposite of beginning?",
       "dialog": {
         "title": "Ending",
         "content": "A word meaning the opposite of starting"
@@ -1125,7 +1080,7 @@ Map<String, dynamic> vocabData = {
       ]
     },
     {
-      "question": "What does \"motion\" mean?",
+      "question": "What does motion mean?",
       "dialog": {
         "title": "Movement",
         "content": "A word for a change in position or direction"
@@ -1153,7 +1108,7 @@ Map<String, dynamic> vocabData = {
     },
     {
       "question":
-          "If you \"discover,\" do you find something new or hide something away?",
+          "If you discover, do you find something new or hide something away?",
       "dialog": {
         "title": "Find something new",
         "content": "A word for making a new finding"
@@ -1166,21 +1121,7 @@ Map<String, dynamic> vocabData = {
       ]
     },
     {
-      "question":
-          "What is the term for a person who studies and identifies stars and other celestial objects?",
-      "dialog": {
-        "title": "Astronomer",
-        "content": "A scientist who focuses on celestial bodies"
-      },
-      "options": [
-        {"text": "Biologist", "value": false, "color": "yellow"},
-        {"text": "Geologist", "value": false, "color": "yellow"},
-        {"text": "Meteorologist", "value": false, "color": "yellow"},
-        {"text": "Astronomer", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "What is the opposite of \"visible\"?",
+      "question": "What is the opposite of visible?",
       "dialog": {
         "title": "Invisible",
         "content": "A word meaning the opposite of being seen"
@@ -1193,7 +1134,7 @@ Map<String, dynamic> vocabData = {
       ]
     },
     {
-      "question": "What does \"tremendous\" mean?",
+      "question": "What does tremendous mean?",
       "dialog": {
         "title": "Extremely great",
         "content": "A word for something extraordinarily large"
@@ -1207,7 +1148,7 @@ Map<String, dynamic> vocabData = {
     },
     {
       "question":
-          "If you \"build,\" are you constructing something or tearing it apart?",
+          "If you build, are you constructing something or tearing it apart?",
       "dialog": {
         "title": "Constructing",
         "content": "A word for creating or assembling"
@@ -1234,7 +1175,7 @@ Map<String, dynamic> vocabData = {
       ]
     },
     {
-      "question": "What is the opposite of \"near\"?",
+      "question": "What is the opposite of near?",
       "dialog": {
         "title": "Far",
         "content": "A word meaning the opposite of close"
@@ -1244,19 +1185,6 @@ Map<String, dynamic> vocabData = {
         {"text": "Short", "value": false, "color": "yellow"},
         {"text": "Large", "value": false, "color": "yellow"},
         {"text": "Far", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "What does \"slumber\" mean?",
-      "dialog": {
-        "title": "Sleep",
-        "content": "A word for a deep and peaceful rest"
-      },
-      "options": [
-        {"text": "Dance", "value": false, "color": "yellow"},
-        {"text": "Run", "value": false, "color": "yellow"},
-        {"text": "Laugh", "value": false, "color": "yellow"},
-        {"text": "Sleep", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1274,21 +1202,8 @@ Map<String, dynamic> vocabData = {
       ]
     },
     {
-      "question": "What is the opposite of \"fast\"?",
-      "dialog": {
-        "title": "Slow",
-        "content": "A word meaning the opposite of quick"
-      },
-      "options": [
-        {"text": "Tall", "value": false, "color": "yellow"},
-        {"text": "Heavy", "value": false, "color": "yellow"},
-        {"text": "Quiet", "value": false, "color": "yellow"},
-        {"text": "Slow", "value": true, "color": "yellow"}
-      ]
-    },
-    {
       "question":
-          "If you \"calculate,\" are you determining a quantity or leaving it uncertain?",
+          "If you calculate, are you determining a quantity or leaving it uncertain?",
       "dialog": {
         "title": "Determining a quantity",
         "content": "A word for figuring out a number"
@@ -1329,19 +1244,6 @@ Map<String, dynamic> vocabData = {
       ]
     },
     {
-      "question": "What is the opposite of \"loud\"?",
-      "dialog": {
-        "title": "Quiet",
-        "content": "A word meaning the opposite of noisy"
-      },
-      "options": [
-        {"text": "Heavy", "value": false, "color": "yellow"},
-        {"text": "Bright", "value": false, "color": "yellow"},
-        {"text": "Hard", "value": false, "color": "yellow"},
-        {"text": "Quiet", "value": true, "color": "yellow"}
-      ]
-    },
-    {
       "question":
           "What is the term for a person who studies and makes maps of the Earth's surface?",
       "dialog": {
@@ -1356,8 +1258,7 @@ Map<String, dynamic> vocabData = {
       ]
     },
     {
-      "question":
-          "If you \"giggle,\" are you laughing quietly or crying loudly?",
+      "question": "If you giggle, are you laughing quietly or crying loudly?",
       "dialog": {
         "title": "Laughing quietly",
         "content": "A word for a light, happy laugh"
@@ -1370,20 +1271,7 @@ Map<String, dynamic> vocabData = {
       ]
     },
     {
-      "question": "What is the opposite of \"victory\"?",
-      "dialog": {
-        "title": "Defeat",
-        "content": "A word meaning the opposite of winning"
-      },
-      "options": [
-        {"text": "Progress", "value": false, "color": "yellow"},
-        {"text": "Celebration", "value": false, "color": "yellow"},
-        {"text": "Satisfaction", "value": false, "color": "yellow"},
-        {"text": "Defeat", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "What does \"sparkle\" mean?",
+      "question": "What does sparkle mean?",
       "dialog": {
         "title": "Shining brightly",
         "content": "A word for glittering or shining"
@@ -1397,7 +1285,7 @@ Map<String, dynamic> vocabData = {
     },
     {
       "question":
-          "If something is \"familiar,\" is it known and easily recognized, or strange and unknown?",
+          "If something is familiar, is it known and easily recognized, or strange and unknown?",
       "dialog": {
         "title": "Known and easily recognized",
         "content": "A word meaning something you recognize"
@@ -1429,21 +1317,7 @@ Map<String, dynamic> vocabData = {
     },
     {
       "question":
-          "What is the term for a person who directs and manages a film or television production?",
-      "dialog": {
-        "title": "Director",
-        "content": "A leader in the world of entertainment"
-      },
-      "options": [
-        {"text": "Writer", "value": false, "color": "yellow"},
-        {"text": "Musician", "value": false, "color": "yellow"},
-        {"text": "Athlete", "value": false, "color": "yellow"},
-        {"text": "Director", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "If you \"bake\" something, are you cooking it with dry heat or freezing it?",
+          "If you bake something, are you cooking it with dry heat or freezing it?",
       "dialog": {
         "title": "Cooking it with dry heat",
         "content": "A word for preparing food in an oven"
@@ -1453,20 +1327,6 @@ Map<String, dynamic> vocabData = {
         {"text": "Boiling it", "value": false, "color": "yellow"},
         {"text": "Microwaving it", "value": false, "color": "yellow"},
         {"text": "Cooking it with dry heat", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "What is the word for a person who designs and oversees the construction of buildings and structures?",
-      "dialog": {
-        "title": "Architect",
-        "content": "A professional who plans and designs structures"
-      },
-      "options": [
-        {"text": "Engineer", "value": false, "color": "yellow"},
-        {"text": "Electrician", "value": false, "color": "yellow"},
-        {"text": "Plumber", "value": false, "color": "yellow"},
-        {"text": "Architect", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1484,7 +1344,7 @@ Map<String, dynamic> vocabData = {
       ]
     },
     {
-      "question": "What does \"furious\" mean?",
+      "question": "What does furious mean?",
       "dialog": {
         "title": "Extremely angry",
         "content": "A word for being very angry"
@@ -1494,20 +1354,6 @@ Map<String, dynamic> vocabData = {
         {"text": "Incredibly sad", "value": false, "color": "yellow"},
         {"text": "Incredibly quiet", "value": false, "color": "yellow"},
         {"text": "Extremely angry", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "If you \"whistle,\" are you making a high-pitched sound or a low-pitched sound?",
-      "dialog": {
-        "title": "High-pitched sound",
-        "content": "A word for producing a specific sound"
-      },
-      "options": [
-        {"text": "Low-pitched sound", "value": false, "color": "yellow"},
-        {"text": "Singing a song", "value": false, "color": "yellow"},
-        {"text": "Speaking loudly", "value": false, "color": "yellow"},
-        {"text": "High-pitched sound", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1525,7 +1371,7 @@ Map<String, dynamic> vocabData = {
       ]
     },
     {
-      "question": "What is the opposite of \"easy\"?",
+      "question": "What is the opposite of easy?",
       "dialog": {
         "title": "Difficult",
         "content": "A word meaning the opposite of simple"
@@ -1538,7 +1384,7 @@ Map<String, dynamic> vocabData = {
       ]
     },
     {
-      "question": "What does \"glow\" mean?",
+      "question": "What does glow mean?",
       "dialog": {
         "title": "Shine softly",
         "content": "A word for emitting a soft light"
@@ -1566,7 +1412,7 @@ Map<String, dynamic> vocabData = {
     },
     {
       "question":
-          "If you \"dive,\" are you jumping into the water or climbing up a tree?",
+          "If you dive, are you jumping into the water or climbing up a tree?",
       "dialog": {
         "title": "Jumping into the water",
         "content": "A word for plunging into a liquid"
@@ -1580,36 +1426,7 @@ Map<String, dynamic> vocabData = {
     },
     {
       "question":
-          "What is the word for a person who examines and treats diseases and medical conditions?",
-      "dialog": {
-        "title": "Doctor",
-        "content":
-            "A healthcare professional who diagnoses and treats illnesses"
-      },
-      "options": [
-        {"text": "Dentist", "value": false, "color": "yellow"},
-        {"text": "Mechanic", "value": false, "color": "yellow"},
-        {"text": "Architect", "value": false, "color": "yellow"},
-        {"text": "Doctor", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "What is the term for a person who studies the Earth's physical structure and materials?",
-      "dialog": {
-        "title": "Geologist",
-        "content": "A scientist who specializes in Earth's composition"
-      },
-      "options": [
-        {"text": "Astronomer", "value": false, "color": "yellow"},
-        {"text": "Meteorologist", "value": false, "color": "yellow"},
-        {"text": "Biologist", "value": false, "color": "yellow"},
-        {"text": "Geologist", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "If something is \"opaque,\" is it transparent and see-through or not transparent and difficult to see through?",
+          "If something is opaque, is it transparent and see-through or not transparent and difficult to see through?",
       "dialog": {
         "title": "Not transparent and difficult to see through",
         "content": "A word for not allowing light to pass through"
