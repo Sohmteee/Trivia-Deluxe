@@ -139,7 +139,7 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                         ),
                                         Container(
                                           height: 6.h,
-                                          width: (item["limit"] * .25 /
+                                          width: (item["progress"] /
                                                   item["limit"]) *
                                               30.toDouble(),
                                           decoration: BoxDecoration(
