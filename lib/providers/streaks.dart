@@ -327,7 +327,7 @@ class StreaksProvider extends ChangeNotifier {
           {
             "title": "Achiever",
             "subtitle": "Rank top 10 on the leaderboard",
-            "status": permanentLeaderboardStreak = 10,
+            "status": permanentLeaderboardStreak == 10,
             "progress": permanentLeaderboardStreak == 10
                 ? 1
                 : leaderboardStreak == 10
