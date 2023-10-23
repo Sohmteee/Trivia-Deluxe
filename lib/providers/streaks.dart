@@ -3,7 +3,7 @@ import 'package:trivia/data/box.dart';
 
 class StreaksProvider extends ChangeNotifier {
   final permanentLevelStreakList = [5, 10, 20, 50, 100];
-  final permanentCoinStreakList = [50, 100, 200, 500, 1000];
+  final permanentCoinStreakList = [100, 200, 500, 1000, 2000];
   final permanentTriviaStreakList = [5, 10, 20, 50, 100];
   final permanentLeaderboardStreakList = [0, 10, 5, 3, 1];
 
@@ -87,10 +87,10 @@ class StreaksProvider extends ChangeNotifier {
           },
           {
             "title": "Coin Millionaire",
-            "subtitle": "Earn 1000 coins",
+            "subtitle": "Earn 2000 coins",
             "status": false,
             "progress": 0,
-            "limit": 1000,
+            "limit": 2000,
           },
         ],
       },
