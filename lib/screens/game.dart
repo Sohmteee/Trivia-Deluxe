@@ -106,7 +106,6 @@ class _GameScreenState extends State<GameScreen> {
                                   Provider.of<StreaksProvider>(context,
                                       listen: false);
 
-
                               countDownController.pause();
 
                               if (!answered) {
@@ -114,13 +113,10 @@ class _GameScreenState extends State<GameScreen> {
                                     true) {
                                   playCorrect(context);
                                   confettiController.play();
-                                  streaksProvider
-                                      .updateStreakProgress(
-                                        streakIndex: triviaStreakIndex,
-                                        subStreakIndex: 
-                                      );
+                                  streaksProvider.updateTriviaStreak(true);
                                 } else {
                                   playWrong(context);
+                                  streaksProvider.updateTriviaStreak(false);
                                 }
 
                                 questionProvider.checkCorrectAnswer(
