@@ -13,6 +13,7 @@ import 'package:trivia/main.dart';
 import 'package:trivia/models/game_background.dart';
 import 'package:trivia/models/stat_bar.dart';
 import 'package:trivia/providers/question.dart';
+import 'package:trivia/providers/streaks.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 class GameScreen extends StatefulWidget {
@@ -100,6 +101,11 @@ class _GameScreenState extends State<GameScreen> {
                         itemBuilder: (BuildContext context, int index) {
                           return ZoomTapAnimation(
                             onTap: () {
+                              final streaksProvider =
+                                  Provider.of<StreaksProvider>(context,
+                                      listen: false);
+
+
                               countDownController.pause();
 
                               if (!answered) {
@@ -107,6 +113,8 @@ class _GameScreenState extends State<GameScreen> {
                                     true) {
                                   playCorrect(context);
                                   confettiController.play();
+                                  streaksProvider
+                                      .updateStreakProgress("levelStreakIndex", 1);
                                 } else {
                                   playWrong(context);
                                 }
