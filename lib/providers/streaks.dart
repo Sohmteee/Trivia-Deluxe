@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
-class StreaksProvider extends ChangeNotifier{
+Map streaks = {
   
-}
+};
+
+class StreaksProvider extends ChangeNotifier {}
