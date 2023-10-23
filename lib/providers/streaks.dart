@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
 Map streaks = {
-  "Level Streaks": [
+  
+  {"streaks": [
     {
       "Complete 5 levels without failing": {
         "status": false,
@@ -37,7 +38,7 @@ Map streaks = {
         "limit": 100,
       }
     },
-  ],
+  ],}
   "Coin Streaks": [
     {
       "Earn 50 coins": {
