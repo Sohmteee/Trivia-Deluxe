@@ -14,6 +14,7 @@ import 'package:trivia/models/game_background.dart';
 import 'package:trivia/models/stat_bar.dart';
 import 'package:trivia/providers/money.dart';
 import 'package:trivia/providers/question.dart';
+import 'package:trivia/providers/streaks.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 class RewardScreen extends StatefulWidget {
@@ -54,6 +55,11 @@ class _RewardScreenState extends State<RewardScreen> {
     final moneyProvider = Provider.of<MoneyProvider>(context, listen: false);
     score = moneyProvider.reward;
     moneyProvider.resetReward();
+
+
+    final streaksProvider =
+        Provider.of<StreaksProvider>(context, listen: false);
+      if (streaksProvider)
 
     // score = 18;
 

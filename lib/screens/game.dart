@@ -108,6 +108,8 @@ class _GameScreenState extends State<GameScreen> {
                               countDownController.pause();
 
                               if (!answered) {
+                                streaksProvider.count++;
+
                                 if (questionProvider.options[index]["value"] ==
                                     true) {
                                   playCorrect(context);
