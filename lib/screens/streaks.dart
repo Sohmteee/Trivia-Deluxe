@@ -78,6 +78,11 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                     children: [
                       Row(
                         children: [
+                          Image.asset(
+                            width: 35.w,
+                            image,
+                          ),
+                          SizedBox(width: 10.w),
                           Text(
                             streakTitle,
                             style: TextStyle(
@@ -92,10 +97,6 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                         children: streakList
                             .map(
                               (item) => ListTile(
-                                leading: Image.asset(
-                                  width: 35.w,
-                                  image,
-                                ),
                                 title: Text(
                                   "Complete 5 levels without failing",
                                   style: TextStyle(
