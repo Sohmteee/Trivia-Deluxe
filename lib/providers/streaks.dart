@@ -174,7 +174,7 @@ Map streaks = {
     },
   },
   "Ultimate Achievement": {
-    "image": "",
+    "image": "assets/images/goal.png",
     "streaks": {
       {
         "Ultimate Achiever": {
