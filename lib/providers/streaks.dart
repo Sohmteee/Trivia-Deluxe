@@ -413,6 +413,24 @@ class StreaksProvider extends ChangeNotifier {
     notifyListeners();
   }
 
+  void updateTriviaStreak({bool? correct}) {
+    if (correct!) {
+      triviaStreak += 1;
+      box.put("triviaStreak", triviaStreak);
+
+      if (triviaStreak > permanentTriviaStreak &&
+          permanentTriviaStreakList.contains(triviaStreak)) {
+        permanentTriviaStreak = triviaStreak;
+        box.put("permanentTriviaStreak", permanentTriviaStreak);
+      }
+    } else {
+      triviaStreak = 0;
+      box.put("triviaStreak", triviaStreak);
+    }
+
+    notifyListeners();
+  }
+
   void updateStreakProgress(
       {required int streakIndex, required int subStreakIndex, int? progress}) {
     streaks[streakIndex]["streaks"][subStreakIndex]["progress"] +=
