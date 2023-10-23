@@ -461,9 +461,7 @@ class StreaksProvider extends ChangeNotifier {
   }
 
   void updateUltimateStreak() {
-
     int totalStreaksFinished = 0;
-
 
     for (var streak in streaks) {
       for (var subStreak in streak["streaks"]) {
@@ -473,7 +471,7 @@ class StreaksProvider extends ChangeNotifier {
       }
     }
 
-    ultimateStreak = tot;
+    ultimateStreak = totalStreaksFinished;
     box.put("ultimateStreak", ultimateStreak);
 
     updateStreaksData();
