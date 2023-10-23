@@ -4,7 +4,7 @@ import 'package:trivia/data/box.dart';
 import 'package:trivia/data/controllers.dart';
 
 class AudioProvider extends ChangeNotifier {
-  double musicVolume = box.get("musicVolume", defaultValue: 1);
+  double musicVolume = box.get("musicVolume", defaultValue: 1.0);
   double effectsVolume = box.get("effectsVolume", defaultValue: .5);
   bool music = box.get("music", defaultValue: true);
   bool soundEffects = box.get("soundEffects", defaultValue: true);
