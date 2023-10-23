@@ -45,6 +45,7 @@ Future<void> main() async {
         ChangeNotifierProvider(create: (_) => AudioProvider()),
         ChangeNotifierProvider(create: (_) => ScoreProvider()),
         ChangeNotifierProvider(create: (_) => SelectProvider()),
+        ChangeNotifierProvider(create: (_) => StreakPr()),
       ],
       child: const MyApp(),
     ),
