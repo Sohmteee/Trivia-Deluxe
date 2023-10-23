@@ -95,40 +95,40 @@ Map streaks = {
     "image": "",
     "streaks": {
       {
-        "Answer 5 questions correctly in a row": {
-          "subtitle": "",
+        "Trivia Beginner": {
+          "subtitle": "Answer 5 questions correctly in a row",
           "status": false,
           "progress": 0,
           "limit": 5,
         }
       },
       {
-        "Answer 10 questions correctly in a row": {
-          "subtitle": "",
+        "Trivia Expert": {
+          "subtitle": "Answer 10 questions correctly in a row",
           "status": false,
           "progress": 0,
           "limit": 10,
         }
       },
       {
-        "Answer 20 questions correctly in a row": {
-          "subtitle": "",
+        "Brainiac": {
+          "subtitle": "Answer 20 questions correctly in a row",
           "status": false,
           "progress": 0,
           "limit": 20,
         }
       },
       {
-        "Answer 50 questions correctly in a row": {
-          "subtitle": "",
+        "": {
+          "subtitle": "Answer 50 questions correctly in a row",
           "status": false,
           "progress": 0,
           "limit": 50,
         }
       },
       {
-        "Answer 100 questions correctly in a row": {
-          "subtitle": "",
+        "": {
+          "subtitle": "Answer 100 questions correctly in a row",
           "status": false,
           "progress": 0,
           "limit": 100,
