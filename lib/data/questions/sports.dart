@@ -589,21 +589,6 @@ Map<String, dynamic> sportsData = {
     },
     {
       "question":
-          "What sport is played with a round ball, and the objective is to score by putting it into a net using your hands?",
-      "dialog": {
-        "title": "Handball",
-        "content":
-            "Handball is played with a round ball, and players aim to score by putting it into a net using their hands."
-      },
-      "options": [
-        {"text": "Soccer", "value": false, "color": "yellow"},
-        {"text": "Basketball", "value": false, "color": "yellow"},
-        {"text": "Tennis", "value": false, "color": "yellow"},
-        {"text": "Handball", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
           "What is the term for the event where athletes compete in various track and field events, often including pole vault and high jump?",
       "dialog": {
         "title": "Athletics",
@@ -615,50 +600,6 @@ Map<String, dynamic> sportsData = {
         {"text": "Marathon", "value": false, "color": "yellow"},
         {"text": "Relay", "value": false, "color": "yellow"},
         {"text": "Athletics", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "In which sport do teams of players try to score goals by hitting a puck into the opponent's net using sticks?",
-      "dialog": {
-        "title": "Ice Hockey",
-        "content":
-            "Ice hockey involves hitting a puck into the opponent's net using sticks."
-      },
-      "options": [
-        {"text": "Field Hockey", "value": false, "color": "yellow"},
-        {"text": "Lacrosse", "value": false, "color": "yellow"},
-        {"text": "Curling", "value": false, "color": "yellow"},
-        {"text": "Ice Hockey", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "What sport is played with a round ball and goals at each end?",
-      "dialog": {
-        "title": "Soccer",
-        "content":
-            "In soccer, players kick a ball into the opponent's goal to score."
-      },
-      "options": [
-        {"text": "Football", "value": false, "color": "yellow"},
-        {"text": "Tennis", "value": false, "color": "yellow"},
-        {"text": "Baseball", "value": false, "color": "yellow"},
-        {"text": "Soccer", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "How many players are there on a standard basketball team?",
-      "dialog": {
-        "title": "5",
-        "content":
-            "In basketball, each team has 5 players on the court at a time."
-      },
-      "options": [
-        {"text": "6", "value": false, "color": "yellow"},
-        {"text": "4", "value": false, "color": "yellow"},
-        {"text": "7", "value": false, "color": "yellow"},
-        {"text": "5", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -797,6 +738,21 @@ Map<String, dynamic> sportsData = {
     },
     {
       "question":
+          "What is the term for the technique of paddling out through the breaking waves to reach the lineup in surfing?",
+      "dialog": {
+        "title": "Duck diving",
+        "content":
+            "Duck diving is the technique of paddling out through the breaking waves to reach the lineup in surfing."
+      },
+      "options": [
+        {"text": "Hang ten", "value": false, "color": "yellow"},
+        {"text": "Tube riding", "value": false, "color": "yellow"},
+        {"text": "Nose riding", "value": false, "color": "yellow"},
+        {"text": "Duck diving", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
           "In what sport would you use terms like touchdown and field goal?",
       "dialog": {
         "title": "Football",
@@ -807,19 +763,6 @@ Map<String, dynamic> sportsData = {
         {"text": "Soccer", "value": false, "color": "yellow"},
         {"text": "Tennis", "value": false, "color": "yellow"},
         {"text": "Football", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question": "What is the term for a perfect score in a game of bowling?",
-      "dialog": {
-        "title": "Strike",
-        "content": "In bowling, a perfect score for a single frame is a strike."
-      },
-      "options": [
-        {"text": "Spare", "value": false, "color": "yellow"},
-        {"text": "Split", "value": false, "color": "yellow"},
-        {"text": "Spare", "value": false, "color": "yellow"},
-        {"text": "Strike", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -834,20 +777,6 @@ Map<String, dynamic> sportsData = {
         {"text": "Snowboarding", "value": false, "color": "yellow"},
         {"text": "Cycling", "value": false, "color": "yellow"},
         {"text": "Skateboarding", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "Which sport is played on ice, and players use sticks to hit a puck into the opponent's goal?",
-      "dialog": {
-        "title": "Hockey",
-        "content": "Hockey is played on ice with sticks and a puck."
-      },
-      "options": [
-        {"text": "Soccer", "value": false, "color": "yellow"},
-        {"text": "Tennis", "value": false, "color": "yellow"},
-        {"text": "Baseball", "value": false, "color": "yellow"},
-        {"text": "Hockey", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -867,31 +796,62 @@ Map<String, dynamic> sportsData = {
     },
     {
       "question":
-          "In what sport would you compete in events like the 100-meter dash, long jump, and shot put?",
+          "Who is often considered one of the greatest basketball players of all time and is known as His Airness?",
       "dialog": {
-        "title": "Track and Field",
+        "title": "Michael Jordan",
         "content":
-            "Track and Field includes events like the 100-meter dash, long jump, and shot put."
+            "Michael Jordan is often considered one of the greatest basketball players and is known as His Airness."
       },
       "options": [
-        {"text": "Swimming", "value": false, "color": "yellow"},
-        {"text": "Gymnastics", "value": false, "color": "yellow"},
-        {"text": "Skiing", "value": false, "color": "yellow"},
-        {"text": "Track and Field", "value": true, "color": "yellow"}
+        {"text": "LeBron James", "value": false, "color": "yellow"},
+        {"text": "Kobe Bryant", "value": false, "color": "yellow"},
+        {"text": "Shaquille O'Neal", "value": false, "color": "yellow"},
+        {"text": "Michael Jordan", "value": true, "color": "yellow"}
       ]
     },
     {
-      "question": "How many points is a three-point shot worth in basketball?",
+      "question":
+          "In billiards, what is the term for the opening shot in a game?",
       "dialog": {
-        "title": "3",
+        "title": "Break",
         "content":
-            "In basketball, a successful three-point shot is worth 3 points."
+            "In billiards, the opening shot in a game is called the break."
       },
       "options": [
-        {"text": "1", "value": false, "color": "yellow"},
-        {"text": "2", "value": false, "color": "yellow"},
-        {"text": "4", "value": false, "color": "yellow"},
-        {"text": "3", "value": true, "color": "yellow"}
+        {"text": "Strike", "value": false, "color": "yellow"},
+        {"text": "Pot", "value": false, "color": "yellow"},
+        {"text": "Push", "value": false, "color": "yellow"},
+        {"text": "Break", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "Which professional surfer is often referred to as The King of Surfing and won 11 world championships?",
+      "dialog": {
+        "title": "Kelly Slater",
+        "content":
+            "Kelly Slater is often referred to as The King of Surfing and has won 11 world championships."
+      },
+      "options": [
+        {"text": "Laird Hamilton", "value": false, "color": "yellow"},
+        {"text": "Bethany Hamilton", "value": false, "color": "yellow"},
+        {"text": "Duke Kahanamoku", "value": false, "color": "yellow"},
+        {"text": "Kelly Slater", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "Which Hawaiian island is often considered the birthplace of modern surfing?",
+      "dialog": {
+        "title": "Oahu",
+        "content":
+            "Oahu is often considered the birthplace of modern surfing and is home to the famous Waikiki Beach."
+      },
+      "options": [
+        {"text": "Maui", "value": false, "color": "yellow"},
+        {"text": "Kauai", "value": false, "color": "yellow"},
+        {"text": "Molokai", "value": false, "color": "yellow"},
+        {"text": "Oahu", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -910,17 +870,31 @@ Map<String, dynamic> sportsData = {
       ]
     },
     {
-      "question": "Which NBA team is often referred to as the Lakers?",
+      "question":
+          "Which golf major tournament is played at Augusta National Golf Club in the United States?",
       "dialog": {
-        "title": "Los Angeles Lakers",
+        "title": "The Masters",
         "content":
-            "The Los Angeles Lakers are often referred to as the Lakers in the NBA."
+            "The Masters is played at Augusta National Golf Club and is one of the major tournaments in golf."
       },
       "options": [
-        {"text": "Boston Celtics", "value": false, "color": "yellow"},
-        {"text": "Miami Heat", "value": false, "color": "yellow"},
-        {"text": "Golden State Warriors", "value": false, "color": "yellow"},
-        {"text": "Los Angeles Lakers", "value": true, "color": "yellow"}
+        {"text": "The Open Championship", "value": false, "color": "yellow"},
+        {"text": "PGA Championship", "value": false, "color": "yellow"},
+        {"text": "U.S. Open", "value": false, "color": "yellow"},
+        {"text": "The Masters", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "What is the term for a perfect score in a game of bowling?",
+      "dialog": {
+        "title": "Strike",
+        "content": "In bowling, a perfect score for a single frame is a strike."
+      },
+      "options": [
+        {"text": "Spare", "value": false, "color": "yellow"},
+        {"text": "Split", "value": false, "color": "yellow"},
+        {"text": "Spare", "value": false, "color": "yellow"},
+        {"text": "Strike", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -940,17 +914,32 @@ Map<String, dynamic> sportsData = {
     },
     {
       "question":
-          "Who is often considered one of the greatest basketball players of all time and is known as His Airness?",
+          "What is the term for a situation in hockey where a team is temporarily down one player due to a penalty?",
       "dialog": {
-        "title": "Michael Jordan",
+        "title": "Power play",
         "content":
-            "Michael Jordan is often considered one of the greatest basketball players and is known as His Airness."
+            "A power play is when a team has a temporary advantage with one more player on the ice due to a penalty on the opposing team."
       },
       "options": [
-        {"text": "LeBron James", "value": false, "color": "yellow"},
-        {"text": "Kobe Bryant", "value": false, "color": "yellow"},
-        {"text": "Shaquille O'Neal", "value": false, "color": "yellow"},
-        {"text": "Michael Jordan", "value": true, "color": "yellow"}
+        {"text": "Breakaway", "value": false, "color": "yellow"},
+        {"text": "Slapshot", "value": false, "color": "yellow"},
+        {"text": "Faceoff", "value": false, "color": "yellow"},
+        {"text": "Power play", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "In golf, what is the term for the area where the grass is cut shorter and surrounding the hole?",
+      "dialog": {
+        "title": "Putting green",
+        "content":
+            "In golf, the area surrounding the hole with shorter grass is called the putting green."
+      },
+      "options": [
+        {"text": "Fairway", "value": false, "color": "yellow"},
+        {"text": "Bunker", "value": false, "color": "yellow"},
+        {"text": "Rough", "value": false, "color": "yellow"},
+        {"text": "Putting green", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -970,77 +959,16 @@ Map<String, dynamic> sportsData = {
     },
     {
       "question":
-          "What is the highest number of hits or contacts a team is allowed to make before sending the ball over the net in volleyball?",
+          "Which sport is played on ice, and players use sticks to hit a puck into the opponent's goal?",
       "dialog": {
-        "title": "3",
-        "content":
-            "In volleyball, a team is allowed a maximum of 3 hits or contacts before sending the ball over the net."
+        "title": "Hockey",
+        "content": "Hockey is played on ice with sticks and a puck."
       },
       "options": [
-        {"text": "1", "value": false, "color": "yellow"},
-        {"text": "4", "value": false, "color": "yellow"},
-        {"text": "5", "value": false, "color": "yellow"},
-        {"text": "3", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "Which part of the body is not allowed to be used to hit the ball over the net in volleyball?",
-      "dialog": {
-        "title": "Feet",
-        "content":
-            "In volleyball, it is not allowed to use the feet to hit the ball over the net."
-      },
-      "options": [
-        {"text": "Head", "value": false, "color": "yellow"},
-        {"text": "Elbow", "value": false, "color": "yellow"},
-        {"text": "Knee", "value": false, "color": "yellow"},
-        {"text": "Feet", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "What is the term for a play in volleyball where one player jumps and strikes the ball downward into the opponent's court?",
-      "dialog": {
-        "title": "Spike",
-        "content":
-            "A spike is when a player jumps and strikes the ball downward into the opponent's court."
-      },
-      "options": [
-        {"text": "Serve", "value": false, "color": "yellow"},
-        {"text": "Block", "value": false, "color": "yellow"},
-        {"text": "Set", "value": false, "color": "yellow"},
-        {"text": "Spike", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "In beach volleyball, how many players are typically on each team at any given time?",
-      "dialog": {
-        "title": "2",
-        "content":
-            "In beach volleyball, each team typically has 2 players on the court at any given time."
-      },
-      "options": [
-        {"text": "3", "value": false, "color": "yellow"},
-        {"text": "4", "value": false, "color": "yellow"},
-        {"text": "5", "value": false, "color": "yellow"},
-        {"text": "2", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "What is the standard number of players on the field for a soccer team during a match?",
-      "dialog": {
-        "title": "11",
-        "content":
-            "In a standard soccer match, each team typically has 11 players on the field at the same time."
-      },
-      "options": [
-        {"text": "10", "value": false, "color": "yellow"},
-        {"text": "9", "value": false, "color": "yellow"},
-        {"text": "12", "value": false, "color": "yellow"},
-        {"text": "11", "value": true, "color": "yellow"}
+        {"text": "Soccer", "value": false, "color": "yellow"},
+        {"text": "Tennis", "value": false, "color": "yellow"},
+        {"text": "Baseball", "value": false, "color": "yellow"},
+        {"text": "Hockey", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1075,35 +1003,6 @@ Map<String, dynamic> sportsData = {
     },
     {
       "question":
-          "What is the term for a goal scored by a player directly from a corner kick without the ball touching anyone else?",
-      "dialog": {
-        "title": "Olympic goal",
-        "content":
-            "An Olympic goal is scored directly from a corner kick without anyone else touching the ball."
-      },
-      "options": [
-        {"text": "Penalty goal", "value": false, "color": "yellow"},
-        {"text": "Hat-trick goal", "value": false, "color": "yellow"},
-        {"text": "Golden goal", "value": false, "color": "yellow"},
-        {"text": "Olympic goal", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "Which country won the 2021 UEFA European Championship (Euro 2020)?",
-      "dialog": {
-        "title": "Italy",
-        "content": "Italy won the 2021 UEFA European Championship (Euro 2020)."
-      },
-      "options": [
-        {"text": "France", "value": false, "color": "yellow"},
-        {"text": "England", "value": false, "color": "yellow"},
-        {"text": "Germany", "value": false, "color": "yellow"},
-        {"text": "Italy", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
           "In ice hockey, how many players are typically on the ice for one team at a time, excluding the goaltender?",
       "dialog": {
         "title": "6",
@@ -1119,47 +1018,62 @@ Map<String, dynamic> sportsData = {
     },
     {
       "question":
-          "What is the term for a situation in hockey where a team is temporarily down one player due to a penalty?",
+          "In what sport would you compete in events like the 100-meter dash, long jump, and shot put?",
       "dialog": {
-        "title": "Power play",
+        "title": "Track and Field",
         "content":
-            "A power play is when a team has a temporary advantage with one more player on the ice due to a penalty on the opposing team."
+            "Track and Field includes events like the 100-meter dash, long jump, and shot put."
       },
       "options": [
-        {"text": "Breakaway", "value": false, "color": "yellow"},
-        {"text": "Slapshot", "value": false, "color": "yellow"},
-        {"text": "Faceoff", "value": false, "color": "yellow"},
-        {"text": "Power play", "value": true, "color": "yellow"}
+        {"text": "Swimming", "value": false, "color": "yellow"},
+        {"text": "Gymnastics", "value": false, "color": "yellow"},
+        {"text": "Skiing", "value": false, "color": "yellow"},
+        {"text": "Track and Field", "value": true, "color": "yellow"}
       ]
     },
     {
       "question":
-          "In field hockey, what is the small, round object that players use to score goals called?",
+          "What is the term for a play in volleyball where one player jumps and strikes the ball downward into the opponent's court?",
       "dialog": {
-        "title": "Ball",
+        "title": "Spike",
         "content":
-            "In field hockey, the small, round object used to score goals is called a ball."
+            "A spike is when a player jumps and strikes the ball downward into the opponent's court."
       },
       "options": [
-        {"text": "Puck", "value": false, "color": "yellow"},
-        {"text": "Stick", "value": false, "color": "yellow"},
-        {"text": "Net", "value": false, "color": "yellow"},
-        {"text": "Ball", "value": true, "color": "yellow"}
+        {"text": "Serve", "value": false, "color": "yellow"},
+        {"text": "Block", "value": false, "color": "yellow"},
+        {"text": "Set", "value": false, "color": "yellow"},
+        {"text": "Spike", "value": true, "color": "yellow"}
       ]
     },
     {
       "question":
-          "What is the name of the famous trophy awarded to the National Hockey League (NHL) champions each year?",
+          "Which part of the body is not allowed to be used to hit the ball over the net in volleyball?",
       "dialog": {
-        "title": "Stanley Cup",
+        "title": "Feet",
         "content":
-            "The Stanley Cup is the prestigious trophy awarded to the NHL champions each year."
+            "In volleyball, it is not allowed to use the feet to hit the ball over the net."
       },
       "options": [
-        {"text": "Presidents' Trophy", "value": false, "color": "yellow"},
-        {"text": "Hart Trophy", "value": false, "color": "yellow"},
-        {"text": "Stanley Trophy", "value": false, "color": "yellow"},
-        {"text": "Stanley Cup", "value": true, "color": "yellow"}
+        {"text": "Head", "value": false, "color": "yellow"},
+        {"text": "Elbow", "value": false, "color": "yellow"},
+        {"text": "Knee", "value": false, "color": "yellow"},
+        {"text": "Feet", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "What is the highest number of hits or contacts a team is allowed to make before sending the ball over the net in volleyball?",
+      "dialog": {
+        "title": "3",
+        "content":
+            "In volleyball, a team is allowed a maximum of 3 hits or contacts before sending the ball over the net."
+      },
+      "options": [
+        {"text": "1", "value": false, "color": "yellow"},
+        {"text": "4", "value": false, "color": "yellow"},
+        {"text": "5", "value": false, "color": "yellow"},
+        {"text": "3", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1179,6 +1093,49 @@ Map<String, dynamic> sportsData = {
     },
     {
       "question":
+          "In beach volleyball, how many players are typically on each team at any given time?",
+      "dialog": {
+        "title": "2",
+        "content":
+            "In beach volleyball, each team typically has 2 players on the court at any given time."
+      },
+      "options": [
+        {"text": "3", "value": false, "color": "yellow"},
+        {"text": "4", "value": false, "color": "yellow"},
+        {"text": "5", "value": false, "color": "yellow"},
+        {"text": "2", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "How many points is a three-point shot worth in basketball?",
+      "dialog": {
+        "title": "3",
+        "content":
+            "In basketball, a successful three-point shot is worth 3 points."
+      },
+      "options": [
+        {"text": "1", "value": false, "color": "yellow"},
+        {"text": "2", "value": false, "color": "yellow"},
+        {"text": "4", "value": false, "color": "yellow"},
+        {"text": "3", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "Which country won the 2021 UEFA European Championship (Euro 2020)?",
+      "dialog": {
+        "title": "Italy",
+        "content": "Italy won the 2021 UEFA European Championship (Euro 2020)."
+      },
+      "options": [
+        {"text": "France", "value": false, "color": "yellow"},
+        {"text": "England", "value": false, "color": "yellow"},
+        {"text": "Germany", "value": false, "color": "yellow"},
+        {"text": "Italy", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
           "In surfing, what is the area between the crest and trough of a wave called?",
       "dialog": {
         "title": "Face",
@@ -1190,80 +1147,6 @@ Map<String, dynamic> sportsData = {
         {"text": "Lip", "value": false, "color": "yellow"},
         {"text": "Base", "value": false, "color": "yellow"},
         {"text": "Face", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "Which Hawaiian island is often considered the birthplace of modern surfing?",
-      "dialog": {
-        "title": "Oahu",
-        "content":
-            "Oahu is often considered the birthplace of modern surfing and is home to the famous Waikiki Beach."
-      },
-      "options": [
-        {"text": "Maui", "value": false, "color": "yellow"},
-        {"text": "Kauai", "value": false, "color": "yellow"},
-        {"text": "Molokai", "value": false, "color": "yellow"},
-        {"text": "Oahu", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "What is the term for the technique of paddling out through the breaking waves to reach the lineup in surfing?",
-      "dialog": {
-        "title": "Duck diving",
-        "content":
-            "Duck diving is the technique of paddling out through the breaking waves to reach the lineup in surfing."
-      },
-      "options": [
-        {"text": "Hang ten", "value": false, "color": "yellow"},
-        {"text": "Tube riding", "value": false, "color": "yellow"},
-        {"text": "Nose riding", "value": false, "color": "yellow"},
-        {"text": "Duck diving", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "Which professional surfer is often referred to as The King of Surfing and won 11 world championships?",
-      "dialog": {
-        "title": "Kelly Slater",
-        "content":
-            "Kelly Slater is often referred to as The King of Surfing and has won 11 world championships."
-      },
-      "options": [
-        {"text": "Laird Hamilton", "value": false, "color": "yellow"},
-        {"text": "Bethany Hamilton", "value": false, "color": "yellow"},
-        {"text": "Duke Kahanamoku", "value": false, "color": "yellow"},
-        {"text": "Kelly Slater", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "In golf, what is the term for the area where the grass is cut shorter and surrounding the hole?",
-      "dialog": {
-        "title": "Putting green",
-        "content":
-            "In golf, the area surrounding the hole with shorter grass is called the putting green."
-      },
-      "options": [
-        {"text": "Fairway", "value": false, "color": "yellow"},
-        {"text": "Bunker", "value": false, "color": "yellow"},
-        {"text": "Rough", "value": false, "color": "yellow"},
-        {"text": "Putting green", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "How many holes are typically found on a standard golf course?",
-      "dialog": {
-        "title": "18",
-        "content": "A standard golf course typically has 18 holes."
-      },
-      "options": [
-        {"text": "9", "value": false, "color": "yellow"},
-        {"text": "12", "value": false, "color": "yellow"},
-        {"text": "15", "value": false, "color": "yellow"},
-        {"text": "18", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1283,17 +1166,17 @@ Map<String, dynamic> sportsData = {
     },
     {
       "question":
-          "Which golf major tournament is played at Augusta National Golf Club in the United States?",
+          "In field hockey, what is the small, round object that players use to score goals called?",
       "dialog": {
-        "title": "The Masters",
+        "title": "Ball",
         "content":
-            "The Masters is played at Augusta National Golf Club and is one of the major tournaments in golf."
+            "In field hockey, the small, round object used to score goals is called a ball."
       },
       "options": [
-        {"text": "The Open Championship", "value": false, "color": "yellow"},
-        {"text": "PGA Championship", "value": false, "color": "yellow"},
-        {"text": "U.S. Open", "value": false, "color": "yellow"},
-        {"text": "The Masters", "value": true, "color": "yellow"}
+        {"text": "Puck", "value": false, "color": "yellow"},
+        {"text": "Stick", "value": false, "color": "yellow"},
+        {"text": "Net", "value": false, "color": "yellow"},
+        {"text": "Ball", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1313,6 +1196,20 @@ Map<String, dynamic> sportsData = {
     },
     {
       "question":
+          "How many holes are typically found on a standard golf course?",
+      "dialog": {
+        "title": "18",
+        "content": "A standard golf course typically has 18 holes."
+      },
+      "options": [
+        {"text": "9", "value": false, "color": "yellow"},
+        {"text": "12", "value": false, "color": "yellow"},
+        {"text": "15", "value": false, "color": "yellow"},
+        {"text": "18", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
           "What is the term for the score of one stroke under par on a golf hole?",
       "dialog": {
         "title": "Birdie",
@@ -1327,47 +1224,17 @@ Map<String, dynamic> sportsData = {
       ]
     },
     {
-      "question":
-          "In billiards, what is the term for the opening shot in a game?",
+      "question": "Which NBA team is often referred to as the Lakers?",
       "dialog": {
-        "title": "Break",
+        "title": "Los Angeles Lakers",
         "content":
-            "In billiards, the opening shot in a game is called the break."
+            "The Los Angeles Lakers are often referred to as the Lakers in the NBA."
       },
       "options": [
-        {"text": "Strike", "value": false, "color": "yellow"},
-        {"text": "Pot", "value": false, "color": "yellow"},
-        {"text": "Push", "value": false, "color": "yellow"},
-        {"text": "Break", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "How many balls are typically used in a game of eight-ball pool?",
-      "dialog": {
-        "title": "16",
-        "content": "In a game of eight-ball pool, 16 balls are typically used."
-      },
-      "options": [
-        {"text": "9", "value": false, "color": "yellow"},
-        {"text": "12", "value": false, "color": "yellow"},
-        {"text": "10", "value": false, "color": "yellow"},
-        {"text": "16", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "What is the term for a shot in billiards where the cue ball is pocketed after striking the target ball?",
-      "dialog": {
-        "title": "Scratch",
-        "content":
-            "A scratch is a shot in billiards where the cue ball is pocketed after striking the target ball."
-      },
-      "options": [
-        {"text": "Pot", "value": false, "color": "yellow"},
-        {"text": "Bank", "value": false, "color": "yellow"},
-        {"text": "Combo", "value": false, "color": "yellow"},
-        {"text": "Scratch", "value": true, "color": "yellow"}
+        {"text": "Boston Celtics", "value": false, "color": "yellow"},
+        {"text": "Miami Heat", "value": false, "color": "yellow"},
+        {"text": "Golden State Warriors", "value": false, "color": "yellow"},
+        {"text": "Los Angeles Lakers", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1386,21 +1253,6 @@ Map<String, dynamic> sportsData = {
       ]
     },
     {
-      "question":
-          "What is the name of the game in billiards where the objective is to pot all the balls in a specific order, including the 8-ball?",
-      "dialog": {
-        "title": "Nine-ball",
-        "content":
-            "In nine-ball billiards, the objective is to pot all the balls in a specific order, including the 8-ball."
-      },
-      "options": [
-        {"text": "Eight-ball", "value": false, "color": "yellow"},
-        {"text": "Straight pool", "value": false, "color": "yellow"},
-        {"text": "Snooker", "value": false, "color": "yellow"},
-        {"text": "Nine-ball", "value": true, "color": "yellow"}
-      ]
-    },
-    {
       "question": "In tennis, what is the term for a score of 15-15 in a game?",
       "dialog": {
         "title": "15-all",
@@ -1415,17 +1267,17 @@ Map<String, dynamic> sportsData = {
     },
     {
       "question":
-          "Who holds the record for the most Grand Slam singles titles in tennis (as of my knowledge cutoff date in 2021)?",
+          "In badminton, what is the term for a shot that is hit steeply and falls rapidly, making it difficult for the opponent to return?",
       "dialog": {
-        "title": "Roger Federer",
+        "title": "Drop shot",
         "content":
-            "As of my knowledge cutoff date in 2021, Roger Federer holds the record for the most Grand Slam singles titles."
+            "In badminton, a shot that falls rapidly and is difficult to return is called a \"drop shot.\""
       },
       "options": [
-        {"text": "Rafael Nadal", "value": false, "color": "yellow"},
-        {"text": "Novak Djokovic", "value": false, "color": "yellow"},
-        {"text": "Pete Sampras", "value": false, "color": "yellow"},
-        {"text": "Roger Federer", "value": true, "color": "yellow"}
+        {"text": "Smash", "value": false, "color": "yellow"},
+        {"text": "Clear", "value": false, "color": "yellow"},
+        {"text": "Lob", "value": false, "color": "yellow"},
+        {"text": "Drop shot", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1445,6 +1297,36 @@ Map<String, dynamic> sportsData = {
     },
     {
       "question":
+          "In badminton, what is the term for hitting the shuttlecock over the net and into the opponent's court to score a point?",
+      "dialog": {
+        "title": "Smash",
+        "content":
+            "In badminton, hitting the shuttlecock over the net to score a point is called a \"smash.\""
+      },
+      "options": [
+        {"text": "Serve", "value": false, "color": "yellow"},
+        {"text": "Block", "value": false, "color": "yellow"},
+        {"text": "Drop shot", "value": false, "color": "yellow"},
+        {"text": "Smash", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "What is the term for a goal scored by a player directly from a corner kick without the ball touching anyone else?",
+      "dialog": {
+        "title": "Olympic goal",
+        "content":
+            "An Olympic goal is scored directly from a corner kick without anyone else touching the ball."
+      },
+      "options": [
+        {"text": "Penalty goal", "value": false, "color": "yellow"},
+        {"text": "Hat-trick goal", "value": false, "color": "yellow"},
+        {"text": "Golden goal", "value": false, "color": "yellow"},
+        {"text": "Olympic goal", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
           "What is the name of the tennis tournament held in London that features the top eight men's singles players and doubles teams?",
       "dialog": {
         "title": "ATP Finals",
@@ -1456,6 +1338,96 @@ Map<String, dynamic> sportsData = {
         {"text": "Davis Cup", "value": false, "color": "yellow"},
         {"text": "Australian Open", "value": false, "color": "yellow"},
         {"text": "ATP Finals", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "What is the name of the famous trophy awarded to the National Hockey League (NHL) champions each year?",
+      "dialog": {
+        "title": "Stanley Cup",
+        "content":
+            "The Stanley Cup is the prestigious trophy awarded to the NHL champions each year."
+      },
+      "options": [
+        {"text": "Presidents' Trophy", "value": false, "color": "yellow"},
+        {"text": "Hart Trophy", "value": false, "color": "yellow"},
+        {"text": "Stanley Trophy", "value": false, "color": "yellow"},
+        {"text": "Stanley Cup", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "What is the term for a shot in tennis where the ball is hit with the frame of the racket rather than the strings?",
+      "dialog": {
+        "title": "Shanked",
+        "content":
+            "A shot in tennis where the ball is hit with the frame of the racket rather than the strings is called a shanked shot."
+      },
+      "options": [
+        {"text": "Topspin", "value": false, "color": "yellow"},
+        {"text": "Drop shot", "value": false, "color": "yellow"},
+        {"text": "Overhead", "value": false, "color": "yellow"},
+        {"text": "Shanked", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "In badminton, how many points are needed to win a game, provided there is a 2-point lead?",
+      "dialog": {
+        "title": "21",
+        "content":
+            "In badminton, a game is typically played to 21 points, with a 2-point lead needed to win."
+      },
+      "options": [
+        {"text": "11", "value": false, "color": "yellow"},
+        {"text": "15", "value": false, "color": "yellow"},
+        {"text": "25", "value": false, "color": "yellow"},
+        {"text": "21", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "What is the name of the game in billiards where the objective is to pot all the balls in a specific order, including the 8-ball?",
+      "dialog": {
+        "title": "Nine-ball",
+        "content":
+            "In nine-ball billiards, the objective is to pot all the balls in a specific order, including the 8-ball."
+      },
+      "options": [
+        {"text": "Eight-ball", "value": false, "color": "yellow"},
+        {"text": "Straight pool", "value": false, "color": "yellow"},
+        {"text": "Snooker", "value": false, "color": "yellow"},
+        {"text": "Nine-ball", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "What is the term for a shot in billiards where the cue ball is pocketed after striking the target ball?",
+      "dialog": {
+        "title": "Scratch",
+        "content":
+            "A scratch is a shot in billiards where the cue ball is pocketed after striking the target ball."
+      },
+      "options": [
+        {"text": "Pot", "value": false, "color": "yellow"},
+        {"text": "Bank", "value": false, "color": "yellow"},
+        {"text": "Combo", "value": false, "color": "yellow"},
+        {"text": "Scratch", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "What is the name of the playing area in badminton, which is divided by a net and is the area where the game is contested?",
+      "dialog": {
+        "title": "Court",
+        "content":
+            "The playing area in badminton is called the \"court,\" which is divided by a net."
+      },
+      "options": [
+        {"text": "Field", "value": false, "color": "yellow"},
+        {"text": "Pitch", "value": false, "color": "yellow"},
+        {"text": "Rink", "value": false, "color": "yellow"},
+        {"text": "Court", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1475,17 +1447,121 @@ Map<String, dynamic> sportsData = {
     },
     {
       "question":
-          "What is the term for a shot in tennis where the ball is hit with the frame of the racket rather than the strings?",
+          "How is the server determined at the start of a badminton game or when the server's side is serving?",
       "dialog": {
-        "title": "Shanked",
+        "title": "Coin toss",
         "content":
-            "A shot in tennis where the ball is hit with the frame of the racket rather than the strings is called a shanked shot."
+            "The server at the start of a badminton game or when the server's side is serving is determined by a coin toss."
       },
       "options": [
-        {"text": "Topspin", "value": false, "color": "yellow"},
-        {"text": "Drop shot", "value": false, "color": "yellow"},
-        {"text": "Overhead", "value": false, "color": "yellow"},
-        {"text": "Shanked", "value": true, "color": "yellow"}
+        {"text": "Rock-paper-scissors", "value": false, "color": "yellow"},
+        {"text": "Arm wrestling", "value": false, "color": "yellow"},
+        {"text": "Spin the shuttlecock", "value": false, "color": "yellow"},
+        {"text": "Coin toss", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "In badminton, how many players are there on each side in a doubles match?",
+      "dialog": {
+        "title": "2",
+        "content":
+            "In a doubles match in badminton, there are 2 players on each side."
+      },
+      "options": [
+        {"text": "1", "value": false, "color": "yellow"},
+        {"text": "3", "value": false, "color": "yellow"},
+        {"text": "4", "value": false, "color": "yellow"},
+        {"text": "2", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "How many balls are typically used in a game of eight-ball pool?",
+      "dialog": {
+        "title": "16",
+        "content": "In a game of eight-ball pool, 16 balls are typically used."
+      },
+      "options": [
+        {"text": "9", "value": false, "color": "yellow"},
+        {"text": "12", "value": false, "color": "yellow"},
+        {"text": "10", "value": false, "color": "yellow"},
+        {"text": "16", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "What is the highest possible score a player or team can achieve in a single game of badminton?",
+      "dialog": {
+        "title": "21",
+        "content":
+            "The highest possible score a player or team can achieve in a single game of badminton is 21 points."
+      },
+      "options": [
+        {"text": "11", "value": false, "color": "yellow"},
+        {"text": "25", "value": false, "color": "yellow"},
+        {"text": "30", "value": false, "color": "yellow"},
+        {"text": "21", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "What is the lightweight projectile used in badminton, typically made of feathers or synthetic materials?",
+      "dialog": {
+        "title": "Shuttlecock",
+        "content":
+            "The lightweight projectile used in badminton is called a \"shuttlecock.\""
+      },
+      "options": [
+        {"text": "Tennis ball", "value": false, "color": "yellow"},
+        {"text": "Golf ball", "value": false, "color": "yellow"},
+        {"text": "Soccer ball", "value": false, "color": "yellow"},
+        {"text": "Shuttlecock", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "What is the term for a fault in badminton when the server's foot crosses the boundary line of the service court while serving?",
+      "dialog": {
+        "title": "Foot fault",
+        "content":
+            "A \"foot fault\" in badminton occurs when the server's foot crosses the service court's boundary line during the serve."
+      },
+      "options": [
+        {"text": "Shuttlecock fault", "value": false, "color": "yellow"},
+        {"text": "Net fault", "value": false, "color": "yellow"},
+        {"text": "Double fault", "value": false, "color": "yellow"},
+        {"text": "Foot fault", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "Who holds the record for the most Grand Slam singles titles in tennis (as of my knowledge cutoff date in 2021)?",
+      "dialog": {
+        "title": "Roger Federer",
+        "content":
+            "As of my knowledge cutoff date in 2021, Roger Federer holds the record for the most Grand Slam singles titles."
+      },
+      "options": [
+        {"text": "Rafael Nadal", "value": false, "color": "yellow"},
+        {"text": "Novak Djokovic", "value": false, "color": "yellow"},
+        {"text": "Pete Sampras", "value": false, "color": "yellow"},
+        {"text": "Roger Federer", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "Which country has historically dominated the sport of badminton and is known for producing many top players and champions?",
+      "dialog": {
+        "title": "China",
+        "content":
+            "China has historically dominated the sport of badminton and produced many top players and champions."
+      },
+      "options": [
+        {"text": "Indonesia", "value": false, "color": "yellow"},
+        {"text": "Denmark", "value": false, "color": "yellow"},
+        {"text": "India", "value": false, "color": "yellow"},
+        {"text": "China", "value": true, "color": "yellow"}
       ]
     }
   ]
