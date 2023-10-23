@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:trivia/colors/app_color.dart';
+import 'package:trivia/models/game_background.dart';
 
 class StreaksScreeen extends StatefulWidget {
   const StreaksScreeen({super.key});
@@ -10,6 +12,15 @@ class StreaksScreeen extends StatefulWidget {
 class _StreaksScreeenState extends State<StreaksScreeen> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return GameBackground(
+      body: Column(
+        children: [
+          Text(
+            "Leaderboard",
+            style: TextStyle(color: AppColor.yellow, fo),
+          ),
+        ],
+      ),
+    );
   }
 }
