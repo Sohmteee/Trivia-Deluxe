@@ -109,7 +109,7 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                       ),
                       Container(
                         height: 6.h,
-                        width: (0 / 3) * 30.toDouble(),
+                        width: (1 / 3) * 30.toDouble(),
                         decoration: BoxDecoration(
                           color: AppColor.yellow,
                           borderRadius: BorderRadius.circular(50.r),

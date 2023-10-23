@@ -279,7 +279,7 @@ class _SelectScreenState extends State<SelectScreen> {
                                                               ["title"])?[
                                                           "currentLevel"] +
                                                       3) /
-                                                  30 *
+                                                  33 *
                                                   50.toDouble(),
                                               decoration: BoxDecoration(
                                                 color: AppColor.yellow,
