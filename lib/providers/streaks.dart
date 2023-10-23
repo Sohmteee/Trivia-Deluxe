@@ -2,36 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:trivia/data/box.dart';
 
 class StreaksProvider extends ChangeNotifier {
-  final levelStreakIndex = 0,
-      coinStreakIndex = 1,
-      triviaStreakIndex = 2,
-      leaderboardStreakIndex = 3,
-      ultimateStreakIndex = 4;
-
-  final steadyProgressIndex = 0,
-      levelingUpIndex = 1,
-      tenaciousTriumphIndex = 2,
-      masterfulStreakIndex = 3,
-      unstoppableChampionIndex = 4;
-
-  final coinCollectorIndex = 0,
-      coinHoarderIndex = 1,
-      goldGathererIndex = 2,
-      treasureHunterIndex = 3,
-      coinMillionaireIndex = 4;
-
-  final triviaBeginnerIndex = 0,
-      triviaExpertIndex = 1,
-      brainiacIndex = 2,
-      triviaGrandmasterIndex = 3,
-      triviaMaestroIndex = 4;
-
-  final achieverIndex = 0,
-      topRankerIndex = 1,
-      masterRankerIndex = 2,
-      leaderboardChampionIndex = 3;
-
-  final ultimateAchieverIndex = 0;
+  
 
   List<Map<String, dynamic>> streaks = box.get(
     "streaks",

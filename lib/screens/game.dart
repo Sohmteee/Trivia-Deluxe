@@ -115,7 +115,7 @@ class _GameScreenState extends State<GameScreen> {
                                   confettiController.play();
                                   streaksProvider
                                       .updateStreakProgress(
-                                        index: streaksProvider.levelStreakIndex, streakIndex: 
+                                        index: ,
                                       );
                                 } else {
                                   playWrong(context);
