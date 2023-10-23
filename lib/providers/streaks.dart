@@ -59,31 +59,31 @@ class StreaksProvider extends ChangeNotifier {
         "streaks": [
           {
             "title": "Coin Collector",
-            "subtitle": "Earn 50 coins",
-            "status": false,
-            "progress": 0,
-            "limit": 50,
-          },
-          {
-            "title": "Coin Hoarder",
             "subtitle": "Earn 100 coins",
             "status": false,
             "progress": 0,
             "limit": 100,
           },
           {
-            "title": "Gold Gatherer",
+            "title": "Coin Hoarder",
             "subtitle": "Earn 200 coins",
             "status": false,
             "progress": 0,
             "limit": 200,
           },
           {
-            "title": "Treasure Hunter",
+            "title": "Gold Gatherer",
             "subtitle": "Earn 500 coins",
             "status": false,
             "progress": 0,
             "limit": 500,
+          },
+          {
+            "title": "Treasure Hunter",
+            "subtitle": "Earn 1000 coins",
+            "status": false,
+            "progress": 0,
+            "limit": 1000,
           },
           {
             "title": "Coin Millionaire",
@@ -309,14 +309,14 @@ class StreaksProvider extends ChangeNotifier {
           },
           {
             "title": "Coin Millionaire",
-            "subtitle": "Earn 5000 coins",
-            "status": permanentCoinStreak >= 5000,
-            "progress": permanentCoinStreak >= 5000
-                ? 5000
-                : coinStreak >= 5000
-                    ? 5000
+            "subtitle": "Earn 2000 coins",
+            "status": permanentCoinStreak >= 2000,
+            "progress": permanentCoinStreak >= 2000
+                ? 2000
+                : coinStreak >= 2000
+                    ? 2000
                     : coinStreak,
-            "limit": 5000,
+            "limit": 2000,
           },
         ],
       },
