@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 Map streaks = {
   "Level Streaks": {
-    "image": "",
+    "image": "assets/images/level.png",
     "streaks": [
       {
         "Steady Progress": {
@@ -47,7 +47,7 @@ Map streaks = {
     ],
   },
   "Coin Streaks": {
-    "image": "",
+    "image": "assets/images/coins.png",
     "streaks": [
       {
         "Coin Collector": {
