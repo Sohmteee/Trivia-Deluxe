@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:trivia/data/box.dart';
-import 'package:trivia/data/variables.dart';
 
 class StreaksProvider extends ChangeNotifier {
   final permanentLevelStreakList = [5, 10, 20, 50, 100];
@@ -398,34 +397,10 @@ class StreaksProvider extends ChangeNotifier {
       box.put("permanentLevelStreak", permanentLevelStreak);
     }
 
-    if (levelStreak >= 5) {
-      updateStreakStatus(
-          streakIndex: levelStreakIndex,
-          subStreakIndex: steadyProgressIndex,
-          status: true);
-    } else if (levelStreak >= 10) {
-      updateStreakStatus(
-          streakIndex: levelStreakIndex,
-          subStreakIndex: levelingUpIndex,
-          status: true);
-    } else if (levelStreak >= 20) {
-      updateStreakStatus(
-          streakIndex: levelStreakIndex,
-          subStreakIndex: tenaciousTriumphIndex,
-          status: true);
-    } else if (levelStreak >= 50) {
-      updateStreakStatus(
-          streakIndex: levelStreakIndex,
-          subStreakIndex: masterfulStreakIndex,
-          status: true);
-    } else if (levelStreak >= 100) {
-      updateStreakStatus(
-          streakIndex: levelStreakIndex,
-          subStreakIndex: unstoppableChampionIndex,
-          status: true);
-    }
     notifyListeners();
   }
+
+  
 
   void updateStreakProgress(
       {required int streakIndex, required int subStreakIndex, int? progress}) {
