@@ -148,7 +148,7 @@ Map streaks = {
         },
       },
       {
-        "Master Ranker": {
+        "Top Ranker": {
           "subtitle": "Rank top 5 on the leaderboard",
           "status": false,
           "progress": 0,
@@ -156,7 +156,7 @@ Map streaks = {
         },
       },
       {
-        "Top": {
+        "Master Ranker": {
           "subtitle": "Rank top 3 on the leaderboard",
           "status": false,
           "progress": 0,
@@ -164,7 +164,7 @@ Map streaks = {
         },
       },
       {
-        "": {
+        "Leaderboard Champion": {
           "subtitle": "Rank first on the leaderboard",
           "status": false,
           "progress": 0,
@@ -177,8 +177,8 @@ Map streaks = {
     "image": "",
     "streaks": {
       {
-        "Finish all streaks": {
-          "subtitle": "",
+        "Ultimate Achiever": {
+          "subtitle": "Finish all streaks",
           "status": false,
           "progress": 0,
           "limit": 19,
