@@ -66,8 +66,6 @@ class _RewardScreenState extends State<RewardScreen> {
     }
     streaksProvider.count = 0;
 
-    streaksProvider.updateCoinStreak(score);
-
     // score = 18;
 
     // final moneyProvider = Provider.of<MoneyProvider>(context, listen: false);
