@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:trivia/data/box.dart';
 
 class StreaksProvider extends ChangeNotifier {
-  List<Map<String, dynamic>> streaks = [
+  List<Map<String, dynamic>> streaks = box.get("streaks") ?? [
     {
       "title": "Level Streaks",
       "image": "assets/images/level.png",
