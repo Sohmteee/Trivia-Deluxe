@@ -290,13 +290,15 @@ class _MenuScreenState extends State<MenuScreen>
                           ],
                         ),
                         Container(
-                          decoration: BoxDecoration(boxShadow: [
-                            BoxShadow(
-                              color: AppColor.black.withOpacity(.5),
-                              blurRadius: 10.sp,
-                              offset: const Offset(0, 5),
-                            ),
-                          ]),
+                          decoration: BoxDecoration(
+                            boxShadow: [
+                              BoxShadow(
+                                color: AppColor.yellow.withOpacity(.5),
+                                blurRadius: 20.sp,
+                                offset: const Offset(0, 5),
+                              ),
+                            ],
+                          ),
                           height: 35.h,
                           child: ZoomTapAnimation(
                             onTap: () {
