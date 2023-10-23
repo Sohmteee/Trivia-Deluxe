@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:trivia/data/box.dart';
 
 class ScoreProvider extends ChangeNotifier {
+  // Formula: number of corect answers / 
   int _score = box.get("score", defaultValue:0);
   int get score => _score;
 
