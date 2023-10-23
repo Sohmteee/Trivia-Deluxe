@@ -46,7 +46,7 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
               textAlign: TextAlign.center,
             ),
             Text(
-              "Your data will be synced once the feture is rolled out",
+              "\nYour data will be synced once the feture is rolled out",
               style: TextStyle(
                 color: AppColor.white,
                 fontSize: 25.sp,
