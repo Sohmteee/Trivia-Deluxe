@@ -207,10 +207,6 @@ class StreaksProvider extends ChangeNotifier {
           streakIndex: levelStreakIndex,
           subStreakIndex: steadyProgressIndex,
           status: true);
-      updateStreakProgress(
-        streakIndex: levelStreakIndex,
-        subStreakIndex: steadyProgressIndex,
-      );
     } else if (levelStreak >= 10) {
       updateStreakStatus(
           streakIndex: levelStreakIndex,
