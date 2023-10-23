@@ -195,42 +195,6 @@ class StreaksProvider extends ChangeNotifier {
           box.get("permanentLeaderboardStreak", defaultValue: 0);
   int ultimateStreak = box.get("ultimateStreak", defaultValue: 0);
 
-  bool steadyProgressStatus =
-          box.get("steadyProgressStatus", defaultValue: false),
-      levelingUpStatus = box.get("levelingUpStatus", defaultValue: false),
-      tenaciousTriumphStatus =
-          box.get("tenaciousTriumphStatus", defaultValue: false),
-      masterfulStreakStatus =
-          box.get("masterfulStreakStatus", defaultValue: false),
-      unstoppableChampionStatus =
-          box.get("unstoppableChampionStatus", defaultValue: false);
-
-  bool coinCollectorStatus =
-          box.get("coinCollectorStatus", defaultValue: false),
-      coinHoarderStatus = box.get("coinHoarderStatus", defaultValue: false),
-      goldGathererStatus = box.get("goldGathererStatus", defaultValue: false),
-      treasureHunterStatus =
-          box.get("treasureHunterStatus", defaultValue: false),
-      coinMillionaireStatus =
-          box.get("coinMillionaireStatus", defaultValue: false);
-
-  bool triviaBeginnerStatus =
-          box.get("triviaBeginnerStatus", defaultValue: false),
-      triviaExpertStatus = box.get("triviaExpertStatus", defaultValue: false),
-      brainiacStatus = box.get("brainiacStatus", defaultValue: false),
-      triviaGrandmasterStatus =
-          box.get("triviaGrandmasterStatus", defaultValue: false),
-      triviaMaestroStatus = box.get("triviaMaestroStatus", defaultValue: false);
-
-  bool achieverStatus = box.get("achieverStatus", defaultValue: false),
-      topRankerStatus = box.get("topRankerStatus", defaultValue: false),
-      masterRankerStatus = box.get("masterRankerStatus", defaultValue: false),
-      leaderboardChampionStatus =
-          box.get("leaderboardChampionStatus", defaultValue: false);
-
-  bool ultimateAchieverStatus =
-      box.get("ultimateAchieverStatus", defaultValue: false);
-
   void updateStreaksData() {
     streaks = [
       {
@@ -240,7 +204,7 @@ class StreaksProvider extends ChangeNotifier {
           {
             "title": "Steady Progress",
             "subtitle": "Complete 5 levels without failing",
-            "status": steadyProgressStatus,
+            "status": permanentLevelStreak >= 5,
             "progress": permanentLevelStreak >= 5 ? 5 : levelStreak,
             "limit": 5,
           },
