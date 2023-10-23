@@ -400,7 +400,18 @@ class StreaksProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-  
+  void updateCoinStreak(int coins) {
+    coinStreak = coins;
+    box.put("coinStreak", coinStreak);
+
+    if (coinStreak > permanentCoinStreak &&
+        permanentCoinStreakList.contains(coinStreak)) {
+      permanentCoinStreak = coinStreak;
+      box.put("permanentCoinStreak", permanentCoinStreak);
+    }
+
+    notifyListeners();
+  }
 
   void updateStreakProgress(
       {required int streakIndex, required int subStreakIndex, int? progress}) {
