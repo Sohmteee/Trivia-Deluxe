@@ -60,20 +60,6 @@ Map<String, dynamic> animalsData = {
       ]
     },
     {
-      "question": "Which animal is the symbol of wisdom in many cultures?",
-      "dialog": {
-        "title": "Owl",
-        "content":
-            "Owls are often associated with wisdom in various cultures and folklore."
-      },
-      "options": [
-        {"text": "Elephant", "value": false, "color": "yellow"},
-        {"text": "Owl", "value": true, "color": "yellow"},
-        {"text": "Turtle", "value": false, "color": "yellow"},
-        {"text": "Eagle", "value": false, "color": "yellow"}
-      ]
-    },
-    {
       "question":
           "Which animal can change its color to blend with its surroundings?",
       "dialog": {
@@ -477,6 +463,20 @@ Map<String, dynamic> animalsData = {
         {"text": "African Elephant", "value": true, "color": "yellow"},
         {"text": "Giraffe", "value": false, "color": "yellow"},
         {"text": "Zebra", "value": false, "color": "yellow"}
+      ]
+    },
+    {
+      "question": "Which animal is the symbol of wisdom in many cultures?",
+      "dialog": {
+        "title": "Owl",
+        "content":
+            "Owls are often associated with wisdom in various cultures and folklore."
+      },
+      "options": [
+        {"text": "Elephant", "value": false, "color": "yellow"},
+        {"text": "Owl", "value": true, "color": "yellow"},
+        {"text": "Turtle", "value": false, "color": "yellow"},
+        {"text": "Eagle", "value": false, "color": "yellow"}
       ]
     },
     {
