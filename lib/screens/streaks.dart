@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/models/game_background.dart';
 
@@ -17,7 +18,10 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
         children: [
           Text(
             "Leaderboard",
-            style: TextStyle(color: AppColor.yellow, fo),
+            style: TextStyle(
+              color: AppColor.yellow,
+              fontSize: 30.sp,
+            ),
           ),
         ],
       ),
