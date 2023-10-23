@@ -228,9 +228,13 @@ class StreaksProvider extends ChangeNotifier {
       leaderboardChampionStatus =
           box.get("leaderboardChampionStatus", defaultValue: false);
 
-  bool ultimateAchieverStatus = box.get("ultimateAchieverStatus", defaultValue: false);
+  bool ultimateAchieverStatus =
+      box.get("ultimateAchieverStatus", defaultValue: false);
 
   void updateStreaksData() {
+    streaks = [
+      
+    ];
     box.put("streaks", streaks);
     notifyListeners();
   }
