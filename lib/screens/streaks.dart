@@ -3,6 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/models/game_background.dart';
 import 'package:trivia/providers/streaks.dart';
+import 'package:velocity_x/velocity_x.dart';
 
 class StreaksScreeen extends StatefulWidget {
   const StreaksScreeen({super.key});
@@ -107,8 +108,8 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                 subtitle: Text(
                                   item["subtitle"],
                                   style: TextStyle(
-                                    color: AppColor.,
-                                    fontSize: 18.sp,
+                                    color: Vx.gray300,
+                                    fontSize: 12.sp,
                                   ),
                                 ),
                                 trailing: Column(
