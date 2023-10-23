@@ -220,7 +220,7 @@ class _MenuScreenState extends State<MenuScreen>
                           decoration: BoxDecoration(
                             boxShadow: [
                               BoxShadow(
-                                color: AppColor.yellow.withOpacity(.5),
+                                color: AppColor.yellow.withOpacity(.3),
                                 blurRadius: 20.sp,
                                 offset: const Offset(0, 5),
                               ),
