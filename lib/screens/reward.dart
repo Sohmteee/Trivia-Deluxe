@@ -56,10 +56,14 @@ class _RewardScreenState extends State<RewardScreen> {
     score = moneyProvider.reward;
     moneyProvider.resetReward();
 
-
     final streaksProvider =
         Provider.of<StreaksProvider>(context, listen: false);
-      if (streaksProvider)
+    if (streaksProvider.count == 3) {
+      streaksProvider.updateLevelStreak(true);
+    } else {
+      streaksProvider.updateLevelStreak(false);
+    }
+    streaksProvider.count = 0;
 
     // score = 18;
 
