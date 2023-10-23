@@ -213,8 +213,18 @@ class _MenuScreenState extends State<MenuScreen>
                         ),
                     const Spacer(flex: 2),
                     Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
+                      mainAxisAlignment: MainAxisAlignment.spaceAround,
                       children: [
+                        SizedBox(
+                          height: 50.w,
+                          child: ZoomTapAnimation(
+                            onTap: () {
+                              playTap(context);
+                              Navigator.pushNamed(context, "/leaderboard");
+                            },
+                            child: Image.asset("assets/images/leaderboard.png"),
+                          ),
+                        ),
                         Stack(
                           alignment: Alignment.center,
                           children: [
@@ -222,8 +232,8 @@ class _MenuScreenState extends State<MenuScreen>
                               turns: rotationAnimation,
                               child: CustomPaint(
                                 painter: CircleBorderPainter(
-                                  color:
-                                      HexColor("#FF8BA2").withOpacity(1), //#FF9FB9
+                                  color: HexColor("#FF8BA2")
+                                      .withOpacity(1), //#FF9FB9
                                   radius: 46.sp,
                                   angle: 1.8 * pi,
                                   strokeWidth: 2.sp,
@@ -278,6 +288,16 @@ class _MenuScreenState extends State<MenuScreen>
                                   end: 1,
                                 ),
                           ],
+                        ),
+                        SizedBox(
+                          height: 50.w,
+                          child: ZoomTapAnimation(
+                            onTap: () {
+                              playTap(context);
+                              Navigator.pushNamed(context, "/streak");
+                            },
+                            child: Image.asset("assets/images/streak.png"),
+                          ),
                         ),
                       ],
                     ),
