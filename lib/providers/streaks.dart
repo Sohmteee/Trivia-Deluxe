@@ -122,13 +122,14 @@ Map streaks = {
     },
   },
   "Leaderboard Streaks": {
-    "image":"",
-    "streaks": 
+    "image": "",
+    "streaks": {
       {
-      "Rank top 10 on the leaderboard": {
-        "status": false,
-        "progress": 0,
-        "limit": 1,
+        "Rank top 10 on the leaderboard": {
+          "status": false,
+          "progress": 0,
+          "limit": 1,
+        },
       }
     },
   }
