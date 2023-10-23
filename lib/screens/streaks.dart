@@ -63,10 +63,10 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
               },
               child: Container(
                 padding:
-                    EdgeInsets.symmetric(horizontal: 20.sp, vertical: 10.sp),
+                    EdgeInsets.symmetric(horizontal: 25.sp, vertical: 15.sp),
                 decoration: BoxDecoration(
                   color: Colors.white,
-                  borderRadius: BorderRadius.circular(20.r),
+                  borderRadius: BorderRadius.circular(100.r),
                 ),
                 child: Text(
                   "Yes, I'll create one now",
@@ -84,10 +84,10 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
               },
               child: Container(
                 padding:
-                    EdgeInsets.symmetric(horizontal: 20.sp, vertical: 10.sp),
+                    EdgeInsets.symmetric(horizontal: 25.sp, vertical: 15.sp),
                 decoration: BoxDecoration(
                   color: Colors.white,
-                  borderRadius: BorderRadius.circular(20.r),
+                  borderRadius: BorderRadius.circular(100.r),
                 ),
                 child: Text(
                   "No, I'll do it later",
