@@ -137,7 +137,7 @@ Map streaks = {
     },
   },
   "Leaderboard Streaks": {
-    "image": "",
+    "image": "assets/images/rank.png",
     "streaks": {
       {
         "Achiever": {
