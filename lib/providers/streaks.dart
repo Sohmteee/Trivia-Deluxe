@@ -5,14 +5,16 @@ Map streaks = {
     "image": "",
     "streaks": [
       {
-        "Complete 5 levels without failing": {
+        "Steady Progress": {
+          "subtitle": "Complete 5 levels without failing",
           "status": false,
           "progress": 0,
           "limit": 5,
         }
       },
       {
-        "Complete 10 levels without failing": {
+        "Leveling Up: {
+          "subtitle": "Complete 10 levels without failing",
           "status": false,
           "progress": 0,
           "limit": 10,
@@ -20,6 +22,7 @@ Map streaks = {
       },
       {
         "Complete 20 levels without failing": {
+          "subtitle": "",
           "status": false,
           "progress": 0,
           "limit": 20,
@@ -27,6 +30,7 @@ Map streaks = {
       },
       {
         "Complete 50 levels without failing": {
+          "subtitle": "",
           "status": false,
           "progress": 0,
           "limit": 50,
@@ -34,6 +38,7 @@ Map streaks = {
       },
       {
         "Complete 100 levels without failing": {
+          "subtitle": "",
           "status": false,
           "progress": 0,
           "limit": 100,
@@ -46,6 +51,7 @@ Map streaks = {
     "streaks": [
       {
         "Earn 50 coins": {
+          "subtitle": "",
           "status": false,
           "progress": 0,
           "limit": 50,
@@ -53,6 +59,7 @@ Map streaks = {
       },
       {
         "Earn 100 coins": {
+          "subtitle": "",
           "status": false,
           "progress": 0,
           "limit": 100,
@@ -60,6 +67,7 @@ Map streaks = {
       },
       {
         "Earn 200 coins": {
+          "subtitle": "",
           "status": false,
           "progress": 0,
           "limit": 200,
@@ -67,6 +75,7 @@ Map streaks = {
       },
       {
         "Earn 500 coins": {
+          "subtitle": "",
           "status": false,
           "progress": 0,
           "limit": 500,
@@ -74,6 +83,7 @@ Map streaks = {
       },
       {
         "Earn 1000 coins": {
+          "subtitle": "",
           "status": false,
           "progress": 0,
           "limit": 1000,
@@ -86,6 +96,7 @@ Map streaks = {
     "streaks": {
       {
         "Answer 5 questions correctly in a row": {
+          "subtitle": "",
           "status": false,
           "progress": 0,
           "limit": 5,
@@ -93,6 +104,7 @@ Map streaks = {
       },
       {
         "Answer 10 questions correctly in a row": {
+          "subtitle": "",
           "status": false,
           "progress": 0,
           "limit": 10,
@@ -100,6 +112,7 @@ Map streaks = {
       },
       {
         "Answer 20 questions correctly in a row": {
+          "subtitle": "",
           "status": false,
           "progress": 0,
           "limit": 20,
@@ -107,6 +120,7 @@ Map streaks = {
       },
       {
         "Answer 50 questions correctly in a row": {
+          "subtitle": "",
           "status": false,
           "progress": 0,
           "limit": 50,
@@ -114,6 +128,7 @@ Map streaks = {
       },
       {
         "Answer 100 questions correctly in a row": {
+          "subtitle": "",
           "status": false,
           "progress": 0,
           "limit": 100,
@@ -126,6 +141,7 @@ Map streaks = {
     "streaks": {
       {
         "Rank top 10 on the leaderboard": {
+          "subtitle": "",
           "status": false,
           "progress": 0,
           "limit": 1,
@@ -133,6 +149,7 @@ Map streaks = {
       },
       {
         "Rank top 5 on the leaderboard": {
+          "subtitle": "",
           "status": false,
           "progress": 0,
           "limit": 1,
@@ -140,6 +157,7 @@ Map streaks = {
       },
       {
         "Rank top 3 on the leaderboard": {
+          "subtitle": "",
           "status": false,
           "progress": 0,
           "limit": 1,
@@ -147,6 +165,7 @@ Map streaks = {
       },
       {
         "Rank first on the leaderboard": {
+          "subtitle": "",
           "status": false,
           "progress": 0,
           "limit": 1,
@@ -159,6 +178,7 @@ Map streaks = {
     "streaks": {
       {
         "Finish all streaks": {
+          "subtitle": "",
           "status": false,
           "progress": 0,
           "limit": 19,
