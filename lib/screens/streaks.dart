@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/models/game_background.dart';
 import 'package:trivia/providers/streaks.dart';
@@ -53,8 +54,8 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
   @override
   Widget build(BuildContext context) {
     return GameBackground(
-      body: Builder(
-        builder: (context) {
+      body: Consumer<StreaksProvider>(
+        builder: (context,streaksProvider, _) {
           return Padding(
             padding: EdgeInsets.symmetric(horizontal: 40.w, vertical: 40.h),
             child: Column(
