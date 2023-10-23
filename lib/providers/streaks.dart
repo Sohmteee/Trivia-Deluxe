@@ -482,7 +482,6 @@ class StreaksProvider extends ChangeNotifier {
     ultimateStreak = totalStreaksFinished;
     box.put("ultimateStreak", ultimateStreak);
 
-    updateUltimateStreak();
     updateStreaksData();
     notifyListeners();
   }
