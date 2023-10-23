@@ -92,7 +92,7 @@ Map streaks = {
     ],
   },
   "Trivia Streaks": {
-    "image": "",
+    "image": "assets/images/answer.png",
     "streaks": {
       {
         "Trivia Beginner": {
