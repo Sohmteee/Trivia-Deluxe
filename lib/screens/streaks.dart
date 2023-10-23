@@ -78,7 +78,13 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
               ],
             ),
             ListTile(
-              title: ,
+              title: Text(
+                "Complete 5 levels without failing",
+                style: TextStyle(
+                  color: AppColor.white,
+                  fontSize: 18.sp,
+                ),
+              ),
             ),
             const Spacer(),
           ],
