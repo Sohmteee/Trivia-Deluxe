@@ -100,7 +100,7 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                         children: streakList
                             .map(
                               (item) => ListTile(
-                                minLeadingWidth: 10.w,
+                                minLeadingWidth: 20.w,
                                 leading: !item["status"]
                                     ? Image.asset("assets/images/cleared.png",
                                         width: 30.w)
