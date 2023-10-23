@@ -400,6 +400,24 @@ class StreaksProvider extends ChangeNotifier {
     notifyListeners();
   }
 
+  void updateLevelStreak(bool correct) {
+    if (correct) {
+      triviaStreak += 1;
+      box.put("triviaStreak", triviaStreak);
+
+      if (levelStreak > permanentLevelStreak &&
+          permanentLevelStreakList.contains(levelStreak)) {
+        permanentLevelStreak = levelStreak;
+        box.put("permanentLevelStreak", permanentLevelStreak);
+      }
+    } else {
+      triviaStreak = 0;
+      box.put("triviaStreak", triviaStreak);
+    }
+
+    notifyListeners();
+  }
+
   void updateCoinStreak(int coins) {
     coinStreak = coins;
     box.put("coinStreak", coinStreak);
