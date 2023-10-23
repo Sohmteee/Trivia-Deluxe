@@ -101,10 +101,10 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                             .map(
                               (item) => ListTile(
                                 minLeadingWidth: 20.w,
-                                leading: !item["status"]
+                                leading: item["status"]
                                     ? Image.asset("assets/images/cleared.png",
-                                        width: 30.w)
-                                    : SizedBox(width: 30.w),
+                                        width: 25.w)
+                                    : SizedBox(width: 25.w),
                                 title: Text(
                                   item["title"],
                                   style: TextStyle(
