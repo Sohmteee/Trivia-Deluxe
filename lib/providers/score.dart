@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:trivia/data/box.dart';
 
 class ScoreProvider extends ChangeNotifier {
-  int _score = box.get("score") ?? 0;
+  int _score = box.get("score", defaultValue:0);
   int get score => _score;
 
   void increaseScore(int newScore) {

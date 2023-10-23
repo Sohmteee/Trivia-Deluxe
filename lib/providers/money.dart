@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:trivia/data/box.dart';
 
 class MoneyProvider extends ChangeNotifier {
-  int _cash = box.get("cash") ?? 5000;
-  int _previousCoins = box.get("previousCoins") ?? 0;
-  int _coins = box.get("coins") ?? 50;
+  int _cash = box.get("cash", defaultValue:5000);
+  int _previousCoins = box.get("previousCoins", defaultValue:0);
+  int _coins = box.get("coins", defaultValue:50);
 
   int get cash => _cash;
   int get previousCoins => _previousCoins;
