@@ -464,16 +464,16 @@ class StreaksProvider extends ChangeNotifier {
 
     int totalStreaksFinished = 0;
 
-    
-    for (streak in streaks) {
-      for (subStreak in streak["streaks"]) {
-        if (subStreak["status"] == false) {
-          return;
+
+    for (var streak in streaks) {
+      for (var subStreak in streak["streaks"]) {
+        if (subStreak["status"] == true) {
+          totalStreaksFinished += 1;
         }
       }
     }
 
-    ultimateStreak += 1;
+    ultimateStreak = tot;
     box.put("ultimateStreak", ultimateStreak);
 
     updateStreaksData();
