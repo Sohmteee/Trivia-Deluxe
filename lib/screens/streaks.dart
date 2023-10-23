@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/models/game_background.dart';
-import 'package:trivia/providers/streaks.dart';
 
 class StreaksScreeen extends StatefulWidget {
   const StreaksScreeen({super.key});
@@ -69,7 +68,7 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
             SizedBox(height: 40.h),
             Expanded(
               child: SingleChildScrollView(
-                child: streaks Column(
+                child: Column(
                   children: [
                     Row(
                       children: [
