@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-Map streaks = {
-  "Level Streaks": {
+List streaks = [
+  {"Level Streaks": {
     "image": "assets/images/level.png",
     "streaks": [
       {
@@ -45,8 +45,8 @@ Map streaks = {
         }
       },
     ],
-  },
-  "Coin Streaks": {
+  },},
+  {"Coin Streaks": {
     "image": "assets/images/coins.png",
     "streaks": [
       {
@@ -90,7 +90,7 @@ Map streaks = {
         }
       },
     ],
-  },
+  },},
   "Trivia Streaks": {
     "image": "assets/images/answer.png",
     "streaks": {
@@ -186,6 +186,6 @@ Map streaks = {
       },
     }
   }
-};
+];
 
 class StreaksProvider extends ChangeNotifier {}
