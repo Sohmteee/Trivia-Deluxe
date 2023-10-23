@@ -7,6 +7,8 @@ class StreaksProvider extends ChangeNotifier {
   final permanentTriviaStreakList = [5, 10, 20, 50, 100];
   final permanentLeaderboardStreakList = [0, 10, 5, 3, 1];
 
+  int count = 0;
+
   List<Map<String, dynamic>> streaks = box.get(
     "streaks",
     defaultValue: [
