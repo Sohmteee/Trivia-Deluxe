@@ -157,12 +157,11 @@ Map streaks = {
   "Ultimate Achievement": {
     "image": "",
     "streaks": {
-      
       {
         "Finish all streaks": {
           "status": false,
           "progress": 0,
-          "limit": ,
+          "limit": 19,
         },
       },
     }
