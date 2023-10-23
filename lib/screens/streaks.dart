@@ -73,7 +73,7 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
               Expanded(
                 child: ListView.separated(
                   itemCount: streaksProvider.streaks.length,
-                  padding: EdgeInsets.only(top: 20.h),
+                  padding: EdgeInsets.only(top: 10.h),
                   physics: const BouncingScrollPhysics(),
                   itemBuilder: (BuildContext context, int index) {
                     String streakTitle =
