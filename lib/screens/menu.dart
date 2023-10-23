@@ -212,68 +212,73 @@ class _MenuScreenState extends State<MenuScreen>
                           duration: 1.seconds,
                         ),
                     const Spacer(flex: 2),
-                    Stack(
-                      alignment: Alignment.center,
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        RotationTransition(
-                          turns: rotationAnimation,
-                          child: CustomPaint(
-                            painter: CircleBorderPainter(
-                              color:
-                                  HexColor("#FF8BA2").withOpacity(1), //#FF9FB9
-                              radius: 46.sp,
-                              angle: 1.8 * pi,
-                              strokeWidth: 2.sp,
+                        Stack(
+                          alignment: Alignment.center,
+                          children: [
+                            RotationTransition(
+                              turns: rotationAnimation,
+                              child: CustomPaint(
+                                painter: CircleBorderPainter(
+                                  color:
+                                      HexColor("#FF8BA2").withOpacity(1), //#FF9FB9
+                                  radius: 46.sp,
+                                  angle: 1.8 * pi,
+                                  strokeWidth: 2.sp,
+                                ),
+                              ),
                             ),
-                          ),
+                            RotationTransition(
+                              turns: reverseRotationAnimation,
+                              child: CustomPaint(
+                                painter: CircleBorderPainter(
+                                  color: const Color.fromARGB(255, 255, 153, 0)
+                                      .withOpacity(.9),
+                                  radius: 51.sp,
+                                  angle: -1.5 * pi,
+                                  strokeWidth: 6.sp,
+                                ),
+                              ),
+                            ),
+                            SizedBox(
+                              height: 70.w,
+                              child: ZoomTapAnimation(
+                                onTap: () {
+                                  playTap(context);
+                                  Navigator.pushNamed(context, "/select");
+                                },
+                                child: Image.asset("assets/images/play.png"),
+                              ),
+                            )
+                                .animate(
+                                  onPlay: (controller) => controller.repeat(),
+                                )
+                                .then()
+                                .scaleXY(
+                                  curve: Curves.easeOutSine,
+                                  delay: 2.seconds,
+                                  duration: .2.seconds,
+                                  begin: 1,
+                                  end: .8,
+                                )
+                                .then()
+                                .scaleXY(
+                                  curve: Curves.easeOutSine,
+                                  duration: .4.seconds,
+                                  begin: .8,
+                                  end: 1.2,
+                                )
+                                .then()
+                                .scaleXY(
+                                  curve: Curves.bounceOut,
+                                  duration: .4.seconds,
+                                  begin: 1.2,
+                                  end: 1,
+                                ),
+                          ],
                         ),
-                        RotationTransition(
-                          turns: reverseRotationAnimation,
-                          child: CustomPaint(
-                            painter: CircleBorderPainter(
-                              color: const Color.fromARGB(255, 255, 153, 0)
-                                  .withOpacity(.9),
-                              radius: 51.sp,
-                              angle: -1.5 * pi,
-                              strokeWidth: 6.sp,
-                            ),
-                          ),
-                        ),
-                        SizedBox(
-                          height: 70.w,
-                          child: ZoomTapAnimation(
-                            onTap: () {
-                              playTap(context);
-                              Navigator.pushNamed(context, "/select");
-                            },
-                            child: Image.asset("assets/images/play.png"),
-                          ),
-                        )
-                            .animate(
-                              onPlay: (controller) => controller.repeat(),
-                            )
-                            .then()
-                            .scaleXY(
-                              curve: Curves.easeOutSine,
-                              delay: 2.seconds,
-                              duration: .2.seconds,
-                              begin: 1,
-                              end: .8,
-                            )
-                            .then()
-                            .scaleXY(
-                              curve: Curves.easeOutSine,
-                              duration: .4.seconds,
-                              begin: .8,
-                              end: 1.2,
-                            )
-                            .then()
-                            .scaleXY(
-                              curve: Curves.bounceOut,
-                              duration: .4.seconds,
-                              begin: 1.2,
-                              end: 1,
-                            ),
                       ],
                     ),
                     const Spacer(),
