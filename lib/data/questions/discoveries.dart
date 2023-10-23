@@ -68,21 +68,6 @@ Map<String, dynamic> discoveriesData = {
     },
     {
       "question":
-          "Which ancient people were really good at math and came up with the idea of zero as a number?",
-      "dialog": {
-        "title": "The Maya",
-        "content":
-            "The Maya people from a long time ago were great at math and thought of zero as a number."
-      },
-      "options": [
-        {"text": "The Egyptians", "value": false, "color": "yellow"},
-        {"text": "The Greeks", "value": false, "color": "yellow"},
-        {"text": "The Romans", "value": false, "color": "yellow"},
-        {"text": "The Maya", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
           "Who in history told us that the Earth goes around the Sun, and not the other way around?",
       "dialog": {
         "title": "Nicolaus Copernicus",
@@ -290,36 +275,6 @@ Map<String, dynamic> discoveriesData = {
     },
     {
       "question":
-          "Which famous scientist came up with a special equation, E=mc\u00c2\u00b2, and told us about how things work in space?",
-      "dialog": {
-        "title": "Albert Einstein",
-        "content":
-            "Albert Einstein came up with an important equation, E=mc\u00c2\u00b2, and taught us many things about space and how it works."
-      },
-      "options": [
-        {"text": "Niels Bohr", "value": false, "color": "yellow"},
-        {"text": "Werner Heisenberg", "value": false, "color": "yellow"},
-        {"text": "Max Planck", "value": false, "color": "yellow"},
-        {"text": "Albert Einstein", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "What was invented by Alexander Graham Bell and allows us to talk to people far away?",
-      "dialog": {
-        "title": "The telephone",
-        "content":
-            "Alexander Graham Bell invented the telephone, which lets us talk to people who are not close by."
-      },
-      "options": [
-        {"text": "The television", "value": false, "color": "yellow"},
-        {"text": "The computer", "value": false, "color": "yellow"},
-        {"text": "The camera", "value": false, "color": "yellow"},
-        {"text": "The telephone", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
           "What do we call the first humans to walk on the moon during the Apollo 11 mission in 1969?",
       "dialog": {
         "title": "Astronauts",
@@ -410,21 +365,6 @@ Map<String, dynamic> discoveriesData = {
     },
     {
       "question":
-          "What early American helped invent electricity and flew a kite in a thunderstorm to learn about lightning?",
-      "dialog": {
-        "title": "Benjamin Franklin",
-        "content":
-            "Benjamin Franklin was an early American who helped invent electricity and learned about lightning by flying a kite."
-      },
-      "options": [
-        {"text": "Thomas Edison", "value": false, "color": "yellow"},
-        {"text": "Alexander Graham Bell", "value": false, "color": "yellow"},
-        {"text": "George Washington", "value": false, "color": "yellow"},
-        {"text": "Benjamin Franklin", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
           "Which Nigerian physician is known for the discovery of the sickle cell gene and its association with sickle cell anemia?",
       "dialog": {
         "title": "Professor Olatunji Aboaba",
@@ -470,21 +410,6 @@ Map<String, dynamic> discoveriesData = {
     },
     {
       "question":
-          "What American inventor and scientist developed many useful things like the light bulb and the phonograph?",
-      "dialog": {
-        "title": "Thomas Edison",
-        "content":
-            "Thomas Edison was an American inventor who made helpful things like the light bulb and the phonograph."
-      },
-      "options": [
-        {"text": "Benjamin Franklin", "value": false, "color": "yellow"},
-        {"text": "Alexander Graham Bell", "value": false, "color": "yellow"},
-        {"text": "George Washington", "value": false, "color": "yellow"},
-        {"text": "Thomas Edison", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
           "What powerful telescope, named after a famous astronomer, was launched into space to explore the universe?",
       "dialog": {
         "title": "The Hubble Space Telescope",
@@ -508,21 +433,6 @@ Map<String, dynamic> discoveriesData = {
           "color": "yellow"
         },
         {"text": "The Hubble Space Telescope", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "Who was the famous British naturalist who came up with the theory of evolution and wrote On the Origin of Species?",
-      "dialog": {
-        "title": "Charles Darwin",
-        "content":
-            "Charles Darwin was the British naturalist who thought of the theory of evolution and wrote a book about it called On the Origin of Species."
-      },
-      "options": [
-        {"text": "Gregor Mendel", "value": false, "color": "yellow"},
-        {"text": "Alfred Russel Wallace", "value": false, "color": "yellow"},
-        {"text": "Richard Dawkins", "value": false, "color": "yellow"},
-        {"text": "Charles Darwin", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -553,21 +463,6 @@ Map<String, dynamic> discoveriesData = {
         {"text": "Rome", "value": false, "color": "yellow"},
         {"text": "Cairo", "value": false, "color": "yellow"},
         {"text": "Pompeii", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "What scientist and inventor, known for his genius, created amazing things like the electric coil and the radio?",
-      "dialog": {
-        "title": "Nikola Tesla",
-        "content":
-            "Nikola Tesla was a scientist and inventor known for his genius and for creating things like the electric coil and the radio."
-      },
-      "options": [
-        {"text": "Thomas Edison", "value": false, "color": "yellow"},
-        {"text": "Benjamin Franklin", "value": false, "color": "yellow"},
-        {"text": "Alexander Graham Bell", "value": false, "color": "yellow"},
-        {"text": "Nikola Tesla", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -632,21 +527,6 @@ Map<String, dynamic> discoveriesData = {
     },
     {
       "question":
-          "What breakthrough invention, made by Johannes Gutenberg in the 15th century, revolutionized the sharing of knowledge?",
-      "dialog": {
-        "title": "Printing Press",
-        "content":
-            "Johannes Gutenberg's Printing Press transformed the sharing of knowledge by making books more accessible."
-      },
-      "options": [
-        {"text": "Telescope", "value": false, "color": "yellow"},
-        {"text": "Telephone", "value": false, "color": "yellow"},
-        {"text": "Steam Engine", "value": false, "color": "yellow"},
-        {"text": "Printing Press", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
           "Who was the first person to journey to the South Pole, a chilly place at the bottom of the Earth?",
       "dialog": {
         "title": "Roald Amundsen",
@@ -673,21 +553,6 @@ Map<String, dynamic> discoveriesData = {
         {"text": "British Museum", "value": false, "color": "yellow"},
         {"text": "Louvre Museum", "value": false, "color": "yellow"},
         {"text": "Library of Alexandria", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "What invention, credited to Alexander Graham Bell, lets us communicate with others over long distances?",
-      "dialog": {
-        "title": "Telephone",
-        "content":
-            "Alexander Graham Bell invented the telephone, enabling long-distance communication."
-      },
-      "options": [
-        {"text": "Television", "value": false, "color": "yellow"},
-        {"text": "Computer", "value": false, "color": "yellow"},
-        {"text": "Camera", "value": false, "color": "yellow"},
-        {"text": "Telephone", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -782,21 +647,6 @@ Map<String, dynamic> discoveriesData = {
     },
     {
       "question":
-          "Who is the Nigerian inventor known for creating the \"wazobia\" car that can run on multiple fuels, including gasoline and natural gas?",
-      "dialog": {
-        "title": "Jelani Aliyu",
-        "content":
-            "Jelani Aliyu is known for creating the \"wazobia\" car that can run on multiple fuels."
-      },
-      "options": [
-        {"text": "Wale Adeyemo", "value": false, "color": "yellow"},
-        {"text": "Ben Enwonwu", "value": false, "color": "yellow"},
-        {"text": "Philip Emeagwali", "value": false, "color": "yellow"},
-        {"text": "Jelani Aliyu", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
           "Which legendary lost city is said to be hidden in the Honduran rainforest and was discovered using LiDAR technology in recent years?",
       "dialog": {
         "title": "Ciudad Blanca",
@@ -838,21 +688,6 @@ Map<String, dynamic> discoveriesData = {
         {"text": "Galileo Galilei", "value": false, "color": "yellow"},
         {"text": "Nicolaus Copernicus", "value": false, "color": "yellow"},
         {"text": "Urbain Le Verrier", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "Who was the famous Renaissance artist and inventor known for his detailed anatomical drawings and the concept of a flying machine?",
-      "dialog": {
-        "title": "Leonardo da Vinci",
-        "content":
-            "Leonardo da Vinci, a Renaissance artist and inventor, is known for his anatomical drawings and the idea of a flying machine."
-      },
-      "options": [
-        {"text": "Michelangelo", "value": false, "color": "yellow"},
-        {"text": "Raphael", "value": false, "color": "yellow"},
-        {"text": "Donatello", "value": false, "color": "yellow"},
-        {"text": "Leonardo da Vinci", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1067,21 +902,6 @@ Map<String, dynamic> discoveriesData = {
     },
     {
       "question":
-          "What Dutch scientist is famous for inventing the first practical microscope and observing microorganisms for the first time?",
-      "dialog": {
-        "title": "Antonie van Leeuwenhoek",
-        "content":
-            "Antonie van Leeuwenhoek, the Dutch scientist, is famous for inventing the first practical microscope and observing microorganisms."
-      },
-      "options": [
-        {"text": "Robert Hooke", "value": false, "color": "yellow"},
-        {"text": "Louis Pasteur", "value": false, "color": "yellow"},
-        {"text": "Marcello Malpighi", "value": false, "color": "yellow"},
-        {"text": "Antonie van Leeuwenhoek", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
           "Who discovered and proved the existence of electromagnetic waves, laying the foundation for modern wireless communication?",
       "dialog": {
         "title": "Heinrich Hertz",
@@ -1093,6 +913,21 @@ Map<String, dynamic> discoveriesData = {
         {"text": "James Clerk Maxwell", "value": false, "color": "yellow"},
         {"text": "Samuel Morse", "value": false, "color": "yellow"},
         {"text": "Heinrich Hertz", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "In 1947, which South African physician performed the world's first successful human heart transplant?",
+      "dialog": {
+        "title": "Christiaan Barnard",
+        "content":
+            "Christiaan Barnard, a South African physician, performed the first successful human heart transplant in 1967."
+      },
+      "options": [
+        {"text": "Nelson Mandela", "value": false, "color": "yellow"},
+        {"text": "Desmond Tutu", "value": false, "color": "yellow"},
+        {"text": "Thabo Mbeki", "value": false, "color": "yellow"},
+        {"text": "Christiaan Barnard", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1112,6 +947,21 @@ Map<String, dynamic> discoveriesData = {
     },
     {
       "question":
+          "Discovered in the 1970s, what famous archaeological site in Ethiopia is often referred to as the \"Cradle of Humankind\"?",
+      "dialog": {
+        "title": "Sterkfontein Caves",
+        "content":
+            "The Sterkfontein Caves in South Africa are often referred to as the \"Cradle of Humankind\" and have yielded many hominid fossils."
+      },
+      "options": [
+        {"text": "Mount Kilimanjaro", "value": false, "color": "yellow"},
+        {"text": "Victoria Falls", "value": false, "color": "yellow"},
+        {"text": "Serengeti Plains", "value": false, "color": "yellow"},
+        {"text": "Sterkfontein Caves", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
           "What French scientist, known as the father of modern chemistry, is famous for his pioneering work on elements and chemical compounds?",
       "dialog": {
         "title": "Antoine Lavoisier",
@@ -1127,17 +977,17 @@ Map<String, dynamic> discoveriesData = {
     },
     {
       "question":
-          "What groundbreaking invention, credited to Samuel Morse, revolutionized long-distance communication using coded electrical signals?",
+          "What ancient Egyptian artifact, discovered in the tomb of Tutankhamun, is known as the \"curse of the pharaohs\"?",
       "dialog": {
-        "title": "Telegraph",
+        "title": "King Tut's Mask",
         "content":
-            "The telegraph, credited to Samuel Morse, revolutionized long-distance communication using coded electrical signals."
+            "King Tutankhamun's burial mask, discovered in his tomb, is associated with the \"curse of the pharaohs.\""
       },
       "options": [
-        {"text": "Telephone", "value": false, "color": "yellow"},
-        {"text": "Radio", "value": false, "color": "yellow"},
-        {"text": "Internet", "value": false, "color": "yellow"},
-        {"text": "Telegraph", "value": true, "color": "yellow"}
+        {"text": "Rosetta Stone", "value": false, "color": "yellow"},
+        {"text": "Cleopatra's Needle", "value": false, "color": "yellow"},
+        {"text": "Book of the Dead", "value": false, "color": "yellow"},
+        {"text": "King Tut's Mask", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1157,17 +1007,17 @@ Map<String, dynamic> discoveriesData = {
     },
     {
       "question":
-          "What Swedish chemist invented dynamite and established the Nobel Prizes, including the Nobel Peace Prize?",
+          "In 1974, paleoanthropologist Donald Johanson discovered the fossilized remains of an early hominid in Ethiopia. What was the hominid named?",
       "dialog": {
-        "title": "Alfred Nobel",
+        "title": "Lucy",
         "content":
-            "Alfred Nobel, the Swedish chemist, invented dynamite and established the Nobel Prizes, including the Nobel Peace Prize."
+            "The fossilized remains discovered by Donald Johanson in Ethiopia were named \"Lucy.\""
       },
       "options": [
-        {"text": "Marie Curie", "value": false, "color": "yellow"},
-        {"text": "Nikola Tesla", "value": false, "color": "yellow"},
-        {"text": "Thomas Edison", "value": false, "color": "yellow"},
-        {"text": "Alfred Nobel", "value": true, "color": "yellow"}
+        {"text": "Ardi", "value": false, "color": "yellow"},
+        {"text": "Homo habilis", "value": false, "color": "yellow"},
+        {"text": "Taung Child", "value": false, "color": "yellow"},
+        {"text": "Lucy", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1187,17 +1037,17 @@ Map<String, dynamic> discoveriesData = {
     },
     {
       "question":
-          "What internet fraud technique that involves impersonating someone online to gain access to personal information did Segun Adebutu invent in Nigeria in the 1990s?",
+          "What natural wonder, located in Zambia and Zimbabwe, is the largest waterfall in the world by total area and is often called \"The Smoke That Thunders\"?",
       "dialog": {
-        "title": "419 scam",
+        "title": "Victoria Falls",
         "content":
-            "Segun Adebutu helped originate the advance fee 419 scam in Nigeria."
+            "Victoria Falls, located in Zambia and Zimbabwe, is often called \"The Smoke That Thunders\" and is the largest waterfall by total area."
       },
       "options": [
-        {"text": "Spear phishing", "value": false, "color": "yellow"},
-        {"text": "Pretexting", "value": false, "color": "yellow"},
-        {"text": "Pharming", "value": false, "color": "yellow"},
-        {"text": "419 scam", "value": true, "color": "yellow"}
+        {"text": "Iguazu Falls", "value": false, "color": "yellow"},
+        {"text": "Niagara Falls", "value": false, "color": "yellow"},
+        {"text": "Angel Falls", "value": false, "color": "yellow"},
+        {"text": "Victoria Falls", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1217,6 +1067,21 @@ Map<String, dynamic> discoveriesData = {
     },
     {
       "question":
+          "What ancient manuscript, discovered in the city of Timbuktu, Mali, contains valuable historical and scientific texts?",
+      "dialog": {
+        "title": "Timbuktu Manuscripts",
+        "content":
+            "The Timbuktu Manuscripts, discovered in Timbuktu, Mali, contain valuable historical and scientific texts."
+      },
+      "options": [
+        {"text": "Dead Sea Scrolls", "value": false, "color": "yellow"},
+        {"text": "Voynich Manuscript", "value": false, "color": "yellow"},
+        {"text": "Rosetta Stone", "value": false, "color": "yellow"},
+        {"text": "Timbuktu Manuscripts", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
           "What ancient civilization, famous for its colossal stone heads, existed in Mesoamerica and is known for creating a unique calendar system?",
       "dialog": {
         "title": "Olmec",
@@ -1228,6 +1093,21 @@ Map<String, dynamic> discoveriesData = {
         {"text": "Maya", "value": false, "color": "yellow"},
         {"text": "Aztec", "value": false, "color": "yellow"},
         {"text": "Olmec", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "What Egyptian archaeological site, discovered in 1922 by Howard Carter, contained the nearly intact tomb of Tutankhamun?",
+      "dialog": {
+        "title": "Valley of the Kings",
+        "content":
+            "The Valley of the Kings, discovered by Howard Carter, contained the nearly intact tomb of Tutankhamun."
+      },
+      "options": [
+        {"text": "Great Pyramid", "value": false, "color": "yellow"},
+        {"text": "Karnak Temple", "value": false, "color": "yellow"},
+        {"text": "Sphinx", "value": false, "color": "yellow"},
+        {"text": "Valley of the Kings", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1247,32 +1127,17 @@ Map<String, dynamic> discoveriesData = {
     },
     {
       "question":
-          "What invention by Guglielmo Marconi revolutionized long-distance communication using radio waves, leading to the development of radio?",
+          "What ancient kingdom, discovered in present-day Sudan, is known for its pyramids, including the Nubian pyramids?",
       "dialog": {
-        "title": "Wireless Telegraph",
+        "title": "Kingdom of Kush",
         "content":
-            "The invention by Guglielmo Marconi was the wireless telegraph, which revolutionized long-distance communication using radio waves, contributing to radio's development."
+            "The ancient Kingdom of Kush, discovered in present-day Sudan, is known for its pyramids, including the Nubian pyramids."
       },
       "options": [
-        {"text": "Telegraph", "value": false, "color": "yellow"},
-        {"text": "Telephone", "value": false, "color": "yellow"},
-        {"text": "Internet", "value": false, "color": "yellow"},
-        {"text": "Wireless Telegraph", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "What Scottish scientist and inventor improved the steam engine, which played a significant role in the Industrial Revolution?",
-      "dialog": {
-        "title": "James Watt",
-        "content":
-            "James Watt, the Scottish scientist and inventor, improved the steam engine, playing a crucial role in the Industrial Revolution."
-      },
-      "options": [
-        {"text": "George Stephenson", "value": false, "color": "yellow"},
-        {"text": "Thomas Newcomen", "value": false, "color": "yellow"},
-        {"text": "Richard Trevithick", "value": false, "color": "yellow"},
-        {"text": "James Watt", "value": true, "color": "yellow"}
+        {"text": "Axum Empire", "value": false, "color": "yellow"},
+        {"text": "Mali Empire", "value": false, "color": "yellow"},
+        {"text": "Carthaginian Empire", "value": false, "color": "yellow"},
+        {"text": "Kingdom of Kush", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1292,6 +1157,21 @@ Map<String, dynamic> discoveriesData = {
     },
     {
       "question":
+          "What ancient trade route, discovered by archaeologists, connected North Africa to West Africa and facilitated the exchange of goods and culture?",
+      "dialog": {
+        "title": "Trans-Saharan Trade Route",
+        "content":
+            "The Trans-Saharan Trade Route connected North Africa to West Africa and enabled the exchange of goods and culture."
+      },
+      "options": [
+        {"text": "Silk Road", "value": false, "color": "yellow"},
+        {"text": "Incense Route", "value": false, "color": "yellow"},
+        {"text": "Spice Route", "value": false, "color": "yellow"},
+        {"text": "Trans-Saharan Trade Route", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
           "In which North African city was the ancient Library of Alexandria, one of the most famous libraries of the ancient world, located?",
       "dialog": {
         "title": "Alexandria",
@@ -1303,6 +1183,21 @@ Map<String, dynamic> discoveriesData = {
         {"text": "Cairo", "value": false, "color": "yellow"},
         {"text": "Timbuktu", "value": false, "color": "yellow"},
         {"text": "Alexandria", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "In 1900, a German engineer discovered the ruins of the city of Great Zimbabwe. What distinctive stone structures can be found at this archaeological site?",
+      "dialog": {
+        "title": "Zimbabwe Birds",
+        "content":
+            "The archaeological site of Great Zimbabwe features distinctive stone structures, including the Zimbabwe Birds."
+      },
+      "options": [
+        {"text": "Stonehenge", "value": false, "color": "yellow"},
+        {"text": "Machu Picchu", "value": false, "color": "yellow"},
+        {"text": "Petra", "value": false, "color": "yellow"},
+        {"text": "Zimbabwe Birds", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1322,6 +1217,21 @@ Map<String, dynamic> discoveriesData = {
     },
     {
       "question":
+          "What is the name of the Ethiopian city known for its rock-hewn churches, including the Church of St. George, discovered by archaeologists?",
+      "dialog": {
+        "title": "Lalibela",
+        "content":
+            "The Ethiopian city of Lalibela is known for its rock-hewn churches, including the Church of St. George."
+      },
+      "options": [
+        {"text": "Axum", "value": false, "color": "yellow"},
+        {"text": "Gondar", "value": false, "color": "yellow"},
+        {"text": "Bahir Dar", "value": false, "color": "yellow"},
+        {"text": "Lalibela", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
           "Who is the South African paleoanthropologist and archaeologist known for the discovery of the fossil hominid species \"Australopithecus africanus\" at the Taung Child site?",
       "dialog": {
         "title": "Raymond Dart",
@@ -1333,6 +1243,21 @@ Map<String, dynamic> discoveriesData = {
         {"text": "Louis Leakey", "value": false, "color": "yellow"},
         {"text": "Richard Leakey", "value": false, "color": "yellow"},
         {"text": "Raymond Dart", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "What ancient Egyptian writing system, deciphered using the Rosetta Stone, allowed scholars to understand hieroglyphs?",
+      "dialog": {
+        "title": "Hieratic",
+        "content":
+            "The Rosetta Stone was instrumental in deciphering hieroglyphs, an ancient Egyptian writing system."
+      },
+      "options": [
+        {"text": "Cuneiform", "value": false, "color": "yellow"},
+        {"text": "Sanskrit", "value": false, "color": "yellow"},
+        {"text": "Linear B", "value": false, "color": "yellow"},
+        {"text": "Hieratic", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1352,6 +1277,21 @@ Map<String, dynamic> discoveriesData = {
     },
     {
       "question":
+          "In 2013, a team of researchers discovered a new species of human ancestor in a South African cave system. What was this species named?",
+      "dialog": {
+        "title": "Homo naledi",
+        "content":
+            "The new species of human ancestor discovered in South African caves was named \"Homo naledi.\""
+      },
+      "options": [
+        {"text": "Homo erectus", "value": false, "color": "yellow"},
+        {"text": "Homo habilis", "value": false, "color": "yellow"},
+        {"text": "Neanderthal", "value": false, "color": "yellow"},
+        {"text": "Homo naledi", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
           "What is the name of the famous theory that explains the movement of the Earth around the Sun?",
       "dialog": {
         "title": "Heliocentrism",
@@ -1363,6 +1303,21 @@ Map<String, dynamic> discoveriesData = {
         {"text": "Astronomism", "value": false, "color": "yellow"},
         {"text": "Universe Theory", "value": false, "color": "yellow"},
         {"text": "Heliocentrism", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "What ancient Egyptian city, discovered underwater off the coast of Egypt, is known for its well-preserved ruins and statues?",
+      "dialog": {
+        "title": "Heracleion",
+        "content":
+            "The ancient Egyptian city of Heracleion, discovered underwater off the coast of Egypt, is known for its well-preserved ruins and statues."
+      },
+      "options": [
+        {"text": "Thebes", "value": false, "color": "yellow"},
+        {"text": "Memphis", "value": false, "color": "yellow"},
+        {"text": "Alexandria", "value": false, "color": "yellow"},
+        {"text": "Heracleion", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1386,6 +1341,21 @@ Map<String, dynamic> discoveriesData = {
     },
     {
       "question":
+          "What archaeological site in Tunisia, discovered in the early 20th century, is known for its well-preserved Roman ruins, including an amphitheater?",
+      "dialog": {
+        "title": "Dougga",
+        "content":
+            "The archaeological site of Dougga in Tunisia is known for its well-preserved Roman ruins, including an amphitheater."
+      },
+      "options": [
+        {"text": "Carthage", "value": false, "color": "yellow"},
+        {"text": "Leptis Magna", "value": false, "color": "yellow"},
+        {"text": "Sabratha", "value": false, "color": "yellow"},
+        {"text": "Dougga", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
           "What is the name of the famous spacecraft that successfully landed humans on the moon in 1969?",
       "dialog": {
         "title": "Apollo 11",
@@ -1397,6 +1367,21 @@ Map<String, dynamic> discoveriesData = {
         {"text": "Mercury 8", "value": false, "color": "yellow"},
         {"text": "Skylab 1", "value": false, "color": "yellow"},
         {"text": "Apollo 11", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
+          "In 2017, researchers discovered a chamber in the Great Pyramid of Giza. What name is commonly given to this newly discovered chamber?",
+      "dialog": {
+        "title": "The Big Void",
+        "content":
+            "The newly discovered chamber in the Great Pyramid of Giza is commonly referred to as \"The Big Void.\""
+      },
+      "options": [
+        {"text": "The Hidden Passage", "value": false, "color": "yellow"},
+        {"text": "The Secret Chamber", "value": false, "color": "yellow"},
+        {"text": "The Royal Vault", "value": false, "color": "yellow"},
+        {"text": "The Big Void", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1416,6 +1401,21 @@ Map<String, dynamic> discoveriesData = {
     },
     {
       "question":
+          "What ancient library, discovered in modern-day Iraq, was one of the earliest known centers of learning and contained numerous clay tablets with cuneiform writing?",
+      "dialog": {
+        "title": "Library of Ashurbanipal",
+        "content":
+            "The Library of Ashurbanipal, discovered in modern-day Iraq, contained numerous clay tablets with cuneiform writing and was a center of learning."
+      },
+      "options": [
+        {"text": "Library of Alexandria", "value": false, "color": "yellow"},
+        {"text": "Library of Pergamum", "value": false, "color": "yellow"},
+        {"text": "Library of Celsus", "value": false, "color": "yellow"},
+        {"text": "Library of Ashurbanipal", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
           "What computer scientist is considered the father of artificial intelligence and designed the Turing Machine?",
       "dialog": {
         "title": "Alan Turing",
@@ -1431,17 +1431,17 @@ Map<String, dynamic> discoveriesData = {
     },
     {
       "question":
-          "Who is the Nigerian scientist that invented a local anesthetic drug used in childbirth called Alabukun powder in 1922?",
+          "What fossil site in South Africa, discovered in the 1940s, contains the remains of hominids and is named after the nearby Sterkfontein Caves?",
       "dialog": {
-        "title": "Agbebi Ajileye",
+        "title": "Cradle of Humankind",
         "content":
-            "Agbebi Ajileye created the analgesic powder Alabukun used during labor."
+            "The Cradle of Humankind, discovered in South Africa, contains the remains of hominids and is named after the nearby Sterkfontein Caves."
       },
       "options": [
-        {"text": "Adeoye Lambo", "value": false, "color": "yellow"},
-        {"text": "Modupe Olatunji", "value": false, "color": "yellow"},
-        {"text": "Babatunde Ogunnaike", "value": false, "color": "yellow"},
-        {"text": "Agbebi Ajileye", "value": true, "color": "yellow"}
+        {"text": "Taung Child", "value": false, "color": "yellow"},
+        {"text": "Olduvai Gorge", "value": false, "color": "yellow"},
+        {"text": "Laetoli Footprints", "value": false, "color": "yellow"},
+        {"text": "Cradle of Humankind", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -1491,6 +1491,21 @@ Map<String, dynamic> discoveriesData = {
     },
     {
       "question":
+          "What ancient Egyptian artifact, discovered in the tomb of Tutankhamun, is known as the \"curse of the pharaohs\"?",
+      "dialog": {
+        "title": "King Tut's Mask",
+        "content":
+            "King Tutankhamun's burial mask, discovered in his tomb, is associated with the \"curse of the pharaohs.\""
+      },
+      "options": [
+        {"text": "Rosetta Stone", "value": false, "color": "yellow"},
+        {"text": "Cleopatra's Needle", "value": false, "color": "yellow"},
+        {"text": "Book of the Dead", "value": false, "color": "yellow"},
+        {"text": "King Tut's Mask", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
           "Who was the first Nigerian professor of mechanical engineering and father of modern medicine in Nigeria?",
       "dialog": {
         "title": "Olikoye Ransome-Kuti",
@@ -1536,6 +1551,21 @@ Map<String, dynamic> discoveriesData = {
     },
     {
       "question":
+          "What natural wonder, located in Zambia and Zimbabwe, is the largest waterfall in the world by total area and is often called \"The Smoke That Thunders\"?",
+      "dialog": {
+        "title": "Victoria Falls",
+        "content":
+            "Victoria Falls, located in Zambia and Zimbabwe, is often called \"The Smoke That Thunders\" and is the largest waterfall by total area."
+      },
+      "options": [
+        {"text": "Iguazu Falls", "value": false, "color": "yellow"},
+        {"text": "Niagara Falls", "value": false, "color": "yellow"},
+        {"text": "Angel Falls", "value": false, "color": "yellow"},
+        {"text": "Victoria Falls", "value": true, "color": "yellow"}
+      ]
+    },
+    {
+      "question":
           "Who is the famous explorer who was the first European to reach India by sea, opening up a new trade route?",
       "dialog": {
         "title": "Vasco da Gama",
@@ -1547,40 +1577,6 @@ Map<String, dynamic> discoveriesData = {
         {"text": "Ferdinand Magellan", "value": false, "color": "yellow"},
         {"text": "Marco Polo", "value": false, "color": "yellow"},
         {"text": "Vasco da Gama", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "Who was the Nigerian scientist who invented the first working helicopter prototype in Nigeria in 1986?",
-      "dialog": {
-        "title": "Engr. Jelani Aliyu",
-        "content":
-            "Jelani Aliyu created the first Nigerian helicopter prototype."
-      },
-      "options": [
-        {"text": "Ibrahim Abubakar", "value": false, "color": "yellow"},
-        {"text": "Samuel Achilefu", "value": false, "color": "yellow"},
-        {"text": "Basil Agboarumi", "value": false, "color": "yellow"},
-        {"text": "Engr. Jelani Aliyu", "value": true, "color": "yellow"}
-      ]
-    },
-    {
-      "question":
-          "What is the name of the famous mathematician who came up with the theory of probability and the concept of Pascal's Triangle?",
-      "dialog": {
-        "title": "Blaise Pascal",
-        "content":
-            "Blaise Pascal is the famous mathematician who came up with the theory of probability and the concept of Pascal's Triangle."
-      },
-      "options": [
-        {"text": "Leonhard Euler", "value": false, "color": "yellow"},
-        {"text": "Pierre-Simon Laplace", "value": false, "color": "yellow"},
-        {
-          "text": "Ren\u00c3\u00a9 Descartes",
-          "value": false,
-          "color": "yellow"
-        },
-        {"text": "Blaise Pascal", "value": true, "color": "yellow"}
       ]
     },
     {
