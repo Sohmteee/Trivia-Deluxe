@@ -197,6 +197,11 @@ class StreaksProvider extends ChangeNotifier {
     notifyListeners();
   }
 
+  void updateLevelStreak({int? level}) {
+    levelStreak = level ?? levelStreak + 1;
+    notifyListeners();
+  }
+
   void updateStreakProgress(
       {required int streakIndex, required int subStreakIndex, int? progress}) {
     streaks[streakIndex]["streaks"][subStreakIndex]["progress"] +=
