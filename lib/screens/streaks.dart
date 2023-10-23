@@ -28,14 +28,16 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                 textAlign: TextAlign.center,
               ),
             ),
+            const Spacer(),
             Text(
               "This feature is coming soon",
               style: TextStyle(
                 color: AppColor.white,
-                fontSize: 20.sp,
+                fontSize: 25.sp,
               ),
               textAlign: TextAlign.center,
             ),
+            const Spacer(),
           ],
         ),
       ),
