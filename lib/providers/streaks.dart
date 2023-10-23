@@ -7,7 +7,7 @@ List<Map<String, dynamic>> streaks = [
     "streaks": [
       {
         : {
-          "title": "","subtitle": "Complete 5 levels without failing",
+          "title": "Steady Progress","subtitle": "Complete 5 levels without failing",
           "status": false,
           "progress": 0,
           "limit": 5,
@@ -15,7 +15,7 @@ List<Map<String, dynamic>> streaks = [
       },
       {
         : {
-          "title": "","subtitle": "Complete 10 levels without failing",
+          "title": "Leveling Up","subtitle": "Complete 10 levels without failing",
           "status": false,
           "progress": 0,
           "limit": 10,
@@ -23,7 +23,7 @@ List<Map<String, dynamic>> streaks = [
       },
       {
         : {
-          "title": "","subtitle": "Complete 20 levels without failing",
+          "title": "Tenacious Triumph","subtitle": "Complete 20 levels without failing",
           "status": false,
           "progress": 0,
           "limit": 20,
@@ -31,7 +31,7 @@ List<Map<String, dynamic>> streaks = [
       },
       {
         : {
-          "title": "","subtitle": "Complete 50 levels without failing",
+          "title": "Masterful Streak","subtitle": "Complete 50 levels without failing",
           "status": false,
           "progress": 0,
           "limit": 50,
@@ -39,7 +39,7 @@ List<Map<String, dynamic>> streaks = [
       },
       {
         : {
-          "title": "","subtitle": "Complete 100 levels without failing",
+          "title": "Unstoppable Champion","subtitle": "Complete 100 levels without failing",
           "status": false,
           "progress": 0,
           "limit": 100,
@@ -53,7 +53,7 @@ List<Map<String, dynamic>> streaks = [
     "streaks": [
       {
         : {
-          "title": "","subtitle": "Earn 50 coins",
+          "title": "Coin Collector","subtitle": "Earn 50 coins",
           "status": false,
           "progress": 0,
           "limit": 50,
@@ -61,7 +61,7 @@ List<Map<String, dynamic>> streaks = [
       },
       {
         : {
-          "title": "","subtitle": "Earn 100 coins",
+          "title": "Coin Hoarder","subtitle": "Earn 100 coins",
           "status": false,
           "progress": 0,
           "limit": 100,
@@ -69,7 +69,7 @@ List<Map<String, dynamic>> streaks = [
       },
       {
         : {
-          "title": "","subtitle": "Earn 200 coins",
+          "title": "Gold Gatherer","subtitle": "Earn 200 coins",
           "status": false,
           "progress": 0,
           "limit": 200,
@@ -77,7 +77,7 @@ List<Map<String, dynamic>> streaks = [
       },
       {
         : {
-          "title": "","subtitle": "Earn 500 coins",
+          "title": "Treasure Hunter","subtitle": "Earn 500 coins",
           "status": false,
           "progress": 0,
           "limit": 500,
@@ -85,7 +85,7 @@ List<Map<String, dynamic>> streaks = [
       },
       {
         : {
-          "title": "","subtitle": "Earn 1000 coins",
+          "title": "Coin Millionaire","subtitle": "Earn 1000 coins",
           "status": false,
           "progress": 0,
           "limit": 1000,
@@ -99,7 +99,7 @@ List<Map<String, dynamic>> streaks = [
     "streaks": {
       {
         : {
-          "title": "","subtitle": "Answer 5 questions correctly in a row",
+          "title": "Trivia Beginner","subtitle": "Answer 5 questions correctly in a row",
           "status": false,
           "progress": 0,
           "limit": 5,
@@ -107,7 +107,7 @@ List<Map<String, dynamic>> streaks = [
       },
       {
         : {
-          "title": "","subtitle": "Answer 10 questions correctly in a row",
+          "title": "Trivia Expert","subtitle": "Answer 10 questions correctly in a row",
           "status": false,
           "progress": 0,
           "limit": 10,
@@ -115,7 +115,7 @@ List<Map<String, dynamic>> streaks = [
       },
       {
 : {
-          "title": "","subtitle": "Answer 20 questions correctly in a row",
+          "title":         "Brainiac","subtitle": "Answer 20 questions correctly in a row",
           "status": false,
           "progress": 0,
           "limit": 20,
@@ -123,7 +123,7 @@ List<Map<String, dynamic>> streaks = [
       },
       {
         : {
-          "title": "","subtitle": "Answer 50 questions correctly in a row",
+          "title": "Trivia Grandmaster","subtitle": "Answer 50 questions correctly in a row",
           "status": false,
           "progress": 0,
           "limit": 50,
@@ -131,7 +131,7 @@ List<Map<String, dynamic>> streaks = [
       },
       {
         : {
-          "title": "","subtitle": "Answer 100 questions correctly in a row",
+          "title": "Trivia Maestro","subtitle": "Answer 100 questions correctly in a row",
           "status": false,
           "progress": 0,
           "limit": 100,
@@ -145,7 +145,7 @@ List<Map<String, dynamic>> streaks = [
     "streaks": {
       {
 : {
-          "title": "","subtitle": "Rank top 10 on the leaderboard",
+          "title":         "Achiever","subtitle": "Rank top 10 on the leaderboard",
           "status": false,
           "progress": 0,
           "limit": 1,
@@ -153,7 +153,7 @@ List<Map<String, dynamic>> streaks = [
       },
       {
         : {
-          "title": "","subtitle": "Rank top 5 on the leaderboard",
+          "title": "Top Ranker","subtitle": "Rank top 5 on the leaderboard",
           "status": false,
           "progress": 0,
           "limit": 1,
@@ -161,7 +161,7 @@ List<Map<String, dynamic>> streaks = [
       },
       {
         : {
-          "title": "","subtitle": "Rank top 3 on the leaderboard",
+          "title": "Master Ranker","subtitle": "Rank top 3 on the leaderboard",
           "status": false,
           "progress": 0,
           "limit": 1,
@@ -169,7 +169,7 @@ List<Map<String, dynamic>> streaks = [
       },
       {
         : {
-          "title": "","subtitle": "Rank first on the leaderboard",
+          "title": "Leaderboard Champion","subtitle": "Rank first on the leaderboard",
           "status": false,
           "progress": 0,
           "limit": 1,
@@ -183,7 +183,7 @@ List<Map<String, dynamic>> streaks = [
     "streaks": {
       {
         : {
-          "title": "","subtitle": "Finish all streaks",
+          "title": "Ultimate Achiever","subtitle": "Finish all streaks",
           "status": false,
           "progress": 0,
           "limit": 19,
