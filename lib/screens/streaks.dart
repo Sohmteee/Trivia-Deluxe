@@ -283,15 +283,13 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
           ),
           Consumer<StreaksProvider>(builder: (context, streaksProvider, _) {
             
-                    String streakTitle =
-                            streaksProvider.streaks[index]["title"];
-                        String image = streaksProvider.streaks[index]["image"];
-                        List streakList =
-                            streaksProvider.streaks[index]["streaks"];
+                    
               return SliverList(
                 delegate: SliverChildBuilderDelegate(
                   (context,  index) {
-                    
+                    String streakTitle = streaksProvider.streaks[index]["title"];
+                String image = streaksProvider.streaks[index]["image"];
+                List streakList = streaksProvider.streaks[index]["streaks"];
                     
                         return Column(
                                   children: [
