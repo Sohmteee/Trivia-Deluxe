@@ -26,8 +26,8 @@ showAverageTimeDialog(BuildContext context) {
         ),
         SizedBox(height: 20.h),
         Text(
-          "Auto Answer is a feature that automatically takes you to the next question without you having to select it manually."
-          "\nIt's a good option for a faster paced game.",
+          "Your average time is calculated by the total time you took to answer all the questions divided by the number of questions you answered."
+          "\nIf you fail a question tho, ",
           style: TextStyle(
             color: Colors.white,
             fontSize: 18.sp,
