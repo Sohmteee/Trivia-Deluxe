@@ -281,7 +281,7 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
               ),
             ),
           ),
-          SizedBox(top: 10.h),
+          SizedBox(height: 10.h),
           Consumer<StreaksProvider>(builder: (context, streaksProvider, _) {
             return SliverList(
               delegate: SliverChildBuilderDelegate(
