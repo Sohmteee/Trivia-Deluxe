@@ -6,24 +6,25 @@ class ScoreProvider extends ChangeNotifier {
 
   int _coinScore = box.get("coinScore", defaultValue: 0);
   int get coinScore => _coinScore;
+  int score = 
 
-  void increaseScore(int newScore) {
-    _coinScore += newScore;
+  void increaseCoinScore(int newCoinScore) {
+    _coinScore += newCoinScore;
     box.put("coinScore", coinScore);
 
-    debugPrint("Curent Score: $coinScore");
+    debugPrint("Curent Coin Score: $coinScore");
     notifyListeners();
   }
 
-  void decreaseScore(int newScore) {
-    _coinScore -= newScore;
+  void decreaseCoinScore(int newCoinScore) {
+    _coinScore -= newCoinScore;
     box.put("coinScore", coinScore);
 
-    debugPrint("Curent Score: $coinScore");
+    debugPrint("Curent Coin Score: $coinScore");
     notifyListeners();
   }
 
-  void resetScore() {
+  void resetCoinScore() {
     _coinScore = 0;
     box.put("coinScore", coinScore);
   }
