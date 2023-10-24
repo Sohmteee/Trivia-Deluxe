@@ -20,7 +20,7 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
   Widget build(BuildContext context) {
     return GameBackground(
       body: Padding(
-        padding: EdgeInsets.symmetric(horizontal: 40.w, vertical: 40.h),
+        padding: EdgeInsets.symmetric(horizontal: 20.w, vertical: 40.h),
         child: Column(
           children: [
             Center(
@@ -115,7 +115,7 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                                   Row(
                                     children: [
                                       Text(
-                                        "${questionProvider.correctAnswers} correct answers  ",
+                                        "1000 correct answers ",
                                         style: TextStyle(
                                           color: AppColor.right,
                                           fontSize: 16.sp,
