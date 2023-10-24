@@ -508,8 +508,8 @@ class StreaksProvider extends ChangeNotifier {
       box.put("levelStreak", levelStreak);
     }
 
-    updateUltimateStreak();
     updateStreaksData();
+    updateUltimateStreak();
     notifyListeners();
   }
 
@@ -537,8 +537,8 @@ class StreaksProvider extends ChangeNotifier {
       box.put("permanentCoinStreak", permanentCoinStreak);
     }
 
-    updateUltimateStreak();
     updateStreaksData();
+    updateUltimateStreak();
     notifyListeners();
   }
 
@@ -557,8 +557,8 @@ class StreaksProvider extends ChangeNotifier {
       box.put("triviaStreak", triviaStreak);
     }
 
-    updateUltimateStreak();
     updateStreaksData();
+    updateUltimateStreak();
     notifyListeners();
   }
 
@@ -581,8 +581,8 @@ class StreaksProvider extends ChangeNotifier {
       box.put("leaderboardStreak", leaderboardStreak);
     }
 
-    updateUltimateStreak();
     updateStreaksData();
+    updateUltimateStreak();
     notifyListeners();
   }
 
