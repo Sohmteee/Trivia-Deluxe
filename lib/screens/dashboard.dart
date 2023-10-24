@@ -67,13 +67,13 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                           width: 10.w,
                           height: 10.w,
                           decoration: BoxDecoration(
-                            color: AppColor.right,
+                            color: Colors.red,
                             shape: BoxShape.circle,
                           ),
                         ),
                         SizedBox(width: 10.w),
                         Text(
-                          "Correct Answers",
+                          "Incorrect Answers",
                           style: TextStyle(
                             color: AppColor.white,
                             fontSize: 18.sp,
