@@ -75,9 +75,12 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   ZoomTapAnimation(
+                    onTap: () {
+                      Navigator.pushNamed(context, "/leaderboard");
+                    },
                     child: Container(
-                      padding:
-                          EdgeInsets.symmetric(horizontal: 20.w, vertical: 10.h),
+                      padding: EdgeInsets.symmetric(
+                          horizontal: 20.w, vertical: 10.h),
                       decoration: BoxDecoration(
                         color: AppColor.yellow,
                         borderRadius: BorderRadius.circular(50.r),
@@ -91,18 +94,21 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                       ),
                     ),
                   ),
-                  Container(
-                    padding:
-                        EdgeInsets.symmetric(horizontal: 20.w, vertical: 10.h),
-                    decoration: BoxDecoration(
-                      color: AppColor.yellow,
-                      borderRadius: BorderRadius.circular(50.r),
-                    ),
-                    child: Text(
-                      "Dashboard",
-                      style: TextStyle(
-                        color: AppColor.white,
-                        fontSize: 20.sp,
+                  ZoomTapAnimation(
+                    onTap: () {},
+                    child: Container(
+                      padding: EdgeInsets.symmetric(
+                          horizontal: 20.w, vertical: 10.h),
+                      decoration: BoxDecoration(
+                        color: AppColor.yellow,
+                        borderRadius: BorderRadius.circular(50.r),
+                      ),
+                      child: Text(
+                        "Dashboard",
+                        style: TextStyle(
+                          color: AppColor.white,
+                          fontSize: 20.sp,
+                        ),
                       ),
                     ),
                   ),
