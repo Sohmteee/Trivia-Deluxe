@@ -91,11 +91,9 @@ showFailedDialog(BuildContext context, questionIndex, bool timeUp) {
                         moneyProvider.decreaseCoins(20);
                         Future.delayed(
                           2.seconds,
-                          () {if (autoAnswer) {
-              Navigator.pushReplacementNamed(context, "/game");
-            } else {
-              Navigator.pushReplacementNamed(context, "/stage");
-            }
+                          () {
+                            return Navigator.pushReplacementNamed(
+                                context, "/stage");
                           },
                         );
                       } else {
