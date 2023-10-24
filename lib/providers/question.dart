@@ -58,9 +58,9 @@ class QuestionProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-    toggleSoundEffects(bool value) {
-    soundEffects = value;
-    box.put("soundEffects", value);
+    toggleAutoAnswer(bool value) {
+    autoAnswer = value;
+    box.put("autoAnswer", value);
     notifyListeners();
   }
 

@@ -6,6 +6,7 @@ import 'package:trivia/main.dart';
 import 'package:trivia/models/dialogs/credits.dart';
 import 'package:trivia/models/dialogs/game.dart';
 import 'package:trivia/providers/audio.dart';
+import 'package:trivia/providers/question.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 showSettingsDialog(BuildContext context) {
@@ -141,14 +142,14 @@ showSettingsDialog(BuildContext context) {
                       fontSize: 18.sp,
                     ),
                   ),
-                  Consumer<AudioProvider>(
-                    builder: (context, audioProvider, _) {
+                  Consumer<QuestionProvider>(
+                    builder: (context, questionProvider, _) {
                       return Switch(
-                        value: audioProvider.music,
+                        value: questionProvider.autoAnswer,
                         activeColor: Colors.red,
                         onChanged: (value) {
                           playTap(context);
-                          audioProvider.toggleMusic(value);
+                          questionProvider.toggleAutoAnswer(value);
                         },
                       );
                     },
