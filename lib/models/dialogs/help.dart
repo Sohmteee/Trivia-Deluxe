@@ -23,7 +23,7 @@ showHelpDialog(BuildContext context) {
           ),
           textAlign: TextAlign.center,
         ),
-        SizedBox(height: 50.h),
+        SizedBox(height: 20.h),
         Text(
           "Auto Answer is a feature that automatically answers the question for you. It is available for 1 question only and can be used only once per game.",
           style: TextStyle(
