@@ -3,8 +3,10 @@ import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/models/pop_scope.dart';
 
 showGameDialog(BuildContext context,
-    {required Widget child, bool? isExitable, EdgeInsetsGeometry? padding,
-    EdgeInsetsGeometry? margin}) {
+    {required Widget child,
+    bool? isExitable,
+    EdgeInsetsGeometry? padding,
+    EdgeInsets? margin}) {
   showDialog(
       context: context,
       builder: (context) {
@@ -20,7 +22,7 @@ showGameDialog(BuildContext context,
               clipBehavior: Clip.antiAliasWithSaveLayer,
               insetAnimationCurve: Curves.bounceInOut,
               insetAnimationDuration: const Duration(milliseconds: 300),
-              
+              insetPadding: margin ?? const EdgeInsets.all(0),
               child: Container(
                 padding: padding ?? const EdgeInsets.fromLTRB(20, 40, 20, 60),
                 decoration: BoxDecoration(
