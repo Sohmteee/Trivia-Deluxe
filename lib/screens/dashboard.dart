@@ -117,7 +117,7 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                                       Text(
                                         "${questionProvider.correctAnswers} correct answers ",
                                         style: TextStyle(
-                                          color: AppColor.right,
+                                          color: Colors.grey[300],
                                           fontSize: 16.sp,
                                         ),
                                       ),
@@ -148,7 +148,7 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                                       Text(
                                         "${questionProvider.totalQuestionsAnswered - questionProvider.correctAnswers} incorrect answers ",
                                         style: TextStyle(
-                                          color: Colors.red,
+                                          color: Colors.grey[300],
                                           fontSize: 16.sp,
                                         ),
                                       ),
@@ -177,7 +177,7 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                                   Text(
                                     "${questionProvider.totalQuestionsAnswered} questions answered",
                                     style: TextStyle(
-                                      color: Colors.grey[400],
+                                      color: Colors.grey[300],
                                       fontSize: 16.sp,
                                     ),
                                   ),
@@ -187,71 +187,6 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                           )
                         ],
                       ),
-                    Row(
-                      children: [
-                        Container(
-                          width: 10.w,
-                          height: 10.w,
-                          decoration: BoxDecoration(
-                            color: AppColor.right,
-                            shape: BoxShape.circle,
-                          ),
-                        ),
-                        SizedBox(width: 10.w),
-                        Text(
-                          "Correct Answers",
-                          style: TextStyle(
-                            color: AppColor.white,
-                            fontSize: 18.sp,
-                          ),
-                          textAlign: TextAlign.center,
-                        ),
-                      ],
-                    ),
-                    SizedBox(height: 10.h),
-                    Row(
-                      children: [
-                        Container(
-                          width: 10.w,
-                          height: 10.w,
-                          decoration: BoxDecoration(
-                            color: Colors.red,
-                            shape: BoxShape.circle,
-                          ),
-                        ),
-                        SizedBox(width: 10.w),
-                        Text(
-                          "Incorrect Answers",
-                          style: TextStyle(
-                            color: AppColor.white,
-                            fontSize: 18.sp,
-                          ),
-                          textAlign: TextAlign.center,
-                        ),
-                      ],
-                    ),
-                    SizedBox(height: 10.h),
-                    Row(
-                      children: [
-                        Container(
-                          width: 10.w,
-                          height: 10.w,
-                          decoration: BoxDecoration(
-                            color: AppColor.yellow,
-                            shape: BoxShape.circle,
-                          ),
-                        ),
-                        SizedBox(width: 10.w),
-                        Text(
-                          "Total Questions Answered",
-                          style: TextStyle(
-                            color: AppColor.white,
-                            fontSize: 18.sp,
-                          ),
-                          textAlign: TextAlign.center,
-                        ),
-                      ],
-                    ),
                   ],
                 );
               },
