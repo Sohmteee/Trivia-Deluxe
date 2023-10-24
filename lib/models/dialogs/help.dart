@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:trivia/main.dart';
-import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 import 'game.dart';
 
@@ -11,6 +8,7 @@ showHelpDialog(BuildContext context) {
     context,
     isExitable: true,
     padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 40),
+    margin: EdgeInsets.symmetric(horizontal: 40.w, vertical: 24.w),
     child: Column(
       mainAxisSize: MainAxisSize.min,
       children: [
