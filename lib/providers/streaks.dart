@@ -517,13 +517,19 @@ class StreaksProvider extends ChangeNotifier {
     coinStreak = coins;
     box.put("coinStreak", coinStreak);
 
-    print("Coin streak: $coinStreak");
-    print("Permanent coin streak: $permanentCoinStreak");
+    if (coinStreak > permanentCoinStreak) {
+      if (coinStreak >= 100) {
+        permanentCoinStreak = 100;
+      } else if (coinStreak >= 200) {
+        permanentCoinStreak = 200;
+      } else if (coinStreak >= 500) {
+        permanentCoinStreak = 500;
+      } else if (coinStreak >= 1000) {
+        permanentCoinStreak = 1000;
+      } else if (coinStreak >= 2000) {
+        permanentCoinStreak = 2000;
+      }
 
-    if (coinStreak > permanentCoinStreak ) {
-
-      if (coinStreak >= )
-      permanentCoinStreak = coinStreak;
       box.put("permanentCoinStreak", permanentCoinStreak);
       print("permanentCoinStreak updated to $permanentCoinStreak");
     }
