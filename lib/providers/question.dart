@@ -12,12 +12,12 @@ class QuestionProvider extends ChangeNotifier {
   List questions = [];
   int questionIndex = 0;
   int currentLevel = 1;
-  
 
   String question = "", title = "";
 
   List options = [];
   bool questionIsShuffled = false;
+  bool autoAnswer = box.get("autoAnswer", defaultValue: false);
 
   void initQuestionProvider(context) {
     questions = data["data"];
@@ -55,6 +55,12 @@ class QuestionProvider extends ChangeNotifier {
     box.put(data["title"], data);
     // print(data["title"]);
 
+    notifyListeners();
+  }
+
+    toggleSoundEffects(bool value) {
+    soundEffects = value;
+    box.put("soundEffects", value);
     notifyListeners();
   }
 
