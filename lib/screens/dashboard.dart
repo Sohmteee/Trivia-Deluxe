@@ -174,7 +174,7 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                                       Text(
                                         "(${(questionProvider.correctAnswers / questionProvider.totalQuestionsAnswered * 100).toStringAsFixed(1)}%)",
                                         style: TextStyle(
-                                          color: Colors.grey[100],
+                                          color: Colors.grey[300],
                                           fontSize: 16.sp,
                                         ),
                                       ),
@@ -187,8 +187,8 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                                   Container(
                                     width: 10.w,
                                     height: 10.w,
-                                    decoration: BoxDecoration(
-                                      color: AppColor.wrong,
+                                    decoration: conBoxDecoration(
+                                      color: Colors.red,
                                       shape: BoxShape.circle,
                                     ),
                                   ),
@@ -205,7 +205,7 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                                       Text(
                                         "(${((questionProvider.totalQuestionsAnswered - questionProvider.correctAnswers) / questionProvider.totalQuestionsAnswered * 100).toStringAsFixed(1)}%)",
                                         style: TextStyle(
-                                          color: Colors.grey[100],
+                                          color: Colors.grey[300],
                                           fontSize: 16.sp,
                                         ),
                                       ),
