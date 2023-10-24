@@ -39,72 +39,6 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
               builder: (context, questionProvider, _) {
                 return Column(
                   children: [
-                    Row(
-                      children: [
-                        Container(
-                          width: 10.w,
-                          height: 10.w,
-                          decoration: BoxDecoration(
-                            color: AppColor.right,
-                            shape: BoxShape.circle,
-                          ),
-                        ),
-                        SizedBox(width: 10.w),
-                        Text(
-                          "Correct Answers",
-                          style: TextStyle(
-                            color: AppColor.white,
-                            fontSize: 18.sp,
-                          ),
-                          textAlign: TextAlign.center,
-                        ),
-                      ],
-                    ),
-                    SizedBox(height: 10.h),
-                    Row(
-                      children: [
-                        Container(
-                          width: 10.w,
-                          height: 10.w,
-                          decoration: BoxDecoration(
-                            color: Colors.red,
-                            shape: BoxShape.circle,
-                          ),
-                        ),
-                        SizedBox(width: 10.w),
-                        Text(
-                          "Incorrect Answers",
-                          style: TextStyle(
-                            color: AppColor.white,
-                            fontSize: 18.sp,
-                          ),
-                          textAlign: TextAlign.center,
-                        ),
-                      ],
-                    ),
-                    SizedBox(height: 10.h),
-                    Row(
-                      children: [
-                        Container(
-                          width: 10.w,
-                          height: 10.w,
-                          decoration: BoxDecoration(
-                            color: AppColor.yellow,
-                            shape: BoxShape.circle,
-                          ),
-                        ),
-                        SizedBox(width: 10.w),
-                        Text(
-                          "Total Questions Answered",
-                          style: TextStyle(
-                            color: AppColor.white,
-                            fontSize: 18.sp,
-                          ),
-                          textAlign: TextAlign.center,
-                        ),
-                      ],
-                    ),
-                    SizedBox(height: 20.h),
                     if (questionProvider.totalQuestionsAnswered != 0)
                       Row(
                         children: [
@@ -228,11 +162,77 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                                     ],
                                   ),
                                 ],
-                              ),
+                              ),Row(
+                      children: [
+                        Container(
+                          width: 10.w,
+                          height: 10.w,
+                          decoration: BoxDecoration(
+                            color: AppColor.right,
+                            shape: BoxShape.circle,
+                          ),
+                        ),
+                        SizedBox(width: 10.w),
+                        Text(
+                          "Correct Answers",
+                          style: TextStyle(
+                            color: AppColor.white,
+                            fontSize: 18.sp,
+                          ),
+                          textAlign: TextAlign.center,
+                        ),
+                      ],
+                    ),
+                    SizedBox(height: 10.h),
+                    Row(
+                      children: [
+                        Container(
+                          width: 10.w,
+                          height: 10.w,
+                          decoration: BoxDecoration(
+                            color: Colors.red,
+                            shape: BoxShape.circle,
+                          ),
+                        ),
+                        SizedBox(width: 10.w),
+                        Text(
+                          "Incorrect Answers",
+                          style: TextStyle(
+                            color: AppColor.white,
+                            fontSize: 18.sp,
+                          ),
+                          textAlign: TextAlign.center,
+                        ),
+                      ],
+                    ),
+                    SizedBox(height: 10.h),
+                    Row(
+                      children: [
+                        Container(
+                          width: 10.w,
+                          height: 10.w,
+                          decoration: BoxDecoration(
+                            color: AppColor.yellow,
+                            shape: BoxShape.circle,
+                          ),
+                        ),
+                        SizedBox(width: 10.w),
+                        Text(
+                          "Total Questions Answered",
+                          style: TextStyle(
+                            color: AppColor.white,
+                            fontSize: 18.sp,
+                          ),
+                          textAlign: TextAlign.center,
+                        ),
+                      ],
+                    ),
+                    SizedBox(height: 20.h),
                             ],
                           )
                         ],
                       ),
+                      
                   ],
                 );
               },
