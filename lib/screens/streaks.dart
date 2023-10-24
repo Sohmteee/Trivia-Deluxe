@@ -277,7 +277,7 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                             }),
                           ],
                         )
-                      : SizedBox();
+                      : const SizedBox();
                 },
               ),
               SizedBox(height: 20.h),
