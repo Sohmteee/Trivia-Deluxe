@@ -165,7 +165,14 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                                   Row(
                                     children: [
                                       Text(
-                                        "${questionProvider.correctAnswers} (${(questionProvider.correctAnswers / questionProvider.totalQuestionsAnswered * 100).toStringAsFixed(1)}%)",
+                                        "${questionProvider.correctAnswers}",
+                                        style: TextStyle(
+                                          color: Colors.grey[100],
+                                          fontSize: 16.sp,
+                                        ),
+                                      ),
+                                      Text(
+                                        "(${(questionProvider.correctAnswers / questionProvider.totalQuestionsAnswered * 100).toStringAsFixed(1)}%)",
                                         style: TextStyle(
                                           color: Colors.grey[100],
                                           fontSize: 16.sp,
