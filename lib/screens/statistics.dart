@@ -221,7 +221,7 @@ class _StatisticsScreenState extends State<StatisticsScreen> {
                               ),
                             ],
                           ),
-                          const Spacer(flex: 3),
+                          SizedBox(width: 10.w),
                           ZoomTapAnimation(
                             onTap: () {
                               playTap(context);
@@ -233,7 +233,6 @@ class _StatisticsScreenState extends State<StatisticsScreen> {
                               size: 20.sp,
                             ),
                           ),
-                          const Spacer(flex: 7),
                         ],
                       )
                     : Expanded(
