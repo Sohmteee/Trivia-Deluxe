@@ -107,8 +107,8 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                       Row(
                         children: [
                           SizedBox(
-                            width: 200.w,
-                            height: 200.h,
+                            width: 100.w,
+                            height: 100.h,
                             child: Chart(
                               duration: const Duration(seconds: 2),
                               layers: [
