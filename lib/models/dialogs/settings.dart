@@ -134,26 +134,36 @@ showSettingsDialog(BuildContext context) {
               ),
               SizedBox(height: 10.h),
               Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Text(
-                    "Auto Answer",
-                    style: TextStyle(
-                      color: Colors.grey[400],
-                      fontSize: 18.sp,
-                    ),
-                  ),
-                  Consumer<QuestionProvider>(
-                    builder: (context, questionProvider, _) {
-                      return Switch(
-                        value: questionProvider.autoAnswer,
-                        activeColor: Colors.red,
-                        onChanged: (value) {
-                          playTap(context);
-                          questionProvider.toggleAutoAnswer(value);
+                  Row(
+                    children: [
+                      Text(
+                        "Auto Answer",
+                        style: TextStyle(
+                          color: Colors.grey[400],
+                          fontSize: 18.sp,
+                        ),
+                      ),
+                      Consumer<QuestionProvider>(
+                        builder: (context, questionProvider, _) {
+                          return Switch(
+                            value: questionProvider.autoAnswer,
+                            activeColor: Colors.red,
+                            onChanged: (value) {
+                              playTap(context);
+                              questionProvider.toggleAutoAnswer(value);
+                            },
+                          );
                         },
-                      );
-                    },
-                  )
+                      )
+                    ],
+                  ),
+                  Icon(
+                    Icons.help_outline,
+                    color: Colors.grey[400],
+                    size: 20.sp,
+                  ),
                 ],
               ),
               SizedBox(height: 30.h),
