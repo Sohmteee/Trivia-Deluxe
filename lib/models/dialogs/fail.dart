@@ -91,8 +91,14 @@ showFailedDialog(BuildContext context, questionIndex, bool timeUp) {
                         moneyProvider.decreaseCoins(20);
                         Future.delayed(
                           2.seconds,
-                          () =>
-                              Navigator.pushReplacementNamed(context, "/stage"),
+                          () {
+                            if (Provider.of<QuestionProvider>(context)
+                                .autoAnswer) {
+                              Navigator.pushReplacementNamed(context, "/game");
+                            } else {
+                              Navigator.pushReplacementNamed(context, "/stage");
+                            }
+                          },
                         );
                       } else {
                         playTap(context);
