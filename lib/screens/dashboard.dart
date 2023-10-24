@@ -103,74 +103,78 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                         ),
                       ],
                     ),
-                    Row(
-                      children: [
-                        SizedBox(
-                          width: 200.w,
-                          height: 200.h,
-                          child: Chart(
-                            duration: const Duration(seconds: 2),
-                            layers: [
-                              ChartGroupPieLayer(
-                                items: [
-                                  [
-                                    if (questionProvider.correctAnswers != 0)
-                                      ChartGroupPieDataItem(
-                                        amount: questionProvider.correctAnswers
-                                            .toDouble(),
-                                        color: AppColor.right,
-                                        label: "Good Days",
-                                      ),
-                                    if ((questionProvider
-                                                .totalQuestionsAnswered -
-                                            questionProvider.correctAnswers) !=
-                                        0)
-                                      ChartGroupPieDataItem(
-                                        amount: (questionProvider
-                                                    .totalQuestionsAnswered -
-                                                questionProvider.correctAnswers)
-                                            .toDouble(),
-                                        color: Colors.red,
-                                        label: "Bad Days",
-                                      ),
-                                  ]
-                                ],
-                                settings: ChartGroupPieSettings(
-                                  radius: 30.r,
-                                  thickness: 5,
-                                  gapBetweenChartCircles: 2,
-                                ),
-                              )
-                            ],
-                          ),
-                        ),
-                        Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Row(
-                              children: [
-                                Container(
-                                  width: 10.w,
-                                  height: 10.w,
-                                  decoration: BoxDecoration(
-                                    color: AppColor.right,
-                                    shape: BoxShape.circle,
+                    if (questionProvider.totalQuestionsAnswered != 0)
+                      Row(
+                        children: [
+                          SizedBox(
+                            width: 200.w,
+                            height: 200.h,
+                            child: Chart(
+                              duration: const Duration(seconds: 2),
+                              layers: [
+                                ChartGroupPieLayer(
+                                  items: [
+                                    [
+                                      if (questionProvider.correctAnswers != 0)
+                                        ChartGroupPieDataItem(
+                                          amount: questionProvider
+                                              .correctAnswers
+                                              .toDouble(),
+                                          color: AppColor.right,
+                                          label: "Good Days",
+                                        ),
+                                      if ((questionProvider
+                                                  .totalQuestionsAnswered -
+                                              questionProvider
+                                                  .correctAnswers) !=
+                                          0)
+                                        ChartGroupPieDataItem(
+                                          amount: (questionProvider
+                                                      .totalQuestionsAnswered -
+                                                  questionProvider
+                                                      .correctAnswers)
+                                              .toDouble(),
+                                          color: Colors.red,
+                                          label: "Bad Days",
+                                        ),
+                                    ]
+                                  ],
+                                  settings: ChartGroupPieSettings(
+                                    radius: 30.r,
+                                    thickness: 5,
+                                    gapBetweenChartCircles: 2,
                                   ),
-                                ),
-                                SizedBox(width: 10.w),
-                                Text(
-                                  "Correct Answers (${(questionProvider.correctAnswers / questionProvider.totalQuestionsAnswered * 100).toStringAsFixed(1)}%)",
-                                  style: TextStyle(
-                                    color: Colors.grey[100],
-                                    fontSize: 16.sp,
-                                  ),
-                                ),
+                                )
                               ],
                             ),
-                          ],
-                        )
-                      ],
-                    ),
+                          ),
+                          Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Row(
+                                children: [
+                                  Container(
+                                    width: 10.w,
+                                    height: 10.w,
+                                    decoration: BoxDecoration(
+                                      color: AppColor.right,
+                                      shape: BoxShape.circle,
+                                    ),
+                                  ),
+                                  SizedBox(width: 10.w),
+                                  Text(
+                                    "Correct Answers (${(questionProvider.correctAnswers / questionProvider.totalQuestionsAnswered * 100).toStringAsFixed(1)}%)",
+                                    style: TextStyle(
+                                      color: Colors.grey[100],
+                                      fontSize: 16.sp,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          )
+                        ],
+                      ),
                   ],
                 );
               },
