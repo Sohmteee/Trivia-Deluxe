@@ -124,6 +124,7 @@ showSettingsDialog(BuildContext context) {
                                 onChanged: (value) {
                                   audioProvider.setEffectsVolume(value);
                                 },
+                                activeColor: Colors.grey[400],
                                 semanticFormatterCallback: (double newValue) {
                                   return "${(audioProvider.effectsVolume * 100).toInt()}%";
                                 }),
