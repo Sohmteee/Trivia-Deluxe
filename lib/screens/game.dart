@@ -124,6 +124,7 @@ class _GameScreenState extends State<GameScreen> {
                                   context,
                                   index,
                                   answered: answered,
+                                  timeElapsed: countDownController.getTime()!,
                                 );
 
                                 setState(() {
