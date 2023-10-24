@@ -165,7 +165,7 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                                   Row(
                                     children: [
                                       Text(
-                                        "${questionProvider.correctAnswers}",
+                                        "${questionProvider.correctAnswers} ",
                                         style: TextStyle(
                                           color: Colors.grey[100],
                                           fontSize: 16.sp,
