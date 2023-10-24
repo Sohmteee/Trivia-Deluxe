@@ -38,13 +38,56 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                     Row(
                       children: [
                         Text(
-                          "Correct Answers",
+                          "Correct Answers:",
                           style: TextStyle(
                             color: AppColor.white,
                             fontSize: 25.sp,
                           ),
                           textAlign: TextAlign.center,
                         ),
+                        SizedBox(width: 20.w),
+                        Text(
+                          questionProvider.correctAnswers.toString(),
+                          style: TextStyle(
+                            color: AppColor.right,
+                            fontSize: 25.sp,
+                          ),
+                          textAlign: TextAlign.center,
+                        ),
+                      ],
+                    ),
+                    Row(
+                      children: [
+                        Text(
+                          "incorrect Answers:",
+                          style: TextStyle(
+                            color: AppColor.white,
+                            fontSize: 25.sp,
+                          ),
+                          textAlign: TextAlign.center,
+                        ),
+                        SizedBox(width: 20.w),
+                        Text(
+                          questionProvider.correctAnswers.toString(),
+                          style: TextStyle(
+                            color: AppColor.right,
+                            fontSize: 25.sp,
+                          ),
+                          textAlign: TextAlign.center,
+                        ),
+                      ],
+                    ),
+                    Row(
+                      children: [
+                        Text(
+                          "Correct Answers:",
+                          style: TextStyle(
+                            color: AppColor.white,
+                            fontSize: 25.sp,
+                          ),
+                          textAlign: TextAlign.center,
+                        ),
+                        SizedBox(width: 20.w),
                         Text(
                           questionProvider.correctAnswers.toString(),
                           style: TextStyle(
