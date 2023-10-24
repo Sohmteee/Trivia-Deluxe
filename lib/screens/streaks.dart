@@ -385,8 +385,8 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                       decoration: BoxDecoration(
                         gradient: LinearGradient(
                           colors: [
-                            AppColor.black.withOpacity(0.5),
-                            AppColor.black.withOpacity(0.0),
+                            AppColor.red.withOpacity(0.7),
+                            AppColor.darkRed.withOpacity(0.0),
                           ],
                           begin: Alignment.topCenter,
                           end: Alignment.bottomCenter,
