@@ -288,13 +288,6 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                 String image = streaksProvider.streaks[index]["image"];
                 List streakList = streaksProvider.streaks[index]["streaks"];
 
-                itemCount:
-                streaksProvider.streaks.length;
-                padding:
-                EdgeInsets.only(top: 10.h);
-                physics:
-                const BouncingScrollPhysics();
-
                 return Column(
                   children: [
                     Row(
