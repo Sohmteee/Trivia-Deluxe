@@ -92,6 +92,12 @@ class QuestionProvider extends ChangeNotifier {
         correctAnswers = correctAnswers + 1;
         box.put("correctAnswers", correctAnswers);
         print("Correct Answers: $correctAnswers");
+
+        averageTime = ((averageTime * (correctAnswers - 1)) +
+                (30 - double.parse(timeElapsed!))) /
+            correctAnswers;
+        box.put("averageTime", averageTime);
+        print("Average Time: $averageTime");
       } else {
         options[index]["color"] = "wrong";
 
@@ -105,14 +111,6 @@ class QuestionProvider extends ChangeNotifier {
       totalQuestionsAnswered = totalQuestionsAnswered + 1;
       box.put("totalQuestionsAnswered", totalQuestionsAnswered);
       print("Total Questions Answered: $totalQuestionsAnswered");
-
-      averageTime = ((averageTime * (totalQuestionsAnswered - 1)) +
-              ((!answered && options[index]["value"] == true)
-                  ? 30 - double.parse(timeElapsed!)
-                  : 30)) /
-          totalQuestionsAnswered;
-      box.put("averageTime", averageTime);
-      print("Average Time: $averageTime");
 
       updateLeaderBoardScore();
 
