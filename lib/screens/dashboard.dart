@@ -30,7 +30,7 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                 textAlign: TextAlign.center,
               ),
             ),
-            const Spacer(),
+            SizedBox(height: 50.h),
             Consumer<QuestionProvider>(
               builder: (context, questionProvider, _) {
                 return Column(
@@ -45,13 +45,20 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                           ),
                           textAlign: TextAlign.center,
                         ),
+                        Text(
+                          questionProvider.correctAnswers.toString(),
+                          style: TextStyle(
+                            color: AppColor.right,
+                            fontSize: 25.sp,
+                          ),
+                          textAlign: TextAlign.center,
+                        ),
                       ],
                     ),
                   ],
                 );
-              }
+              },
             ),
-            const Spacer(),
           ],
         ),
       ),
