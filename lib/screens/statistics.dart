@@ -4,9 +4,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
+import 'package:trivia/main.dart';
 import 'package:trivia/models/game_background.dart';
 import 'package:trivia/providers/question.dart';
 import 'package:mrx_charts/mrx_charts.dart';
+import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 class StatisticsScreen extends StatefulWidget {
   const StatisticsScreen({super.key});
@@ -189,29 +191,44 @@ class _StatisticsScreenState extends State<StatisticsScreen> {
                       ),
                     Row(
                       children: [
-                        Text(
-                          "Average Time",
-                          style: TextStyle(
-                            color: Colors.grey[300],
-                            fontSize: 20.sp,
-                          ),
-                        ),
-                        SizedBox(width: 15.w),
-                        Text(
-                          questionProvider.averageTime.toStringAsFixed(2),
-                          style: TextStyle(
-                            color: Colors.orange[300],
-                            fontSize: 25.sp,
-                          ),
-                        ),
-                        Text(
-                          "s",
-                          style: TextStyle(
-                            color: Colors.orange[300],
-                            fontSize: 20.sp,
-                          ),
+                        Row(
+                          children: [
+                            Text(
+                              "Average Time",
+                              style: TextStyle(
+                                color: Colors.grey[300],
+                                fontSize: 20.sp,
+                              ),
+                            ),
+                            SizedBox(width: 15.w),
+                            Text(
+                              questionProvider.averageTime.toStringAsFixed(2),
+                              style: TextStyle(
+                                color: Colors.orange[300],
+                                fontSize: 25.sp,
+                              ),
+                            ),
+                            Text(
+                              "s",
+                              style: TextStyle(
+                                color: Colors.orange[300],
+                                fontSize: 20.sp,
+                              ),
+                            ),
+                          ],
                         ),
                       ],
+                    ),
+                    ZoomTapAnimation(
+                      onTap: () {
+                        playTap(context);
+                        // showHelpDialog(context);
+                      },
+                      child: Icon(
+                        Icons.help_outline,
+                        color: Colors.grey[200],
+                        size: 20.sp,
+                      ),
                     ),
                   ],
                 );
