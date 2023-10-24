@@ -16,13 +16,13 @@ import 'package:trivia/providers/stage.dart';
 import 'package:trivia/providers/streaks.dart';
 import 'package:trivia/providers/time.dart';
 import 'package:trivia/screens/ad.dart';
-import 'package:trivia/screens/dashboard.dart';
 import 'package:trivia/screens/game.dart';
 import 'package:trivia/screens/leaderboard.dart';
 import 'package:trivia/screens/menu.dart';
 import 'package:trivia/screens/reward.dart';
 import 'package:trivia/screens/select.dart';
 import 'package:trivia/screens/stage.dart';
+import 'package:trivia/screens/statistics.dart';
 import 'package:trivia/screens/streaks.dart';
 
 Future<void> main() async {
@@ -84,7 +84,7 @@ class MyApp extends StatelessWidget {
               '/reward': (context) => const RewardScreen(),
               '/streaks': (context) => const StreaksScreeen(),
               '/leaderboard': (context) => const LeaderBoardScreen(),
-              '/dashboard': (context) => const DashBoardScreen(),
+              '/statistics': (context) => const StatisticsScreen(),
             },
           );
         });

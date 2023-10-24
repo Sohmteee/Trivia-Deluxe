@@ -96,7 +96,8 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                   ),
                   ZoomTapAnimation(
                     onTap: () {
-                      Navigator.pushNamed(context, "/dashboard");},
+                      Navigator.pushNamed(context, "/statistics");
+                    },
                     child: Container(
                       padding: EdgeInsets.symmetric(
                           horizontal: 20.w, vertical: 10.h),
@@ -105,7 +106,7 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                         borderRadius: BorderRadius.circular(50.r),
                       ),
                       child: Text(
-                        "Dashboard",
+                        "Statistics",
                         style: TextStyle(
                           color: AppColor.white,
                           fontSize: 20.sp,

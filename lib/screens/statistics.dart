@@ -8,14 +8,14 @@ import 'package:trivia/models/game_background.dart';
 import 'package:trivia/providers/question.dart';
 import 'package:mrx_charts/mrx_charts.dart';
 
-class DashBoardScreen extends StatefulWidget {
-  const DashBoardScreen({super.key});
+class StatisticsScreen extends StatefulWidget {
+  const StatisticsScreen({super.key});
 
   @override
-  State<DashBoardScreen> createState() => _DashBoardScreenState();
+  State<StatisticsScreen> createState() => _StatisticsScreenState();
 }
 
-class _DashBoardScreenState extends State<DashBoardScreen> {
+class _StatisticsScreenState extends State<StatisticsScreen> {
   @override
   Widget build(BuildContext context) {
     return GameBackground(
@@ -25,7 +25,7 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
           children: [
             Center(
               child: Text(
-                "Dashboard",
+                "Statistics",
                 style: TextStyle(
                   color: AppColor.yellow,
                   fontSize: 50.sp,
