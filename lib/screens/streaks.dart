@@ -59,649 +59,325 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
   @override
   Widget build(BuildContext context) {
     return GameBackground(
-      body: CustomScrollView(
-        slivers: [
-          SliverAppBar(
-            expandedHeight: 250.h,
-            backgroundColor: Colors.transparent,
-            automaticallyImplyLeading: false,
-            flexibleSpace: Padding(
-              padding: EdgeInsets.fromLTRB(20.w, 40.h, 20.w, 0),
-              child: Column(
-                children: [
-                  Center(
-                    child: Text(
-                      "Streaks",
-                      style: TextStyle(
-                        color: AppColor.yellow,
-                        fontSize: 50.sp,
-                      ),
-                      textAlign: TextAlign.center,
-                    ),
+      body: Consumer<StreaksProvider>(builder: (context, streaksProvider, _) {
+        return Padding(
+          padding: EdgeInsets.fromLTRB(20.w, 40.h, 20.w, 0),
+          child: Column(
+            children: [
+              Center(
+                child: Text(
+                  "Streaks",
+                  style: TextStyle(
+                    color: AppColor.yellow,
+                    fontSize: 50.sp,
                   ),
-                  SizedBox(height: 10.h),
-                  Consumer<QuestionProvider>(
-                    builder: (context, questionProvider, _) {
-                      return Row(
+                  textAlign: TextAlign.center,
+                ),
+              ),
+              SizedBox(height: 10.h),
+              Consumer<QuestionProvider>(
+                builder: (context, questionProvider, _) {
+                  return Row(
+                    children: [
+                      Stack(
+                        alignment: Alignment.center,
                         children: [
-                          Stack(
-                            alignment: Alignment.center,
-                            children: [
-                              SizedBox(
-                                width: 100.w,
-                                height: 100.h,
-                                child: Chart(
-                                  duration: const Duration(seconds: 2),
-                                  layers: [
-                                    ChartGroupPieLayer(
-                                      items: [
-                                        [
-                                          if (questionProvider.correctAnswers !=
-                                              0)
-                                            ChartGroupPieDataItem(
-                                              amount: questionProvider
-                                                  .correctAnswers
-                                                  .toDouble(),
-                                              color: AppColor.right,
-                                              label: "Correct Answers",
-                                            ),
-                                          if ((questionProvider
+                          SizedBox(
+                            width: 100.w,
+                            height: 100.h,
+                            child: Chart(
+                              duration: const Duration(seconds: 2),
+                              layers: [
+                                ChartGroupPieLayer(
+                                  items: [
+                                    [
+                                      if (questionProvider.correctAnswers != 0)
+                                        ChartGroupPieDataItem(
+                                          amount: questionProvider
+                                              .correctAnswers
+                                              .toDouble(),
+                                          color: AppColor.right,
+                                          label: "Correct Answers",
+                                        ),
+                                      if ((questionProvider
+                                                  .totalQuestionsAnswered -
+                                              questionProvider
+                                                  .correctAnswers) !=
+                                          0)
+                                        ChartGroupPieDataItem(
+                                          amount: (questionProvider
                                                       .totalQuestionsAnswered -
                                                   questionProvider
-                                                      .correctAnswers) !=
-                                              0)
-                                            ChartGroupPieDataItem(
-                                              amount: (questionProvider
-                                                          .totalQuestionsAnswered -
-                                                      questionProvider
-                                                          .correctAnswers)
-                                                  .toDouble(),
-                                              color: Colors.red,
-                                              label: "Wrong answers",
-                                            ),
-                                        ]
-                                      ],
-                                      settings: ChartGroupPieSettings(
-                                        radius: 30.r,
-                                        thickness: 5,
-                                        gapBetweenChartCircles: 2,
-                                      ),
-                                    )
+                                                      .correctAnswers)
+                                              .toDouble(),
+                                          color: Colors.red,
+                                          label: "Wrong answers",
+                                        ),
+                                    ]
                                   ],
-                                ),
-                              ),
-                              Text(
-                                "${questionProvider.totalQuestionsAnswered}",
-                                style: TextStyle(
-                                  color: AppColor.yellow,
-                                  fontSize: 28.sp,
-                                ),
-                              ),
-                            ],
+                                  settings: ChartGroupPieSettings(
+                                    radius: 30.r,
+                                    thickness: 5,
+                                    gapBetweenChartCircles: 2,
+                                  ),
+                                )
+                              ],
+                            ),
                           ),
-                          SizedBox(width: 10.w),
-                          Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
+                          Text(
+                            "${questionProvider.totalQuestionsAnswered}",
+                            style: TextStyle(
+                              color: AppColor.yellow,
+                              fontSize: 28.sp,
+                            ),
+                          ),
+                        ],
+                      ),
+                      SizedBox(width: 10.w),
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Row(
                             children: [
-                              Row(
-                                children: [
-                                  Container(
-                                    width: 10.w,
-                                    height: 10.w,
-                                    decoration: BoxDecoration(
-                                      color: AppColor.right,
-                                      shape: BoxShape.circle,
-                                    ),
-                                  ),
-                                  SizedBox(width: 10.w),
-                                  Row(
-                                    children: [
-                                      Text(
-                                        "${questionProvider.correctAnswers} correct answers ",
-                                        style: TextStyle(
-                                          color: Colors.grey[300],
-                                          fontSize: 16.sp,
-                                        ),
-                                      ),
-                                      Text(
-                                        "(${(questionProvider.correctAnswers / questionProvider.totalQuestionsAnswered * 100).toStringAsFixed(1)}%)",
-                                        style: TextStyle(
-                                          color: Colors.grey[400],
-                                          fontSize: 16.sp,
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ],
+                              Container(
+                                width: 10.w,
+                                height: 10.w,
+                                decoration: BoxDecoration(
+                                  color: AppColor.right,
+                                  shape: BoxShape.circle,
+                                ),
                               ),
+                              SizedBox(width: 10.w),
                               Row(
                                 children: [
-                                  Container(
-                                    width: 10.w,
-                                    height: 10.w,
-                                    decoration: BoxDecoration(
-                                      color: Colors.red,
-                                      shape: BoxShape.circle,
-                                    ),
-                                  ),
-                                  SizedBox(width: 10.w),
-                                  Row(
-                                    children: [
-                                      Text(
-                                        "${questionProvider.totalQuestionsAnswered - questionProvider.correctAnswers} incorrect answers ",
-                                        style: TextStyle(
-                                          color: Colors.grey[300],
-                                          fontSize: 16.sp,
-                                        ),
-                                      ),
-                                      Text(
-                                        "(${((questionProvider.totalQuestionsAnswered - questionProvider.correctAnswers) / questionProvider.totalQuestionsAnswered * 100).toStringAsFixed(1)}%)",
-                                        style: TextStyle(
-                                          color: Colors.grey[400],
-                                          fontSize: 16.sp,
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ],
-                              ),
-                              Row(
-                                children: [
-                                  Container(
-                                    width: 10.w,
-                                    height: 10.w,
-                                    decoration: BoxDecoration(
-                                      color: AppColor.yellow,
-                                      shape: BoxShape.circle,
-                                    ),
-                                  ),
-                                  SizedBox(width: 10.w),
                                   Text(
-                                    "Total questions answered",
+                                    "${questionProvider.correctAnswers} correct answers ",
                                     style: TextStyle(
                                       color: Colors.grey[300],
                                       fontSize: 16.sp,
                                     ),
                                   ),
+                                  Text(
+                                    "(${(questionProvider.correctAnswers / questionProvider.totalQuestionsAnswered * 100).toStringAsFixed(1)}%)",
+                                    style: TextStyle(
+                                      color: Colors.grey[400],
+                                      fontSize: 16.sp,
+                                    ),
+                                  ),
                                 ],
                               ),
                             ],
-                          )
-                        ],
-                      );
-                    },
-                  ),
-                  Consumer<QuestionProvider>(
-                      builder: (context, questionProvider, _) {
-                    return Row(
-                      children: [
-                        Row(
-                          children: [
-                            Text(
-                              "Average Time",
-                              style: TextStyle(
-                                color: Colors.grey[300],
-                                fontSize: 20.sp,
-                              ),
-                            ),
-                            SizedBox(width: 15.w),
-                            Text(
-                              questionProvider.averageTime.toStringAsFixed(2),
-                              style: TextStyle(
-                                color: Colors.orange[300],
-                                fontSize: 25.sp,
-                              ),
-                            ),
-                            Text(
-                              "s",
-                              style: TextStyle(
-                                color: Colors.orange[300],
-                                fontSize: 20.sp,
-                              ),
-                            ),
-                          ],
-                        ),
-                        const Spacer(flex: 1),
-                        ZoomTapAnimation(
-                          onTap: () {
-                            playTap(context);
-                            showAverageTimeDialog(context);
-                          },
-                          child: Icon(
-                            Icons.help_outline,
-                            color: Colors.grey[200],
-                            size: 20.sp,
                           ),
-                        ),
-                        const Spacer(flex: 9),
-                      ],
-                    );
-                  }),
-                ],
-              ),
-            ),
-          ),
-          // SizedBox(height: 10.h),
-          SliverList(
-            delegate: SliverChildBuilderDelegate(
-              // childCount: streaksProvider.streaks.length,
-              /* physics:
-                const BouncingScrollPhysics(), */
-              (context, index) {
-                return Consumer<StreaksProvider>(
-                    builder: (context, streaksProvider, _) {
-                  String streakTitle = streaksProvider.streaks[index]["title"];
-                  String image = streaksProvider.streaks[index]["image"];
-                  List streakList = streaksProvider.streaks[index]["streaks"];
-                  return Column(
-                    children: [
-                      Row(
-                        children: [
-                          Image.asset(
-                            width: 35.w,
-                            image,
+                          Row(
+                            children: [
+                              Container(
+                                width: 10.w,
+                                height: 10.w,
+                                decoration: BoxDecoration(
+                                  color: Colors.red,
+                                  shape: BoxShape.circle,
+                                ),
+                              ),
+                              SizedBox(width: 10.w),
+                              Row(
+                                children: [
+                                  Text(
+                                    "${questionProvider.totalQuestionsAnswered - questionProvider.correctAnswers} incorrect answers ",
+                                    style: TextStyle(
+                                      color: Colors.grey[300],
+                                      fontSize: 16.sp,
+                                    ),
+                                  ),
+                                  Text(
+                                    "(${((questionProvider.totalQuestionsAnswered - questionProvider.correctAnswers) / questionProvider.totalQuestionsAnswered * 100).toStringAsFixed(1)}%)",
+                                    style: TextStyle(
+                                      color: Colors.grey[400],
+                                      fontSize: 16.sp,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
-                          SizedBox(width: 10.w),
-                          Text(
-                            streakTitle,
-                            style: TextStyle(
-                              color: AppColor.white,
-                              fontSize: 30.sp,
-                            ),
+                          Row(
+                            children: [
+                              Container(
+                                width: 10.w,
+                                height: 10.w,
+                                decoration: BoxDecoration(
+                                  color: AppColor.yellow,
+                                  shape: BoxShape.circle,
+                                ),
+                              ),
+                              SizedBox(width: 10.w),
+                              Text(
+                                "Total questions answered",
+                                style: TextStyle(
+                                  color: Colors.grey[300],
+                                  fontSize: 16.sp,
+                                ),
+                              ),
+                            ],
                           ),
                         ],
-                      ),
-                      SizedBox(height: 5.h),
-                      Column(
-                        children: streakList
-                            .map(
-                              (item) => ListTile(
-                                minLeadingWidth: 20.w,
-                                leading: item["status"]
-                                    ? Image.asset("assets/images/cleared.png",
-                                        width: 25.w)
-                                    : SizedBox(width: 25.w),
-                                title: Text(
-                                  item["title"],
-                                  style: TextStyle(
-                                    color: AppColor.white,
-                                    fontSize: 18.sp,
-                                  ),
-                                ),
-                                subtitle: Text(
-                                  item["subtitle"],
-                                  style: TextStyle(
-                                    color: Vx.gray300,
-                                    fontSize: 14.sp,
-                                  ),
-                                ),
-                                trailing: Column(
-                                  mainAxisAlignment: MainAxisAlignment.center,
-                                  children: [
-                                    Text(
-                                      "${item["progress"]} / ${item["limit"]}",
-                                      style: TextStyle(
-                                        fontSize: 16.sp,
-                                        color: AppColor.yellow,
-                                      ),
-                                    ),
-                                    SizedBox(height: 5.h),
-                                    Stack(
-                                      alignment: Alignment.centerLeft,
-                                      children: [
-                                        Container(
-                                          height: 6.h,
-                                          width: 30.toDouble(),
-                                          decoration: BoxDecoration(
-                                            color: AppColor.white,
-                                            borderRadius:
-                                                BorderRadius.circular(50.r),
-                                          ),
-                                        ),
-                                        Container(
-                                          height: 6.h,
-                                          width: (item["progress"] /
-                                                  item["limit"]) *
-                                              30.toDouble(),
-                                          decoration: BoxDecoration(
-                                            color: AppColor.yellow,
-                                            borderRadius:
-                                                BorderRadius.circular(50.r),
-                                          ),
-                                        ),
-                                      ],
-                                    ),
-                                  ],
-                                ),
-                              ),
-                            )
-                            .toList(),
-                      ),
-                      SizedBox(height: 20.h),
+                      )
                     ],
                   );
-                });
-              },
-            ),
-          ),
-        ],
-      ),
-    );
-  }
-}
-
-Widget test() {
-  return Consumer<StreaksProvider>(builder: (context, streaksProvider, _) {
-    return Padding(
-      padding: EdgeInsets.fromLTRB(20.w, 40.h, 20.w, 0),
-      child: Column(
-        children: [
-          Center(
-            child: Text(
-              "Streaks",
-              style: TextStyle(
-                color: AppColor.yellow,
-                fontSize: 50.sp,
+                },
               ),
-              textAlign: TextAlign.center,
-            ),
-          ),
-          SizedBox(height: 10.h),
-          Consumer<QuestionProvider>(
-            builder: (context, questionProvider, _) {
-              return Row(
-                children: [
-                  Stack(
-                    alignment: Alignment.center,
-                    children: [
-                      SizedBox(
-                        width: 100.w,
-                        height: 100.h,
-                        child: Chart(
-                          duration: const Duration(seconds: 2),
-                          layers: [
-                            ChartGroupPieLayer(
-                              items: [
-                                [
-                                  if (questionProvider.correctAnswers != 0)
-                                    ChartGroupPieDataItem(
-                                      amount: questionProvider.correctAnswers
-                                          .toDouble(),
-                                      color: AppColor.right,
-                                      label: "Correct Answers",
-                                    ),
-                                  if ((questionProvider.totalQuestionsAnswered -
-                                          questionProvider.correctAnswers) !=
-                                      0)
-                                    ChartGroupPieDataItem(
-                                      amount: (questionProvider
-                                                  .totalQuestionsAnswered -
-                                              questionProvider.correctAnswers)
-                                          .toDouble(),
-                                      color: Colors.red,
-                                      label: "Wrong answers",
-                                    ),
-                                ]
-                              ],
-                              settings: ChartGroupPieSettings(
-                                radius: 30.r,
-                                thickness: 5,
-                                gapBetweenChartCircles: 2,
-                              ),
-                            )
-                          ],
-                        ),
-                      ),
-                      Text(
-                        "${questionProvider.totalQuestionsAnswered}",
-                        style: TextStyle(
-                          color: AppColor.yellow,
-                          fontSize: 28.sp,
-                        ),
-                      ),
-                    ],
-                  ),
-                  SizedBox(width: 10.w),
-                  Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Row(
-                        children: [
-                          Container(
-                            width: 10.w,
-                            height: 10.w,
-                            decoration: BoxDecoration(
-                              color: AppColor.right,
-                              shape: BoxShape.circle,
-                            ),
-                          ),
-                          SizedBox(width: 10.w),
-                          Row(
-                            children: [
-                              Text(
-                                "${questionProvider.correctAnswers} correct answers ",
-                                style: TextStyle(
-                                  color: Colors.grey[300],
-                                  fontSize: 16.sp,
-                                ),
-                              ),
-                              Text(
-                                "(${(questionProvider.correctAnswers / questionProvider.totalQuestionsAnswered * 100).toStringAsFixed(1)}%)",
-                                style: TextStyle(
-                                  color: Colors.grey[400],
-                                  fontSize: 16.sp,
-                                ),
-                              ),
-                            ],
-                          ),
-                        ],
-                      ),
-                      Row(
-                        children: [
-                          Container(
-                            width: 10.w,
-                            height: 10.w,
-                            decoration: BoxDecoration(
-                              color: Colors.red,
-                              shape: BoxShape.circle,
-                            ),
-                          ),
-                          SizedBox(width: 10.w),
-                          Row(
-                            children: [
-                              Text(
-                                "${questionProvider.totalQuestionsAnswered - questionProvider.correctAnswers} incorrect answers ",
-                                style: TextStyle(
-                                  color: Colors.grey[300],
-                                  fontSize: 16.sp,
-                                ),
-                              ),
-                              Text(
-                                "(${((questionProvider.totalQuestionsAnswered - questionProvider.correctAnswers) / questionProvider.totalQuestionsAnswered * 100).toStringAsFixed(1)}%)",
-                                style: TextStyle(
-                                  color: Colors.grey[400],
-                                  fontSize: 16.sp,
-                                ),
-                              ),
-                            ],
-                          ),
-                        ],
-                      ),
-                      Row(
-                        children: [
-                          Container(
-                            width: 10.w,
-                            height: 10.w,
-                            decoration: BoxDecoration(
-                              color: AppColor.yellow,
-                              shape: BoxShape.circle,
-                            ),
-                          ),
-                          SizedBox(width: 10.w),
-                          Text(
-                            "Total questions answered",
-                            style: TextStyle(
-                              color: Colors.grey[300],
-                              fontSize: 16.sp,
-                            ),
-                          ),
-                        ],
-                      ),
-                    ],
-                  )
-                ],
-              );
-            },
-          ),
-          Consumer<QuestionProvider>(builder: (context, questionProvider, _) {
-            return Row(
-              children: [
-                Row(
-                  children: [
-                    Text(
-                      "Average Time",
-                      style: TextStyle(
-                        color: Colors.grey[300],
-                        fontSize: 20.sp,
-                      ),
-                    ),
-                    SizedBox(width: 15.w),
-                    Text(
-                      questionProvider.averageTime.toStringAsFixed(2),
-                      style: TextStyle(
-                        color: Colors.orange[300],
-                        fontSize: 25.sp,
-                      ),
-                    ),
-                    Text(
-                      "s",
-                      style: TextStyle(
-                        color: Colors.orange[300],
-                        fontSize: 20.sp,
-                      ),
-                    ),
-                  ],
-                ),
-                const Spacer(flex: 1),
-                ZoomTapAnimation(
-                  onTap: () {
-                    playTap(context);
-                    showAverageTimeDialog(context);
-                  },
-                  child: Icon(
-                    Icons.help_outline,
-                    color: Colors.grey[200],
-                    size: 20.sp,
-                  ),
-                ),
-                const Spacer(flex: 9),
-              ],
-            );
-          }),
-          SizedBox(height: 20.h),
-          Expanded(
-            child: ListView.separated(
-              itemCount: streaksProvider.streaks.length,
-              padding: EdgeInsets.only(top: 10.h),
-              physics: const BouncingScrollPhysics(),
-              itemBuilder: (BuildContext context, int index) {
-                String streakTitle = streaksProvider.streaks[index]["title"];
-                String image = streaksProvider.streaks[index]["image"];
-                List streakList = streaksProvider.streaks[index]["streaks"];
-                return Column(
+              Consumer<QuestionProvider>(
+                  builder: (context, questionProvider, _) {
+                return Row(
                   children: [
                     Row(
                       children: [
-                        Image.asset(
-                          width: 35.w,
-                          image,
-                        ),
-                        SizedBox(width: 10.w),
                         Text(
-                          streakTitle,
+                          "Average Time",
                           style: TextStyle(
-                            color: AppColor.white,
-                            fontSize: 30.sp,
+                            color: Colors.grey[300],
+                            fontSize: 20.sp,
+                          ),
+                        ),
+                        SizedBox(width: 15.w),
+                        Text(
+                          questionProvider.averageTime.toStringAsFixed(2),
+                          style: TextStyle(
+                            color: Colors.orange[300],
+                            fontSize: 25.sp,
+                          ),
+                        ),
+                        Text(
+                          "s",
+                          style: TextStyle(
+                            color: Colors.orange[300],
+                            fontSize: 20.sp,
                           ),
                         ),
                       ],
                     ),
-                    SizedBox(height: 5.h),
-                    Column(
-                      children: streakList
-                          .map(
-                            (item) => ListTile(
-                              minLeadingWidth: 20.w,
-                              leading: item["status"]
-                                  ? Image.asset("assets/images/cleared.png",
-                                      width: 25.w)
-                                  : SizedBox(width: 25.w),
-                              title: Text(
-                                item["title"],
-                                style: TextStyle(
-                                  color: AppColor.white,
-                                  fontSize: 18.sp,
-                                ),
+                    const Spacer(flex: 1),
+                    ZoomTapAnimation(
+                      onTap: () {
+                        playTap(context);
+                        showAverageTimeDialog(context);
+                      },
+                      child: Icon(
+                        Icons.help_outline,
+                        color: Colors.grey[200],
+                        size: 20.sp,
+                      ),
+                    ),
+                    const Spacer(flex: 9),
+                  ],
+                );
+              }),
+              SizedBox(height: 20.h),
+              Expanded(
+                child: ListView.separated(
+                  itemCount: streaksProvider.streaks.length,
+                  padding: EdgeInsets.only(top: 10.h),
+                  physics: const BouncingScrollPhysics(),
+                  itemBuilder: (BuildContext context, int index) {
+                    String streakTitle =
+                        streaksProvider.streaks[index]["title"];
+                    String image = streaksProvider.streaks[index]["image"];
+                    List streakList = streaksProvider.streaks[index]["streaks"];
+                    return Column(
+                      children: [
+                        Row(
+                          children: [
+                            Image.asset(
+                              width: 35.w,
+                              image,
+                            ),
+                            SizedBox(width: 10.w),
+                            Text(
+                              streakTitle,
+                              style: TextStyle(
+                                color: AppColor.white,
+                                fontSize: 30.sp,
                               ),
-                              subtitle: Text(
-                                item["subtitle"],
-                                style: TextStyle(
-                                  color: Vx.gray300,
-                                  fontSize: 14.sp,
-                                ),
-                              ),
-                              trailing: Column(
-                                mainAxisAlignment: MainAxisAlignment.center,
-                                children: [
-                                  Text(
-                                    "${item["progress"]} / ${item["limit"]}",
+                            ),
+                          ],
+                        ),
+                        SizedBox(height: 5.h),
+                        Column(
+                          children: streakList
+                              .map(
+                                (item) => ListTile(
+                                  minLeadingWidth: 20.w,
+                                  leading: item["status"]
+                                      ? Image.asset("assets/images/cleared.png",
+                                          width: 25.w)
+                                      : SizedBox(width: 25.w),
+                                  title: Text(
+                                    item["title"],
                                     style: TextStyle(
-                                      fontSize: 16.sp,
-                                      color: AppColor.yellow,
+                                      color: AppColor.white,
+                                      fontSize: 18.sp,
                                     ),
                                   ),
-                                  SizedBox(height: 5.h),
-                                  Stack(
-                                    alignment: Alignment.centerLeft,
+                                  subtitle: Text(
+                                    item["subtitle"],
+                                    style: TextStyle(
+                                      color: Vx.gray300,
+                                      fontSize: 14.sp,
+                                    ),
+                                  ),
+                                  trailing: Column(
+                                    mainAxisAlignment: MainAxisAlignment.center,
                                     children: [
-                                      Container(
-                                        height: 6.h,
-                                        width: 30.toDouble(),
-                                        decoration: BoxDecoration(
-                                          color: AppColor.white,
-                                          borderRadius:
-                                              BorderRadius.circular(50.r),
+                                      Text(
+                                        "${item["progress"]} / ${item["limit"]}",
+                                        style: TextStyle(
+                                          fontSize: 16.sp,
+                                          color: AppColor.yellow,
                                         ),
                                       ),
-                                      Container(
-                                        height: 6.h,
-                                        width:
-                                            (item["progress"] / item["limit"]) *
+                                      SizedBox(height: 5.h),
+                                      Stack(
+                                        alignment: Alignment.centerLeft,
+                                        children: [
+                                          Container(
+                                            height: 6.h,
+                                            width: 30.toDouble(),
+                                            decoration: BoxDecoration(
+                                              color: AppColor.white,
+                                              borderRadius:
+                                                  BorderRadius.circular(50.r),
+                                            ),
+                                          ),
+                                          Container(
+                                            height: 6.h,
+                                            width: (item["progress"] /
+                                                    item["limit"]) *
                                                 30.toDouble(),
-                                        decoration: BoxDecoration(
-                                          color: AppColor.yellow,
-                                          borderRadius:
-                                              BorderRadius.circular(50.r),
-                                        ),
+                                            decoration: BoxDecoration(
+                                              color: AppColor.yellow,
+                                              borderRadius:
+                                                  BorderRadius.circular(50.r),
+                                            ),
+                                          ),
+                                        ],
                                       ),
                                     ],
                                   ),
-                                ],
-                              ),
-                            ),
-                          )
-                          .toList(),
-                    ),
-                  ],
-                );
-              },
-              separatorBuilder: (BuildContext context, int index) {
-                return SizedBox(height: 20.h);
-              },
-            ),
+                                ),
+                              )
+                              .toList(),
+                        ),
+                      ],
+                    );
+                  },
+                  separatorBuilder: (BuildContext context, int index) {
+                    return SizedBox(height: 20.h);
+                  },
+                ),
+              ),
+            ],
           ),
-        ],
-      ),
+        );
+      }),
     );
-  });
+  }
 }
