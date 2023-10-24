@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
+import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/main.dart';
 import 'package:trivia/models/dialogs/credits.dart';
 import 'package:trivia/models/dialogs/game.dart';
@@ -37,7 +38,7 @@ showSettingsDialog(BuildContext context) {
                   Text(
                     "Music",
                     style: TextStyle(
-                      color: Colors.grey[400],
+                      color: AppColor.yellow,
                       fontSize: 18.sp,
                     ),
                   ),
@@ -89,7 +90,7 @@ showSettingsDialog(BuildContext context) {
                   Text(
                     "Sound effects",
                     style: TextStyle(
-                      color: Colors.grey[400],
+                      color: AppColor.yellow,
                       fontSize: 18.sp,
                     ),
                   ),
@@ -142,7 +143,7 @@ showSettingsDialog(BuildContext context) {
                       Text(
                         "Auto Answer",
                         style: TextStyle(
-                          color: Colors.grey[400],
+                          color: AppColor.yellow,
                           fontSize: 18.sp,
                         ),
                       ),
