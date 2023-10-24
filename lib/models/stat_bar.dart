@@ -26,7 +26,6 @@ class _GameStatsState extends State<GameStats> {
 
   @override
   void initState() {
-    
     super.initState();
 
     WidgetsBinding.instance.addPostFrameCallback((_) {
