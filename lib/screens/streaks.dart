@@ -63,6 +63,7 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
       slivers: [
         SliverAppBar(
           expandedHeight: 250.h,
+          back
           flexibleSpace: Column(children: [
             Center(
               child: Text(
