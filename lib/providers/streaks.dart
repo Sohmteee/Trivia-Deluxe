@@ -474,7 +474,7 @@ class StreaksProvider extends ChangeNotifier {
   }
 
   void updateCoinStreak(int coins) {
-    coinStreak += coins;
+    coinStreak = coins;
     box.put("coinStreak", coinStreak);
 
     if (coinStreak > permanentCoinStreak &&
