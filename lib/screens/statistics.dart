@@ -5,6 +5,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/main.dart';
+import 'package:trivia/models/dialogs/average_time.dart';
 import 'package:trivia/models/game_background.dart';
 import 'package:trivia/providers/question.dart';
 import 'package:mrx_charts/mrx_charts.dart';
@@ -219,11 +220,11 @@ class _StatisticsScreenState extends State<StatisticsScreen> {
                                   ),
                                 ],
                               ),
-                              const Spacer(flex: 3),
+                              const Spacer(flex: 1),
                               ZoomTapAnimation(
                                 onTap: () {
                                   playTap(context);
-                                  // showHelpDialog(context);
+                                  showAverageTimeDialog(context);
                                 },
                                 child: Icon(
                                   Icons.help_outline,
@@ -231,7 +232,7 @@ class _StatisticsScreenState extends State<StatisticsScreen> {
                                   size: 20.sp,
                                 ),
                               ),
-                              const Spacer(flex: 7),
+                              const Spacer(flex: 9),
                             ],
                           ),
                         ],
