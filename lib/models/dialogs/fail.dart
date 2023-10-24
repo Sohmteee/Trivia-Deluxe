@@ -95,6 +95,7 @@ showFailedDialog(BuildContext context, questionIndex, bool timeUp) {
                             if (Provider.of<QuestionProvider>(context)
                                 .autoAnswer) {
                               Navigator.pushReplacementNamed(context, "/game");
+                              Navi
                             } else {
                               Navigator.pushReplacementNamed(context, "/stage");
                             }
