@@ -72,7 +72,7 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                                   questionProvider.correctAnswers)
                               .toString(),
                           style: TextStyle(
-                            color: AppColor.right,
+                            color: AppColor.wrong,
                             fontSize: 25.sp,
                           ),
                           textAlign: TextAlign.center,
@@ -91,9 +91,9 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                         ),
                         SizedBox(width: 20.w),
                         Text(
-                          questionProvider.correctAnswers.toString(),
+                          questionProvider.totalQuestionsAnswered.toString(),
                           style: TextStyle(
-                            color: AppColor.right,
+                            color: AppColor.yellow,
                             fontSize: 25.sp,
                           ),
                           textAlign: TextAlign.center,
