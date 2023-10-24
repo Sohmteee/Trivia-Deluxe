@@ -38,7 +38,7 @@ showSettingsDialog(BuildContext context) {
                   Text(
                     "Music",
                     style: TextStyle(
-                      color: Colors.grey[400],
+                      color: Colors.white,
                       fontSize: 18.sp,
                     ),
                   ),
@@ -90,7 +90,7 @@ showSettingsDialog(BuildContext context) {
                   Text(
                     "Sound effects",
                     style: TextStyle(
-                      color: Colors.grey[400],
+                      color: Colors.white,
                       fontSize: 18.sp,
                     ),
                   ),
@@ -143,7 +143,7 @@ showSettingsDialog(BuildContext context) {
                       Text(
                         "Auto Answer",
                         style: TextStyle(
-                          color: Colors.grey[400],
+                          color: Colors.white,
                           fontSize: 18.sp,
                         ),
                       ),
