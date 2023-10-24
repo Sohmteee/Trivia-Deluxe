@@ -229,7 +229,7 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                         ],
                       ),
                   ],
-                );
+                ) : SizedBox();
                 },
               ),
               Consumer<QuestionProvider>(
