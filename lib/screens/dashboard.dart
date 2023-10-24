@@ -163,6 +163,37 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                                   ),
                                 ],
                               ),
+                              Row(
+                                children: [
+                                  Container(
+                                    width: 10.w,
+                                    height: 10.w,
+                                    decoration: BoxDecoration(
+                                      color: Colors.red,
+                                      shape: BoxShape.circle,
+                                    ),
+                                  ),
+                                  SizedBox(width: 10.w),
+                                  Row(
+                                    children: [
+                                      Text(
+                                        "${questionProvider.totalQuestionsAnswered} total questions answered ",
+                                        style: TextStyle(
+                                          color: Colors.red,
+                                          fontSize: 16.sp,
+                                        ),
+                                      ),
+                                      Text(
+                                        "(${(questionProvider.totalQuestionsAnswered / questionProvider.totalQuestionsAnswered * 100).toStringAsFixed(1)}%)",
+                                        style: TextStyle(
+                                          color: Colors.grey[400],
+                                          fontSize: 16.sp,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ],
+                              ),
                             ],
                           )
                         ],
