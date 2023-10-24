@@ -162,7 +162,12 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                                     ],
                                   ),
                                 ],
-                              ),Row(
+                              ),
+                            ],
+                          )
+                        ],
+                      ),
+                    Row(
                       children: [
                         Container(
                           width: 10.w,
@@ -227,12 +232,6 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                         ),
                       ],
                     ),
-                    SizedBox(height: 20.h),
-                            ],
-                          )
-                        ],
-                      ),
-                      
                   ],
                 );
               },
