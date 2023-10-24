@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
@@ -74,7 +76,7 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                                   questionProvider.correctAnswers)
                               .toString(),
                           style: TextStyle(
-                            color: AppColor.wrong,
+                            color: Colors.red,
                             fontSize: 25.sp,
                           ),
                           textAlign: TextAlign.center,
@@ -106,47 +108,51 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                     if (questionProvider.totalQuestionsAnswered != 0)
                       Row(
                         children: [
-                          SizedBox(
-                            width: 100.w,
-                            height: 100.h,
-                            child: Chart(
-                              duration: const Duration(seconds: 2),
-                              layers: [
-                                ChartGroupPieLayer(
-                                  items: [
-                                    [
-                                      if (questionProvider.correctAnswers != 0)
-                                        ChartGroupPieDataItem(
-                                          amount: questionProvider
-                                              .correctAnswers
-                                              .toDouble(),
-                                          color: AppColor.right,
-                                          label: "Correct Answers",
-                                        ),
-                                      if ((questionProvider
-                                                  .totalQuestionsAnswered -
-                                              questionProvider
-                                                  .correctAnswers) !=
-                                          0)
-                                        ChartGroupPieDataItem(
-                                          amount: (questionProvider
+                          Stack(
+                            children: [
+                              SizedBox(
+                                width: 100.w,
+                                height: 100.h,
+                                child: Chart(
+                                  duration: const Duration(seconds: 2),
+                                  layers: [
+                                    ChartGroupPieLayer(
+                                      items: [
+                                        [
+                                          if (questionProvider.correctAnswers != 0)
+                                            ChartGroupPieDataItem(
+                                              amount: questionProvider
+                                                  .correctAnswers
+                                                  .toDouble(),
+                                              color: AppColor.right,
+                                              label: "Correct Answers",
+                                            ),
+                                          if ((questionProvider
                                                       .totalQuestionsAnswered -
                                                   questionProvider
-                                                      .correctAnswers)
-                                              .toDouble(),
-                                          color: Colors.red,
-                                          label: "Wrong answers",
-                                        ),
-                                    ]
+                                                      .correctAnswers) !=
+                                              0)
+                                            ChartGroupPieDataItem(
+                                              amount: (questionProvider
+                                                          .totalQuestionsAnswered -
+                                                      questionProvider
+                                                          .correctAnswers)
+                                                  .toDouble(),
+                                              color: Colors.red,
+                                              label: "Wrong answers",
+                                            ),
+                                        ]
+                                      ],
+                                      settings: ChartGroupPieSettings(
+                                        radius: 30.r,
+                                        thickness: 5,
+                                        gapBetweenChartCircles: 2,
+                                      ),
+                                    )
                                   ],
-                                  settings: ChartGroupPieSettings(
-                                    radius: 30.r,
-                                    thickness: 5,
-                                    gapBetweenChartCircles: 2,
-                                  ),
-                                )
-                              ],
-                            ),
+                                ),
+                              ),
+                            ],
                           ),
                           Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -165,7 +171,7 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                                   Row(
                                     children: [
                                       Text(
-                                        "${questionProvider.correctAnswers} ",
+                                        "${questionProvider.correctAnswers}  ",
                                         style: TextStyle(
                                           color: AppColor.right,
                                           fontSize: 16.sp,
@@ -187,7 +193,7 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                                   Container(
                                     width: 10.w,
                                     height: 10.w,
-                                    decoration: conBoxDecoration(
+                                    decoration: BoxDecoration(
                                       color: Colors.red,
                                       shape: BoxShape.circle,
                                     ),
@@ -198,7 +204,7 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                                       Text(
                                         "${questionProvider.totalQuestionsAnswered - questionProvider.correctAnswers} ",
                                         style: TextStyle(
-                                          color: AppColor.wrong,
+                                          color: Colors.red,
                                           fontSize: 16.sp,
                                         ),
                                       ),
