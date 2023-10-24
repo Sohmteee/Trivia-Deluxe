@@ -300,7 +300,7 @@ class _MenuScreenState extends State<MenuScreen>
                           ],
                         ),
                         Container(
-                          height: 40.h,
+                          height: 50.h,
                           decoration: BoxDecoration(
                             boxShadow: [
                               BoxShadow(
