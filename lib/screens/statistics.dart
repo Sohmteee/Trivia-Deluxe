@@ -299,7 +299,7 @@ class _StatisticsScreenState extends State<StatisticsScreen> {
                                       fontSize: 25.sp,
                                     ),
                                   ),
-                                  ),
+                                  
                                 ],
                               ),
                               const Spacer(flex: 1),
