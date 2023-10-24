@@ -6,7 +6,6 @@ import 'package:trivia/models/game_background.dart';
 import 'package:trivia/providers/question.dart';
 import 'package:mrx_charts/mrx_charts.dart';
 
-
 class DashBoardScreen extends StatefulWidget {
   const DashBoardScreen({super.key});
 
@@ -117,25 +116,22 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                                   [
                                     if (questionProvider.correctAnswers != 0)
                                       ChartGroupPieDataItem(
-                                        amount: questionProvider.correctAnswers.toDouble(),
+                                        amount: questionProvider.correctAnswers
+                                            .toDouble(),
                                         color: AppColor.right,
                                         label: "Good Days",
                                       ),
                                     if ((questionProvider
                                                 .totalQuestionsAnswered -
-                                            questionProvider.correctAnswers) != 0)
+                                            questionProvider.correctAnswers) !=
+                                        0)
                                       ChartGroupPieDataItem(
                                         amount: (questionProvider
-                                                .totalQuestionsAnswered -
-                                            questionProvider.correctAnswers).toDouble(),
+                                                    .totalQuestionsAnswered -
+                                                questionProvider.correctAnswers)
+                                            .toDouble(),
                                         color: Colors.red,
                                         label: "Bad Days",
-                                      ),
-                                    if (neutralDays != 0)
-                                      ChartGroupPieDataItem(
-                                        amount: neutralDays,
-                                        color: grey400,
-                                        label: "Neutral Days",
                                       ),
                                   ]
                                 ],
