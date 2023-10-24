@@ -115,7 +115,7 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                                   Row(
                                     children: [
                                       Text(
-                                        "1000 correct answers ",
+                                        "${questionProvider.correctAnswers} correct answers ",
                                         style: TextStyle(
                                           color: AppColor.right,
                                           fontSize: 16.sp,
@@ -146,7 +146,7 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                                   Row(
                                     children: [
                                       Text(
-                                        "${questionProvider.totalQuestionsAnswered - questionProvider.correctAnswers}  ",
+                                        "${questionProvider.totalQuestionsAnswered - questionProvider.correctAnswers} incorrect answers ",
                                         style: TextStyle(
                                           color: Colors.red,
                                           fontSize: 16.sp,
