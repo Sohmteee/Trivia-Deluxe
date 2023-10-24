@@ -56,6 +56,7 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                         ),
                       ],
                     ),
+                    SizedBox(height: 10.h),
                     Row(
                       children: [
                         Text(
@@ -79,6 +80,7 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                         ),
                       ],
                     ),
+                    SizedBox(height: 10.h),
                     Row(
                       children: [
                         Text(
