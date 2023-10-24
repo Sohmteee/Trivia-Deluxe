@@ -39,9 +39,9 @@ class _StatisticsScreenState extends State<StatisticsScreen> {
             SizedBox(height: 20.h),
             Consumer<QuestionProvider>(
               builder: (context, questionProvider, _) {
-                return Column(
+                return 
+                    questionProvider.totalQuestionsAnswered != 0 Column(
                   children: [
-                    if (questionProvider.totalQuestionsAnswered != 0)
                       Row(
                         children: [
                           Stack(
