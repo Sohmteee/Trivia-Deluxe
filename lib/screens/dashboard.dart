@@ -169,7 +169,7 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                                     width: 10.w,
                                     height: 10.w,
                                     decoration: BoxDecoration(
-                                      color: Colors.red,
+                                      color: AppColor.yellow,
                                       shape: BoxShape.circle,
                                     ),
                                   ),
@@ -177,16 +177,9 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                                   Row(
                                     children: [
                                       Text(
-                                        "${questionProvider.totalQuestionsAnswered} total questions answered ",
+                                        "1000 questions answered",
                                         style: TextStyle(
-                                          color: Colors.red,
-                                          fontSize: 16.sp,
-                                        ),
-                                      ),
-                                      Text(
-                                        "(${(questionProvider.totalQuestionsAnswered / questionProvider.totalQuestionsAnswered * 100).toStringAsFixed(1)}%)",
-                                        style: TextStyle(
-                                          color: Colors.grey[400],
+                                          color: AppColor.yellow,
                                           fontSize: 16.sp,
                                         ),
                                       ),
