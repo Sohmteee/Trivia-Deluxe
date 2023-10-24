@@ -283,99 +283,107 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
           ),
           Consumer<StreaksProvider>(builder: (context, streaksProvider, _) {
             return SliverList(
-              delegate: SliverChildBuilderDelegate((context, index) {
-                String streakTitle = streaksProvider.streaks[index]["title"];
-                String image = streaksProvider.streaks[index]["image"];
-                List streakList = streaksProvider.streaks[index]["streaks"];
+              delegate: SliverChildBuilderDelegate(
+                childCount: streaksProvider.streaks.length,
+                
+                padding:
+                EdgeInsets.only(top: 10.h),
+                physics:
+                const BouncingScrollPhysics();
+                (context, index) {
+                  String streakTitle = streaksProvider.streaks[index]["title"];
+                  String image = streaksProvider.streaks[index]["image"];
+                  List streakList = streaksProvider.streaks[index]["streaks"];
 
-                return Column(
-                  children: [
-                    Row(
-                      children: [
-                        Image.asset(
-                          width: 35.w,
-                          image,
-                        ),
-                        SizedBox(width: 10.w),
-                        Text(
-                          streakTitle,
-                          style: TextStyle(
-                            color: AppColor.white,
-                            fontSize: 30.sp,
+                  return Column(
+                    children: [
+                      Row(
+                        children: [
+                          Image.asset(
+                            width: 35.w,
+                            image,
                           ),
-                        ),
-                      ],
-                    ),
-                    SizedBox(height: 5.h),
-                    Column(
-                      children: streakList
-                          .map(
-                            (item) => ListTile(
-                              minLeadingWidth: 20.w,
-                              leading: item["status"]
-                                  ? Image.asset("assets/images/cleared.png",
-                                      width: 25.w)
-                                  : SizedBox(width: 25.w),
-                              title: Text(
-                                item["title"],
-                                style: TextStyle(
-                                  color: AppColor.white,
-                                  fontSize: 18.sp,
-                                ),
-                              ),
-                              subtitle: Text(
-                                item["subtitle"],
-                                style: TextStyle(
-                                  color: Vx.gray300,
-                                  fontSize: 14.sp,
-                                ),
-                              ),
-                              trailing: Column(
-                                mainAxisAlignment: MainAxisAlignment.center,
-                                children: [
-                                  Text(
-                                    "${item["progress"]} / ${item["limit"]}",
-                                    style: TextStyle(
-                                      fontSize: 16.sp,
-                                      color: AppColor.yellow,
-                                    ),
-                                  ),
-                                  SizedBox(height: 5.h),
-                                  Stack(
-                                    alignment: Alignment.centerLeft,
-                                    children: [
-                                      Container(
-                                        height: 6.h,
-                                        width: 30.toDouble(),
-                                        decoration: BoxDecoration(
-                                          color: AppColor.white,
-                                          borderRadius:
-                                              BorderRadius.circular(50.r),
-                                        ),
-                                      ),
-                                      Container(
-                                        height: 6.h,
-                                        width:
-                                            (item["progress"] / item["limit"]) *
-                                                30.toDouble(),
-                                        decoration: BoxDecoration(
-                                          color: AppColor.yellow,
-                                          borderRadius:
-                                              BorderRadius.circular(50.r),
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ],
-                              ),
+                          SizedBox(width: 10.w),
+                          Text(
+                            streakTitle,
+                            style: TextStyle(
+                              color: AppColor.white,
+                              fontSize: 30.sp,
                             ),
-                          )
-                          .toList(),
-                    ),
-                    SizedBox(height: 20.h),
-                  ],
-                );
-              }),
+                          ),
+                        ],
+                      ),
+                      SizedBox(height: 5.h),
+                      Column(
+                        children: streakList
+                            .map(
+                              (item) => ListTile(
+                                minLeadingWidth: 20.w,
+                                leading: item["status"]
+                                    ? Image.asset("assets/images/cleared.png",
+                                        width: 25.w)
+                                    : SizedBox(width: 25.w),
+                                title: Text(
+                                  item["title"],
+                                  style: TextStyle(
+                                    color: AppColor.white,
+                                    fontSize: 18.sp,
+                                  ),
+                                ),
+                                subtitle: Text(
+                                  item["subtitle"],
+                                  style: TextStyle(
+                                    color: Vx.gray300,
+                                    fontSize: 14.sp,
+                                  ),
+                                ),
+                                trailing: Column(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Text(
+                                      "${item["progress"]} / ${item["limit"]}",
+                                      style: TextStyle(
+                                        fontSize: 16.sp,
+                                        color: AppColor.yellow,
+                                      ),
+                                    ),
+                                    SizedBox(height: 5.h),
+                                    Stack(
+                                      alignment: Alignment.centerLeft,
+                                      children: [
+                                        Container(
+                                          height: 6.h,
+                                          width: 30.toDouble(),
+                                          decoration: BoxDecoration(
+                                            color: AppColor.white,
+                                            borderRadius:
+                                                BorderRadius.circular(50.r),
+                                          ),
+                                        ),
+                                        Container(
+                                          height: 6.h,
+                                          width: (item["progress"] /
+                                                  item["limit"]) *
+                                              30.toDouble(),
+                                          decoration: BoxDecoration(
+                                            color: AppColor.yellow,
+                                            borderRadius:
+                                                BorderRadius.circular(50.r),
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            )
+                            .toList(),
+                      ),
+                      SizedBox(height: 20.h),
+                    ],
+                  );
+                },
+              ),
             );
           }),
         ],
