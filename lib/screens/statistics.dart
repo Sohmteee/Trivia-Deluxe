@@ -235,6 +235,94 @@ class _StatisticsScreenState extends State<StatisticsScreen> {
                               const Spacer(flex: 9),
                             ],
                           ),
+                          Row(
+                            children: [
+                              Row(
+                                children: [
+                                  Text(
+                                    "Average Time",
+                                    style: TextStyle(
+                                      color: Colors.grey[300],
+                                      fontSize: 20.sp,
+                                    ),
+                                  ),
+                                  SizedBox(width: 15.w),
+                                  Text(
+                                    questionProvider.averageTime
+                                        .toStringAsFixed(2),
+                                    style: TextStyle(
+                                      color: Colors.orange[300],
+                                      fontSize: 25.sp,
+                                    ),
+                                  ),
+                                  Text(
+                                    "s",
+                                    style: TextStyle(
+                                      color: Colors.orange[300],
+                                      fontSize: 20.sp,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                              const Spacer(flex: 1),
+                              ZoomTapAnimation(
+                                onTap: () {
+                                  playTap(context);
+                                  showAverageTimeDialog(context);
+                                },
+                                child: Icon(
+                                  Icons.help_outline,
+                                  color: Colors.grey[200],
+                                  size: 20.sp,
+                                ),
+                              ),
+                              const Spacer(flex: 9),
+                            ],
+                          ),
+                          Row(
+                            children: [
+                              Row(
+                                children: [
+                                  Text(
+                                    "Leaderboard Score",
+                                    style: TextStyle(
+                                      color: Colors.grey[300],
+                                      fontSize: 20.sp,
+                                    ),
+                                  ),
+                                  SizedBox(width: 15.w),
+                                  Text(
+                                    questionProvider.averageTime
+                                        .toStringAsFixed(2),
+                                    style: TextStyle(
+                                      color: Colors.orange[300],
+                                      fontSize: 25.sp,
+                                    ),
+                                  ),
+                                  Text(
+                                    "s",
+                                    style: TextStyle(
+                                      color: Colors.orange[300],
+                                      fontSize: 20.sp,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                              const Spacer(flex: 1),
+                              ZoomTapAnimation(
+                                onTap: () {
+                                  playTap(context);
+                                  showAverageTimeDialog(context);
+                                },
+                                child: Icon(
+                                  Icons.help_outline,
+                                  color: Colors.grey[200],
+                                  size: 20.sp,
+                                ),
+                              ),
+                              const Spacer(flex: 9),
+                            ],
+                          ),
                         ],
                       )
                     : Expanded(
