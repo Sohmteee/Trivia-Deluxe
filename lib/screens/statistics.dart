@@ -241,7 +241,7 @@ class _StatisticsScreenState extends State<StatisticsScreen> {
                           child: Text(
                             "Answer at least one question to show statistics.",
                             style: TextStyle(
-                              color: Colors.grey[300],
+                              color: Colors.grey[400],
                               fontSize: 20.sp,
                             ),
                             textAlign: TextAlign.center,
