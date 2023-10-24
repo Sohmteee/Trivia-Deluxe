@@ -235,7 +235,7 @@ class _StatisticsScreenState extends State<StatisticsScreen> {
                               const Spacer(flex: 9),
                             ],
                           ),
-                          Row(
+                          /* Row(
                             children: [
                               Row(
                                 children: [
@@ -271,7 +271,7 @@ class _StatisticsScreenState extends State<StatisticsScreen> {
                               ),
                               const Spacer(flex: 9),
                             ],
-                          ),
+                          ), */
                         ],
                       )
                     : Expanded(
