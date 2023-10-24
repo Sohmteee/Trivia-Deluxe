@@ -27,7 +27,7 @@ showAverageTimeDialog(BuildContext context) {
         SizedBox(height: 20.h),
         Text(
           "Your average time is calculated by the total time you took to answer all the questions divided by the number of questions you answered."
-          "\nIf you fail a question though, the time you took to answer it will be alloted as 30 seconds.",
+          "\nIf you fail a question though, the time taken to answer that question is not included in the calculation.",
           style: TextStyle(
             color: Colors.white,
             fontSize: 18.sp,
