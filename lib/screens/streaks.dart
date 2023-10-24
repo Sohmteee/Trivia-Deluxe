@@ -280,9 +280,10 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
               ],
             ),
           ),
-        )
+        ),
+        SliverList(delegate: SliverChild)
       ],
-    ));
+    ),);
   }
 }
 
