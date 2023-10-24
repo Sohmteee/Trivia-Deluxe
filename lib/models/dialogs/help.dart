@@ -8,7 +8,7 @@ showHelpDialog(BuildContext context) {
     context,
     isExitable: true,
     padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 40),
-    margin: EdgeInsets.symmetric(horizontal: 40.w, vertical: 24.w),
+    margin: EdgeInsets.symmetric(horizontal: 60.w, vertical: 24.h),
     child: Column(
       mainAxisSize: MainAxisSize.min,
       children: [
@@ -23,10 +23,10 @@ showHelpDialog(BuildContext context) {
         ),
         SizedBox(height: 20.h),
         Text(
-          "Auto Answer is a feature that automatically answers the question for you. It is available for 1 question only and can be used only once per game.",
+          "Auto Answer is a feature that automatically takes you to the next question without you having to select.",
           style: TextStyle(
             color: Colors.white,
-            fontSize: 15.sp,
+            fontSize: 18.sp,
           ),
           textAlign: TextAlign.center,
         ),
