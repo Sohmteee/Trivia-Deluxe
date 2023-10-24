@@ -6,7 +6,6 @@ class ScoreProvider extends ChangeNotifier {
 
   int _coinScore = box.get("coinScore", defaultValue: 0);
   int get coinScore => _coinScore;
-  int score = 
 
   void increaseCoinScore(int newCoinScore) {
     _coinScore += newCoinScore;

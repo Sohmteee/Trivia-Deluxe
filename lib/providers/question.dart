@@ -15,6 +15,7 @@ class QuestionProvider extends ChangeNotifier {
   int correctAnswers = box.get("correctAnswers", defaultValue: 0);
   int totalQuestionsAnswered =
       box.get("totalQuestionsAnswered", defaultValue: 0);
+  int leaderboardScore = box.get("leaderboardScore", defaultValue: 0);
   double averageTime = box.get("averageTime", defaultValue: 0.0);
 
   String question = "", title = "";
