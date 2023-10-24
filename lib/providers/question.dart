@@ -103,7 +103,7 @@ class QuestionProvider extends ChangeNotifier {
             });
           } else {
             if (autoAnswer) {
-              Navigator.pushReplacementNamed(context, "/stage");
+              Navigator.pushReplacementNamed(context, "/game");
             } else {
               Navigator.pushReplacementNamed(context, "/stage");
             }
