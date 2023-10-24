@@ -100,7 +100,8 @@ class QuestionProvider extends ChangeNotifier {
 
       averageTime = ((averageTime * (totalQuestionsAnswered - 1)) +
           (30 - double.parse(timeElapsed!))) / totalQuestionsAnswered;
-          
+      box.put("averageTime", averageTime);
+      print("Average Time: $averageTime");
 
       final stageProvider = Provider.of<StageProvider>(context, listen: false);
 
