@@ -159,7 +159,7 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                                   ),
                                   SizedBox(width: 10.w),
                                   Text(
-                                    "${entry.key} (${entry.value.toStringAsFixed(1)}%)",
+                                    "Correct Answers (${(questionProvider.correctAnswers ).toStringAsFixed(1)}%)",
                                     style: TextStyle(
                                       color: grey100,
                                       fontSize: 16.sp,
