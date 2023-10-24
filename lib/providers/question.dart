@@ -69,6 +69,12 @@ class QuestionProvider extends ChangeNotifier {
     notifyListeners();
   }
 
+  updateLeaderBoardScore() {
+    leaderboardScore = correctAnswers / totalQuestionsAnswered * 100 / timeTaken;
+    box.put("leaderboardScore", leaderboardScore);
+    notifyListeners();
+  }
+
   void checkCorrectAnswer(BuildContext context, int index,
       {bool? answered, String? timeElapsed}) {
     answered ?? false;
