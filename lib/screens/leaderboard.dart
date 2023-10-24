@@ -40,7 +40,7 @@ class _LeaderBoardScreenState extends State<LeaderBoardScreen> {
               textAlign: TextAlign.center,
             ),
             Text(
-              "Your data will be synced once the feture is rolled out",
+              "Your data will be synced once the feature rolls out",
               style: TextStyle(
                 color: AppColor.white,
                 fontSize: 25.sp,
