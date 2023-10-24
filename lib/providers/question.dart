@@ -12,6 +12,9 @@ class QuestionProvider extends ChangeNotifier {
   List questions = [];
   int questionIndex = 0;
   int currentLevel = 1;
+  int correctAnswers = box.get("correctAnswers", defaultValue: 0);
+  int totalQuestionsAnswered = box.get("totalQuestionsAnswered", defaultValue: 0);
+  
 
   String question = "", title = "";
 
