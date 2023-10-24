@@ -74,6 +74,8 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                   textAlign: TextAlign.center,
                 ),
               ),
+
+              if (streaksProvider.)
               SizedBox(height: 10.h),
               Consumer<QuestionProvider>(
                 builder: (context, questionProvider, _) {

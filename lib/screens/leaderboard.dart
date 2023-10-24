@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:trivia/colors/app_color.dart';
-import 'package:trivia/main.dart';
 import 'package:trivia/models/game_background.dart';
-import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 class LeaderBoardScreen extends StatefulWidget {
   const LeaderBoardScreen({super.key});
