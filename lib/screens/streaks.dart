@@ -392,6 +392,7 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                           end: Alignment.bottomCenter,
                         ),
                       ),
+                    ),
                   ],
                 ),
               ),
