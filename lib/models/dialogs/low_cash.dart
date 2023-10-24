@@ -27,7 +27,7 @@ showLowCashDialog(BuildContext context) {
           ),
           SizedBox(height: 20.h),
           Text(
-            "Oops, your coins !",
+            "Insufficient Coins!",
             style: TextStyle(
               color: Colors.white,
               fontSize: 25.sp,
