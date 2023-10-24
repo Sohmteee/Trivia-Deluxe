@@ -147,14 +147,13 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                         Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            for (var entry in entries)
                               Row(
                                 children: [
                                   Container(
                                     width: 10.w,
                                     height: 10.w,
                                     decoration: BoxDecoration(
-                                      color: getColorForLabel(entry.key),
+                                      color: AppColor.right,
                                       shape: BoxShape.circle,
                                     ),
                                   ),
