@@ -107,8 +107,8 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                       Row(
                         children: [
                           SizedBox(
-                            width: 100.w,
-                            height: 100.h,
+                            width: 200.w,
+                            height: 200.h,
                             child: Chart(
                               duration: const Duration(seconds: 2),
                               layers: [
@@ -177,13 +177,16 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                                     width: 10.w,
                                     height: 10.w,
                                     decoration: BoxDecoration(
-                                      color: AppColor.wrong,
+                                      color: AppColor.right,
                                       shape: BoxShape.circle,
                                     ),
                                   ),
                                   SizedBox(width: 10.w),
                                   Text(
-                                    "${((questionProvider.totalQuestionsAnswered - questionProvider.correctAnswers) / questionProvider.totalQuestionsAnswered * 100).toStringAsFixed(1)}%",
+                                    "${((questionProvider
+                                                      .totalQuestionsAnswered -
+                                                  questionProvider
+                                                      .correctAnswers) / questionProvider.totalQuestionsAnswered * 100).toStringAsFixed(1)}%",
                                     style: TextStyle(
                                       color: Colors.grey[100],
                                       fontSize: 16.sp,
