@@ -41,20 +41,20 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                   children: [
                     Row(
                       children: [
+                        Container(
+                          width: 10.w,
+                          height: 10.w,
+                          decoration: BoxDecoration(
+                            color: AppColor.right,
+                            shape: BoxShape.circle,
+                          ),
+                        ),
+                        SizedBox(width: 10.w),
                         Text(
-                          "Correct Answers:",
+                          "Correct Answers",
                           style: TextStyle(
                             color: AppColor.white,
-                            fontSize: 25.sp,
-                          ),
-                          textAlign: TextAlign.center,
-                        ),
-                        SizedBox(width: 20.w),
-                        Text(
-                          questionProvider.correctAnswers.toString(),
-                          style: TextStyle(
-                            color: AppColor.right,
-                            fontSize: 25.sp,
+                            fontSize: 18.sp,
                           ),
                           textAlign: TextAlign.center,
                         ),
@@ -106,7 +106,6 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                         ),
                       ],
                     ),
-
                     SizedBox(height: 20.h),
                     if (questionProvider.totalQuestionsAnswered != 0)
                       Row(
