@@ -239,11 +239,12 @@ class _StatisticsScreenState extends State<StatisticsScreen> {
                     : Expanded(
                         child: Center(
                           child: Text(
-                            "No data yet.\nAnswer at least one question to show statistics.",
+                            "Answer at least one question to show statistics.",
                             style: TextStyle(
-                              color: Colors.orange[300],
+                              color: Colors.grey[300],
                               fontSize: 20.sp,
                             ),
+                            textAlign: TextAlign.center,
                           ),
                         ),
                       );
