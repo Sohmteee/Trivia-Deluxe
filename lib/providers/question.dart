@@ -83,6 +83,7 @@ class QuestionProvider extends ChangeNotifier {
         options[index]["color"] = "right";
         correctAnswers = correctAnswers + 1;
         box.put("correctAnswers", correctAnswers);
+        print("Correct Answers: $correctAnswers");
       } else {
         options[index]["color"] = "wrong";
 
@@ -95,6 +96,9 @@ class QuestionProvider extends ChangeNotifier {
 
       totalQuestionsAnswered = totalQuestionsAnswered + 1;
       box.put("totalQuestionsAnswered", totalQuestionsAnswered);
+      print("Total Questions Answered: $totalQuestionsAnswered");
+
+      averageTime = average
 
       final stageProvider = Provider.of<StageProvider>(context, listen: false);
 
