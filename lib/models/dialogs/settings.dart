@@ -131,6 +131,7 @@ showSettingsDialog(BuildContext context) {
                       : const SizedBox();
                 },
               ),
+              
               SizedBox(height: 30.h),
               ZoomTapAnimation(
                 onTap: () {
