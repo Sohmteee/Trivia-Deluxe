@@ -300,7 +300,7 @@ class _MenuScreenState extends State<MenuScreen>
                           ],
                         ),
                         Container(
-                          height: 35.h,
+                          height: 40.h,
                           decoration: BoxDecoration(
                             boxShadow: [
                               BoxShadow(
@@ -317,9 +317,7 @@ class _MenuScreenState extends State<MenuScreen>
                             },
                             // child: Image.asset("assets/images/streak.png"),
                             child: Lottie.asset(
-                              "assets/lottie/streak.json",
-                              height: 70.w,
-                              width: 70.w,
+                              "assets/lottie/fire.json",
                             ),
                           ),
                         ),
