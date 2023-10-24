@@ -159,10 +159,16 @@ showSettingsDialog(BuildContext context) {
                       )
                     ],
                   ),
-                  Icon(
-                    Icons.help_outline,
-                    color: Colors.grey[400],
-                    size: 20.sp,
+                  ZoomTapAnimation(
+                    onTap: () {
+                      playTap(context);
+                      showHelpPopUp(context);
+                    },
+                    child: Icon(
+                      Icons.help_outline,
+                      color: Colors.grey[200],
+                      size: 20.sp,
+                    ),
                   ),
                 ],
               ),
