@@ -5,6 +5,7 @@ import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/models/game_background.dart';
 import 'package:trivia/providers/streaks.dart';
 import 'package:velocity_x/velocity_x.dart';
+import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 class StreaksScreeen extends StatefulWidget {
   const StreaksScreeen({super.key});
@@ -70,19 +71,42 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                 ),
               ),
               SizedBox(height: 10.h),
-              Container(
-                padding: EdgeInsets.symmetric(horizontal: 20.w, vertical: 10.h),
-                decoration: BoxDecoration(
-                  color: AppColor.yellow,
-                  borderRadius: BorderRadius.circular(50.r),
-                ),
-                child: Text(
-                  "Go to Dashboard",
-                  style: TextStyle(
-                    color: AppColor.white,
-                    fontSize: 20.sp,
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  ZoomTapAnimation(
+                    child: Container(
+                      padding:
+                          EdgeInsets.symmetric(horizontal: 20.w, vertical: 10.h),
+                      decoration: BoxDecoration(
+                        color: AppColor.yellow,
+                        borderRadius: BorderRadius.circular(50.r),
+                      ),
+                      child: Text(
+                        "Leaderboard",
+                        style: TextStyle(
+                          color: AppColor.white,
+                          fontSize: 20.sp,
+                        ),
+                      ),
+                    ),
                   ),
-                ),
+                  Container(
+                    padding:
+                        EdgeInsets.symmetric(horizontal: 20.w, vertical: 10.h),
+                    decoration: BoxDecoration(
+                      color: AppColor.yellow,
+                      borderRadius: BorderRadius.circular(50.r),
+                    ),
+                    child: Text(
+                      "Dashboard",
+                      style: TextStyle(
+                        color: AppColor.white,
+                        fontSize: 20.sp,
+                      ),
+                    ),
+                  ),
+                ],
               ),
               SizedBox(height: 20.h),
               Expanded(
