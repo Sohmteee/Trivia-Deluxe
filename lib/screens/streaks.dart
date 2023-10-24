@@ -285,7 +285,7 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
           
              SliverList(
               delegate: SliverChildBuilderDelegate(
-                childCount: streaksProvider.streaks.length,
+                // childCount: streaksProvider.streaks.length,
                 /* physics:
                 const BouncingScrollPhysics(), */
                 (context, index) {
