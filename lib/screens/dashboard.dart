@@ -85,20 +85,20 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                     SizedBox(height: 10.h),
                     Row(
                       children: [
+                        Container(
+                          width: 10.w,
+                          height: 10.w,
+                          decoration: BoxDecoration(
+                            color: AppColor.yellow,
+                            shape: BoxShape.circle,
+                          ),
+                        ),
+                        SizedBox(width: 10.w),
                         Text(
-                          "Total Questions Answered:",
+                          "Total Questions Answered",
                           style: TextStyle(
                             color: AppColor.white,
-                            fontSize: 25.sp,
-                          ),
-                          textAlign: TextAlign.center,
-                        ),
-                        SizedBox(width: 20.w),
-                        Text(
-                          questionProvider.totalQuestionsAnswered.toString(),
-                          style: TextStyle(
-                            color: AppColor.yellow,
-                            fontSize: 25.sp,
+                            fontSize: 18.sp,
                           ),
                           textAlign: TextAlign.center,
                         ),
