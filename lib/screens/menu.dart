@@ -217,7 +217,7 @@ class _MenuScreenState extends State<MenuScreen>
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
                       children: [
                         Container(
-                          height: 35.h,
+                          height: 50.h,
                           decoration: BoxDecoration(
                             boxShadow: [
                               BoxShadow(
@@ -232,7 +232,7 @@ class _MenuScreenState extends State<MenuScreen>
                               playTap(context);
                               Navigator.pushNamed(context, "/leaderboard");
                             },
-                            child: Image.asset("assets/images/leaderboard.png"),
+                            child: Lottie.asset("assets/lottie/purple_award.json"),
                           ),
                         ),
                         Stack(
