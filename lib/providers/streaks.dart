@@ -535,7 +535,6 @@ class StreaksProvider extends ChangeNotifier {
       }
 
       box.put("permanentCoinStreak", permanentCoinStreak);
-      print("permanentCoinStreak updated to $permanentCoinStreak");
     }
 
     updateUltimateStreak();
