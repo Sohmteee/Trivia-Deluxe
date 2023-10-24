@@ -147,26 +147,26 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                         Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                              Row(
-                                children: [
-                                  Container(
-                                    width: 10.w,
-                                    height: 10.w,
-                                    decoration: BoxDecoration(
-                                      color: AppColor.right,
-                                      shape: BoxShape.circle,
-                                    ),
+                            Row(
+                              children: [
+                                Container(
+                                  width: 10.w,
+                                  height: 10.w,
+                                  decoration: BoxDecoration(
+                                    color: AppColor.right,
+                                    shape: BoxShape.circle,
                                   ),
-                                  SizedBox(width: 10.w),
-                                  Text(
-                                    "Correct Answers (${(questionProvider.correctAnswers ).toStringAsFixed(1)}%)",
-                                    style: TextStyle(
-                                      color: grey100,
-                                      fontSize: 16.sp,
-                                    ),
+                                ),
+                                SizedBox(width: 10.w),
+                                Text(
+                                  "Correct Answers (${(questionProvider.correctAnswers / questionProvider.totalQuestionsAnswered * 100).toStringAsFixed(1)}%)",
+                                  style: TextStyle(
+                                    color: Colors.grey[100],
+                                    fontSize: 16.sp,
                                   ),
-                                ],
-                              ),
+                                ),
+                              ],
+                            ),
                           ],
                         )
                       ],
