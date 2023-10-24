@@ -290,6 +290,8 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                     String streakTitle = streaksProvider.streaks[index]["title"];
                 String image = streaksProvider.streaks[index]["image"];
                 List streakList = streaksProvider.streaks[index]["streaks"];
+
+                
                     
                         return Column(
                                   children: [
