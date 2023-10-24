@@ -97,7 +97,7 @@ class QuestionProvider extends ChangeNotifier {
                 (30 - double.parse(timeElapsed!))) /
             correctAnswers;
         box.put("averageTime", averageTime);
-        print("Average Time: $averageTime");
+        print("Average Answering Time: $averageTime");
       } else {
         options[index]["color"] = "wrong";
 

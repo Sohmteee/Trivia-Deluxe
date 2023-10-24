@@ -232,7 +232,7 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                     Row(
                       children: [
                         Text(
-                          "Average Time",
+                          "Average Answering Time",
                           style: TextStyle(
                             color: Colors.grey[300],
                             fontSize: 20.sp,
