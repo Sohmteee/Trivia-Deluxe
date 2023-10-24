@@ -39,7 +39,7 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
               builder: (context, questionProvider, _) {
                 return Column(
                   children: [
-                    /* Row(
+                    Row(
                       children: [
                         Text(
                           "Correct Answers:",
@@ -105,7 +105,9 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                           textAlign: TextAlign.center,
                         ),
                       ],
-                    ), */
+                    ),
+
+                    SizedBox(height: 20.h),
                     if (questionProvider.totalQuestionsAnswered != 0)
                       Row(
                         children: [
