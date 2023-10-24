@@ -118,12 +118,16 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                                     if (questionProvider.correctAnswers != 0)
                                       ChartGroupPieDataItem(
                                         amount: questionProvider.correctAnswers.toDouble(),
-                                        color: Colors.green,
+                                        color: AppColor.right,
                                         label: "Good Days",
                                       ),
-                                    if (badDays != 0)
+                                    if ((questionProvider
+                                                .totalQuestionsAnswered -
+                                            questionProvider.correctAnswers) != 0)
                                       ChartGroupPieDataItem(
-                                        amount: badDays,
+                                        amount: (questionProvider
+                                                .totalQuestionsAnswered -
+                                            questionProvider.correctAnswers).toDouble(),
                                         color: Colors.red,
                                         label: "Bad Days",
                                       ),
