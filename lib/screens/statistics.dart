@@ -177,7 +177,7 @@ class _StatisticsScreenState extends State<StatisticsScreen> {
                                   ),
                                   SizedBox(width: 10.w),
                                   Text(
-                                    "${questionProvider.totalQuestionsAnswered} questions answered",
+                                    "Total questions answered",
                                     style: TextStyle(
                                       color: Colors.grey[300],
                                       fontSize: 16.sp,
