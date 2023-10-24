@@ -109,6 +109,7 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                       Row(
                         children: [
                           Stack(
+                            alignment: Alignment.center,
                             children: [
                               SizedBox(
                                 width: 100.w,
@@ -119,7 +120,8 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                                     ChartGroupPieLayer(
                                       items: [
                                         [
-                                          if (questionProvider.correctAnswers != 0)
+                                          if (questionProvider.correctAnswers !=
+                                              0)
                                             ChartGroupPieDataItem(
                                               amount: questionProvider
                                                   .correctAnswers
@@ -150,6 +152,13 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                                       ),
                                     )
                                   ],
+                                ),
+                              ),
+                              Text(
+                                "${questionProvider.totalQuestionsAnswered}",
+                                style: TextStyle(
+                                  color: AppColor.yellow,
+                                  fontSize: 20.sp,
                                 ),
                               ),
                             ],
