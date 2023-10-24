@@ -22,7 +22,7 @@ showSettingsDialog(BuildContext context) {
         Text(
           "Game Settings",
           style: TextStyle(
-            color: Colors.white,
+            color: AppColor.yellow,
             fontSize: 25.sp,
             fontWeight: FontWeight.bold,
           ),
@@ -38,7 +38,7 @@ showSettingsDialog(BuildContext context) {
                   Text(
                     "Music",
                     style: TextStyle(
-                      color: AppColor.yellow,
+                      color: Colors.grey[400],
                       fontSize: 18.sp,
                     ),
                   ),
@@ -46,7 +46,7 @@ showSettingsDialog(BuildContext context) {
                     builder: (context, audioProvider, _) {
                       return Switch(
                         value: audioProvider.music,
-                        activeColor: AppColor.yellow,
+                        activeColor: Colors.red,
                         onChanged: (value) {
                           playTap(context);
                           audioProvider.toggleMusic(value);
@@ -90,14 +90,14 @@ showSettingsDialog(BuildContext context) {
                   Text(
                     "Sound effects",
                     style: TextStyle(
-                      color: AppColor.yellow,
+                      color: Colors.grey[400],
                       fontSize: 18.sp,
                     ),
                   ),
                   Consumer<AudioProvider>(builder: (context, audioProvider, _) {
                     return Switch(
                       value: audioProvider.soundEffects,
-                      activeColor: AppColor.yellow,
+                      activeColor: Colors.red,
                       onChanged: (value) {
                         playTap(context);
                         audioProvider.toggleSoundEffects(value);
@@ -124,7 +124,6 @@ showSettingsDialog(BuildContext context) {
                                 onChanged: (value) {
                                   audioProvider.setEffectsVolume(value);
                                 },
-                                activeColor: Colors.grey[400],
                                 semanticFormatterCallback: (double newValue) {
                                   return "${(audioProvider.effectsVolume * 100).toInt()}%";
                                 }),
@@ -144,7 +143,7 @@ showSettingsDialog(BuildContext context) {
                       Text(
                         "Auto Answer",
                         style: TextStyle(
-                          color: AppColor.yellow,
+                          color: Colors.grey[400],
                           fontSize: 18.sp,
                         ),
                       ),
@@ -152,7 +151,7 @@ showSettingsDialog(BuildContext context) {
                         builder: (context, questionProvider, _) {
                           return Switch(
                             value: questionProvider.autoAnswer,
-                            activeColor: AppColor.yellow,
+                            activeColor: Colors.red,
                             onChanged: (value) {
                               playTap(context);
                               questionProvider.toggleAutoAnswer(value);
