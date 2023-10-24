@@ -292,19 +292,13 @@ class _StatisticsScreenState extends State<StatisticsScreen> {
                                   ),
                                   SizedBox(width: 15.w),
                                   Text(
-                                    questionProvider.averageTime
+                                    questionProvider.leaderboardScore
                                         .toStringAsFixed(2),
                                     style: TextStyle(
                                       color: Colors.orange[300],
                                       fontSize: 25.sp,
                                     ),
                                   ),
-                                  Text(
-                                    "s",
-                                    style: TextStyle(
-                                      color: Colors.orange[300],
-                                      fontSize: 20.sp,
-                                    ),
                                   ),
                                 ],
                               ),
