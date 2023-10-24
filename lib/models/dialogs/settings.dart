@@ -46,7 +46,7 @@ showSettingsDialog(BuildContext context) {
                     builder: (context, audioProvider, _) {
                       return Switch(
                         value: audioProvider.music,
-                        activeColor: Colors.red,
+                        activeColor: AppColor.yellow,
                         onChanged: (value) {
                           playTap(context);
                           audioProvider.toggleMusic(value);
@@ -97,7 +97,7 @@ showSettingsDialog(BuildContext context) {
                   Consumer<AudioProvider>(builder: (context, audioProvider, _) {
                     return Switch(
                       value: audioProvider.soundEffects,
-                      activeColor: Colors.red,
+                      activeColor: AppColor.yellow,
                       onChanged: (value) {
                         playTap(context);
                         audioProvider.toggleSoundEffects(value);
@@ -151,7 +151,7 @@ showSettingsDialog(BuildContext context) {
                         builder: (context, questionProvider, _) {
                           return Switch(
                             value: questionProvider.autoAnswer,
-                            activeColor: Colors.red,
+                            activeColor: AppColor.yellow,
                             onChanged: (value) {
                               playTap(context);
                               questionProvider.toggleAutoAnswer(value);
