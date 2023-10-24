@@ -48,49 +48,6 @@ class _LeaderBoardScreenState extends State<LeaderBoardScreen> {
               textAlign: TextAlign.center,
             ),
             const Spacer(),
-            ZoomTapAnimation(
-              onTap: () {
-                playTap(context);
-                return true;
-              },
-              child: Container(
-                padding:
-                    EdgeInsets.symmetric(horizontal: 25.sp, vertical: 15.sp),
-                decoration: BoxDecoration(
-                  color: Colors.white,
-                  borderRadius: BorderRadius.circular(100.r),
-                ),
-                child: Text(
-                  "Yes, I'll create one now",
-                  style: TextStyle(
-                    fontSize: 20.sp,
-                  ),
-                ),
-              ),
-            ),
-            SizedBox(height: 20.h),
-            ZoomTapAnimation(
-              onTap: () {
-                playTap(context);
-                Navigator.pop(context);
-                return true;
-              },
-              child: Container(
-                padding:
-                    EdgeInsets.symmetric(horizontal: 25.sp, vertical: 15.sp),
-                decoration: BoxDecoration(
-                  color: Colors.white,
-                  borderRadius: BorderRadius.circular(100.r),
-                ),
-                child: Text(
-                  "No, I'll do it later",
-                  style: TextStyle(
-                    fontSize: 20.sp,
-                  ),
-                ),
-              ),
-            ),
-            const Spacer(),
           ],
         ),
       ),
