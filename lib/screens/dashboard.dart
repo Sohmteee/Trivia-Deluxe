@@ -121,7 +121,7 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                                               .correctAnswers
                                               .toDouble(),
                                           color: AppColor.right,
-                                          label: "Good Days",
+                                          label: "Correct Answers",
                                         ),
                                       if ((questionProvider
                                                   .totalQuestionsAnswered -
@@ -135,7 +135,7 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                                                       .correctAnswers)
                                               .toDouble(),
                                           color: Colors.red,
-                                          label: "Bad Days",
+                                          label: "Wrong answers",
                                         ),
                                     ]
                                   ],
@@ -163,7 +163,7 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                                   ),
                                   SizedBox(width: 10.w),
                                   Text(
-                                    "Correct Answers (${(questionProvider.correctAnswers / questionProvider.totalQuestionsAnswered * 100).toStringAsFixed(1)}%)",
+                                    "${(questionProvider.correctAnswers / questionProvider.totalQuestionsAnswered * 100).toStringAsFixed(1)}%)",
                                     style: TextStyle(
                                       color: Colors.grey[100],
                                       fontSize: 16.sp,
