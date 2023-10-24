@@ -196,7 +196,7 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                             fontSize: 20.sp,
                           ),
                         ),
-                        SizedBox(width: 10.w),
+                        SizedBox(width: 15.w),
                         Text(
                           questionProvider.averageTime.toStringAsFixed(2),
                           style: TextStyle(
@@ -204,11 +204,10 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                             fontSize: 25.sp,
                           ),
                         ),
-                        SizedBox(width: 5.w),
                         Text(
                           "s",
                           style: TextStyle(
-                            color: Colors.grey[300],
+                            color: Colors.orange[300],
                             fontSize: 20.sp,
                           ),
                         ),
