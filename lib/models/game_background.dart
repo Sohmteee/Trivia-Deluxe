@@ -8,11 +8,12 @@ class GameBackground extends StatefulWidget {
     super.key,
     required this.body,
     this.bottomNavigationBar,
-    this.fl
+    this.floatingActionButton,
   });
 
   final Widget body;
   final Widget? bottomNavigationBar;
+  final Widget? floatingActionButton;
 
   @override
   State<GameBackground> createState() => _GameBackgroundState();
@@ -28,7 +29,7 @@ class _GameBackgroundState extends State<GameBackground> {
   Widget build(BuildContext context) {
     return Scaffold(
       bottomNavigationBar: widget.bottomNavigationBar,
-      flo
+      floatingActionButton: widget.floatingActionButton,
       body: Stack(
         children: [
           buildBlurBackground(),
