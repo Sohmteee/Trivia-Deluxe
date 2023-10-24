@@ -5,6 +5,7 @@ import 'package:provider/provider.dart';
 import 'package:trivia/main.dart';
 import 'package:trivia/models/dialogs/credits.dart';
 import 'package:trivia/models/dialogs/game.dart';
+import 'package:trivia/models/dialogs/help.dart';
 import 'package:trivia/providers/audio.dart';
 import 'package:trivia/providers/question.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';

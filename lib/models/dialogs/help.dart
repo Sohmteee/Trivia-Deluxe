@@ -15,7 +15,7 @@ showHelpDialog(BuildContext context) {
       mainAxisSize: MainAxisSize.min,
       children: [
         Text(
-          "Are you sure you want to exit?",
+          "Auto Answer",
           style: TextStyle(
             color: Colors.white,
             fontSize: 25.sp,
@@ -24,52 +24,13 @@ showHelpDialog(BuildContext context) {
           textAlign: TextAlign.center,
         ),
         SizedBox(height: 50.h),
-        Row(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          children: [
-            ZoomTapAnimation(
-              onTap: () {
-                playTap(context);
-                SystemNavigator.pop();
-                return true;
-              },
-              child: Container(
-                padding:
-                    EdgeInsets.symmetric(horizontal: 20.sp, vertical: 10.sp),
-                decoration: BoxDecoration(
-                  color: Colors.white,
-                  borderRadius: BorderRadius.circular(20.r),
-                ),
-                child: Text(
-                  "Yeah",
-                  style: TextStyle(
-                    fontSize: 15.sp,
-                  ),
-                ),
-              ),
-            ),
-            ZoomTapAnimation(
-              onTap: () {
-                playTap(context);
-                Navigator.pop(context);
-                return false;
-              },
-              child: Container(
-                padding:
-                    EdgeInsets.symmetric(horizontal: 20.sp, vertical: 10.sp),
-                decoration: BoxDecoration(
-                  color: Colors.white,
-                  borderRadius: BorderRadius.circular(20.r),
-                ),
-                child: Text(
-                  "Nah",
-                  style: TextStyle(
-                    fontSize: 15.sp,
-                  ),
-                ),
-              ),
-            ),
-          ],
+        Text(
+          "Auto Answer is a feature that automatically answers the question for you. It is available for 1 question only and can be used only once per game.",
+          style: TextStyle(
+            color: Colors.white,
+            fontSize: 15.sp,
+          ),
+          textAlign: TextAlign.center,
         ),
       ],
     ),
