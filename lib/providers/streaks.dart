@@ -520,24 +520,28 @@ class StreaksProvider extends ChangeNotifier {
     if (coinStreak > permanentCoinStreak) {
       if (coinStreak >= 100) {
         permanentCoinStreak = 100;
-      } else if (coinStreak >= 200) {
+      }
+      if (coinStreak >= 200) {
         permanentCoinStreak = 200;
-      } else if (coinStreak >= 500) {
+      if (coinStreak >= 500) {
         permanentCoinStreak = 500;
-      } else if (coinStreak >= 1000) {
+      if (coinStreak >= 1000) {
         permanentCoinStreak = 1000;
-      } else if (coinStreak >= 2000) {
+      if (coinStreak >= 2000) {
         permanentCoinStreak = 2000;
+      }
       }
 
       box.put("permanentCoinStreak", permanentCoinStreak);
       print("permanentCoinStreak updated to $permanentCoinStreak");
     }
 
+
     updateUltimateStreak();
     updateStreaksData();
     notifyListeners();
   }
+      
 
   void updateTriviaStreak(bool correct) {
     if (correct) {
