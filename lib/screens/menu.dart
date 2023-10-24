@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
+import 'package:lottie/lottie.dart';
 import 'package:provider/provider.dart';
 import 'package:toast/toast.dart';
 import 'package:trivia/ad_helper.dart';
@@ -314,7 +315,12 @@ class _MenuScreenState extends State<MenuScreen>
                               playTap(context);
                               Navigator.pushNamed(context, "/streaks");
                             },
-                            child: Image.asset("assets/images/streak.png"),
+                            // child: Image.asset("assets/images/streak.png"),
+                            child: Lottie.asset(
+                              "assets/lottie/streak.json",
+                              height: 70.w,
+                              width: 70.w,
+                            ),
                           ),
                         ),
                       ],
