@@ -521,11 +521,11 @@ Map<String, dynamic> scienceData = {
     },
     {
       "question":
-          "What is the name of the spacecraft that carried astronauts to the moon in 1969, with neil armstrong becoming the first human to walk on the moon's surface?",
+          "What is the name of the spacecraft that carried astronauts to the moon in 1969, with Neil Armstrong becoming the first human to walk on the moon's surface?",
       "dialog": {
         "title": "Apollo 11",
         "content":
-            "Apollo 11 is the spacecraft that carried astronauts to the moon in 1969, with neil armstrong becoming the first human to walk on the moon's surface."
+            "Apollo 11 is the spacecraft that carried astronauts to the moon in 1969, with Neil Armstrong becoming the first human to walk on the moon's surface."
       },
       "options": [
         {
