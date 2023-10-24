@@ -285,11 +285,11 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
             return SliverList(
               delegate: SliverChildBuilderDelegate(
                 childCount: streaksProvider.streaks.length,
-                
+
                 padding:
                 EdgeInsets.only(top: 10.h),
                 physics:
-                const BouncingScrollPhysics();
+                const BouncingScrollPhysics(),
                 (context, index) {
                   String streakTitle = streaksProvider.streaks[index]["title"];
                   String image = streaksProvider.streaks[index]["image"];
