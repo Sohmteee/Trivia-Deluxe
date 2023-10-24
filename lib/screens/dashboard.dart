@@ -190,7 +190,7 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                     Row(
                       children: [
                         Text(
-                          "Average Time:",
+                          "Average Time",
                           style: TextStyle(
                             color: Colors.grey[300],
                             fontSize: 20.sp,
@@ -202,6 +202,14 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                           style: TextStyle(
                             color: Colors.orange[300],
                             fontSize: 25.sp,
+                          ),
+                        ),
+                        SizedBox(width: 5.w),
+                        Text(
+                          "s",
+                          style: TextStyle(
+                            color: Colors.grey[300],
+                            fontSize: 20.sp,
                           ),
                         ),
                       ],
