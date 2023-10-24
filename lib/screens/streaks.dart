@@ -286,6 +286,11 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
               (context,  index) {
                 return Consumer<StreaksProvider>(
                   builder: (context, streaksProvider, _) {
+                    String streakTitle =
+                            streaksProvider.streaks[index]["title"];
+                        String image = streaksProvider.streaks[index]["image"];
+                        List streakList =
+                            streaksProvider.streaks[index]["streaks"];
                     return Column(
                               children: [
                                 Row(
