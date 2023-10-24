@@ -4,27 +4,27 @@ import 'package:trivia/data/box.dart';
 class ScoreProvider extends ChangeNotifier {
   // Formula: number of corect answers / number of total answers * 100 / average time per question
 
-  int _score = box.get("score", defaultValue: 0);
-  int get score => _score;
+  int _coinScore = box.get("coinScore", defaultValue: 0);
+  int get coinScore => _coinScore;
 
   void increaseScore(int newScore) {
-    _score += newScore;
-    box.put("score", score);
+    _coinScore += newScore;
+    box.put("coinScore", coinScore);
 
-    debugPrint("Curent Score: $score");
+    debugPrint("Curent Score: $coinScore");
     notifyListeners();
   }
 
   void decreaseScore(int newScore) {
-    _score -= newScore;
-    box.put("score", score);
+    _coinScore -= newScore;
+    box.put("coinScore", coinScore);
 
-    debugPrint("Curent Score: $score");
+    debugPrint("Curent Score: $coinScore");
     notifyListeners();
   }
 
   void resetScore() {
-    _score = 0;
-    box.put("score", score);
+    _coinScore = 0;
+    box.put("coinScore", coinScore);
   }
 }
