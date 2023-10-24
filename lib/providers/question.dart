@@ -13,7 +13,8 @@ class QuestionProvider extends ChangeNotifier {
   int questionIndex = 0;
   int currentLevel = 1;
   int correctAnswers = box.get("correctAnswers", defaultValue: 0);
-  int totalQuestionsAnswered = box.get("totalQuestionsAnswered", defaultValue: 0);
+  int totalQuestionsAnswered =
+      box.get("totalQuestionsAnswered", defaultValue: 0);
   double averageTime = box.get("averageTime", defaultValue: 0.0);
 
   String question = "", title = "";
@@ -67,7 +68,7 @@ class QuestionProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-  void checkCorrectAnswer(BuildContext context, int index, {bool? answered}) {
+  void checkCorrectAnswer(BuildContext context, int index, {bool? answered, required String timeElapsed}) {
     answered ?? false;
 
     if (index == -1) {
@@ -90,6 +91,9 @@ class QuestionProvider extends ChangeNotifier {
           }
         }
       }
+
+      totalQuestionsAnswered = totalQuestionsAnswered + 1;
+      box.put("totalQuestionsAnswered", totalQuestionsAnswered);
 
       final stageProvider = Provider.of<StageProvider>(context, listen: false);
 
@@ -116,9 +120,6 @@ class QuestionProvider extends ChangeNotifier {
         } else {
           showFailedDialog(context, questionIndex, false);
         }
-
-        totalQuestionsAnswered = totalQuestionsAnswered + 1;
-        box.put("totalQuestionsAnswered", totalQuestionsAnswered);
 
         questionIndex = questionIndex + 1;
         data["currentIndex"] = questionIndex;
