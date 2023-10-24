@@ -54,6 +54,7 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
   @override
   Widget build(BuildContext context) {
     return GameBackground(
+      bottomNavigationBar: SizedBox(child: ,),
       body: Consumer<StreaksProvider>(builder: (context, streaksProvider, _) {
         return Padding(
           padding: EdgeInsets.fromLTRB(40.w, 40.h, 40.w, 0),
