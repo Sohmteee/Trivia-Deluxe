@@ -517,12 +517,14 @@ class StreaksProvider extends ChangeNotifier {
     coinStreak = coins;
     box.put("coinStreak", coinStreak);
 
+    print("Coin streak: $coinStreak");
+    print("Permanent coin streak: $permanentCoinStreak");
+
     if (coinStreak > permanentCoinStreak &&
         permanentCoinStreakList.contains(coinStreak)) {
       permanentCoinStreak = coinStreak;
       box.put("permanentCoinStreak", permanentCoinStreak);
       print("permanentCoinStreak updated to $permanentCoinStreak");
-      
     }
 
     updateUltimateStreak();
