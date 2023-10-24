@@ -68,7 +68,8 @@ class QuestionProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-  void checkCorrectAnswer(BuildContext context, int index, {bool? answered, required String timeElapsed}) {
+  void checkCorrectAnswer(BuildContext context, int index,
+      {bool? answered, String? timeElapsed}) {
     answered ?? false;
 
     if (index == -1) {
