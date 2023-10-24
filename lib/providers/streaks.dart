@@ -20,7 +20,7 @@ class StreaksProvider extends ChangeNotifier {
             "title": "Steady Progress",
             "subtitle": "Complete 5 levels without failing",
             "status": false,
-            ""
+            "collected": false,
             "progress": 0,
             "limit": 5,
           },
@@ -28,7 +28,7 @@ class StreaksProvider extends ChangeNotifier {
             "title": "Leveling Up",
             "subtitle": "Complete 10 levels without failing",
             "status": false,
-            ""
+            "collected": false,
             "progress": 0,
             "limit": 10,
           },
@@ -36,7 +36,7 @@ class StreaksProvider extends ChangeNotifier {
             "title": "Tenacious Triumph",
             "subtitle": "Complete 20 levels without failing",
             "status": false,
-            ""
+            "collected": false,
             "progress": 0,
             "limit": 20,
           },
@@ -44,7 +44,7 @@ class StreaksProvider extends ChangeNotifier {
             "title": "Masterful Streak",
             "subtitle": "Complete 50 levels without failing",
             "status": false,
-            ""
+            "collected": false,
             "progress": 0,
             "limit": 50,
           },
@@ -52,7 +52,7 @@ class StreaksProvider extends ChangeNotifier {
             "title": "Unstoppable Champion",
             "subtitle": "Complete 100 levels without failing",
             "status": false,
-            ""
+            "collected": false,
             "progress": 0,
             "limit": 100,
           },
@@ -66,40 +66,40 @@ class StreaksProvider extends ChangeNotifier {
             "title": "Coin Collector",
             "subtitle": "Earn 100 coins",
             "status": false,
-            ""
-            "progress": 50,
+            "collected": false,
+            "progress": 0,
             "limit": 100,
           },
           {
             "title": "Coin Hoarder",
             "subtitle": "Earn 200 coins",
             "status": false,
-            ""
-            "progress": 50,
+            "collected": false,
+            "progress": 0,
             "limit": 200,
           },
           {
             "title": "Gold Gatherer",
             "subtitle": "Earn 500 coins",
             "status": false,
-            ""
-            "progress": 50,
+            "collected": false,
+            "progress": 0,
             "limit": 500,
           },
           {
             "title": "Treasure Hunter",
             "subtitle": "Earn 1000 coins",
             "status": false,
-            ""
-            "progress": 50,
+            "collected": false,
+            "progress": 0,
             "limit": 1000,
           },
           {
             "title": "Coin Millionaire",
             "subtitle": "Earn 2000 coins",
             "status": false,
-            ""
-            "progress": 50,
+            "collected": false,
+            "progress": 0,
             "limit": 2000,
           },
         ],
@@ -112,7 +112,7 @@ class StreaksProvider extends ChangeNotifier {
             "title": "Trivia Beginner",
             "subtitle": "Answer 5 questions correctly in a row",
             "status": false,
-            ""
+            "collected": false,
             "progress": 0,
             "limit": 5,
           },
@@ -120,7 +120,7 @@ class StreaksProvider extends ChangeNotifier {
             "title": "Trivia Expert",
             "subtitle": "Answer 10 questions correctly in a row",
             "status": false,
-            ""
+            "collected": false,
             "progress": 0,
             "limit": 10,
           },
@@ -128,7 +128,7 @@ class StreaksProvider extends ChangeNotifier {
             "title": "Brainiac",
             "subtitle": "Answer 20 questions correctly in a row",
             "status": false,
-            ""
+            "collected": false,
             "progress": 0,
             "limit": 20,
           },
@@ -136,7 +136,7 @@ class StreaksProvider extends ChangeNotifier {
             "title": "Trivia Grandmaster",
             "subtitle": "Answer 50 questions correctly in a row",
             "status": false,
-            ""
+            "collected": false,
             "progress": 0,
             "limit": 50,
           },
@@ -144,7 +144,7 @@ class StreaksProvider extends ChangeNotifier {
             "title": "Trivia Maestro",
             "subtitle": "Answer 100 questions correctly in a row",
             "status": false,
-            ""
+            "collected": false,
             "progress": 0,
             "limit": 100,
           },
@@ -158,7 +158,7 @@ class StreaksProvider extends ChangeNotifier {
             "title": "Achiever",
             "subtitle": "Rank top 10 on the leaderboard",
             "status": false,
-            ""
+            "collected": false,
             "progress": 0,
             "limit": 1,
           },
@@ -166,7 +166,7 @@ class StreaksProvider extends ChangeNotifier {
             "title": "Top Ranker",
             "subtitle": "Rank top 5 on the leaderboard",
             "status": false,
-            ""
+            "collected": false,
             "progress": 0,
             "limit": 1,
           },
@@ -174,7 +174,7 @@ class StreaksProvider extends ChangeNotifier {
             "title": "Master Ranker",
             "subtitle": "Rank top 3 on the leaderboard",
             "status": false,
-            ""
+            "collected": false,
             "progress": 0,
             "limit": 1,
           },
@@ -182,7 +182,7 @@ class StreaksProvider extends ChangeNotifier {
             "title": "Leaderboard Champion",
             "subtitle": "Rank first on the leaderboard",
             "status": false,
-            ""
+            "collected": false,
             "progress": 0,
             "limit": 1,
           },
@@ -196,7 +196,7 @@ class StreaksProvider extends ChangeNotifier {
             "title": "Ultimate Achiever",
             "subtitle": "Finish all streaks",
             "status": false,
-            ""
+            "collected": false,
             "progress": 0,
             "limit": 19,
           },
@@ -226,11 +226,11 @@ class StreaksProvider extends ChangeNotifier {
             "title": "Steady Progress",
             "subtitle": "Complete 5 levels without failing",
             "status": permanentLevelStreak >= 5,
+            "collected": false,
             "progress": permanentLevelStreak >= 5
                 ? 5
                 : levelStreak >= 5
                     ? 5
-            ""
                     : levelStreak,
             "limit": 5,
           },
@@ -238,11 +238,11 @@ class StreaksProvider extends ChangeNotifier {
             "title": "Leveling Up",
             "subtitle": "Complete 10 levels without failing",
             "status": permanentLevelStreak >= 10,
+            "collected": false,
             "progress": permanentLevelStreak >= 10
                 ? 10
                 : levelStreak >= 10
                     ? 10
-            ""
                     : levelStreak,
             "limit": 10,
           },
@@ -250,11 +250,11 @@ class StreaksProvider extends ChangeNotifier {
             "title": "Tenacious Triumph",
             "subtitle": "Complete 20 levels without failing",
             "status": permanentLevelStreak >= 20,
+            "collected": false,
             "progress": permanentLevelStreak >= 20
                 ? 20
                 : levelStreak >= 20
                     ? 20
-            ""
                     : levelStreak,
             "limit": 20,
           },
@@ -262,11 +262,11 @@ class StreaksProvider extends ChangeNotifier {
             "title": "Masterful Streak",
             "subtitle": "Complete 50 levels without failing",
             "status": permanentLevelStreak >= 50,
+            "collected": false,
             "progress": permanentLevelStreak >= 50
                 ? 50
                 : levelStreak >= 50
                     ? 50
-            ""
                     : levelStreak,
             "limit": 50,
           },
@@ -274,11 +274,11 @@ class StreaksProvider extends ChangeNotifier {
             "title": "Unstoppable Champion",
             "subtitle": "Complete 100 levels without failing",
             "status": permanentLevelStreak >= 100,
+            "collected": false,
             "progress": permanentLevelStreak >= 100
                 ? 100
                 : levelStreak >= 100
                     ? 100
-            ""
                     : levelStreak,
             "limit": 100,
           },
@@ -292,11 +292,11 @@ class StreaksProvider extends ChangeNotifier {
             "title": "Coin Collector",
             "subtitle": "Earn 100 coins",
             "status": permanentCoinStreak >= 100,
+            "collected": false,
             "progress": permanentCoinStreak >= 100
                 ? 100
                 : coinStreak >= 100
                     ? 100
-            ""
                     : coinStreak,
             "limit": 100,
           },
@@ -304,11 +304,11 @@ class StreaksProvider extends ChangeNotifier {
             "title": "Coin Hoarder",
             "subtitle": "Earn 200 coins",
             "status": permanentCoinStreak >= 200,
+            "collected": false,
             "progress": permanentCoinStreak >= 200
                 ? 200
                 : coinStreak >= 200
                     ? 200
-            ""
                     : coinStreak,
             "limit": 200,
           },
@@ -316,11 +316,11 @@ class StreaksProvider extends ChangeNotifier {
             "title": "Gold Gatherer",
             "subtitle": "Earn 500 coins",
             "status": permanentCoinStreak >= 500,
+            "collected": false,
             "progress": permanentCoinStreak >= 500
                 ? 500
                 : coinStreak >= 500
                     ? 500
-            ""
                     : coinStreak,
             "limit": 500,
           },
@@ -328,11 +328,11 @@ class StreaksProvider extends ChangeNotifier {
             "title": "Treasure Hunter",
             "subtitle": "Earn 1000 coins",
             "status": permanentCoinStreak >= 1000,
+            "collected": false,
             "progress": permanentCoinStreak >= 1000
                 ? 1000
                 : coinStreak >= 1000
                     ? 1000
-            ""
                     : coinStreak,
             "limit": 1000,
           },
@@ -340,11 +340,11 @@ class StreaksProvider extends ChangeNotifier {
             "title": "Coin Millionaire",
             "subtitle": "Earn 2000 coins",
             "status": permanentCoinStreak >= 2000,
+            "collected": false,
             "progress": permanentCoinStreak >= 2000
                 ? 2000
                 : coinStreak >= 2000
                     ? 2000
-            ""
                     : coinStreak,
             "limit": 2000,
           },
@@ -358,11 +358,11 @@ class StreaksProvider extends ChangeNotifier {
             "title": "Trivia Beginner",
             "subtitle": "Answer 5 questions correctly in a row",
             "status": permanentTriviaStreak >= 5,
+            "collected": false,
             "progress": permanentTriviaStreak >= 5
                 ? 5
                 : triviaStreak >= 5
                     ? 5
-            ""
                     : triviaStreak,
             "limit": 5,
           },
@@ -370,11 +370,11 @@ class StreaksProvider extends ChangeNotifier {
             "title": "Trivia Expert",
             "subtitle": "Answer 10 questions correctly in a row",
             "status": permanentTriviaStreak >= 10,
+            "collected": false,
             "progress": permanentTriviaStreak >= 10
                 ? 10
                 : triviaStreak >= 10
                     ? 10
-            ""
                     : triviaStreak,
             "limit": 10,
           },
@@ -382,11 +382,11 @@ class StreaksProvider extends ChangeNotifier {
             "title": "Brainiac",
             "subtitle": "Answer 20 questions correctly in a row",
             "status": permanentTriviaStreak >= 20,
+            "collected": false,
             "progress": permanentTriviaStreak >= 20
                 ? 20
                 : triviaStreak >= 20
                     ? 20
-            ""
                     : triviaStreak,
             "limit": 20,
           },
@@ -394,11 +394,11 @@ class StreaksProvider extends ChangeNotifier {
             "title": "Trivia Grandmaster",
             "subtitle": "Answer 50 questions correctly in a row",
             "status": permanentTriviaStreak >= 50,
+            "collected": false,
             "progress": permanentTriviaStreak >= 50
                 ? 50
                 : triviaStreak >= 50
                     ? 50
-            ""
                     : triviaStreak,
             "limit": 50,
           },
@@ -406,11 +406,11 @@ class StreaksProvider extends ChangeNotifier {
             "title": "Trivia Maestro",
             "subtitle": "Answer 100 questions correctly in a row",
             "status": permanentTriviaStreak >= 100,
+            "collected": false,
             "progress": permanentTriviaStreak >= 100
                 ? 100
                 : triviaStreak >= 100
                     ? 100
-            ""
                     : triviaStreak,
             "limit": 100,
           },
@@ -424,11 +424,11 @@ class StreaksProvider extends ChangeNotifier {
             "title": "Achiever",
             "subtitle": "Rank top 10 on the leaderboard",
             "status": permanentLeaderboardStreak == 10,
+            "collected": false,
             "progress": permanentLeaderboardStreak == 10
                 ? 1
                 : leaderboardStreak == 10
                     ? 1
-            ""
                     : 0,
             "limit": 1,
           },
@@ -436,11 +436,11 @@ class StreaksProvider extends ChangeNotifier {
             "title": "Top Ranker",
             "subtitle": "Rank top 5 on the leaderboard",
             "status": permanentLeaderboardStreak == 5,
+            "collected": false,
             "progress": permanentLeaderboardStreak == 5
                 ? 1
                 : leaderboardStreak == 5
                     ? 1
-            ""
                     : 0,
             "limit": 1,
           },
@@ -448,11 +448,11 @@ class StreaksProvider extends ChangeNotifier {
             "title": "Master Ranker",
             "subtitle": "Rank top 3 on the leaderboard",
             "status": permanentLeaderboardStreak == 3,
+            "collected": false,
             "progress": permanentLeaderboardStreak == 3
                 ? 1
                 : leaderboardStreak == 3
                     ? 1
-            ""
                     : 0,
             "limit": 1,
           },
@@ -460,11 +460,11 @@ class StreaksProvider extends ChangeNotifier {
             "title": "Leaderboard Champion",
             "subtitle": "Rank first on the leaderboard",
             "status": permanentLeaderboardStreak == 1,
+            "collected": false,
             "progress": permanentLeaderboardStreak == 1
                 ? 1
                 : leaderboardStreak == 1
                     ? 1
-            ""
                     : 0,
             "limit": 1,
           },
@@ -478,11 +478,11 @@ class StreaksProvider extends ChangeNotifier {
             "title": "Ultimate Achiever",
             "subtitle": "Finish all streaks",
             "status": ultimateStreak >= 19,
+            "collected": false,
             "progress": ultimateStreak >= 19
                 ? 19
                 : ultimateStreak >= 19
                     ? 19
-            ""
                     : ultimateStreak,
             "limit": 19,
           },
