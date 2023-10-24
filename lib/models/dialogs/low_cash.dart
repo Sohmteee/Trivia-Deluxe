@@ -27,7 +27,7 @@ showLowCashDialog(BuildContext context) {
           ),
           SizedBox(height: 20.h),
           Text(
-            "Sapa don catch you even for game 😂",
+            "Oops, your coins !",
             style: TextStyle(
               color: Colors.white,
               fontSize: 25.sp,
@@ -110,7 +110,7 @@ showLowCashDialog(BuildContext context) {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(
-                      "Omo I'm managing my data",
+                      "Nah, I'll pass",
                       style: TextStyle(
                         fontSize: 15.sp,
                       ),
