@@ -164,7 +164,7 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                               ),
                             ],
                           ),
-                          SizedBox(width: 20.w),
+                          SizedBox(width: 10.w),
                           Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
@@ -191,7 +191,7 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                                       Text(
                                         "(${(questionProvider.correctAnswers / questionProvider.totalQuestionsAnswered * 100).toStringAsFixed(1)}%)",
                                         style: TextStyle(
-                                          color: Colors.grey[300],
+                                          color: Colors.grey[400],
                                           fontSize: 16.sp,
                                         ),
                                       ),
@@ -213,7 +213,7 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                                   Row(
                                     children: [
                                       Text(
-                                        "${questionProvider.totalQuestionsAnswered - questionProvider.correctAnswers} ",
+                                        "${questionProvider.totalQuestionsAnswered - questionProvider.correctAnswers}  ",
                                         style: TextStyle(
                                           color: Colors.red,
                                           fontSize: 16.sp,
@@ -222,7 +222,7 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                                       Text(
                                         "(${((questionProvider.totalQuestionsAnswered - questionProvider.correctAnswers) / questionProvider.totalQuestionsAnswered * 100).toStringAsFixed(1)}%)",
                                         style: TextStyle(
-                                          color: Colors.grey[300],
+                                          color: Colors.grey[400],
                                           fontSize: 16.sp,
                                         ),
                                       ),
