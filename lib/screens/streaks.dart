@@ -54,18 +54,6 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
   @override
   Widget build(BuildContext context) {
     return GameBackground(
-      floatingActionButton: Container(
-          decoration: BoxDecoration(
-            color: AppColor.yellow,
-            borderRadius: BorderRadius.circular(50.r),
-          ),
-          child: Text(
-            "Go to Dashboard",
-            style: TextStyle(
-              color: AppColor.white,
-              fontSize: 20.sp,
-            ),
-          )),
       body: Consumer<StreaksProvider>(builder: (context, streaksProvider, _) {
         return Padding(
           padding: EdgeInsets.fromLTRB(40.w, 40.h, 40.w, 0),
@@ -79,6 +67,21 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                     fontSize: 50.sp,
                   ),
                   textAlign: TextAlign.center,
+                ),
+              ),
+              SizedBox(height: 10.h),
+              Container(
+                padding: EdgeInsets.symmetric(horizontal: 20.w, vertical: 10.h),
+                decoration: BoxDecoration(
+                  color: AppColor.yellow,
+                  borderRadius: BorderRadius.circular(50.r),
+                ),
+                child: Text(
+                  "Go to Dashboard",
+                  style: TextStyle(
+                    color: AppColor.white,
+                    fontSize: 20.sp,
+                  ),
                 ),
               ),
               SizedBox(height: 20.h),
