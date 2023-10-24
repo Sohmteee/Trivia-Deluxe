@@ -131,7 +131,30 @@ showSettingsDialog(BuildContext context) {
                       : const SizedBox();
                 },
               ),
-              
+              SizedBox(height: 10.h),
+              Row(
+                children: [
+                  Text(
+                    "Auto Answer",
+                    style: TextStyle(
+                      color: Colors.grey[400],
+                      fontSize: 18.sp,
+                    ),
+                  ),
+                  Consumer<AudioProvider>(
+                    builder: (context, audioProvider, _) {
+                      return Switch(
+                        value: audioProvider.music,
+                        activeColor: Colors.red,
+                        onChanged: (value) {
+                          playTap(context);
+                          audioProvider.toggleMusic(value);
+                        },
+                      );
+                    },
+                  )
+                ],
+              ),
               SizedBox(height: 30.h),
               ZoomTapAnimation(
                 onTap: () {
