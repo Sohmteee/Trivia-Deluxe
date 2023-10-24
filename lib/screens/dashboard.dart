@@ -167,7 +167,7 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                                       Text(
                                         "${questionProvider.correctAnswers} ",
                                         style: TextStyle(
-                                          color: Colors.grey[100],
+                                          color: AppColor.right,
                                           fontSize: 16.sp,
                                         ),
                                       ),
