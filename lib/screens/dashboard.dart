@@ -179,7 +179,7 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                                       Text(
                                         "1000 questions answered",
                                         style: TextStyle(
-                                          color: AppColor.yellow,
+                                          color: Colors.grey[300],
                                           fontSize: 16.sp,
                                         ),
                                       ),
