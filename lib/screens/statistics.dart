@@ -219,19 +219,20 @@ class _StatisticsScreenState extends State<StatisticsScreen> {
                                   ),
                                 ],
                               ),
+                              const Spacer(flex: 3),
+                              ZoomTapAnimation(
+                                onTap: () {
+                                  playTap(context);
+                                  // showHelpDialog(context);
+                                },
+                                child: Icon(
+                                  Icons.help_outline,
+                                  color: Colors.grey[200],
+                                  size: 20.sp,
+                                ),
+                              ),
+                              const Spacer(flex: 7),
                             ],
-                          ),
-                          SizedBox(width: 10.w),
-                          ZoomTapAnimation(
-                            onTap: () {
-                              playTap(context);
-                              // showHelpDialog(context);
-                            },
-                            child: Icon(
-                              Icons.help_outline,
-                              color: Colors.grey[200],
-                              size: 20.sp,
-                            ),
                           ),
                         ],
                       )
