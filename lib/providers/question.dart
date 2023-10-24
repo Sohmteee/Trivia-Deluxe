@@ -15,7 +15,7 @@ class QuestionProvider extends ChangeNotifier {
   int correctAnswers = box.get("correctAnswers", defaultValue: 0);
   int totalQuestionsAnswered =
       box.get("totalQuestionsAnswered", defaultValue: 0);
-  int leaderboardScore = box.get("leaderboardScore", defaultValue: 0);
+  double leaderboardScore = box.get("leaderboardScore", defaultValue: 0.0);
   double averageTime = box.get("averageTime", defaultValue: 0.0);
 
   String question = "", title = "";
@@ -70,7 +70,8 @@ class QuestionProvider extends ChangeNotifier {
   }
 
   updateLeaderBoardScore() {
-    leaderboardScore = correctAnswers / totalQuestionsAnswered * 100 / timeTaken;
+    leaderboardScore =
+        correctAnswers / totalQuestionsAnswered * 100 / averageTime;
     box.put("leaderboardScore", leaderboardScore);
     notifyListeners();
   }
@@ -112,6 +113,8 @@ class QuestionProvider extends ChangeNotifier {
           totalQuestionsAnswered;
       box.put("averageTime", averageTime);
       print("Average Time: $averageTime");
+
+      updateLeaderBoardScore();
 
       final stageProvider = Provider.of<StageProvider>(context, listen: false);
 
