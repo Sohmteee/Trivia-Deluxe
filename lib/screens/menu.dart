@@ -38,11 +38,11 @@ class _MenuScreenState extends State<MenuScreen>
   @override
   void initState() {
     WidgetsBinding.instance.addObserver(this);
-    MobileAds.instance.initialize();
+    // MobileAds.instance.initialize();
     ToastContext().init(context);
 
     playBGAudio();
-    _loadBannerAd();
+    // _loadBannerAd();
 
     initializeEffectsVolume();
 
