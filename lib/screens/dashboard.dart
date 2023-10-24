@@ -187,12 +187,24 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                           )
                         ],
                       ),
-                    Text(
-                      "Average Time: ${questionProvider.averageTime.toStringAsFixed(2)}",
-                      style: TextStyle(
-                        color: Colors.grey[300],
-                        fontSize: 16.sp,
-                      ),
+                    Row(
+                      children: [
+                        Text(
+                          "Average Time:",
+                          style: TextStyle(
+                            color: Colors.grey[300],
+                            fontSize: 20.sp,
+                          ),
+                        ),
+                        SizedBox(width: 10.w),
+                        Text(
+                          questionProvider.averageTime.toStringAsFixed(2),
+                          style: TextStyle(
+                            color: Colors.orange[300],
+                            fontSize: 25.sp,
+                          ),
+                        ),
+                      ],
                     ),
                   ],
                 );
