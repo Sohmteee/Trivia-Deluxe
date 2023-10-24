@@ -8,6 +8,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:provider/provider.dart';
 import 'package:toast/toast.dart';
+import 'package:trivia/ad_helper.dart';
 import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/colors/hex_color.dart';
 import 'package:trivia/data/controllers.dart';
@@ -384,12 +385,8 @@ class _MenuScreenState extends State<MenuScreen>
     MobileAds.instance.updateRequestConfiguration(RequestConfiguration(
         testDeviceIds: ['5C26A3D9AFFD85F566BED84A49F36278']));
 
-    final adUnitId = Platform.isAndroid
-        ? 'ca-app-pub-3940256099942544/6300978111'
-        : 'ca-app-pub-3940256099942544/2934735716';
-
     _bannerAd = BannerAd(
-      adUnitId: adUnitId,
+      adUnitId: AdHelper.bannerAdUnitId,
       request: const AdRequest(),
       size: AdSize.banner,
       listener: BannerAdListener(
