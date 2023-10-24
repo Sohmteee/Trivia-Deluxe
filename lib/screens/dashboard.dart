@@ -59,7 +59,7 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                     Row(
                       children: [
                         Text(
-                          "incorrect Answers:",
+                          "Incorrect Answers:",
                           style: TextStyle(
                             color: AppColor.white,
                             fontSize: 25.sp,
@@ -68,7 +68,9 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                         ),
                         SizedBox(width: 20.w),
                         Text(
-                          questionProvider.correctAnswers.toString(),
+                          (questionProvider.totalQuestionsAnswered -
+                                  questionProvider.correctAnswers)
+                              .toString(),
                           style: TextStyle(
                             color: AppColor.right,
                             fontSize: 25.sp,
@@ -80,7 +82,7 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                     Row(
                       children: [
                         Text(
-                          "Correct Answers:",
+                          "Total Questions Answered:",
                           style: TextStyle(
                             color: AppColor.white,
                             fontSize: 25.sp,
