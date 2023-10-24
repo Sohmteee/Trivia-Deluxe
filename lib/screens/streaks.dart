@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:mrx_charts/mrx_charts.dart';
 import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/models/game_background.dart';
+import 'package:trivia/providers/question.dart';
 import 'package:trivia/providers/streaks.dart';
 import 'package:velocity_x/velocity_x.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
@@ -57,7 +59,7 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
     return GameBackground(
       body: Consumer<StreaksProvider>(builder: (context, streaksProvider, _) {
         return Padding(
-          padding: EdgeInsets.fromLTRB(40.w, 40.h, 40.w, 0),
+          padding: EdgeInsets.fromLTRB(20.w, 40.h, 20.w, 0),
           child: Column(
             children: [
               Center(
@@ -71,8 +73,8 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                 ),
               ),
               SizedBox(height: 10.h),
-              Consumer<QuestionProvide>(
-                builder: (context) {
+              Consumer<QuestionProvider>(
+                builder: (context, questionProvider, _) {
                   return Row(
                     children: [
                       Stack(
@@ -89,18 +91,22 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                     [
                                       if (questionProvider.correctAnswers != 0)
                                         ChartGroupPieDataItem(
-                                          amount: questionProvider.correctAnswers
+                                          amount: questionProvider
+                                              .correctAnswers
                                               .toDouble(),
                                           color: AppColor.right,
                                           label: "Correct Answers",
                                         ),
-                                      if ((questionProvider.totalQuestionsAnswered -
-                                              questionProvider.correctAnswers) !=
+                                      if ((questionProvider
+                                                  .totalQuestionsAnswered -
+                                              questionProvider
+                                                  .correctAnswers) !=
                                           0)
                                         ChartGroupPieDataItem(
                                           amount: (questionProvider
                                                       .totalQuestionsAnswered -
-                                                  questionProvider.correctAnswers)
+                                                  questionProvider
+                                                      .correctAnswers)
                                               .toDouble(),
                                           color: Colors.red,
                                           label: "Wrong answers",
@@ -215,52 +221,7 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                       )
                     ],
                   );
-                }
-              ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  ZoomTapAnimation(
-                    onTap: () {
-                      Navigator.pushNamed(context, "/leaderboard");
-                    },
-                    child: Container(
-                      padding: EdgeInsets.symmetric(
-                          horizontal: 20.w, vertical: 10.h),
-                      decoration: BoxDecoration(
-                        color: AppColor.yellow,
-                        borderRadius: BorderRadius.circular(50.r),
-                      ),
-                      child: Text(
-                        "Leaderboard",
-                        style: TextStyle(
-                          color: AppColor.white,
-                          fontSize: 20.sp,
-                        ),
-                      ),
-                    ),
-                  ),
-                  ZoomTapAnimation(
-                    onTap: () {
-                      Navigator.pushNamed(context, "/statistics");
-                    },
-                    child: Container(
-                      padding: EdgeInsets.symmetric(
-                          horizontal: 20.w, vertical: 10.h),
-                      decoration: BoxDecoration(
-                        color: AppColor.yellow,
-                        borderRadius: BorderRadius.circular(50.r),
-                      ),
-                      child: Text(
-                        "Statistics",
-                        style: TextStyle(
-                          color: AppColor.white,
-                          fontSize: 20.sp,
-                        ),
-                      ),
-                    ),
-                  ),
-                ],
+                },
               ),
               SizedBox(height: 20.h),
               Expanded(
