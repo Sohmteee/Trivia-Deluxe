@@ -22,7 +22,7 @@ showSettingsDialog(BuildContext context) {
         Text(
           "Game Settings",
           style: TextStyle(
-            color: AppColor.yellow,
+            color: AppColor.slightlyLighterYellow,
             fontSize: 25.sp,
             fontWeight: FontWeight.bold,
           ),

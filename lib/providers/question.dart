@@ -105,6 +105,8 @@ class QuestionProvider extends ChangeNotifier {
             Navigator.pushReplacementNamed(context, "/stage");
           }
         } else {
+          final questionProvider =
+              Provider.of<QuestionProvider>(context, listen: false);
           showFailedDialog(context, questionIndex, false);
         }
 
