@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:provider/provider.dart';
 import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/models/game_background.dart';
+import 'package:trivia/providers/question.dart';
 
 class DashBoardScreen extends StatefulWidget {
   const DashBoardScreen({super.key});
@@ -29,13 +31,25 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
               ),
             ),
             const Spacer(),
-            Text(
-              "This feature is coming soon",
-              style: TextStyle(
-                color: AppColor.white,
-                fontSize: 25.sp,
-              ),
-              textAlign: TextAlign.center,
+            Consumer<QuestionProvider>(
+              builder: (context, questionProvider, _) {
+                return Column(
+                  children: [
+                    Row(
+                      children: [
+                        Text(
+                          "Correct Answers",
+                          style: TextStyle(
+                            color: AppColor.white,
+                            fontSize: 25.sp,
+                          ),
+                          textAlign: TextAlign.center,
+                        ),
+                      ],
+                    ),
+                  ],
+                );
+              }
             ),
             const Spacer(),
           ],
