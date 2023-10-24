@@ -58,7 +58,7 @@ class QuestionProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-    toggleAutoAnswer(bool value) {
+  toggleAutoAnswer(bool value) {
     autoAnswer = value;
     box.put("autoAnswer", value);
     notifyListeners();
@@ -102,11 +102,13 @@ class QuestionProvider extends ChangeNotifier {
               stageProvider.resetCompletedStage();
             });
           } else {
-            Navigator.pushReplacementNamed(context, "/stage");
+            if (autoAnswer) {
+              Navigator.pushReplacementNamed(context, "/stage");
+            } else {
+              Navigator.pushReplacementNamed(context, "/stage");
+            }
           }
         } else {
-          final questionProvider =
-              Provider.of<QuestionProvider>(context, listen: false);
           showFailedDialog(context, questionIndex, false);
         }
 
