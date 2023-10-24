@@ -8,6 +8,7 @@ class GameBackground extends StatefulWidget {
     super.key,
     required this.body,
     this.bottomNavigationBar,
+    this.fl
   });
 
   final Widget body;
@@ -27,6 +28,7 @@ class _GameBackgroundState extends State<GameBackground> {
   Widget build(BuildContext context) {
     return Scaffold(
       bottomNavigationBar: widget.bottomNavigationBar,
+      flo
       body: Stack(
         children: [
           buildBlurBackground(),
