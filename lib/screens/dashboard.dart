@@ -33,7 +33,8 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                 textAlign: TextAlign.center,
               ),
             ),
-            SizedBox(height: 50.h),
+            // SizedBox(height: 50.h),
+            SizedBox(height: 20.h),
             Consumer<QuestionProvider>(
               builder: (context, questionProvider, _) {
                 return Column(
@@ -163,6 +164,7 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
                               ),
                             ],
                           ),
+                          SizedBox(width: 20.w),
                           Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
