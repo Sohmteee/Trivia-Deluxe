@@ -313,7 +313,9 @@ class _SelectScreenState extends State<SelectScreen> {
                   for (int i = 0; i < selectItems.length; i++)
                     ZoomTapAnimation(
                       onTap: () {
-                        final 
+                        final selectProvider =
+                            Provider.of<SelectProvider>(context, listen: false);
+                        selectProvider.pageIndex = i;
                       },
                       child: AnimatedContainer(
                         duration: .3.seconds,
