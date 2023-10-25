@@ -378,10 +378,17 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                         ],
                                       ),
                                     ),
-                                    if (item["status" == true])
+                                    if (!item["status"])
                                       Row(
                                         children: [
-                                          Text()
+                                          Text(
+                                            "Collect Reward",
+                                            style: TextStyle(
+                                              color: AppColor.white,
+                                              fontSize: 18.sp,
+                                            ),
+                                          ), 
+                                          Con
                                         ],
                                       ),
                                   ],
