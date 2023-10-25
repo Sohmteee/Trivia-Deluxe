@@ -451,12 +451,18 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                                         ),
                                                       ),
                                                     ],
-                                                  ).animate().moveY(
+                                                  )
+                                                    .animate()
+                                                    .moveY(
                                                       delay: .3.seconds,
                                                       duration: .5.seconds,
                                                       curve: Curves.easeOut,
                                                       begin: 0,
                                                       end: -50.h,
+                                                    )
+                                                    .fadeOut(
+                                                      delay: .3.seconds,
+                                                      duration: .5.seconds,
                                                     )
                                                 : Row(
                                                     mainAxisSize:
