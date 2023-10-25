@@ -421,6 +421,7 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                                   BorderRadius.circular(10.r),
                                             ),
                                             child: Row(
+                                              mainAxisSize: MainAxisSize.min,
                                               children: [
                                                 Image.asset(
                                                   "assets/images/coin.png",
