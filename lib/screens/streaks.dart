@@ -407,7 +407,7 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                                 ),
                                                 SizedBox(width: 5.w),
                                                 Text(
-                                                  item["rewad"],
+                                                  item["reward"].toString(),
                                                   style: TextStyle(
                                                     color: AppColor.white,
                                                     fontSize: 18.sp,
