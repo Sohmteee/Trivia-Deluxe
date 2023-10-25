@@ -385,7 +385,7 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                           ),
                                         ),
                                         if (!item["status"] &&
-                                            item["collected"])
+                                            !item["collected"])
                                           Row(
                                             children: [
                                               const Spacer(flex: 10),
