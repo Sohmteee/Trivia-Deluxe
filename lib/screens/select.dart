@@ -318,15 +318,15 @@ class _SelectScreenState extends State<SelectScreen> {
                         pageController.animateToPage(
                           i,
                           duration: .3.seconds,
-                          curve: Curves.bounceOut,
+                          curve: Curves.easeOut,
                         );
                         selectProvider.pageIndex = i;
                       },
                       child: AnimatedContainer(
                         duration: .3.seconds,
                         margin: EdgeInsets.symmetric(horizontal: 5.sp),
-                        width: 10.sp,
-                        height: 10.sp,
+                        width: 13.sp,
+                        height: 13.sp,
                         decoration: BoxDecoration(
                           color:
                               (Provider.of<SelectProvider>(context).pageIndex ==
