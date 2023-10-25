@@ -431,7 +431,7 @@ class StreaksProvider extends ChangeNotifier {
                 "title": "Trivia Grandmaster",
                 "subtitle": "Answer 50 questions correctly in a row",
                 "status": permanentTriviaStreak >= 50,
-                "collected": ,
+                "collected": streaks[2]["streaks"][3]["collected"],
                 "progress": permanentTriviaStreak >= 50
                     ? 50
                     : triviaStreak >= 50
@@ -444,7 +444,7 @@ class StreaksProvider extends ChangeNotifier {
                 "title": "Trivia Maestro",
                 "subtitle": "Answer 100 questions correctly in a row",
                 "status": permanentTriviaStreak >= 100,
-                "collected": false,
+                "collected": streaks[2]["streaks"][4]["collected"],
                 "progress": permanentTriviaStreak >= 100
                     ? 100
                     : triviaStreak >= 100
@@ -463,7 +463,7 @@ class StreaksProvider extends ChangeNotifier {
                 "title": "Achiever",
                 "subtitle": "Rank top 10 on the leaderboard",
                 "status": permanentLeaderboardStreak == 10,
-                "collected": false,
+                "collected": streaks[3]["streaks"][0]["collected"],
                 "progress": permanentLeaderboardStreak == 10
                     ? 1
                     : leaderboardStreak == 10
@@ -476,7 +476,7 @@ class StreaksProvider extends ChangeNotifier {
                 "title": "Top Ranker",
                 "subtitle": "Rank top 5 on the leaderboard",
                 "status": permanentLeaderboardStreak == 5,
-                "collected": false,
+                "collected": streaks[3]["streaks"][1]["collected"],
                 "progress": permanentLeaderboardStreak == 5
                     ? 1
                     : leaderboardStreak == 5
@@ -489,7 +489,7 @@ class StreaksProvider extends ChangeNotifier {
                 "title": "Master Ranker",
                 "subtitle": "Rank top 3 on the leaderboard",
                 "status": permanentLeaderboardStreak == 3,
-                "collected": false,
+                "collected": streaks[3]["streaks"][2]["collected"],
                 "progress": permanentLeaderboardStreak == 3
                     ? 1
                     : leaderboardStreak == 3
@@ -502,7 +502,7 @@ class StreaksProvider extends ChangeNotifier {
                 "title": "Leaderboard Champion",
                 "subtitle": "Rank first on the leaderboard",
                 "status": permanentLeaderboardStreak == 1,
-                "collected": false,
+                "collected": streaks[3]["streaks"][3]["collected"],
                 "progress": permanentLeaderboardStreak == 1
                     ? 1
                     : leaderboardStreak == 1
@@ -521,7 +521,7 @@ class StreaksProvider extends ChangeNotifier {
                 "title": "Ultimate Achiever",
                 "subtitle": "Finish all streaks",
                 "status": ultimateStreak >= 19,
-                "collected": false,
+                "collected": streaks[4]["streaks"][0]["collected"],
                 "progress": ultimateStreak >= 19
                     ? 19
                     : ultimateStreak >= 19
