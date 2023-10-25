@@ -432,7 +432,26 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                               borderRadius:
                                                   BorderRadius.circular(10.r),
                                             ),
-                                            child: Row(
+                                            child: tapped ? Row(
+                                                    mainAxisSize:
+                                                        MainAxisSize.min,
+                                                    children: [
+                                                      Image.asset(
+                                                        "assets/images/coin.png",
+                                                        width: 20.w,
+                                                      ),
+                                                      SizedBox(width: 5.w),
+                                                      Text(
+                                                        item["reward"]
+                                                            .toString(),
+                                                        style: TextStyle(
+                                                          color: AppColor.white,
+                                                          fontSize: 18.sp,
+                                                        ),
+                                                      ),
+                                                    ],
+                                                  ).animate().
+                                                : Row(
                                               mainAxisSize: MainAxisSize.min,
                                               children: [
                                                 Image.asset(
