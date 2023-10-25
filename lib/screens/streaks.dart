@@ -314,8 +314,6 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                         Column(
                           children: streakList.map(
                             (item) {
-                              Color coinColor = AppColor.right;
-                              bool collected = false;
 
                               return Column(
                                 children: [
@@ -395,7 +393,6 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                         ZoomTapAnimation(
                                           onTap: () {
                                             setState(() {
-                                              coinColor = Colors.transparent;
                                             });
 
                                             final streaksProvider =
@@ -419,7 +416,7 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                                 vertical: 10.h,
                                                 horizontal: 10.w),
                                             decoration: BoxDecoration(
-                                              color: coinColor,
+                                              color: AppColor.right,
                                               borderRadius:
                                                   BorderRadius.circular(10.r),
                                             ),
