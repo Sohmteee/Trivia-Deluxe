@@ -392,8 +392,7 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                         const Spacer(),
                                         ZoomTapAnimation(
                                           onTap: () {
-                                            setState(() {
-                                            });
+                                            setState(() {});
 
                                             final streaksProvider =
                                                 Provider.of<StreaksProvider>(
