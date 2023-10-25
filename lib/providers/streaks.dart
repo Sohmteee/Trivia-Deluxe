@@ -24,6 +24,7 @@ class StreaksProvider extends ChangeNotifier {
             "progress": 0,
             "limit": 5,
             "reward": 10,
+            "tapped": false,
           },
           {
             "title": "Leveling Up",
@@ -33,6 +34,7 @@ class StreaksProvider extends ChangeNotifier {
             "progress": 0,
             "limit": 10,
             "reward": 20,
+            "tapped": false,
           },
           {
             "title": "Tenacious Triumph",
@@ -42,6 +44,7 @@ class StreaksProvider extends ChangeNotifier {
             "progress": 0,
             "limit": 20,
             "reward": 30,
+            "tapped": false,
           },
           {
             "title": "Masterful Streak",
@@ -51,6 +54,7 @@ class StreaksProvider extends ChangeNotifier {
             "progress": 0,
             "limit": 50,
             "reward": 40,
+            "tapped": false,
           },
           {
             "title": "Unstoppable Champion",
@@ -60,6 +64,7 @@ class StreaksProvider extends ChangeNotifier {
             "progress": 0,
             "limit": 100,
             "reward": 50,
+            "tapped": false,
           },
         ],
       },
@@ -75,6 +80,7 @@ class StreaksProvider extends ChangeNotifier {
             "progress": 50,
             "limit": 100,
             "reward": 10,
+            "tapped": false,
           },
           {
             "title": "Coin Hoarder",
@@ -84,6 +90,7 @@ class StreaksProvider extends ChangeNotifier {
             "progress": 50,
             "limit": 200,
             "reward": 20,
+            "tapped": false,
           },
           {
             "title": "Gold Gatherer",
@@ -93,6 +100,7 @@ class StreaksProvider extends ChangeNotifier {
             "progress": 50,
             "limit": 500,
             "reward": 30,
+            "tapped": false,
           },
           {
             "title": "Treasure Hunter",
@@ -102,6 +110,7 @@ class StreaksProvider extends ChangeNotifier {
             "progress": 50,
             "limit": 1000,
             "reward": 40,
+            "tapped": false,
           },
           {
             "title": "Coin Millionaire",
@@ -111,6 +120,7 @@ class StreaksProvider extends ChangeNotifier {
             "progress": 50,
             "limit": 2000,
             "reward": 50,
+            "tapped": false,
           },
         ],
       },
@@ -126,6 +136,7 @@ class StreaksProvider extends ChangeNotifier {
             "progress": 0,
             "limit": 5,
             "reward": 10,
+            "tapped": false,
           },
           {
             "title": "Trivia Expert",
@@ -135,6 +146,7 @@ class StreaksProvider extends ChangeNotifier {
             "progress": 0,
             "limit": 10,
             "reward": 20,
+            "tapped": false,
           },
           {
             "title": "Brainiac",
@@ -144,6 +156,7 @@ class StreaksProvider extends ChangeNotifier {
             "progress": 0,
             "limit": 20,
             "reward": 30,
+            "tapped": false,
           },
           {
             "title": "Trivia Grandmaster",
@@ -153,6 +166,7 @@ class StreaksProvider extends ChangeNotifier {
             "progress": 0,
             "limit": 50,
             "reward": 40,
+            "tapped": false,
           },
           {
             "title": "Trivia Maestro",
@@ -162,6 +176,7 @@ class StreaksProvider extends ChangeNotifier {
             "progress": 0,
             "limit": 100,
             "reward": 50,
+            "tapped": false,
           },
         ],
       },
@@ -177,6 +192,7 @@ class StreaksProvider extends ChangeNotifier {
             "progress": 0,
             "limit": 1,
             "reward": 10,
+            "tapped": false,
           },
           {
             "title": "Top Ranker",
@@ -186,6 +202,7 @@ class StreaksProvider extends ChangeNotifier {
             "progress": 0,
             "limit": 1,
             "reward": 20,
+            "tapped": false,
           },
           {
             "title": "Master Ranker",
@@ -195,6 +212,7 @@ class StreaksProvider extends ChangeNotifier {
             "progress": 0,
             "limit": 1,
             "reward": 50,
+            "tapped": false,
           },
           {
             "title": "Leaderboard Champion",
@@ -204,6 +222,7 @@ class StreaksProvider extends ChangeNotifier {
             "progress": 0,
             "limit": 1,
             "reward": 100,
+            "tapped": false,
           },
         ],
       },
@@ -219,6 +238,7 @@ class StreaksProvider extends ChangeNotifier {
             "progress": 0,
             "limit": 19,
             "reward": 200,
+            "tapped": false,
           },
         ],
       },
@@ -257,6 +277,7 @@ class StreaksProvider extends ChangeNotifier {
                         : levelStreak,
                 "limit": 5,
                 "reward": 10,
+                "tapped": false,
               },
               {
                 "title": "Leveling Up",
@@ -270,6 +291,7 @@ class StreaksProvider extends ChangeNotifier {
                         : levelStreak,
                 "limit": 10,
                 "reward": 20,
+                "tapped": false,
               },
               {
                 "title": "Tenacious Triumph",
@@ -283,6 +305,7 @@ class StreaksProvider extends ChangeNotifier {
                         : levelStreak,
                 "limit": 20,
                 "reward": 30,
+                "tapped": false,
               },
               {
                 "title": "Masterful Streak",
@@ -296,6 +319,7 @@ class StreaksProvider extends ChangeNotifier {
                         : levelStreak,
                 "limit": 50,
                 "reward": 40,
+                "tapped": false,
               },
               {
                 "title": "Unstoppable Champion",
@@ -309,6 +333,7 @@ class StreaksProvider extends ChangeNotifier {
                         : levelStreak,
                 "limit": 100,
                 "reward": 50,
+                "tapped": false,
               },
             ],
           },
@@ -328,6 +353,7 @@ class StreaksProvider extends ChangeNotifier {
                         : coinStreak,
                 "limit": 100,
                 "reward": 10,
+                "tapped": false,
               },
               {
                 "title": "Coin Hoarder",
@@ -341,6 +367,7 @@ class StreaksProvider extends ChangeNotifier {
                         : coinStreak,
                 "limit": 200,
                 "reward": 20,
+                "tapped": false,
               },
               {
                 "title": "Gold Gatherer",
@@ -354,6 +381,7 @@ class StreaksProvider extends ChangeNotifier {
                         : coinStreak,
                 "limit": 500,
                 "reward": 30,
+                "tapped": false,
               },
               {
                 "title": "Treasure Hunter",
@@ -367,6 +395,7 @@ class StreaksProvider extends ChangeNotifier {
                         : coinStreak,
                 "limit": 1000,
                 "reward": 40,
+                "tapped": false,
               },
               {
                 "title": "Coin Millionaire",
@@ -380,6 +409,7 @@ class StreaksProvider extends ChangeNotifier {
                         : coinStreak,
                 "limit": 2000,
                 "reward": 50,
+                "tapped": false,
               },
             ],
           },
@@ -399,6 +429,7 @@ class StreaksProvider extends ChangeNotifier {
                         : triviaStreak,
                 "limit": 5,
                 "reward": 10,
+                "tapped": false,
               },
               {
                 "title": "Trivia Expert",
@@ -412,6 +443,7 @@ class StreaksProvider extends ChangeNotifier {
                         : triviaStreak,
                 "limit": 10,
                 "reward": 20,
+                "tapped": false,
               },
               {
                 "title": "Brainiac",
@@ -425,6 +457,7 @@ class StreaksProvider extends ChangeNotifier {
                         : triviaStreak,
                 "limit": 20,
                 "reward": 30,
+                "tapped": false,
               },
               {
                 "title": "Trivia Grandmaster",
@@ -438,6 +471,7 @@ class StreaksProvider extends ChangeNotifier {
                         : triviaStreak,
                 "limit": 50,
                 "reward": 40,
+                "tapped": false,
               },
               {
                 "title": "Trivia Maestro",
@@ -451,6 +485,7 @@ class StreaksProvider extends ChangeNotifier {
                         : triviaStreak,
                 "limit": 100,
                 "reward": 50,
+                "tapped": false,
               },
             ],
           },
@@ -470,6 +505,7 @@ class StreaksProvider extends ChangeNotifier {
                         : 0,
                 "limit": 1,
                 "reward": 10,
+                "tapped": false,
               },
               {
                 "title": "Top Ranker",
@@ -483,6 +519,7 @@ class StreaksProvider extends ChangeNotifier {
                         : 0,
                 "limit": 1,
                 "reward": 20,
+                "tapped": false,
               },
               {
                 "title": "Master Ranker",
@@ -496,6 +533,7 @@ class StreaksProvider extends ChangeNotifier {
                         : 0,
                 "limit": 1,
                 "reward": 50,
+                "tapped": false,
               },
               {
                 "title": "Leaderboard Champion",
@@ -509,6 +547,7 @@ class StreaksProvider extends ChangeNotifier {
                         : 0,
                 "limit": 1,
                 "reward": 100,
+                "tapped": false,
               },
             ],
           },
@@ -528,6 +567,7 @@ class StreaksProvider extends ChangeNotifier {
                         : ultimateStreak,
                 "limit": 19,
                 "reward": 200,
+                "tapped": false,
               },
             ],
           },
