@@ -38,7 +38,7 @@ class QuestionProvider extends ChangeNotifier {
     if (questionIndex >= questions.length - 1) {
       questionIndex = 0;
       data["currentIndex"] = questionIndex;
-      // questions.shuffle();
+      questions.shuffle();
     }
 
     question = questions[questionIndex]["question"];
