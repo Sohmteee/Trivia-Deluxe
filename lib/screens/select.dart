@@ -213,12 +213,15 @@ class _SelectScreenState extends State<SelectScreen> {
                                   questionProvider.currentLevel = box.get(
                                       item["data"]["title"])["currentLevel"];
 
-                                      if 
-                                  Future.delayed(
-                                    3.microseconds,
-                                    () =>
-                                        Navigator.pushNamed(context, "/stage"),
-                                  );
+                                  if (questionProvider.currentLevel == 30) {
+                                    showCOmpletedDialog();
+                                  } else {
+                                    Future.delayed(
+                                      3.microseconds,
+                                      () => Navigator.pushNamed(
+                                          context, "/stage"),
+                                    );
+                                  }
                                 },
                                 child: Container(
                                   padding: EdgeInsets.all(10.sp),
