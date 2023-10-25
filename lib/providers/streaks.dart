@@ -239,9 +239,8 @@ class StreaksProvider extends ChangeNotifier {
 
   int ultimateStreak = box.get("ultimateStreak", defaultValue: 0);
 
-  void updateStreaksData(List<dynamic>? streaksData) {
-    streaks = streaksData ??
-        [
+  void updateStreaksData() {
+    streaks = [
           {
             "title": "Level Streaks",
             "image": "assets/images/level.png",
