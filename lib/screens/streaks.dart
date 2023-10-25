@@ -316,15 +316,10 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                         ),
                         SizedBox(height: 5.h),
                         Column(
-                          children: streakList.asMap().entries.map(
+                          children: streakList.map(
                             (item) {
-                              int index = item.key;
-                              Map<String, dynamic> item = item.value;
-                              bool tapped = tappedStates[index];
 
-                              return tapped
-                                  ? Text("Done")
-                                  : Column(
+                              return Column(
                                       children: [
                                         ListTile(
                                           minLeadingWidth: 20.w,
