@@ -292,6 +292,10 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                         streaksProvider.streaks[index]["title"];
                     String image = streaksProvider.streaks[index]["image"];
                     List streakList = streaksProvider.streaks[index]["streaks"];
+
+                    List<bool> tappedStates =
+                        List.filled(streakList.length, false);
+
                     return Column(
                       children: [
                         Row(
@@ -312,7 +316,7 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                         ),
                         SizedBox(height: 5.h),
                         Column(
-                          children: streakList.map(
+                          children: streakList.asMap().entries.map(
                             (item) {
                               bool tapped = false;
 
