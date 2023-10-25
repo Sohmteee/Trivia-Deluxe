@@ -212,6 +212,8 @@ class _SelectScreenState extends State<SelectScreen> {
 
                                   questionProvider.currentLevel = box.get(
                                       item["data"]["title"])["currentLevel"];
+
+                                      if 
                                   Future.delayed(
                                     3.microseconds,
                                     () =>
