@@ -316,10 +316,15 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                         ),
                         SizedBox(height: 5.h),
                         Column(
-                          children: streakList.map(
+                          children: streakList.asMap().entries.map(
                             (item) {
+                              int index = item.key;
+                              Map<String, dynamic> item = item.value;
+                              bool tapped = tappedStates[index];
 
-                              return Column(
+                              return tapped
+                                  ? Text("Done")
+                                  : Column(
                                       children: [
                                         ListTile(
                                           minLeadingWidth: 20.w,
@@ -400,11 +405,7 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                               ZoomTapAnimation(
                                                 onTap: () {
                                                   setState(() {
-                                                    
-                                              int index = item.key;
-                                              Map<String, dynamic> item =
-                                                  item.value;
-                                              bool tapped = tappedStates[index];
+                                                    tapped = true;
                                                   });
 
                                                   final streaksProvider =
