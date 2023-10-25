@@ -395,12 +395,24 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                                   color: AppColor.white,
                                                   fontSize: 18.sp,
                                                 ),
-                                              ).animate().moveX(
-                                                  delay: .3.seconds,
+                                              ).animate(
+                                                onComplete: (controller) {
+                                                  streakData[index]["streaks"]
+                                                          [streakData[index]
+                                                                  ["streaks"]
+                                                              .indexOf(item)]
+                                                      ["collected"] = true;
+                                                  streaksProvider.streaks =
+                                                      streakData;
+                                                  streaksProvider
+                                                      .updateStreaksData();
+                                                }
+                                              ).moveX(
+                                                  delay: 1.seconds,
                                                   duration: .5.seconds,
                                                   curve: Curves.easeOut,
                                                   begin: 0,
-                                                  end: 50.w,
+                                                  end: 200.w,
                                                 )
                                             : Text(
                                                 "Collect Reward",
