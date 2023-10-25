@@ -22,6 +22,7 @@ import 'package:trivia/data/questions/religion.dart';
 import 'package:trivia/data/questions/sports.dart';
 import 'package:trivia/data/questions/vocab.dart';
 import 'package:trivia/main.dart';
+import 'package:trivia/models/dialogs/complete_dialog.dart';
 import 'package:trivia/models/game_background.dart';
 import 'package:trivia/models/stat_bar.dart';
 import 'package:trivia/providers/question.dart';
@@ -214,7 +215,7 @@ class _SelectScreenState extends State<SelectScreen> {
                                       item["data"]["title"])["currentLevel"];
 
                                   if (questionProvider.currentLevel == 30) {
-                                    showCOmpletedDialog();
+                                    showCompletedCategoryDialog(context);
                                   } else {
                                     Future.delayed(
                                       3.microseconds,

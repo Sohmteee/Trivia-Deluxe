@@ -6,7 +6,7 @@ import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 import 'game.dart';
 
-showCompletedDialog(BuildContext context) {
+showCompletedCategoryDialog(BuildContext context) {
   showGameDialog(
     context,
     isExitable: true,
@@ -16,7 +16,7 @@ showCompletedDialog(BuildContext context) {
       mainAxisSize: MainAxisSize.min,
       children: [
         Text(
-          "Hurray! You have completed the game!",
+          "Hurray!",
           style: TextStyle(
             color: AppColor.yellow,
             fontSize: 25.sp,
@@ -26,8 +26,7 @@ showCompletedDialog(BuildContext context) {
         ),
         SizedBox(height: 20.h),
         Text(
-          "Your average time is calculated by the total time you took to answer all the questions divided by the number of questions you answered."
-          "\nIf you fail a question though, the time taken to answer that question is not included in the calculation.",
+          "You have completed the questions in this category.",
           style: TextStyle(
             color: Colors.white,
             fontSize: 18.sp,
