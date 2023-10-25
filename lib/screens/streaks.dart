@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:mrx_charts/mrx_charts.dart';
 import 'package:provider/provider.dart';
@@ -381,47 +380,7 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                     ),
                                   ),
                                   if (!item["status"] && item["collected"])
-                                    // ignore: dead_code
-                                    tapped ? Row(
-                                      children: [
-                                        const Spacer(flex: 10),
-                                        Text(
-                                          "Collect Reward",
-                                          style: TextStyle(
-                                            color: AppColor.white,
-                                            fontSize: 18.sp,
-                                          ),
-                                        ),
-                                        const Spacer(),
-                                        Container(
-                                          padding: EdgeInsets.symmetric(
-                                              vertical: 10.h,
-                                              horizontal: 10.w),
-                                          decoration: BoxDecoration(
-                                            color: AppColor.right,
-                                            borderRadius:
-                                                BorderRadius.circular(10.r),
-                                          ),
-                                          child: Row(
-                                            children: [
-                                              Image.asset(
-                                                "assets/images/coin.png",
-                                                width: 20.w,
-                                              ),
-                                              SizedBox(width: 5.w),
-                                              Text(
-                                                item["reward"].toString(),
-                                                style: TextStyle(
-                                                  color: AppColor.white,
-                                                  fontSize: 18.sp,
-                                                ),
-                                              ),
-                                            ],
-                                          ),
-                                        ),
-                                        const Spacer(),
-                                      ],
-                                    ).animate().slideX(delay: .3.seconds, duration: ):Row(
+                                    Row(
                                       children: [
                                         const Spacer(flex: 10),
                                         Text(
