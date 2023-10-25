@@ -389,7 +389,7 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                               fontSize: 18.sp,
                                             ),
                                           ),
-                                          const Spacer(flex: 3),
+                                          const Spacer(),
                                           Container(
                                             padding: EdgeInsets.symmetric(
                                                 vertical: 10.h,
@@ -399,12 +399,20 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                               borderRadius:
                                                   BorderRadius.circular(10.r),
                                             ),
-                                            child: Text(
-                                              "100",
-                                              style: TextStyle(
-                                                color: AppColor.white,
-                                                fontSize: 18.sp,
-                                              ),
+                                            child: Row(
+                                              children: [
+                                                Image.asset(
+                                                  "assets/images/coin.png",
+                                                  width: 20.w,
+                                                ),
+                                                Text(
+                                                  "100",
+                                                  style: TextStyle(
+                                                    color: AppColor.white,
+                                                    fontSize: 18.sp,
+                                                  ),
+                                                ),
+                                              ],
                                             ),
                                           ),
                                           const Spacer(),
