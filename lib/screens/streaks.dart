@@ -378,7 +378,12 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                         ],
                                       ),
                                     ),
-                                    
+                                    if (item["status" == true])
+                                      Row(
+                                        children: [
+                                          Text()
+                                        ],
+                                      ),
                                   ],
                                 ),
                               )
