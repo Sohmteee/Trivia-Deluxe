@@ -381,6 +381,7 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                     if (!item["status"])
                                       Row(
                                         children: [
+                                          const Spacer(flex: 10),
                                           Text(
                                             "Collect Reward",
                                             style: TextStyle(
@@ -388,6 +389,7 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                               fontSize: 18.sp,
                                             ),
                                           ),
+                                          const Spacer(flex: 3),
                                           Container(
                                             padding: EdgeInsets.symmetric(
                                                 vertical: 10.h,
@@ -404,7 +406,8 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                                 fontSize: 18.sp,
                                               ),
                                             ),
-                                          )
+                                          ),
+                                          const Spacer(),
                                         ],
                                       ),
                                   ],
