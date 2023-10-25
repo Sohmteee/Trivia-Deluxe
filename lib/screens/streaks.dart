@@ -403,13 +403,7 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                                     tapped = true;
                                                   });
 
-                                                  final streaksProvider =
-                                                      Provider.of<
-                                                              StreaksProvider>(
-                                                          context,
-                                                          listen: false);
-                                                  final streakData =
-                                                      streaksProvider.streaks;
+                                                  
 
                                                   streakData[index]["streaks"][
                                                           streakData[index]
