@@ -406,8 +406,8 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                                   ["collected"] = true;
                                               streaksProvider.streaks =
                                                   streakData;
-                                              // streaksProvider
-                                              //     .updateStreaksData();
+                                              streaksProvider
+                                                  .updateStreaksData();
                                             },
                                             child: Container(
                                               padding: EdgeInsets.symmetric(
