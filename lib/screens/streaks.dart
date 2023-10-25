@@ -413,6 +413,8 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                                         listen: false)
                                                     .increaseCoins(
                                                         item["reward"]);
+
+                                                        
                                               }).moveX(
                                                 delay: .7.seconds,
                                                 duration: .5.seconds,
