@@ -411,6 +411,16 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                                           streakData[index]
                                                                   ["streaks"]
                                                               .indexOf(item)]
+                                                      ["tapped"] = true;
+                                                  streaksProvider.streaks =
+                                                      streakData;
+                                                  streaksProvider
+                                                      .updateStreaksData();
+
+                                                  streakData[index]["streaks"][
+                                                          streakData[index]
+                                                                  ["streaks"]
+                                                              .indexOf(item)]
                                                       ["collected"] = true;
                                                   streaksProvider.streaks =
                                                       streakData;
