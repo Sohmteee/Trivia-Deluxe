@@ -72,7 +72,7 @@ class StreaksProvider extends ChangeNotifier {
             "subtitle": "Earn 100 coins",
             "status": false,
             "collected": false,
-            "progress": 0,
+            "progress": 50,
             "limit": 100,
             "reward": 10,
           },
@@ -81,7 +81,7 @@ class StreaksProvider extends ChangeNotifier {
             "subtitle": "Earn 200 coins",
             "status": false,
             "collected": false,
-            "progress": 0,
+            "progress": 50,
             "limit": 200,
             "reward": 20,
           },
@@ -90,7 +90,7 @@ class StreaksProvider extends ChangeNotifier {
             "subtitle": "Earn 500 coins",
             "status": false,
             "collected": false,
-            "progress": 0,
+            "progress": 50,
             "limit": 500,
             "reward": 30,
           },
@@ -99,7 +99,7 @@ class StreaksProvider extends ChangeNotifier {
             "subtitle": "Earn 1000 coins",
             "status": false,
             "collected": false,
-            "progress": 0,
+            "progress": 50,
             "limit": 1000,
             "reward": 40,
           },
@@ -108,7 +108,7 @@ class StreaksProvider extends ChangeNotifier {
             "subtitle": "Earn 2000 coins",
             "status": false,
             "collected": false,
-            "progress": 0,
+            "progress": 50,
             "limit": 2000,
             "reward": 50,
           },
@@ -236,7 +236,7 @@ class StreaksProvider extends ChangeNotifier {
   int leaderboardStreak = box.get("leaderboardStreak", defaultValue: 0),
       permanentLeaderboardStreak =
           box.get("permanentLeaderboardStreak", defaultValue: 0);
-          
+
   int ultimateStreak = box.get("ultimateStreak", defaultValue: 0);
 
   void updateStreaksData() {
