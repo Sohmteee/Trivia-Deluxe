@@ -318,7 +318,9 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                         Column(
                           children: streakList.asMap().entries.map(
                             (item) {
-                              bool tapped = false;
+                               int index = item.key;
+      Map<String, dynamic> item = item.value;
+      bool tapped = tappedStates[index];
 
                               return tapped
                                   ? Text("Done")
