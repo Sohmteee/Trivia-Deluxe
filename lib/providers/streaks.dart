@@ -360,7 +360,7 @@ class StreaksProvider extends ChangeNotifier {
                 "title": "Treasure Hunter",
                 "subtitle": "Earn 1000 coins",
                 "status": permanentCoinStreak >= 1000,
-                "collected": false,
+                "collected": streaks[1]["streaks"][3]["collected"],
                 "progress": permanentCoinStreak >= 1000
                     ? 1000
                     : coinStreak >= 1000
@@ -373,7 +373,7 @@ class StreaksProvider extends ChangeNotifier {
                 "title": "Coin Millionaire",
                 "subtitle": "Earn 2000 coins",
                 "status": permanentCoinStreak >= 2000,
-                "collected": false,
+                "collected": streaks[1]["streaks"][4]["collected"],
                 "progress": permanentCoinStreak >= 2000
                     ? 2000
                     : coinStreak >= 2000
@@ -392,7 +392,7 @@ class StreaksProvider extends ChangeNotifier {
                 "title": "Trivia Beginner",
                 "subtitle": "Answer 5 questions correctly in a row",
                 "status": permanentTriviaStreak >= 5,
-                "collected": false,
+                "collected": streaks[2]["streaks"][0]["collected"],
                 "progress": permanentTriviaStreak >= 5
                     ? 5
                     : triviaStreak >= 5
