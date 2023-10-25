@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:mrx_charts/mrx_charts.dart';
 import 'package:provider/provider.dart';
@@ -412,12 +413,15 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                                 streakData;
                                             streaksProvider.updateStreaksData();
                                           },
-                                          child: Container(
+                                          child: AnimatedContainer(
+                                            duration: .3.seconds,
                                             padding: EdgeInsets.symmetric(
                                                 vertical: 10.h,
                                                 horizontal: 10.w),
                                             decoration: BoxDecoration(
-                                              color: AppColor.right,
+                                              color: tapped
+                                                  ? Colors.transparent
+                                                  : AppColor.right,
                                               borderRadius:
                                                   BorderRadius.circular(10.r),
                                             ),
