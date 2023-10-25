@@ -398,14 +398,16 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                                       listen: false);
                                               final streakData =
                                                   streaksProvider.streaks;
-                                              final subStreak = streaksProvider
-                                                      .streaks[index]["streaks"]
-                                                  [streaksProvider
-                                                      .streaks[index]["streaks"]
-                                                      .indexOf(item)];
-                                                      streakData
-                                              streaksProvider
-                                                  .updateStreaksData();
+
+                                              streakData[index]["streaks"][
+                                                      streakData[index]
+                                                              ["streaks"]
+                                                          .indexOf(item)]
+                                                  ["collected"] = true;
+                                              streaksProvider.streaks =
+                                                  streakData;
+                                              // streaksProvider
+                                              //     .updateStreaksData();
                                             },
                                             child: Container(
                                               padding: EdgeInsets.symmetric(
