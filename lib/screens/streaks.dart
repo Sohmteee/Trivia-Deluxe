@@ -380,13 +380,50 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                     ),
                                   ),
                                   if (!item["status"] && item["collected"])
-                                    tapped ? Text(
+                                    tapped ? Row(
+                                      children: [
+                                        const Spacer(flex: 10),
+                                        Text(
                                           "Collect Reward",
                                           style: TextStyle(
                                             color: AppColor.white,
                                             fontSize: 18.sp,
                                           ),
-                                        ):Row(
+                                        ),
+                                        const Spacer(),
+                                        ZoomTapAnimation(
+
+                                          
+                                          child: Container(
+                                            padding: EdgeInsets.symmetric(
+                                                vertical: 10.h,
+                                                horizontal: 10.w),
+                                            decoration: BoxDecoration(
+                                              color: AppColor.right,
+                                              borderRadius:
+                                                  BorderRadius.circular(10.r),
+                                            ),
+                                            child: Row(
+                                              children: [
+                                                Image.asset(
+                                                  "assets/images/coin.png",
+                                                  width: 20.w,
+                                                ),
+                                                SizedBox(width: 5.w),
+                                                Text(
+                                                  item["reward"].toString(),
+                                                  style: TextStyle(
+                                                    color: AppColor.white,
+                                                    fontSize: 18.sp,
+                                                  ),
+                                                ),
+                                              ],
+                                            ),
+                                          ),
+                                        ),
+                                        const Spacer(),
+                                      ],
+                                    ):Row(
                                       children: [
                                         const Spacer(flex: 10),
                                         Text(
