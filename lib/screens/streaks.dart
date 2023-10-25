@@ -380,6 +380,7 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                     ),
                                   ),
                                   if (!item["status"] && item["collected"])
+                                    // ignore: dead_code
                                     tapped ? Row(
                                       children: [
                                         const Spacer(flex: 10),
@@ -391,34 +392,30 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                           ),
                                         ),
                                         const Spacer(),
-                                        ZoomTapAnimation(
-
-                                          
-                                          child: Container(
-                                            padding: EdgeInsets.symmetric(
-                                                vertical: 10.h,
-                                                horizontal: 10.w),
-                                            decoration: BoxDecoration(
-                                              color: AppColor.right,
-                                              borderRadius:
-                                                  BorderRadius.circular(10.r),
-                                            ),
-                                            child: Row(
-                                              children: [
-                                                Image.asset(
-                                                  "assets/images/coin.png",
-                                                  width: 20.w,
+                                        Container(
+                                          padding: EdgeInsets.symmetric(
+                                              vertical: 10.h,
+                                              horizontal: 10.w),
+                                          decoration: BoxDecoration(
+                                            color: AppColor.right,
+                                            borderRadius:
+                                                BorderRadius.circular(10.r),
+                                          ),
+                                          child: Row(
+                                            children: [
+                                              Image.asset(
+                                                "assets/images/coin.png",
+                                                width: 20.w,
+                                              ),
+                                              SizedBox(width: 5.w),
+                                              Text(
+                                                item["reward"].toString(),
+                                                style: TextStyle(
+                                                  color: AppColor.white,
+                                                  fontSize: 18.sp,
                                                 ),
-                                                SizedBox(width: 5.w),
-                                                Text(
-                                                  item["reward"].toString(),
-                                                  style: TextStyle(
-                                                    color: AppColor.white,
-                                                    fontSize: 18.sp,
-                                                  ),
-                                                ),
-                                              ],
-                                            ),
+                                              ),
+                                            ],
                                           ),
                                         ),
                                         const Spacer(),
