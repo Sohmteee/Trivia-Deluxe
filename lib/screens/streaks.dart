@@ -314,135 +314,150 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                         Column(
                           children: streakList.map(
                             (item) {
+                              bool tapped = false;
 
-                              return Column(
-                                children: [
-                                  ListTile(
-                                    minLeadingWidth: 20.w,
-                                    leading: item["status"]
-                                        ? Image.asset(
-                                            "assets/images/cleared.png",
-                                            width: 25.w)
-                                        : SizedBox(width: 25.w),
-                                    title: Text(
-                                      item["title"],
-                                      style: TextStyle(
-                                        color: AppColor.white,
-                                        fontSize: 18.sp,
-                                      ),
-                                    ),
-                                    subtitle: Text(
-                                      item["subtitle"],
-                                      style: TextStyle(
-                                        color: Vx.gray300,
-                                        fontSize: 14.sp,
-                                      ),
-                                    ),
-                                    trailing: Column(
-                                      mainAxisAlignment:
-                                          MainAxisAlignment.center,
+                              return tapped
+                                  ? Text("Done")
+                                  : Column(
                                       children: [
-                                        Text(
-                                          "${item["progress"]} / ${item["limit"]}",
-                                          style: TextStyle(
-                                            fontSize: 16.sp,
-                                            color: AppColor.yellow,
+                                        ListTile(
+                                          minLeadingWidth: 20.w,
+                                          leading: item["status"]
+                                              ? Image.asset(
+                                                  "assets/images/cleared.png",
+                                                  width: 25.w)
+                                              : SizedBox(width: 25.w),
+                                          title: Text(
+                                            item["title"],
+                                            style: TextStyle(
+                                              color: AppColor.white,
+                                              fontSize: 18.sp,
+                                            ),
                                           ),
-                                        ),
-                                        SizedBox(height: 5.h),
-                                        Stack(
-                                          alignment: Alignment.centerLeft,
-                                          children: [
-                                            Container(
-                                              height: 6.h,
-                                              width: 30.toDouble(),
-                                              decoration: BoxDecoration(
-                                                color: AppColor.white,
-                                                borderRadius:
-                                                    BorderRadius.circular(50.r),
-                                              ),
+                                          subtitle: Text(
+                                            item["subtitle"],
+                                            style: TextStyle(
+                                              color: Vx.gray300,
+                                              fontSize: 14.sp,
                                             ),
-                                            Container(
-                                              height: 6.h,
-                                              width: (item["progress"] /
-                                                      item["limit"]) *
-                                                  30.toDouble(),
-                                              decoration: BoxDecoration(
-                                                color: AppColor.yellow,
-                                                borderRadius:
-                                                    BorderRadius.circular(50.r),
-                                              ),
-                                            ),
-                                          ],
-                                        ),
-                                      ],
-                                    ),
-                                  ),
-                                  if (!item["status"] && item["collected"])
-                                    Row(
-                                      children: [
-                                        const Spacer(flex: 10),
-                                        Text(
-                                          "Collect Reward",
-                                          style: TextStyle(
-                                            color: AppColor.white,
-                                            fontSize: 18.sp,
                                           ),
-                                        ),
-                                        const Spacer(),
-                                        ZoomTapAnimation(
-                                          onTap: () {
-                                            setState(() {});
-
-                                            final streaksProvider =
-                                                Provider.of<StreaksProvider>(
-                                                    context,
-                                                    listen: false);
-                                            final streakData =
-                                                streaksProvider.streaks;
-
-                                            streakData[index]["streaks"][
-                                                    streakData[index]["streaks"]
-                                                        .indexOf(item)]
-                                                ["collected"] = true;
-                                            streaksProvider.streaks =
-                                                streakData;
-                                            streaksProvider.updateStreaksData();
-                                          },
-                                          child: AnimatedContainer(
-                                            duration: .3.seconds,
-                                            padding: EdgeInsets.symmetric(
-                                                vertical: 10.h,
-                                                horizontal: 10.w),
-                                            decoration: BoxDecoration(
-                                              color: AppColor.right,
-                                              borderRadius:
-                                                  BorderRadius.circular(10.r),
-                                            ),
-                                            child: Row(
-                                              mainAxisSize: MainAxisSize.min,
-                                              children: [
-                                                Image.asset(
-                                                  "assets/images/coin.png",
-                                                  width: 20.w,
+                                          trailing: Column(
+                                            mainAxisAlignment:
+                                                MainAxisAlignment.center,
+                                            children: [
+                                              Text(
+                                                "${item["progress"]} / ${item["limit"]}",
+                                                style: TextStyle(
+                                                  fontSize: 16.sp,
+                                                  color: AppColor.yellow,
                                                 ),
-                                                SizedBox(width: 5.w),
-                                                Text(
-                                                  item["reward"].toString(),
-                                                  style: TextStyle(
-                                                    color: AppColor.white,
-                                                    fontSize: 18.sp,
+                                              ),
+                                              SizedBox(height: 5.h),
+                                              Stack(
+                                                alignment: Alignment.centerLeft,
+                                                children: [
+                                                  Container(
+                                                    height: 6.h,
+                                                    width: 30.toDouble(),
+                                                    decoration: BoxDecoration(
+                                                      color: AppColor.white,
+                                                      borderRadius:
+                                                          BorderRadius.circular(
+                                                              50.r),
+                                                    ),
+                                                  ),
+                                                  Container(
+                                                    height: 6.h,
+                                                    width: (item["progress"] /
+                                                            item["limit"]) *
+                                                        30.toDouble(),
+                                                    decoration: BoxDecoration(
+                                                      color: AppColor.yellow,
+                                                      borderRadius:
+                                                          BorderRadius.circular(
+                                                              50.r),
+                                                    ),
+                                                  ),
+                                                ],
+                                              ),
+                                            ],
+                                          ),
+                                        ),
+                                        if (!item["status"] &&
+                                            item["collected"])
+                                          Row(
+                                            children: [
+                                              const Spacer(flex: 10),
+                                              Text(
+                                                "Collect Reward",
+                                                style: TextStyle(
+                                                  color: AppColor.white,
+                                                  fontSize: 18.sp,
+                                                ),
+                                              ),
+                                              const Spacer(),
+                                              ZoomTapAnimation(
+                                                onTap: () {
+                                                  setState(() {
+                                                    tapped = true;
+                                                    
+                                                  });
+
+                                                  final streaksProvider =
+                                                      Provider.of<
+                                                              StreaksProvider>(
+                                                          context,
+                                                          listen: false);
+                                                  final streakData =
+                                                      streaksProvider.streaks;
+
+                                                  streakData[index]["streaks"][
+                                                          streakData[index]
+                                                                  ["streaks"]
+                                                              .indexOf(item)]
+                                                      ["collected"] = true;
+                                                  streaksProvider.streaks =
+                                                      streakData;
+                                                  streaksProvider
+                                                      .updateStreaksData();
+                                                },
+                                                child: AnimatedContainer(
+                                                  duration: .3.seconds,
+                                                  padding: EdgeInsets.symmetric(
+                                                      vertical: 10.h,
+                                                      horizontal: 10.w),
+                                                  decoration: BoxDecoration(
+                                                    color: AppColor.right,
+                                                    borderRadius:
+                                                        BorderRadius.circular(
+                                                            10.r),
+                                                  ),
+                                                  child: Row(
+                                                    mainAxisSize:
+                                                        MainAxisSize.min,
+                                                    children: [
+                                                      Image.asset(
+                                                        "assets/images/coin.png",
+                                                        width: 20.w,
+                                                      ),
+                                                      SizedBox(width: 5.w),
+                                                      Text(
+                                                        item["reward"]
+                                                            .toString(),
+                                                        style: TextStyle(
+                                                          color: AppColor.white,
+                                                          fontSize: 18.sp,
+                                                        ),
+                                                      ),
+                                                    ],
                                                   ),
                                                 ),
-                                              ],
-                                            ),
+                                              ),
+                                              const Spacer(),
+                                            ],
                                           ),
-                                        ),
-                                        const Spacer(),
                                       ],
-                                    ),
-                                ],
-                              );
+                                    );
                             },
                           ).toList(),
                         ),
