@@ -388,13 +388,27 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                     Row(
                                       children: [
                                         const Spacer(flex: 10),
-                                        tappedText(
-                                          "Collect Reward",
-                                          style: TextStyle(
-                                            color: AppColor.white,
-                                            fontSize: 18.sp,
-                                          ),
-                                        ),
+                                        tapped
+                                            ? Text(
+                                                "Collect Reward",
+                                                style: TextStyle(
+                                                  color: AppColor.white,
+                                                  fontSize: 18.sp,
+                                                ),
+                                              ).animate().moveX(
+                                                  delay: .3.seconds,
+                                                  duration: .5.seconds,
+                                                  curve: Curves.easeOut,
+                                                  begin: 0,
+                                                  end: 50.w,
+                                                )
+                                            : Text(
+                                                "Collect Reward",
+                                                style: TextStyle(
+                                                  color: AppColor.white,
+                                                  fontSize: 18.sp,
+                                                ),
+                                              ),
                                         const Spacer(),
                                         ZoomTapAnimation(
                                           onTap: () {
