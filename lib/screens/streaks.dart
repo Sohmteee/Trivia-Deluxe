@@ -378,7 +378,7 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                         ],
                                       ),
                                     ),
-                                    if (item["status"] && item["collected"])
+                                    if (!item["status"] && !item["collected"])
                                       Row(
                                         children: [
                                           const Spacer(flex: 10),
@@ -396,12 +396,12 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                                   Provider.of<StreaksProvider>(
                                                       context,
                                                       listen: false);
-                                              final subStreak = streaksProvider.streaks[
-                                                  index]["streaks"][streaksProvider
-                                                      .streaks[index]
-                                                      ["streaks"]
+                                              final subStreak = streaksProvider
+                                                      .streaks[index]["streaks"]
+                                                  [streaksProvider
+                                                      .streaks[index]["streaks"]
                                                       .indexOf(item)];
-                                                      print(subStreak);
+                                              subStreak["collected"] = true;
                                             },
                                             child: Container(
                                               padding: EdgeInsets.symmetric(
