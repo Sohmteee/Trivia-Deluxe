@@ -402,6 +402,8 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                                       .streaks[index]["streaks"]
                                                       .indexOf(item)];
                                               subStreak["collected"] = true;
+                                              streaksProvider
+                                                  .updateStreaksData();
                                             },
                                             child: Container(
                                               padding: EdgeInsets.symmetric(
