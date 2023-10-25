@@ -322,7 +322,7 @@ class StreaksProvider extends ChangeNotifier {
                 "subtitle": "Earn 100 coins",
                 "status": permanentCoinStreak >= 100,
                 "collected": streaks.where(
-                  (streak) => ((streak["title"] == "Coin Streaks")["streaks"])
+                  (streak) => (streak["title"] == "Coin Streaks")["streaks"]
                       .where(
                         (subStreak) =>
                             subStreak["title"] == "Coin Collector" &&
