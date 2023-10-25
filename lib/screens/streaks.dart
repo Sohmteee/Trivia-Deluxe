@@ -393,7 +393,7 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                           Container(
                                             padding: EdgeInsets.symmetric(
                                                 vertical: 10.h,
-                                                horizontal: 15.w),
+                                                horizontal: 10.w),
                                             decoration: BoxDecoration(
                                               color: AppColor.right,
                                               borderRadius:
@@ -405,8 +405,9 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                                   "assets/images/coin.png",
                                                   width: 20.w,
                                                 ),
+                                                SizedBox(width: 5.w),
                                                 Text(
-                                                  "100",
+                                                  item["rewad"],
                                                   style: TextStyle(
                                                     color: AppColor.white,
                                                     fontSize: 18.sp,
