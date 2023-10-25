@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:mrx_charts/mrx_charts.dart';
 import 'package:provider/provider.dart';
@@ -420,7 +421,7 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                         ),
                                         const Spacer(),
                                       ],
-                                    ):Row(
+                                    ).animate().slideX(delay: .3.seconds, duration: ):Row(
                                       children: [
                                         const Spacer(flex: 10),
                                         Text(
