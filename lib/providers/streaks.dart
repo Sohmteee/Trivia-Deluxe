@@ -236,6 +236,7 @@ class StreaksProvider extends ChangeNotifier {
   int leaderboardStreak = box.get("leaderboardStreak", defaultValue: 0),
       permanentLeaderboardStreak =
           box.get("permanentLeaderboardStreak", defaultValue: 0);
+          
   int ultimateStreak = box.get("ultimateStreak", defaultValue: 0);
 
   void updateStreaksData() {
