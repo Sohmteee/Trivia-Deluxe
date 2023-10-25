@@ -387,8 +387,24 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                               color: AppColor.white,
                                               fontSize: 18.sp,
                                             ),
-                                          ), 
-                                          Con
+                                          ),
+                                          Container(
+                                            padding: EdgeInsets.symmetric(
+                                                vertical: 10.h,
+                                                horizontal: 15.w),
+                                            decoration: BoxDecoration(
+                                              color: AppColor.right,
+                                              borderRadius:
+                                                  BorderRadius.circular(10.r),
+                                            ),
+                                            child: Text(
+                                              "100",
+                                              style: TextStyle(
+                                                color: AppColor.white,
+                                                fontSize: 18.sp,
+                                              ),
+                                            ),
+                                          )
                                         ],
                                       ),
                                   ],
