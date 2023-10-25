@@ -22,7 +22,7 @@ import 'package:trivia/data/questions/religion.dart';
 import 'package:trivia/data/questions/sports.dart';
 import 'package:trivia/data/questions/vocab.dart';
 import 'package:trivia/main.dart';
-import 'package:trivia/models/dialogs/complete_dialog.dart';
+import 'package:trivia/models/dialogs/completed_category.dart';
 import 'package:trivia/models/game_background.dart';
 import 'package:trivia/models/stat_bar.dart';
 import 'package:trivia/providers/question.dart';
