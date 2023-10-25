@@ -388,7 +388,7 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                     Row(
                                       children: [
                                         const Spacer(flex: 10),
-                                        Text(
+                                        tappedText(
                                           "Collect Reward",
                                           style: TextStyle(
                                             color: AppColor.white,
