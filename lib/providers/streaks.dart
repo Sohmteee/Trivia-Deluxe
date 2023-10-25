@@ -225,7 +225,7 @@ class StreaksProvider extends ChangeNotifier {
     ],
   );
 
-  List 
+  List collectableRewards = [];
 
   int levelStreak = box.get("levelStreak", defaultValue: 0),
       permanentLevelStreak = box.get("permanentLevelStreak", defaultValue: 0);
@@ -650,8 +650,7 @@ class StreaksProvider extends ChangeNotifier {
     for (var streak in streaks) {
       for (var subStreak in streak["streaks"]) {
         if (subStreak["status"] == true && subStreak["collected"] == false) {
-          subStreak["collected"] = true;
-          box.put("coins", box.get("coins", defaultValue: 0) + subStreak["reward"]);
+          collectableRewards.add(subStreak);
           notifyListeners();
         }
       }
