@@ -450,7 +450,10 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                                         ),
                                                       ),
                                                     ],
-                                                  ).animate().
+                                                  ).animate().moveY(
+                                                    delay: .3.seconds,
+                                                    duration: 
+                                                  )
                                                 : Row(
                                               mainAxisSize: MainAxisSize.min,
                                               children: [
