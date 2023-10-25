@@ -407,7 +407,7 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                                     tapped = true;
                                                   });
 
-                                                  streakData[index]["streaks"][
+                                                  /* streakData[index]["streaks"][
                                                           streakData[index]
                                                                   ["streaks"]
                                                               .indexOf(item)]
@@ -415,9 +415,9 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                                   streaksProvider.streaks =
                                                       streakData;
                                                   streaksProvider
-                                                      .updateStreaksData();
+                                                      .updateStreaksData(); */
 
-                                                  streakData[index]["streaks"][
+                                                  /* streakData[index]["streaks"][
                                                           streakData[index]
                                                                   ["streaks"]
                                                               .indexOf(item)]
@@ -425,7 +425,7 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                                   streaksProvider.streaks =
                                                       streakData;
                                                   streaksProvider
-                                                      .updateStreaksData();
+                                                      .updateStreaksData(); */
                                                 },
                                                 child: AnimatedContainer(
                                                   duration: .3.seconds,
