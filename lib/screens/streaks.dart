@@ -396,12 +396,14 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                                   Provider.of<StreaksProvider>(
                                                       context,
                                                       listen: false);
+                                              final streakData =
+                                                  streaksProvider.streaks;
                                               final subStreak = streaksProvider
                                                       .streaks[index]["streaks"]
                                                   [streaksProvider
                                                       .streaks[index]["streaks"]
                                                       .indexOf(item)];
-                                              subStreak["collected"] = true;
+                                                      streakData
                                               streaksProvider
                                                   .updateStreaksData();
                                             },
