@@ -250,7 +250,7 @@ class StreaksProvider extends ChangeNotifier {
                 "title": "Steady Progress",
                 "subtitle": "Complete 5 levels without failing",
                 "status": permanentLevelStreak >= 5,
-                "collected": false,
+                "collected": streaks[0]["streaks"][0]["collected"],
                 "progress": permanentLevelStreak >= 5
                     ? 5
                     : levelStreak >= 5
@@ -263,7 +263,7 @@ class StreaksProvider extends ChangeNotifier {
                 "title": "Leveling Up",
                 "subtitle": "Complete 10 levels without failing",
                 "status": permanentLevelStreak >= 10,
-                "collected": false,
+                "collected": streaks[0]["streaks"][1]["collected"],
                 "progress": permanentLevelStreak >= 10
                     ? 10
                     : levelStreak >= 10
@@ -276,7 +276,7 @@ class StreaksProvider extends ChangeNotifier {
                 "title": "Tenacious Triumph",
                 "subtitle": "Complete 20 levels without failing",
                 "status": permanentLevelStreak >= 20,
-                "collected": false,
+                "collected": streaks[0]["streaks"][2]["collected"],
                 "progress": permanentLevelStreak >= 20
                     ? 20
                     : levelStreak >= 20
@@ -289,7 +289,7 @@ class StreaksProvider extends ChangeNotifier {
                 "title": "Masterful Streak",
                 "subtitle": "Complete 50 levels without failing",
                 "status": permanentLevelStreak >= 50,
-                "collected": false,
+                "collected": streaks[0]["streaks"][3]["collected"],
                 "progress": permanentLevelStreak >= 50
                     ? 50
                     : levelStreak >= 50
@@ -302,7 +302,7 @@ class StreaksProvider extends ChangeNotifier {
                 "title": "Unstoppable Champion",
                 "subtitle": "Complete 100 levels without failing",
                 "status": permanentLevelStreak >= 100,
-                "collected": false,
+                "collected": streaks[0]["streaks"][4]["collected"],
                 "progress": permanentLevelStreak >= 100
                     ? 100
                     : levelStreak >= 100
@@ -347,7 +347,7 @@ class StreaksProvider extends ChangeNotifier {
                 "title": "Gold Gatherer",
                 "subtitle": "Earn 500 coins",
                 "status": permanentCoinStreak >= 500,
-                "collected": false,
+                "collected": streaks[1]["streaks"][2]["collected"],
                 "progress": permanentCoinStreak >= 500
                     ? 500
                     : coinStreak >= 500
