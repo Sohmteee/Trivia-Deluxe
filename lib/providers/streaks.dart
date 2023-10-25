@@ -405,7 +405,7 @@ class StreaksProvider extends ChangeNotifier {
                 "title": "Trivia Expert",
                 "subtitle": "Answer 10 questions correctly in a row",
                 "status": permanentTriviaStreak >= 10,
-                "collected": false,
+                "collected": streaks[2]["streaks"][1]["collected"],
                 "progress": permanentTriviaStreak >= 10
                     ? 10
                     : triviaStreak >= 10
@@ -418,7 +418,7 @@ class StreaksProvider extends ChangeNotifier {
                 "title": "Brainiac",
                 "subtitle": "Answer 20 questions correctly in a row",
                 "status": permanentTriviaStreak >= 20,
-                "collected": false,
+                "collected": streaks[2]["streaks"][2]["collected"],
                 "progress": permanentTriviaStreak >= 20
                     ? 20
                     : triviaStreak >= 20
@@ -431,7 +431,7 @@ class StreaksProvider extends ChangeNotifier {
                 "title": "Trivia Grandmaster",
                 "subtitle": "Answer 50 questions correctly in a row",
                 "status": permanentTriviaStreak >= 50,
-                "collected": false,
+                "collected": ,
                 "progress": permanentTriviaStreak >= 50
                     ? 50
                     : triviaStreak >= 50
