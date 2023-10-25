@@ -315,6 +315,10 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                         Column(
                           children: streakList.map(
                             (item) {
+                              final streaksProvider =
+                                  Provider.of<StreaksProvider>(context,
+                                      listen: false);
+                              final streakData = streaksProvider.streaks;
                               bool tapped = item["tapped"];
 
                               return tapped
@@ -402,8 +406,6 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                                   setState(() {
                                                     tapped = true;
                                                   });
-
-                                                  
 
                                                   streakData[index]["streaks"][
                                                           streakData[index]
