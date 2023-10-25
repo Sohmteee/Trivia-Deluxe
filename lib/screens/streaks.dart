@@ -432,7 +432,8 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                               borderRadius:
                                                   BorderRadius.circular(10.r),
                                             ),
-                                            child: tapped ? Row(
+                                            child: tapped
+                                                ? Row(
                                                     mainAxisSize:
                                                         MainAxisSize.min,
                                                     children: [
@@ -451,26 +452,31 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                                       ),
                                                     ],
                                                   ).animate().moveY(
-                                                    delay: .3.seconds,
-                                                    duration: 
-                                                  )
+                                                      delay: .3.seconds,
+                                                      duration: .5.seconds,
+                                                      curve: Curves.easeOut,
+                                                      begin: 0,
+                                                      end: -50.h,
+                                                    )
                                                 : Row(
-                                              mainAxisSize: MainAxisSize.min,
-                                              children: [
-                                                Image.asset(
-                                                  "assets/images/coin.png",
-                                                  width: 20.w,
-                                                ),
-                                                SizedBox(width: 5.w),
-                                                Text(
-                                                  item["reward"].toString(),
-                                                  style: TextStyle(
-                                                    color: AppColor.white,
-                                                    fontSize: 18.sp,
+                                                    mainAxisSize:
+                                                        MainAxisSize.min,
+                                                    children: [
+                                                      Image.asset(
+                                                        "assets/images/coin.png",
+                                                        width: 20.w,
+                                                      ),
+                                                      SizedBox(width: 5.w),
+                                                      Text(
+                                                        item["reward"]
+                                                            .toString(),
+                                                        style: TextStyle(
+                                                          color: AppColor.white,
+                                                          fontSize: 18.sp,
+                                                        ),
+                                                      ),
+                                                    ],
                                                   ),
-                                                ),
-                                              ],
-                                            ),
                                           ),
                                         ),
                                         const Spacer(),
