@@ -313,7 +313,8 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                         Column(
                           children: streakList
                               .map(
-                                (item) => Column(
+                                (item) {
+                                  return Column(
                                   children: [
                                     ListTile(
                                       minLeadingWidth: 20.w,
@@ -398,7 +399,7 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                                       listen: false);
                                               final streakData =
                                                   streaksProvider.streaks;
-
+                                
                                               streakData[index]["streaks"][
                                                       streakData[index]
                                                               ["streaks"]
@@ -440,7 +441,8 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                         ],
                                       ),
                                   ],
-                                ),
+                                );
+                                },
                               )
                               .toList(),
                         ),
