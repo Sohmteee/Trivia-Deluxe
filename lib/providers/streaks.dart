@@ -321,15 +321,7 @@ class StreaksProvider extends ChangeNotifier {
                 "title": "Coin Collector",
                 "subtitle": "Earn 100 coins",
                 "status": permanentCoinStreak >= 100,
-                "collected": streaks.where(
-                  (streak) => (streak["title"] == "Coin Streaks")["streaks"]
-                      .where(
-                        (subStreak) =>
-                            subStreak["title"] == "Coin Collector" &&
-                            subStreak["status"] == true,
-                      )
-                      .isNotEmpty,
-                ),
+                "collected": streaks[1]["streaks"][0]["collected"],
                 "progress": permanentCoinStreak >= 100
                     ? 100
                     : coinStreak >= 100
@@ -342,7 +334,7 @@ class StreaksProvider extends ChangeNotifier {
                 "title": "Coin Hoarder",
                 "subtitle": "Earn 200 coins",
                 "status": permanentCoinStreak >= 200,
-                "collected": false,
+                "collected": streaks[1]["streaks"][1]["collected"],
                 "progress": permanentCoinStreak >= 200
                     ? 200
                     : coinStreak >= 200
