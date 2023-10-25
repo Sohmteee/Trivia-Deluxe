@@ -17,10 +17,10 @@ Map<String, dynamic> animeData = {
       ]
     },
     {
-      "question": "In Pokemon, what type of Pokemon is Pikachu?",
+      "question": "In Pokémon, what type of Pokémon is Pikachu?",
       "dialog": {
         "title": "Electric",
-        "content": "Pikachu is an Electric-type Pokemon."
+        "content": "Pikachu is an Electric-type Pokémon."
       },
       "options": [
         {"text": "Water", "value": false, "color": "yellow"},
@@ -30,7 +30,7 @@ Map<String, dynamic> animeData = {
       ]
     },
     {
-      "question": "Who is Ash's best friend in Pokemon?",
+      "question": "Who is Ash's best friend in Pokémon?",
       "dialog": {
         "title": "Pikachu",
         "content": "Pikachu is Ash's loyal companion."
@@ -627,13 +627,13 @@ Map<String, dynamic> animeData = {
       },
       "options": [
         {"text": "Magic: The Gathering", "value": false, "color": "yellow"},
-        {"text": "Pokemon TCG", "value": false, "color": "yellow"},
+        {"text": "Pokémon TCG", "value": false, "color": "yellow"},
         {"text": "Poker", "value": false, "color": "yellow"},
         {"text": "Duel Monsters", "value": true, "color": "yellow"}
       ]
     },
     {
-      "question": "Who is the Pokemon that evolves from Charmander?",
+      "question": "Who is the Pokémon that evolves from Charmander?",
       "dialog": {
         "title": "Charmeleon",
         "content": "Charmander evolves into Charmeleon."
@@ -659,16 +659,16 @@ Map<String, dynamic> animeData = {
       ]
     },
     {
-      "question": "What are the creatures that trainers capture in Pokemon?",
+      "question": "What are the creatures that trainers capture in Pokémon?",
       "dialog": {
-        "title": "Pokemon",
-        "content": "Trainers capture and train Pokemon."
+        "title": "Pokémon",
+        "content": "Trainers capture and train Pokémon."
       },
       "options": [
         {"text": "Monsters", "value": false, "color": "yellow"},
         {"text": "Digimon", "value": false, "color": "yellow"},
         {"text": "Animals", "value": false, "color": "yellow"},
-        {"text": "Pokemon", "value": true, "color": "yellow"}
+        {"text": "Pokémon", "value": true, "color": "yellow"}
       ]
     },
     {
@@ -739,10 +739,10 @@ Map<String, dynamic> animeData = {
       ]
     },
     {
-      "question": "In Pokemon, what type of Pokemon is Charizard?",
+      "question": "In Pokémon, what type of Pokémon is Charizard?",
       "dialog": {
         "title": "Fire",
-        "content": "Charizard is a Fire/Flying-type Pokemon."
+        "content": "Charizard is a Fire/Flying-type Pokémon."
       },
       "options": [
         {"text": "Water", "value": false, "color": "yellow"},
@@ -793,7 +793,7 @@ Map<String, dynamic> animeData = {
       ]
     },
     {
-      "question": "In Pokemon, which bird Pokemon is known for its speed?",
+      "question": "In Pokémon, which bird Pokémon is known for its speed?",
       "dialog": {
         "title": "Pidgeot",
         "content": "Pidgeot is known for its impressive speed."
@@ -1344,11 +1344,10 @@ Map<String, dynamic> animeData = {
       ]
     },
     {
-      "question":
-          "In Pokemon, what is the name of Brock's signature Pokemon?",
+      "question": "In Pokémon, what is the name of Brock's signature Pokémon?",
       "dialog": {
         "title": "Onix",
-        "content": "Onix is Brock's primary Pokemon."
+        "content": "Onix is Brock's primary Pokémon."
       },
       "options": [
         {"text": "Geodude", "value": false, "color": "yellow"},
