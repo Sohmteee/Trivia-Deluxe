@@ -7,6 +7,7 @@ import 'package:trivia/colors/app_color.dart';
 import 'package:trivia/main.dart';
 import 'package:trivia/models/dialogs/average_time.dart';
 import 'package:trivia/models/game_background.dart';
+import 'package:trivia/providers/money.dart';
 import 'package:trivia/providers/question.dart';
 import 'package:trivia/providers/streaks.dart';
 import 'package:velocity_x/velocity_x.dart';
@@ -384,7 +385,7 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                       ],
                                     ),
                                   ),
-                                  if (!item["status"] && !item["collected"])
+                                  if (item["status"] && !item["collected"])
                                     Row(
                                       children: [
                                         const Spacer(flex: 10),
@@ -406,6 +407,12 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                                     streakData;
                                                 streaksProvider
                                                     .updateStreaksData();
+
+                                                Provider.of<MoneyProvider>(
+                                                        context,
+                                                        listen: false)
+                                                    .increaseCoins(
+                                                        item["reward"]);
                                               }).moveX(
                                                 delay: 1.seconds,
                                                 duration: .5.seconds,
