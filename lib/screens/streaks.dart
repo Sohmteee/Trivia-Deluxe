@@ -400,7 +400,6 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                                 onTap: () {
                                                   setState(() {
                                                     tapped = true;
-                                                    
                                                   });
 
                                                   final streaksProvider =
