@@ -397,23 +397,22 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                                 ),
                                               ).animate(
                                                 onComplete: (controller) {
-                                                  streakData[index]["streaks"]
-                                                          [streakData[index]
-                                                                  ["streaks"]
-                                                              .indexOf(item)]
-                                                      ["collected"] = true;
-                                                  streaksProvider.streaks =
-                                                      streakData;
-                                                  streaksProvider
-                                                      .updateStreaksData();
-                                                }
-                                              ).moveX(
-                                                  delay: 1.seconds,
-                                                  duration: .5.seconds,
-                                                  curve: Curves.easeOut,
-                                                  begin: 0,
-                                                  end: 200.w,
-                                                )
+                                                streakData[index]["streaks"][
+                                                        streakData[index]
+                                                                ["streaks"]
+                                                            .indexOf(item)]
+                                                    ["collected"] = true;
+                                                streaksProvider.streaks =
+                                                    streakData;
+                                                streaksProvider
+                                                    .updateStreaksData();
+                                              }).moveX(
+                                                delay: 1.seconds,
+                                                duration: .5.seconds,
+                                                curve: Curves.easeOut,
+                                                begin: 0,
+                                                end: 200.w,
+                                              )
                                             : Text(
                                                 "Collect Reward",
                                                 style: TextStyle(
