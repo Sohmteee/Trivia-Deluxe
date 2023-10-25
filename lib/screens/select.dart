@@ -315,6 +315,11 @@ class _SelectScreenState extends State<SelectScreen> {
                       onTap: () {
                         final selectProvider =
                             Provider.of<SelectProvider>(context, listen: false);
+                        pageController.animateToPage(
+                          i,
+                          duration: .3.seconds,
+                          curve: Curves.bounceOut,
+                        );
                         selectProvider.pageIndex = i;
                       },
                       child: AnimatedContainer(
