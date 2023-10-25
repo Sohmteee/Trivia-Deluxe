@@ -325,14 +325,14 @@ class _SelectScreenState extends State<SelectScreen> {
                       child: AnimatedContainer(
                         duration: .3.seconds,
                         margin: EdgeInsets.symmetric(horizontal: 5.sp),
-                        width: 13.sp,
-                        height: 13.sp,
+                        width: 15.sp,
+                        height: 15.sp,
                         decoration: BoxDecoration(
                           color:
                               (Provider.of<SelectProvider>(context).pageIndex ==
                                       i)
                                   ? AppColor.yellow
-                                  : AppColor.lightRed,
+                                  : AppColor.lightRed.withOpacity(.5),
                           borderRadius: BorderRadius.circular(50.r),
                         ),
                       ),
