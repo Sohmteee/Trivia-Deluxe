@@ -380,7 +380,13 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                     ),
                                   ),
                                   if (!item["status"] && item["collected"])
-                                    Row(
+                                    tapped ? Text(
+                                          "Collect Reward",
+                                          style: TextStyle(
+                                            color: AppColor.white,
+                                            fontSize: 18.sp,
+                                          ),
+                                        ):Row(
                                       children: [
                                         const Spacer(flex: 10),
                                         Text(
