@@ -396,7 +396,12 @@ class _StreaksScreeenState extends State<StreaksScreeen> {
                                                   Provider.of<StreaksProvider>(
                                                       context,
                                                       listen: false);
-                                              final subStreak = streaksProvider.
+                                              final subStreak = streaksProvider.streaks[
+                                                  index]["streaks"][streaksProvider
+                                                      .streaks[index]
+                                                      ["streaks"]
+                                                      .indexOf(item)];
+                                                      print(subStreak);
                                             },
                                             child: Container(
                                               padding: EdgeInsets.symmetric(
